@@ -1,0 +1,32 @@
+---
+permalink: fc-config-rhel/task_deciding_where_to_provision_the_volume_fc_iscsi.html
+sidebar: sidebar
+keywords: 
+summary: 'Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine \(SVM\) or to create a new SVM for the volume. You might also need to configure FC on an existing SVM.'
+---
+= Deciding where to provision the volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine (SVM) or to create a new SVM for the volume. You might also need to configure FC on an existing SVM.
+
+If an existing SVM is already configured with the needed protocols and has LIFs that can be accessed from the host, it is easier to use the existing SVM.
+
+You can create a new SVM to separate data or administration from other users of the storage cluster. There is no advantage to using separate SVMs just to separate different protocols.
+
+* If you want to provision volumes on an SVM that is already configured for FC, you must verify that the FC service is running and then create a LUN on the SVM.
++
+xref:task_verifying_that_the_fc_service_is_running_on_an_existing_svm.adoc[Verifying that the FC service is running on an existing SVM]
++
+xref:task_creating_a_lun_and_its_containing_volume.adoc[Creating a LUN]
+
+* If you want to provision volumes on an existing SVM that has FC enabled but not configured, configure iSCSI on the existing SVM.
++
+xref:task_configuring_iscsi_fc_and_creating_a_lun_on_an_existing_svm.adoc[Configuring FC on an existing SVM]
++
+This is the case when you followed another Express Guide to create the SVM while configuring a different protocol.
+
+* If you want to provision volumes on a new SVM, create the SVM.
++
+xref:task_creating_an_svm_san_express.adoc[Creating a new SVM]

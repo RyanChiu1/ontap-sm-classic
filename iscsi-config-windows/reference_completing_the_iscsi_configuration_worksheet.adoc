@@ -1,0 +1,218 @@
+---
+permalink: iscsi-config-windows/reference_completing_the_iscsi_configuration_worksheet.html
+sidebar: sidebar
+keywords: 
+summary: 'You require iSCSI identifiers, network addresses, and storage configuration information to perform iSCSI configuration tasks.'
+---
+= Completing the iSCSI configuration worksheet
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You require iSCSI identifiers, network addresses, and storage configuration information to perform iSCSI configuration tasks.
+
+== iSCSI identifiers
+
+|===
+a|
+Initiator (host) iSCSI node name (IQN)
+a|
+ 
+a|
+Target alias (optional)
+a|
+ 
+|===
+
+== Target network addresses
+
+The storage virtual machine (SVM) is the iSCSI target.
+
+You require a subnet with two IP addresses for iSCSI data LIFs for each node in the cluster. There should be two separate networks for high availability. The specific IP addresses are assigned by ONTAP when you create the LIFs as part of creating the SVM.
+
+If possible, separate iSCSI traffic on separate physical networks or on VLANs.
+
+image::../media/network_fc_or_iscsi_express.gif[The figure shows four nodes, two switches, and a host. Each node has two LIFs, one connected to each switch. The host also connects to both switches.]
+
+Subnet for LIFs: *__**__***__**_____
+
+|===
+| Node or LIF with port to switch| IP address| Network mask| Gateway| VLAN ID| Home port
+a|
+Node 1 / LIF to switch 1
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+Node 2 / LIF to switch 1
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+Node 3 / LIF to switch 1
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+Node 4 / LIF to switch 1
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+Node 1 / LIF to switch 2
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+Node 2 / LIF to switch 2
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+Node 3 / LIF to switch 2
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+Node 4 / LIF to switch 2
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+a|
+ 
+|===
+
+== Storage configuration
+
+If the aggregate and SVM are already created, record their names here; otherwise, you can create them as required:
+
+|===
+a|
+Node to own LUN
+a|
+ 
+a|
+Aggregate name
+a|
+ 
+a|
+SVM name
+a|
+ 
+|===
+
+== LUN information
+
+|===
+a|
+LUN size
+a|
+ 
+a|
+Host operating system
+a|
+ 
+a|
+LUN name (optional)
+a|
+ 
+a|
+LUN description (optional)
+a|
+ 
+|===
+
+== SVM information
+
+If you are not using an existing SVM, you require the following information to create a new one:
+
+|===
+a|
+SVM name
+a|
+ 
+a|
+SVM IPspace
+a|
+ 
+a|
+Aggregate for SVM root volume
+a|
+ 
+a|
+SVM user name (optional)
+a|
+ 
+a|
+SVM password (optional)
+a|
+ 
+a|
+SVM management LIF (optional)
+a|
+Subnet:
+a|
+IP address:
+a|
+Network mask:
+a|
+Gateway:
+a|
+Home node:
+a|
+Home port:
+|===

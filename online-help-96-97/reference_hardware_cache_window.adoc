@@ -1,0 +1,46 @@
+---
+permalink: online-help-96-97/reference_hardware_cache_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Hardware Cache window to enable or disable Flash Cache modules for a storage system that has a Flash Cache module installed. You can also view the read-workload statistics.'
+---
+= Hardware Cache window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Hardware Cache window to enable or disable Flash Cache modules for a storage system that has a Flash Cache module installed. You can also view the read-workload statistics.
+
+== Module Information
+
+* *Storage system name*
++
+The name of the storage system that has a Flash Cache module installed displays under the graphic.
+
+* *Enable/Disable toggle button*
++
+Move the toggle button to enable or disable the module.
+
+* *Size*
++
+The size of the module in gigabytes. If there are multiple Flash Cache module cards, the total cache size from all of the cards is displayed.
++
+[NOTE]
+====
+The Flash Cache module size that is displayed differs from the actual size for the following reasons:
+    -   System Manager reports only the usable capacity that is provided by ONTAP.
+    -   A portion of the total capacity is reserved for storing metadata.
++
+====
+
+* *Model Names*
++
+The model names of the modules.
+
+* *System Read Latency*
++
+Displays the average read latency in milliseconds.
+
+== Cache Read Workload
+
+Indicates storage system performance by displaying a graph specifying the rate of the read workload that is served by the disks and the Flash Cache module.

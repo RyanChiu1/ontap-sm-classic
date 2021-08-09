@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_generating_autosupport_data.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to generate AutoSupport data for a single node or multiple nodes to monitor their health and to send notifications to technical support.'
+---
+= Generating AutoSupport data
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to generate AutoSupport data for a single node or multiple nodes to monitor their health and to send notifications to technical support.
+
+. Click *image:../media/nas_bridge_202_icon_settings.gif[]* > *AutoSupport*.
+. Select the node, and then click *AutoSupport Request* > *Generate AutoSupport*.
++
+By default, the AutoSupport data is generated for all nodes.
+
+. In the *Generate AutoSupport* dialog box, perform the following steps:
+ .. If you want to generate AutoSupport data for a specific node, clear the *Generate Autosupport data for all nodes* check box, and then select the node.
+ .. Type the case number.
+. Click *Generate*.
+. In the *Confirmation* dialog box, click *OK*.

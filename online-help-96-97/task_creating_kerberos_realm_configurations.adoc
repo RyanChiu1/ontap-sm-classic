@@ -1,0 +1,47 @@
+---
+permalink: online-help-96-97/task_creating_kerberos_realm_configurations.html
+sidebar: sidebar
+keywords: 
+summary: 'If you want to use Kerberos authentication for client access, you must configure the storage virtual machine \(SVM\) to use an existing Kerberos realm. You can use System Manager to create a Kerberos realm configuration, which enables SVMs to use Kerberos security services for NFS.'
+---
+= Creating a Kerberos realm configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you want to use Kerberos authentication for client access, you must configure the storage virtual machine (SVM) to use an existing Kerberos realm. You can use System Manager to create a Kerberos realm configuration, which enables SVMs to use Kerberos security services for NFS.
+
+* The CIFS license must be installed if CIFS shares are used, and the NFS license must be installed if an LDAP server is used.
+* Active Directory (Windows 2003 or Windows 2008) with DES MD5 encryption capability must be available.
+* You must have set the time zone and synchronized the time across the cluster by configuring NTP.
++
+This prevents authentication errors, and ensures that the timestamps in log files are consistent across the cluster.
+
+While creating a Kerberos realm, you must set the following attributes in the Create Kerberos Realm wizard:
+
+* Kerberos realm
+* KDC IP address and port number
++
+The default port number is 88.
+
+* Kerberos Key Distribution Center (KDC) vendor
+* Administrative server IP address if the KDC vendor is not Microsoft
+* Password server IP address
+* Active Directory server name and IP address if the KDC vendor is Microsoft
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *Kerberos Realm*.
+. In the *Kerberos Realm* window, click *Create*.
+. Type or select information as prompted by the wizard.
+. Confirm the details, and then click *Finish* to complete the wizard.
+
+*Related information*
+
+xref:task_setting_the_time_zone_for_a_cluster.adoc[Setting the time zone for a cluster]
+
+link:NetApp Technical Report 4067: NFS in NetApp ONTAPhttps://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf[NetApp Technical Report 4067: NFS in NetApp ONTAP]
+
+link:NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directoryhttps://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf[NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directory]
+
+link:NetApp Technical Report 4835: How to Configure LDAP in ONTAPhttps://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf[NetApp Technical Report 4835: How to Configure LDAP in ONTAP]

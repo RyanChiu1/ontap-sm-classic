@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_deleting_network_interfaces.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to delete a network interface to free the IP address of the interface and then use the IP address for a different purpose.'
+---
+= Deleting network interfaces
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to delete a network interface to free the IP address of the interface and then use the IP address for a different purpose.
+
+The status of the network interface must be disabled.
+
+. Click *Network* > *Network Interfaces*.
+. Select the interface that you want to delete, and then click *Delete*.
+. Select the confirmation check box, and then click *Delete*.
+
+*Related information*
+
+xref:reference_network_window.adoc[Network window]

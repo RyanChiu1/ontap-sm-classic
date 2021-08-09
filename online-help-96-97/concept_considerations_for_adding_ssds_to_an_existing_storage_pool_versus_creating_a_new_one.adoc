@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/concept_considerations_for_adding_ssds_to_an_existing_storage_pool_versus_creating_a_new_one.html
+sidebar: sidebar
+keywords: 
+summary: 'You can increase the size of your SSD cache in two ways—by adding SSDs to an existing SSD storage pool or by creating a new SSD storage pool. The best method for you depends on your configuration and plans for the storage.'
+---
+= Considerations for adding SSDs to an existing storage pool versus creating a new one
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can increase the size of your SSD cache in two ways--by adding SSDs to an existing SSD storage pool or by creating a new SSD storage pool. The best method for you depends on your configuration and plans for the storage.
+
+The choice between creating a new storage pool and adding storage capacity to an existing one is similar to deciding whether to create a new RAID group or add storage to an existing one:
+
+* If you are adding a large number of SSDs, creating a new storage pool provides more flexibility because you can allocate the new storage pool differently from the existing one.
+* If you are adding only a few SSDs, and increasing the RAID group size of your existing Flash Pool caches is not an issue, then adding SSDs to the existing storage pool keeps your spare and parity costs lower, and automatically allocates the new storage.
+
+If your storage pool is providing allocation units to Flash Pool aggregates whose caches have different RAID types, and you expand the size of the storage pool beyond the maximum RAID4 RAID group size, the newly added partitions in the RAID4 allocation units are unused.

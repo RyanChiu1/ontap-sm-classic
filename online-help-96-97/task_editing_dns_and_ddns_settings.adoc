@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_editing_dns_and_ddns_settings.html
+sidebar: sidebar
+keywords: 
+summary: 'You can maintain host information centrally by using DNS. You can use System Manager to add or modify the DNS domain name of your storage system. You can also enable DDNS on your storage system to update the name server automatically in the DNS server.'
+---
+= Editing DNS and DDNS settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can maintain host information centrally by using DNS. You can use System Manager to add or modify the DNS domain name of your storage system. You can also enable DDNS on your storage system to update the name server automatically in the DNS server.
+
+You must have set up a CIFS server or an Active Directory account for the storage virtual machine (SVM) for secure DDNS to work.
+
+System Manager does not perform any validation checks for the DNS and DDNS settings.
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *DNS/DDNS*.
+. Click *Edit*.
+. In the *DNS Domains and Name Servers* area, add or modify the DNS domain names and the IP addresses.
+. Select the *DDNS service* check box to enable DDNS.
+ .. Select the *Enable Secure DDNS* check box to enable secure DDNS.
+ .. Specify the fully qualified domain name (FQDN) and the time to live value for the DDNS service.
++
+By default, time to live is set to 24 hours and FQDN is set to `SVM name. domain name`.
+. Click *OK* to save the changes that you made.
+
+*Related information*
+
+xref:reference_dns_ddns_window.adoc[DNS/DDNS Services window]

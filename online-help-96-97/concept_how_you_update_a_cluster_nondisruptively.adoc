@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/concept_how_you_update_a_cluster_nondisruptively.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to update a cluster nondisruptively to a specific ONTAP version. In a nondisruptive update, you have to select an ONTAP image, validate that your cluster is ready for the update, and then perform the update.'
+---
+= How to update a cluster nondisruptively
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to update a cluster nondisruptively to a specific ONTAP version. In a nondisruptive update, you have to select an ONTAP image, validate that your cluster is ready for the update, and then perform the update.
+
+During a nondisruptive update, the cluster remains online and continues to serve data.
+
+== Planning and preparing for the update
+
+As part of planning and preparing for the cluster update, you have to obtain the version of the ONTAP image to which you want to update the cluster from the NetApp Support Site, select the software image, and then perform a validation. The pre-update validation verifies whether the cluster is ready for an update to the selected version.
+
+If the validation finishes with errors and warnings, you have to resolve the errors and warnings by performing the required remedial actions, and then verify that the cluster components are ready for the update. For example, during the pre-update validation, if a warning is displayed that offline aggregates are present in the cluster, you must navigate to the aggregate page, and then change the status of all of the offline aggregates to online.
+
+== Performing an update
+
+When you update the cluster, either the entire cluster is updated or the nodes in a high-availability (HA) pair are updated. As part of the update, the pre-update validation is run again to verify that the cluster is ready for the update.
+
+A rolling update or batch update is performed, depending on the number of nodes in the cluster.
+
+* *Rolling update*
++
+One of the nodes is taken offline and is updated while the partner node takes over the storage of that node.
++
+A rolling update is performed for a cluster that consists of two or more nodes. This is the only update method for clusters with less than eight nodes.
+
+* *Batch update*
++
+The cluster is separated into two batches, each of which contains multiple HA pairs.
++
+A batch update is performed for a cluster that consists of eight or more nodes. In such clusters, you can perform either a batch update or a rolling update. This is the default update method for clusters with eight or more nodes.
+
+*Related information*
+
+xref:task_updating_a_cluster_nondisruptively.adoc[Updating a cluster nondisruptively]

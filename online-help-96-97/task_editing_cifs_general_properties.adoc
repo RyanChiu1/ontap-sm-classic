@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/task_editing_cifs_general_properties.html
+sidebar: sidebar
+keywords: 
+summary: 'You can modify the general properties for CIFS such as the default UNIX user and default Windows user by using System Manager. You can also enable or disable SMB signing for the CIFS server.'
+---
+= Editing the general properties for CIFS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can modify the general properties for CIFS such as the default UNIX user and default Windows user by using System Manager. You can also enable or disable SMB signing for the CIFS server.
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Configuration* tab, click *Options*.
+. In the *CIFS Options* dialog box, modify the following CIFS server properties, as required:
+ ** UNIX user
+ ** Windows user
+ ** IP address
+ ** Enable or disable SMB signing
++
+Enabling SMB signing prevents the data from being compromised. However, you might encounter performance degradation in the form of increased CPU usage on both the clients and the server, although the network traffic remains the same. You can disable SMB signing on any of your Windows clients that do not require protection against replay attacks.
++
+For information about disabling SMB signing on Windows clients, see the Microsoft Windows documentation.
+
+ ** Enable or disable SMB 3.0 encryption
++
+You should enable SMB Multichannel to establish multiple channels between an SMB 3.0 session and transport connections.
+. Click either *Save* or *Save and Close*.
+
+*Related information*
+
+xref:reference_cifs_window.adoc[CIFS window]

@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/reference_ports_and_adapters.html
+sidebar: sidebar
+keywords: 
+summary: 'Ports are grouped under nodes and the nodes are displayed based on the selected protocol category. For example, if the data is served using the FC protocol, then only the nodes with FCP adapters are displayed. The hosted interface count helps you in choosing a port which is less loaded.'
+---
+= Ports and adapters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Ports are grouped under nodes and the nodes are displayed based on the selected protocol category. For example, if the data is served using the FC protocol, then only the nodes with FCP adapters are displayed. The hosted interface count helps you in choosing a port which is less loaded.

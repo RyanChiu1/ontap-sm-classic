@@ -1,0 +1,12 @@
+---
+permalink: peering/concept_creating_a_peer_relationship_between_clusters_ontap_9_2_and_earlier.html
+sidebar: sidebar
+keywords: 
+summary: 'A peer relationship defines network connections that enable clusters and SVMs to exchange data securely. You must create a cluster peer relationship before you can create an SVM peer relationship.'
+---
+= Configuring peer relationships (ONTAP 9.2 and earlier)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A peer relationship defines network connections that enable clusters and SVMs to exchange data securely. You must create a cluster peer relationship before you can create an SVM peer relationship.

@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/concept_how_storage_pool_works.html
+sidebar: sidebar
+keywords: 
+summary: 'A storage pool is a collection of SSDs. You can combine SSDs to create a storage pool, which enables you to share the SSDs and SSD spares across multiple Flash Pool aggregates, at the same time.'
+---
+= How storage pool works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A _storage pool_ is a collection of SSDs. You can combine SSDs to create a storage pool, which enables you to share the SSDs and SSD spares across multiple Flash Pool aggregates, at the same time.
+
+Storage pools consist of allocation units, which you can use to provide SSDs and SSD spares to aggregates or to increase the existing SSD size.
+
+After you add an SSD to a storage pool, you can no longer use the SSD as an individual disk. You must use the storage pool to assign or allocate the storage provided by the SSD.
+
+*Related information*
+
+xref:task_provisioning_storage_by_creating_a_flash_pool_aggregate_manually.adoc[Provisioning storage by creating a Flash Pool aggregate manually]
+
+xref:task_provisioning_cache_by_adding_disks.adoc[Provisioning cache by adding SSDs]

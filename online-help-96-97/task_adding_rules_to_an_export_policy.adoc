@@ -1,0 +1,50 @@
+---
+permalink: online-help-96-97/task_adding_rules_to_an_export_policy.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to add rules to an export policy, which enables you to define client access to data.'
+---
+= Adding rules to an export policy
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add rules to an export policy, which enables you to define client access to data.
+
+You must have created the export policy to which you want to add the export rules.
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Policies* pane, click *Export Policies*.
+. Select the export policy to which you want to add rules, and from the *Export Rules* tab, click *Add*.
+. In the *Create Export Rule* dialog box, perform the following steps:
+ .. Specify the client that requires access to the data.
++
+You can specify multiple clients as comma-separated values.
++
+You can specify the client in any of the following formats:
+
+  *** As a host name; for instance, host1
+  *** As an IPv4 address; for instance, 10.1.12.24
+  *** As an IPv4 address with a network mask; for instance, 10.1.16.0/255.255.255.0
+  *** As an IPv6 address; for instance, FE80::0202:B3FF:FE1E:8329
+  *** As an IPv6 address with a network mask; for instance, 2001:db8::/32
+  *** As a netgroup, with the netgroup name preceded by an at symbol (@); for instance, @netgroup
+  *** As a domain name preceded by a period (.); for instance, .example.com
+
++
+[NOTE]
+====
+You must not enter an IP address range, such as 10.1.12.10 through 10.1.12.70. Entries in this format are interpreted as a text string and are treated as a host name.
+====
++
+You can enter the IPv4 address `0.0.0.0/0` to provide access to all of the hosts.
+
+ .. If you want to modify the rule index number, select the appropriate rule index number.
+ .. Select one or more access protocols.
++
+If you do not select any access protocol, the default value "`Any`" is assigned to the export rule.
+
+ .. Select one or more security types and access rules.
+. Click *OK*.
+. Verify that the export rule that you added is displayed in the *Export Rules* tab for the selected export policy.

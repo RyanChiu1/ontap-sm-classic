@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_editing_quota_limits.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to edit the disk space threshold, the hard limit and soft limit on the amount of disk space that the quota target can use, and the hard limit and soft limit on the number of files that the quota target can own.'
+---
+= Editing quota limits
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to edit the disk space threshold, the hard limit and soft limit on the amount of disk space that the quota target can use, and the hard limit and soft limit on the number of files that the quota target can own.
+
+. Click *Storage* > *Quotas*.
+. From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which the quota that you want to edit resides.
+. Select the quota that you want to edit, and click *Edit Limits*.
+. In the *Edit Limits* dialog box, edit the quota settings as required.
++
+One hundred (100) is the minimum value that you can specify for the hard limit and soft limit on the number of files that the quota can own. If you want to specify a value lower than 100, you should use the command-line interface (CLI).
+
+. Click *Save and Close*.
+. Verify the changes that you made to the selected quota in the *User Defined Quotas* tab.
+
+*Related information*
+
+xref:reference_quotas_window.adoc[Quotas window]

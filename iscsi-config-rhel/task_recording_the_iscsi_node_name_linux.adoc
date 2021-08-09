@@ -1,0 +1,21 @@
+---
+permalink: iscsi-config-rhel/task_recording_the_iscsi_node_name_linux.html
+sidebar: sidebar
+keywords: 
+summary: 'You must record the iSCSI initiator node name on the Linux host so that you have it when you configure the storage system.'
+---
+= Recording the iSCSI node name
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must record the iSCSI initiator node name on the Linux host so that you have it when you configure the storage system.
+
+. Use a text editor to open the `/etc/iscsi/initiatorname.iscsi` file containing the node names.
+. Write down the node name or copy it to a text file.
++
+The iSCSI initiator node name looks something like this:
++
+----
+iqn.1994-05.com.redhat:127
+----

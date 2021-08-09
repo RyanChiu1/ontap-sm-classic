@@ -1,0 +1,68 @@
+---
+permalink: online-help-96-97/task_providing_cache_by_adding_ssd_disks.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to add storage pools or dedicated SSDs to provision cache by converting an existing non-root HDD aggregate or a root aggregate that does not contain partitioned disks to a Flash Pool aggregate.'
+---
+= Provisioning cache to aggregates by adding SSDs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add storage pools or dedicated SSDs to provision cache by converting an existing non-root HDD aggregate or a root aggregate that does not contain partitioned disks to a Flash Pool aggregate.
+
+* The aggregate must be online.
+* There must be sufficient spare SSDs or allocation units in the storage pool that can be assigned as cache disks.
+* All of the nodes in the cluster must be running ONTAP 8.3 or later.
++
+If the cluster is in a mixed-version state, you can use the command-line interface to create a Flash Pool aggregate and then provision SSD cache.
+
+* You must have identified a valid 64-bit non-root aggregate composed of HDDs that can be converted to a Flash Pool aggregate.
+* The aggregate must not contain any array LUNs.
+
+You must be aware of platform-specific and workload-specific best practices for Flash Pool aggregate SSD tier size and configuration.
+
+. Choose one of the following methods:
+ ** Click *Applications & Tiers* > *Storage Tiers*.
+ ** Click *Storage* > *Aggregates & Disks* > *Aggregates*.
+. In the *Storage Tiers* window, select the aggregate, and then click *More Actions* > *Add Cache*.
++
+[NOTE]
+====
+Adding cache is not supported on FabricPool-enabled aggregates.
+====
+
+. In the *Add Cache* dialog box, perform the appropriate action:
++
+|===
+| If you selected the cache source as...| Do this...
+a|
+Storage pools
+a|
+
+ .. Select the storage pool from which cache can be obtained.
+ .. Specify the cache size.
+ .. Modify the RAID type, if required.
+
+a|
+Dedicated SSDs
+a|
+Select the SSD size and the number of SSDs to include, and optionally modify the RAID configuration:
+
+ .. Click *Change*.
+ .. In the Change RAID Configuration dialog box, specify the RAID type and RAID group size, and then click *Save*.
+
++
+|===
+
+. Click *Add*.
++
+For mirrored aggregates, an Add Cache dialog box is displayed with the information that twice the number of selected disks will be added.
+
+. In the *Add Cache* dialog box, click *Yes*.
+
+The cache disks are added to the selected aggregate.
+
+*Related information*
+
+http://www.netapp.com/us/media/tr-4070.pdf[NetApp Technical Report 4070: Flash Pool Design and Implementation Guide]

@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/concept_what_inactive_cold_data_is.html
+sidebar: sidebar
+keywords: 
+summary: 'Infrequently accessed data in a performance tier is known as inactive \(cold\) data. By default, data that is not accessed for a period of 31 days becomes inactive.'
+---
+= What inactive (cold) data is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Infrequently accessed data in a performance tier is known as inactive (cold) data. By default, data that is not accessed for a period of 31 days becomes inactive.
+
+Inactive data is displayed at the aggregate level, cluster level, and volume level. The inactive data for an aggregate or a cluster is displayed only if inactive scanning is complete on that aggregate or cluster. By default, inactive data is displayed for FabricPool-enabled aggregates and SSD aggregates. Inactive data is not displayed for FlexGroups.

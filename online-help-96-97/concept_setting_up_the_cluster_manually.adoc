@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_setting_up_the_cluster_manually.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to manually setup the cluster by creating a cluster, setting up the node management and cluster management networks, and setting up event notifications.'
+---
+= Setting up the cluster manually
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manually setup the cluster by creating a cluster, setting up the node management and cluster management networks, and setting up event notifications.

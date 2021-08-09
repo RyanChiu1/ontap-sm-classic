@@ -1,0 +1,28 @@
+---
+permalink: nfs-config-esxi/task_deciding_where_to_provision_the_new_volume.html
+sidebar: sidebar
+keywords: 
+summary: 'Before you create an NFS volume, you must decide whether to place it in an existing and, if so, how much configuration the requires. This decision determines your workflow.'
+---
+= Deciding where to provision the new volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before you create an NFS volume, you must decide whether to place it in an existing and, if so, how much configuration the requires. This decision determines your workflow.
+
+* If you want a new , follow the steps that you do for creating an NFS-enabled .
++
+xref:task_creating_a_new_nfs_enabled_svm.adoc[Creating a new NFS-enabled SVM]
++
+You must choose this option if NFS is not enabled on an existing .
+
+* If you want to provision a volume on an existing that has NFS enabled but not configured, follow the steps that you do for configuring NFS access to an existing .
++
+xref:concept_adding_nfs_access_to_an_existing_svm.adoc[Configuring NFS access to an existing SVM]
++
+You should choose this option if you created the for SAN access by using the relevant Express Guide.
+
+* If you want to provision a volume on an existing that is fully configured for NFS access, follow the steps that you do for verifying settings on an existing .
++
+xref:task_verifying_that_nfs_is_enabled_on_an_existing_svm.adoc[Verifying settings on an existing SVM]

@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_attaching_an_aggregate_to_a_cloud_tier.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to attach an All Flash aggregate to a cloud tier. You can store infrequently used data in cloud tiers.'
+---
+= Attaching an aggregate to a cloud tier
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to attach an All Flash aggregate to a cloud tier. You can store infrequently used data in cloud tiers.
+
+You must have added a cloud tier to the cluster.
+
+. Click *Storage* > *Aggregates & Disks* > *Cloud Tier*.
+. In the *Used in Aggregates* column, click *Attach Aggregates*.
++
+The Attach Aggregates window is displayed.
+
+. Select the aggregate that you want to attach to the cloud tier.
+. Click *Save*.
+
+*Related information*
+
+xref:concept_what_cloud_tiers_and_tiering_policies_are.adoc[What cloud tiers and tiering policies are]
+
+xref:concept_what_a_fabricpool_is.adoc[What a FabricPool is]
+
+xref:reference_storage_tiers_window.adoc[Storage Tiers window]

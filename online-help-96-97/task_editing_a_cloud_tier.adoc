@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_editing_a_cloud_tier.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to modify the configuration information of cloud tier. The configuration details that you can edit include the name, fully qualified domain name \(FQDN\), port, access key ID, secret key, and object store certificate.'
+---
+= Editing a cloud tier
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify the configuration information of cloud tier. The configuration details that you can edit include the name, fully qualified domain name (FQDN), port, access key ID, secret key, and object store certificate.
+
+. Click *Storage* > *Aggregates & Disks* > *Cloud Tier*.
+. Select the cloud tier that you want to edit, and then click *Edit*.
+. In the *Edit Cloud Tier* window, modify the cloud tier name, FQDN, port, access key ID, secret key, and object store certificate, as required.
++
+If you have selected AWS Commercial Cloud Service (C2S) cloud tier, you can modify the server CA certificates, and client certificates.
+
+. Click *Save*.
+
+*Related information*
+
+xref:reference_storage_tiers_window.adoc[Storage Tiers window]

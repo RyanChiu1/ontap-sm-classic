@@ -1,0 +1,58 @@
+---
+permalink: online-help-96-97/task_creating_a_mirror_and_vault_relationship_from_a_destination_svm.html
+sidebar: sidebar
+keywords: System Manager 9.3
+summary: 'You can use System Manager to create a mirror and vault relationship from the destination storage virtual machine \(SVM\). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. It also enables you to retain data for long periods by creating backups of the source volume.'
+---
+= Creating a mirror and vault relationship from a destination SVM
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a mirror and vault relationship from the destination storage virtual machine (SVM). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. It also enables you to retain data for long periods by creating backups of the source volume.
+
+* The destination cluster must be running ONTAP 8.3.2 or later.
+* SnapMirror license must be enabled on the source cluster and destination cluster.
++
+[NOTE]
+====
+For some platforms, it is not mandatory for the source cluster to have the SnapMirror license enabled if the destination cluster has the SnapMirror license and Data Protection Optimization (DPO) license enabled.
+====
+
+* The source cluster and destination cluster must be in a healthy peer relationship.
+* The destination SVM must have space available.
+* The source aggregate and destination aggregate must be 64-bit aggregates.
+* A source volume of type read/write (rw) must already exist.
+* The SnapLock aggregate type must be the same.
+* If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which SAML authentication is enabled, password-based authentication must be enabled on the remote cluster.
+* System Manager does not support a cascade relationship.
++
+For example, a destination volume in a relationship cannot be the source volume in another relationship.
+
+* You cannot create a mirror and vault relationship between a sync-source SVM and a sync-destination SVM in a MetroCluster configuration.
+* You can create a mirror and vault relationship between sync-source SVMs in a MetroCluster configuration.
+* You can create a mirror and vault relationship from a volume on a sync-source SVM to a volume of a data-serving SVM.
+* You can create a mirror and vault relationship from a volume on a data-serving SVM to a DP volume on a sync-source SVM.
+* A maximum of 25 volumes can be protected in one selection.
+
+. Click *Protection* > *Volume Relationships*.
+. In the *Relationships* window, click *Create*.
+. In the *Browse SVM* dialog box, select an SVM for the destination volume.
+. In the *Create Protection Relationship* dialog box, select *Mirror and Vault* from the *Relationship Type* drop-down list.
+. Specify the cluster, the SVM, and the source volume.
++
+If the specified cluster is running a version of ONTAP software earlier than ONTAP 9.3, then only peered SVMs are listed. If the specified cluster is running ONTAP 9.3 or later, peered SVMs and permitted SVMs are listed.
+
+. Enter a volume name suffix.
++
+The volume name suffix is appended to the source volume names to generate the destination volume names.
+
+. Click *Browse*, and then change the mirror and vault policy.
++
+You can select the policy that has the maximum number of matching labels with the Snapshot policy that is attached to the source volume.
+
+. Select a schedule for the relationship from the list of existing schedules.
+. Select *Initialize Relationship* to initialize the relationship.
+. Enable FabricPool-enabled aggregates, and then select an appropriate tiering policy.
+. Click *Validate* to verify whether the selected volumes have matching labels.
+. Click *Create*.

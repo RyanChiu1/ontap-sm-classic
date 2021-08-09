@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/task_adding_autosupport_e_mail_recipients.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Email Recipient tab of the Edit AutoSupport Settings dialog box in System Manager to add email addresses of the recipients of AutoSupport notifications.'
+---
+= Adding AutoSupport email recipients
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the *Email Recipient* tab of the Edit AutoSupport Settings dialog box in System Manager to add email addresses of the recipients of AutoSupport notifications.
+
+. Click *image:../media/nas_bridge_202_icon_settings.gif[]* > *AutoSupport*.
+. Select the node, and then click *Edit*.
+. In the *Email Recipient* tab, type the address of the email recipient, specify whether the recipient receives a full message or a short message, and then click *Add*.
+. Click *OK*.
+. Verify that the details you specified are displayed in the *AutoSupport* window.

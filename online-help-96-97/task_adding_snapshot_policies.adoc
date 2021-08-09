@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_adding_snapshot_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create a Snapshot policy in System Manager to specify the maximum number of Snapshot copies that can be automatically created and the frequency of creating them.'
+---
+= Creating Snapshot policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a Snapshot policy in System Manager to specify the maximum number of Snapshot copies that can be automatically created and the frequency of creating them.
+
+. Click *Protection* > *Snapshot Policies*.
+. Click *Create*.
+. In the *Create Snapshot Policy* dialog box, specify the policy name.
+. Click *Add*, and then specify the schedule name, the maximum number of Snapshot copies that you want to retain, and the SnapMirror label name.
++
+The maximum number of Snapshot copies that can be retained by the specified schedules must not exceed 254.
+
+. Click *OK*, and then click *Create*.

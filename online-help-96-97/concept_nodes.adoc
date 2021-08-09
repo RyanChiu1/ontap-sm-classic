@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_nodes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to view the details of the nodes in the cluster.'
+---
+= Nodes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to view the details of the nodes in the cluster.

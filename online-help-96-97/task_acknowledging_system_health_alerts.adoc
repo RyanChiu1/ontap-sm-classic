@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_acknowledging_system_health_alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to acknowledge and respond to system health alerts for subsystems. You can use the information displayed to take the recommended action and correct the problem reported by the alert.'
+---
+= Acknowledging system health alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to acknowledge and respond to system health alerts for subsystems. You can use the information displayed to take the recommended action and correct the problem reported by the alert.
+
+. Click *Events & Jobs* > *System Alerts*.
+. In the *System Alerts* window, click the arrow icon next to the name of subsystem.
+. Select the alert that you want to acknowledge, and then click *Acknowledge*.
+. Type your name, and then click *Acknowledge*.
+
+*Related information*
+
+xref:reference_system_health_window.adoc[System Alerts window]

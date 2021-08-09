@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_zeroing_array_luns.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to erase all the data and to format the spare array LUNs by writing zeros to the array LUNs. These array LUNs can then be used in new aggregates.'
+---
+= Zeroing spare array LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to erase all the data and to format the spare array LUNs by writing zeros to the array LUNs. These array LUNs can then be used in new aggregates.
+
+When you zero the spare array LUNs, all the spares in the cluster, including disks, are zeroed. You can zero the spare array LUNs for a specific node or for the entire cluster.
+
+. Click *Storage* > *Aggregates & Disks* > *Array LUNs*.
+. Click *Zero Spares*.
+. In the *Zero Spares* dialog box, select a node or "`All nodes`" from which you want to zero the array LUNs.
+. Select the *Zero all non-zeroed spares* check box to confirm the zeroing operation.
+. Click *Zero Spares*.

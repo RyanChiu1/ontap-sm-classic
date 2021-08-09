@@ -1,0 +1,52 @@
+---
+permalink: online-help-96-97/reference_namespace.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Junction Path menu to manage the NAS namespace of storage virtual machines \(SVMs\).'
+---
+= Junction Path window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Junction Path menu to manage the NAS namespace of storage virtual machines (SVMs).
+
+== Command buttons
+
+* *Mount*
++
+Opens the Mount Volume dialog box, which enables you to mount a volume to the junction in an SVM namespace.
+
+* *Unmount*
++
+Opens the Unmount Volume dialog box, which enables you to unmount a volume from its parent volume.
+
+* *Change Export Policy*
++
+Opens the Change Export Policy dialog box, which enables you to change the existing export policy associated with the volume.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Junction Path list
+
+* *Path*
++
+Specifies the junction path of the mounted volume. You can click the junction path to view the related volumes and qtrees.
+
+* *Storage Object*
++
+Specifies the name of the volume mounted on the junction path. You can also view the qtrees that the volume contains.
+
+* *Export Policy*
++
+Specifies the export policy of the mounted volume.
+
+* *Security Style*
++
+Specifies the security style for the volume. Possible values include UNIX (for UNIX mode bits), NTFS (for CIFS ACLs), and Mixed (for mixed NFS and CIFS permissions).
+
+== Details tab
+
+Displays general information about the selected volume or qtree, such as the name, type of storage object, junction path of the mounted object, and export policy. If the selected object is a qtree, details about the space hard limit, space soft limit, and space usage are displayed.

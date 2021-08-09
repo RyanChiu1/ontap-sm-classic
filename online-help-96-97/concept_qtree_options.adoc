@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/concept_qtree_options.html
+sidebar: sidebar
+keywords: 
+summary: 'A qtree is a logically defined file system that can exist as a special subdirectory of the root directory within a FlexVol volume. Qtrees are used to manage and partition data within the volume.'
+---
+= Qtree options
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A qtree is a logically defined file system that can exist as a special subdirectory of the root directory within a FlexVol volume. Qtrees are used to manage and partition data within the volume.
+
+If you create qtrees on a FlexVol that contains volumes, the qtrees appear as directories. Therefore, you need to be careful to not delete the qtrees accidentally when deleting volumes.
+
+You can specify the following options when creating a qtree:
+
+* Name of the qtree
+* Volume in which you want the qtree to reside
+* Oplocks
++
+By default, oplocks are enabled for the qtree. If you disable oplocks for the entire storage system, oplocks are not set even if you enable oplocks for each qtree.
+
+* Security style
++
+The security style can be UNIX, NTFS, or Mixed (UNIX and NTFS). By default, the security style of the qtree is the same as that of the selected volume.
+
+* Export policy
++
+You can create a new export policy or select an existing policy. By default, the export policy of the qtree is same as that of the selected volume.
+
+* Space usage limits for qtree and user quotas

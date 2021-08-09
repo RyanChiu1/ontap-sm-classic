@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_assigning_disks_to_nodes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to assign ownership of an unassigned disk to a specific node to increase the capacity of an aggregate or storage pool.'
+---
+= Assigning disks to nodes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to assign ownership of an unassigned disk to a specific node to increase the capacity of an aggregate or storage pool.
+
+* You can assign disks if the following conditions are true:
+ ** The container type of the selected disks must be "`unassigned`".
+ ** The disks must be connected to nodes in an HA pair.
+ ** The disks must be visible to the node.
+* For MetroCluster configurations, you cannot use System Manager to assign disks.
++
+You must use the command-line interface instead.
+
+. Click *Storage* > *Aggregates & Disks* > *Disks*.
+. In the *Disks* window, select the *Inventory* tab.
+. Select the disks that you want to assign, and then click *Assign*.
+. In the *Assign Disks* dialog box, select the node to which you want to assign the disks.
+. Click *Assign*.

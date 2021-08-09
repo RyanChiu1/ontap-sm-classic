@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_resuming_mirror_relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'You can resume a quiesced mirror relationship. When you resume the relationship, normal data transfer to the mirror destination is resumed and all the mirror activities are restarted.'
+---
+= Resuming mirror relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can resume a quiesced mirror relationship. When you resume the relationship, normal data transfer to the mirror destination is resumed and all the mirror activities are restarted.
+
+If you have quiesced a broken mirror relationship from the command-line interface (CLI), you cannot resume the relationship from System Manager. You must use the CLI to resume the relationship.
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror relationship that you want to resume.
+. Click *Operations* > *Resume*.
+. Select the confirmation check box and click *Resume*.
+
+Data transfer to the mirror destination resumes for the selected mirror relationship.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

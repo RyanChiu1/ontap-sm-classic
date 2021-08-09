@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_monitoring_ha_pairs.html
+sidebar: sidebar
+keywords: System Manager 9.3
+summary: 'You can use System Manager to monitor the node status and interconnect status of all of the high-availability \(HA\) pairs in a cluster. You can also verify whether takeover or giveback is enabled or has occurred, and view the reasons why takeover or giveback is not currently possible.'
+---
+= Monitoring HA pairs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to monitor the node status and interconnect status of all of the high-availability (HA) pairs in a cluster. You can also verify whether takeover or giveback is enabled or has occurred, and view the reasons why takeover or giveback is not currently possible.
+
+. Click *Configuration* > *Cluster* > *High Availability*.
+. In the *High Availability* window, click the HA pair image to view details such as the cluster HA status, node status, interconnect status, and hardware model of each node.
++
+If the cluster management LIF or the data LIFs of a node are not in their home node, a warning message is displayed indicating that the node has some LIFs that are not in the home node.
+
+*Related information*
+
+xref:reference_high_availability.adoc[High Availability window]

@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/task_editing_roles.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to modify an access-control role’s access to a command or command directory and to restrict a user’s access to only a specified set of commands. You can also remove a role’s access to the default command directory.'
+---
+= Editing roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify an access-control role's access to a command or command directory and to restrict a user's access to only a specified set of commands. You can also remove a role's access to the default command directory.
+
+. Click *image:../media/nas_bridge_202_icon_settings.gif[]*.
+. In the *Management* pane, click *Roles*.
+. In the *Roles* window, select the role that you want to modify, and then click *Edit*.
+. In the *Edit Role* dialog box, modify the role attributes, and then click *Modify*.
+. Verify the changes that you made in the *Roles* window.

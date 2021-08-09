@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/concept_updating_clusters_in_a_metrocluster_configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to update a cluster in MetroCluster configurations. You must perform each operation on both the clusters except for updating the cluster.'
+---
+= Updating clusters in a MetroCluster configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to update a cluster in MetroCluster configurations. You must perform each operation on both the clusters except for updating the cluster.
+
+image::../media/updating_cluster_in_mcc_configuration.gif[]
+
+*Related information*
+
+https://docs.netapp.com/us-en/ontap/upgrade/task_upgrade_andu_sm.html[Upgrade ONTAP]

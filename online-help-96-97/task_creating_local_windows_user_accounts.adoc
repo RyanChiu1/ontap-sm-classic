@@ -1,0 +1,53 @@
+---
+permalink: online-help-96-97/task_creating_local_windows_user_accounts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine \(SVM\) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session.'
+---
+= Creating a local Windows user account
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session.
+
+* The CIFS server must be configured for the SVM.
+
+A local Windows user name must meet the following requirements:
+
+* Must not exceed 20 characters
+* Must not end in a period
+* Must not include commas
+* Must not include any of the following printable characters: " / \ [ ] : | < > + = ; ? * @
+* Must not include characters in the ASCII range 1 through 31, which are non-printable
+
+The password must meet the following criteria:
+
+* Must be at least six characters in length
+* Must not contain the user account name
+* Must contain characters from at least three of the following four categories:
+ ** English uppercase characters (A through Z)
+ ** English lowercase characters (a through z)
+ ** Base 10 digits (0 through 9)
+ ** Special characters: ~ ! @ # 0 {caret} & * _ - + = ` \ | ( ) [ ] : ; " ' < > , . ? /
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Host Users and Groups* pane, click *Windows*.
+. In the *Users* tab, click *Create*.
+. Specify a name for the local user.
+. Specify the full name of the local user and a description that helps you to identify this new user.
+. Enter a password for the local user, and confirm the password.
++
+The password must meet the password requirements.
+
+. Click *Add* to assign group memberships to the user.
+. In the *Add Groups* window, select the groups from the list of available groups in the SVM.
+. Select *Disable this account* to disable this account after the user is created.
+. Click *Create*.
+
+The local Windows user account is created and is assigned membership to the selected groups. The user account is listed in the *Users* tab.
+
+*Related information*
+
+xref:reference_windows_window.adoc[Windows window]

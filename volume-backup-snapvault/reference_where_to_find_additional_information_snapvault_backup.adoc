@@ -1,0 +1,24 @@
+---
+permalink: volume-backup-snapvault/reference_where_to_find_additional_information_snapvault_backup.html
+sidebar: sidebar
+keywords: 
+summary: 'Additional documentation is available to help you restore data from a destination volume to test the backed-up data or when the source volume is lost.'
+---
+= Where to find additional information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Additional documentation is available to help you restore data from a destination volume to test the backed-up data or when the source volume is lost.
+
+== Express guide
+
+* link:../com.netapp.doc.exp-buvault-restore/home.html[Volume restore express management using SnapVault]
++
+Describes how to quickly restore a volume from a SnapVault backup in ONTAP
+
+== Conceptual guide
+
+* link:../com.netapp.doc.dot-cm-concepts/home.html[ONTAP concepts]
++
+Describes conceptual information about disaster recovery and disk-to-disk backup of clustered systems

@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/task_creating_qtrees.html
+sidebar: sidebar
+keywords: 
+summary: 'Qtrees enable you to manage and partition your data within a volume. You can use the Create Qtree dialog box in System Manager to add a new qtree to a volume on your storage system.'
+---
+= Creating qtrees
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Qtrees enable you to manage and partition your data within a volume. You can use the Create Qtree dialog box in System Manager to add a new qtree to a volume on your storage system.
+
+. Click *Storage* > *Qtrees*.
+. From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which you want to create a qtree.
+. Click *Create*.
+. In the *Details* tab of the *Create Qtree* dialog box, type a name for the qtree.
+. Select the volume to which you want to add the qtree.
++
+The Volume browse list includes only the volumes that are online.
+
+. If you want to disable opportunistic locks (oplocks) for the qtree, clear the *Enable Oplocks for files and directories in this Qtree* check box.
++
+By default, oplocks are enabled for each qtree.
+
+. If you want to change the default inherited security style, select a new security style.
++
+The default security style of the qtree is the security style of the volume that contains the qtree.
+
+. If you want to change the default inherited export policy, either select an existing export policy or create an export policy.
++
+The default export policy of the qtree is the export policy that is assigned to the volume that contains the qtree.
+
+. If you want to restrict the disk space usage, click the *Quotas* tab.
+ .. If you want to apply quotas on the qtree, click *Qtree quota*, and then specify the disk space limit.
+ .. If you want to apply quotas for all the users on the qtree, click *User quota*, and then specify the disk space limit.
+. Click *Create*.
+. Verify that the qtree that you created is included in the list of qtrees in the *Qtrees* window.
+
+*Related information*
+
+xref:reference_qtrees_window.adoc[Qtrees window]

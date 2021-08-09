@@ -1,0 +1,19 @@
+---
+permalink: nfs-config-esxi/task_verifying_that_nfs_is_enabled_on_an_existing_svm.html
+sidebar: sidebar
+keywords: 
+summary: 'If you choose to use an existing , you must first verify that NFS is enabled on the . You can then configure NFS access and verify that NFS is enabled for ESXi by using .'
+---
+= Verifying that NFS is enabled on an existing
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you choose to use an existing , you must first verify that NFS is enabled on the . You can then configure NFS access and verify that NFS is enabled for ESXi by using .
+
+. Navigate to the *SVMs* window.
+. Click the *SVM Settings* tab.
+. In the *Protocols* pane, click *NFS*.
+. Verify that NFS is displayed as enabled.
++
+If NFS is not enabled, you must enable it or create a new .

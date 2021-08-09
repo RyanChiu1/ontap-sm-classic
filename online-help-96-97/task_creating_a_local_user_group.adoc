@@ -1,0 +1,62 @@
+---
+permalink: online-help-96-97/task_creating_a_local_user_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create local Windows groups that can be used for authorizing access to the data contained in the storage virtual machine \(SVM\) over an SMB connection. You can also assign the privileges that define the user rights or capabilities that a member of the group has when performing administrative activities.'
+---
+= Creating a local Windows group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create local Windows groups that can be used for authorizing access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also assign the privileges that define the user rights or capabilities that a member of the group has when performing administrative activities.
+
+CIFS server must be configured for the SVM.
+
+* You can specify a group name with or without the local domain name.
++
+The local domain is the name of the CIFS server for the SVM. For example, if the CIFS server name of the SVM is "`CIFS_SERVER`" and you want to create an "`engineering`" group, you can specify either "`engineering`" or "`CIFS_SERVER\engineering`" as the group name.
++
+The following rules apply when using a local domain as part of the group name:
+
+ ** You can specify only the local domain name for the SVM to which the group is applied.
++
+For example, if the local CIFS server name is "`CIFS_SERVER`", you cannot specify "`CORP_SERVER\group1`" as the group name.
+
+ ** You cannot use "`BUILTIN`" as a local domain in the group name.
++
+For example, you cannot create a group with "`BUILTIN\group1`" as the name.
+
+ ** You cannot use an Active Directory domain as a local domain in the group name.
++
+For example, you cannot create a group named "`AD_DOM\group1`", where "`AD_DOM`" is the name of an Active Directory domain.
+
+* You cannot use a group name that already exists.
+* The group name that you specify must meet the following requirements:
+ ** Must not exceed 256 characters
+ ** Must not end in a period
+ ** Must not include commas
+ ** Must not include any of the following printable characters: " / \ [ ] : | < > + = ; ? * @
+ ** Must not include characters in the ASCII range 1 through 31, which are non-printable
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Host Users and Groups* pane, click *Windows*.
+. In the *Groups* tab, click *Create*.
+. In the *Create Group* dialog box, specify a name for the group and a description that helps you to identify the new group.
+. Assign a set of privileges to the group.
++
+You can select the privileges from the predefined set of supported privileges.
+
+. Click *Add* to add users to the group.
+. In the *Add Members to Group* dialog box, perform one of the following actions:
+ ** Specify the Active Directory user or Active Directory group to be added to a particular local group.
+ ** Select the users from the list of available local users in the SVM.
+ ** Click *OK*.
+. Click *Create*.
+
+The local Windows group is created and is listed in the Groups window.
+
+*Related information*
+
+xref:reference_windows_window.adoc[Windows window]

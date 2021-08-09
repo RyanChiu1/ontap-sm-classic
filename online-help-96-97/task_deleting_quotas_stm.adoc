@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_deleting_quotas_stm.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to delete one or more quotas when your users and their storage requirements and limitations change.'
+---
+= Deleting quotas
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to delete one or more quotas when your users and their storage requirements and limitations change.
+
+. Click *Storage* > *Quotas*.
+. From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which the quotas that you want to delete reside.
+. Select one or more quotas that you want to delete, and then click *Delete*.
+. Select the confirmation check box, and then click *Delete*.
+
+*Related information*
+
+xref:reference_quotas_window.adoc[Quotas window]

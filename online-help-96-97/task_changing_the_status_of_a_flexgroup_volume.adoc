@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_changing_the_status_of_a_flexgroup_volume.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to change the status of a FlexGroup volume when you want to take a FlexGroup volume offline, bring a FlexGroup volume back online, or restrict access to a FlexGroup volume.'
+---
+= Changing the status of a FlexGroup volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to change the status of a FlexGroup volume when you want to take a FlexGroup volume offline, bring a FlexGroup volume back online, or restrict access to a FlexGroup volume.
+
+System Manager does not support constituent-level management for FlexGroup volumes.
+
+. Click *Storage* > *Volumes*.
+. From the drop-down menu in the *SVM* field, select *All SVMs*.
+. Select the FlexGroup volume for which you want to modify the status.
+. Click *More Actions* > *Change status to*, and then update the FlexGroup volume status by selecting the required status.
+
+*Related information*
+
+xref:reference_volumes_window_stm_topic.adoc[Volumes window]

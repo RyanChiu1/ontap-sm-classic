@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_export_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create, edit, and manage export policies.'
+---
+= Export policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create, edit, and manage export policies.

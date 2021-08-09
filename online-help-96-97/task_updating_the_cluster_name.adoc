@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/task_updating_the_cluster_name.html
+sidebar: sidebar
+keywords: System Manager 9.3
+summary: 'You can use System Manager to modify the name of a cluster when required.'
+---
+= Updating the cluster name
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify the name of a cluster when required.
+
+. Click *Configuration* > *Cluster* > *Configuration Updates*.
+. In the *Cluster Details* pane, click *Update Cluster Name*.
+. In the *Update Cluster Name* dialog box, specify a new name for the cluster, and then click *Submit*.

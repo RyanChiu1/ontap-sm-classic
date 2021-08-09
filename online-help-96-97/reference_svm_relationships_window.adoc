@@ -1,0 +1,112 @@
+---
+permalink: online-help-96-97/reference_svm_relationships_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the SVM Relationships window to create and manage mirror relationships, and mirror and vault relationships between SVMs.'
+---
+= SVM Relationships Window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the SVM Relationships window to create and manage mirror relationships, and mirror and vault relationships between SVMs.
+
+* <<GUID-C5824833-E477-4BE0-938B-B9A41CED6FE9,#GUID-C5824833-E477-4BE0-938B-B9A41CED6FE9>>
+* <<GUID-D7A6FFB7-443E-4926-A7C6-197AF6C4D157,#GUID-D7A6FFB7-443E-4926-A7C6-197AF6C4D157>>
+* <<GUID-5E071542-CBDB-47B6-B776-D55549AE30F5,#GUID-5E071542-CBDB-47B6-B776-D55549AE30F5>>
+
+== Command buttons
+
+* *Create*
++
+Opens the SVM Disaster Recovery page, which you can use to create a mirror relationship, or mirror and vault relationship from a destination volume.
+
+* *Edit*
++
+Enables you to edit the schedule and policy of a relationship.
++
+For mirror and vault relationship, or version-flexible mirror relationship, you can modify the relationship type by modifying the policy type.
+
+* *Delete*
++
+Enables you to delete a relationship.
+
+* *Operations*
++
+Provides the following options:
+
+ ** *Initialize*
++
+Enables you to initialize the SVM relationship to perform a baseline transfer from the source SVM to the destination SVM.
+
+ ** *Update*
++
+Enables you to update data from the source SVM to the destination SVM.
+
+ ** *Activate Destination SVM*
++
+Enables you to activate the destination SVM.
+
+ ** *Resync from Source SVM*
++
+Enables you to initiate resynchronization of a broken relationship.
+
+ ** *Resync from Destination SVM (Reverse Resync)*
++
+Enables you to resynchronize the relationship from the destination SVM to the source SVM.
+
+ ** *Reactivate Source SVM*
++
+Enables you to reactivate the source SVM.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== SVM relationships list
+
+* *Source Storage Virtual Machine*
++
+Displays the SVM that contains the volume from which data is mirrored and vaulted in a relationship.
+
+* *Destination Storage Virtual Machine*
++
+Displays the SVM that contains the volume to which data is mirrored and vaulted in a relationship.
+
+* *Is Healthy*
++
+Displays whether the relationship is healthy or not.
+
+* *Relationship State*
++
+Displays the state of the relationship, such as Snapmirrored, Uninitialized, or Broken Off.
+
+* *Transfer Status*
++
+Displays the status of the relationship.
+
+* *Relationship Type*
++
+Displays the type of relationship, such as mirror, or mirror and vault.
+
+* *Lag Time*
++
+Lag time is the difference between the current time and the timestamp of the last Snapshot copy that was successfully transferred to the destination system. The lag time will always be at least as much as the duration of the last successful transfer, unless the clocks on the source and destination systems are not synchronized. The time zone difference is automatically calculated into the lag time.
+
+* *Policy Name*
++
+Displays the name of the policy that is assigned to the relationship.
+
+* *Policy Type*
++
+Displays the type of policy that is assigned to the relationship. The policy type can be StrictSync, Sync, Asynchronous Mirror, Asynchronous Vault, or Asynchronous Mirror Vault.
+
+== Details area
+
+* *Details tab*
++
+Displays general information about the selected relationship, such as the source cluster and destination cluster, the protection relationship that is associated with the SVM, data transfer rate, state of the relationship, details about the network compression ratio, data transfer status, type of current data transfer, type of last data transfer, latest Snapshot copy, timestamp of the latest Snapshot copy, the status of the identity preserve, and the number of volumes protected.
+
+* *Policy Details tab*
++
+Displays details about the policy that is assigned to the selected protection relationship.

@@ -1,0 +1,116 @@
+---
+permalink: online-help-96-97/task_creating_network_interfaces.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create a network interface or LIF to access data from storage virtual machines \(SVMs\), to manage SVMs and to provide an interface for intercluster connectivity.'
+---
+= Creating network interfaces
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a network interface or LIF to access data from storage virtual machines (SVMs), to manage SVMs and to provide an interface for intercluster connectivity.
+
+The broadcast domain that is associated with the subnet must have allocated ports.
+
+* Dynamic DNS (DDNS) is enabled by default when a LIF is created.
++
+However, DDNS is disabled if you configure the LIF for intercluster communication using iSCSI, NVMe, or FC/FCoE protocols, or for management access only.
+
+* You can specify an IP address by using a subnet or by not using a subnet.
+* You cannot use System Manager to create a network interface if the ports are degraded.
++
+You must use the command-line interface (CLI) to create a network interface in such cases.
+
+* To create NVMeoF data LIF the SVM must already be set up, the NVMe service must already exist on the SVM and the NVMeoF capable adapters should be available.
+* NVMe protocol is enabled only if the selected SVM has the NVMe service configured.
+
+. Click *Network* > *Network Interfaces*.
+. Click *Create*.
+. In the *Create Network Interface* dialog box, specify an interface name.
+. Specify an interface role:
++
+|===
+| If you want to...| Then...
+a|
+Associate the network interface with a data LIF
+a|
+
+ .. Select *Serves Data*.
+ .. Select the SVM for the network interface.
+
+a|
+Associate the network interface with an intercluster LIF
+a|
+
+ .. Select *Intercluster Connectivity*.
+ .. Select the IPspace for the network interface.
+
++
+|===
+
+. Select the appropriate protocols.
++
+The interface uses the selected protocols to access data from the SVM.
++
+[NOTE]
+====
+If you select the NVMe protocol, the rest of the protocols are disabled. If NAS (CIFS and NFS) protocols are supported then they remain available. The NVMe transports field is displayed when you select the NVMe protocol and FC-NVMe is shown as the transport protocol.
+====
+
+. If you want to enable management access on the data LIF, select the *Enable Management Access* check box.
++
+You cannot enable management access for intercluster LIFs or LIFs with FC/FCoE or NVMe protocols.
+
+. Assign the IP address:
++
+|===
+| If you want to...| Then...
+a|
+Specify the IP address by using a subnet
+a|
+
+ .. Select *Using a subnet*.
+ .. In the Add Details dialog box, select the subnet from which the IP address must be assigned.
++
+For intercluster LIF, only the subnets that are associated with the selected IPspace are displayed.
+
+ .. If you want to assign a specific IP address to the interface, select *Use a specific IP address*, and then type the IP address.
++
+The IP address that you specify is added to the subnet if the IP address is not already present in the subnet range.
+
+ .. Click *OK*.
+
+a|
+Specify the IP address manually without using a subnet
+a|
+
+ .. Select *Without a subnet*.
+ .. In the Add Details dialog box, perform the following steps:
+  ... Specify the IP address and the network mask or prefix.
+  ... Optional: Specify the gateway.
+  ... If you do not want to use the default value for the Destination field, specify a new destination value.
++
+If you do not specify a destination value, the Destination field is populated with the default value based on the family of the IP address.
+
++
+If a route does not exist, a new route is automatically created based on the gateway and destination.
+ .. Click *OK*.
+
++
+|===
+
+. Select the required ports from the *Port* details area.
+ ** For data LIFs, the Port details area displays all of the ports from the broadcast domain that is associated with the IPspace of the SVM.
+ ** For intercluster LIFs, the Port details area displays all of the ports from the broadcast domain that is associated with the required IPspace.
+ ** The Port details area will display only NVMe capable adapters if the NVMe protocol is selected.
+. Select the *Dynamic DNS (DDNS)* check box to enable DDNS.
+. Click *Create*.
+
+*Related information*
+
+xref:reference_network_window.adoc[Network window]
+
+xref:task_configuring_iscsi_protocol_on_svms.adoc[Configuring iSCSI protocol on SVMs]
+
+xref:task_configuring_the_node_details_in_system_manager.adoc[Configuring the network details of the nodes]

@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_setting_up_the_cluster.html
+sidebar: sidebar
+keywords: 
+summary: 'Setting up the cluster involves gathering the configuration information, creating cluster-management and node-management interfaces, adding licenses, setting up the cluster time, and monitoring HA pairs.'
+---
+= Setting up the cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Setting up the cluster involves gathering the configuration information, creating cluster-management and node-management interfaces, adding licenses, setting up the cluster time, and monitoring HA pairs.

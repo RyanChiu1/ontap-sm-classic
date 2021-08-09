@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/concept_types_of_quotas_stm.html
+sidebar: sidebar
+keywords: 
+summary: 'Quotas can be classified on the basis of the targets to which they are applied.'
+---
+= Types of quotas
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Quotas can be classified on the basis of the targets to which they are applied.
+
+The following are the types of quotas based on the targets to which they are applied:
+
+* *User quota*
++
+The target is a user.
++
+The user can be represented by a UNIX user name, UNIX UID, a Windows SID, a file or directory whose UID matches the user, Windows user name in pre-Windows 2000 format, and a file or directory with an ACL owned by the user's SID. You can apply it to a volume or a qtree.
+
+* *Group quota*
++
+The target is a group.
++
+The group is represented by a UNIX group name, a GID, or a file or directory whose GID matches the group. ONTAP does not apply group quotas based on a Windows ID. You can apply a quota to a volume or a qtree.
+
+* *Qtree quota*
++
+The target is a qtree, specified by the path name to the qtree.
++
+You can determine the size of the target qtree.
+
+* *Default quota*
++
+Automatically applies a quota limit to a large set of quota targets without creating separate quotas for each target.
++
+Default quotas can be applied to all three types of quota target (users, groups, and qtrees). The quota type is determined by the value of the type field.

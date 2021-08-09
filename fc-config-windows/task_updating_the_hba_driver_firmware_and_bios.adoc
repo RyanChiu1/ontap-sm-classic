@@ -1,0 +1,23 @@
+---
+permalink: fc-config-windows/task_updating_the_hba_driver_firmware_and_bios.html
+sidebar: sidebar
+keywords: 
+summary: 'If the FC host bus adapters \(HBAs\) in the Windows host are not running supported driver, firmware, and BIOS versions, you must update them.'
+---
+= Updating the HBA driver, firmware, and BIOS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If the FC host bus adapters (HBAs) in the Windows host are not running supported driver, firmware, and BIOS versions, you must update them.
+
+You must have identified the supported driver, firmware, and BIOS versions for your configuration from the Interoperability Matrix tool.
+
+https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
+
+Drivers, firmware, BIOS, and HBA utilities are provided by the HBA vendors.
+
+. List the installed HBA driver, firmware, and BIOS versions by using the HBA utility from your HBA vendor.
+. Download and install the new driver, firmware, and BIOS as needed from the HBA vendor's support site.
++
+Installation instructions and any required installation utilities are available with the download.

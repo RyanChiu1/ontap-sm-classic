@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_through_aggregates.html
+sidebar: sidebar
+keywords: 
+summary: 'You can create an aggregate based on storage recommendations or manually depending on your requirement. You can create Flash Pool aggregates, SnapLock aggregates, and a FabricPool-enabled aggregates to provide storage for one or more volumes by using System Manager.'
+---
+= Provisioning storage through aggregates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create an aggregate based on storage recommendations or manually depending on your requirement. You can create Flash Pool aggregates, SnapLock aggregates, and a FabricPool-enabled aggregates to provide storage for one or more volumes by using System Manager.
+
+You must have enough spare disks to create an aggregate.
+
+You cannot perform the following actions by using System Manager:
+
+* Combine disks of different sizes even if there are enough spare disks of different sizes.
++
+You can initially create an aggregate with disks of the same size and then add disks of a different size later.
+
+* Combine disks with different checksum types.
++
+You can initially create an aggregate with a single checksum type and add storage of a different checksum type later.
+
+*Related information*
+
+xref:reference_aggregates_window.adoc[Aggregates window]
+
+xref:reference_storage_tiers_window.adoc[Storage Tiers window]

@@ -1,0 +1,21 @@
+---
+permalink: volume-backup-snapvault/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Volume Backup Using SnapVault® Express Guide
+:icons: font
+:imagesdir: ../media/
+
+* xref:concept_deciding_whether_to_use_the_volume_backup_using_snapvault_express_guide.adoc[Deciding whether to use this guide]
+* xref:concept_snapvault_configuration_workflow.adoc[SnapVault backup configuration workflow]
+ ** xref:task_verify_the_cluster_peer_relationship.adoc[Verifying cluster peer relationship and SVM peer relationship]
+ ** xref:task_creating_a_snapvault_relationship_express_guide_9_3.adoc[Creating a SnapVault relationship (starting with ONTAP 9.3)]
+ ** xref:task_creating_a_snapvault_relationship_9_2.adoc[Creating the SnapVault relationship (ONTAP 9.2 or earlier)]
+ ** xref:task_monitoring_the_snapvault_relationship.adoc[Monitoring the SnapVault relationship]
+* xref:reference_where_to_find_additional_information_snapvault_backup.adoc[Where to find additional information]
+* xref:reference_copyright_and_trademark.adoc[Copyright, trademark, and machine translation]
+ ** xref:reference_copyright.adoc[Copyright]
+ ** xref:reference_trademark.adoc[Trademark]
+ ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]

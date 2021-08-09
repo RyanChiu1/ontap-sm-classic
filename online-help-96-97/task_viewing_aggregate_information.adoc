@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/task_viewing_aggregate_information.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Aggregates window in System Manager to view the name, status, and space information about an aggregate.'
+---
+= Viewing aggregate information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Aggregates window in System Manager to view the name, status, and space information about an aggregate.
+
+. Choose one of the following methods:
+ ** Click *Applications & Tiers* > *Storage Tiers*.
+ ** Click *Storage* > *Aggregates & Disks* > *Aggregates*.
+. Click on the aggregate name to view the details of the selected aggregate.

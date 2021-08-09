@@ -1,0 +1,22 @@
+---
+permalink: volume-move/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Volume Move Express Guide
+:icons: font
+:imagesdir: ../media/
+
+* xref:concept_deciding_whether_to_use_this_guide_vol_move.adoc[Deciding whether to use this guide]
+* xref:concept_volume_move_workflow.adoc[Volume move workflow]
+ ** xref:task_planning_the_method_and_timing_of_a_volume_move.adoc[Planning the method and timing of a volume move]
+ ** xref:task_moving_a_volume_using_system_manager.adoc[Moving a volume using System Manager]
+ ** xref:task_verifying_lun_reporting_nodes_after_moving_a_volume.adoc[Verifying LUN reporting nodes after moving a volume]
+ ** xref:task_updating_lun_reporting_nodes_after_moving_a_volume.adoc[Updating LUN reporting nodes after moving a volume]
+ ** xref:task_updating_ndmp_backup_after_moving_a_volume.adoc[Updating NDMP backup after moving a volume]
+* xref:reference_where_to_find_additional_information_vol_move.adoc[Where to find additional information]
+* xref:reference_copyright_and_trademark.adoc[Copyright, trademark, and machine translation]
+ ** xref:reference_copyright.adoc[Copyright]
+ ** xref:reference_trademark.adoc[Trademark]
+ ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]

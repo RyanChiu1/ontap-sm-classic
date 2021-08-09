@@ -1,0 +1,44 @@
+---
+permalink: online-help-96-97/task_setting_up_cifs.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access the files on the cluster.'
+---
+= Setting up CIFS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access the files on the cluster.
+
+* The CIFS license must be installed on your storage system.
+* While configuring CIFS in the Active Directory domain, the following requirements must be met:
+ ** DNS must be enabled and configured correctly.
+ ** The storage system must be able to communicate with the domain controller by using the fully qualified domain name (FQDN).
+ ** The time difference (clock skew) between the cluster and the domain controller must not be more than five minutes.
+* If CIFS is the only protocol that is configured on the storage virtual machine (SVM), the following requirements must be met:
+ ** The root volume security style must be NTFS.
++
+By default, System Manager sets the security style as UNIX.
+
+ ** Superuser access must be set to `Any` for the CIFS protocol.
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Configuration* tab, click *Set up*.
+. In the *General* tab of the *CIFS Server Setup* dialog box, specify the NetBIOS name and the Active Directory domain details.
+. Click the *Options* tab, and then perform the following actions:
+ ** In the SMB settings area, select or clear the SMB signing check box and the SMB encryption check box, as required.
+ ** Specify the default UNIX user.
+ ** In the WINS Servers area, add the required IP address.
+. Click *Set up*.
+
+*Related information*
+
+xref:task_creating_a_cifs_share.adoc[Creating a CIFS share]
+
+xref:reference_cifs_window.adoc[CIFS window]
+
+xref:task_editing_volume_properties.adoc[Editing volume properties]
+
+xref:task_modifying_export_policy_rules.adoc[Modifying export policy rules]

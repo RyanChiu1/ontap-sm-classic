@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/task_starting_svms.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to provide data access from a storage virtual machine \(SVM\) by starting the SVM.'
+---
+= Starting SVMs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to provide data access from a storage virtual machine (SVM) by starting the SVM.
+
+. Click *Storage* > *SVMs*.
+. Select the SVM that you want to start, and then click *Start*.
+
+The SVM starts serving data to clients.

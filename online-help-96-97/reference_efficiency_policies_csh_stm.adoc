@@ -1,0 +1,76 @@
+---
+permalink: online-help-96-97/reference_efficiency_policies_csh_stm.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Efficiency Policies window to create, display, and manage information about efficiency policies.'
+---
+= Efficiency Policies window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Efficiency Policies window to create, display, and manage information about efficiency policies.
+
+== Command buttons
+
+* *Add*
++
+Opens the Add Efficiency Policy dialog box, which enables you to run a deduplication operation on a volume for a specified duration (schedule-based) or when the change in volume data reaches a specified threshold value (threshold-based).
+
+* *Edit*
++
+Opens the Edit Efficiency Policy dialog box, which enables you to modify the schedule, threshold value, QoS type, and maximum run time for a deduplication operation.
+
+* *Delete*
++
+Opens the Delete Efficiency Policy dialog box, which enables you to delete the selected efficiency policy.
+
+* *Status*
++
+Open a drop-down menu, which provides options to enable or disable the selected efficiency policy.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Efficiency policies list
+
+* *Policy*
++
+Specifies the name of an efficiency policy.
+
+* *Status*
++
+Specifies the status of an efficiency policy. The status can be one of the following:
+
+ ** Enabled
++
+Specifies that the efficiency policy can be assigned to a deduplication operation.
+
+ ** Disabled
++
+Specifies that the efficiency policy is disabled. You can enable the policy by using the status drop-down menu and assign it later to a deduplication operation.
+
+* *Run By*
++
+Specifies whether the storage efficiency policy is run based on a schedule or based on a threshold value (change log threshold).
+
+* *QoS Policy*
++
+Specifies the QoS type for the storage efficiency policy. The QoS type can be one of the following:
+
+ ** Background
++
+Specifies that the QoS policy is running in the background, which reduces potential performance impact on the client operations.
+
+ ** Best-effort
++
+Specifies that the QoS policy is running on a best-effort basis, which enables you to maximize the utilization of system resources.
+
+* *Maximum Runtime*
++
+Specifies the maximum run-time duration of an efficiency policy. If this value is not specified, the efficiency policy is run till the operation is complete.
+
+== Details area
+
+The area below the efficiency policy list displays additional information about the selected efficiency policy, including the schedule name and the schedule details for a schedule-based policy, and the threshold value for a threshold-based policy.

@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_creating_an_export_policy.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create an export policy so that clients can access specific volumes.'
+---
+= Creating an export policy
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create an export policy so that clients can access specific volumes.
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Policies* pane, click *Export Policies*.
+. Click *Create*.
+. In the *Create Export Policy* dialog box, specify a name for the export policy.
+. If you want to create an export policy by copying the rules from an existing export policy, select the *Copy Rules from* check box, and then select the storage virtual machine (SVM) and the export policy.
++
+You should not select the destination SVM for disaster recovery from the drop-down menu to create an export policy.
+
+. In the **Export Rules**area, click *Add* to add rules to the export policy.
+. Click *Create*.
+. Verify that the export policy that you created is displayed in the *Export Policies* window.

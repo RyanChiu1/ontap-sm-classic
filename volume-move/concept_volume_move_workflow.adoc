@@ -1,0 +1,14 @@
+---
+permalink: volume-move/concept_volume_move_workflow.html
+sidebar: sidebar
+keywords: 
+summary: 'Before moving a volume, you should select a method for the volume move operation and plan the timing of the operation. You can move a volume by using System Manager. After the move, you might have to update the NDMP backup configuration.'
+---
+= Volume move workflow
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before moving a volume, you should select a method for the volume move operation and plan the timing of the operation. You can move a volume by using System Manager. After the move, you might have to update the NDMP backup configuration.
+
+image::../media/volume_move_workflow.jpg[Volume move workflow]

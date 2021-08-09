@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/reference_nis_window.html
+sidebar: sidebar
+keywords: 
+summary: 'The NIS window enables you to view the current NIS settings for your storage system.'
+---
+= NIS window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The NIS window enables you to view the current NIS settings for your storage system.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create NIS Domain dialog box, which enables you to create NIS domains.
+
+* *Edit*
++
+Opens the Edit NIS Domain dialog box, which enables you to add, delete, or modify NIS servers.
+
+* *Delete*
++
+Deletes the selected NIS domain.
+
+* *Refresh*
++
+Updates the information in the window.

@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_deleting_system_health_alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to delete system health alerts to which you have already responded.'
+---
+= Deleting system health alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to delete system health alerts to which you have already responded.
+
+. Click *Events & Jobs* > *System Alerts*.
+. In the *System Alerts* window, click the arrow icon next to the name of subsystem.
+. Select the alert that you want to delete, and then click *Delete*.
+. Click *OK*.
+
+*Related information*
+
+xref:reference_system_health_window.adoc[System Alerts window]

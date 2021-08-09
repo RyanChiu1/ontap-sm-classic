@@ -1,0 +1,38 @@
+---
+permalink: volume-restore-snapvault/reference_where_to_find_additional_information_snapvault_restore.html
+sidebar: sidebar
+keywords: 
+summary: 'Additional information is available to help you to manage the SnapVault backup relationships and to use other methods of data protection to protect the availability of your data resources.'
+---
+= Where to find additional information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Additional information is available to help you to manage the SnapVault backup relationships and to use other methods of data protection to protect the availability of your data resources.
+
+== Express guides
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-sm-ic-cg/home.html[Volume disaster recovery express preparation]
++
+Describes how to quickly configure a destination volume on a different ONTAP cluster in preparation for disaster recovery.
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-sm-ic-fr/home.html[Volume disaster express recovery]
++
+Describes how to quickly activate a destination volume from a different ONTAP cluster after a disaster, as well as how to restore the SnapMirror relationship to its original state by reactivating the source volume after its recovery.
+
+== Power guide
+
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
++
+Describes how to prevent data loss using Snapshot copies and SnapMirror replication to a remote system
+
+== Comprehensive guides
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-ptbrg/home.html[Data protection using tape backup]
++
+Describes how to back up and recover data using tape backup and recovery features in clusters, using NDMP and dump technologies.
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-concepts/home.html[ONTAP concepts]
++
+Describes conceptual information about ONTAP clusters in preparation for disaster recovery.

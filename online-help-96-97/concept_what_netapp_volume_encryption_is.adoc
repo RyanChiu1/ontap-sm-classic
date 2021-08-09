@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/concept_what_netapp_volume_encryption_is.html
+sidebar: sidebar
+keywords: NetApp Volume Encryption
+summary: 'NetApp Volume Encryption is the process of protecting the user data, including the metadata, by encrypting the data before storing it on the disk. The data is decrypted and provided to the user only after proper authentication is provided.'
+---
+= What NetApp Volume Encryption is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+NetApp Volume Encryption is the process of protecting the user data, including the metadata, by encrypting the data before storing it on the disk. The data is decrypted and provided to the user only after proper authentication is provided.
+
+To encrypt data, an encryption key is required. Each volume is assigned an encryption key to encrypt/decrypt operations of its data.
+
+When NetApp Aggregate Encryption is enabled on an aggregate, new volumes are encrypted by default. Volume encryption can override the default encryption.
+
+[NOTE]
+====
+When a selected aggregate is encrypted, volume encryption affects cross-volume storage efficiency.
+====

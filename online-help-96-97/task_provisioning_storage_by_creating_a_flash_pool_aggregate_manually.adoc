@@ -1,0 +1,66 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_by_creating_a_flash_pool_aggregate_manually.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate.'
+---
+= Provisioning storage by creating a Flash Pool aggregate manually
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate.
+
+* You must be aware of the platform-specific best practices and workload-specific best practices for the Flash Pool aggregate SSD tier size and configuration.
+* All of the HDDs must be in the zeroed state.
+* If you want to add SSDs to the aggregate, all of the existing SSDs and dedicated SSDs must be of the same size.
+* You cannot use partitioned SSDs while creating a Flash Pool aggregate.
+* You cannot mirror the aggregates if the cache source is storage pools.
+* Starting with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
+* If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only option available for RAID type.
+
+. Create an aggregate by using one of the following methods:
+ ** Click *Applications & Tiers* > *Storage Tiers* > *Add Aggregate*.
+ ** Click *Storage* > *Aggregate & Disks* > *Aggregates* > *Create*.
+. Enable the *Manually Create Aggregate* option to create an aggregate.
+. In the *Create Aggregate* window, specify the name of the aggregate, the disk type, and the number of disks or partitions to include for the HDDs in the aggregate.
+. If you want to mirror the aggregate, select the *Mirror this aggregate* check box.
++
+For MetroCluster configurations, creating unmirrored aggregates is restricted. Therefore, the mirroring option is enabled by default for MetroCluster configurations.
+
+. Click *Use Flash Pool Cache with this aggregate*.
+. Specify the cache source:
++
+|===
+| If you want to select the cache source as...| Then...
+a|
+Storage pools
+a|
+
+ .. Select *Storage pools* as the Cache Source.
+ .. Select the storage pool from which the cache can be obtained, and then specify the cache size.
+ .. Modify the RAID type, if required.
+
+a|
+Dedicated SSDs
+a|
+
+ .. Select *Dedicated SSDs* as the Cache Source.
+ .. Select the SSD size and the number of SSDs to include in the aggregate.
+ .. Modify the RAID configuration, if required:
+  ... Click *Change*.
+  ... In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.
+  ... Click *Save*.
+
++
+|===
+
+. Click *Create*.
+
+The Flash Pool aggregate is created with the specified configuration, and is added to the list of aggregates in the Aggregates window.
+
+*Related information*
+
+xref:concept_how_storage_pool_works.adoc[How storage pool works]
+
+http://www.netapp.com/us/media/tr-4070.pdf[NetApp Technical Report 4070: Flash Pool Design and Implementation Guide]

@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html
+sidebar: sidebar
+keywords: 
+summary: 'You can combine multi-disk carrier disk shelves with single-disk carrier disk shelves \(standard disk shelves\) on the same storage system and within in the same stack.'
+---
+= Shelf configuration requirements for multi-disk carrier storage shelves
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can combine multi-disk carrier disk shelves with single-disk carrier disk shelves (standard disk shelves) on the same storage system and within in the same stack.

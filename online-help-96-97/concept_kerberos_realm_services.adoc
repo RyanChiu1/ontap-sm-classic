@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_kerberos_realm_services.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create and manage Kerberos realm services.'
+---
+= Kerberos realm services
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create and manage Kerberos realm services.
+
+*Related information*
+
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.cdot-famg-nfs/home.html[NFS management]

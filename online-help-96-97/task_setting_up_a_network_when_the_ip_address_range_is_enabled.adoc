@@ -1,0 +1,62 @@
+---
+permalink: online-help-96-97/task_setting_up_a_network_when_the_ip_address_range_is_enabled.html
+sidebar: sidebar
+keywords: 
+summary: 'You can set up a network by enabling an IP address range. The IP address range enables you to enter IP addresses that are in the same netmask range or in the different netmask range.'
+---
+= Setting up a network when an IP address range is enabled
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can set up a network by enabling an IP address range. The IP address range enables you to enter IP addresses that are in the same netmask range or in the different netmask range.
+
+. Enter a range of IP addresses in the *IP Address Range* field, and then click *Apply*.
++
+|===
+| Option| Description
+a|
+You have a range of IP addresses in the same netmask
+a|
+Enter the IP address range, and then click *Apply*.     IP addresses are applied to cluster management, node management, and Service Processor management networks sequentially.
+a|
+You have a range of IP addresses in different netmasks
+a|
+Enter each IP address range on a separate line, and then click *Apply*.     The first IP address applied to cluster management and other IP addresses are applied to node management and Service Processor management networks sequentially.
++
+|===
++
+[NOTE]
+====
+After entering the IP address range for cluster management, node management, and Service Processor management, you must not manually modify the IP address values in these fields. You must ensure that all the IP addresses are IPv4 addresses.
+====
+
+. Enter the netmask and gateway details.
+. Select the port for cluster management in the *Port* field.
+. If the *Port* field in the node management is not populated with *e0M*, enter the port details.
++
+[NOTE]
+====
+By default, the Port field displays e0M.
+====
+
+. For Service Processor management, if you are overriding the default values, ensure that you have entered the mandatory gateway details.
+. If you have enabled the *DNS Details* field, enter the DNS server details.
+. If you have enabled the *NTP Details* field, enter the NTP server details.
++
+[NOTE]
+====
+Providing alternative NTP server details is optional.
+====
+
+. Click *Submit*.
+
+Enter event notifications in the Support page to continue with the cluster setup.
+
+*Related information*
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Systems/FAS_Systems/What_is_a_Service_Processor_and_how_do_I_use_it%3F[What is a Service Processor and how do I use it?]
+
+https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_and_troubleshoot_NTP_on_clustered_Data_ONTAP_8.2_and_later_using_CLI[How to configure and troubleshoot NTP on clustered Data ONTAP 8.2 and later using CLI]
+
+https://docs.netapp.com/ontap-9/index.jsp[ONTAP 9 Documentation Center]

@@ -1,0 +1,49 @@
+---
+permalink: online-help-96-97/reference_window_layout_customization.html
+sidebar: sidebar
+keywords: 
+summary: 'System Manager enables you to customize the window layouts. By customizing the windows, you can control which data is viewable and how the data is displayed.'
+---
+= Window layout customization
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System Manager enables you to customize the window layouts. By customizing the windows, you can control which data is viewable and how the data is displayed.
+
+* *Sorting*
++
+You can click the column header to change the sort order of the column entries. When you click the column header, the sort arrows (image:../media/icon_sort_arrow_up_sm.gif[Icon for sort arrow up] and image:../media/icon_sort_arrow_down_sm.gif[Icon for sort arrow down]) appear for that column.
+
+* *Filtering*
++
+You can click the filter icon (image:../media/filtering_icon.gif[]) to display only those entries that match the conditions that are provided. You can then use the character filter (?) or string filter (*) to narrow your search. The filter icon is displayed when you move the mouse pointer over the column headings.
++
+You can apply filters to one or more columns.
++
+[NOTE]
+====
+When you apply filters to the physical size field or the usable size field, any value that you enter without the unit suffix in these fields is considered to be in bytes. For example, if you enter a value of 1000 without specifying the unit in the physical size field, the value is automatically considered as 1000 bytes.
+====
+
+* *Hiding or showing the columns*
++
+You can click the column display icon (*image:../media/show_hide_colume_button.gif[] Show/Hide*) to select which columns you want to display. Once you have selected the appropriate columns you can re-order them by dragging them using your mouse.
+
+* *Customizing the layout*
++
+You can drag the bottom of the list of objects area up or down to resize the main areas of the window. You can also display or hide the list of related objects and list of views panels. You can drag the vertical dividers to resize the width of the columns or other areas of the window.
+
+* *Searching*
++
+You can use the search box to search for volumes, LUNs, qtrees, network interfaces, storage virtual machines (SVMs), aggregates, disks, or Ethernet ports, or all of these objects. You can click the results to navigate to the exact location of the object.
++
+[NOTE]
+====
++
+....
+-   When you search for objects that contain one or more of the \{ \\ ? ^ \> \| characters, the results are displayed correctly, but they do not navigate to the correct row in the page.
+-   You must not use the question mark \(?\) character to search for an object.
+....
++
+====

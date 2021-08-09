@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_creating_a_storage_pool.html
+sidebar: sidebar
+keywords: 
+summary: 'A storage pool is a collection of SSDs \(cache disks\). You can use System Manager to combine SSDs to create a storage pool, which enables you to share the SSDs and SSD spares between an HA pair for allocation to two or more Flash Pool aggregates at the same time.'
+---
+= Creating a storage pool
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A storage pool is a collection of SSDs (cache disks). You can use System Manager to combine SSDs to create a storage pool, which enables you to share the SSDs and SSD spares between an HA pair for allocation to two or more Flash Pool aggregates at the same time.
+
+* Both nodes of the HA pair must be up and running in order to allocate SSDs and SSD spares through a storage pool.
+* Storage pools must have a minimum of 3 SSDs.
+* All SSDs in a storage pool must be owned by the same HA pair.
+
+System Manager enforces the hot spare rule for SSD RAID groups when you use SSDs for adding disks to a storage pool. For example, if there are 10 SSDs in the SSD RAID group and the option `raid.min_spare_count` is set to `1` at the node level, System Manager leaves 1 SSD as the hot spare and uses the other 9 SSDs for SSD-related operations.
+
+You cannot use partitioned SSDs when creating a storage pool by using System Manager.
+
+. Click *Storage* > *Aggregates & Disks* > *Storage Pools*.
+. In the *Storage Pools* window, click *Create*.
+. In the *Create Storage Pool* dialog box, specify the name for the storage pool, disk size, and the number of disks.
+. Click *Create*.
+
+*Related information*
+
+xref:reference_storage_pools_window.adoc[Storage Pools window]

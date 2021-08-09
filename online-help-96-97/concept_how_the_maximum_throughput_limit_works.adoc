@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/concept_how_the_maximum_throughput_limit_works.html
+sidebar: sidebar
+keywords: 
+summary: 'You can specify one service-level objective for a Storage QoS policy group: a maximum throughput limit. A maximum throughput limit, which you define in terms of IOPS, MBps, or both, specifies the throughput that the workloads in the policy group cannot collectively exceed.'
+---
+= How the maximum throughput limit works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can specify one service-level objective for a Storage QoS policy group: a maximum throughput limit. A maximum throughput limit, which you define in terms of IOPS, MBps, or both, specifies the throughput that the workloads in the policy group cannot collectively exceed.
+
+When you specify a maximum throughput for a policy group, Storage QoS controls client operations to ensure that the combined throughput for all workloads in the policy group does not exceed the specified maximum throughput.
+
+For example, assume that you create the policy group "`untested_apps`" and specify a maximum throughput of 300 MBps. You assign three volumes to the policy group. The combined throughput to those three volumes cannot exceed 300 MBps.
+
+[NOTE]
+====
+The combined throughput to the workloads in a policy group might exceed the specified limit by up to 10 percent. A deviation might occur if you have a workload that experiences rapid changes in throughput (sometimes called a _bursty workload_).
+====
+
+Note the following about specifying a maximum throughput:
+
+* You must not set the limit too low because you might underutilize the cluster.
+* You must consider the minimum amount of throughput that you want to reserve for workloads that do not have limits.
++
+For example, you can ensure that your critical workloads get the throughput that they need by limiting noncritical workloads.
+
+* You might want to provide room for growth.
++
+For example, if you see an average utilization of 500 IOPS, you might specify a limit of 1,000 IOPS.

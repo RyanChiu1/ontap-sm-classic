@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/task_setting_up_peering.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Setting up peering
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Setting up peering involves creating intercluster logical interfaces (LIFs) on each node, creating cluster peering, and creating SVM peering.
+
+image::../media/peering_workflow.gif[]

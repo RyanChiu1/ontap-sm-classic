@@ -1,0 +1,20 @@
+---
+permalink: volume-restore-snapvault/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Volume Restore Using SnapVault® Express Guide
+:icons: font
+:imagesdir: ../media/
+
+* xref:concept_deciding_whether_to_use_the_volume_restore_using_snapvault_express_guide.adoc[Deciding whether to use this guide]
+* xref:concept_volume_restore_workflow.adoc[Volume restore workflow]
+ ** xref:task_identifying_the_snapvault_backup_destination_volume.adoc[Identifying the SnapVault backup destination volume]
+ ** xref:task_restoring_data_from_a_snapvault_backup.adoc[Restoring data from a SnapVault backup]
+ ** xref:task_verifying_the_restore_operation.adoc[Verifying the restore operation]
+* xref:reference_where_to_find_additional_information_snapvault_restore.adoc[Where to find additional information]
+* xref:reference_copyright_and_trademark.adoc[Copyright, trademark, and machine translation]
+ ** xref:reference_copyright.adoc[Copyright]
+ ** xref:reference_trademark.adoc[Trademark]
+ ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]

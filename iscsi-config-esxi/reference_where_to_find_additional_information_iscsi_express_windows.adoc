@@ -1,0 +1,36 @@
+---
+permalink: iscsi-config-esxi/reference_where_to_find_additional_information_iscsi_express_windows.html
+sidebar: sidebar
+keywords: 
+summary: 'There are additional documents to help you learn more about iSCSI configuration.'
+---
+= Where to find additional information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+There are additional documents to help you learn more about iSCSI configuration.
+
+All of the following documentation is available:
+
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanconf/home.html[ONTAP 9 SAN Configuration Guide]
++
+Describes supported FC, iSCSI, and FCoE topologies for connecting host computers to storage controllers in clusters.
+
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[ONTAP 9 SAN Administration Guide]
++
+Describes how to configure and manage the iSCSI, FCoE, and FC protocols for clustered SAN environments, including configuration of LUNs, igroups, and targets.
+
+== VMware documentation
+
+Documentation about iSCSI for ESXi servers is available directly from VMware.
+
+http://www.vmware.com[VMware]
+
+* _vSphere Storage_
++
+This VMware guide describes FC and iSCSI configuration for ESXi 5.x.
+
+* _Multipathing Configuration for Software iSCSI Using Port Binding_
++
+Technical White Paper describes MPIO setup for ESXi servers.
