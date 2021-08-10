@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_updating_cifs_group_policy_configuration.html
+sidebar: sidebar
+keywords: 
+summary: 'You have to update the group policy after the policy configuration is changed through the command-line interface \(CLI\). You can use the CIFS window in System Manager to update the group policy.'
+---
+= Updating the CIFS group policy configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You have to update the group policy after the policy configuration is changed through the command-line interface (CLI). You can use the CIFS window in System Manager to update the group policy.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. Click the *Domain* tab.
+. In the *Group Policy* area, select the group policy configuration that you want to update, and then click *Update*.

@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_editing_initiator_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator group and its operating system. You can add initiators to or remove initiators from the initiator group. You can also change the port set associated with the initiator group.'
+---
+= Editing initiator groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator group and its operating system. You can add initiators to or remove initiators from the initiator group. You can also change the port set associated with the initiator group.
+
+== Steps
+
+. Click *Storage* > *LUNs*.
+. In the *Initiator Groups* tab, select the initiator group that you want to modify, and then click *Edit*.
+. Make the necessary changes.
+. Click *Save and Close*.
+. Verify the changes you made to the initiator group in the *Initiator Groups* tab.
+
+*Related information*
+
+xref:reference_luns_window.adoc[LUNs window]

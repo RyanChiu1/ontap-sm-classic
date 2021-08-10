@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/task_renaming_local_windows_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to rename a local Windows group to identify the group more easily.'
+---
+= Renaming a local Windows group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to rename a local Windows group to identify the group more easily.
+
+== About this task
+
+* The new group name must be created in the same domain as the old group name.
+* The group name must meet the following requirements:
+ ** Must not exceed 256 characters
+ ** Must not end in a period
+ ** Must not include commas
+ ** Must not include any of the following printable characters: " / \ [ ] : | < > + = ; ? * @
+ ** Must not include characters in the ASCII range 1 through 31, which are non-printable
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Host Users and Groups* pane, click *Windows*.
+. In the *Groups* tab, select the group that you want to rename, and then click *Rename*.
+. In the *Rename Group* window, specify a new name for the group.
+
+== Results
+
+The local group name is changed, and the group is listed with the new name in the Groups window.
+
+*Related information*
+
+xref:reference_windows_window.adoc[Windows window]

@@ -1,0 +1,96 @@
+---
+permalink: online-help-96-97/reference_name_mapping_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Name Mapping window to specify the name mapping entries to map users from different platforms.'
+---
+= Name Mapping window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Name Mapping window to specify the name mapping entries to map users from different platforms.
+
+== Name Mappings
+
+You can create and use name mappings to map your UNIX users to Windows users, Windows users to UNIX users, or Kerberos users to UNIX users.
+
+== Command buttons
+
+* *Add*
++
+Opens the Add Name Mapping Entry dialog box, which enables you to create a name mapping on storage virtual machines (SVMs).
+
+* *Edit*
++
+Opens the Edit Name Mapping Entry dialog box, which enables you to edit a name mapping on SVMs.
+
+* *Delete*
++
+Opens the Delete Name Mapping Entries dialog box, which enables you to delete a name mapping entry.
+
+* *Swap*
++
+Opens the Swap Name Mapping Entries dialog box, which enables you to interchange positions of the two selected name mapping entries.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Name mappings list
+
+* *Position*
++
+Specifies the name mapping's position in the priority list. Name mappings are applied in the order in which they occur in the priority list.
+
+* *Pattern*
++
+Specifies the user name pattern that must be matched.
+
+* *Replacement*
++
+Specifies the replacement pattern for the user name.
+
+* *Direction*
++
+Specifies the direction of the name mapping. Possible values are krb_unix for a Kerberos-to-UNIX name mapping, win_unix for a Windows-to-UNIX name mapping, and unix_win for a UNIX-to-Windows name mapping.
+
+== Command buttons
+
+* *Add*
++
+Opens the Add Group Mapping Entry dialog box, which enables you to create a group mapping on SVMs.
+
+* *Edit*
++
+Opens the Edit Group Mapping Entry dialog box, which enables you to edit the group mapping on SVMs.
+
+* *Delete*
++
+Opens the Delete Group Mapping Entries dialog box, which enables you to delete a group mapping entry.
+
+* *Swap*
++
+Opens the Swap Group Mapping Entries dialog box, which enables you to interchange positions of the two selected group mapping entries.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Group mappings list
+
+* *Position*
++
+Specifies the group mapping's position in the priority list. Group mappings are applied in the order in which they occur in the priority list.
+
+* *Pattern*
++
+Specifies the user name pattern that must be matched.
+
+* *Replacement*
++
+Specifies the replacement pattern for the user names.
+
+* *Direction*
++
+Specifies the direction of the group mapping. Possible values are `krb_unix` for a Kerberos-to-UNIX group mapping, `win_unix` for a Windows-to-UNIX group mapping, and `unix_win` for a UNIX-to-Windows group mapping.

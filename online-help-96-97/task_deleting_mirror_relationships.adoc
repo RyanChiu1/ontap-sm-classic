@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_deleting_mirror_relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'You can delete a mirror relationship and permanently end the mirror relationship between the source and destination volumes. When a mirror relationship is deleted, the base Snapshot copy on the source volume is deleted.'
+---
+= Deleting mirror relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a mirror relationship and permanently end the mirror relationship between the source and destination volumes. When a mirror relationship is deleted, the base Snapshot copy on the source volume is deleted.
+
+== About this task
+
+It is a best practice to break the mirror relationship before deleting the relationship.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror relationship that you want to delete and click *Delete*.
+. Select the confirmation check boxes to delete the mirror relationship and to release the base Snapshot copies, and then click *Delete*.
+
+== Results
+
+The relationship is deleted, and the base Snapshot copy on the source volume is deleted.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

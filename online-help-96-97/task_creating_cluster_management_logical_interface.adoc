@@ -1,0 +1,58 @@
+---
+permalink: online-help-96-97/task_creating_cluster_management_logical_interface.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create a cluster management logical interface \(LIF\) to provide a single management interface for a cluster. You can use this LIF to manage all of the activities of the cluster.'
+---
+= Creating a cluster management logical interface
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a cluster management logical interface (LIF) to provide a single management interface for a cluster. You can use this LIF to manage all of the activities of the cluster.
+
+== Steps
+
+. Click *Configuration* > *Cluster* > *Configuration Updates*.
+. In the *Cluster Details* pane, click *Create Cluster-management LIF*.
+. In the *Create Cluster-Management LIF* dialog box, specify a name for the cluster management LIF.
+. Assign an IP address to the cluster management LIF:
++
+|===
+| If you want to...| Then...
+a|
+Specify the IP address by using a subnet
+a|
+
+ .. Select *Using a subnet*.
+ .. In the Add Details dialog box, select the subnet from which the IP address should be assigned.
++
+For an intercluster LIF, only the subnets that are associated with the selected IPspace are displayed.
+
+ .. If you want to assign a specific IP address to the LIF, select *Use a specific IP address*, and then type the IP address.
++
+The IP address that you specify is added to the subnet if the IP address is not already present in the subnet range.
+
+ .. Click *OK*.
+
+a|
+Specify the IP address manually without using a subnet
+a|
+
+ .. Select *Without a subnet*.
+ .. In the Add Details dialog box, perform the following steps:
+  ... Specify the IP address and the network mask or prefix.
+  ... Optional: Specify the gateway.
+  ... If you do not want to use the default value for the Destination field, specify a new destination value.
++
+If you do not specify a value, the Destination field is populated with the default value based on the family of the IP address.
+
++
+If a route does not exist, a new route is automatically created based on the gateway and destination.
+ .. Click *OK*.
+
++
+|===
+
+. Select the required ports from the *Port details* area.
+. Click *Create*.

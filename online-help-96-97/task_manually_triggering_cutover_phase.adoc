@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_manually_triggering_cutover_phase.html
+sidebar: sidebar
+keywords: 
+summary: 'For a volume move operation, you can use System Manager to manually trigger the cutover when the volume enters the cutover deferred phase. You can set the duration of the cutover and the cutover action to be performed by the system if the operation fails within that duration.'
+---
+= Manually triggering the cutover for volume move
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+For a volume move operation, you can use System Manager to manually trigger the cutover when the volume enters the cutover deferred phase. You can set the duration of the cutover and the cutover action to be performed by the system if the operation fails within that duration.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. Click the *Volumes* tab.
+. Expand the volume for which the volume move operation has been initiated.
+. Click the *Show More Details* link to view more information about the volume.
+. In the *Overview* tab, click *Cutover*.
+. In the *Cutover* dialog box, click *Advanced Options*.
+. Specify the cutover action and the cutover window period.
+. Click *OK*.

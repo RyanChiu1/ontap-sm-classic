@@ -1,0 +1,22 @@
+---
+permalink: volume-disaster-prep/index.html
+sidebar: sidebar
+keywords: 
+summary: ''
+---
+= Volume Disaster Recovery Preparation Express Guide
+:icons: font
+:imagesdir: ../media/
+
+* xref:concept_volume_disaster_prep_overview.adoc[Deciding whether to use this guide]
+* xref:concept_snapmirror_intercluster_configuration_workflow.adoc[Volume disaster recovery preparation workflow]
+ ** xref:task_verifying_cluster_peer_relationship.adoc[Verifying the cluster peer relationship and SVM peer relationship]
+ ** xref:task_creating_snapmirror_relationships_93_later.adoc[Creating the SnapMirror relationship (starting with ONTAP 9.3)]
+ ** xref:task_creating_snapmirror_relationships_92_earlier.adoc[Creating the SnapMirror relationship (ONTAP 9.2 or earlier)]
+ ** xref:task_setting_up_destination_svm_for_data_access.adoc[Setting up the destination SVM for data access]
+ ** xref:task_monitoring_status_snapmirror_data_transfers.adoc[Monitoring the status of SnapMirror data transfers]
+* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
+* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
+ ** xref:reference_copyright.adoc[Copyright]
+ ** xref:reference_trademark.adoc[Trademark]
+ ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]

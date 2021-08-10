@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_creating_interface_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create an interface group—single-mode, static multimode, or dynamic multimode \(LACP\)—to present a single interface to clients by combining the capabilities of the aggregated network ports.'
+---
+= Creating interface groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create an interface group--single-mode, static multimode, or dynamic multimode (LACP)--to present a single interface to clients by combining the capabilities of the aggregated network ports.
+
+== Before you begin
+
+Free ports must be available that do not belong to any broadcast domain or interface group, or that host a VLAN.
+
+== Steps
+
+. Click *Network* > *Ethernet Ports*.
+. Click *Create Interface Group*.
+. In the *Create Interface Group* dialog box, specify the following settings:
+ ** Name of the interface group
+ ** Node
+ ** Ports that you want to include in the interface group
+ ** Usage mode of the ports: single-mode, static multiple, or dynamic multimode (LACP)
+ ** Network load distribution: IP-based, MAC address-based, sequential, or port
+ ** Broadcast domain for the interface group, if required
+. Click *Create*.
+
+*Related information*
+
+xref:reference_network_window.adoc[Network window]

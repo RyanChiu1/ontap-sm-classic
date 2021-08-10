@@ -1,0 +1,47 @@
+---
+permalink: online-help-96-97/concept_quota_limits.html
+sidebar: sidebar
+keywords: 
+summary: 'You can apply a disk space limit or limit the number of files for each quota type. If you do not specify a limit for a quota, none is applied.'
+---
+= Quota limits
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can apply a disk space limit or limit the number of files for each quota type. If you do not specify a limit for a quota, none is applied.
+
+Quotas can be soft or hard. Soft quotas cause Data ONTAP to send a notification when specified limits are exceeded, and hard quotas prevent a write operation from succeeding when specified limits are exceeded.
+
+Hard quotas impose a hard limit on system resources; any operation that would result in exceeding the limit fails. The following settings create hard quotas:
+
+* Disk Limit parameter
+* Files Limit parameter
+
+Soft quotas send a warning message when resource usage reaches a certain level, but do not affect data access operations, so you can take appropriate action before the quota is exceeded. The following settings create soft quotas:
+
+* Threshold for Disk Limit parameter
+* Soft Disk Limit parameter
+* Soft Files Limit parameter
+
+Threshold and Soft Disk quotas enable administrators to receive more than one notification about a quota. Typically, administrators set the Threshold for Disk Limit to a value that is only slightly smaller than the Disk Limit, so that the threshold provides a "final warning" before writes start to fail.
+
+* *Disk space hard limit*
++
+Disk space limit applied to hard quotas.
+
+* *Disk space soft limit*
++
+Disk space limit applied to soft quotas.
+
+* *Threshold limit*
++
+Disk space limit applied to threshold quotas.
+
+* *Files hard limit*
++
+The maximum number of files on a hard quota.
+
+* *Files soft limit*
++
+The maximum number of files on a soft quota.

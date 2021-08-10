@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_name_mapping.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to specify name mapping entries to map users from different platforms.'
+---
+= Name mapping
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to specify name mapping entries to map users from different platforms.
+
+*Related information*
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.cdot-famg-cifs/home.html[SMB/CIFS management]

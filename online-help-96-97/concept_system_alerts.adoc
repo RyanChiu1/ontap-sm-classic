@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_system_alerts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to monitor different parts of a cluster.'
+---
+= System alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to monitor different parts of a cluster.
+
+*Related information*
+
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/home.html[System administration]

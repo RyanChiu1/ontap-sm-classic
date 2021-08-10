@@ -1,0 +1,45 @@
+---
+permalink: online-help-96-97/task_increasing_cache_for_flash_pool_aggregates_by_adding_ssds.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add SSDs as either storage pools or dedicated SSDs to increase the size of a Flash Pool aggregate by using System Manager.'
+---
+= Increasing the cache for Flash Pool aggregates by adding SSDs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add SSDs as either storage pools or dedicated SSDs to increase the size of a Flash Pool aggregate by using System Manager.
+
+== Before you begin
+
+* The Flash Pool aggregate must be online.
+* There must be sufficient spare SSDs or allocation units in the storage pool that can be assigned as cache disks.
+
+== Steps
+
+. Click *Storage* > *Aggregates & Disks* > *Aggregates*.
+. In the *Aggregates* window, select the Flash Pool aggregate, and then click *Add Cache*.
+. In the *Add Cache* dialog box, perform the appropriate action:
++
+|===
+| If you selected the cache source as...| Do this...
+a|
+Storage pools
+a|
+Select the storage pool from which cache can be obtained, and specify the cache size.
+a|
+Dedicated SSDs
+a|
+Select the SSD size and the number of SSDs to include.
+|===
+
+. Click *Add*.
++
+For mirrored aggregates, an Add Cache dialog box is displayed with the information that twice the number of selected disks will be added.
+
+. In the *Add Cache* dialog box, click *Yes*.
+
+== Results
+
+The cache disks are added to the selected Flash Pool aggregate.

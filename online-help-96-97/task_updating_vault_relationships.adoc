@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_updating_vault_relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.'
+---
+= Updating a vault relationship
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.
+
+== Before you begin
+
+The vault relationship must be initialized.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the relationship for which you want to update the data, and click *Operations* > *Update*.
+. Choose one of the following options:
+ ** Select *As Per Policy* to perform an incremental transfer from the recent common Snapshot copy between the source and destination volumes.
+ ** Select *Select Snapshot copy* and specify the Snapshot copy that you want to transfer.
+. Select *Limit transfer bandwidth to* to limit the network bandwidth that is used for transfers and specify the maximum transfer speed.
+. Click *Update*.
+. Verify the transfer status in the *Details* tab.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

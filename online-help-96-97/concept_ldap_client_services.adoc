@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_ldap_client_services.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to add, edit, and delete LDAP client configurations.'
+---
+= LDAP client services
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add, edit, and delete LDAP client configurations.

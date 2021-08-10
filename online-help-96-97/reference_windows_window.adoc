@@ -1,0 +1,147 @@
+---
+permalink: online-help-96-97/reference_windows_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Windows window to maintain a list of local Windows users and groups for each storage virtual machine \(SVM\) on the cluster. You can use the local Windows users and groups for authentication and name mappings.'
+---
+= Windows window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Windows window to maintain a list of local Windows users and groups for each storage virtual machine (SVM) on the cluster. You can use the local Windows users and groups for authentication and name mappings.
+
+* <<GUID-8022D8F7-4C23-4EF9-A3C7-1DD1B91DDE5E,Users tab>>
+* <<GUID-BCF855D4-D7AA-4BD1-85EA-62CC29A2CBD6,Groups tab>>
+
+== Users tab
+
+You can use the Users tab to view the Windows users that are local to an SVM.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create User dialog box, which enables you to create a local Windows user account that can be used to authorize access to data contained in the SVM over an SMB connection.
+
+* *Edit*
++
+Opens the Edit User dialog box, which enables you to edit local Windows user properties, such as group memberships and the full name. You can also enable or disable the user account.
+
+* *Delete*
++
+Opens the Delete User dialog box, which enables you to delete a local Windows user account from an SVM if it is no longer required.
+
+* *Add to Group*
++
+Opens the Add Groups dialog box, which enables you to assign group membership to a user account if you want the user to have privileges associated with that group.
+
+* *Set Password*
++
+Opens the Reset Password dialog box, which enables you to reset the password of a Windows local user. For example, you might want to reset the password if the password is compromised or if the user has forgotten the password.
+
+* *Rename*
++
+Opens the Rename User dialog box, which enables you to rename a local Windows user account to more easily identify it.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Users list
+
+* *Name*
++
+Displays the name of the local user.
+
+* *Full Name*
++
+Displays the full name of the local user.
+
+* *Account Disabled*
++
+Displays whether the local user account is enabled or disabled.
+
+* *Description*
++
+Displays the description for this local user.
+
+== Users Details Area
+
+* *Group*
++
+Displays the list of groups in which the user is a member.
+
+== Groups tab
+
+You can use the Groups tab to add, edit, or delete Windows groups that are local to an SVM.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Group dialog box, which enables you to create local Windows groups that can be used for authorizing access to data contained in SVMs over an SMB connection.
+
+* *Edit*
++
+Opens the Edit Group dialog box, which enables you to edit the local Windows group properties, such as privileges assigned to the group and the description of the group.
+
+* *Delete*
++
+Opens the Delete Group dialog box, which enables you to delete a local Windows group from an SVM if it is no longer required.
+
+* *Add Members*
++
+Opens the Add Members dialog box, which enables you to add local or Active Directory users, or Active Directory groups to the local Windows group.
+
+* *Rename*
++
+Opens the Rename Group dialog box, which enables you to rename a local Windows group to more easily identify it.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Groups list
+
+* *Name*
++
+Displays the name of the local group.
+
+* *Description*
++
+Displays the description for this local group.
+
+== Groups Details Area
+
+* *Privileges*
++
+Displays the list of privileges associated with the selected group.
+
+* *Users*
++
+Displays the list of local users associated with the selected group.
+
+*Related information*
+
+xref:task_creating_local_user_group.adoc[Creating a local Windows group]
+
+xref:task_editing_local_windows_group_properties.adoc[Editing local Windows group properties]
+
+xref:task_adding_user_accounts_to_windows_local_group.adoc[Adding user accounts to a Windows local group]
+
+xref:task_renaming_local_windows_group.adoc[Renaming a local Windows group]
+
+xref:task_deleting_local_windows_group.adoc[Deleting a local Windows group]
+
+xref:task_creating_local_windows_user_accounts.adoc[Creating a local Windows user account]
+
+xref:task_editing_local_windows_user_properties.adoc[Editing the local Windows user properties]
+
+xref:task_assigning_group_memberships_to_user_account.adoc[Assigning group memberships to a user account]
+
+xref:task_renaming_local_windows_user.adoc[Renaming a local Windows user]
+
+xref:task_changing_password_for_windows_local_users.adoc[Resetting the password of a Windows local user]
+
+xref:task_deleting_local_windows_user_account.adoc[Deleting a local Windows user account]

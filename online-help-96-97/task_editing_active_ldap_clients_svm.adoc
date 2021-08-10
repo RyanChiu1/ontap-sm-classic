@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_editing_active_ldap_clients_svm.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to associate an active LDAP client with a storage virtual machine \(SVM\), which enables you to use LDAP as a name service or for name mapping.'
+---
+= Editing active LDAP clients
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to associate an active LDAP client with a storage virtual machine (SVM), which enables you to use LDAP as a name service or for name mapping.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *LDAP Configuration*.
+. In the *LDAP Configuration* window, click *Edit*.
+. In the *Active LDAP Client* dialog box, select the LDAP client that you want to edit, and perform the following actions:
+ ** Modify the Active Directory domain servers.
+ ** Modify the preferred Active Directory servers.
+. Click *OK*.
+. Verify that the changes that you made are updated in the *LDAP Configuration* window.

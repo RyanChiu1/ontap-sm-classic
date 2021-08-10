@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/reference_kerberos_interface_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Kerberos Interface window to enable Kerberos and to edit the Kerberos configuration for storage virtual machines \(SVMs\).'
+---
+= Kerberos Interface window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Kerberos Interface window to enable Kerberos and to edit the Kerberos configuration for storage virtual machines (SVMs).
+
+== Command buttons
+
+* *Edit*
++
+Opens the Edit Kerberos Configuration dialog box, which you can use to enable Kerberos and to edit the Kerberos configuration associated with the SVM.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Kerberos Interface list
+
+Provides details about the Kerberos configuration.
+
+* *Interface Name*
++
+Specifies the logical interfaces associated with the Kerberos configuration for SVMs.
+
+* *Service Principal Name*
++
+Specifies the Service Principal Name (SPN) that matches the Kerberos configuration.
+
+* *Realm*
++
+Specifies the name of the Kerberos realm associated with the Kerberos configuration.
+
+* *Kerberos Status*
++
+Specifies whether Kerberos is enabled.

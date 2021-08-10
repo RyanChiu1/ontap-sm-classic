@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_deleting_efficiency_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Managerto delete an efficiency policy that is no longer required.'
+---
+= Deleting efficiency policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Managerto delete an efficiency policy that is no longer required.
+
+== Before you begin
+
+The efficiency policy must be disabled.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Policies* pane, click *Efficiency Policies*.
+. Select the efficiency policy that you want to delete, and then click *Delete*.
+. Select the confirmation check box, and then click *Delete*.

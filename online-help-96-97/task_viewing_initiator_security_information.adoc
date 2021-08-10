@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_viewing_initiator_security_information.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to view the default authentication information and all the initiator-specific authentication information.'
+---
+= Viewing initiator security information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to view the default authentication information and all the initiator-specific authentication information.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *iSCSI*.
+. In the *Initiator Security* tab of the *iSCSI* window, review the details.

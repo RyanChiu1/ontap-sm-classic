@@ -1,0 +1,23 @@
+---
+permalink: peering/task_creating_svm_peers.html
+sidebar: sidebar
+keywords: 
+summary: 'The storage virtual machine \(SVM\) peering enables you to establish a peer relationship between two SVMs for data protection.'
+---
+= Creating SVM peer relationship
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The storage virtual machine (SVM) peering enables you to establish a peer relationship between two SVMs for data protection.
+
+== Steps
+
+. Select the initiator SVM.
+. Select the target SVM from the list of permitted SVMs.
+. Click *Initiate SVM Peering*.
+. Click *Continue*.
+
+== What to do next
+
+You can view the intercluster LIFs, cluster peer relationship, and SVM peer relationship in the Summary window.

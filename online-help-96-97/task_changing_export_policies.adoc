@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_changing_export_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'When a volume is created, the volume automatically inherits the default export policy of the root volume of the storage virtual machine \(SVM\). You can use System Manager to change the default export policy that is associated with the volume to redefine the client access to data.'
+---
+= Changing export policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When a volume is created, the volume automatically inherits the default export policy of the root volume of the storage virtual machine (SVM). You can use System Manager to change the default export policy that is associated with the volume to redefine the client access to data.
+
+== Steps
+
+. Click *Storage* > *Junction Path*.
+. From the drop-down menu in the *SVM* field, select the SVM in which the volume that you want to modify resides.
+. Select the volume, and then click *Change Export Policy*.
+. Select the export policy, and then click *Change*.
+. Verify that the *Export Policy* column in the *Junction Path* window displays the export policy that you applied to the volume.
+
+== Results
+
+The default export policy is replaced with the export policy that you selected.

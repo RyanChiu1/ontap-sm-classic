@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_creating_protection_policies_cluster_scope.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create cluster-level asynchronous mirror policies, vault policies, or mirror and vault policies, and to apply these policies to a cluster-level data protection relationship.'
+---
+= Creating protection policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create cluster-level asynchronous mirror policies, vault policies, or mirror and vault policies, and to apply these policies to a cluster-level data protection relationship.
+
+== Steps
+
+. Click *Protection* > *Protection Policies*.
+. Click *Create*.
+. In the *Create Policy* dialog box, select the type of policy that you want to create.
+. Specify the policy name and transfer priority.
++
+Low indicates that the transfer has the lowest priority. Low priority transfers are usually scheduled after normal priority transfers. By default, the transfer priority is set to Normal.
+
+. Select the *Enable Network Compression* check box to compress the data that is being transferred during a data transfer.
+. For an asynchronous mirror policy, select the *Transfer All Source Snapshot Copies* check box to include the "`all_source_snapshots`" rule to the mirror policy, which backs up all of the Snapshot copies from the source volume.
+. Click *Add Comments* to add additional comments for the policy.
+. For a vault policy or mirror vault policy, specify a SnapMirror label and a destination retention count.
+. Click *Create*.

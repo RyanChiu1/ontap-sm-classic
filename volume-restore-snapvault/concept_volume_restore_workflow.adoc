@@ -1,0 +1,14 @@
+---
+permalink: volume-restore-snapvault/concept_volume_restore_workflow.html
+sidebar: sidebar
+keywords: 
+summary: 'When your source volume is unavailable or data is corrupted, you can perform a restore from a SnapVault backup. Restoring a volume from a SnapVault backup involves selecting the SnapVault destination volume, restoring either to a new volume or existing volume, and verifying the restore operation.'
+---
+= Volume restore workflow
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When your source volume is unavailable or data is corrupted, you can perform a restore from a SnapVault backup. Restoring a volume from a SnapVault backup involves selecting the SnapVault destination volume, restoring either to a new volume or existing volume, and verifying the restore operation.
+
+image::../media/volume_restore_workflow.gif[This illustration is a flowchart of the SnapVault volume restore workflow. The steps in the workflow match the topics in this guide.">]

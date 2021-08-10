@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_adding_nis_domains.html
+sidebar: sidebar
+keywords: 
+summary: 'You can maintain host information centrally by using NIS. You can use System Manager to add the NIS domain name of your storage system. Only one NIS domain can be active on a storage virtual machine \(SVM\) at any given time.'
+---
+= Adding NIS domains
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can maintain host information centrally by using NIS. You can use System Manager to add the NIS domain name of your storage system. Only one NIS domain can be active on a storage virtual machine (SVM) at any given time.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *NIS*.
+. Click *Create*.
+. Type the NIS domain name, and then add one or more NIS servers.
+. Click *Create*.

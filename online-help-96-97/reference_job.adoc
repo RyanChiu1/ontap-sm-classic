@@ -1,0 +1,62 @@
+---
+permalink: online-help-96-97/reference_job.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Job window to manage job tasks such as displaying job information and monitoring the progress of a job.'
+---
+= Job window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Job window to manage job tasks such as displaying job information and monitoring the progress of a job.
+
+== Command button
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Tabs
+
+* *Current Jobs*
++
+This tab displays information about the job tasks that are in progress.
+
+* *Job History*
++
+This tab displays information about all the jobs.
+
+== Job list
+
+* *Job ID*
++
+Displays the ID of the job.
+
+* *Start Time*
++
+Displays the start time of the job.
+
+* *Job Name*
++
+Displays the name of the job.
+
+* *Node*
++
+Displays the name of the node.
+
+* *State*
++
+Displays the state of the job.
+
+* *Job Description*
++
+Displays the description of the job.
+
+* *Progress*
++
+Displays the state of the job.
+
+* *Schedule Name*
++
+Displays the name of the schedule.

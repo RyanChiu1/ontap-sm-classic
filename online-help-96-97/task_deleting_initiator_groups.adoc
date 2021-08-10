@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_deleting_initiator_groups.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Initiator Groups tab in System Manager to delete initiator groups.'
+---
+= Deleting initiator groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Initiator Groups tab in System Manager to delete initiator groups.
+
+== Before you begin
+
+All the LUNs mapped to the initiator group must be manually unmapped.
+
+== Steps
+
+. Click *Storage* > *LUNs*.
+. In the *Initiator Groups* tab, select one or more initiator groups that you want to delete, and then click *Delete*.
+. Click *Delete*.
+. Verify that the initiator groups you deleted are no longer displayed in the *Initiator Groups* tab.
+
+*Related information*
+
+xref:reference_luns_window.adoc[LUNs window]

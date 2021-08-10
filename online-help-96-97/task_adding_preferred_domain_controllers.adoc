@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_adding_preferred_domain_controllers.html
+sidebar: sidebar
+keywords: 
+summary: 'System Manager automatically discovers domain controllers through DNS. Optionally, you can add one or more domain controllers to the list of preferred domain controllers for a specific domain.'
+---
+= Adding preferred domain controllers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+System Manager automatically discovers domain controllers through DNS. Optionally, you can add one or more domain controllers to the list of preferred domain controllers for a specific domain.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Domain* tab, click *Add* in the *Preferred Domain Controllers* area.
+. Enter the fully qualified domain name (FQDN) and the IP addresses of the domain controllers that you want to add.
++
+You can add multiple domain controllers by entering the IP addresses of the domain controllers, separated by commas.
+
+. Click *Save*.
+. Verify that the domain controller that you added is displayed in the list of preferred domain controllers.

@@ -1,0 +1,40 @@
+---
+permalink: online-help-96-97/concept_what_cloud_tiers_tiering_policies_are.html
+sidebar: sidebar
+keywords: 
+summary: 'Cloud tiers provide storage for infrequently accessed data. You can attach an all-flash \(all-SSD\) aggregate to a cloud tier to store infrequently used data. You can use tiering policies to decide whether data should be moved to a cloud tier.'
+---
+= What cloud tiers and tiering policies are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Cloud tiers provide storage for infrequently accessed data. You can attach an all-flash (all-SSD) aggregate to a cloud tier to store infrequently used data. You can use tiering policies to decide whether data should be moved to a cloud tier.
+
+You can set one of the following tiering policies on a volume:
+
+* *Snapshot-only*
++
+Moves the Snapshot copies of only those volumes that are currently not being referenced by the active file system. Snapshot-only policy is the default tiering policy.
+
+* *Auto*
++
+Moves the inactive (cold) data and the Snapshot copies from the active file system to the cloud tier.
+
+* *Backup (for System Manager 9.5)*
++
+Moves the newly transferred data of a data protection (DP) volume to the cloud tier.
+
+* *All (starting with System Manager 9.6)*
++
+Moves all data to the cloud tier.
+
+* *None*
++
+Prevents the data on the volume from being moved to a cloud tier.
+
+*Related information*
+
+xref:task_adding_cloud_tier.adoc[Adding a cloud tier]
+
+xref:task_attaching_aggregate_to_cloud_tier.adoc[Attaching an aggregate to a cloud tier]

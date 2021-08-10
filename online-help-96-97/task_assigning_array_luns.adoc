@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_assigning_array_luns.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to assign unassigned array LUNs to an existing aggregate to increase the size of the aggregate.'
+---
+= Assigning array LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to assign unassigned array LUNs to an existing aggregate to increase the size of the aggregate.
+
+== About this task
+
+* You can assign array LUNs if the following conditions are true:
+ ** The container type of the selected array LUNs must be "`unassigned`".
+ ** The disks must be connected to nodes in an HA pair.
+ ** The disks must be visible to the node.
+* For MetroCluster configurations, you cannot use System Manager to assign array LUNs as spares.
++
+You must use the command-line interface instead.
+
+== Steps
+
+. Click *Storage* > *Aggregates & Disks* > *Array LUNs*.
+. Select the array LUNs, and then click *Assign*.
+. In the *Assign Array LUNs* dialog box, select the node to which you want to assign the array LUNs.
+. Click *Assign*.

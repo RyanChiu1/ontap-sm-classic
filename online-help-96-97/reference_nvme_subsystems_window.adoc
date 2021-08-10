@@ -1,0 +1,69 @@
+---
+permalink: online-help-96-97/reference_nvme_subsystems_window.html
+sidebar: sidebar
+keywords: 
+summary: 'The NVMe Subsystems window displays by default an inventory list of NVMe subsystems in a cluster. You can filter the list to display only subsystems that are specific to an SVM. The window also enables you to create, edit, or delete NVMe subsystems. You can access this window by selecting Storage \> NVMe \> Subsystems.'
+---
+= NVMe Subsystems window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The NVMe Subsystems window displays by default an inventory list of NVMe subsystems in a cluster. You can filter the list to display only subsystems that are specific to an SVM. The window also enables you to create, edit, or delete NVMe subsystems. You can access this window by selecting *Storage* > *NVMe* > *Subsystems*.
+
+* <<GUID-1E417C67-1F31-4FA5-AAA7-2D5BB298C6AB,NVMe Subsystems table>>
+* <<SECTION_819274C0AB2341B0915167A78A41F1D8,Toolbar>>
+
+== NVMe Subsystems table
+
+The NVMe Subsystems table lists the inventory of NVMe subsystems in a cluster. You can refine the list by using the drop-down menu in the *SVM* field to select an SVM to display only the NVMe subsystems associated with that SVM. The *Search* field and *Filtering* drop-down menu enable you to further customize the list.
+
+The NVMe Subsystems table contains the following columns:
+
+* *(check box)*
++
+Enables you to specify on which subsystems you want to perform actions.
++
+Click the check box to select the subsystem, then click the action in the toolbar that you want to perform.
+
+* *Name*
++
+Displays the name of the subsystem.
++
+You can search for a subsystem by entering its name in the *Search* field.
+
+* *Host OS*
++
+Displays the name of the host OS associated with the subsystem.
+
+* *Host NQN*
++
+Displays the NVMe Qualified Name (NQN) attached to the controller. If multiple NQNs are displayed, they are separated by commas.
+
+* *Associated NVMe Namespaces*
++
+Displays the number of the NVM namespaces associated with the subsystem. You can hover over the number to display the associated namespaces paths. Click on a path to display the Namespace Details window.
+
+== Toolbar
+
+The toolbar is located above the column header. You can use the fields and buttons in the toolbar to perform various actions.
+
+* *Search*
++
+Enables you to search on values that might be found in the *Name* column.
+
+* *Filtering*
++
+Allows you to select from a drop-down menu that lists various methods of filtering the list.
+
+* *Create*
++
+Opens the Create NVMe Subsystem dialog box, which enables you to create an NVMe subsystem.
+
+* *Edit*
++
+Opens the Edit NVMe Subsystem dialog box, which enables you to edit an existing NVMe subsystem.
+
+* *Delete*
++
+Opens the Delete NVMe Subsystem confirmation dialog box, which enables you to delete an existing NVMe subsystem.

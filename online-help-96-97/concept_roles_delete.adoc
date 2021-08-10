@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_roles_delete.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create and manage roles.'
+---
+= Roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create and manage roles.
+
+*Related information*
+
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-adm-auth-rbac/home.html[Administrator authentication and RBAC]

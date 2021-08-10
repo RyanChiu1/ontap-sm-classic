@@ -1,0 +1,17 @@
+---
+permalink: online-help-96-97/concept_hardware_cache.html
+sidebar: sidebar
+keywords: Hardware Cache
+summary: 'You can use System Manager to manage Hardware Cache modules.'
+---
+= Hardware Cache
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manage Hardware Cache modules.
+
+[NOTE]
+====
+Flash Cache is known as Hardware Cache in System Manager.
+====

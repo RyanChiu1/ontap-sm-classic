@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_editing_dns_configurations.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to add host information to centrally manage DNS configurations. You can modify the DNS details when you want to change the domain names or IP addresses.'
+---
+= Editing DNS configurations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add host information to centrally manage DNS configurations. You can modify the DNS details when you want to change the domain names or IP addresses.
+
+== Steps
+
+. Click *Configuration* > *Cluster* > *Configuration Updates*.
+. In the *Cluster Details* pane, click *Edit DNS Configuration*.
+. In the *DNS Domains* area, add or modify the DNS domain names.
+. In the *Name Servers* area, add or modify the IP addresses.
+. Click *OK*.

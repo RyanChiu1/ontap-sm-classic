@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_deleting_initiators_from_initiator_group.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Initiator Groups tab in System Manager to delete an initiator. To delete an initiator from an initiator group, you must disassociate the initiator from the initiator group.'
+---
+= Deleting initiators from an initiator group
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Initiator Groups tab in System Manager to delete an initiator. To delete an initiator from an initiator group, you must disassociate the initiator from the initiator group.
+
+== Before you begin
+
+All of the LUNs that are mapped to the initiator group that contains the initiator that you want to delete must be manually unmapped.
+
+== Steps
+
+. Click *Storage* > *LUNs*.
+. In the *Initiator Groups* tab, select the initiator group from which you want to delete the initiator, and then click *Edit*.
+. In the *Edit Initiator Group* dialog box, click the *Initiators* tab.
+. Select and delete the initiator from the text box, and click *Save*.
++
+The initiator is disassociated from the initiator group.
+
+*Related information*
+
+xref:reference_luns_window.adoc[LUNs window]

@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_deleting_cloud_tier.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to delete a cloud tier that you no longer require.'
+---
+= Deleting a cloud tier
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to delete a cloud tier that you no longer require.
+
+== Before you begin
+
+You must have deleted the FabricPool-enabled aggregate that is associated with the cloud tier.
+
+== Steps
+
+. Click *Storage* > *Aggregates & Disks* > *Cloud Tier*.
+. Select the cloud tier that you want to delete, and then click *Delete*.
+
+*Related information*
+
+xref:reference_storage_tiers_window.adoc[Storage Tiers window]

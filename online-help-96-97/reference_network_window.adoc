@@ -1,0 +1,442 @@
+---
+permalink: online-help-96-97/reference_network_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Network window to view the list of network components, such as subnets, network interfaces, Ethernet ports, broadcast domains, FC/FCoE and NVMe adapters, and IPspaces, and to create, edit, or delete these components in your storage system.'
+---
+= Network window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Network window to view the list of network components, such as subnets, network interfaces, Ethernet ports, broadcast domains, FC/FCoE and NVMe adapters, and IPspaces, and to create, edit, or delete these components in your storage system.
+
+* <<GUID-FD6452E4-D067-41D1-AA57-DAAB6100B7AF,Tabs>>
+* <<SECTION_43A478CFB06245A4A940752525102BCC,Subnet tab>>
+* <<SECTION_4D900345EE6E40319DB0B320D36B3E86,#SECTION_4D900345EE6E40319DB0B320D36B3E86>>
+* <<SECTION_8DAEBC82E94A45A49D33776E1E0B628F,Ethernet Ports tab>>
+* <<SECTION_04FD1BE851314CBC82C82BC6A1B39B5B,Broadcast Domain tab>>
+* <<SECTION_697CCAA6CB534804AC46601885161280,FC/FCoE and NVMe Adapters tab>>
+* <<SECTION_0B03DB8EDB9449F29CEE836B6A40A094,IPspaces tab>>
+
+== Tabs
+
+* *Subnet*
++
+Enables you to view a list of subnets, and create, edit, or delete subnets from your storage system.
+
+* *Network Interfaces*
++
+Enables you to view a list of network interfaces, create, edit, or delete interfaces from your storage system, migrate the LIFs, change the status of the interface, and send the interface back to the home port.
+
+* *Ethernet Ports*
++
+Enables you to view and edit the ports of a cluster, and create, edit, or delete interface groups and VLAN ports.
+
+* *Broadcast Domains*
++
+Enables you to view a list of broadcast domains, and create, edit, or delete domains from your storage system.
+
+* *FC/FCoE and NVMe Adapters*
++
+Enables you to view the ports in a cluster, and edit the FC/FCoE and NVMe adapter settings.
+
+* *IPspaces*
++
+Enables you to view a list of IPspaces and broadcast domains, and create, edit, or delete an IPspace from your storage system.
+
+== Subnet tab
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Subnet dialog box, which enables you to create new subnets that contain configuration information for creating a network interface.
+
+* *Edit*
++
+Opens the Edit Subnet dialog box, which enables you to modify certain attributes of a subnet such as the name, subnet address, range of IP addresses, and gateway details.
+
+* *Delete*
++
+Deletes the selected subnet.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Subnet list
+
+* *Name*
++
+Specifies the name of the subnet.
+
+* *Subnet IP/Subnet mask*
++
+Specifies the subnet address details.
+
+* *Gateway*
++
+Specifies the IP address of the gateway.
+
+* *Available*
++
+Specifies the number of IP addresses available in the subnet.
+
+* *Used*
++
+Specifies the number of IP addresses used in the subnet.
+
+* *Total Count*
++
+Specifies the total number of IP addresses (available and used) in the subnet.
+
+* *Broadcast domain*
++
+Specifies the broadcast domain to which the subnet belongs.
+
+* *IPspace*
++
+Specifies the IPspace to which the subnet belongs.
+
+== Details area
+
+The area below the subnet list displays detailed information about the selected subnet, including the subnet range and a graph showing the available, used, and total number of IP addresses.
+
+== Limitations of the Network Interfaces tab
+
+* For cluster LIFs, node management LIFs, VIP LIFs, and BGP LIFs, you cannot use System Manager to perform the following actions:
+ ** Create, edit, delete, enable, or disable the LIFs
+ ** Migrate the LIFs or send the LIFs back to the home port
+* For cluster management LIFs, you can use System Manager to migrate the LIFs, or send the LIFs back to the home port.
++
+However, you cannot create, edit, delete, enable, or disable the LIFs.
+
+* For intercluster LIFs, you can use System Manager to create, edit, delete, enable, or disable the LIFs.
++
+However, you cannot migrate the LIFs, or send the LIFs back to the home port.
+
+* You cannot create, edit, or delete network interfaces in the following configurations:
+ ** A MetroCluster configuration
+ ** SVMs configured for disaster recovery (DR).
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Network Interface dialog box, which enables you to create network interfaces and intercluster LIFs to serve data and manage SVMs.
+
+* *Edit*
++
+Opens the Edit Network Interface dialog box, which you can use to enable management access for a data LIF.
+
+* *Delete*
++
+Deletes the selected network interface.
++
+This button is enabled only if the data LIF is disabled.
+
+* *Status*
++
+Open the drop-down menu, which provides the option to enable or disable the selected network interface.
+
+* *Migrate*
++
+Enables you to migrate a data LIF or a cluster management LIF to a different port on the same node or a different node within the cluster.
+
+* *Send to Home*
++
+Enables you to host the LIF back on its home port.
++
+This command button is enabled only when the selected interface is hosted on a non-home port and when the home port is available.
++
+This command button is disabled when any node in the cluster is down.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Interface list
+
+You can move the pointer over the color-coded icon to view the operational status of the interface:
+
+* Green specifies that the interface is enabled.
+* Red specifies that the interface is disabled.
+* *Interface Name*
++
+Specifies the name of the network interface.
+
+* *Storage Virtual Machine*
++
+Specifies the SVM to which the interface belongs.
+
+* *IP Address/WWPN*
++
+Specifies the IP address or worldwide port name (WWPN) of the interface.
+
+* *Current Port*
++
+Specifies the name of the node and port on which the interface is hosted.
+
+* *Data Protocol Access*
++
+Specifies the protocol used to access data.
+
+* *Management Access*
++
+Specifies whether management access is enabled on the interface.
+
+* *Subnet*
++
+Specifies the subnet to which the interface belongs.
+
+* *Role*
++
+Specifies the operational role of the interface, which can be data, intercluster, cluster, cluster management, or node management.
+
+== Details area
+
+The area below the interface list displays detailed information about the selected interface: failover properties such as the home port, current port, speed of the ports, failover policy, failover group, and failover state, and general properties such as the administrative status, role, IPspace, broadcast domain, network mask, gateway, and DDNS status.
+
+== Ethernet Ports tab
+
+== Command buttons
+
+* *Create Interface Group*
++
+Opens the Create Interface Group dialog box, which enables you create interface groups by choosing the ports, and determining the use of ports and network traffic distribution.
+
+* *Create VLAN*
++
+Opens the Create VLAN dialog box, which enables you to create a VLAN by choosing an Ethernet port or an interface group, and adding VLAN tags.
+
+* *Edit*
++
+Opens one of the following dialog boxes:
+
+ ** Edit Ethernet Port dialog box: Enables you to modify Ethernet port settings.
+ ** Edit VLAN dialog box: Enables you to modify VLAN settings.
+ ** Edit Interface Group dialog box: Enables you to modify interface groups.
+You can only edit VLANs that are not associated with a broadcast domain.
+
+* *Delete*
++
+Opens one of the following dialog boxes:
+
+ ** Delete VLAN dialog box: Enables you to delete a VLAN.
+ ** Delete Interface Group dialog box: Enables you to delete an interface group.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Ports list
+
+You can move the pointer over the color-coded icon to view the operational status of the port:
+
+* Green specifies that the port is enabled.
+* Red specifies that the port is disabled.
+* *Port*
++
+Displays the port name of the physical port, VLAN port, or the interface group.
+
+* *Node*
++
+Displays the node on which the physical interface is located.
+
+* *Broadcast Domain*
++
+Displays the broadcast domain of the port.
+
+* *IPspace*
++
+Displays the IPspace to which the port belongs.
+
+* *Type*
++
+Displays the type of the interface such as interface group, physical interface, vip, or VLAN.
+
+== Details area
+
+The area below the ports list displays detailed information about the port properties.
+
+* *Details tab*
++
+Displays administrative details and operational details.
++
+As part of the operational details, the tab displays the health status of the ports. The ports can be healthy or degraded. A degraded port is a port on which continuous network fluctuations occur, or a port that has no connectivity to any other ports in the same broadcast domain.
++
+In addition, the tab also displays the interface name, SVM details, and IP address details of the network interfaces that are hosted on the selected port. It also indicates whether the interface is at the home port or not.
+
+* *Performance tab*
++
+Displays performance metrics graphs of the ethernet ports, including error rate and throughput.
++
+Changing the client time zone or the cluster time zone impacts the performance metrics graphs. You should refresh your browser to view the updated graphs.
+
+== Broadcast Domain tab
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Broadcast Domain dialog box, which enables you to create new broadcast domains to contain ports.
+
+* *Edit*
++
+Opens the Edit Broadcast Domain dialog box, which enables you to modify the attributes of a broadcast domain, such as the name, MTU size, and associated ports.
+
+* *Delete*
++
+Deletes the selected broadcast domain.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Broadcast domain list
+
+* *Broadcast Domain*
++
+Specifies the name of the broadcast domain.
+
+* *MTU*
++
+Specifies the MTU size.
+
+* *IPspace*
++
+Specifies the IPspace.
+
+* *Combined Port Update Status*
++
+Specifies the status of the port updates when you create or edit a broadcast domain. Any errors in the port updates are displayed in a separate window, which you can open by clicking the associated link.
+
+== Details area
+
+The area below the broadcast domain list displays all the ports in a broadcast domain. In a non-default IPspace, if a broadcast domain has ports with update errors, such ports are not displayed in the details area. You can move the pointer over the color-coded icon to view the operational status of the ports:
+
+* Green specifies that the port is enabled.
+* Red specifies that the port is disabled.
+
+== FC/FCoE and NVMe Adapters tab
+
+== Command buttons
+
+* *Edit*
++
+Opens the Edit FC/FCoE and NVMe Settings dialog box, which enables you to modify the speed of the adapter.
+
+* *Status*
++
+Enables you to bring the adapter online or take it offline.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== FC/FCoE and NVMe adapters list
+
+* *WWNN*
++
+Specifies the unique identifier of the FC/FCoE and NVMe adapter.
+
+* *Node Name*
++
+Specifies the name of the node that is using the adapter.
+
+* *Slot*
++
+Specifies the slot that is using the adapter.
+
+* *WWPN*
++
+Specifies the FC worldwide port name (WWPN) of the adapter.
+
+* *Status*
++
+Specifies whether the status of the adapter is online or offline.
+
+* *Speed*
++
+Specifies whether the speed settings are automatic or manual.
+
+== Details area
+
+The area below the FC/FCoE and NVMe adapters list displays detailed information about the selected adapters.
+
+* *Details tab*
++
+Displays adapter details such as the media type, port address, data link rate, connection status, operation status, fabric status, and the speed of the adapter.
+
+* *Performance tab*
++
+Displays performance metrics graphs of the FC/FCoE and NVMe adapter, including IOPS and response time.
++
+Changing the client time zone or the cluster time zone impacts the performance metrics graphs. You should refresh your browser to see the updated graphs.
+
+== IPspaces tab
+
+== Command buttons
+
+* *Create*
++
+Opens the Create IPspace dialog box, which enables you to create a new IPspace.
+
+* *Edit*
++
+Opens the Edit IPspace dialog box, which enables you to rename an existing IPspace.
+
+* *Delete*
++
+Deletes the selected IPspace.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== IPspaces list
+
+* *Name*
++
+Specifies the name of the IPspace.
+
+* *Broadcast Domains*
++
+Specifies the broadcast domain.
+
+== Details area
+
+The area below the IPspaces list displays the list of storage virtual machines (SVMs) in the selected IPspace.
+
+*Related information*
+
+xref:task_creating_network_interfaces.adoc[Creating network interfaces]
+
+xref:task_editing_network_interfaces.adoc[Editing network interface settings]
+
+xref:task_deleting_network_interfaces.adoc[Deleting network interfaces]
+
+xref:task_creating_subnets.adoc[Creating subnets]
+
+xref:task_editing_subnets.adoc[Editing subnet settings]
+
+xref:task_deleting_subnets.adoc[Deleting subnets]
+
+xref:task_creating_vlan_interfaces.adoc[Creating VLAN interfaces]
+
+xref:task_creating_interface_groups.adoc[Creating interface groups]
+
+xref:task_editing_fc_fcoe_adapter_speed.adoc[Editing the FC/FCoE and NVMe adapter speed settings]
+
+xref:task_editing_interface_group_settings.adoc[Editing interface group settings]
+
+xref:task_deleting_vlans.adoc[Deleting VLANs]
+
+xref:task_creating_broadcast_domains.adoc[Creating broadcast domains]
+
+xref:task_editing_broadcast_domains.adoc[Editing broadcast domain settings]
+
+xref:task_deleting_broadcast_domains.adoc[Deleting broadcast domains]
+
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]

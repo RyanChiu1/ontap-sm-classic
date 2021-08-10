@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_igroup_type.html
+sidebar: sidebar
+keywords: 
+summary: 'The igroup type can be mixed type, iSCSI, or FC/FCoE.'
+---
+= igroup type
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The igroup type can be mixed type, iSCSI, or FC/FCoE.

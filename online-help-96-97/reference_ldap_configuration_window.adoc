@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/reference_ldap_configuration_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the LDAP Configuration window to edit or delete active LDAP clients at the storage virtual machine \(SVM\) level.'
+---
+= LDAP Configuration window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the LDAP Configuration window to edit or delete active LDAP clients at the storage virtual machine (SVM) level.
+
+== Command buttons
+
+* *Edit*
++
+Opens the Active LDAP Client dialog box, which enables you to edit the properties of the active LDAP client, such as Active Directory domain servers and preferred Active Directory servers.
+
+* *Delete*
++
+Opens the Delete Active LDAP Client dialog box, which enables you to delete the active LDAP client.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== LDAP Configuration area
+
+Displays the details about the active LDAP client.
+
+* *LDAP client name*
++
+Displays the name of the active LDAP client.
+
+* *Active Directory Domain Servers*
++
+Displays the Active Directory domain for the active LDAP client.
+
+* *Preferred Active Directory Servers*
++
+Displays the preferred Active Directory server for the active LDAP client.

@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/task_initializing_vault_relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to initialize a vault relationship if you have not already initialized it while creating the relationship. A baseline transfer of data is initiated from the source FlexVol volume to the destination FlexVol volume.'
+---
+= Initializing a vault relationship
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to initialize a vault relationship if you have not already initialized it while creating the relationship. A baseline transfer of data is initiated from the source FlexVol volume to the destination FlexVol volume.
+
+== Before you begin
+
+The source and destination clusters must be in a healthy peer relationship.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the relationship you want to initialize, and click *Operations* > *Initialize*.
+. In the *Initialize* window, click *Initialize*.
+
+== Results
+
+A Snapshot copy is created and transferred to the destination.
+
+This Snapshot copy is used as a baseline for subsequent incremental Snapshot copies.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]
