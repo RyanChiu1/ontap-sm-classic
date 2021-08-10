@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_renaming_export_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Managerto rename an existing export policy.'
+---
+= Renaming export policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Managerto rename an existing export policy.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Policies* pane, click *Export Policies*.
+. Select the export policy that you want to rename, and then click *Rename Policy*.
+. In the *Rename Policy* dialog box, specify a new policy name, and then click *Modify*.
+. Verify the changes that you made in the *Export Policies* window.

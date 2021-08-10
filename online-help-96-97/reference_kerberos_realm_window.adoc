@@ -1,0 +1,50 @@
+---
+permalink: online-help-96-97/reference_kerberos_realm_window.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Kerberos Realm window to provide authentication between storage virtual machines \(SVMs\) and NFS clients to ensure secure NFS communication.'
+---
+= Kerberos Realm window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Kerberos Realm window to provide authentication between storage virtual machines (SVMs) and NFS clients to ensure secure NFS communication.
+
+== Command buttons
+
+* *Create*
++
+Opens the Kerberos Realm Create wizard, which enables you to configure a Kerberos realm to retrieve user information.
+
+* *Edit*
++
+Opens the Kerberos Realm Edit wizard, which enables you to edit a Kerberos realm configuration based on the requirement for SVM authentication and authorization.
+
+* *Delete*
++
+Opens the Delete Kerberos Realm(s) dialog box, which enables you to delete Kerberos realm configuration.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Kerberos Realm list
+
+Provides details about the Kerberos realms, in tabular format.
+
+* *Realm*
++
+Specifies the name of the Kerberos realm.
+
+* *KDC Vendor*
++
+Specifies the name of the Kerberos Distribution Center (KDC) vendor.
+
+* *KDC IP Address*
++
+Specifies the KDC IP address used by the configuration.
+
+== Details area
+
+The details area displays information such as the KDC IP address and port number, KDC vendor, administrative server IP address and port number, Active Directory server and server IP address of the selected Kerberos realm configuration.

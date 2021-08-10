@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/concept_considerations_when_moving_volumes.html
+sidebar: sidebar
+keywords: 
+summary: 'Moving a volume has many considerations and recommendations that are influenced by the volume you are moving or by the system configuration. You should understand the considerations associated with moving volumes.'
+---
+= Considerations when moving volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Moving a volume has many considerations and recommendations that are influenced by the volume you are moving or by the system configuration. You should understand the considerations associated with moving volumes.
+
+* If you move a volume that has inline deduplication enabled from an aggregate with All Flash Optimized personality or a Flash Pool aggregate to an HDD aggregate, inline deduplication is disabled on the volume.
+* If you move a volume that has background deduplication and inline compression enabled from an aggregate with All Flash Optimized personality to an HDD aggregate, then background compression, background deduplication, and inline compression are automatically enabled on the volume.
+* If you move a volume that has background compression enabled from an HDD aggregate to an aggregate with All Flash Optimized personality, background compression is disabled on the volume.
+* If you move a volume from a Flash Pool aggregate to a non-Flash Pool aggregate, the caching policies and retention priority are disabled.
+* If you move a volume from a non-Flash Pool aggregate to a Flash Pool aggregate, the `default` caching policy and the `default` retention priority are automatically assigned to the volume.

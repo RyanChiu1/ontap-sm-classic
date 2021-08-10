@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/task_adding_disks_to_storage_pool.html
+sidebar: sidebar
+keywords: 
+summary: 'You can add SSDs to an existing storage pool and increase its cache size by using System Manager.'
+---
+= Adding disks to a storage pool
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add SSDs to an existing storage pool and increase its cache size by using System Manager.
+
+== Before you begin
+
+Both nodes of the HA pair must be up and running in order to allocate SSDs and SSD spares through a storage pool.
+
+== About this task
+
+* The SSDs that you add to a storage pool are distributed proportionally among the aggregates using the storage pool cache and to the free space of the storage pool.
+* System Manager enforces the hot spare rule for SSD RAID groups when you use SSDs for adding disks to a storage pool.
++
+For example, if there are 10 SSDs in the SSD RAID group and the option `raid.min_spare_count` is set to `1` at the node level, System Manager leaves 1 SSD as the hot spare and uses the other 9 SSDs for SSD-related operations.
+
+* You cannot use partitioned SSDs when adding disks to a storage pool by using System Manager.
+
+== Steps
+
+. Click *Storage* > *Aggregates & Disks* > *Storage Pools*.
+. In the *Storage Pools* window, select the storage pool, and then click *Add Disks*.
+. In the *Add Disks* dialog box, specify the number of disks that you want to add.
+. Click *Next*.
+. In the *Summary* dialog box, review how the cache is distributed among various aggregates and the free space of the storage pool.
+. Click *Add*.
+
+*Related information*
+
+xref:reference_storage_pools_window.adoc[Storage Pools window]

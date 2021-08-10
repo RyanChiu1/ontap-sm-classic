@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_licenses.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to view, manage, or delete any software licenses installed on a cluster or node.'
+---
+= Licenses
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to view, manage, or delete any software licenses installed on a cluster or node.
+
+*Related information*
+
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/home.html[System administration]

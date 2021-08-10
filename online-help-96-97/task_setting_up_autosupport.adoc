@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_setting_up_autosupport.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Edit AutoSupport Settings dialog box in System Manager to set up AutoSupport notifications by specifying an email address from which email notifications are sent and adding multiple email host names.'
+---
+= Setting up AutoSupport notifications
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Edit AutoSupport Settings dialog box in System Manager to set up AutoSupport notifications by specifying an email address from which email notifications are sent and adding multiple email host names.
+
+== Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
+. Select the node, and then click *Edit*.
+. In the *Email Recipient* tab, type the email address from which email notifications are sent, specify the email recipients and the message content for each email recipient, and add the mail hosts.
++
+You can add up to five email addresses of the host names.
+
+. In the *Others* tab, select a transport protocol for delivering the email messages from the drop-down list and specify the HTTP or HTTPS proxy server details.
+. Click *OK*.
+. Verify that configuration you have set for AutoSupport notification is set up correctly in the *AutoSupport* window.

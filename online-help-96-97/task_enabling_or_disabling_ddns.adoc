@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_ddns.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to enable or disable DDNS on a storage system.'
+---
+= Enabling or disabling DDNS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to enable or disable DDNS on a storage system.
+
+== About this task
+
+* DNS is enabled by default.
+* DDNS is disabled by default.
+* System Manager does not perform any validation checks for the DNS and DDNS settings.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *DNS/DDNS*.
+. In the *DNS/DDNS Services* window, click *Edit*.
+. In the *Edit DNS/DDNS Settings* dialog box, enable DDNS by selecting the *DDNS service* check box.
++
+You can disable DDNS by clearing the *DDNS service* check box.
+
+. Click *OK*.
+
+*Related information*
+
+xref:reference_dns_ddns_window.adoc[DNS/DDNS Services window]

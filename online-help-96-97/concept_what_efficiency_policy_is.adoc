@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/concept_what_efficiency_policy_is.html
+sidebar: sidebar
+keywords: 
+summary: 'An efficiency policy is a job schedule for a deduplication operation on a FlexVol volume.'
+---
+= What an efficiency policy is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+An efficiency policy is a job schedule for a deduplication operation on a FlexVol volume.
+
+You can run deduplication on a FlexVol volume either by scheduling the operations to start at a specific time or by specifying that the operations are triggered if a threshold percentage is exceeded. You can schedule a deduplication operation by creating job schedules that are enclosed within the efficiency policies. The volume efficiency policies support only job schedules that are of type cron. Alternately, you can specify a threshold percentage. When new data exceeds the specified percentage, the deduplication operation is started.

@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/concept_igroup_name.html
+sidebar: sidebar
+keywords: 
+summary: 'The igroup name is a case-sensitive name that must satisfy several requirements.'
+---
+= igroup name
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The igroup name is a case-sensitive name that must satisfy several requirements.
+
+The igroup name:
+
+* Contains 1 to 96 characters. Spaces are not allowed.
+* Can contain the letters A through Z, a through z, numbers 0 through 9, hyphen ("`-`"), underscore ("`_`"), colon ("`:`"), and period ("`.`").
+* Must start with a letter or number.
+
+The name you assign to an igroup is independent of the name of the host that is used by the host operating system, host files, or Domain Name Service (DNS). If you name an igroup aix1, for example, it is not mapped to the actual IP host name (DNS name) of the host.
+
+[NOTE]
+====
+You might find it useful to provide meaningful names for igroups, ones that describe the hosts that can access the LUNs mapped to them.
+====

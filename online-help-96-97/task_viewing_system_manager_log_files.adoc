@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/task_viewing_system_manager_log_files.html
+sidebar: sidebar
+keywords: 
+summary: 'If you encounter any issues when using System Manager, you can send the log files to technical support to help troubleshoot the issues. The System Manager log files are located in the mlog directory along with the ONTAP log files.'
+---
+= Viewing ONTAP System Manager log files
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you encounter any issues when using System Manager, you can send the log files to technical support to help troubleshoot the issues. The System Manager log files are located in the `mlog` directory along with the ONTAP log files.
+
+== Steps
+
+. Identify the node that hosts the cluster management LIF.
+. Enter the following URL in a web browser: `+https://cluster-mgmt-LIF/spi+`
++
+`cluster-mgmt-LIF` is the IP address of the cluster management LIF.
+
+. Type your cluster administrator credentials, and then click *OK*.
+. In the *Data ONTAP - Root Volume File Access* window, click the *logs* link for the node that hosts the cluster management LIF.
+. Navigate to the `mlog` directory to access the System Manager log files.
++
+You might require the following log files, depending on the type of issue that you encountered:
+
+ ** `sysmgr.log`
++
+This file contains the latest logs for System Manager.
+
+ ** `mgwd.log`
+ ** `php.log`
+ ** `apache_access.log`
+ ** `messages.log`

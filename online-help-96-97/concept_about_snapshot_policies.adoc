@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/concept_about_snapshot_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'When applied to a volume, a Snapshot policy specifies a schedule or schedules according to which Snapshot copies are created and specifies the maximum number of Snapshot copies that each schedule can create. A Snapshot policy can include up to five schedules.'
+---
+= About Snapshot policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When applied to a volume, a Snapshot policy specifies a schedule or schedules according to which Snapshot copies are created and specifies the maximum number of Snapshot copies that each schedule can create. A Snapshot policy can include up to five schedules.
+
+For vault relationships, the SnapMirror Label attribute is used to select Snapshot copies on the source volumes. Only Snapshot copies with the labels configured in the vault policy rules are replicated in backup vault operations. The Snapshot policy assigned to the source volume must include the SnapMirror Label attribute.

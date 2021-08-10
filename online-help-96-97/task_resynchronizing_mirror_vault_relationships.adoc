@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/task_resynchronizing_mirror_vault_relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to reestablish a mirror and vault relationship that was broken earlier. You can perform a resynchronization operation to recover from a disaster that disabled the source volume.'
+---
+= Resynchronizing mirror and vault relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to reestablish a mirror and vault relationship that was broken earlier. You can perform a resynchronization operation to recover from a disaster that disabled the source volume.
+
+== Before you begin
+
+The source and destination clusters and the source and destination storage virtual machines (SVMs) must be in peer relationships.
+
+== About this task
+
+You should be aware of the following before performing a resynchronization operation:
+
+* When you perform a resynchronization operation, the contents on the destination volume are overwritten by the contents on the source.
++
+[NOTE]
+====
+The resynchronization operation can cause loss of newer data written to the destination volume after the base Snapshot copy was created.
+====
+
+* If the Last Transfer Error field in the Protection window recommends a resynchronization operation, you must first break the relationship and then perform the resynchronization operation.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror and vault relationship that you want to resynchronize, and then click *Operations* > *Resync*.
+. Select the confirmation check box, and then click *Resync*.

@@ -1,0 +1,47 @@
+---
+permalink: online-help-96-97/task_reverse_resynchronizing_snapmirror_relationships.html
+sidebar: sidebar
+keywords: reverse resync
+summary: 'You can use System Manager to reestablish a mirror relationship that was previously broken. In a reverse resynchronization operation, you reverse the functions of the source volume and destination volume.'
+---
+= Reverse resynchronizing mirror relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to reestablish a mirror relationship that was previously broken. In a reverse resynchronization operation, you reverse the functions of the source volume and destination volume.
+
+== Before you begin
+
+The source volume must be online.
+
+== About this task
+
+* You can use the destination volume to serve data while you repair or replace the source volume, update the source volume, and reestablish the original configuration of the systems.
+* When you perform reverse resynchronization, the contents on the mirror source are overwritten by the contents on the destination volume.
++
+[NOTE]
+====
++
+....
+-   For SnapLock compliance volumes, all data changes in the active file system with reference to the common Snapshot copy are preserved in a locked Snapshot copy until the expiry time that is set for the current volume.
+
+    If the volume expiry time is in the past or has not been set, then the Snapshot copy and the common Snapshot copy are locked for a duration of 30 days. All of the intermediate Snapshot copies between the common Snapshot copy and the latest locked Snapshot copy are deleted.
+
+-   For all volumes other than SnapLock compliance volumes, the resynchronization operation might cause loss of newer data that is written to the source volume after the base Snapshot copy was created.
+....
++
+====
+
+* When you perform reverse resynchronization, the mirror policy of the relationship is set to DPDefault, and the mirror schedule is set to None.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror relationship that you want to reverse.
+. Click *Operations* > *Reverse Resync*.
+. Select the confirmation checkbox, and then click *Reverse Resync*.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

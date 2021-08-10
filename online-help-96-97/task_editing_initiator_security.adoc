@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_editing_initiator_security.html
+sidebar: sidebar
+keywords: 
+summary: 'The security style that is configured for an initiator specifies how authentication is done for that initiator during the iSCSI connection login phase. You can use System Manager to change the security for selected iSCSI initiators by changing the authentication method.'
+---
+= Editing initiator security
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The security style that is configured for an initiator specifies how authentication is done for that initiator during the iSCSI connection login phase. You can use System Manager to change the security for selected iSCSI initiators by changing the authentication method.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *iSCSI*.
+. In the *Initiator Security* tab, select one or more initiators from the initiator list, and then click *Edit* in the *Initiator Security* area.
+. Change the security type.
++
+For CHAP authentication, you must provide the user name and password, and then confirm your password for inbound settings. For outbound settings, this login information is optional.
+
+. Click *OK*.
+. Verify the changes that you made in the *Initiator Security* tab.
+
+*Related information*
+
+xref:reference_iscsi_window.adoc[iSCSI window]

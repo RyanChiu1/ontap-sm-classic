@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/reference_roles_svm_scope_delete.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Roles window to manage the roles that are associated with user accounts.'
+---
+= Roles window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Roles window to manage the roles that are associated with user accounts.
+
+== Command buttons
+
+* *Add*
++
+Opens the Add Role dialog box, which enables you to create an access-control role and specify the command or command directory that the role's users can access.
+
+* *Edit*
++
+Opens the Edit Role dialog box, which enables you to add or modify role attributes.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Roles list
+
+The roles list provides a list of roles that are available to be assigned to users.
+
+== Role Attributes area
+
+The details area displays the role attributes, such as the command or command directory that the selected role can access, the access level, and the query that applies to the command or command directory.

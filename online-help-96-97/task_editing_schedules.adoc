@@ -1,0 +1,40 @@
+---
+permalink: online-help-96-97/task_editing_schedules.html
+sidebar: sidebar
+keywords: 
+summary: 'You can make changes to a previously created cron schedule or an interval schedule if it does not meet your requirements by using System Manager. You can modify schedule details such as recurring days and hours, interval options, and advanced cron options.'
+---
+= Editing schedules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can make changes to a previously created cron schedule or an interval schedule if it does not meet your requirements by using System Manager. You can modify schedule details such as recurring days and hours, interval options, and advanced cron options.
+
+== About this task
+
+When you edit a schedule in a MetroCluster configuration, it is a best practice to edit the equivalent schedule on the surviving site cluster as well.
+
+== Steps
+
+. Click *Protection* > *Schedules*.
+. Select the schedule that you want to modify and click *Edit*.
+. In the *Edit Schedule* dialog box, modify the schedule by performing the appropriate action:
++
+|===
+| If you select the schedule option as...| Do this..
+a|
+Basic
+a|
+Specify the recurring days and recurring schedule details.
+a|
+Interval
+a|
+Specify the interval options in days, hours, and minutes.
+a|
+Advanced
+a|
+Specify the advanced cron options in months, days, week days (if applicable), hours, and minutes.
+|===
+
+. Click *OK*.

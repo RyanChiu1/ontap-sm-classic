@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/concept_roles_permissions.html
+sidebar: sidebar
+keywords: 
+summary: 'The cluster administrator can restrict a user’s access to only a specified set of commands by creating a restricted access-control role and then assigning the role to a user.'
+---
+= Roles and permissions
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The cluster administrator can restrict a user's access to only a specified set of commands by creating a restricted access-control role and then assigning the role to a user.
+
+You can manage access-control roles in the following ways:
+
+* By creating an access-control role, and then specifying the command or command directory that the role's users can access.
+* By controlling the level of access that the role has for the command or command directory, and then specifying a query that applies to the command or command directory.
+* By modifying an access-control role's access to a command or command directory.
+* By displaying information about access-control roles, such as the role name, the command or command directory that a role can access, the access level, and the query.
+* By deleting an access-control role.
+* By restricting a user's access to only a specified set of commands.
+* By displaying ONTAP APIs and their corresponding command-line interface (CLI) commands.

@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_viewing_qtree_information.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the Qtrees window in System Manager to view the volume that contains the qtree, the name, security style, and status of the qtree, and the oplocks status.'
+---
+= Viewing qtree information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Qtrees window in System Manager to view the volume that contains the qtree, the name, security style, and status of the qtree, and the oplocks status.
+
+== Steps
+
+. Click *Storage* > *Qtrees*.
+. From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which the qtree about which you want to view information resides.
+. Select the qtree from the displayed list of qtrees.
+. Review the qtree details in the *Qtrees* window.

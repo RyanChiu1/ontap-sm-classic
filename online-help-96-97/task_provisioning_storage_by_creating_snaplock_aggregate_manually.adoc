@@ -1,0 +1,61 @@
+---
+permalink: online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide “write once, read many” \(WORM\) capabilities.'
+---
+= Provisioning storage by creating a SnapLock aggregate manually
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide "`write once, read many`" (WORM) capabilities.
+
+== Before you begin
+
+The SnapLock license must have been added.
+
+== About this task
+
+* In MetroCluster configurations, you can create only SnapLock Enterprise aggregates.
+* For array LUNs, only SnapLock Enterprise aggregates are supported.
+* Starting with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
+* If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only option available for RAID type.
+* Starting with ONTAP 9.1, you can create a SnapLock aggregate on an AFF platform.
+
+== Steps
+
+. Create a SnapLock aggregate by using one of the following methods:
+ ** Click *Applications & Tiers* > *Storage Tiers* > *Add Aggregate*.
+ ** Click *Storage* > *Aggregate & Disks* > *Aggregates* > *Create*.
+. Enable the *Manually Create Aggregate* option to create an aggregate.
+. To create a SnapLock aggregate:
+ .. Specify the name of the aggregate, the disk type, and the number of disks or partitions to include in the aggregate.
++
+You cannot change the name of a SnapLock Compliance aggregate after you create the aggregate.
++
+The minimum hot spare rule is applied to the disk group that has the largest disk size.
+
+ .. Modify the RAID configuration of the aggregate:
+  ... Click *Change*.
+  ... In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.
++
+Shared disks support two RAID types: RAID-DP and RAID-TEC.
+
+  ... Click *Save*.
+ .. Specify the SnapLock type.
+ .. If you have not initialized the system ComplianceClock, select the *Initialize ComplianceClock* check box.
++
+This option is not displayed if the ComplianceClock is already initialized on the node.
++
+[NOTE]
+====
+You must ensure that the current system time is correct. The ComplianceClock is set based on the system clock. Once the ComplianceClock is set, you cannot modify or stop the ComplianceClock.
+====
+
+ .. If you want to mirror the aggregate, select the *Mirror this aggregate* check box.
++
+For MetroCluster configurations, creating unmirrored aggregates is restricted. Therefore, the mirroring option is enabled by default for MetroCluster configurations.
++
+By default, the mirroring option is disabled for SnapLock Compliance aggregates.
+. Click *Create*.

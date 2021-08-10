@@ -1,0 +1,47 @@
+---
+permalink: online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html
+sidebar: sidebar
+keywords: 
+summary: 'You can nondisruptively move a FlexVol volume to a different aggregate or a different node for capacity utilization and improved performance by using System Manager.'
+---
+= Moving FlexVol volumes between aggregates or nodes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can nondisruptively move a FlexVol volume to a different aggregate or a different node for capacity utilization and improved performance by using System Manager.
+
+== Before you begin
+
+If you are moving a data protection (DP) volume, the data protection mirror relationships must be initialized before you move the volume.
+
+== About this task
+
+You cannot move SnapLock volumes between aggregates and nodes.
+
+== Steps
+
+. Click *Storage* > *Volumes*.
+. From the drop-down menu in the *SVM* field, select *All SVMs*.
+. Select the volume that you want to move.
+. Click *More Actions* > *Move*.
+. In the *Move Volume* dialog box, select the destination aggregate or node for the volume, and then change the tiering policy.
++
+[NOTE]
+====
++
+....
+-   You cannot change the tiering policy of a root volume.
+-   You cannot move the root volume to FabricPool.
+-   For read/write volumes, you can set the tiering policy as “back up” during the volume move.
+
+    The tiering policy changes to “snapshot-only” after the move.
+
+-   Capacity tier values that are displayed in the “Used After Move” in both the source aggregate and destination aggregate are estimated values.
+
+    For the exact values, you must navigate to the Aggregate window and view the details of a specific aggregate.
+....
++
+====
+
+. Click *Move*.

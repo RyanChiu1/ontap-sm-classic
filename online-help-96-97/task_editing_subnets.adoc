@@ -1,0 +1,36 @@
+---
+permalink: online-help-96-97/task_editing_subnets.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to modify subnet attributes such as the name, subnet address, range of IP addresses, and gateway address of the subnet.'
+---
+= Editing subnet settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify subnet attributes such as the name, subnet address, range of IP addresses, and gateway address of the subnet.
+
+== About this task
+
+* You cannot use System Manager to edit subnets in the cluster IPspace.
++
+You must use the command-line interface (CLI) instead.
+
+* Modifying the gateway address does not update the route.
++
+You must use the CLI to update the route.
+
+== Steps
+
+. Click *Network* > *Subnets*.
+. Select the subnet that you want to modify, and then click *Edit*.
++
+You can modify the subnet even when the LIF in that subnet is still in use.
+
+. In the *Edit Subnet* dialog box, modify the subnet attributes as required.
+. Click *Save and Close*.
+
+*Related information*
+
+xref:reference_network_window.adoc[Network window]

@@ -1,0 +1,44 @@
+---
+permalink: fc-config-rhel/concept_fc_config_rhel_overview.html
+sidebar: sidebar
+keywords: 
+summary: 'This guide describes how to quickly set up the FC service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an FC host bus adapter \(HBA\) on a Red Hat Enterprise Linux server.'
+---
+= Deciding whether to use the FC Configuration for Red Hat Enterprise Linux Express Guide
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This guide describes how to quickly set up the FC service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an FC host bus adapter (HBA) on a Red Hat Enterprise Linux server.
+
+This guide is based on the following assumptions:
+
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
++
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[Cluster management using System Manager]
+
+* You want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+* The host is running a supported version of Red Hat Enterprise Linux 6.4 or later.
+* You are using traditional FC HBAs and switches.
++
+This guide does not cover Fibre Channel over Ethernet (FCoE).
+
+* You have at least two FC target ports available on each node in the cluster.
++
+Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters, are configurable. Configuring those ports is done in the ONTAP command-line interface (CLI) and is not covered in this guide.
+
+* You are not configuring FC SAN boot.
+
+If these assumptions are not correct for your situation, you should see the following resources:
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanconf/home.html[SAN configuration]
+* https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936[Linux Unified Host Utilities 7.1 Installation Guide]
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
++
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks such as the workflows described in Express Guides.

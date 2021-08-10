@@ -1,0 +1,14 @@
+---
+permalink: snmp-config/concept_snmp_configuration_workflow.html
+sidebar: sidebar
+keywords: 
+summary: 'Configuring SNMP involves enabling SNMP, optionally configuring an SNMPv1 or SNMPv2c community, optionally adding an SNMPv3 user, adding SNMP traphosts, and testing SNMP polling and traps.'
+---
+= SNMP configuration workflow
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Configuring SNMP involves enabling SNMP, optionally configuring an SNMPv1 or SNMPv2c community, optionally adding an SNMPv3 user, adding SNMP traphosts, and testing SNMP polling and traps.
+
+image::../media/snmp_config_workflow.gif[This illustration is a flowchart of the SNMP configuration workflow. The steps in the workflow match the topics in this guide.]

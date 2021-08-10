@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/concept_network_interfaces.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to create and manage network interfaces.'
+---
+= Network interfaces
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create and manage network interfaces.
+
+*Related information*
+
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-concepts/home.html[ONTAP concepts]
+
+https://docs.netapp.com/us-en/ontap/networking/index.html[Network management]

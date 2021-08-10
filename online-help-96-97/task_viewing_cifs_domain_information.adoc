@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_viewing_cifs_domain_information.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to view information about the domain controllers and servers that are connected to the storage system.'
+---
+= Viewing CIFS domain information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to view information about the domain controllers and servers that are connected to the storage system.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. Click the *Domain* tab.
+. Review the information about the connected domain controllers and servers.

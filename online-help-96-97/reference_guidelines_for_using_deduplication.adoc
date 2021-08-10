@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/reference_guidelines_for_using_deduplication.html
+sidebar: sidebar
+keywords: 
+summary: 'You must remember certain guidelines about system resources and free space when using deduplication.'
+---
+= Guidelines for using deduplication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You must remember certain guidelines about system resources and free space when using deduplication.
+
+The guidelines are as follows:
+
+* If you have a performance-sensitive solution, you must carefully consider the performance impact of deduplication and measure the impact in a test setup before using deduplication.
+* Deduplication is a background process that consumes system resources while it is running.
++
+If the data does not change very often in a FlexVol volume, it is best to run deduplication less frequently. Multiple concurrent deduplication operations running on a storage system lead to a higher consumption of system resources.
+
+* You must ensure that sufficient free space exists for deduplication metadata in the volumes and aggregates.
+* If deduplication is used on the source volume, you must use deduplication on the destination volume.
+* You must use automatic mode when possible so that deduplication runs only when significant additional data has been written to each FlexVol volume.
+* You must run deduplication before creating a Snapshot copy to obtain maximum savings.
+* You must set the Snapshot reserve to greater than 0 if Snapshot copies are used.

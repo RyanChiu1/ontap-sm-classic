@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/reference_windows_layout.html
+sidebar: sidebar
+keywords: 
+summary: 'Understanding the typical window layout helps you to navigate and use System Manager effectively.'
+---
+= System Manager window layout
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Understanding the typical window layout helps you to navigate and use System Manager effectively.
+
+== Typical layout of System Manager windows
+
+image::../media/sample_window_new_for_9_6.gif[]

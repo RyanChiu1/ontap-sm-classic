@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/task_adding_efficiency_policies.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to add efficiency policies for running the deduplication operation on a volume on a specified schedule or when the change in volume data reaches a specified threshold value.'
+---
+= Adding efficiency policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add efficiency policies for running the deduplication operation on a volume on a specified schedule or when the change in volume data reaches a specified threshold value.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Policies* pane, click *Efficiency Policies*.
+. Click *Add*, and then specify the policy name.
+. Specify how the storage efficiency policy should be run:
+ ** Select *Schedule*, and specify the schedule name and the schedule details.
++
+You can specify the maximum run-time duration of the efficiency policy, if required.
+
+ ** Select *ChangeLog Threshold*, and specify the threshold value (in percent) for the change in volume data.
+. Select the *Set QoS policy to background* check box to reduce performance impact on client operations.
+. Click *Add*.

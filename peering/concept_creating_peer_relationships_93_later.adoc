@@ -1,0 +1,12 @@
+---
+permalink: peering/concept_creating_peer_relationships_93_later.html
+sidebar: sidebar
+keywords: 
+summary: 'A peer relationship defines the network connections that enable clusters and SVMs to exchange data securely. ONTAP 9.3 simplifies the way that you configure peer relationships between clusters and between SVMs.'
+---
+= Configuring peer relationships (starting with ONTAP 9.3)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A peer relationship defines the network connections that enable clusters and SVMs to exchange data securely. ONTAP 9.3 simplifies the way that you configure peer relationships between clusters and between SVMs.

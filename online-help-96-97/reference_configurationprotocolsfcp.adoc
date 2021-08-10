@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/reference_configurationprotocolsfcp.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use the FC/FCoE window to start or stop the FC service.'
+---
+= FC/FCoE window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the FC/FCoE window to start or stop the FC service.
+
+== Command buttons
+
+* *Edit*
++
+Opens the Edit Node Name dialog box, which enables you to change the FC or FCoE node name.
+
+* *Start*
++
+Starts the FC/FCoE service.
+
+* *Stop*
++
+Stops the FC/FCoE service.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== FC/FCoE details
+
+The details area displays information about the status of FC/FCoE service, the node name, and the FC/FCoE adapters.
+
+*Related information*
+
+xref:task_starting_or_stopping_fc_or_fcoe_service.adoc[Starting or stopping the FC or FCoE service]
+
+xref:task_changing_fc_or_fcoe_node_name.adoc[Changing an FC or FCoE node name]
+
+xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[Configuring FC protocol and FCoE protocol on SVMs]

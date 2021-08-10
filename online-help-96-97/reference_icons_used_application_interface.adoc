@@ -1,0 +1,44 @@
+---
+permalink: online-help-96-97/reference_icons_used_application_interface.html
+sidebar: sidebar
+keywords: 
+summary: 'You can view the icons in the interface to get quick information about systems and operations.'
+---
+= Icons used in the application interface
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the icons in the interface to get quick information about systems and operations.
+
+== Dashboard window icons
+
+You might see the following icons when viewing the dashboard for the storage system:
+
+|===
+| Icon| Name| Description
+a|
+image:../media/statuswarning.gif[image for warning in the System Manager dashboard]
+a|
+Warning
+a|
+There are minor issues, but none that require immediate attention.
+a|
+image:../media/statuserror.gif[image for error in the System Manager dashboard]
+a|
+Error
+a|
+Problems that might eventually result in downtime and therefore require attention.
+a|
+image:../media/statuscritical.gif[image for critical in the System Manager dashboard]
+a|
+Critical
+a|
+The storage system is not serving data or cannot be contacted. Immediate attention is required.
+a|
+image:../media/arrowright.gif[image for navigation in the System Manager dashboard]
+a|
+Link arrow
+a|
+If this is displayed next to a line item in a dashboard pane, clicking it links to another page from which you can get more information about the line item or make changes to the line item.
+|===

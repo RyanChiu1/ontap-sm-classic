@@ -1,0 +1,50 @@
+---
+permalink: online-help-96-97/concept_what_snapvault_backup_is.html
+sidebar: sidebar
+keywords: baseline transfers,defined
+summary: 'A SnapVault backup is a collection of Snapshot copies on a FlexVol volume that you can restore data from if the primary data is not usable. Snapshot copies are created based on a Snapshot policy. The SnapVault backup backs up Snapshot copies based on its schedule and SnapVault policy rules.'
+---
+= What a SnapVault backup is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A SnapVault backup is a collection of Snapshot copies on a FlexVol volume that you can restore data from if the primary data is not usable. Snapshot copies are created based on a Snapshot policy. The SnapVault backup backs up Snapshot copies based on its schedule and SnapVault policy rules.
+
+A SnapVault backup is a disk-to-disk backup solution that you can also use to offload tape backups. In the event of data loss or corruption on a system, backed-up data can be restored from the SnapVault secondary volume with less downtime and uncertainty than is associated with conventional tape backup and restore operations.
+
+The following terms are used to describe SnapVault backups:
+
+* *baseline transfer*
++
+An initial complete backup of a primary storage volume to a corresponding volume on the secondary system.
+
+* *secondary volume*
++
+A volume to which data is backed up from a primary volume. Such a volume can be a secondary or tertiary (and onward) destination in a cascade or fanout backup configuration. The SnapVault secondary system maintains Snapshot copies for long-term storage and possible restore operations.
+
+* *incremental transfer*
++
+A follow-up backup to the secondary system that contains only the changes to the primary data since the last transfer action.
+
+* *SnapMirror label*
++
+An attribute that identifies Snapshot copies for the purpose of selection and retention in SnapVault backups. Each SnapVault policy configures the rules for selecting Snapshot copies on the primary volume and transferring the Snapshot copies that match a given SnapMirror label.
+
+* *Snapshot copy*
++
+The backup images on the source volume that are created manually or automatically as scheduled by an assigned policy. Baseline Snapshot copies contain a copy of the entire source data being protected; subsequent Snapshot copies contain differential copies of the source data. Snapshot copies can be stored on the source volume or on a different destination volume in a different storage virtual machine (SVM) or cluster.
++
+Snapshot copies capture the state of volume data on each source system. For SnapVault and mirror relationships, this data is transferred to destination volumes.
+
+* *primary volume*
++
+A volume that contains data that is to be backed up. In cascade or fanout backup deployments, the primary volume is the volume that is backed up to a SnapVault backup, regardless of where in the chain the SnapVault source is. In a cascade chain configuration in which A has a mirror relationship to B and B has a SnapVault relationship to C, B serves as the source for the SnapVault backup even though it is a secondary destination in the chain.
+
+* *SnapVault relationship*
++
+A backup relationship, configured as a SnapVault relationship, between a primary volume and a secondary volume.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_editing_ethernet_port_properties.html
+sidebar: sidebar
+keywords: 
+summary: 'You can edit Ethernet port settings such as the duplex mode and speed settings by using System Manager.'
+---
+= Editing Ethernet port settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can edit Ethernet port settings such as the duplex mode and speed settings by using System Manager.
+
+== Steps
+
+. Click *Network* > *Ethernet Ports*.
+. Select the physical port, and then click *Edit*.
+. In the *Edit Ethernet Port* dialog box, modify the duplex mode and speed settings to either `manual` or `automatic`.
+. Click *Edit*.

@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_managing_physical_storage.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to manage physical storage such as aggregates, storage pools, disks, array LUNs, nodes, Flash Cache, events, system alerts, AutoSupport notifications, jobs, and Flash Pool statistics.'
+---
+= Managing physical storage
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manage physical storage such as aggregates, storage pools, disks, array LUNs, nodes, Flash Cache, events, system alerts, AutoSupport notifications, jobs, and Flash Pool statistics.

@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_cifs_protocol.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access files on the cluster.'
+---
+= CIFS protocol
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access files on the cluster.
+
+*Related information*
+
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.cdot-famg-cifs/home.html[SMB/CIFS management]

@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/reference_what_lag_time_is.html
+sidebar: sidebar
+keywords: 
+summary: 'Lag time is the amount of time by which the destination system lags behind the source system.'
+---
+= What lag time is
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Lag time is the amount of time by which the destination system lags behind the source system.
+
+The lag time is the difference between the current time and the timestamp of the Snapshot copy that was last successfully transferred to the destination system. The lag time will always be at least as much as the duration of the last successful transfer, unless the clocks on the source and destination systems are not synchronized. The time zone difference is automatically calculated into the lag time.

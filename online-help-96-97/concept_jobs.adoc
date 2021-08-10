@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_jobs.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to manage job tasks such as displaying job information and monitoring the progress of a job.'
+---
+= Jobs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manage job tasks such as displaying job information and monitoring the progress of a job.
