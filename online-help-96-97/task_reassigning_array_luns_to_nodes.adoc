@@ -11,6 +11,8 @@ summary: 'You can use System Manager to reassign the ownership of spare array LU
 [.lead]
 You can use System Manager to reassign the ownership of spare array LUNs from one node to another to increase the capacity of an aggregate.
 
+== About this task
+
 * You can reassign array LUNs if the following conditions are true:
  ** The container type of the selected array LUNs must be "`spare`".
  ** The disks must be connected to nodes in an HA pair.
@@ -18,6 +20,8 @@ You can use System Manager to reassign the ownership of spare array LUNs from on
 * For MetroCluster configurations, you cannot use System Manager to reassign array LUNs as spares.
 +
 You must use the command-line interface instead.
+
+== Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Array LUNs*.
 . Select the spare array LUNs that you want to reassign, and then click *Assign*.

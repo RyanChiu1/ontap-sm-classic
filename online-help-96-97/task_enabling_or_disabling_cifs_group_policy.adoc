@@ -11,6 +11,8 @@ summary: 'You can enable or disable the CIFS group policy configuration from the
 [.lead]
 You can enable or disable the CIFS group policy configuration from the CIFS window in System Manager.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . Click the *Domain* tab.

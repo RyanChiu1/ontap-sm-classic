@@ -11,11 +11,15 @@ summary: 'You can use System Manager to abort or stop a data transfer that is cu
 [.lead]
 You can use System Manager to abort or stop a data transfer that is currently in progress.
 
+== Steps
+
 . Click *Protection* > *Volume Relationships*.
 . Select the relationship for which you want to stop the data transfer, and click *Operations* > *Abort*.
 . Select the *Yes, I want to abort the transfer* check box to confirm the operation.
 . Select the *Keep any partially transferred data* check box to retain the data that is already transferred to the destination volume.
 . Click *Abort*.
+
+== Results
 
 The transfer status is displayed as "`Aborting`" until the operation is complete and displayed as "`Idle`" after the operation is complete.
 

@@ -11,6 +11,8 @@ summary: 'You can use System Manager to associate an active LDAP client with a s
 [.lead]
 You can use System Manager to associate an active LDAP client with a storage virtual machine (SVM), which enables you to use LDAP as a name service or for name mapping.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Services* pane, click *LDAP Configuration*.

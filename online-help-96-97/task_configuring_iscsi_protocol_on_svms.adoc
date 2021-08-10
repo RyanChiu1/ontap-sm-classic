@@ -11,14 +11,21 @@ summary: 'You can configure the iSCSI protocol on a storage virtual machine \(SV
 [.lead]
 You can configure the iSCSI protocol on a storage virtual machine (SVM) to provide block-level data access by using System Manager. You can create iSCSI LIFs and portsets and then add the LIFs to the portsets. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy.
 
+== Before you begin
+
 * The iSCSI license must be enabled on the cluster.
 +
 If the iSCSI protocol is not enabled on the SVM, you can use the Edit Storage Virtual Machine window to enable the protocol for the SVM.
 
 * All of the nodes in the cluster must be healthy.
 * Each node must have at least two data ports, and the port state must be `up`.
+
+== About this task
+
 * You can configure the iSCSI protocol while creating the SVM or you can do so at a later time.
 * SnapLock aggregates are not considered for automatically creating volumes.
+
+== Steps
 
 . If you have not configured the iSCSI protocol while creating the SVM, click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -95,6 +102,8 @@ You can modify only the LIF name and the home port. By default, the portsets are
 Based on the selected portset, the LIFs are distributed across the portsets by using a round-robin method to ensure redundancy in case of node failure or port failure.
 
 . Click *Submit & Continue*.
+
+== Results
 
 The iSCSI LIFs and portsets are created with the specified configuration. The LIFs are distributed among the portsets based on the selected portset. The iSCSI service is started if all of the LIFs are successfully created.
 

@@ -11,7 +11,11 @@ summary: 'You can use System Manager to create a network interface or LIF to acc
 [.lead]
 You can use System Manager to create a network interface or LIF to access data from storage virtual machines (SVMs), to manage SVMs and to provide an interface for intercluster connectivity.
 
+== Before you begin
+
 The broadcast domain that is associated with the subnet must have allocated ports.
+
+== About this task
 
 * Dynamic DNS (DDNS) is enabled by default when a LIF is created.
 +
@@ -24,6 +28,8 @@ You must use the command-line interface (CLI) to create a network interface in s
 
 * To create NVMeoF data LIF the SVM must already be set up, the NVMe service must already exist on the SVM and the NVMeoF capable adapters should be available.
 * NVMe protocol is enabled only if the selected SVM has the NVMe service configured.
+
+== Steps
 
 . Click *Network* > *Network Interfaces*.
 . Click *Create*.
@@ -113,4 +119,4 @@ xref:reference_network_window.adoc[Network window]
 
 xref:task_configuring_iscsi_protocol_on_svms.adoc[Configuring iSCSI protocol on SVMs]
 
-xref:task_configuring_the_node_details_in_system_manager.adoc[Configuring the network details of the nodes]
+xref:task_configuring_node_details_system_manager.adoc[Configuring the network details of the nodes]

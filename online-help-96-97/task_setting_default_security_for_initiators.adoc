@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_setting_default_security_for_initiators.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to remove the authentication settings for an initiator and to use the default security method to authenticate the initiator.'
+---
+= Setting the default security for iSCSI initiators
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to remove the authentication settings for an initiator and to use the default security method to authenticate the initiator.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *iSCSI*.
+. In the *Initiator Security* tab, select the initiator for which you want to change the security setting.
+. Click *Set Default* in the *Initiator Security* area, and then click *Set Default* in the confirmation dialog box.
+
+*Related information*
+
+xref:reference_iscsi_window.adoc[iSCSI window]

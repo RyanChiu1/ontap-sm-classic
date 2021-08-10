@@ -11,9 +11,13 @@ summary: 'You can enable logging and specify the inactivity timeout value for Sy
 [.lead]
 You can enable logging and specify the inactivity timeout value for System Manager.
 
+== About this task
+
 You can configure the options from the System Manager login window. However, you must log in to the application to specify the inactivity timeout value.
 
-. Click *image:../media/nas_bridge_202_icon_settings.gif[]*.
+== Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Setup* pane, click *General*.
 . Specify a log level.
 . Specify the inactivity timeout value in minutes.

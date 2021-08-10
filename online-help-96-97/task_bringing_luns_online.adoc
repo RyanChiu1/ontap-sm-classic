@@ -11,7 +11,11 @@ summary: 'You can use the LUN Management tab in System Manager to bring selected
 [.lead]
 You can use the *LUN Management* tab in System Manager to bring selected LUNs online and make them available to the host.
 
+== Before you begin
+
 Any host application accessing the LUN must be quiesced or synchronized.
+
+== Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, select one or more LUNs that you want to bring online.
@@ -19,4 +23,4 @@ Any host application accessing the LUN must be quiesced or synchronized.
 
 *Related information*
 
-xref:reference_luns_window_stm_topic.adoc[LUNs window]
+xref:reference_luns_window.adoc[LUNs window]

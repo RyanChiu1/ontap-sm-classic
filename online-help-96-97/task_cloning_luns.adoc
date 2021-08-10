@@ -11,13 +11,20 @@ summary: 'LUN clones enable you to create multiple readable and writable copies 
 [.lead]
 LUN clones enable you to create multiple readable and writable copies of a LUN. You can use System Manager to create a temporary copy of a LUN for testing or to make a copy of your data available to additional users without providing them access to the production data.
 
+== Before you begin
+
 * You must have installed the FlexClone license on the storage system.
 * When space reservation is disabled on a LUN, the volume that contains the LUN must have enough space to accommodate changes to the clone.
+
+== About this task
+
 * When you create a LUN clone, automatic deletion of the LUN clone is enabled by default in System Manager.
 +
 The LUN clone is deleted when ONTAP triggers automatic deletion to conserve space.
 
 * You cannot clone LUNs that are on SnapLock volumes.
+
+== Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, select the LUN that you want to clone, and then click *Clone*.
@@ -27,4 +34,4 @@ The LUN clone is deleted when ONTAP triggers automatic deletion to conserve spac
 
 *Related information*
 
-xref:reference_luns_window_stm_topic.adoc[LUNs window]
+xref:reference_luns_window.adoc[LUNs window]

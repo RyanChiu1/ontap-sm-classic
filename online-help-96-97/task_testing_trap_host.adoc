@@ -11,7 +11,9 @@ summary: 'You can use System Manager to test whether you have configured the tra
 [.lead]
 You can use System Manager to test whether you have configured the trap host settings correctly.
 
-. Click *image:../media/nas_bridge_202_icon_settings.gif[]*.
+== Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Setup* pane, click *SNMP*.
 . In the *SNMP* window, click *Test Trap Host*.
 . Click *OK*.

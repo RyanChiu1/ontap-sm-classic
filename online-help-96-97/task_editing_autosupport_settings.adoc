@@ -11,7 +11,9 @@ summary: 'You can use System Manager to modify your AutoSupport settings to spec
 [.lead]
 You can use System Manager to modify your AutoSupport settings to specify an email address from which email notifications are sent and to add multiple email host names.
 
-. Click *image:../media/nas_bridge_202_icon_settings.gif[]* > *AutoSupport*.
+== Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
 . Select the node for which you want to modify AutoSupport settings, and then click *Edit*.
 . In the *Email Recipient* tab, type the email address from which email notifications are sent, specify the email recipients and the message content for each email recipient, and then add the mail hosts.
 +

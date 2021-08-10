@@ -17,6 +17,6 @@ After you add an SSD to a storage pool, you can no longer use the SSD as an indi
 
 *Related information*
 
-xref:task_provisioning_storage_by_creating_a_flash_pool_aggregate_manually.adoc[Provisioning storage by creating a Flash Pool aggregate manually]
+xref:task_provisioning_storage_by_creating_flash_pool_aggregate_manually.adoc[Provisioning storage by creating a Flash Pool aggregate manually]
 
 xref:task_provisioning_cache_by_adding_disks.adoc[Provisioning cache by adding SSDs]

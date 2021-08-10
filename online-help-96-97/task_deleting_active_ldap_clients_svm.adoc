@@ -11,6 +11,8 @@ summary: 'You can use System Manager to delete an active LDAP client when you do
 [.lead]
 You can use System Manager to delete an active LDAP client when you do not want a storage virtual machine (SVM) to be associated with it.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . Click the *SVM Settings* tab.

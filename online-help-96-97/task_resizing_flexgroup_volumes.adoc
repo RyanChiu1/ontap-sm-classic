@@ -11,8 +11,12 @@ summary: 'You can use System Manager to resize a FlexGroup volume by resizing ex
 [.lead]
 You can use System Manager to resize a FlexGroup volume by resizing existing resources or by adding new resources.
 
+== Before you begin
+
 * To resize a FlexGroup volume, there must be enough free space on the existing aggregates.
 * To expand a FlexGroup volume, there must be enough free space on the aggregate that you are using for expansion.
+
+== Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.
@@ -31,4 +35,4 @@ If you want to expand the FlexGroup volume by adding new resources, click image:
 
 *Related information*
 
-xref:reference_volumes_window_stm_topic.adoc[Volumes window]
+xref:reference_volumes_window.adoc[Volumes window]

@@ -1,0 +1,40 @@
+---
+permalink: peering/reference_where_to_find_additional_information.html
+sidebar: sidebar
+keywords: 
+summary: 'After you successfully create a cluster peering relationship, you are ready to protect the availability of your data. There are express guides to help you configure data protection, as well as additional guides to do advanced configuration of cluster peering.'
+---
+= Where to find additional information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you successfully create a cluster peering relationship, you are ready to protect the availability of your data. There are express guides to help you configure data protection, as well as additional guides to do advanced configuration of cluster peering.
+
+== Express guides
+
+You can protect your data by using the following express guides:
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-sm-ic-cg/home.html[Volume disaster recovery express preparation]
++
+Describes how to quickly configure and monitor the SnapMirror relationships between volumes in different clusters.
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault/home.html[Volume express backup using SnapVault]
++
+Describes how to quickly configure an intercluster SnapVault relationship.
+
+== Other guides
+
+More information is available in the following guides:
+
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
++
+Describes how to prevent data loss using Snapshot copies and SnapMirror replication to a remote system
+
+* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices Guide for ONTAP 9.1, 9.2]
++
+Describes information and best practices about configuring replication, including cluster peering.
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-concepts/home.html[ONTAP concepts]
++
+Provides conceptual information about cluster peering.

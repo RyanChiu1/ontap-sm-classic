@@ -11,7 +11,11 @@ summary: 'You can use System Manager to delete a network interface to free the I
 [.lead]
 You can use System Manager to delete a network interface to free the IP address of the interface and then use the IP address for a different purpose.
 
+== Before you begin
+
 The status of the network interface must be disabled.
+
+== Steps
 
 . Click *Network* > *Network Interfaces*.
 . Select the interface that you want to delete, and then click *Delete*.

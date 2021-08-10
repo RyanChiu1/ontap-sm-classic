@@ -11,6 +11,8 @@ summary: 'You can use System Manager to edit the NFS settings such as enabling o
 [.lead]
 You can use System Manager to edit the NFS settings such as enabling or disabling NFSv3, NFSv4, and NFSv4.1, enabling or disabling read and write delegations for NFSv4 clients, and enabling NFSv4 ACLs. You can also edit the default Windows user.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Protocols* pane, click *NFS*.

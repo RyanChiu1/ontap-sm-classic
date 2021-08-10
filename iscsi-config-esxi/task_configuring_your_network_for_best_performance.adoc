@@ -11,6 +11,8 @@ summary: 'Ethernet networks vary greatly in performance. You can maximize the pe
 [.lead]
 Ethernet networks vary greatly in performance. You can maximize the performance of the network used for iSCSI by selecting specific configuration values.
 
+== Steps
+
 . Connect the host and storage ports to the same network.
 +
 It is best to connect to the same switches. Routing should never be used.

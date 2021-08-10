@@ -11,7 +11,11 @@ summary: 'After you configure SNMP, you should verify that you can poll the clus
 [.lead]
 After you configure SNMP, you should verify that you can poll the cluster.
 
+== About this task
+
 To poll a cluster, you need to use a third-party command such as `snmpwalk`.
+
+== Steps
 
 . Send an SNMP command to poll the cluster from a different cluster.
 +

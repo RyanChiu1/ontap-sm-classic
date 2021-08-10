@@ -103,9 +103,9 @@ Displays the count of Snapshot copies with the SnapMirror label attribute for th
 
 *Related information*
 
-xref:task_creating_a_mirror_relationship_from_a_source_volume.adoc[Creating a mirror relationship from a source SVM]
+xref:task_creating_mirror_relationship_from_source_volume.adoc[Creating a mirror relationship from a source SVM]
 
-xref:task_creating_a_mirror_relationship_from_a_destination_svm.adoc[Creating a mirror relationship from a destination SVM]
+xref:task_creating_mirror_relationship_from_destination_svm.adoc[Creating a mirror relationship from a destination SVM]
 
 xref:task_deleting_mirror_relationships.adoc[Deleting mirror relationships]
 
@@ -127,11 +127,11 @@ xref:task_reverse_resynchronizing_snapmirror_relationships.adoc[Reverse resynchr
 
 xref:task_aborting_mirror_relationships.adoc[Aborting a mirror transfer]
 
-xref:concept_what_a_snapvault_backup_is.adoc[What a SnapVault backup is]
+xref:concept_what_snapvault_backup_is.adoc[What a SnapVault backup is]
 
-xref:task_creating_a_vault_relationship_from_a_source_svm.adoc[Creating a vault relationship from a source SVM]
+xref:task_creating_vault_relationship_from_source_svm.adoc[Creating a vault relationship from a source SVM]
 
-xref:task_creating_a_vault_relationship_from_a_destination_svm.adoc[Creating a vault relationship from a destination SVM]
+xref:task_creating_vault_relationship_from_destination_svm.adoc[Creating a vault relationship from a destination SVM]
 
 xref:task_deleting_vault_relationships.adoc[Deleting vault relationships]
 
@@ -147,4 +147,4 @@ xref:task_resuming_vault_relationships.adoc[Resuming a vault relationship]
 
 xref:task_aborting_vault_relationships.adoc[Aborting a Snapshot copy transfer]
 
-xref:task_restoring_a_volume_in_a_vault_relationship.adoc[Restoring a volume in a vault relationship]
+xref:task_restoring_volume_vault_relationship.adoc[Restoring a volume in a vault relationship]

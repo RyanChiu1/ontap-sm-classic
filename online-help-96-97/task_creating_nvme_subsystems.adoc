@@ -11,6 +11,8 @@ summary: 'You can use System Manager to create an NVMe subsystem.'
 [.lead]
 You can use System Manager to create an NVMe subsystem.
 
+== Steps
+
 . Click *Create* in the *NVMe Subsystems* window.
 . Provide entries in the *NVMe Subsystems: Create* window for the following fields:
  ** *SVM*

@@ -11,7 +11,11 @@ summary: 'You can use System Manager to provide data access from a storage virtu
 [.lead]
 You can use System Manager to provide data access from a storage virtual machine (SVM) by starting the SVM.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM that you want to start, and then click *Start*.
+
+== Results
 
 The SVM starts serving data to clients.

@@ -11,7 +11,11 @@ summary: 'You can use System Managerto delete a Storage Quality of Service \(QoS
 [.lead]
 You can use System Managerto delete a Storage Quality of Service (QoS) policy group that is no longer required.
 
+== Before you begin
+
 You must have unassigned all of the storage objects that are assigned to the policy group.
+
+== Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -11,6 +11,8 @@ summary: 'You can use System Manager to modify the properties of a qtree such as
 [.lead]
 You can use System Manager to modify the properties of a qtree such as the security style, enable or disable opportunistic locks (oplocks), and assign a new or existing export policy.
 
+== Steps
+
 . Click *Storage* > *Qtrees*.
 . Select the qtree that you want to edit, and then click *Edit*.
 . In the *Edit Qtree* dialog box, edit the following properties as required:

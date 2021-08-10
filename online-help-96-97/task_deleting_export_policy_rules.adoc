@@ -11,6 +11,8 @@ summary: 'You can use System Manager to delete export policy rules that are no l
 [.lead]
 You can use System Manager to delete export policy rules that are no longer required.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Policies* pane, click *Export Policies*.

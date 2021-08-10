@@ -11,6 +11,8 @@ summary: 'You can use System Manager to assign IP addresses to all of your Servi
 [.lead]
 You can use System Manager to assign IP addresses to all of your Service Processors at the same time and to use these Service Processors to monitor and manage various system parameters of your storage systems.
 
+== Steps
+
 . Click *Configuration* > *Cluster* > *Configuration Updates*.
 . In the *Service Processor* window, click *Global Settings*.
 . In the *Global Settings* dialog box, choose the source for assigning the IP addresses:

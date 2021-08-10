@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/task_monitoring_svm_using_dashboard.html
+sidebar: sidebar
+keywords: 
+summary: 'The dashboard in System Manager enables you to monitor the health and performance of a storage virtual machine \(SVM\).'
+---
+= Monitoring SVMs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The dashboard in System Manager enables you to monitor the health and performance of a storage virtual machine (SVM).
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the name the SVM that you want to monitor.
+. View the details in the dashboard panels.

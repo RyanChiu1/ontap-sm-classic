@@ -1,0 +1,41 @@
+---
+permalink: iscsi-config-windows/concept_iscsi_config_windows_overview.html
+sidebar: sidebar
+keywords: 
+summary: 'This guide describes how to quickly set up the iSCSI service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an iSCSI initiator on a Windows host computer.'
+---
+= Deciding whether to use the iSCSI Configuration for Windows Express Guide
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This guide describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on a Windows host computer.
+
+This guide is based on the following assumptions:
+
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
++
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[Cluster management using System Manager]
+
+* You want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+* You are using the Microsoft iSCSI software initiator on Windows Server 2008 or Windows Server 2012.
+* Your network uses IPv4 addressing.
+* You want to assign addresses to logical interfaces using any of the following methods:
+ ** Automatically, from a subnet you define
+ ** Manually, using an address selected from an existing subnet
+ ** Manually, using an address that will be added to an existing subnet
+* You are not configuring iSCSI SAN boot.
+
+If these assumptions are not correct for your situation, you should see the following resources:
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanconf/home.html[SAN configuration]
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61343[NetApp Documentation: Host Utilities (current releases)] for your version of Windows Host Utilities
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
++
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks such as the workflows described in Express Guides.

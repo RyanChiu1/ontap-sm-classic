@@ -11,6 +11,8 @@ summary: 'You can use the Aggregates window in System Manager to view the name, 
 [.lead]
 You can use the Aggregates window in System Manager to view the name, status, and space information about an aggregate.
 
+== Steps
+
 . Choose one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers*.
  ** Click *Storage* > *Aggregates & Disks* > *Aggregates*.

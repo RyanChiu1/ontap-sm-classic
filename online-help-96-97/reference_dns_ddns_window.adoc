@@ -25,4 +25,4 @@ Updates the information in the window.
 
 xref:task_enabling_or_disabling_ddns.adoc[Enabling or disabling DDNS]
 
-xref:task_editing_dns_and_ddns_settings.adoc[Editing DNS and DDNS settings]
+xref:task_editing_dns_ddns_settings.adoc[Editing DNS and DDNS settings]

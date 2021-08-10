@@ -11,6 +11,8 @@ summary: 'You can use System Managerto modify the attributes of an efficiency po
 [.lead]
 You can use System Managerto modify the attributes of an efficiency policy such as the policy name, schedule name, and maximum runtime.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Policies* pane, click *Efficiency Policies*.

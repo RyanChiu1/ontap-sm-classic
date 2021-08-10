@@ -11,6 +11,8 @@ summary: 'You can use System Manager to add SSDs as either storage pools or dedi
 [.lead]
 You can use System Manager to add SSDs as either storage pools or dedicated SSDs to provision cache. By adding SSDs, you can convert a non-root aggregate or a root aggregate that does not contain partitioned disks to a Flash Pool aggregate, or increase the cache size of an existing Flash Pool aggregate.
 
+== About this task
+
 * The added SSD cache does not add to the size of the aggregate, and you can add an SSD RAID group to an aggregate even when it is at the maximum size.
 * You cannot use partitioned SSDs when you add cache by using System Manager.
 

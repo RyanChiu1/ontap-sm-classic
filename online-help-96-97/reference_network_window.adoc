@@ -439,4 +439,4 @@ xref:task_editing_broadcast_domains.adoc[Editing broadcast domain settings]
 
 xref:task_deleting_broadcast_domains.adoc[Deleting broadcast domains]
 
-xref:task_setting_up_a_network_when_the_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]

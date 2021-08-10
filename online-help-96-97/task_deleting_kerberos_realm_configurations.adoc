@@ -11,6 +11,8 @@ summary: 'You can use System Manager to delete a Kerberos realm configuration.'
 [.lead]
 You can use System Manager to delete a Kerberos realm configuration.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Services* pane, click *Kerberos Realm*.

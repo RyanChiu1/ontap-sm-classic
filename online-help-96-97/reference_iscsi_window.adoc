@@ -47,16 +47,16 @@ The details area displays information about the status of the iSCSI service, iSC
 
 xref:task_creating_iscsi_aliases.adoc[Creating iSCSI aliases]
 
-xref:task_enabling_or_disabling_the_iscsi_service_on_storage_system_interfaces.adoc[Enabling or disabling the iSCSI service on storage system interfaces]
+xref:task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.adoc[Enabling or disabling the iSCSI service on storage system interfaces]
 
-xref:task_adding_the_security_method_for_iscsi_initiators.adoc[Adding the security method for iSCSI initiators]
+xref:task_adding_security_method_for_iscsi_initiators.adoc[Adding the security method for iSCSI initiators]
 
 xref:task_editing_default_security_settings.adoc[Editing default security settings]
 
 xref:task_editing_initiator_security.adoc[Editing initiator security]
 
-xref:task_changing_the_default_initiator_authentication_method.adoc[Changing the default iSCSI initiator authentication method]
+xref:task_changing_default_initiator_authentication_method.adoc[Changing the default iSCSI initiator authentication method]
 
-xref:task_setting_the_default_security_for_initiators.adoc[Setting the default security for iSCSI initiators]
+xref:task_setting_default_security_for_initiators.adoc[Setting the default security for iSCSI initiators]
 
-xref:task_starting_or_stopping_the_iscsi_service.adoc[Starting or stopping the iSCSI service]
+xref:task_starting_or_stopping_iscsi_service.adoc[Starting or stopping the iSCSI service]

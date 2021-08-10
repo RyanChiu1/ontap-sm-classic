@@ -13,7 +13,7 @@ System Manager enables you to customize the window layouts. By customizing the w
 
 * *Sorting*
 +
-You can click the column header to change the sort order of the column entries. When you click the column header, the sort arrows (image:../media/icon_sort_arrow_up_sm.gif[Icon for sort arrow up] and image:../media/icon_sort_arrow_down_sm.gif[Icon for sort arrow down]) appear for that column.
+You can click the column header to change the sort order of the column entries. When you click the column header, the sort arrows (image:../media/icon_sort_arrow_up_sm_olh_96_97.gif[Icon for sort arrow up] and image:../media/icon_sort_arrow_down_sm_olh_96_97.gif[Icon for sort arrow down]) appear for that column.
 
 * *Filtering*
 +

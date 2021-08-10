@@ -11,6 +11,8 @@ summary: 'Mounting a datastore gives a host access to storage. When datastores a
 [.lead]
 Mounting a datastore gives a host access to storage. When datastores are provisioned by , they are automatically mounted to the host or cluster. You might need to mount a datastore on a host after you add the host to your VMware environment.
 
+== Steps
+
 . From the vSphere Web Client *Home* page, click *Hosts and Clusters*:
 . In the navigation pane, expand the datacenter that contains the host:
 . Right-click the host, and then select *NetApp VSC* > *Mount Datastores*.

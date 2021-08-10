@@ -11,6 +11,8 @@ summary: 'You can use System Manager to edit the properties of storage virtual m
 [.lead]
 You can use System Manager to edit the properties of storage virtual machines (SVMs), such as the name service switch, name mapping switch, and aggregate list.
 
+== About this task
+
 * You can edit the values of the following SVM properties:
  ** Name service switch
  ** Protocols that are enabled to serve data
@@ -31,6 +33,8 @@ For FlexVol volumes, you can assign aggregates only if you have delegated admini
 You can use the command-line interface to view the services because the Services tab is disabled.
 +
 System Manager displays the name service switch and the name mapping switch of an SVM only when it is created by using System Manager or when the services of the SVM are set to the default values by ONTAP.
+
+== Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

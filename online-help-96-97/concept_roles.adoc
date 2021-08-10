@@ -2,14 +2,14 @@
 permalink: online-help-96-97/concept_roles.html
 sidebar: sidebar
 keywords: 
-summary: 'You can use System Manager to create and manage roles.'
+summary: 'You can use System Manager to create access-controlled user roles.'
 ---
 = Roles
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Manager to create and manage roles.
+You can use System Manager to create access-controlled user roles.
 
 *Related information*
 

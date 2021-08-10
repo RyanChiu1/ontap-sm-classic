@@ -11,7 +11,11 @@ summary: 'You can use the Enhanced tab to add an instance of Microsoft SQL Serve
 [.lead]
 You can use the Enhanced tab to add an instance of Microsoft SQL Server over SAN to System Manager.
 
+== About this task
+
 The following procedure describes how to add a *Microsoft SQL Server* instance over SAN to System Manager. You can choose SMB as the export protocol only if the cluster is licensed for CIFS, which must be configured on the storage virtual machine (SVM).
+
+== Steps
 
 . Click *Applications & Tiers* > *Applications*
 . In the *Enhanced* tab, click *Add*
@@ -41,5 +45,7 @@ Specify SAN
  ** LUN format
  ** Host mapping
 . Click *Add Application*
+
+== Results
 
 The Microsoft SQL Server instance over SAN is added to System Manager.

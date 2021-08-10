@@ -11,6 +11,8 @@ summary: 'You can use System Manager to delete the schedules that run specific s
 [.lead]
 You can use System Manager to delete the schedules that run specific storage management tasks.
 
+== Steps
+
 . Click *Protection* > *Schedules*.
 . Select the schedule that you want to delete and click *Delete*.
 . Select the confirmation check box, and then click *Delete*.

@@ -11,7 +11,11 @@ summary: 'You can create schedules to run a job at a specific time or at regular
 [.lead]
 You can create schedules to run a job at a specific time or at regular periods by using System Manager.
 
+== About this task
+
 When you create a schedule in a MetroCluster configuration, it is a best practice to create an equivalent schedule on the cluster in the surviving site as well.
+
+== Steps
 
 . Click *Protection* > *Schedules*.
 . Click *Create*.

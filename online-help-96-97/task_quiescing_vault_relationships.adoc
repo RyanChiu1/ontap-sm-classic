@@ -11,9 +11,13 @@ summary: 'You can use System Manager to disable data transfers to the destinatio
 [.lead]
 You can use System Manager to disable data transfers to the destination FlexVol volume by quiescing the vault relationship.
 
+== Steps
+
 . Click *Protection* > *Volume Relationships*.
 . Select the relationship for which you want to stop the scheduled data transfers, and click *Operations* > *Quiesce*.
 . In the *Quiesce* window, click *Quiesce*.
+
+== Results
 
 If there is no transfer in progress, the transfer status is displayed as Quiesced. If a transfer is in progress, the transfer is not affected, and the transfer status is displayed as Quiescing until the transfer is complete.
 

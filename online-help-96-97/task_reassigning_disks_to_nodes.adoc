@@ -11,6 +11,8 @@ summary: 'You can use System Manager to reassign the ownership of spare disks fr
 [.lead]
 You can use System Manager to reassign the ownership of spare disks from one node to another node to increase the capacity of an aggregate or storage pool.
 
+== About this task
+
 * You can reassign disks if the following conditions are true:
  ** The container type of the selected disks must be "`spare`" or "`shared`".
  ** The disks must be connected to nodes in an HA configuration.
@@ -23,6 +25,8 @@ You can use System Manager to reassign the ownership of spare disks from one nod
 * For MetroCluster configurations, you cannot use System Manager to reassign disks.
 +
 You must use the command-line interface to reassign disks for MetroCluster configurations.
+
+== Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Disks*.
 . In the *Disks* window, select the *Inventory* tab.

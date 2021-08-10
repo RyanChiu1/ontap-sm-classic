@@ -11,9 +11,15 @@ summary: 'Clusters communicate with each other through logical interfaces \(LIFs
 [.lead]
 Clusters communicate with each other through logical interfaces (LIFs) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.
 
+== Before you begin
+
 You must have identified the subnet and ports, and optionally the IP addresses, that you plan to use for the intercluster LIFs.
 
+== About this task
+
 You must perform this procedure on both clusters for which you want to create a peer relationship. For example, if you have a four-node cluster that you want to peer with cluster X over IPspace A, and peer with cluster Y over IPspace Y, then you need a total of eight intercluster LIFs; Four on IPspace A (one per node), and four on IPspace Y (one per node).
+
+== Steps
 
 . Create an intercluster LIF on one node of the source cluster:
  .. Navigate to the *Network Interfaces* window.
@@ -46,12 +52,14 @@ image::../media/lif_creation_intercluster.gif[The Create Network Inteface dialog
 Each node in the cluster has an intercluster LIF.
 
 . Make a note of the IP addresses of the intercluster LIFs so that you can use them later when you create peer relationships with other clusters:
- .. In the *Network Interfaces* window, in the *Role* column, click image:../media/icon_columnfilter_sm.gif[Column filter icon], clear the *All* check box, and then select *Intercluster*.
+ .. In the *Network Interfaces* window, in the *Role* column, click image:../media/icon_columnfilter_sm_peering.gif[Column filter icon], clear the *All* check box, and then select *Intercluster*.
 +
 The Network Interfaces window displays only intercluster LIFs.
 
  .. Note down the IP addresses that are listed in the *IP Addresses/WWPN* column, or leave the *Network Interfaces* window open so that you can retrieve the IP addresses later.
 +
-You can click the column display icon (image:../media/icon_columnshowhide_sm_onc.gif[Icon for show or hide column]) to hide the columns that you do not want to view.
+You can click the column display icon (image:../media/icon_columnshowhide_sm_onc_peering.gif[Icon for show or hide column]) to hide the columns that you do not want to view.
+
+== Results
 
 All of the nodes in each cluster have intercluster LIFs that can all communicate with each other.

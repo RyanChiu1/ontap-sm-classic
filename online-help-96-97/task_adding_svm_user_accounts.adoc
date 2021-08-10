@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_adding_svm_user_accounts.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to add a storage virtual machine \(SVM\) user account and to specify a user login method for accessing the storage system.'
+---
+= Adding SVM user accounts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add a storage virtual machine (SVM) user account and to specify a user login method for accessing the storage system.
+
+== Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *SVM User Details* pane, click *Users*.
+. Click *Add*.
+. Specify a user name and password for connecting to the storage system, and confirm the password.
+. Add one or more user login methods, and then click *Add*.
++
+A login method for the new vsadmin account is automatically included that uses HTTP as the application and is authenticated with a certificate.

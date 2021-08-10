@@ -11,8 +11,12 @@ summary: 'You can use System Manager to delete aggregates when you no longer req
 [.lead]
 You can use System Manager to delete aggregates when you no longer require the data in the aggregates. However, you cannot delete the root aggregate because it contains the root volume, which contains the system configuration information.
 
+== Before you begin
+
 * All the FlexVol volumes and the associated storage virtual machines (SVMs) contained by the aggregate must be deleted.
 * The aggregate must be offline.
+
+== Steps
 
 . Choose one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers*.

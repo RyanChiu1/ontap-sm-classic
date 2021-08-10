@@ -11,6 +11,8 @@ summary: 'You can use System Manager to perform various operations on SVM relati
 [.lead]
 You can use System Manager to perform various operations on SVM relationships such as initializing SVM relationships, updating SVM relationships, activating the destination SVM, resynchronizing data from the source SVM, resynchronizing data from the destination SVM, and reactivating the source SVM.
 
+== Before you begin
+
 * To initialize the SVM relationship, the source and destination clusters must be in a healthy peer relationship.
 * To update the SVM relationship, the SVM relationship must be initialized and in a Snapmirrored state.
 * To reactivate the source SVM, the resynchronize data from the destination SVM (reverse resync) operation must have been performed.
@@ -21,6 +23,8 @@ You can use System Manager to perform various operations on SVM relationships su
 * The source SVM must have permission for SVM peering.
 * You must break the SVM relationship to activate destination SVM, resync from source SVM, resync from destination SVM (Reverse Resync), and reactivate source SVM.
 * To reactivate the source SVM, the SVM reverse relationship must exist and be in a Snapmirrored state.
+
+== Steps
 
 . Click *Protection* > *SVM Relationship*.
 . Select the SVM relationship, and then perform the appropriate action:

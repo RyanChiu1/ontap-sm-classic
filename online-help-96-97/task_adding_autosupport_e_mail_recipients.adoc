@@ -11,7 +11,9 @@ summary: 'You can use the Email Recipient tab of the Edit AutoSupport Settings d
 [.lead]
 You can use the *Email Recipient* tab of the Edit AutoSupport Settings dialog box in System Manager to add email addresses of the recipients of AutoSupport notifications.
 
-. Click *image:../media/nas_bridge_202_icon_settings.gif[]* > *AutoSupport*.
+== Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
 . Select the node, and then click *Edit*.
 . In the *Email Recipient* tab, type the address of the email recipient, specify whether the recipient receives a full message or a short message, and then click *Add*.
 . Click *OK*.

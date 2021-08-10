@@ -11,6 +11,8 @@ summary: 'Before you expand the cluster, you must ensure that the cluster switch
 [.lead]
 Before you expand the cluster, you must ensure that the cluster switches support the expanded configuration. If the cluster is switchless, you must add switches. If the existing switches do not have enough ports available to support the new configuration, you must replace the switches.
 
+== Procedure
+
 * If the cluster is currently a two-node switchless cluster, migrate the cluster to a two-node switched cluster using the type of switch you prefer.
 +
 https://library.netapp.com/ecm/ecm_download_file/ECMP1140536[Migrating to a two-node switched cluster with Cisco cluster switches]

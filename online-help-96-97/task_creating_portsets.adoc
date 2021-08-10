@@ -11,6 +11,8 @@ summary: 'You can use System Manager to create port sets to limit access to your
 [.lead]
 You can use System Manager to create port sets to limit access to your LUNs.
 
+== Steps
+
 . Click *Storage* > *LUNs*.
 . In the *Portsets* tab, click *Create*.
 . In the *Create Portset* dialog box, select the type of protocol.

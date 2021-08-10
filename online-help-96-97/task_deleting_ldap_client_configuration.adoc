@@ -11,7 +11,11 @@ summary: 'You can use System Manager to delete an LDAP client configuration at t
 [.lead]
 You can use System Manager to delete an LDAP client configuration at the cluster level or the storage virtual machine (SVM) level.
 
+== About this task
+
 At the SVM level, you can delete an LDAP client only for a selected SVM.
+
+== Steps
 
 . To delete an LDAP client configuration:
  ** Cluster level: Click *image:../media/advanced_options.gif[]* > *LDAP*.

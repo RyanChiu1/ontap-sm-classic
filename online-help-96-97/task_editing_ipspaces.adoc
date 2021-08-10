@@ -11,8 +11,12 @@ summary: 'You can use System Manager to rename an existing IPspace.'
 [.lead]
 You can use System Manager to rename an existing IPspace.
 
+== About this task
+
 * All IPspace names must be unique within a cluster and must not consist of names that are reserved by the system, such as local or localhost.
 * The system-defined "`Default`" IPspace and "`Cluster`" IPspace cannot be modified.
+
+== Steps
 
 . Click *Network* > *IPspaces*.
 . Select the IPspace that you want to modify, and then click *Edit*.

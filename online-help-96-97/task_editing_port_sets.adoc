@@ -11,6 +11,8 @@ summary: 'You can use the Portsets tab in System Manager to edit settings relate
 [.lead]
 You can use the Portsets tab in System Manager to edit settings related to port sets.
 
+== Steps
+
 . Click *Storage* > *LUNs*.
 . In the *Portsets* tab, select the port set you want to edit and click *Edit*.
 . In the *Edit Portset* dialog box, make the necessary changes.

@@ -35,8 +35,8 @@ The details area displays information about the status of FC/FCoE service, the n
 
 *Related information*
 
-xref:task_starting_or_stopping_the_fc_or_fcoe_service.adoc[Starting or stopping the FC or FCoE service]
+xref:task_starting_or_stopping_fc_or_fcoe_service.adoc[Starting or stopping the FC or FCoE service]
 
-xref:task_changing_an_fc_or_fcoe_node_name.adoc[Changing an FC or FCoE node name]
+xref:task_changing_fc_or_fcoe_node_name.adoc[Changing an FC or FCoE node name]
 
 xref:task_configuring_fc_fcoe_protocol_on_svms.adoc[Configuring FC protocol and FCoE protocol on SVMs]

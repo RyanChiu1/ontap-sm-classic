@@ -11,6 +11,8 @@ summary: 'You can use System Manager to specify one or more paths that can be us
 [.lead]
 You can use System Manager to specify one or more paths that can be used by the storage system to resolve the location of the CIFS home directories of users.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Home Directories* area of the *Configuration* tab, click *Manage*.

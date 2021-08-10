@@ -124,24 +124,24 @@ Displays the list of local users associated with the selected group.
 
 *Related information*
 
-xref:task_creating_a_local_user_group.adoc[Creating a local Windows group]
+xref:task_creating_local_user_group.adoc[Creating a local Windows group]
 
 xref:task_editing_local_windows_group_properties.adoc[Editing local Windows group properties]
 
-xref:task_adding_user_accounts_to_a_windows_local_group.adoc[Adding user accounts to a Windows local group]
+xref:task_adding_user_accounts_to_windows_local_group.adoc[Adding user accounts to a Windows local group]
 
-xref:task_renaming_a_local_windows_group.adoc[Renaming a local Windows group]
+xref:task_renaming_local_windows_group.adoc[Renaming a local Windows group]
 
-xref:task_deleting_a_local_windows_group.adoc[Deleting a local Windows group]
+xref:task_deleting_local_windows_group.adoc[Deleting a local Windows group]
 
 xref:task_creating_local_windows_user_accounts.adoc[Creating a local Windows user account]
 
-xref:task_editing_a_local_windows_user_properties.adoc[Editing the local Windows user properties]
+xref:task_editing_local_windows_user_properties.adoc[Editing the local Windows user properties]
 
-xref:task_assigning_group_memberships_to_a_user_account.adoc[Assigning group memberships to a user account]
+xref:task_assigning_group_memberships_to_user_account.adoc[Assigning group memberships to a user account]
 
-xref:task_renaming_a_local_windows_user.adoc[Renaming a local Windows user]
+xref:task_renaming_local_windows_user.adoc[Renaming a local Windows user]
 
 xref:task_changing_password_for_windows_local_users.adoc[Resetting the password of a Windows local user]
 
-xref:task_deleting_a_local_windows_user_account.adoc[Deleting a local Windows user account]
+xref:task_deleting_local_windows_user_account.adoc[Deleting a local Windows user account]

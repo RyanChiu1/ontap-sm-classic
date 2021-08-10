@@ -11,6 +11,8 @@ summary: 'Qtrees enable you to manage and partition your data within a volume. Y
 [.lead]
 Qtrees enable you to manage and partition your data within a volume. You can use the Create Qtree dialog box in System Manager to add a new qtree to a volume on your storage system.
 
+== Steps
+
 . Click *Storage* > *Qtrees*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which you want to create a qtree.
 . Click *Create*.

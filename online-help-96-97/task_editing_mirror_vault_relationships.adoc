@@ -1,0 +1,84 @@
+---
+permalink: online-help-96-97/task_editing_mirror_vault_relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to edit a mirror and vault relationship by modifying the selected policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.'
+---
+= Editing mirror and vault relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to edit a mirror and vault relationship by modifying the selected policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.
+
+== Before you begin
+
+The source and destination clusters must be in a healthy peer relationship.
+
+== About this task
+
+You can modify the relationship type of a version-flexible mirror relationship, vault relationship, or mirror and vault relationship by modifying the policy type.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror and vault relationship that you want to modify, and then click *Edit*.
+. In the *Edit Relationship* dialog box, select the appropriate action:
++
+|===
+| If you want to...| Do the following...
+a|
+Select an existing policy
+a|
+Click *Browse*, and then select an existing policy.    You can select a policy that has the maximum number of matching labels with the Snapshot policy that is attached to the source volume.
+a|
+Create a new policy
+a|
+
+ .. Click *Create Policy*.
+ .. Specify a name for the policy.
+ .. Set the priority for scheduled transfers.
++
+Low indicates that the transfer has the least priority and is usually scheduled after normal priority transfers. By default, the priority is set to Normal.
+
+ .. Select the *Enable Network Compression* check box to compress the data that is being transferred.
+ .. Specify a SnapMirror label and destination retention count for the vault policy.
++
+You must ensure that a Snapshot copy with the same label is created on the source volume for the new SnapMirror label to be effective.
+
+ .. Click *Create*.
+
++
+|===
+
+. Specify a schedule for the relationship:
++
+|===
+| If...| Do the following...
+a|
+You want to assign an existing schedule
+a|
+Click *Browse*, and then select an existing schedule.
+a|
+You want to create a new schedule
+a|
+
+ .. Click *Create Schedule*.
+ .. Specify a name for the schedule.
+ .. Select one of the following options:
+  *** *Basic*
++
+You can select this option to specify only the day of the week, time, and the transfer interval.
+
+  *** *Advanced*
++
+You can select this option to specify a cron style schedule.
+ .. Click *Create*.
+
+a|
+You do not want to assign a schedule
+a|
+Select *None*.
+|===
+
+. Click *OK*.

@@ -11,6 +11,8 @@ summary: 'You can use System Manager to add host information to centrally manage
 [.lead]
 You can use System Manager to add host information to centrally manage DNS configurations. You can modify the DNS details when you want to change the domain names or IP addresses.
 
+== Steps
+
 . Click *Configuration* > *Cluster* > *Configuration Updates*.
 . In the *Cluster Details* pane, click *Edit DNS Configuration*.
 . In the *DNS Domains* area, add or modify the DNS domain names.

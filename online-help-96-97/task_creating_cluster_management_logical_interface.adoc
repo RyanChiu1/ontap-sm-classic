@@ -11,6 +11,8 @@ summary: 'You can use System Manager to create a cluster management logical inte
 [.lead]
 You can use System Manager to create a cluster management logical interface (LIF) to provide a single management interface for a cluster. You can use this LIF to manage all of the activities of the cluster.
 
+== Steps
+
 . Click *Configuration* > *Cluster* > *Configuration Updates*.
 . In the *Cluster Details* pane, click *Create Cluster-management LIF*.
 . In the *Create Cluster-Management LIF* dialog box, specify a name for the cluster management LIF.

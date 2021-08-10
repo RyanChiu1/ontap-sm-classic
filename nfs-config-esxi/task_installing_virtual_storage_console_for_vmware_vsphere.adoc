@@ -11,9 +11,15 @@ summary: 'for automates many of the configuration and provisioning tasks require
 [.lead]
 for automates many of the configuration and provisioning tasks required to use storage with an ESXi host. is a plug-in to vCenter Server.
 
+== Before you begin
+
 You must have administrator credentials on the vCenter Server used to manage the ESXi host.
 
+== About this task
+
 * is installed as a virtual appliance that includes Virtual Storage Console, vStorage APIs for Storage Awareness (VASA) Provider, and Storage Replication Adapter (SRA) for VMware vSphere capabilities.
+
+== Steps
 
 . Download the version of that is supported for your configuration, as shown in the tool.
 +

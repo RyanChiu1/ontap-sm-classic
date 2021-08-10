@@ -11,6 +11,8 @@ summary: 'You can use the Edit Initiator Group dialog box in System Manager to c
 [.lead]
 You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator in an initiator group.
 
+== Steps
+
 . Click *Storage* > *LUNs*.
 . In the *Initiator Groups* tab, select the initiator group to which the initiator belongs, and then click *Edit*.
 . In the *Edit Initiator Group* dialog box, click *Initiators*.
@@ -20,4 +22,4 @@ You can use the Edit Initiator Group dialog box in System Manager to change the 
 
 *Related information*
 
-xref:reference_luns_window_stm_topic.adoc[LUNs window]
+xref:reference_luns_window.adoc[LUNs window]

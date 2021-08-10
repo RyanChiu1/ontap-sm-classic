@@ -108,9 +108,9 @@ The area below the quotas list displays quota details such as the quota error, s
 
 *Related information*
 
-xref:task_creating_quotas_stm.adoc[Creating quotas]
+xref:task_creating_quotas.adoc[Creating quotas]
 
-xref:task_deleting_quotas_stm.adoc[Deleting quotas]
+xref:task_deleting_quotas.adoc[Deleting quotas]
 
 xref:task_editing_quota_limits.adoc[Editing quota limits]
 

@@ -11,13 +11,20 @@ summary: 'You can use System Manager to create a FlexClone file, which is a writ
 [.lead]
 You can use System Manager to create a FlexClone file, which is a writable copy of a parent file. You can use these copies to test applications.
 
+== Before you begin
+
 * The file that is cloned must be part of the active file system.
 * The FlexClone license must be installed on the storage system.
+
+== About this task
+
 * FlexClone files are supported only for FlexVol volumes.
 +
 You can create a FlexClone file of a parent file that is within a volume by accessing the parent file from the volume in which it resides, not from the parent volume.
 
 * You cannot create a FlexClone file on a SnapLock volume.
+
+== Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.
@@ -26,8 +33,10 @@ You can create a FlexClone file of a parent file that is within a volume by acce
 . In the *Create FlexClone File* dialog box, select the file that you want to clone, and then specify a name for the FlexClone file.
 . Click *Clone*.
 
+== Results
+
 The FlexClone file is created in the same volume as the parent file.
 
 *Related information*
 
-xref:reference_volumes_window_stm_topic.adoc[Volumes window]
+xref:reference_volumes_window.adoc[Volumes window]

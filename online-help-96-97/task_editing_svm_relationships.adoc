@@ -11,6 +11,8 @@ summary: 'You can use System Manager to modify the properties of an SVM relation
 [.lead]
 You can use System Manager to modify the properties of an SVM relationship.
 
+== Steps
+
 . Click *Protection* > *SVM Relationship*.
 . Select the SVM relationship that you want to modify, and then click *Edit*.
 . Select the SVM relationship type.

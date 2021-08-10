@@ -11,7 +11,11 @@ summary: 'An iSCSI alias is a user-friendly identifier that you assign to an iSC
 [.lead]
 An iSCSI alias is a user-friendly identifier that you assign to an iSCSI target device (in this case, the storage system) to make it easier to identify the target device in user interfaces. You can use System Manager to create an iSCSI alias.
 
+== About this task
+
 An iSCSI alias is a string of 1 to 128 printable characters.An iSCSI alias must not include spaces.
+
+== Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -11,6 +11,8 @@ summary: 'You can use System Manager to create LUNs for an existing aggregate, v
 [.lead]
 You can use System Manager to create LUNs for an existing aggregate, volume, or qtree when there is available free space. You can create a LUN in an existing volume or create a new FlexVol volume for the LUN. You can also enable storage Quality of Service (QoS) to manage the workload performance.
 
+== About this task
+
 If you specify the LUN ID, System Manager checks the validity of the LUN ID before adding it. If you do not specify a LUN ID, ONTAP software automatically assigns one.
 
 While selecting the LUN multiprotocol type, you should have considered the guidelines for using each type. The LUN Multiprotocol Type, or operating system type, determines the layout of data on the LUN, and the minimum and maximum sizes of the LUN. After the LUN is created, you cannot modify the LUN host operating system type.
@@ -19,6 +21,8 @@ In a MetroCluster configuration, System Manager displays only the following aggr
 
 * In normal mode, when you create volumes on sync-source SVMs or data-serving SVMs in the primary site, only those aggregates that belong to the cluster in the primary site are displayed.
 * In switched-over mode, when you create volumes on sync-destination SVMs or data-serving SVMs in the surviving site, only switched-over aggregates are displayed.
+
+== Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, click *Create*.
@@ -79,6 +83,6 @@ If the policy group is assigned to more than one object, the maximum throughput 
 
 *Related information*
 
-xref:reference_luns_window_stm_topic.adoc[LUNs window]
+xref:reference_luns_window.adoc[LUNs window]
 
-xref:concept_lun_multiprotocol_type_guidelines_stm.adoc[Guidelines for using LUN multiprotocol type]
+xref:concept_lun_multiprotocol_type_guidelines.adoc[Guidelines for using LUN multiprotocol type]

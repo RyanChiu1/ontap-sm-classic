@@ -79,8 +79,8 @@ Displays detailed information about the disks in the selected storage pool, such
 
 *Related information*
 
-xref:task_adding_disks_to_a_storage_pool.adoc[Adding disks to a storage pool]
+xref:task_adding_disks_to_storage_pool.adoc[Adding disks to a storage pool]
 
-xref:task_creating_a_storage_pool.adoc[Creating a storage pool]
+xref:task_creating_storage_pool.adoc[Creating a storage pool]
 
 xref:task_deleting_storage_pools.adoc[Deleting storage pools]

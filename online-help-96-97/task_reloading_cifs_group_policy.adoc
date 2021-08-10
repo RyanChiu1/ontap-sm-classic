@@ -11,6 +11,8 @@ summary: 'You have to reload a CIFS group policy if the status of the policy is 
 [.lead]
 You have to reload a CIFS group policy if the status of the policy is changed. You can use the CIFS window in System Manager to reload the group policy.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . Click the *Domain* tab.

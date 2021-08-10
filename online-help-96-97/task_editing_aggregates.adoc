@@ -11,7 +11,11 @@ summary: 'You can use System Manager to change the aggregate name, RAID type, an
 [.lead]
 You can use System Manager to change the aggregate name, RAID type, and RAID group size of an existing aggregate when required.
 
+== Before you begin
+
 For modifying the RAID type of an aggregate from RAID4 to RAID-DP, the aggregate must contain enough compatible spare disks, excluding the hot spares.
+
+== About this task
 
 * You cannot change the RAID group of ONTAP systems that support array LUNs.
 +
@@ -25,6 +29,8 @@ RAID-DP is the only option that is available for partitioned disks.
 * If the aggregate consists of SSDs with storage pool, you can modify only the name of the aggregate.
 * If the triple parity disk size is 10 TB, and the other disks are smaller than 10 TB in size, then you can select RAID-DP or RAID-TEC as the RAID type.
 * If the triple parity disk size is 10 TB, and if even one of the other disks is larger than 10 TB in size, then RAID-TEC is the only available option for RAID type.
+
+== Steps
 
 . Choose one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers*.

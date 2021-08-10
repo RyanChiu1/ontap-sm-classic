@@ -11,7 +11,11 @@ summary: 'You can use System Manager to edit a vault relationship either by sele
 [.lead]
 You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.
 
+== Before you begin
+
 The source and destination clusters must be in a healthy peer relationship.
+
+== Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the vault relationship for which you want to modify the policy or schedule, and then click *Edit*.

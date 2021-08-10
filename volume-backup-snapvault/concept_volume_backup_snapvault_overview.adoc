@@ -1,0 +1,39 @@
+---
+permalink: volume-backup-snapvault/concept_volume_backup_snapvault_overview.html
+sidebar: sidebar
+keywords: 
+summary: 'This guide describes how to quickly configure SnapVault backup relationships between volumes that are located in different clusters. The SnapVault backup contains a set of read-only backup copies, which are located on a destination volume that you can use for restoring data when data is corrupted or lost.'
+---
+= Deciding whether to use the Volume Backup Using SnapVault Express Guide
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This guide describes how to quickly configure SnapVault backup relationships between volumes that are located in different clusters. The SnapVault backup contains a set of read-only backup copies, which are located on a destination volume that you can use for restoring data when data is corrupted or lost.
+
+You should use this guide if you want to create SnapVault backup relationships for volumes in the following way:
+
+* You are working with clusters running ONTAP 9.
+* You are a cluster administrator.
+* You have configured the cluster peer relationship and the SVM peer relationship.
++
+link:../com.netapp.doc.exp-clus-peer/home.html[Cluster and SVM peering express configuration]
+
+* You must have enabled either the SnapMirror or SnapVault license, after all of the nodes in the cluster have been upgraded to the same version of ONTAP 9.
+* You want to use default protection policies and schedules, and not create custom policies.
+* You do not want to back up data for a single file or LUN restore.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
+* You want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+If these assumptions are not correct for your situation, or if you want more conceptual background information, you should see the following resources:
+
+* link:../com.netapp.doc.pow-dap/home.html[Data protection]
+* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices Guide for ONTAP 9.1, 9.2]
+* http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: SnapVault Best Practices Guide]
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
++
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks such as the workflows described in Express Guides.

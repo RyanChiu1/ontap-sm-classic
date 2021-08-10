@@ -11,13 +11,17 @@ summary: 'You can use System Manager to view the hierarchy of FlexClone volumes 
 [.lead]
 You can use System Manager to view the hierarchy of FlexClone volumes and their parent volumes.
 
+== Steps
+
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.
 . Select the required volume from the list of volumes.
 . Click *More Actions* > *Clone* > *View Hierarchy*.
 
+== Results
+
 Volumes that have at least one child FlexClone volume are displayed. The FlexClone volumes are displayed as children of their respective parent volumes.
 
 *Related information*
 
-xref:reference_volumes_window_stm_topic.adoc[Volumes window]
+xref:reference_volumes_window.adoc[Volumes window]

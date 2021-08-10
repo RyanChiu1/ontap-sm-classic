@@ -11,6 +11,8 @@ summary: 'You should verify that you have configured SMB correctly by accessing 
 [.lead]
 You should verify that you have configured SMB correctly by accessing and writing data to the share. You should test access using the SMB server name and any NetBIOS aliases.
 
+== Steps
+
 . Log in to a Windows client.
 . Test access using the SMB server name:
  .. In Windows Explorer, map a drive to the share in the following format: `\⁠\\SMB_Server_Name\Share_Name`

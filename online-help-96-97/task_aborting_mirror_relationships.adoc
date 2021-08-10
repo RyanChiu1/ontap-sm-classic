@@ -11,6 +11,8 @@ summary: 'You can abort a volume replication operation before the data transfer 
 [.lead]
 You can abort a volume replication operation before the data transfer is complete. You can abort a scheduled update, a manual update, or an initial data transfer.
 
+== Steps
+
 . Click *Protection* > *Volume Relationships*.
 . Select the relationship for which you want to stop the data transfer, and click *Operations* > *Abort*.
 . Click the *Yes, I want to abort the transfer* check box to confirm the operation.

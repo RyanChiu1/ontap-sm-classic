@@ -11,6 +11,8 @@ summary: 'You can maintain host information centrally by using NIS. You can use 
 [.lead]
 You can maintain host information centrally by using NIS. You can use System Manager to add the NIS domain name of your storage system. Only one NIS domain can be active on a storage virtual machine (SVM) at any given time.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Services* pane, click *NIS*.

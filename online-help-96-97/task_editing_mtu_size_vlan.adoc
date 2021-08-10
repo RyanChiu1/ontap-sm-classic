@@ -1,0 +1,22 @@
+---
+permalink: online-help-96-97/task_editing_mtu_size_vlan.html
+sidebar: sidebar
+keywords: 
+summary: 'If you want to modify the MTU size of a VLAN interface that is not part of a broadcast domain, you can use System Manager to change the size.'
+---
+= Modifying the MTU size of a VLAN
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you want to modify the MTU size of a VLAN interface that is not part of a broadcast domain, you can use System Manager to change the size.
+
+== About this task
+
+You must not modify the MTU size of the management port e0M.
+
+== Steps
+
+. Click *Network* > *Ethernet Ports*.
+. Select the VLAN that you want to modify, and then click *Edit*.
+. In the *Edit VLAN* dialog box, modify the MTU size as required, and then click *Save*.

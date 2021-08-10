@@ -11,6 +11,8 @@ summary: 'If you encounter any issues when using System Manager, you can send th
 [.lead]
 If you encounter any issues when using System Manager, you can send the log files to technical support to help troubleshoot the issues. The System Manager log files are located in the `mlog` directory along with the ONTAP log files.
 
+== Steps
+
 . Identify the node that hosts the cluster management LIF.
 . Enter the following URL in a web browser: `+https://cluster-mgmt-LIF/spi+`
 +

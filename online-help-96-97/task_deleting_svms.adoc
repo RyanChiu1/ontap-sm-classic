@@ -11,6 +11,8 @@ summary: 'You can use System Manager to delete storage virtual machines \(SVMs\)
 [.lead]
 You can use System Manager to delete storage virtual machines (SVMs) that you no longer require from the storage system configuration.
 
+== Before you begin
+
 You must have completed the following tasks:
 
 . Disabled the Snapshot copies, data protection (DP) mirrors, and load-sharing (LS) mirrors for all the volumes
@@ -29,6 +31,8 @@ You must use the command-line interface (CLI) to disable LS mirrors.
 . Deleted any NVMe subsystems associated with the SVM using the CLI.
 . Stopped the SVM
 
+== About this task
+
 When you delete SVMs, the following objects associated with the SVM are also deleted:
 
 * LIFs, LIF failover groups, and LIF routing groups
@@ -38,6 +42,8 @@ When you delete SVMs, the following objects associated with the SVM are also del
 If you delete SVMs that are configured to use Kerberos, or modify SVMs to use a different Service Principal Name (SPN), the original service principal of the SVM is not automatically deleted or disabled from the Kerberos realm. You must manually delete or disable the principal. You must have the Kerberos realm administrator's user name and password to delete or disable the principal.
 
 If you want to move data from an SVM to another SVM before you delete the first SVM, you can use the SnapMirror technology to do so.
+
+== Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM that you want to delete, and then click *Delete*.

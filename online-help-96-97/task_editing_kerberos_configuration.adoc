@@ -11,6 +11,8 @@ summary: 'You can use System Manager to enable Kerberos and to edit a Kerberos c
 [.lead]
 You can use System Manager to enable Kerberos and to edit a Kerberos configuration that is associated with a storage virtual machine (SVM),which enables the SVM to use Kerberos security services for NFS.
 
+== Before you begin
+
 * You must have at least one Kerberos realm configured at the SVM level.
 * You must have a minimum of two data LIFs on the SVM.
 +
@@ -21,7 +23,11 @@ One data LIF is used by the Service Principal Name (SPN) for both the UNIX and C
 A CIFS server is not required for basic NFS Kerberos access. A CIFS server is required for multiprotocol access or when using Active Directory as an LDAP server for name mapping purposes.
 ====
 
+== About this task
+
 If you are using Microsoft Active Directory Kerberos, the first 15 characters of any SPNs that are used in the domain must be unique. Microsoft Active Directory has a limitation for SPNs of 15 characters maximum and does not allow duplicate SPNs.
+
+== Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

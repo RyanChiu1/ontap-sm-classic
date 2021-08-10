@@ -11,6 +11,8 @@ summary: 'For ONTAP 9.4 and later, you can copy the ONTAP software image from th
 [.lead]
 For ONTAP 9.4 and later, you can copy the ONTAP software image from the NetApp Support Site to a local folder. For upgrades from ONTAP 9.3 or earlier, you must copy the ONTAP software image to an HTTP server or FTP server on your network.
 
+== About this task
+
 To upgrade the cluster to the target release of ONTAP, you require access to software images. Software images, firmware version information, and the latest firmware for your platform model are available on the NetApp Support Site. You should note the following important information:
 
 * Software images are specific to platform models.
@@ -23,6 +25,8 @@ You must obtain the correct image for your cluster.
 If you use the ONTAP software image for restricted countries to upgrade a system with NetApp Volume Encryption, the system panics and you lose access to your volumes.
 
 * If you are upgrading from ONTAP 9.3 to 9.7, you must copy the software image for ONTAP 9.5 and 9.7.
+
+== Steps
 
 . Locate the target ONTAP software in the *Software Downloads* area of the NetApp Support Site.
 . Copy the software image.

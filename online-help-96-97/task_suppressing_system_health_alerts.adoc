@@ -11,6 +11,8 @@ summary: 'You can use System Manager to suppress system health alerts that do no
 [.lead]
 You can use System Manager to suppress system health alerts that do not require any intervention from you.
 
+== Steps
+
 . Click *Events & Jobs* > *System Alerts*.
 . In the *System Alerts* window, click the arrow icon next to the name of subsystem.
 . Select the alert that you want to suppress, and then click *Suppress*.

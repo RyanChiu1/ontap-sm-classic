@@ -11,9 +11,13 @@ summary: 'You can use System Manager to edit a mirror relationship either by sel
 [.lead]
 You can use System Manager to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule.
 
+== About this task
+
 * You cannot edit a mirror relationship that is created between a volume in Data ONTAP 8.2.1 and a volume in ONTAP 8.3 or later.
 * You cannot edit the parameters of an existing policy or schedule.
 * You can modify the relationship type of a version-flexible mirror relationship, vault relationship, or mirror and vault relationship by modifying the policy type.
+
+== Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the mirror relationship for which you want to modify the policy or schedule, and then click *Edit*.

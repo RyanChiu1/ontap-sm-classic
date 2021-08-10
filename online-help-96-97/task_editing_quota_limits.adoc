@@ -11,6 +11,8 @@ summary: 'You can use System Manager to edit the disk space threshold, the hard 
 [.lead]
 You can use System Manager to edit the disk space threshold, the hard limit and soft limit on the amount of disk space that the quota target can use, and the hard limit and soft limit on the number of files that the quota target can own.
 
+== Steps
+
 . Click *Storage* > *Quotas*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which the quota that you want to edit resides.
 . Select the quota that you want to edit, and click *Edit Limits*.

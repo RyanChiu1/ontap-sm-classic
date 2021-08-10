@@ -11,6 +11,8 @@ summary: 'You can use System Manager to view the default authentication informat
 [.lead]
 You can use System Manager to view the default authentication information and all the initiator-specific authentication information.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Protocols* pane, click *iSCSI*.

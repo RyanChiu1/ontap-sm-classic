@@ -11,11 +11,19 @@ summary: 'Using the Storage window, you can review the storage recommendations t
 [.lead]
 Using the Storage window, you can review the storage recommendations that are provided for creating aggregates.
 
+== Before you begin
+
 You must have set up the cluster, network, and the support details.
+
+== About this task
 
 You can create data aggregates per the storage recommendations or you can skip this step and create data aggregates at a later time using System Manager.
 
+== Procedure
+
 * To create data aggregates as per the storage recommendations, click *Submit and Continue*.
 * To create data aggregates at a later time using System Manager, click *Skip this step*.
+
+== What to do next
 
 If you opted to create aggregates per the storage recommendations, you must create a storage virtual machine (SVM) to continue with the cluster setup.

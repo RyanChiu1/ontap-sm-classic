@@ -11,7 +11,11 @@ summary: 'You can use System Manager to modify the volume name for a data protec
 [.lead]
 You can use System Manager to modify the volume name for a data protection (DP) volume. If the source volume does not have storage efficiency enabled, you might want to enable storage efficiency only on the destination volume.
 
+== About this task
+
 You cannot modify storage efficiency on a mirror DP volume.
+
+== Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) in which the DP volume that you want to edit resides.

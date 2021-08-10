@@ -11,7 +11,11 @@ summary: 'Starting with System Manager 9.6, you can diagnose CIFS or NFS file ac
 [.lead]
 Starting with System Manager 9.6, you can diagnose CIFS or NFS file access errors on a storage virtual machine (SVM).
 
+== About this task
+
 File access issues, such as an "`access denied`" error, are likely to occur when there are problems with a share configuration, permissions, or user mapping. You can use System Manager to help you resolve file access problems by viewing the access trace results for the file or share that a user wants to access. System Manager shows whether the file or share has effective read, write, or execute permissions and the reasons why access is or is not effective.
+
+== Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM that contains the files or shares for which file access errors were received.

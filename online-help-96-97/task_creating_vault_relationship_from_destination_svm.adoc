@@ -1,0 +1,88 @@
+---
+permalink: online-help-96-97/task_creating_vault_relationship_from_destination_svm.html
+sidebar: sidebar
+keywords: System Manager 9.3
+summary: 'You can use System Manager to create a vault relationship from the destination storage virtual machine \(SVM\), and to assign a vault policy to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination.'
+---
+= Creating a vault relationship from a destination SVM
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a vault relationship from the destination storage virtual machine (SVM), and to assign a vault policy to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination.
+
+== Before you begin
+
+* The source cluster must be running ONTAP 8.2.2 or later.
+* SnapVault license or SnapMirror license must be enabled on both the source cluster and the destination cluster.
++
+[NOTE]
+====
+For some platforms, it is not mandatory for the source cluster to have the SnapVault license or the SnapMirror license enabled if the destination cluster has the SnapVault license or the SnapMirror license, and DPO license enabled.
+====
+
+* The source cluster and destination cluster must be in a healthy peer relationship.
+* The destination SVM must have space available.
+* The source aggregate and the destination aggregate must be 64-bit aggregates.
+* A source volume of type read/write (rw) must exist.
+* A vault (XDP) policy must exist.
++
+If a vault policy does not exist, you must create a vault policy or accept the default vault policy (XDPDefault) that is automatically assigned.
+
+* FlexVol volumes must be online and read/write.
+* The SnapLock aggregate type must be the same.
+* If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which SAML authentication is enabled, password-based authentication must be enabled on the remote cluster.
+
+== About this task
+
+* System Manager does not support a cascade relationship.
++
+For example, a destination volume in a relationship cannot be the source volume in another relationship.
+
+* You cannot create a vault relationship between a sync-source SVM and a sync-destination SVM in a MetroCluster configuration.
+* You can create a vault relationship between sync-source SVMs in a MetroCluster configuration.
+* You can create a vault relationship from a volume on a sync-source SVM to a volume on a data-serving SVM.
+* You can create a vault relationship from a volume on a data-serving SVM to a data protection (DP) volume on a sync-source SVM.
+* You can create a vault relationship only between a non-SnapLock (primary) volume and a SnapLock destination (secondary) volume.
+* A maximum of 25 volumes can be protected in one selection.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. In the *Relationships* window, click *Create*.
+. In the *Browse SVM* dialog box, select an SVM for the destination volume.
+. In the *Create Protection Relationship* dialog box, select *Vault* from the *Relationship Type* drop-down list.
+. Specify the cluster, the SVM, and the source volume.
++
+If the specified cluster is running a version of ONTAP software earlier than ONTAP 9.3, then only peered SVMs are listed. If the specified cluster is running ONTAP 9.3 or later, peered SVMs and permitted SVMs are listed.
+
+. Enter a volume name suffix.
++
+The volume name suffix is appended to the source volume names to generate the destination volume names.
+
+. If you are creating a SnapLock volume, specify the default retention period.
++
+The default retention period can be set to any value between 1 day through 70 years or Infinite.
+
+. Click *Browse*, and then change the vault policy.
+. Select a schedule for the relationship from the list of existing schedules.
+. Select *Initialize Relationship* to initialize the vault relationship.
+. Enable SnapLock aggregates, and then select a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate.
+. Enable FabricPool-enabled aggregates, and then select an appropriate tiering policy.
+. Click *Validate* to verify whether the selected volumes have matching labels.
+. Click *Create*.
+
+== Results
+
+If you chose to create a destination volume, a volume of type _dp_ is created with the following default settings:
+
+* Autogrow is enabled.
+* Deduplication is enabled or disabled according to the user preference or the source volume deduplication setting.
+* Compression is disabled.
+* The language attribute is set to match the language attribute of the source volume.
+
+A vault relationship is created between the destination volume and the source volume. The base Snapshot copy is transferred to the destination volume if you have opted to initialize the relationship.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

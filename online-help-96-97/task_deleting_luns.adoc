@@ -11,8 +11,12 @@ summary: 'You can use System Manager to delete LUNs and return the space used by
 [.lead]
 You can use System Manager to delete LUNs and return the space used by the LUNs to their containing aggregates or volumes.
 
+== Before you begin
+
 * The LUN must be offline.
 * The LUN must be unmapped from all initiator hosts.
+
+== Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, select one or more LUNs that you want to delete, and then click *Delete*.
@@ -20,4 +24,4 @@ You can use System Manager to delete LUNs and return the space used by the LUNs 
 
 *Related information*
 
-xref:reference_luns_window_stm_topic.adoc[LUNs window]
+xref:reference_luns_window.adoc[LUNs window]

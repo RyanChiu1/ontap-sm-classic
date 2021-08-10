@@ -11,6 +11,8 @@ summary: 'Before creating a cluster peering relationship, you must verify that t
 [.lead]
 Before creating a cluster peering relationship, you must verify that the time on each cluster is synchronized with an external Network Time Protocol (NTP) server, and determine the subnets, ports, and passphrases that you want to use.
 
+== Steps
+
 . If you are running ONTAP 9.2 or earlier, determine the passphrase that you want to use for each cluster peer relationship.
 +
 The passphrase must include at least eight characters.
@@ -24,7 +26,7 @@ a|
 |===
 Starting with ONTAP 9.3, you can generate the passphrase from the remote cluster while creating the cluster peer relationship.
 +
-xref:task_creating_a_cluster_peer_relationship_starting_with_ontap_9_3.adoc[Creating a cluster peer relationship (starting with ONTAP 9.3)]
+xref:task_creating_cluster_peer_relationship_starting_with_ontap_9_3.adoc[Creating a cluster peer relationship (starting with ONTAP 9.3)]
 
 . Identify the subnets, IP addresses, and ports that you will use for intercluster LIFs.
 +

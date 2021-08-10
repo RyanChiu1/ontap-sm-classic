@@ -11,6 +11,8 @@ summary: 'Starting with System Manager 9.6, you can view information about a Fle
 [.lead]
 Starting with System Manager 9.6, you can view information about a FlexCache volume. You can view a graphical representation of the space allocated and the performance of a FlexCache volume.
 
+== Steps
+
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.
 . From the displayed list of volumes, select the FlexCache volume about which you want to view information.
@@ -44,7 +46,7 @@ The average performance metrics, read performance metrics, and write performance
 a|
 Change status
 a|
-Enables you to change the status of the FlexCache volume. Refer to link:task_changing_the_status_of_flexcache_volume.md#GUID-5B6C5DE2-5BBD-4741-9FF1-D1CB9BAB6E7E[Changing the status of a FlexCache volume].
+Enables you to change the status of the FlexCache volume. Refer to link:task_changing_status_flexcache_volume.md#GUID-5B6C5DE2-5BBD-4741-9FF1-D1CB9BAB6E7E[Changing the status of a FlexCache volume].
 a|
 Resize
 a|

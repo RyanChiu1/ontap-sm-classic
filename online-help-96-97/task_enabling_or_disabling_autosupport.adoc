@@ -11,9 +11,13 @@ summary: 'You can enable or disable AutoSupport settings on your storage system 
 [.lead]
 You can enable or disable AutoSupport settings on your storage system by using System Manager. AutoSupport messages enable you to monitor your storage system health or send notifications to technical support and your internal support organization.
 
+== About this task
+
 The AutoSupport option is enabled by default.
 
-. Click *image:../media/nas_bridge_202_icon_settings.gif[]* > *AutoSupport*.
+== Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
 . Select the node, and then click *Enable* or *Disable*.
 . Click *OK*.
 . Verify that the AutoSupport status correctly displays the change you made.

@@ -11,6 +11,8 @@ summary: 'You can use System Manager to delete a port set when it is no longer r
 [.lead]
 You can use System Manager to delete a port set when it is no longer required.
 
+== Steps
+
 . Click *Storage* > *LUNs*.
 . In the *Portsets* tab, select one or more port sets and click *Delete*.
 . Confirm the deletion by clicking *Delete*.

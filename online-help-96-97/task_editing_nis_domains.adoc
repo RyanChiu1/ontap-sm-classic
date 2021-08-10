@@ -11,6 +11,8 @@ summary: 'You can use System Manager to modify NIS domains based on the requirem
 [.lead]
 You can use System Manager to modify NIS domains based on the requirement for storage virtual machine (SVM) authentication and authorization.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Services* pane, click *NIS*.

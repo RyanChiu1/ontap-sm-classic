@@ -11,6 +11,8 @@ summary: 'You can use System Manager to enable or disable an efficiency policy.'
 [.lead]
 You can use System Manager to enable or disable an efficiency policy.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Policies* pane, click *Efficiency Policies*.

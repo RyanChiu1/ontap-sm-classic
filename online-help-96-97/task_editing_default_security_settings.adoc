@@ -11,6 +11,8 @@ summary: 'You can use the Edit Default Security dialog box in System Manager to 
 [.lead]
 You can use the Edit Default Security dialog box in System Manager to edit the default security settings for the iSCSI initiators that are connected to the storage system.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *Protocols* pane, click *iSCSI*.

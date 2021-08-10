@@ -11,6 +11,8 @@ summary: 'When you are ready, you can give select clients access to the share by
 [.lead]
 When you are ready, you can give select clients access to the share by setting NTFS file permissions in Windows Explorer and modifying the share ACL in System Manager. Then you should test that the affected users or groups can access the volume.
 
+== Steps
+
 . Decide which clients and users or groups will be given access to the share.
 . On a Windows client, use an administrator role to give the users or groups permissions to the files and folders.
  .. Log in to a Windows client as an administrator who has sufficient administrative rights to manage NTFS permissions.

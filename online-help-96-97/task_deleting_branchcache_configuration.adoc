@@ -11,6 +11,8 @@ summary: 'You can use System Manager to delete the BranchCache configuration if 
 [.lead]
 You can use System Manager to delete the BranchCache configuration if you no longer want to offer caching services on the storage virtual machine (SVM) that is configured for BranchCache.
 
+== Steps
+
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
 . In the *BranchCache* tab, click *Delete*.

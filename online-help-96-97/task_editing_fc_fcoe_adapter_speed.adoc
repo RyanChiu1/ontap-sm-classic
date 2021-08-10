@@ -11,6 +11,8 @@ summary: 'You can modify the FC/FCoE and NVMe adapter speed settings by using th
 [.lead]
 You can modify the FC/FCoE and NVMe adapter speed settings by using the Edit FC/FCoE and NVMe Adapter Settings dialog box in System Manager.
 
+== Steps
+
 . Click *Network* > *FC/FCoE and NVMe Adapters*.
 . Select the adapter that you want to edit, and then click *Edit*.
 . In the *Edit FC/FCoE and NVMe adapter settings* dialog box, set the adapter speed to *Manual* or *Automatic*, and then click *Save*.

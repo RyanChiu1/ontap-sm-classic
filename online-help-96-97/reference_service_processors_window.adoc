@@ -53,4 +53,4 @@ The area below the Service Processor list displays detailed information about th
 
 *Related information*
 
-xref:task_setting_up_a_network_when_the_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]

@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_quiescing_mirror_vault_relationships.html
+sidebar: sidebar
+keywords: 
+summary: 'You can use System Manager to quiesce a destination volume to stabilize the destination before creating a Snapshot copy. The quiesce operation enables active data transfers to finish and disables future transfers for the mirror and vault relationship.'
+---
+= Quiescing mirror and vault relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to quiesce a destination volume to stabilize the destination before creating a Snapshot copy. The quiesce operation enables active data transfers to finish and disables future transfers for the mirror and vault relationship.
+
+== Before you begin
+
+The mirror and vault relationship must be in a Snapmirrored state.
+
+== Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror and vault relationship that you want to quiesce, and then click *Operations* > *Quiesce*.
+. Select the confirmation check box, and then click *Quiesce*.
+
+== Results
+
+If there is no transfer in progress, the transfer status is displayed as Quiesced. If a transfer is in progress, the transfer is not affected, and the transfer status is displayed as Quiescing until the transfer is complete.

@@ -11,7 +11,11 @@ summary: 'You can use System Manager to stop a share when you want to remove the
 [.lead]
 You can use System Manager to stop a share when you want to remove the shared network access to a folder, qtree, or volume.
 
+== Before you begin
+
 You must have installed the CIFS license.
+
+== Steps
 
 . Click *Storage* > *Shares*.
 . From the drop-down menu in the *SVM* field, select the SVM on which the CIFS share that you want to stop resides.
@@ -21,4 +25,4 @@ You must have installed the CIFS license.
 
 *Related information*
 
-xref:reference_shares_window_stm_topic.adoc[Shares window]
+xref:reference_shares_window.adoc[Shares window]

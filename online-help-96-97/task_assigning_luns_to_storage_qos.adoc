@@ -11,10 +11,14 @@ summary: 'You can use System Manager to limit the throughput of LUNs by assignin
 [.lead]
 You can use System Manager to limit the throughput of LUNs by assigning them to storage Quality of Service (QoS) policy groups. You can assign storage QoS for new LUNs or modify storage QoS details for LUNs that are already assigned to a policy group.
 
+== About this task
+
 * You cannot assign storage QoS to a LUN if the following storage objects are assigned to a policy group:
  ** Parent volume of the LUN
  ** Parent storage virtual machine (SVM) of the LUN
 * You can assign storage QoS or modify the QoS details for a maximum of 10 LUNs simultaneously.
+
+== Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, select one or more LUNs for which you want to assign storage QoS.

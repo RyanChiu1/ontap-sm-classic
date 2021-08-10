@@ -112,4 +112,4 @@ xref:task_adding_licenses.adoc[Adding licenses]
 
 xref:task_deleting_licenses.adoc[Deleting licenses]
 
-xref:task_creating_a_cluster.adoc[Creating a cluster]
+xref:task_creating_cluster.adoc[Creating a cluster]

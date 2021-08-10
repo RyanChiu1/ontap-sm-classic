@@ -11,16 +11,22 @@ summary: 'You can use System Manager to create a SnapLock Compliance volume or a
 [.lead]
 You can use System Manager to create a SnapLock Compliance volume or a SnapLock Enterprise volume. When you create a volume, you can also set retention times, and choose whether to automate setting the WORM state on data in the volume.
 
+== Before you begin
+
 * The SnapLock license must have been installed.
 * The SnapLock aggregate must be online.
 * For creating an encrypted volume, you must have installed the volume encryption license by using System Manager, and you must have enabled "`key-manager setup`" by using the command-line interface (CLI).
 +
 You must refresh your web browser after enabling "`key-manager setup`".
 
+== About this task
+
 * You can delete a complete SnapLock Enterprise volume or a file in a SnapLock Enterprise volume; however, you cannot delete only the data within a file in a SnapLock Enterprise volume.
 * You cannot delete a SnapLock Compliance volume if data is committed to the volume.
 * You cannot encrypt a volume in Cloud Volumes ONTAP.
 * If encryption is enabled on the source volume and if the destination cluster is running a version of ONTAP software earlier than ONTAP 9.3, then encryption is disabled on the destination volume by default.
+
+== Steps
 
 . Click *Storage* > *Volumes*.
 . Click *Create* > *Create FlexVol*.
@@ -155,5 +161,7 @@ If the selected cluster is running a version of ONTAP software earlier than ONTA
 
 . Click *Create*.
 . Verify that the volume that you created is included in the list of volumes in the *Volume* window.
+
+== Results
 
 The volume is created with UNIX-style security and UNIX 700 "`read write execute`" permissions for the owner.

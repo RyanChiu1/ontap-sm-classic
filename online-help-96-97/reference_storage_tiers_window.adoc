@@ -87,13 +87,13 @@ Changing the client time zone or the cluster time zone impacts the performance m
 
 *Related information*
 
-xref:task_adding_a_cloud_tier.adoc[Adding a cloud tier]
+xref:task_adding_cloud_tier.adoc[Adding a cloud tier]
 
-xref:task_attaching_an_aggregate_to_a_cloud_tier.adoc[Attaching an aggregate to a cloud tier]
+xref:task_attaching_aggregate_to_cloud_tier.adoc[Attaching an aggregate to a cloud tier]
 
-xref:task_deleting_a_cloud_tier.adoc[Deleting a cloud tier]
+xref:task_deleting_cloud_tier.adoc[Deleting a cloud tier]
 
-xref:task_editing_a_cloud_tier.adoc[Editing a cloud tier]
+xref:task_editing_cloud_tier.adoc[Editing a cloud tier]
 
 xref:task_provisioning_storage_through_aggregates.adoc[Provisioning storage through aggregates]
 

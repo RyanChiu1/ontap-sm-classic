@@ -11,10 +11,14 @@ summary: 'You can use System Manager to modify the attributes of a broadcast dom
 [.lead]
 You can use System Manager to modify the attributes of a broadcast domain such as the name, the MTU size, and the ports that are associated with the broadcast domain.
 
+== About this task
+
 * You must not modify the MTU size of the broadcast domain to which the management port e0M is assigned.
 * You cannot use System Manager to edit broadcast domains in the cluster IPspace.
 +
 You must use the command-line interface (CLI) instead.
+
+== Steps
 
 . Click *Network* > *Broadcast Domains*.
 . Select the broadcast domain that you want to modify, and then click *Edit*.

@@ -11,7 +11,9 @@ summary: 'You can use the AutoSupport Test dialog box in System Manager to test 
 [.lead]
 You can use the AutoSupport Test dialog box in System Manager to test that you have configured the AutoSupport settings correctly.
 
-. Click *image:../media/nas_bridge_202_icon_settings.gif[]* > *AutoSupport*.
+== Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
 . Select the node, and then click *Test*.
 . In the *AutoSupport Test* dialog box, enter the AutoSupport subject text "`Test AutoSupport`" or any text that notifies the recipients that you are testing the AutoSupport settings.
 . Click *Test*.

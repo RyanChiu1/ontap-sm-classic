@@ -11,7 +11,11 @@ summary: 'You can use System Manager to end a vault relationship between a sourc
 [.lead]
 You can use System Manager to end a vault relationship between a source and destination volume, and release the Snapshot copies from the source.
 
+== About this task
+
 Releasing the relationship permanently removes the base Snapshot copies used by the vault relationship on the source volume. To re-create the vault relationship, you must run the resynchronization operation from the source volume by using the command-line interface (CLI).
+
+== Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the volume for which you want to delete the vault relationship, and click *Delete*.

@@ -11,6 +11,8 @@ summary: 'Because communication with a traphost is not automatically validated w
 [.lead]
 Because communication with a traphost is not automatically validated when you add it, you should verify that the SNMP traphost can correctly receive traps.
 
+== Steps
+
 . Navigate to the *SNMP* screen.
 . Click *Test Trap Host* to generate a trap from the cluster in which you added a traphost.
 . From the traphost location, verify that the trap was received.
