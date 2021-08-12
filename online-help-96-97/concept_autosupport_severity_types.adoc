@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_autosupport_severity_types.html
 sidebar: sidebar
-keywords: 
-summary: 'AutoSupport messages have severity types that help you understand the purpose of each message—for example, to draw immediate attention to an emergency problem, or only to provide information.'
+keywords: autosupport, severity, type, problem, issue, online, help, classic, message
+summary: "AutoSupport messages have severity types that help you understand the purpose of each message—for example, to draw immediate attention to an emergency problem, or only to provide information."
 ---
 = AutoSupport severity types
 :icons: font

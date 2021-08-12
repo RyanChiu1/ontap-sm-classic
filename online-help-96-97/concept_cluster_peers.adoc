@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_cluster_peers.html
 sidebar: sidebar
-keywords: 
-summary: 'Peered clusters are required for data replication using SnapMirror technology and SnapVault technology, and for data replication using FlexCache volumes and SyncMirror technology in MetroCluster configurations. You can use System Manager to peer two clusters so that the peered clusters can coordinate and share resources between them.'
+keywords: cluster, peer, data, replication, snapmirror, snapvault, flexcache, syncmirror, configuration, online, help
+summary: "Peered clusters are required for data replication using SnapMirror technology and SnapVault technology, and for data replication using FlexCache volumes and SyncMirror technology in MetroCluster configurations. You can use System Manager to peer two clusters so that the peered clusters can coordinate and share resources between them."
 ---
 = Cluster peers
 :icons: font

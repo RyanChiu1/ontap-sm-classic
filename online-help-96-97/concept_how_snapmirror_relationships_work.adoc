@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_snapmirror_relationships_work.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a data protection mirror relationship to a destination within a cluster to protect your data. For greater disaster protection, you can also create a mirror relationship to a destination in a different cluster in a different location.'
+keywords: snapmirror, relationship, data, protection, mirror, destination, cluster, online, help
+summary: "You can create a data protection mirror relationship to a destination within a cluster to protect your data. For greater disaster protection, you can also create a mirror relationship to a destination in a different cluster in a different location."
 ---
 = How SnapMirror relationships work
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_moving_volume_works.html
 sidebar: sidebar
-keywords: 
-summary: 'Knowing how moving a FlexVol volume works helps you to determine whether the volume move satisfies service-level agreements and to understand where a volume move is in the volume move process.'
+keywords: flexvol, volume, move, service, level, agreement, process, online, help
+summary: "Knowing how moving a FlexVol volume works helps you to determine whether the volume move satisfies service-level agreements and to understand where a volume move is in the volume move process."
 ---
 = How moving a FlexVol volume works
 :icons: font

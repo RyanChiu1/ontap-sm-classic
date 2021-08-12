@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_array_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to assign array LUNs to an existing aggregate and manage array LUNs.'
+keywords: system, manager, array, lun, aggregate, assign, online, help, classic
+summary: "You can use System Manager to assign array LUNs to an existing aggregate and manage array LUNs."
 ---
 = Array LUNs
 :icons: font
