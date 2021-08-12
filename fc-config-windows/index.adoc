@@ -1,8 +1,8 @@
 ---
 permalink: fc-config-windows/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: fc, configuration, windows, express, guide
+summary: FC Configuration for Windows® Express Guide
 ---
 = FC Configuration for Windows® Express Guide
 :icons: font

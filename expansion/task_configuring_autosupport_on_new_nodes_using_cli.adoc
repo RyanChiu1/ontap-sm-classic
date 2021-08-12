@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_configuring_autosupport_on_new_nodes_using_cli.html
 sidebar: sidebar
-keywords: 
-summary: 'After you add nodes to a cluster, you must configure AutoSupport on the nodes.'
+keywords: add, node, cluster, configure, autosupport, node, configuring, configure autosupport on the new nodes
+summary: After you add nodes to a cluster, you must configure AutoSupport on the nodes.
 ---
-= Configuring AutoSupport on the new nodes
+= Configure AutoSupport on the new nodes
 :icons: font
 :imagesdir: ../media/
 

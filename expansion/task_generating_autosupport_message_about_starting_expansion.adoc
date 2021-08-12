@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_generating_autosupport_message_about_starting_expansion.html
 sidebar: sidebar
-keywords: 
-summary: 'Immediately before you expand a cluster, you should send an AutoSupport message to indicate that you are about to start the expansion process. The message informs internal and external support staff about expansion and acts as a timestamp for any troubleshooting that might be required later.'
+keywords: generating, generate, autosupport, message, start, expansion, expand, cluster, troubleshoot, generate an autosupport message about starting expansion
+summary: Immediately before you expand a cluster, you should send an AutoSupport message to indicate that you are about to start the expansion process. The message informs internal and external support staff about expansion and acts as a timestamp for any troubleshooting that might be required later.
 ---
-= Generating an AutoSupport message about starting expansion
+= Generate an AutoSupport message about starting expansion
 :icons: font
 :imagesdir: ../media/
 

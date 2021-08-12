@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_generating_autosupport_message_about_completing_expansion.html
 sidebar: sidebar
-keywords: 
-summary: 'After you expand a cluster, you should send an AutoSupport message to indicate that the expansion process is complete. This message communicates to internal and external support staff that the expansion is complete and acts as a timestamp for any troubleshooting that might be required later.'
+keywords: expand, cluster, autosupport, indicate, expansion, process, complete, message, communicate, internal, external, support, staff, complete, troubleshoot, generate, generate an autosupport, message about completing expansion
+summary: After you expand a cluster, you should send an AutoSupport message to indicate that the expansion process is complete. This message communicates to internal and external support staff that the expansion is complete and acts as a timestamp for any troubleshooting that might be required later.
 ---
-= Generating an AutoSupport message about completing expansion
+= Generate an AutoSupport message about completing expansion
 :icons: font
 :imagesdir: ../media/
 

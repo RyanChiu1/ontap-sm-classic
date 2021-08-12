@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-esxi/concept_fc_config_esxi_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how to quickly set up the FC service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available as a datastore using an FC HBA on an ESX host computer.'
+keywords: guide, describe, fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, esx, host, computer, decide whether to use the fc configuration for esx express guide
+summary: This guide describes how to quickly set up the FC service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available as a datastore using an FC HBA on an ESX host computer.
 ---
-= Deciding whether to use the FC Configuration for ESX Express Guide
+= Decide whether to use the FC Configuration for ESX Express Guide
 :icons: font
 :imagesdir: ../media/
 

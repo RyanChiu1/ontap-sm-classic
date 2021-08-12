@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_gathering_required_information.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you expand a cluster, you must obtain networking information required to later configure the node-management LIFs and the Service Processor IP addresses for both of the nodes.'
+keywords: expand, cluster, network, information, require, configure, node-management, lif, service, ip, adress, node, gather the required network information
+summary: Before you expand a cluster, you must obtain networking information required to later configure the node-management LIFs and the Service Processor IP addresses for both of the nodes.
 ---
-= Gathering the required network information
+= Gather the required network information
 :icons: font
 :imagesdir: ../media/
 

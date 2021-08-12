@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-rhel/task_verifying_that_iscsi_fc_configuration_is_supported.html
 sidebar: sidebar
-keywords: 
-summary: 'For reliable operation, you must verify that the entire FC configuration is supported.'
+keywords: reliable, operation, verify, entire, fc, configuration, support, verify that the fc configuration is supported
+summary: For reliable operation, you must verify that the entire FC configuration is supported.
 ---
-= Verifying that the FC configuration is supported
+= Verify that the FC configuration is supported
 :icons: font
 :imagesdir: ../media/
 

@@ -1,8 +1,8 @@
 ---
 permalink: expansion/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'After you expand a cluster, you can start storing data on the new nodes either by creating new volumes on the new nodes or by moving existing data to the new nodes. There are express guides and comprehensive documentation to help you achieve these goals.'
+keywords: expand, cluster, storing, store, data, node, volume, exist, guide, achieve, goal, information, express guides, data protection, comprehensive guides, where to find additional information
+summary: After you expand a cluster, you can start storing data on the new nodes either by creating new volumes on the new nodes or by moving existing data to the new nodes. There are express guides and comprehensive documentation to help you achieve these goals.
 ---
 = Where to find additional information
 :icons: font

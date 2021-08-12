@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-rhel/concept_fc_config_rhel_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how to quickly set up the FC service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an FC host bus adapter \(HBA\) on a Red Hat Enterprise Linux server.'
+keywords: guide, quick, set, up, fc, service, storage, virtual, machine, svm, provision, lun, fc, host, bus, adapter, hba, red, hat, enterprise, linux, server, decide whether to use the fc configuration for red hat enterprise linux express guide
+summary: This guide describes how to quickly set up the FC service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an FC host bus adapter \(HBA\) on a Red Hat Enterprise Linux server.
 ---
-= Deciding whether to use the FC Configuration for Red Hat Enterprise Linux Express Guide
+= Decide whether to use the FC Configuration for Red Hat Enterprise Linux Express Guide
 :icons: font
 :imagesdir: ../media/
 

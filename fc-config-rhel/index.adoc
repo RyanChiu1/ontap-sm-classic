@@ -1,8 +1,8 @@
 ---
 permalink: fc-config-rhel/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: fc, configuration, red, hat, enterprise, linux, express, guide
+summary: FC Configuration for Red Hat® Enterprise Linux® Express Guide
 ---
 = FC Configuration for Red Hat® Enterprise Linux® Express Guide
 :icons: font
