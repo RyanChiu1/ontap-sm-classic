@@ -2,10 +2,10 @@
 entries:
 - title: Home
   url: "/index.html"
-- title: expansion
+- title: Cluster expansion configuration
   url: "/expansion/index.html"
   entries:
-  - title: Deciding whether to use the Cluster Expansion Express Guide
+  - title: Overview
     url: "/expansion/concept_cluster_expansion_overview.html"
   - title: Cluster expansion workflow
     url: "/expansion/concept_cluster_expansion_workflow.html"
@@ -62,10 +62,10 @@ entries:
         url: "/expansion/task_updating_lun_paths_for_new_nodes.html"
   - title: Where to find additional information
     url: "/expansion/reference_where_to_find_additional_information.html"
-- title: fc-config-esxi
+- title: FC configuration for ESXi using VSC
   url: "/fc-config-esxi/index.html"
   entries:
-  - title: Deciding whether to use the FC Configuration for ESX Express Guide
+  - title: Overview
     url: "/fc-config-esxi/concept_fc_config_esxi_overview.html"
   - title: FC configuration workflow
     url: "/fc-config-esxi/concept_fc_configuration_workflow.html"
@@ -101,10 +101,10 @@ entries:
       url: "/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
   - title: Where to find additional information
     url: "/fc-config-esxi/reference_where_to_find_additional_information.html"
-- title: fc-config-rhel
+- title: FC configuration for Red Hat Enterprise Linux
   url: "/fc-config-rhel/index.html"
   entries:
-  - title: Deciding whether to use the FC Configuration for Red Hat Enterprise Linux
+  - title: Overview
       Express Guide
     url: "/fc-config-rhel/concept_fc_config_rhel_overview.html"
   - title: FC configuration and provisioning workflow
@@ -148,10 +148,10 @@ entries:
       url: "/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
   - title: Where to find additional information
     url: "/fc-config-rhel/reference_where_to_find_additional_information.html"
-- title: fc-config-windows
+- title: FC configuration for Windows
   url: "/fc-config-windows/index.html"
   entries:
-  - title: Deciding whether to use the FC Configuration for Windows Express Guide
+  - title: Overview
     url: "/fc-config-windows/concept_fc_config_windows_overview.html"
   - title: FC configuration workflow
     url: "/fc-config-windows/concept_fc_configuration_workflow.html"
@@ -191,10 +191,10 @@ entries:
       url: "/fc-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
   - title: Where to find additional information
     url: "/fc-config-windows/reference_where_to_find_additional_information.html"
-- title: iscsi-config-esxi
+- title: iSCSI configuration for ESXi using VSC
   url: "/iscsi-config-esxi/index.html"
   entries:
-  - title: Deciding whether to use the iSCSI Configuration for ESX Express Guide
+  - title: Overview
     url: "/iscsi-config-esxi/concept_iscsi_config_esxi_overview.html"
   - title: iSCSI configuration workflow
     url: "/iscsi-config-esxi/concept_iscsi_configuration_provisioning_workflow.html"
@@ -236,10 +236,10 @@ entries:
       url: "/iscsi-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
   - title: Where to find additional information
     url: "/iscsi-config-esxi/reference_where_to_find_additional_information.html"
-- title: iscsi-config-rhel
+- title: iSCSI configuration for Red Hat Enterprise Linux
   url: "/iscsi-config-rhel/index.html"
   entries:
-  - title: Deciding whether to use the iSCSI Configuration for Red Hat Enterprise
+  - title: Overview
       Linux Express Guide
     url: "/iscsi-config-rhel/concept_iscsi_config_rhel_overview.html"
   - title: iSCSI configuration and provisioning workflow
@@ -283,10 +283,10 @@ entries:
       url: "/iscsi-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
   - title: Where to find additional information
     url: "/iscsi-config-rhel/reference_where_to_find_additional_information.html"
-- title: iscsi-config-windows
+- title: iSCSI configuration for Windowss
   url: "/iscsi-config-windows/index.html"
   entries:
-  - title: Deciding whether to use the iSCSI Configuration for Windows Express Guide
+  - title: Overview
     url: "/iscsi-config-windows/concept_iscsi_config_windows_overview.html"
   - title: iSCSI configuration and provisioning workflow
     url: "/iscsi-config-windows/concept_iscsi_configuration_workflow.html"
@@ -322,10 +322,10 @@ entries:
       url: "/iscsi-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
   - title: Where to find additional information
     url: "/iscsi-config-windows/reference_where_to_find_additional_information.html"
-- title: nas-multiprotocol-config
+- title: SMB/CIFS and NFS multiprotocol configuration
   url: "/nas-multiprotocol-config/index.html"
   entries:
-  - title: Deciding whether to use the SMB/CIFS and NFS Multiprotocol Configuration
+  - title: Overview
       Express Guide
     url: "/nas-multiprotocol-config/concept_smb_nfs_multiprotocol_config_overview.html"
   - title: Multiprotocol configuration workflow
@@ -363,11 +363,10 @@ entries:
       url: "/nas-multiprotocol-config/task_configuring_verifying_client_access_new_svm.html"
   - title: Where to find additional information
     url: "/nas-multiprotocol-config/reference_where_to_find_additional_information.html"
-- title: nfs-config-esxi
+- title: NFS configuration for ESXi using VSC
   url: "/nfs-config-esxi/index.html"
   entries:
-  - title: Deciding whether to use the NFS Configuration for ESXi using VSC Express
-      Guide
+  - title: Overview
     url: "/nfs-config-esxi/concept_nfs_config_esxi_overview.html"
   - title: NFS Client Configuration for ESXi workflow
     url: "/nfs-config-esxi/task_nfs_client_configuration_for_esxi_workflow.html"
@@ -409,10 +408,10 @@ entries:
       url: "/nfs-config-esxi/task_mounting_datastores_on_hosts.html"
     - title: Where to find additional information
       url: "/nfs-config-esxi/reference_where_to_find_additional_information.html"
-- title: nfs-config
+- title: NFS configuration
   url: "/nfs-config/index.html"
   entries:
-  - title: Deciding whether to use the NFS Configuration Express Guide
+  - title: Overview
     url: "/nfs-config/concept_nfs_config_overview.html"
   - title: NFS configuration workflow
     url: "/nfs-config/concept_cifs_nfs_configuration_workflow.html"
@@ -465,7 +464,7 @@ entries:
       url: "/nfs-config/task_configuring_verifying_client_access_add_vol_existing_nfs_svm.html"
   - title: Where to find additional information
     url: "/nfs-config/reference_where_to_find_additional_information.html"
-- title: online-help-96-97
+- title: Cluster management using System Manager 9.6 and 9.7
   url: "/online-help-96-97/index.html"
   entries:
   - title: Understanding System Manager
@@ -3125,10 +3124,10 @@ entries:
       url: "/online-help-96-97/concept_schedules_conceptual.html"
     - title: Schedules window
       url: "/online-help-96-97/reference_schedules_window.html"
-- title: peering
+- title: Cluster and SVM peering configuration
   url: "/peering/index.html"
   entries:
-  - title: Deciding whether to use the Cluster and SVM Peering Express Guide
+  - title: Overview
     url: "/peering/concept_peering_overview.html"
   - title: Prerequisites for cluster peering
     url: "/peering/reference_prerequisites_for_cluster_peering.html"
@@ -3155,10 +3154,10 @@ entries:
         url: "/peering/task_creating_cluster_peer_relationships_93_later.html"
   - title: Where to find additional information
     url: "/peering/reference_where_to_find_additional_information.html"
-- title: smb-config
+- title: SMB/CIFS configuration
   url: "/smb-config/index.html"
   entries:
-  - title: Deciding whether to use the SMB/CIFS Configuration Express Guide
+  - title: Overview
     url: "/smb-config/concept_smb_config_overview.html"
   - title: SMB/CIFS configuration workflow
     url: "/smb-config/concept_cifs_nfs_configuration_workflow.html"
@@ -3202,10 +3201,10 @@ entries:
       url: "/smb-config/task_configuring_verifying_client_access.html"
   - title: Where to find additional information
     url: "/smb-config/reference_where_to_find_additional_information.html"
-- title: snmp-config
+- title: SNMP  configuration
   url: "/snmp-config/index.html"
   entries:
-  - title: Deciding whether to use the SNMP Configuration Express Guide
+  - title: Overview
     url: "/snmp-config/concept_snmp_config_overview.html"
   - title: SNMP configuration workflow
     url: "/snmp-config/concept_snmp_configuration_workflow.html"
@@ -3224,10 +3223,10 @@ entries:
       url: "/snmp-config/task_testing_snmp_polling.html"
   - title: Where to find additional information
     url: "/snmp-config/reference_where_to_find_additional_information.html"
-- title: volume-backup-snapvault
+- title: Volume backup using SnapVault
   url: "/volume-backup-snapvault/index.html"
   entries:
-  - title: Deciding whether to use the Volume Backup Using SnapVault Express Guide
+  - title: Overview
     url: "/volume-backup-snapvault/concept_volume_backup_snapvault_overview.html"
   - title: SnapVault backup configuration workflow
     url: "/volume-backup-snapvault/concept_snapvault_configuration_workflow.html"
@@ -3242,11 +3241,10 @@ entries:
       url: "/volume-backup-snapvault/task_monitoring_snapvault_relationship.html"
   - title: Where to find additional information
     url: "/volume-backup-snapvault/reference_where_to_find_additional_information.html"
-- title: volume-disaster-prep
+- title: Volume disaster recovery preparationp
   url: "/volume-disaster-prep/index.html"
   entries:
-  - title: Deciding whether to use the Volume Disaster Recovery Preparation Express
-      Guide
+  - title: Overview
     url: "/volume-disaster-prep/concept_volume_disaster_prep_overview.html"
   - title: Volume disaster recovery preparation workflow
     url: "/volume-disaster-prep/concept_snapmirror_intercluster_configuration_workflow.html"
@@ -3263,10 +3261,10 @@ entries:
       url: "/volume-disaster-prep/task_monitoring_status_snapmirror_data_transfers.html"
   - title: Where to find additional information
     url: "/volume-disaster-prep/reference_where_to_find_additional_information.html"
-- title: volume-disaster-recovery
+- title: Volume disaster recovery
   url: "/volume-disaster-recovery/index.html"
   entries:
-  - title: Deciding whether to use the Volume Disaster Recovery Express Guide
+  - title: Overview
     url: "/volume-disaster-recovery/concept_volume_disaster_recovery_overview.html"
   - title: Volume disaster recovery workflow
     url: "/volume-disaster-recovery/concept_volume_disaster_recovery_workflow.html"
@@ -3293,10 +3291,10 @@ entries:
         url: "/volume-disaster-recovery/task_returning_recovered_volume_to_source_role.html"
   - title: Where to find additional information
     url: "/volume-disaster-recovery/reference_where_to_find_additional_information.html"
-- title: volume-move
+- title: Volume move management
   url: "/volume-move/index.html"
   entries:
-  - title: Deciding whether to use the Volume Move Express Guide
+  - title: Overview
     url: "/volume-move/concept_volume_move_overview.html"
   - title: Volume move workflow
     url: "/volume-move/concept_volume_move_workflow.html"
@@ -3313,10 +3311,10 @@ entries:
       url: "/volume-move/task_updating_ndmp_backup_after_moving_volume.html"
   - title: Where to find additional information
     url: "/volume-move/reference_where_to_find_additional_information.html"
-- title: volume-restore-snapvault
+- title: Volume restore management using SnapVault
   url: "/volume-restore-snapvault/index.html"
   entries:
-  - title: Deciding whether to use the Volume Restore Using SnapVault Express Guide
+  - title: Overview
     url: "/volume-restore-snapvault/concept_volume_restore_snapvault_overview.html"
   - title: Volume restore workflow
     url: "/volume-restore-snapvault/concept_volume_restore_workflow.html"
