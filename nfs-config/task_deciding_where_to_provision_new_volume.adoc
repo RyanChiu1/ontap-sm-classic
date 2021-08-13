@@ -1,7 +1,7 @@
 ---
 permalink: nfs-config/task_deciding_where_to_provision_new_volume.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Before you create a new NFS volume, you must decide whether to place it in an existing storage virtual machine \(SVM\), and, if so, how much configuration the SVM requires. This decision determines your workflow.'
 ---
 = Deciding where to provision the new volume
@@ -23,7 +23,7 @@ You must choose this option if NFS is not enabled on an existing SVM.
 +
 xref:task_configuring_access_to_existing_svm.adoc[Configuring NFS access on an existing SVM]
 +
-You should choose this option if you created the SVM for SAN access by using the relevant Express Guide.
+This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
 * If you want to provision a volume on an existing SVM that is fully configured for NFS access, add an NFS volume to the NFS-enabled SVM.
 +

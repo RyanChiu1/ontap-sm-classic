@@ -25,4 +25,4 @@ You must have administrator credentials on the vCenter Server used to manage the
 +
 https://mysupport.netapp.com/site/global/dashboard[NetApp Support]
 
-. Deploy the virtual appliance and configure it following the steps in the _Deployment and Setup Guide_.
+. Deploy the virtual appliance and configure it following the steps in _Deployment and Setup_.

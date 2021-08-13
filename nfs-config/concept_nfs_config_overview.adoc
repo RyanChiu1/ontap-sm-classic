@@ -2,14 +2,14 @@
 permalink: nfs-config/concept_nfs_config_overview.html
 sidebar: sidebar
 keywords:
-summary: 'This guide describes how to quickly set up NFS access to a new volume on either a new or existing storage virtual machine \(SVM\).'
+summary: 'This content describes how to quickly set up NFS access to a new volume on either a new or existing storage virtual machine \(SVM\).'
 ---
-= NFS configuration overview 
+= NFS configuration overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This guide describes how to quickly set up NFS access to a new volume on either a new or existing storage virtual machine (SVM).
+This content describes how to quickly set up NFS access to a new volume on either a new or existing storage virtual machine (SVM).
 
 You should use this guide if you want to configure access to a volume in the following way:
 

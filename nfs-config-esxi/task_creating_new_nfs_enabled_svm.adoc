@@ -1,7 +1,7 @@
 ---
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using .'
 ---
 = Creating a new NFS-enabled
@@ -21,7 +21,7 @@ Setting up a new involves creating the new and enabling NFS. You can then config
 
 == About this task
 
-With , you can use a wizard that guides you through the process of creating the , configuring DNS, creating a data LIF, and enabling NFS.
+You can use a wizard that guides you through the process of creating the , configuring DNS, creating a data LIF, and enabling NFS.
 
 == Steps
 

@@ -1,7 +1,7 @@
 ---
 permalink: volume-restore-snapvault/task_verifying_restore_operation.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'After performing the restore operation from the SnapVault backup destination volume, you must verify the status of the restore operation on the source cluster.'
 ---
 = Verifying the restore operation
@@ -26,4 +26,4 @@ The Type field displays `Restore` temporarily. After the restore operation is co
 +
 You should troubleshoot any issues in the SnapVault relationships. The troubleshooting procedures for SnapMirror relationships are also applicable to SnapVault relationships.
 +
-http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices Guide for ONTAP 9.1, 9.2]
+http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2]

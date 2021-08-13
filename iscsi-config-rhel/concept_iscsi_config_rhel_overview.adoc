@@ -2,16 +2,16 @@
 permalink: iscsi-config-rhel/concept_iscsi_config_rhel_overview.html
 sidebar: sidebar
 keywords:
-summary: 'This guide describes how to quickly set up the iSCSI service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an iSCSI initiator on a Red Hat Enterprise Linux server.'
+summary: 'This content describes how to quickly set up the iSCSI service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an iSCSI initiator on a Red Hat Enterprise Linux server.'
 ---
 = iSCSI configuration for Red Hat Enterprise Linux overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This guide describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on a Red Hat Enterprise Linux server.
+This content describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on a Red Hat Enterprise Linux server.
 
-This guide is based on the following assumptions:
+This content is based on the following assumptions:
 
 * You want to use best practices, not explore every available option.
 * You do not want to read a lot of conceptual background.
@@ -35,7 +35,7 @@ If these assumptions are not correct for your situation, you should see the foll
 
 * https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]
 * https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanconf/home.html[SAN configuration]
-* https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936[Linux Unified Host Utilities 7.1 Installation Guide]
+* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html[Linux Unified Host Utilities 7.1 Installation]
 * http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
 +
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks such as the workflows described in Express Guides.
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.

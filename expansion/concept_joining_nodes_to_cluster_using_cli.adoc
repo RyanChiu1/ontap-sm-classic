@@ -1,7 +1,7 @@
 ---
 permalink: expansion/concept_joining_nodes_to_cluster_using_cli.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'When the newly installed controller modules are ready, you can add each one to the cluster by using the cluster setup command.'
 ---
 = Joining nodes to the cluster using the CLI
@@ -34,7 +34,7 @@ command line interface:
 +
 [NOTE]
 ====
-For instructions using the GUI-based cluster setup wizard, see the topic _Adding nodes to the cluster using System Manager_ in this guide.
+For instructions using the GUI-based cluster setup wizard, see xref:task_adding_nodes_to_cluster_using_system_manager.html[Adding nodes to the cluster using System Manager].
 ====
 
 . Press Enter to use the CLI to complete this task. When prompted to create a new cluster or join an existing one, enter `join`.

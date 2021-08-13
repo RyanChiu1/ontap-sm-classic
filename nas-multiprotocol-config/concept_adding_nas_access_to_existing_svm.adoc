@@ -1,7 +1,7 @@
 ---
 permalink: nas-multiprotocol-config/concept_adding_nas_access_to_existing_svm.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data LIF, configuring a CIFS server, enabling NFS, and optionally configuring NIS.'
 ---
 = Adding CIFS and NFS access to an existing SVM
@@ -22,7 +22,7 @@ Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data 
 * The time on the AD domain controllers, clients, and SVM must be synchronized within five minutes of each other.
 * The CIFS and NFS protocols must be allowed on the SVM.
 +
-This is the case if you created the SVM while following another Express Guide to configure a SAN protocol.
+This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
 == About this task
 

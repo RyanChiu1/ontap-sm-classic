@@ -11,13 +11,13 @@ summary: 'This content describes how to quickly and nondisruptively expand an ex
 [.lead]
 This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.
 
-You should use this guide only if the following is true:
+You should use this content only if the following is true:
 
 * The existing cluster meets the following requirements:
  ** It is running ONTAP 9.
  ** It contains at least two nodes.
 +
-Although examples in this guide use a two-node cluster, this guide also applies to clusters with more than two nodes.
+Although examples in this content use a two-node cluster, it also applies to clusters with more than two nodes.
 +
 If you want to add a node to a single-node cluster, you must follow a different procedure.
 +

@@ -1,7 +1,7 @@
 ---
 permalink: nas-multiprotocol-config/task_deciding_where_to_provision_new_volume.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Before you create a new multiprotocol volume, you must decide whether to place the volume in an existing storage virtual machine \(SVM\), and, if so, how much configuration the SVM requires. This decision determines your workflow.'
 ---
 = Deciding where to provision the new volume
@@ -22,8 +22,6 @@ You must choose this option if CIFS and NFS are not already enabled on an existi
 * If you want to provision a volume on an existing SVM that has both CIFS and NFS enabled but not configured, add CIFS and NFS access on the existing SVM.
 +
 link:concept_adding_nas_access_to_existing_svm.md#[Adding CIFS and NFS access on an existing SVM]
-+
-You should choose this option if you created the SVM for SAN access by using the relevant Express Guide.
 
 * If you want to provision a volume on an existing SVM that is fully configured for CIFS and NFS multiprotocol access, you can directly create and configure the volume.
 +

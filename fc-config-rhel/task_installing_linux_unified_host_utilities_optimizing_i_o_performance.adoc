@@ -1,7 +1,7 @@
 ---
 permalink: fc-config-rhel/task_installing_linux_unified_host_utilities_optimizing_i_o_performance.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Linux Unified Host Utilities software includes the sanlun utility, a NetApp LUN reporting tool that you can use to display information about storage cluster nodes and Host Bus Adapters \(HBAs\) that are on the Linux host. You must also enable the correct server profile on the Linux host to optimize NetApp storage performance.'
 ---
 = Installing Linux Unified Host Utilities and optimizing I/O performance
@@ -26,4 +26,4 @@ http://mysupport.netapp.com/NOW/cgi-bin/software[NetApp Downloads: Software]
 . For a physical host, ensure that you have set the `enterprise-storage` profile: `tuned-adm profile enterprise-storage`
 . For a virtual host, ensure that you have set the `virtual-guest` profile: `tuned-adm profile virtual-guest`
 +
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936[Linux Unified Host Utilities 7.1 Installation Guide]
+https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936[Linux Unified Host Utilities 7.1 Installation]

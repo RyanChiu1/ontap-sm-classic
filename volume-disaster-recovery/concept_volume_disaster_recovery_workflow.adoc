@@ -1,7 +1,7 @@
 ---
 permalink: volume-disaster-recovery/concept_volume_disaster_recovery_workflow.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'The volume disaster recovery workflow includes activating the destination volume, configuring the destination volume for data access, and reactivating the original source volume.'
 ---
 = Volume disaster recovery workflow
@@ -11,4 +11,4 @@ summary: 'The volume disaster recovery workflow includes activating the destinat
 [.lead]
 The volume disaster recovery workflow includes activating the destination volume, configuring the destination volume for data access, and reactivating the original source volume.
 
-image::../media/snapmirror_failover_resync_workflow_eg.gif[This illustration is a flowchart of the SnapMirror Intercluster Failover and Resync workflow. The steps in the workflow match the topics in this guide.]
+image::../media/snapmirror_failover_resync_workflow_eg.gif[This illustration is a flowchart of the SnapMirror Intercluster Failover and Resync workflow. The steps in the workflow match the topics in this content.]

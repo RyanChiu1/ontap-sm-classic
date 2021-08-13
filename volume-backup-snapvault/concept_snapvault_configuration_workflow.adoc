@@ -1,7 +1,7 @@
 ---
 permalink: volume-backup-snapvault/concept_snapvault_configuration_workflow.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Configuring a SnapVault backup relationship includes verifying the cluster peer relationship, creating the SnapVault relationship between the source and the destination volumes, and monitoring the SnapVault relationship.'
 ---
 = SnapVault backup configuration workflow
@@ -11,4 +11,4 @@ summary: 'Configuring a SnapVault backup relationship includes verifying the clu
 [.lead]
 Configuring a SnapVault backup relationship includes verifying the cluster peer relationship, creating the SnapVault relationship between the source and the destination volumes, and monitoring the SnapVault relationship.
 
-image::../media/snapvault_workflow.gif[This illustration is a flowchart of the SnapVault backup configuration workflow workflow. The steps in the workflow match the topics in this guide.]
+image::../media/snapvault_workflow.gif[This illustration is a flowchart of the SnapVault backup configuration workflow workflow. The steps in the workflow match the topics in this content.]

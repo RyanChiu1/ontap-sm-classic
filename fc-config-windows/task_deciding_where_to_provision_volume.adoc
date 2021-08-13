@@ -1,7 +1,7 @@
 ---
 permalink: fc-config-windows/task_deciding_where_to_provision_volume.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine \(SVM\) or to create a new SVM for the volume. You might also need to configure FC on an existing SVM.'
 ---
 = Deciding where to provision the volume
@@ -29,7 +29,7 @@ xref:task_creating_lun_its_containing_volume.adoc[Creating a LUN]
 +
 xref:task_configuring_iscsi_fc_creating_lun_on_existing_svm.adoc[Configuring FC on an existing SVM]
 +
-This is the case when you followed another Express Guide to create the SVM while configuring a different protocol.
+This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
 * If you want to provision volumes on a new SVM, create the SVM.
 +

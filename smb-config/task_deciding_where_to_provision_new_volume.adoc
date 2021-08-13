@@ -1,7 +1,7 @@
 ---
 permalink: smb-config/task_deciding_where_to_provision_new_volume.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'Before you create a new CIFS volume, you must decide whether to place it in an existing storage virtual machine \(SVM\), and, if so, how much configuration the SVM requires. This decision determines your workflow.'
 ---
 = Deciding where to provision the new volume
@@ -23,7 +23,7 @@ You must choose this option if CIFS is not enabled on an existing SVM.
 +
 xref:task_configuring_access_to_existing_svm.adoc[Configuring CIFS/SMB access on an existing SVM]
 +
-You should choose this option if you created the SVM for SAN access by using the relevant Express Guide.
+You should choose this option if you created the SVM for SAN access by using the procedure in this content.
 
 * If you want to provision a volume on an existing SVM that is fully configured for CIFS access, add a CIFS volume to the CIFS-enabled SVM.
 +
