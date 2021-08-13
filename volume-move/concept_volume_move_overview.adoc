@@ -1,10 +1,10 @@
 ---
 permalink: volume-move/concept_volume_move_overview.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'You can use this guide to nondisruptively move a data volume from one node to another node within the same storage virtual machine \(SVM\) in an ONTAP 9 cluster.'
 ---
-= Deciding whether to use the Volume Move Express Guide
+= Volume move overview
 :icons: font
 :imagesdir: ../media/
 

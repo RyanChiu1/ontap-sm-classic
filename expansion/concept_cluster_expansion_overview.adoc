@@ -1,15 +1,15 @@
 ---
 permalink: expansion/concept_cluster_expansion_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.'
+keywords:
+summary: 'This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.'
 ---
-= Deciding whether to use the Cluster Expansion Express Guide
+= Cluster expansion overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This guide describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.
+This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.
 
 You should use this guide only if the following is true:
 

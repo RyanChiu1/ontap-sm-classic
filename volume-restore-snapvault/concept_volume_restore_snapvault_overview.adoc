@@ -1,10 +1,10 @@
 ---
 permalink: volume-restore-snapvault/concept_volume_restore_snapvault_overview.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'This guide describes how to quickly restore a volume from a SnapVault backup in ONTAP when there is a data loss.'
 ---
-= Deciding whether to use the Volume Restore Using SnapVault Express Guide
+= Volume restore using SnapVault overview
 :icons: font
 :imagesdir: ../media/
 

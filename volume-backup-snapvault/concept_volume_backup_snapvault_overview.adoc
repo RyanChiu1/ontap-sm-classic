@@ -1,10 +1,10 @@
 ---
 permalink: volume-backup-snapvault/concept_volume_backup_snapvault_overview.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'This guide describes how to quickly configure SnapVault backup relationships between volumes that are located in different clusters. The SnapVault backup contains a set of read-only backup copies, which are located on a destination volume that you can use for restoring data when data is corrupted or lost.'
 ---
-= Deciding whether to use the Volume Backup Using SnapVault Express Guide
+= Volume backup using SnapVault overview
 :icons: font
 :imagesdir: ../media/
 

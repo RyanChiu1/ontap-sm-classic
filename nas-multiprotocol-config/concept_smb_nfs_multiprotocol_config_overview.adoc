@@ -1,10 +1,10 @@
 ---
 permalink: nas-multiprotocol-config/concept_smb_nfs_multiprotocol_config_overview.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'This guide describes how to quickly set up both SMB/CIFS and NFS access to a new volume on either a new or existing storage virtual machine \(SVM\).'
 ---
-= Deciding whether to use the SMB/CIFS and NFS Multiprotocol Configuration Express Guide
+= SMB/CIFS and NFS multiprotocol configuration overview
 :icons: font
 :imagesdir: ../media/
 

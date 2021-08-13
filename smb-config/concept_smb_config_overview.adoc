@@ -1,10 +1,10 @@
 ---
 permalink: smb-config/concept_smb_config_overview.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'This guide describes how to quickly set up SMB/CIFS access to a new volume on either a new or existing storage virtual machine \(SVM\).'
 ---
-= Deciding whether to use the SMB/CIFS Configuration Express Guide
+= SMB/CIFS configuration overview 
 :icons: font
 :imagesdir: ../media/
 
