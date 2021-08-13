@@ -25,7 +25,7 @@ link:../com.netapp.doc.exp-clus-peer/home.html[Cluster and SVM peering express c
 * You want to use best practices, not explore every available option.
 * You do not want to read a lot of conceptual background.
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-* You want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 

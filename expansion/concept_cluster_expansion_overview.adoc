@@ -29,7 +29,7 @@ https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.htm
  ** If they are not new, they have been wiped clean, are no longer part of a cluster, and are ready to be added to the new cluster.
  ** They support ONTAP 9.
  ** They are running a version of the ONTAP 9 release family.
-* When completing ONTAP configuration tasks with System Manager, you want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
+* When completing ONTAP configuration tasks with System Manager, you want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 
