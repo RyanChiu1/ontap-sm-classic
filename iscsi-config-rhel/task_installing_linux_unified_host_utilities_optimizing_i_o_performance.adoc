@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-rhel/task_installing_linux_unified_host_utilities_optimizing_i_o_performance.html
 sidebar: sidebar
-keywords: 
-summary: 'Linux Unified Host Utilities software includes the sanlun utility, a NetApp LUN reporting tool that you can use to display information about storage cluster nodes. You must also enable the correct server profile on the Linux host to optimize NetApp storage performance.'
+keywords: linux, unified, host, utilities, sanlun, utility, netapp, lun, report, tool, display, information, storage, cluster, node, enable, netapp, install linux unified host utilities and optimizing i/o performance
+summary: Linux Unified Host Utilities software includes the sanlun utility, a NetApp LUN reporting tool that you can use to display information about storage cluster nodes. You must also enable the correct server profile on the Linux host to optimize NetApp storage performance.
 ---
-= Installing Linux Unified Host Utilities and optimizing I/O performance
+= Install Linux Unified Host Utilities and optimizing I/O performance
 :icons: font
 :imagesdir: ../media/
 

@@ -1,8 +1,8 @@
 ---
 permalink: iscsi-config-esxi/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: iscsi, configuration, esxi, vsc, express, guide
+summary: iSCSI Configuration for ESXi® using VSC Express Guide
 ---
 = iSCSI Configuration for ESXi® using VSC Express Guide
 :icons: font

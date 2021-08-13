@@ -1,10 +1,10 @@
 ---
 permalink: nas-multiprotocol-config/task_opening_export_policy_svm_root_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You must add a rule to the default export policy to allow all clients access through NFSv3. Without such a rule, all NFS clients are denied access to the storage virtual machine \(SVM\) and its volumes.'
+keywords: rule, export, policy, nfsv3, nfs, client, storage, virtual, machine, svm, volume, open the export policy of the svm root volume (create a new nfs-enabled svm)
+summary: You must add a rule to the default export policy to allow all clients access through NFSv3. Without such a rule, all NFS clients are denied access to the storage virtual machine \(SVM\) and its volumes.
 ---
-= Opening the export policy of the SVM root volume (Creating a new NFS-enabled SVM)
+= Open the export policy of the SVM root volume (Create a new NFS-enabled SVM)
 :icons: font
 :imagesdir: ../media/
 

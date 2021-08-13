@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-rhel/task_recording_iscsi_node_name.html
 sidebar: sidebar
-keywords: 
-summary: 'You must record the iSCSI initiator node name on the Linux host so that you have it when you configure the storage system.'
+keywords: record, iscsi, initiator, node, linux, host, configure, storage, system, record the iscsi node name
+summary: You must record the iSCSI initiator node name on the Linux host so that you have it when you configure the storage system.
 ---
-= Recording the iSCSI node name
+= Record the iSCSI node name
 :icons: font
 :imagesdir: ../media/
 

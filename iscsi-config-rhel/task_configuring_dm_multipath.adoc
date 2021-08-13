@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-rhel/task_configuring_dm_multipath.html
 sidebar: sidebar
-keywords: 
-summary: 'DM-Multipath manages multiple paths between the Linux host and the storage cluster. Configuring DM-Multipath on a LUN, which appears to the Linux host as a SCSI device, enables your Linux host to access its LUN on the storage cluster if a path or component fails.'
+keywords: dm-multipath, manage, path, linux, host, storage, cluster, configuring, configure, lun, scsi, device, component, fail, cluster, configure, configure dm-multipath
+summary: DM-Multipath manages multiple paths between the Linux host and the storage cluster. Configuring DM-Multipath on a LUN, which appears to the Linux host as a SCSI device, enables your Linux host to access its LUN on the storage cluster if a path or component fails.
 ---
-= Configuring DM-Multipath
+= Configure DM-Multipath
 :icons: font
 :imagesdir: ../media/
 

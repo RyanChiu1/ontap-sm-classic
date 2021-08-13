@@ -1,10 +1,10 @@
 ---
 permalink: nas-multiprotocol-config/concept_adding_nas_access_to_existing_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data LIF, configuring a CIFS server, enabling NFS, and optionally configuring NIS.'
+keywords: cifs, smb, nfs, access, exist, svm, lif, server, enabling, enable, configuring, configure, nis, add cifs and nfs access to an existing svm
+summary: Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data LIF, configuring a CIFS server, enabling NFS, and optionally configuring NIS.
 ---
-= Adding CIFS and NFS access to an existing SVM
+= Add CIFS and NFS access to an existing SVM
 :icons: font
 :imagesdir: ../media/
 

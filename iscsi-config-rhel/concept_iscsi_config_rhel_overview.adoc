@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-rhel/concept_iscsi_config_rhel_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how to quickly set up the iSCSI service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an iSCSI initiator on a Red Hat Enterprise Linux server.'
+keywords: guide, iscsi, service, storage, virtual, machine, svm, lun, initiator, red, hat, enterprise, linux, server, configuration, decide whether to use the iscsi configuration for red hat enterprise linux express guide
+summary: This guide describes how to quickly set up the iSCSI service on a storage virtual machine \(SVM\), provision a LUN, and make the LUN available using an iSCSI initiator on a Red Hat Enterprise Linux server.
 ---
-= Deciding whether to use the iSCSI Configuration for Red Hat Enterprise Linux Express Guide
+= Decide whether to use the iSCSI Configuration for Red Hat Enterprise Linux Express Guide
 :icons: font
 :imagesdir: ../media/
 
