@@ -2,7 +2,7 @@
 permalink: expansion/task_verifying_planned_configuration.html
 sidebar: sidebar
 keywords: expand, cluster, ensure, follow, plan, configuration, support, require, license, exist, ontap, verify, verify the planned configuration
-summary: Before you expand a cluster, you must ensure the following: the planned configuration is supported, the required licenses exist, the site is ready, the cluster switches support the expansion, and the existing nodes are using the same version of ONTAP 9.
+summary: "Before you expand a cluster, you must ensure the following: the planned configuration is supported, the required licenses exist, the site is ready, the cluster switches support the expansion, and the existing nodes are using the same version of ONTAP 9."
 ---
 = Verify the planned configuration
 :icons: font

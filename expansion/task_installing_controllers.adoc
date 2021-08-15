@@ -2,7 +2,7 @@
 permalink: expansion/task_installing_controllers.html
 sidebar: sidebar
 keywords: install, controller, exist, cluster, installation, setup, instruction, install the controllers
-summary: When you install controllers that will be added to an existing cluster, you must follow the first three steps of the appropriate Installation and Setup Instructions.
+summary: "When you install controllers that will be added to an existing cluster, you must follow the first three steps of the appropriate Installation and Setup Instructions."
 ---
 = Install the controllers
 :icons: font

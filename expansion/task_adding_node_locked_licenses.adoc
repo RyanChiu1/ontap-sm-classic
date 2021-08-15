@@ -2,7 +2,7 @@
 permalink: expansion/task_adding_node_locked_licenses.html
 sidebar: sidebar
 keywords: cluster, feature, node-locked, license, entitle, functionality, add, add node-locked licenses
-summary: If the cluster has features that use node-locked licenses \(which entitle only specific nodes to the licensed functionality\), you must ensure that node-locked licenses are installed for the new nodes. You should add the licenses before the nodes are joined to the cluster.
+summary: "If the cluster has features that use node-locked licenses, you must ensure that node-locked licenses are installed for the new nodes."
 ---
 = Add node-locked licenses
 :icons: font

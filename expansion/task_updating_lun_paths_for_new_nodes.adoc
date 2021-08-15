@@ -2,7 +2,7 @@
 permalink: expansion/task_updating_lun_paths_for_new_nodes.html
 sidebar: sidebar
 keywords: cluster, configure, san, lif, add, update, path, lun, node, update lun paths for the new nodes
-summary: If your cluster is configured for SAN, you must create SAN LIFs on the newly added nodes and then update paths.
+summary: "If your cluster is configured for SAN, you must create SAN LIFs on the newly added nodes and then update paths."
 ---
 = Update LUN paths for the new nodes
 :icons: font

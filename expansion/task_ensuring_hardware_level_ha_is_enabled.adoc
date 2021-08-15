@@ -2,7 +2,7 @@
 permalink: expansion/task_ensuring_hardware_level_ha_is_enabled.html
 sidebar: sidebar
 keywords: install, controller, module, reuse, maintenance, mode, ha, state, hardware-level, enable, ensure hardware-level ha is enabled
-summary: If the newly installed controller modules are reused—not new—you must enter Maintenance mode and ensure that their HA state is set to HA.
+summary: "If the newly installed controller modules are reused—not new—you must enter Maintenance mode and ensure that their HA state is set to HA."
 ---
 = Ensure hardware-level HA is enabled
 :icons: font
