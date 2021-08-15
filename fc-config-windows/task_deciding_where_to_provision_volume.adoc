@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-windows/task_deciding_where_to_provision_volume.html
 sidebar: sidebar
-keywords:
-summary: 'Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine \(SVM\) or to create a new SVM for the volume. You might also need to configure FC on an existing SVM.'
+keywords: provision, volume, contain, lun, exist, storage, virtual, machine, svm, exist, decide where to provision the volume
+summary: "Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine or to create a new SVM for the volume. You might also need to configure FC on an existing SVM."
 ---
-= Deciding where to provision the volume
+= Decide where to provision the volume
 :icons: font
 :imagesdir: ../media/
 

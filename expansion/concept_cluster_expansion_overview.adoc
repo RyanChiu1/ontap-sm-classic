@@ -1,8 +1,8 @@
 ---
 permalink: expansion/concept_cluster_expansion_overview.html
 sidebar: sidebar
-keywords:
-summary: 'This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.'
+keywords: nondisruptive, expand, exist, cluster, ha, pair, expansion, overview
+summary: "This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster."
 ---
 = Cluster expansion overview
 :icons: font

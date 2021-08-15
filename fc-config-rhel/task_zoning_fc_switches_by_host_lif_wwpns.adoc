@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-rhel/task_zoning_fc_switches_by_host_lif_wwpns.html
 sidebar: sidebar
-keywords: 
-summary: 'Zoning the FC switches enables the hosts to connect to the storage and limits the number of paths. You zone the switches using the management interface of the switches.'
+keywords: zoning, fc, switch, enable, host, connect, storage, limit, number, path, zone, management, interface, zone the fc switches by the host and lif wwpns
+summary: Zoning the FC switches enables the hosts to connect to the storage and limits the number of paths. You zone the switches using the management interface of the switches.
 ---
-= Zoning the FC switches by the host and LIF WWPNs
+= Zone the FC switches by the host and LIF WWPNs
 :icons: font
 :imagesdir: ../media/
 

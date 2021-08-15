@@ -1,8 +1,8 @@
 ---
 permalink: fc-config-esxi/task_verifying_that_fc_service_is_running_on_existing_svm.html
 sidebar: sidebar
-keywords: SVM
-summary: 'If you choose to use an existing storage virtual machine \(SVM\), you must verify that the FC service is running on the SVM by using ONTAP System Manager. You must also verify that FC logical interfaces \(LIFs\) are already created.'
+keywords: choose, exist, storage, virtual, machine, svm, fc, service, ontap, system, manager, logical, interface, lif, create, verify that the fc service is running on an existing svm
+summary: "If you choose to use an existing storage virtual machine, you must verify that the FC service is running on the SVM by using ONTAP System Manager. You must also verify that FC logical interfaces are already created."
 ---
 = Verifying that the FC service is running on an existing SVM
 :icons: font

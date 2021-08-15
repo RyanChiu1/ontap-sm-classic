@@ -1,10 +1,10 @@
 ---
 permalink: expansion/concept_joining_nodes_to_cluster_using_cli.html
 sidebar: sidebar
-keywords:
-summary: 'When the newly installed controller modules are ready, you can add each one to the cluster by using the cluster setup command.'
+keywords: install, controller, module, cluster, setup, command, join nodes to the cluster using the cli
+summary: "When the newly installed controller modules are ready, you can add each one to the cluster by using the cluster setup command."
 ---
-= Joining nodes to the cluster using the CLI
+= Join nodes to the cluster using the CLI
 :icons: font
 :imagesdir: ../media/
 

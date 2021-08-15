@@ -1,8 +1,8 @@
 ---
 permalink: nas-multiprotocol-config/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: smb, cifs, nfs, multiprotocol, configuration, express, guide
+summary: SMB/CIFS and NFS Multiprotocol Configuration Express Guide
 ---
 = SMB/CIFS and NFS Multiprotocol Configuration Express Guide
 :icons: font

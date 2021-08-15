@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-rhel/task_configuring_logical_volumes_on_multipath_devices_creating_file_system.html
 sidebar: sidebar
-keywords: 
-summary: 'When the Linux host first accesses a new SCSI device \(LUN\), there is no partition or file system. If you want to use a partitioned multipath device, you must first partition the underlying SCSI devices. You might also want to create logical volumes on multipath devices, and optionally create a file system.'
+keywords: linux, host, access, iscsi, device, lun, partition, file, system, multipath, volume, file, system, configure, logical, creating, create, configure logical volumes on multipath devices and creating a file system
+summary: When the Linux host first accesses a new SCSI device \(LUN\), there is no partition or file system. If you want to use a partitioned multipath device, you must first partition the underlying SCSI devices. You might also want to create logical volumes on multipath devices, and optionally create a file system.
 ---
-= Configuring logical volumes on multipath devices and creating a file system
+= Configure logical volumes on multipath devices and creating a file system
 :icons: font
 :imagesdir: ../media/
 

@@ -1,8 +1,8 @@
 ---
 permalink: iscsi-config-rhel/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: iscsi, configuration, red, hat, enterprise, linux, express, guide
+summary: iSCSI Configuration for Red Hat® Enterprise Linux® Express Guide
 ---
 = iSCSI Configuration for Red Hat® Enterprise Linux® Express Guide
 :icons: font

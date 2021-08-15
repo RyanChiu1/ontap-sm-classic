@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-esxi/task_updating_hba_firmware.html
 sidebar: sidebar
-keywords: 
-summary: 'If the FC host bus adapters \(HBAs\) in the ESX host are not running supported driver, firmware, and BIOS versions, you must update them.'
+keywords: fc, host, bus, adapter, hba, esx, support, driver, firmware, bio, update, update the hba driver firmware and bios
+summary: "If the FC host bus adapters in the ESX host are not running supported driver, firmware, and BIOS versions, you must update them."
 ---
-= Updating the HBA driver, firmware, and BIOS
+= Update the HBA driver, firmware, and BIOS
 :icons: font
 :imagesdir: ../media/
 

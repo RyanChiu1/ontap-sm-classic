@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-esxi/task_configuring_your_network_for_best_performance.html
 sidebar: sidebar
-keywords:
-summary: 'Ethernet networks vary greatly in performance. You can maximize the performance of the network used for iSCSI by selecting specific configuration values.'
+keywords: ethernet, network, performance, iscsi, configuration, value, configure, configure your network for best performance
+summary: "Ethernet networks vary greatly in performance. You can maximize the performance of the network used for iSCSI by selecting specific configuration values."
 ---
-= Configuring your network for best performance
+= Configure your network for best performance
 :icons: font
 :imagesdir: ../media/
 

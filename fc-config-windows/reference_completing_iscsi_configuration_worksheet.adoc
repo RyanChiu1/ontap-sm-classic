@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-windows/reference_completing_iscsi_configuration_worksheet.html
 sidebar: sidebar
-keywords: 
-summary: 'You require FC initiator and target WWPNs and storage configuration information to perform FC configuration tasks.'
+keywords: require, fc, initiator, target, wwpn, storage, configuration, information, perform, fc, task, complete the fc configuration worksheet
+summary: You require FC initiator and target WWPNs and storage configuration information to perform FC configuration tasks.
 ---
-= Completing the FC configuration worksheet
+= Complete the FC configuration worksheet
 :icons: font
 :imagesdir: ../media/
 
@@ -18,11 +18,11 @@ You require FC initiator and target WWPNs and storage configuration information 
 a|
 Initiator (host) port connected to FC switch 1
 a|
- 
+
 a|
 Initiator (host) port connected to FC switch 2
 a|
- 
+
 |===
 
 == FC target WWPNs
@@ -36,35 +36,35 @@ image::../media/network_fc_or_iscsi_express_fc_windows.gif[The figure shows four
 a|
 Node 1 LIF with port connected to FC switch 1
 a|
- 
+
 a|
 Node 2 LIF with port connected to FC switch 1
 a|
- 
+
 a|
 Node 3 LIF with port connected to FC switch 1
 a|
- 
+
 a|
 Node 4 LIF with port connected to FC switch 1
 a|
- 
+
 a|
 Node 1 LIF with port connected to FC switch 2
 a|
- 
+
 a|
 Node 2 LIF with port connected to FC switch 2
 a|
- 
+
 a|
 Node 3 LIF with port connected to FC switch 2
 a|
- 
+
 a|
 Node 4 LIF with port connected to FC switch 2
 a|
- 
+
 |===
 
 == Storage configuration
@@ -75,15 +75,15 @@ If the aggregate and SVM are already created, record their names here; otherwise
 a|
 Node to own LUN
 a|
- 
+
 a|
 Aggregate name
 a|
- 
+
 a|
 SVM name
 a|
- 
+
 |===
 
 == LUN information
@@ -92,19 +92,19 @@ a|
 a|
 LUN size
 a|
- 
+
 a|
 Host operating system
 a|
- 
+
 a|
 LUN name (optional)
 a|
- 
+
 a|
 LUN description (optional)
 a|
- 
+
 |===
 
 == SVM information
@@ -115,23 +115,23 @@ If you are not using an existing SVM, you require the following information to c
 a|
 SVM name
 a|
- 
+
 a|
 SVM IPspace
 a|
- 
+
 a|
 Aggregate for SVM root volume
 a|
- 
+
 a|
 SVM user name (optional)
 a|
- 
+
 a|
 SVM password (optional)
 a|
- 
+
 a|
 SVM management LIF (optional)
 a|

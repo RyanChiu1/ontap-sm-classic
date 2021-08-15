@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-windows/task_initializing_formatting_lun.html
 sidebar: sidebar
-keywords: 
-summary: 'When a new LUN is first accessed by the Windows host, it has no partition or file system. You must initialize the LUN, and optionally format it with a file system.'
+keywords: lun, access, windows, host, partition, file, system, initialize, format, file, system, initialize and format the lun
+summary: When a new LUN is first accessed by the Windows host, it has no partition or file system. You must initialize the LUN, and optionally format it with a file system.
 ---
-= Initializing and formatting the LUN
+= Initialize and format the LUN
 :icons: font
 :imagesdir: ../media/
 

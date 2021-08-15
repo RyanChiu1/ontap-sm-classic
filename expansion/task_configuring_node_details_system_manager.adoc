@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_configuring_node_details_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to configure the node management LIF and Service Processor settings for the newly added nodes.'
+keywords: system, manager, configure, node, management, lif, service, processor, setting, add, configure the node details in system manager
+summary: "You can use System Manager to configure the node management LIF and Service Processor settings for the newly added nodes."
 ---
-= Configuring the node details in System Manager
+= Configure the node details in System Manager
 :icons: font
 :imagesdir: ../media/
 

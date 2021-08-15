@@ -1,8 +1,8 @@
 ---
 permalink: iscsi-config-windows/task_installing_windows_unified_host_utilities.html
 sidebar: sidebar
-keywords:
-summary: 'Windows Unified Host Utilities includes an installation program that sets the required Windows registry and HBA parameters so that the Windows host correctly handles the storage system behaviors for NetApp ONTAP and E-Series platforms.'
+keywords: windows, unified, host, utilities, installation, program, registry, hba, paramater, netapp, ontapp, e-series, platform, install windows unified host utilities
+summary: "Windows Unified Host Utilities includes an installation program that sets the required Windows registry and HBA parameters so that the Windows host correctly handles the storage system behaviors for NetApp ONTAP and E-Series platforms."
 ---
 = Installing Windows Unified Host Utilities
 :icons: font
@@ -39,7 +39,7 @@ The MPIO selection is not available for Windows XP and Windows Vista systems; mu
 
 For Hyper-V guests, raw (pass-through) disks do not appear in the guest OS if you choose multipathing support. You can either use raw disks, or you can use MPIO, but you cannot use both in the guest OS.
 
-See link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html[Windows Unified Host Installation] for detailed information. 
+See link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html[Windows Unified Host Installation] for detailed information.
 
 == Steps
 

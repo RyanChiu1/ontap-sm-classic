@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html
 sidebar: sidebar
-keywords:
-summary: 'Before using the LUN, you should verify that the host can write data to the LUN and read it back.'
+keywords: lun, verify, write, data, verify that the host can write to and read from the lun
+summary: "Before using the LUN, you should verify that the host can write data to the LUN and read it back."
 ---
-= Verifying that the host can write to and read from the LUN
+= Verify that the host can write to and read from the LUN
 :icons: font
 :imagesdir: ../media/
 

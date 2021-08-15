@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html
 sidebar: sidebar
-keywords: 
-summary: 'Before using a multipath device, you should verify that the host can write data to the multipath device and read it back.'
+keywords: multipath, device, verify, host, write, data, verify that the host can write to and read from a multipath device
+summary: Before using a multipath device, you should verify that the host can write data to the multipath device and read it back.
 ---
-= Verifying that the host can write to and read from a multipath device
+= Verify that the host can write to and read from a multipath device
 :icons: font
 :imagesdir: ../media/
 

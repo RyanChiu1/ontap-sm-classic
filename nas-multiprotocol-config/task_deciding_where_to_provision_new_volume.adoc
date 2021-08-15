@@ -1,10 +1,10 @@
 ---
 permalink: nas-multiprotocol-config/task_deciding_where_to_provision_new_volume.html
 sidebar: sidebar
-keywords:
-summary: 'Before you create a new multiprotocol volume, you must decide whether to place the volume in an existing storage virtual machine \(SVM\), and, if so, how much configuration the SVM requires. This decision determines your workflow.'
+keywords: create, multiprotocol, volume, volume, storage, virtual, machine, svm, configuration, decision, workflow, decide where to provision the new volume
+summary: "Before you create a new multiprotocol volume, you must decide whether to place the volume in an existing storage virtual machine, and, if so, how much configuration the SVM requires. This decision determines your workflow."
 ---
-= Deciding where to provision the new volume
+= Decide where to provision the new volume
 :icons: font
 :imagesdir: ../media/
 

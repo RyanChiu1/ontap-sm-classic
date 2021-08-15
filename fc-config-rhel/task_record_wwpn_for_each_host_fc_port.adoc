@@ -1,8 +1,8 @@
 ---
 permalink: fc-config-rhel/task_record_wwpn_for_each_host_fc_port.html
 sidebar: sidebar
-keywords: 
-summary: 'The worldwide port name \(WWPN\) is required to zone the FC switches and to create the igroups that allow the host to access its LUN.'
+keywords: worldwide, port, name, wwpn, require, zone, fc, switch, create, igroup, host, access, lun, record, record the wwpn for each host fc port
+summary: The worldwide port name \(WWPN\) is required to zone the FC switches and to create the igroups that allow the host to access its LUN.
 ---
 = Recording the WWPN for each host FC port
 :icons: font

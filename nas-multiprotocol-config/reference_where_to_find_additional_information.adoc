@@ -1,8 +1,8 @@
 ---
 permalink: nas-multiprotocol-config/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'After you have successfully tested CIFS and NFS client access, you can perform advanced CIFS and NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of SVM. There are express guides, comprehensive guides, and technical reports to help you achieve these goals.'
+keywords: test, cifs, nfs, client, access, perform, advanced, configuration, san, access, procotol, root, volume, svm, comprehensive, guide, report, achieve, goal, where to find additional information
+summary: After you have successfully tested CIFS and NFS client access, you can perform advanced CIFS and NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of SVM. There are express guides, comprehensive guides, and technical reports to help you achieve these goals.
 ---
 = Where to find additional information
 :icons: font
