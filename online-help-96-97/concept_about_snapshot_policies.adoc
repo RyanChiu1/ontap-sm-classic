@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_about_snapshot_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'When applied to a volume, a Snapshot policy specifies a schedule or schedules according to which Snapshot copies are created and specifies the maximum number of Snapshot copies that each schedule can create. A Snapshot policy can include up to five schedules.'
+keywords: snapshot, policy, volume, schedule, copy, create, online, help, classic
+summary: "When applied to a volume, a Snapshot policy specifies a schedule or schedules according to which Snapshot copies are created and specifies the maximum number of Snapshot copies that each schedule can create. A Snapshot policy can include up to five schedules."
 ---
 = About Snapshot policies
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_disks.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to manage disks.'
+keywords: system, manager, disk, manage, online, help
+summary: "You can use System Manager to manage disks."
 ---
 = Disks
 :icons: font

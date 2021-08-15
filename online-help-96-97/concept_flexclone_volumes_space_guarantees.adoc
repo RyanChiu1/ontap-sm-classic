@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_flexclone_volumes_space_guarantees.html
 sidebar: sidebar
-keywords: 
-summary: 'A FlexClone volume inherits its initial space guarantee from its parent volume. For example, if you create a FlexClone volume from a parent volume with a space guarantee of volume, then the FlexClone volume’s initial space guarantee will be volume also. You can change the FlexClone volume’s space guarantee.'
+keywords: flexcone, volume, space, guarantee, parent, initial, online, help
+summary: "A FlexClone volume inherits its initial space guarantee from its parent volume. For example, if you create a FlexClone volume from a parent volume with a space guarantee of volume, then the FlexClone volume’s initial space guarantee will be volume also. You can change the FlexClone volume’s space guarantee."
 ---
 = FlexClone volumes and space guarantees
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_maximum_throughput_limit_works.html
 sidebar: sidebar
-keywords: 
-summary: 'You can specify one service-level objective for a Storage QoS policy group: a maximum throughput limit. A maximum throughput limit, which you define in terms of IOPS, MBps, or both, specifies the throughput that the workloads in the policy group cannot collectively exceed.'
+keywords: maximum, throughput, limit, works, objective, storage, qos, policy, group, iops, mbps, online, help
+summary: "You can specify one service-level objective for a Storage QoS policy group: a maximum throughput limit. A maximum throughput limit, which you define in terms of IOPS, MBps, or both, specifies the throughput that the workloads in the policy group cannot collectively exceed."
 ---
 = How the maximum throughput limit works
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_considerations_for_adding_ssds_to_existing_storage_pool_versus_creating_new_one.html
 sidebar: sidebar
-keywords: 
-summary: 'You can increase the size of your SSD cache in two ways—by adding SSDs to an existing SSD storage pool or by creating a new SSD storage pool. The best method for you depends on your configuration and plans for the storage.'
+keywords: consideration, add, ssd, existing, storage, pool, create, new, online, help
+summary: "You can increase the size of your SSD cache in two ways—by adding SSDs to an existing SSD storage pool or by creating a new SSD storage pool. The best method for you depends on your configuration and plans for the storage."
 ---
 = Considerations for adding SSDs to an existing storage pool versus creating a new one
 :icons: font

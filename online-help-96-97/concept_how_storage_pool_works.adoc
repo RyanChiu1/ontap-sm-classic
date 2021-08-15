@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_storage_pool_works.html
 sidebar: sidebar
-keywords: 
-summary: 'A storage pool is a collection of SSDs. You can combine SSDs to create a storage pool, which enables you to share the SSDs and SSD spares across multiple Flash Pool aggregates, at the same time.'
+keywords: storage, pool, collection, ssd, share, flash, aggregate, online, free
+summary: "A storage pool is a collection of SSDs. You can combine SSDs to create a storage pool, which enables you to share the SSDs and SSD spares across multiple Flash Pool aggregates, at the same time."
 ---
 = How storage pool works
 :icons: font
