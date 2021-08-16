@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config/task_configuring_verifying_client_access_add_nfs_existing_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'When you are ready, you can give select clients access to the share by setting UNIX file permissions on a UNIX administration host and adding an export rule in System Manager. Then you should test that the affected users or groups can access the volume.'
+keywords: client, access, share, unix, file, permission, administration, host, add, export, rule, system, manager, affect, user, affect, volume, configure and verify nfs client access (configure nfs access to an existing svm)
+summary: "When you are ready, you can give select clients access to the share by setting UNIX file permissions on a UNIX administration host and adding an export rule in System Manager. Then you should test that the affected users or groups can access the volume."
 ---
-= Configuring and verifying NFS client access (Configuring NFS access to an existing SVM)
+= Configure and verify NFS client access (Configure NFS access to an existing SVM)
 :icons: font
 :imagesdir: ../media/
 

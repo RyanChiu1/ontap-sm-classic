@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config/task_creating_new_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use a wizard that guides you through the process of creating the storage virtual machine \(SVM\), configuring Domain Name System \(DNS\), creating a data logical interface \(LIF\), enabling NFS, optionally configuring NIS, and then creating and exporting a volume.'
+keywords: wizard, guide, process, creating, create, storage, virtual, machine, svm, configuring, configure, domain, name, system, dns, logical, interface, lif, enabling, enable, nis, export, volume, create a new svm with an nfs volume and export
+summary: "You can use a wizard that guides you through the process of creating the storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), enabling NFS, optionally configuring NIS, and then creating and exporting a volume."
 ---
-= Creating a new SVM with an NFS volume and export
+= Create a new SVM with an NFS volume and export
 :icons: font
 :imagesdir: ../media/
 
