@@ -5,7 +5,6 @@ entries:
 - title: Provision NAS storage
   entries:
   - title: NFS configuration
-    url: "/nfs-config/index.html"
     entries:
     - title: Overview
       url: "/nfs-config/concept_nfs_config_overview.html"
@@ -56,7 +55,6 @@ entries:
     - title: Where to find additional information
       url: "/nfs-config/reference_where_to_find_additional_information.html"
   - title: NFS configuration for ESXi using VSC
-    url: "/nfs-config-esxi/index.html"
     entries:
     - title: Overview
       url: "/nfs-config-esxi/concept_nfs_config_esxi_overview.html"
@@ -101,7 +99,6 @@ entries:
       - title: Where to find additional information
         url: "/nfs-config-esxi/reference_where_to_find_additional_information.html"
   - title: SMB/CIFS and NFS multiprotocol configuration
-    url: "/nas-multiprotocol-config/index.html"
     entries:
     - title: Overview
       url: "/nas-multiprotocol-config/concept_smb_nfs_multiprotocol_config_overview.html"
@@ -140,7 +137,6 @@ entries:
     - title: Where to find additional information
       url: "/nas-multiprotocol-config/reference_where_to_find_additional_information.html"
   - title: SMB/CIFS configuration
-    url: "/smb-config/index.html"
     entries:
     - title: Overview
       url: "/smb-config/concept_smb_config_overview.html"
@@ -186,13 +182,9 @@ entries:
         url: "/smb-config/task_configuring_verifying_client_access.html"
     - title: Where to find additional information
       url: "/smb-config/reference_where_to_find_additional_information.html"
-
-
-
 - title: Provision SAN storage
   entries:
 - title: FC configuration for ESXi using VSC
-  url: "/fc-config-esxi/index.html"
   entries:
   - title: Overview
     url: "/fc-config-esxi/concept_fc_config_esxi_overview.html"
@@ -231,7 +223,6 @@ entries:
   - title: Where to find additional information
     url: "/fc-config-esxi/reference_where_to_find_additional_information.html"
 - title: FC configuration for Red Hat Enterprise Linux
-  url: "/fc-config-rhel/index.html"
   entries:
   - title: Overview
     url: "/fc-config-rhel/concept_fc_config_rhel_overview.html"
@@ -276,7 +267,6 @@ entries:
   - title: Where to find additional information
     url: "/fc-config-rhel/reference_where_to_find_additional_information.html"
 - title: FC configuration for Windows
-  url: "/fc-config-windows/index.html"
   entries:
   - title: Overview
     url: "/fc-config-windows/concept_fc_config_windows_overview.html"
@@ -319,7 +309,6 @@ entries:
   - title: Where to find additional information
     url: "/fc-config-windows/reference_where_to_find_additional_information.html"
 - title: iSCSI configuration for ESXi using VSC
-  url: "/iscsi-config-esxi/index.html"
   entries:
   - title: Overview
     url: "/iscsi-config-esxi/concept_iscsi_config_esxi_overview.html"
@@ -364,7 +353,6 @@ entries:
   - title: Where to find additional information
     url: "/iscsi-config-esxi/reference_where_to_find_additional_information.html"
 - title: iSCSI configuration for Red Hat Enterprise Linux
-  url: "/iscsi-config-rhel/index.html"
   entries:
   - title: Overview
     url: "/iscsi-config-rhel/concept_iscsi_config_rhel_overview.html"
@@ -409,7 +397,6 @@ entries:
   - title: Where to find additional information
     url: "/iscsi-config-rhel/reference_where_to_find_additional_information.html"
 - title: iSCSI configuration for Windowss
-  url: "/iscsi-config-windows/index.html"
   entries:
   - title: Overview
     url: "/iscsi-config-windows/concept_iscsi_config_windows_overview.html"
@@ -450,7 +437,6 @@ entries:
 - title: Data protection and disaster recovery
   entries:
   - title: Cluster and SVM peering configuration
-    url: "/peering/index.html"
     entries:
     - title: Overview
       url: "/peering/concept_peering_overview.html"
@@ -480,7 +466,6 @@ entries:
     - title: Where to find additional information
       url: "/peering/reference_where_to_find_additional_information.html"
   - title: Volume disaster recovery
-    url: "/volume-disaster-recovery/index.html"
     entries:
     - title: Overview
       url: "/volume-disaster-recovery/concept_volume_disaster_recovery_overview.html"
@@ -510,7 +495,6 @@ entries:
     - title: Where to find additional information
       url: "/volume-disaster-recovery/reference_where_to_find_additional_information.html"
   - title: Volume disaster recovery preparation
-    url: "/volume-disaster-prep/index.html"
     entries:
     - title: Overview
       url: "/volume-disaster-prep/concept_volume_disaster_prep_overview.html"
@@ -530,7 +514,6 @@ entries:
     - title: Where to find additional information
       url: "/volume-disaster-prep/reference_where_to_find_additional_information.html"
   - title: Volume backup using SnapVault
-    url: "/volume-backup-snapvault/index.html"
     entries:
     - title: Overview
       url: "/volume-backup-snapvault/concept_volume_backup_snapvault_overview.html"
@@ -548,7 +531,6 @@ entries:
     - title: Where to find additional information
       url: "/volume-backup-snapvault/reference_where_to_find_additional_information.html"
   - title: Volume restore management using SnapVault
-    url: "/volume-restore-snapvault/index.html"
     entries:
     - title: Overview
       url: "/volume-restore-snapvault/concept_volume_restore_snapvault_overview.html"
@@ -566,7 +548,6 @@ entries:
 - title: Cluster administration
   entries:
   - title: Cluster expansion configuration
-    url: "/expansion/index.html"
     entries:
     - title: Overview
       url: "/expansion/concept_cluster_expansion_overview.html"
@@ -626,7 +607,6 @@ entries:
     - title: Where to find additional information
       url: "/expansion/reference_where_to_find_additional_information.html"
   - title: Volume move management
-    url: "/volume-move/index.html"
     entries:
     - title: Overview
       url: "/volume-move/concept_volume_move_overview.html"
@@ -646,7 +626,6 @@ entries:
     - title: Where to find additional information
       url: "/volume-move/reference_where_to_find_additional_information.html"
   - title: SNMP configuration
-    url: "/snmp-config/index.html"
     entries:
     - title: Overview
       url: "/snmp-config/concept_snmp_config_overview.html"
@@ -668,7 +647,6 @@ entries:
     - title: Where to find additional information
       url: "/snmp-config/reference_where_to_find_additional_information.html"
   - title: Cluster management using System Manager 9.6 and 9.7
-    url: "/online-help-96-97/index.html"
     entries:
     - title: Understanding System Manager
       url: "/online-help-96-97/concept_understanding_system_manager.html"
