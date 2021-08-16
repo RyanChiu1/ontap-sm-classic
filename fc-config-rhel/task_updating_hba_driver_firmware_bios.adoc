@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-rhel/task_updating_hba_driver_firmware_bios.html
 sidebar: sidebar
-keywords: 
-summary: 'If the FC host bus adapters \(HBAs\) in the Linux host are not running supported driver, firmware, and BIOS versions, you must update them.'
+keywords: fc, host, bus, adapter, hba, linux, run, support, driver, firmware, bios, version, update, update the hba driver firmware and bios
+summary: If the FC host bus adapters \(HBAs\) in the Linux host are not running supported driver, firmware, and BIOS versions, you must update them.
 ---
-= Updating the HBA driver, firmware, and BIOS
+= Update the HBA driver, firmware, and BIOS
 :icons: font
 :imagesdir: ../media/
 

@@ -1,19 +1,19 @@
 ---
 permalink: volume-disaster-prep/concept_volume_disaster_prep_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how to quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this guide if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks.'
+keywords:
+summary: 'This content describes how to quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this content if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks.'
 ---
-= Deciding whether to use the Volume Disaster Recovery Preparation Express Guide
+= Volume disaster recovery preparation overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This guide describes how to quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this guide if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks.
+This content describes how to quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this content if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks.
 
 SnapMirror provides scheduled asynchronous, block-level data protection. SnapMirror replicates Snapshot copies and can replicate NAS or SAN volumes on which deduplication, data compression, or both are run, including volumes containing qtrees and LUNs. SnapMirror configuration information is stored in a database that ONTAP replicates to all the nodes in the cluster.
 
-You should use this guide if you want to create SnapMirror relationships for volume-level disaster recovery in the following way:
+You should use this content if you want to create SnapMirror relationships for volume-level disaster recovery in the following way:
 
 * You are working with clusters running ONTAP 9.
 * You are a cluster administrator.
@@ -26,18 +26,18 @@ http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-clus-peer/home.html[Clus
 * You want to use best practices, not explore every available option.
 * You do not want to read a lot of conceptual background.
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-* You want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 
 If these assumptions are not correct for your situation, or if you want more conceptual background information, you should see the following resources:
 
 * http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
-* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices Guide for ONTAP 9.1, 9.2]
+* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2]
 * https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/home.html[Logical storage management]
 * http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
 +
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks such as the workflows described in Express Guides.
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.
 
 * http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-cmpr/GUID-5CB10C70-AC11-41C0-8C16-B4D0DF916E9B.html[ONTAP 9 commands]
 +

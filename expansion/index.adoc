@@ -1,8 +1,8 @@
 ---
 permalink: expansion/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: cluster, expansion, express, guide
+summary: Cluster Expansion Express Guide
 ---
 = Cluster Expansion Express Guide
 :icons: font

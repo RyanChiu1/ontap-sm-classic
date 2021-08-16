@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_applications.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use predefined application templates in System Manager to create new configurations that are based on existing application templates. You can then provision instances of the application in ONTAP.'
+keywords: application, predefined, template, system, manager, configuration, provision
+summary: "You can use predefined application templates in System Manager to create new configurations that are based on existing application templates. You can then provision instances of the application in ONTAP."
 ---
 = Applications
 :icons: font

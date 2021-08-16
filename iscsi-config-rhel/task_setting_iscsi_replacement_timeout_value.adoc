@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-rhel/task_setting_iscsi_replacement_timeout_value.html
 sidebar: sidebar
-keywords: 
-summary: 'To support multipathing, you must modify the replacement timeout value in the iSCSI configuration file.'
+keywords: support, multipath, modify, replacement, timeout, value, iscsi, configuration, file, set, set the iscsi replacement timeout value
+summary: To support multipathing, you must modify the replacement timeout value in the iSCSI configuration file.
 ---
-= Setting the iSCSI replacement timeout value
+= Set the iSCSI replacement timeout value
 :icons: font
 :imagesdir: ../media/
 

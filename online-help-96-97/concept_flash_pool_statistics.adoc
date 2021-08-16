@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_flash_pool_statistics.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to view the real-time SSD tier read and write workloads for a selected Flash Pool aggregate.'
+keywords: flash, pool, statistics, system, manager, ssd, tier, read, write, workload, aggregate, online, help
+summary: "You can use System Manager to view the real-time SSD tier read and write workloads for a selected Flash Pool aggregate."
 ---
 = Flash Pool statistics
 :icons: font

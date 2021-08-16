@@ -1,8 +1,8 @@
 ---
 permalink: fc-config-esxi/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: fc, configuration, esxi, vsc, express, guide
+summary: FC Configuration for ESXi® using VSC Express Guide
 ---
 = FC Configuration for ESXi® using VSC Express Guide
 :icons: font

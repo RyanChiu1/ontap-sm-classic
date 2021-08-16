@@ -1,7 +1,7 @@
 ---
 permalink: nfs-config-esxi/concept_adding_nfs_access_to_existing_svm.html
 sidebar: sidebar
-keywords: 
+keywords:
 summary: 'To add NFS access to an existing , you must first create a data logical interface \(LIF\). You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi using .'
 ---
 = Adding NFS access to an existing
@@ -19,7 +19,7 @@ To add NFS access to an existing , you must first create a data logical interfac
 * Any external firewalls must be appropriately configured to allow access to network services.
 * The NFS protocol must be allowed on the .
 +
-This is the case if you created the while following another Express Guide to configure a SAN protocol.
+This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
 == Steps
 

@@ -1,8 +1,8 @@
 ---
 permalink: fc-config-esxi/task_creating_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'The storage virtual machine \(SVM\) provides the FC target through which a host accesses LUNs. When you create the SVM, you also create logical interfaces \(LIFs\) that provide paths to the LUN. You can create an SVM to separate the data and administration functions of a user from those of the other users in a cluster.'
+keywords: storage, virutal, machine, svm, fc, target, host, access, lun, logical, lif, function, user, cluster, create a new svm
+summary: "The storage virtual machine provides the FC target through which a host accesses LUNs."
 ---
 = Creating a new SVM
 :icons: font

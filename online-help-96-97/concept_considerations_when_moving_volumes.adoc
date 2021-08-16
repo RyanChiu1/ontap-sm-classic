@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_considerations_when_moving_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'Moving a volume has many considerations and recommendations that are influenced by the volume you are moving or by the system configuration. You should understand the considerations associated with moving volumes.'
+keywords: move, volume, considerations, recommendations, configuration, system
+summary: "Moving a volume has many considerations and recommendations that are influenced by the volume you are moving or by the system configuration. You should understand the considerations associated with moving volumes."
 ---
 = Considerations when moving volumes
 :icons: font

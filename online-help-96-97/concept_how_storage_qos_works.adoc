@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_storage_qos_works.html
 sidebar: sidebar
-keywords: 
-summary: 'Storage QoS controls workloads that are assigned to policy groups by throttling and prioritizing client operations \(SAN and NAS data requests\) and system operations.'
+keywords: storage, qos, control, workload, throttle, prioritize, client, operations, san, nas, system, operation, online, help
+summary: "Storage QoS controls workloads that are assigned to policy groups by throttling and prioritizing client operations (SAN and NAS data requests) and system operations."
 ---
 = How Storage QoS works
 :icons: font

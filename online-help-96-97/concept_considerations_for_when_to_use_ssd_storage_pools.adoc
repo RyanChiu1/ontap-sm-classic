@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_considerations_for_when_to_use_ssd_storage_pools.html
 sidebar: sidebar
-keywords: 
-summary: 'SSD storage pools provide many benefits, but they also introduce some restrictions that you should be aware of when deciding whether to use SSD storage pools or dedicated SSDs.'
+keywords: considerations, ssd, storage, pool, restrictions, online, help
+summary: "SSD storage pools provide many benefits, but they also introduce some restrictions that you should be aware of when deciding whether to use SSD storage pools or dedicated SSDs."
 ---
 = Considerations for when to use SSD storage pools
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_ontap_reports_drive_types.html
 sidebar: sidebar
-keywords: 
-summary: 'ONTAP associates a type with every disk. ONTAP reports some disk types differently than the industry standards; you should understand how ONTAP disk types map to industry standards to avoid confusion.'
+keywords: ontap, report, disk, type, industry, standards, sas, fc, storage, array, online, help
+summary: "ONTAP associates a type with every disk. ONTAP reports some disk types differently than the industry standards; you should understand how ONTAP disk types map to industry standards to avoid confusion."
 ---
 = How ONTAP reports disk types
 :icons: font
@@ -19,6 +19,7 @@ The following tables show how ONTAP disk types map to industry standard disk typ
 
 == SAS-connected storage
 
+[options="header"]
 |===
 | ONTAP disk type| Disk class| Industry standard disk type| Description
 a|
@@ -65,6 +66,7 @@ Solid-state drives
 
 == FC-connected storage
 
+[options="header"]
 |===
 | ONTAP disk type| Disk class| Industry standard disk type
 a|
@@ -83,6 +85,7 @@ FC
 
 == Storage arrays
 
+[options="header"]
 |===
 | ONTAP disk type| Disk class| Industry standard disk type| Description
 a|

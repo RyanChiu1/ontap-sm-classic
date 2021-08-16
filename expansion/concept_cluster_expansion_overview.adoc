@@ -1,23 +1,23 @@
 ---
 permalink: expansion/concept_cluster_expansion_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.'
+keywords: nondisruptive, expand, exist, cluster, ha, pair, expansion, overview
+summary: "This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster."
 ---
-= Deciding whether to use the Cluster Expansion Express Guide
+= Cluster expansion overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This guide describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.
+This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.
 
-You should use this guide only if the following is true:
+You should use this content only if the following is true:
 
 * The existing cluster meets the following requirements:
  ** It is running ONTAP 9.
  ** It contains at least two nodes.
 +
-Although examples in this guide use a two-node cluster, this guide also applies to clusters with more than two nodes.
+Although examples in this content use a two-node cluster, it also applies to clusters with more than two nodes.
 +
 If you want to add a node to a single-node cluster, you must follow a different procedure.
 +
@@ -29,7 +29,7 @@ https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.htm
  ** If they are not new, they have been wiped clean, are no longer part of a cluster, and are ready to be added to the new cluster.
  ** They support ONTAP 9.
  ** They are running a version of the ONTAP 9 release family.
-* When completing ONTAP configuration tasks with System Manager, you want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
+* When completing ONTAP configuration tasks with System Manager, you want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 

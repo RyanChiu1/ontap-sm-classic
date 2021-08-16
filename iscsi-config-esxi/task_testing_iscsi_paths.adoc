@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-esxi/task_testing_iscsi_paths.html
 sidebar: sidebar
-keywords: 
-summary: 'To ensure successful storage failover and data mobility, you need to ensure that you have two paths from the host to every node in the storage cluster. Because the number of paths advertised by the iSCSI target is limited, you need to ping the storage cluster ports from the host.'
+keywords: storage, failover, data, mobility, path, host, node, cluster, advertise, iscsi, ping, host, test, test iscsi paths from the host to the storage cluster
+summary: To ensure successful storage failover and data mobility, you need to ensure that you have two paths from the host to every node in the storage cluster. Because the number of paths advertised by the iSCSI target is limited, you need to ping the storage cluster ports from the host.
 ---
-= Testing iSCSI paths from the host to the storage cluster
+= Test iSCSI paths from the host to the storage cluster
 :icons: font
 :imagesdir: ../media/
 

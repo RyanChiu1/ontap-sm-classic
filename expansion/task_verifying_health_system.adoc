@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_verifying_health_system.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you expand a cluster, you must verify that all components of the cluster are healthy by running the Config Advisor tool and running several ONTAP CLI commands.'
+keywords: expand, cluster, verify, component, healthy, config, advisor, tool, run, ontap, cli, command, verify the health of the system
+summary: "Before you expand a cluster, you must verify that all components of the cluster are healthy by running the Config Advisor tool and running several ONTAP CLI commands."
 ---
-= Verifying the health of the system
+= Verify the health of the system
 :icons: font
 :imagesdir: ../media/
 

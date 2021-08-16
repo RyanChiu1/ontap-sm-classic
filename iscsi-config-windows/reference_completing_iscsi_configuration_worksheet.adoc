@@ -1,10 +1,10 @@
 ---
 permalink: iscsi-config-windows/reference_completing_iscsi_configuration_worksheet.html
 sidebar: sidebar
-keywords: 
-summary: 'You require iSCSI identifiers, network addresses, and storage configuration information to perform iSCSI configuration tasks.'
+keywords: iscsi, identifier, network, address, storage, configuration, information, perform, iscsi, task, complete, complete the iscsi configuration worksheet
+summary: You require iSCSI identifiers, network addresses, and storage configuration information to perform iSCSI configuration tasks.
 ---
-= Completing the iSCSI configuration worksheet
+= Complete the iSCSI configuration worksheet
 :icons: font
 :imagesdir: ../media/
 
@@ -17,11 +17,11 @@ You require iSCSI identifiers, network addresses, and storage configuration info
 a|
 Initiator (host) iSCSI node name (IQN)
 a|
- 
+
 a|
 Target alias (optional)
 a|
- 
+
 |===
 
 == Target network addresses
@@ -41,99 +41,99 @@ Subnet for LIFs: *__**__***__**_____
 a|
 Node 1 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 2 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 3 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 4 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 1 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 2 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 3 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 4 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 |===
 
 == Storage configuration
@@ -144,15 +144,15 @@ If the aggregate and SVM are already created, record their names here; otherwise
 a|
 Node to own LUN
 a|
- 
+
 a|
 Aggregate name
 a|
- 
+
 a|
 SVM name
 a|
- 
+
 |===
 
 == LUN information
@@ -161,19 +161,19 @@ a|
 a|
 LUN size
 a|
- 
+
 a|
 Host operating system
 a|
- 
+
 a|
 LUN name (optional)
 a|
- 
+
 a|
 LUN description (optional)
 a|
- 
+
 |===
 
 == SVM information
@@ -184,23 +184,23 @@ If you are not using an existing SVM, you require the following information to c
 a|
 SVM name
 a|
- 
+
 a|
 SVM IPspace
 a|
- 
+
 a|
 Aggregate for SVM root volume
 a|
- 
+
 a|
 SVM user name (optional)
 a|
- 
+
 a|
 SVM password (optional)
 a|
- 
+
 a|
 SVM management LIF (optional)
 a|

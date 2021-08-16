@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_events.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to view the event log and event notifications.'
+keywords: event, log, notification, system, manager, online, help, view
+summary: "You can use System Manager to view the event log and event notifications."
 ---
 = Events
 :icons: font

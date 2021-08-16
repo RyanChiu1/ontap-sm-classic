@@ -1,15 +1,15 @@
 ---
 permalink: peering/concept_peering_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters.'
+keywords:
+summary: 'This content describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters.'
 ---
-= Deciding whether to use the Cluster and SVM Peering Express Guide
+= Cluster and SVM peering overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This guide describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters.
+This content describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters.
 
 ONTAP System Manager in ONTAP 9.3 simplifies the way that you configure peer relationships between clusters and between SVMs. This guide describes the cluster peering procedure and SVM peering procedure for all ONTAP 9 versions. You should use the appropriate procedure for your version of ONTAP.
 
@@ -20,7 +20,7 @@ You should use this guide if you want to create cluster peer relationships and S
 * You want to use best practices, not explore every available option.
 * You do not want to read a lot of conceptual background.
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-* You want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 

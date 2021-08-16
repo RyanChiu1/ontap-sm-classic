@@ -1,8 +1,8 @@
 ---
 permalink: iscsi-config-windows/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: iscsi, configuration, windows, express, guide
+summary: iSCSI Configuration for Windows® Express Guide
 ---
 = iSCSI Configuration for Windows® Express Guide
 :icons: font

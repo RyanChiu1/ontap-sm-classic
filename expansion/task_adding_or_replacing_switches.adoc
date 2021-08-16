@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_adding_or_replacing_switches.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you expand the cluster, you must ensure that the cluster switches support the expanded configuration. If the cluster is switchless, you must add switches. If the existing switches do not have enough ports available to support the new configuration, you must replace the switches.'
+keywords: expand, cluster, ensure, configuration, switch, exist, port, add, replace, add or replace switches
+summary: "Before you expand the cluster, you must ensure that the cluster switches support the expanded configuration. If the cluster is switchless, you must add switches."
 ---
-= Adding or replacing switches
+= Add or replace switches
 :icons: font
 :imagesdir: ../media/
 

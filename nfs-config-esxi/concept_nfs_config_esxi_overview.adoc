@@ -1,15 +1,15 @@
 ---
 permalink: nfs-config-esxi/concept_nfs_config_esxi_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.'
+keywords:
+summary: 'This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.'
 ---
-= Deciding whether to use the NFS Configuration for ESXi using VSC Express Guide
+= NFS configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This guide describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.
+This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.
 
 You should use this guide if you want to configure NFS access for ESXi hosts to a volume in the following way:
 
@@ -23,7 +23,7 @@ If you use to create an aggregate, be aware that the UI navigation in 9.3 and la
 +
 https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[Cluster management using System Manager]
 
-* You want to use the _legacy_ OnCommand System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 

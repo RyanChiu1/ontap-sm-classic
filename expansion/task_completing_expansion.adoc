@@ -1,10 +1,10 @@
 ---
 permalink: expansion/task_completing_expansion.html
 sidebar: sidebar
-keywords: 
-summary: 'After both nodes are joined to the cluster, you must finish configuring the newly added nodes by configuring AutoSupport and completing the SP network. You then validate the expanded cluster and generate an AutoSupport message to complete the expansion. If the cluster uses SAN, you should update LUN paths.'
+keywords: node, cluster, configuring, configure, autosupport, network, expansion, lun, path, complete, complete the expansion
+summary: "After both nodes are joined to the cluster, you must finish configuring the newly added nodes by configuring AutoSupport and completing the SP network." 
 ---
-= Completing the expansion
+= Complete the expansion
 :icons: font
 :imagesdir: ../media/
 

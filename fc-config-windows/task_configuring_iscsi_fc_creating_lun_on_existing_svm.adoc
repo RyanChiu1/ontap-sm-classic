@@ -1,10 +1,10 @@
 ---
 permalink: fc-config-windows/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure FC on an existing storage virtual machine \(SVM\) and create a LUN and its containing volume with a single wizard. The FC protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured FC.'
+keywords: configure, fc, exist, storage, virtual, machine, svm, create, lun, contain, volume, wizard, information, protocol, configure fc on an existing svm
+summary: You can configure FC on an existing storage virtual machine \(SVM\) and create a LUN and its containing volume with a single wizard. The FC protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured FC.
 ---
-= Configuring FC on an existing SVM
+= Configure FC on an existing SVM
 :icons: font
 :imagesdir: ../media/
 
