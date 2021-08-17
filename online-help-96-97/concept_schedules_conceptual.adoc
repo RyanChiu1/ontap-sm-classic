@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_schedules_conceptual.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure many tasks \(for instance, volume Snapshot copies and mirror replications\) to run on specified schedules. Schedules that are run at specified schedules are known as cron schedules because of their similarity to UNIX cron schedules. Schedules that are run at intervals are known as interval schedules.'
+keywords: online, help, configure, task, schedule, volume, snapshot, mirror, replication, cron, interval, online, help
+summary: "You can configure many tasks (for instance, volume Snapshot copies and mirror replications) to run on specified schedules. Schedules that are run at specified schedules are known as cron schedules because of their similarity to UNIX cron schedules. Schedules that are run at intervals are known as interval schedules."
 ---
 = Schedules
 :icons: font

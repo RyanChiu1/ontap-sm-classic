@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_lun_multiprotocol_type_guidelines.html
 sidebar: sidebar
-keywords: 
-summary: 'The LUN multiprotocol type, or operating system type, specifies the operating system of the host accessing the LUN. It also determines the layout of data on the LUN, and the minimum and maximum size of the LUN.'
+keywords: guidelines, lun, multiprotocol, type, operating, system, host, layout, data, minimum, maximum, size, online, help
+summary: "The LUN multiprotocol type, or operating system type, specifies the operating system of the host accessing the LUN. It also determines the layout of data on the LUN, and the minimum and maximum size of the LUN."
 ---
 = Guidelines for using LUN multiprotocol type
 :icons: font
@@ -18,6 +18,7 @@ Not all ONTAP versions support all LUN multiprotocol types. For the latest infor
 
 The following table describes the LUN multiprotocol type values and the guidelines for using each type:
 
+[options="header"]
 |===
 | LUN multiprotocol type| When to use
 a|

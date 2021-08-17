@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_ipspaces.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create and manage IPspaces.'
+keywords: ipspace, system, manager, manage, online, help
+summary: "You can use System Manager to create and manage IPspaces."
 ---
 = IPspaces
 :icons: font

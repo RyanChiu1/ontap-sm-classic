@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_name_mapping.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to specify name mapping entries to map users from different platforms.'
+keywords: name, mapping, system, manager, specify, user, platform, online, help
+summary: "You can use System Manager to specify name mapping entries to map users from different platforms."
 ---
 = Name mapping
 :icons: font

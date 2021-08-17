@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_volume_guarantees_work_for_flexvol_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'Volume guarantees \(sometimes called space guarantees\) determine how space for a volume is allocated from its containing aggregate—whether or not the space is preallocated for the volume.'
+keywords: volume, guarantee, work, flexvol, volume, space, preallocated, aggregate, online, help
+summary: "Volume guarantees (sometimes called space guarantees) determine how space for a volume is allocated from its containing aggregate—whether or not the space is preallocated for the volume."
 ---
 = How volume guarantees work for FlexVol volumes
 :icons: font

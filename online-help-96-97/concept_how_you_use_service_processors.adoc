@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_you_use_service_processors.html
 sidebar: sidebar
-keywords: 
-summary: 'A Service Processor is a system-independent resource in the storage system that helps you to monitor and manage storage system parameters such as temperature, voltage, current, and fan speeds.'
+keywords: understanding, service, processor, storage, system, monitor, temperature, voltage, current, fan, speed, online, help
+summary: "A Service Processor is a system-independent resource in the storage system that helps you to monitor and manage storage system parameters such as temperature, voltage, current, and fan speeds."
 ---
 = Understanding the Service Processor
 :icons: font
