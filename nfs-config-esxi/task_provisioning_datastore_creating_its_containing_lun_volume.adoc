@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a volume on the storage cluster.'
+keywords: datastore, virtual, machine, vmdk, esxi, host, provision, storage, cluster, provision a datastore and create its containing volume
+summary: "A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a volume on the storage cluster."
 ---
-= Provisioning a datastore and creating its containing volume
+= Provision a datastore and create its containing volume
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config-esxi/task_configuring_host_iscsi_ports_vswitches.html
 sidebar: sidebar
-keywords: 
-summary: 'The ESXi host requires network ports for the NFS connections to the storage cluster.'
+keywords: esxi, host, network, port, nfs, connection, storage, cluster, configure, configure host ports and vswitches
+summary: "The ESXi host requires network ports for the NFS connections to the storage cluster."
 ---
-= Configuring host ports and vSwitches
+= Configure host ports and vSwitches
 :icons: font
 :imagesdir: ../media/
 

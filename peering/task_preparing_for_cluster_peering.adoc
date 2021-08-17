@@ -1,10 +1,10 @@
 ---
 permalink: peering/task_preparing_for_cluster_peering.html
 sidebar: sidebar
-keywords: 
-summary: 'Before creating a cluster peering relationship, you must verify that the time on each cluster is synchronized with an external Network Time Protocol \(NTP\) server, and determine the subnets, ports, and passphrases that you want to use.'
+keywords: create, creating, cluster, peer, relationship, verify, time, synchronized, external, network, procotol, ntp, server, subnet, port, passphrase, prepare, prepare for cluster peering
+summary: "Before creating a cluster peering relationship, you must verify that the time on each cluster is synchronized with an external Network Time Protocol (NTP) server, and determine the subnets, ports, and passphrases that you want to use."
 ---
-= Preparing for cluster peering
+= Prepare for cluster peering
 :icons: font
 :imagesdir: ../media/
 
@@ -22,7 +22,7 @@ The passphrase must include at least eight characters.
 a|
 Cluster A and Cluster B
 a|
- 
+
 |===
 Starting with ONTAP 9.3, you can generate the passphrase from the remote cluster while creating the cluster peer relationship.
 +
@@ -39,37 +39,37 @@ The following table assumes that each cluster has four nodes. If a cluster has m
 a|
 Subnet (ONTAP 9.2 or earlier)
 a|
- 
+
 a|
- 
+
 a|
 IP address (starting with ONTAP 9.3, optional for ONTAP 9.2 or earlier)
 a|
- 
+
 a|
- 
+
 a|
 Node 1 port
 a|
- 
+
 a|
- 
+
 a|
 Node 2 port
 a|
- 
+
 a|
- 
+
 a|
 Node 3 port
 a|
- 
+
 a|
- 
+
 a|
 Node 4 port
 a|
- 
+
 a|
- 
+
 |===

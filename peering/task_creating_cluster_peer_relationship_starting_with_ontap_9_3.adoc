@@ -1,10 +1,10 @@
 ---
 permalink: peering/task_creating_cluster_peer_relationship_starting_with_ontap_9_3.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a cluster peer relationship between two clusters by providing a system-generated passphrase and the IP addresses of the intercluster LIFs of the remote cluster.'
+keywords: create, cluster, peer, relationship, cluster, system-generated, passphrase, ip, address, intercluster, lif, remote, create a cluster peer relationship, starting with ontap 9.3
+summary: "You can create a cluster peer relationship between two clusters by providing a system-generated passphrase and the IP addresses of the intercluster LIFs of the remote cluster."
 ---
-= Creating a cluster peer relationship (starting with ONTAP 9.3)
+= Create a cluster peer relationship (starting with ONTAP 9.3)
 :icons: font
 :imagesdir: ../media/
 

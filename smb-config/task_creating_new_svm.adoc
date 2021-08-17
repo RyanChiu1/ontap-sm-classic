@@ -1,10 +1,10 @@
 ---
 permalink: smb-config/task_creating_new_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use a wizard that guides you through the process of creating a new storage virtual machine \(SVM\), configuring Domain Name System \(DNS\), creating a data logical interface \(LIF\), configuring a CIFS server, and creating and sharing a volume.'
+keywords: wizard, guide, process, creating, create, storage, virtual, machine, svm, domain, name, system, dns, logical, interface, lif, configuring, configure, cifs, server, creating, create, sharing, share, volume, create a new svm with a cifs volume and share
+summary: "You can use a wizard that guides you through the process of creating a new storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), configuring a CIFS server, and creating and sharing a volume."
 ---
-= Creating a new SVM with a CIFS volume and share
+= Create a new SVM with a CIFS volume and share
 :icons: font
 :imagesdir: ../media/
 

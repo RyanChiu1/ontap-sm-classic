@@ -1,10 +1,10 @@
 ---
 permalink: smb-config/task_deciding_where_to_provision_new_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you create a new CIFS volume, you must decide whether to place it in an existing storage virtual machine \(SVM\), and, if so, how much configuration the SVM requires. This decision determines your workflow.'
+keywords: create, cifs, volume, place, exist, storage, virtual, machine, svm, configuration, require, decision, workflow, decide where to provision the new volume
+summary: "Before you create a new CIFS volume, you must decide whether to place it in an existing storage virtual machine (SVM), and, if so, how much configuration the SVM requires. This decision determines your workflow."
 ---
-= Deciding where to provision the new volume
+= Decide where to provision the new volume
 :icons: font
 :imagesdir: ../media/
 

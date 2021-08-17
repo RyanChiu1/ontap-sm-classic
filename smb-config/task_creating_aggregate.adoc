@@ -1,10 +1,10 @@
 ---
 permalink: smb-config/task_creating_aggregate.html
 sidebar: sidebar
-keywords: 
-summary: 'If you do not want to use an existing aggregate, you can create a new aggregate to provide physical storage to the volume which you are provisioning.'
+keywords: exist, aggregate, create, physical, storage, volume, provision, create an aggregate
+summary: "If you do not want to use an existing aggregate, you can create a new aggregate to provide physical storage to the volume which you are provisioning."
 ---
-= Creating an aggregate
+= Create an aggregate
 :icons: font
 :imagesdir: ../media/
 

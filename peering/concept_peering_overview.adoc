@@ -1,10 +1,10 @@
 ---
 permalink: peering/concept_peering_overview.html
 sidebar: sidebar
-keywords: 
-summary: 'This guide describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters.'
+keywords: cluster, administrator, create, authenticated, peer, relationship, svm, enable, communicate, replicate, data, decide whether to use the cluster and svm peering express guide
+summary: "This guide describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters."
 ---
-= Deciding whether to use the Cluster and SVM Peering Express Guide
+= Decide whether to use the Cluster and SVM Peering Express Guide
 :icons: font
 :imagesdir: ../media/
 

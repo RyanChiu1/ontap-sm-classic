@@ -1,10 +1,10 @@
 ---
 permalink: smb-config/task_configuring_verifying_client_access.html
 sidebar: sidebar
-keywords: 
-summary: 'When you are ready, you can give select clients access to the share by setting NTFS file permissions in Windows Explorer and modifying the share ACL in System Manager. Then you should test that the affected users or groups can access the volume.'
+keywords: client, access, share, setting, ntfs, file, permission, windows, explorer, modify, share, acl, system, manager, affect, group, volume, configure, verify, vonfigure and verify cifs client access
+summary: "When you are ready, you can give select clients access to the share by setting NTFS file permissions in Windows Explorer and modifying the share ACL in System Manager. Then you should test that the affected users or groups can access the volume."
 ---
-= Configuring and verifying CIFS client access
+= Configure and verify CIFS client access
 :icons: font
 :imagesdir: ../media/
 

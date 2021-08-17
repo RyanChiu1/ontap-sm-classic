@@ -1,8 +1,8 @@
 ---
 permalink: nfs-config-esxi/task_deciding_where_to_provision_new_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you create an NFS volume, you must decide whether to place it in an existing and, if so, how much configuration the requires. This decision determines your workflow.'
+keywords: create, nfs, volume, exist, configuration, workflow, decide where to provision the new volume
+summary: "Before you create an NFS volume, you must decide whether to place it in an existing and, if so, how much configuration the requires. This decision determines your workflow."
 ---
 = Deciding where to provision the new volume
 :icons: font

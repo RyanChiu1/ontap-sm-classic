@@ -1,8 +1,8 @@
 ---
 permalink: peering/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: cluster, svm, peer, express, guide
+summary: "Cluster and SVM Peering Express Guide"
 ---
 = Cluster and SVM Peering Express Guide
 :icons: font
