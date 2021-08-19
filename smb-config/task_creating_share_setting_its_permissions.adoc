@@ -1,10 +1,10 @@
 ---
 permalink: smb-config/task_creating_share_setting_its_permissions.html
 sidebar: sidebar
-keywords: 
-summary: 'Before Windows users can access a volume, you must create a CIFS share on the volume and restrict access to the share by modifying the access control list \(ACL\) for the share.'
+keywords: windows, user, access, volume, create, cifs, restrict, share, modify, control, list, scl, share, create a share and set its permissions
+summary: "Before Windows users can access a volume, you must create a CIFS share on the volume and restrict access to the share by modifying the access control list (ACL) for the share."
 ---
-= Creating a share and setting its permissions
+= Create a share and set its permissions
 :icons: font
 :imagesdir: ../media/
 

@@ -1,8 +1,8 @@
 ---
 permalink: nfs-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you can provision the first datastore to an ESXi host in your Datacenter, you must add the cluster or a specific to for . Adding the cluster enables you to provision storage on any in the cluster.'
+keywords: provision, datastore, esxi, host, datacenter, cluster, add, enable, storage, add, add the storage cluster or to vsc for
+summary: "Before you can provision the first datastore to an ESXi host in your Datacenter, you must add the cluster or a specific to for . Adding the cluster enables you to provision storage on any in the cluster."
 ---
 = Adding the storage cluster or to VSC for
 :icons: font

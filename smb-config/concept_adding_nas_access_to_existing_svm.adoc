@@ -1,8 +1,8 @@
 ---
 permalink: smb-config/concept_adding_nas_access_to_existing_svm.html
 sidebar: sidebar
-keywords:
-summary: 'Adding CIFS/SMB access to an existing SVM involves creating a data LIF, configuring a CIFS server, provisioning a volume, sharing the volume, and configuring the share permissions.'
+keywords: add, cifs, smb, access, exist, svm, involve, creating, create, data, lif, configuring, configure, server, provision, volume, sharing, share, permission, add cifs access to an existing svm
+summary: "Adding CIFS/SMB access to an existing SVM involves creating a data LIF, configuring a CIFS server, provisioning a volume, sharing the volume, and configuring the share permissions."
 ---
 = Adding CIFS access to an existing SVM
 :icons: font

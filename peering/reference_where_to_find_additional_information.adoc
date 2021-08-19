@@ -1,8 +1,8 @@
 ---
 permalink: peering/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'After you successfully create a cluster peering relationship, you are ready to protect the availability of your data. There are express guides to help you configure data protection, as well as additional guides to do advanced configuration of cluster peering.'
+keywords: successful, create, cluster, peer, relationship, protect, availability, data, express, guide, configure, protection, configuration, where to find additional information
+summary: "After you successfully create a cluster peering relationship, you are ready to protect the availability of your data. There are express guides to help you configure data protection, as well as additional guides to do advanced configuration of cluster peering."
 ---
 = Where to find additional information
 :icons: font

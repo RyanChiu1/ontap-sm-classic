@@ -1,8 +1,8 @@
 ---
 permalink: nfs-config/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'After you have successfully tested NFS client access, you can perform advanced NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of SVM. There are express guides, comprehensive guides, and technical reports to help you achieve these goals.'
+keywords: successful, nfs, test, client, access, configuration, san, protocol, root, volume, express, guide, comprehensive, technical, report, achieve, where to find additional information
+summary: "After you have successfully tested NFS client access, you can perform advanced NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of SVM. There are express guides, comprehensive guides, and technical reports to help you achieve these goals."
 ---
 = Where to find additional information
 :icons: font

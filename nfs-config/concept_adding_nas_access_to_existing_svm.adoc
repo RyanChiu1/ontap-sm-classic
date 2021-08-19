@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config/concept_adding_nas_access_to_existing_svm.html
 sidebar: sidebar
-keywords:
-summary: 'Adding NFS access to an existing SVM involves creating a data LIF, optionally configuring NIS, provisioning a volume, exporting the volume, and configuring the export policy.'
+keywords: nfs, access, exist, svm, creating, create, data, lif, configuring, configure, nis, provision, volume, export, policy, add, add nfs access to an existing svm
+summary: "Adding NFS access to an existing SVM involves creating a data LIF, optionally configuring NIS, provisioning a volume, exporting the volume, and configuring the export policy."
 ---
-= Adding NFS access to an existing SVM
+= Add NFS access to an existing SVM
 :icons: font
 :imagesdir: ../media/
 

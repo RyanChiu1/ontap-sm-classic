@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config-esxi/task_mounting_datastores_on_hosts.html
 sidebar: sidebar
-keywords:
-summary: 'Mounting a datastore gives a host access to storage. When datastores are provisioned by , they are automatically mounted to the host or cluster. You might need to mount a datastore on a host after you add the host to your VMware environment.'
+keywords: mount, datastore, host, access, storage, provision, automatic, add, vmware, environment, mount datastores on hosts
+summary: "Mounting a datastore gives a host access to storage. When datastores are provisioned by , they are automatically mounted to the host or cluster. You might need to mount a datastore on a host after you add the host to your VMware environment."
 ---
-= Mounting datastores on hosts
+= Mount datastores on hosts
 :icons: font
 :imagesdir: ../media/
 

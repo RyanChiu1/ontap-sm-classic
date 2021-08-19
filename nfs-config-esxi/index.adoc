@@ -1,8 +1,8 @@
 ---
 permalink: nfs-config-esxi/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords:
+summary: 
 ---
 :icons: font
 :imagesdir: ../media/

@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html
 sidebar: sidebar
-keywords: VSC
-summary: 'for automates many of the configuration and provisioning tasks required to use storage with an ESXi host. is a plug-in to vCenter Server.'
+keywords: configuration, provision, task, storage, esxi, host, plug-in, vcenter, server, install
+summary: "for automates many of the configuration and provisioning tasks required to use storage with an ESXi host. is a plug-in to vCenter Server."
 ---
-= Installing
+= Install
 :icons: font
 :imagesdir: ../media/
 

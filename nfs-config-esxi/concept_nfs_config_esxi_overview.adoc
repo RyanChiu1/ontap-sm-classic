@@ -1,8 +1,8 @@
 ---
 permalink: nfs-config-esxi/concept_nfs_config_esxi_overview.html
 sidebar: sidebar
-keywords:
-summary: 'This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.'
+keywords: nfs, access, esxi, host, datastores, ontap, volume, decide whether to use the nfs configuration for esxi using vsc express guide
+summary: "This guide describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes."
 ---
 = NFS configuration for ESXi using VSC overview
 :icons: font
