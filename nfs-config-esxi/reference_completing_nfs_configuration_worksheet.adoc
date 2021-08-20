@@ -13,7 +13,7 @@ You require network addresses and storage configuration information to perform N
 
 == Target network addresses
 
-You require a subnet with two IP addresses for NFS data LIFs for each node in the cluster. There should be two separate networks for high availability. The specific IP addresses are assigned by ONTAP when you create the LIFs as part of creating the .
+You require a subnet with two IP addresses for NFS data LIFs for each node in the cluster. There should be two separate networks for high availability. The specific IP addresses are assigned by ONTAP when you create the LIFs as part of creating the SVM.
 
 If possible, separate network traffic on separate physical networks or on VLANs.
 

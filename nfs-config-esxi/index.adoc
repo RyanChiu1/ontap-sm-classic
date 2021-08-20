@@ -1,9 +1,10 @@
 ---
 permalink: nfs-config-esxi/index.html
 sidebar: sidebar
-keywords:
-summary: 
+keywords: nfs, configuration, esxi, vsc, express, guide, nfs configuration for esxi using vsc express guide
+summary: "NFS Configuration for ESXi® using VSC Express Guide"
 ---
+= NFS Configuration for ESXi® using VSC Express Guide
 :icons: font
 :imagesdir: ../media/
 

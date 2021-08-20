@@ -1,10 +1,10 @@
 ---
 permalink: snmp-config/task_adding_snmp_traphost.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the System Manager to add a traphost \(SNMP manager\) to receive SNMP notifications \(SNMP trap protocol data units\) when traps are generated in the cluster.'
+keywords: system, manager, add, traphost, snmp, notification, trap, protocol, generate, cluster, data, host, add an snmp traphost
+summary: "You can use the System Manager to add a traphost (SNMP manager) to receive SNMP notifications (SNMP trap protocol data units) when traps are generated in the cluster."
 ---
-= Adding an SNMP traphost
+= Add an SNMP traphost
 :icons: font
 :imagesdir: ../media/
 

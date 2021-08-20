@@ -1,8 +1,8 @@
 ---
 permalink: snmp-config/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: snmp, configuration, express, guide
+summary: SNMP Configuration Express Guide
 ---
 = SNMP Configuration Express Guide
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: volume-backup-snapvault/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: volume, backup, snapvault, express, guide, volume backup using snapvault express guide
+summary: "Volume Backup Using SnapVault® Express Guide"
 ---
 = Volume Backup Using SnapVault® Express Guide
 :icons: font

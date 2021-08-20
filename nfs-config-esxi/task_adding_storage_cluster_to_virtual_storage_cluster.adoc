@@ -4,12 +4,12 @@ sidebar: sidebar
 keywords: provision, datastore, esxi, host, datacenter, cluster, add, enable, storage, add, add the storage cluster or to vsc for
 summary: "Before you can provision the first datastore to an ESXi host in your Datacenter, you must add the cluster or a specific to for . Adding the cluster enables you to provision storage on any in the cluster."
 ---
-= Adding the storage cluster or to VSC for
+= Add the storage cluster or to VSC for
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Before you can provision the first datastore to an ESXi host in your Datacenter, you must add the cluster or a specific to for . Adding the cluster enables you to provision storage on any in the cluster.
+Before you can provision the first datastore to an ESXi host in your Datacenter, you must add the cluster or a specific storage virtual machine (SVM) to Virtual Storage Console for VMware vSphere. Adding the cluster enables you to provision storage on any SVM in the cluster.
 
 == Before you begin
 

@@ -1,10 +1,10 @@
 ---
 permalink: snmp-config/task_adding_snmp_community.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the System Manager to add a community to the administrative storage virtual machine \(SVM\) for a cluster that is running SNMPv1 or SNMPv2c. System Manager uses SNMP protocols SNMPv1 and SNMPv2c, and an SNMP community to discover storage systems.'
+keywords: system, manager, add, community, administrative, storage, virtual, machine, svm, cluster, snmpv1, snmpv2c, protocol, add an anmp community
+summary: "You can use the System Manager to add a community to the administrative storage virtual machine (SVM) for a cluster that is running SNMPv1 or SNMPv2c. System Manager uses SNMP protocols SNMPv1 and SNMPv2c, and an SNMP community to discover storage systems."
 ---
-= Adding an SNMP community
+= Add an SNMP community
 :icons: font
 :imagesdir: ../media/
 

@@ -19,7 +19,7 @@ VSC must have sufficient cluster or credentials to create the volume.
 
 == About this task
 
-VSC automates the datastore provisioning, including creating a volume on the specified .
+VSC automates the datastore provisioning, including creating a volume on the specified SVM.
 
 == Steps
 
