@@ -1,8 +1,8 @@
 ---
 permalink: volume-disaster-recovery/concept_volume_disaster_recovery_overview.html
 sidebar: sidebar
-keywords:
-summary: 'This content describes how to quickly activate a destination volume after a disaster and then reactivate the source volume in ONTAP.'
+keywords: content, destination, activate, volume, disaster, reactivate, source, ontap, volume disaster recovery overview
+summary: "This content describes how to quickly activate a destination volume after a disaster and then reactivate the source volume in ONTAP."
 ---
 = Volume disaster recovery overview
 :icons: font

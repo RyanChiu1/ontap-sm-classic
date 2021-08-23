@@ -1,10 +1,10 @@
 ---
 permalink: volume-disaster-recovery/task_returning_recovered_volume_to_source_role.html
 sidebar: sidebar
-keywords: 
-summary: 'After resynchronizing the data from the destination volume to the source volume, you must activate the source volume by breaking the SnapMirror relationship. You should then resynchronize the destination volume to protect the reactivated source volume.'
+keywords: resynchronize, resynchronizing, data, destination, volume, source, activate, snapmirror, relationship, reactivate, reactivate the source volume
+summary: "After resynchronizing the data from the destination volume to the source volume, you must activate the source volume by breaking the SnapMirror relationship. You should then resynchronize the destination volume to protect the reactivated source volume."
 ---
-= Reactivating the source volume
+= Reactivate the source volume
 :icons: font
 :imagesdir: ../media/
 

@@ -1,10 +1,10 @@
 ---
 permalink: volume-disaster-recovery/task_configuring_destination_volume_for_data_access.html
 sidebar: sidebar
-keywords: 
-summary: 'After activating the destination volume, you must configure the volume for data access. NAS clients and SAN hosts can access the data from the destination volume until the source volume is reactivated.'
+keywords: activating, activate, destination, volume, configure, data, access, nas, client, san, host, access, data, source, reactivate, configure the destination volume for data access
+summary: "After activating the destination volume, you must configure the volume for data access. NAS clients and SAN hosts can access the data from the destination volume until the source volume is reactivated."
 ---
-= Configuring the destination volume for data access
+= Configure the destination volume for data access
 :icons: font
 :imagesdir: ../media/
 

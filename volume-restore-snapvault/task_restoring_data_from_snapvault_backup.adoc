@@ -1,10 +1,10 @@
 ---
 permalink: volume-restore-snapvault/task_restoring_data_from_snapvault_backup.html
 sidebar: sidebar
-keywords: 
-summary: 'After selecting the SnapVault backup destination volume, you must perform the restore operation either to a new volume to test the backed-up data or to an existing volume to restore the lost or corrupted data.'
+keywords: snapvault, backup, destination, volume, perform, restore, operation, backed-up, data, corrupt, lost, restore data from a snapvault backup
+summary: "After selecting the SnapVault backup destination volume, you must perform the restore operation either to a new volume to test the backed-up data or to an existing volume to restore the lost or corrupted data."
 ---
-= Restoring data from a SnapVault backup
+= Restore data from a SnapVault backup
 :icons: font
 :imagesdir: ../media/
 

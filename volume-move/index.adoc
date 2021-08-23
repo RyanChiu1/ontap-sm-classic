@@ -1,8 +1,8 @@
 ---
 permalink: volume-move/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: volume, move, express, guide
+summary: "Volume Move Express Guide"
 ---
 = Volume Move Express Guide
 :icons: font

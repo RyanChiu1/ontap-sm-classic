@@ -1,8 +1,8 @@
 ---
 permalink: volume-disaster-prep/concept_volume_disaster_prep_overview.html
 sidebar: sidebar
-keywords:
-summary: 'This content describes how to quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this content if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks.'
+keywords: content, protect, source, volume, peer, ontap, cluster, perparation, disaster, recovery, configure, monitor, snapmirror, relationship, background, task, volume disaster recovery preparation overview
+summary: "This content describes how to quickly protect a source volume on a peered ONTAP cluster in preparation for disaster recovery. You should use this content if you want to configure and monitor SnapMirror relationships between peered clusters for volume disaster recovery and do not need a lot of conceptual background for the tasks."
 ---
 = Volume disaster recovery preparation overview
 :icons: font
