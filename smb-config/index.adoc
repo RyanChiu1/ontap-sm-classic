@@ -2,7 +2,7 @@
 permalink: smb-config/index.html
 sidebar: sidebar
 keywords: smb, cifs, configuration, express, guide
-summary: SMB/CIFS Configuration Express Guide
+summary: "SMB/CIFS Configuration Express Guide"
 ---
 = SMB/CIFS Configuration Express Guide
 :icons: font

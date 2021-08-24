@@ -1,10 +1,10 @@
 ---
 permalink: volume-move/task_moving_volume_using_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can move a volume in System Manager by selecting a volume and the destination aggregate, starting the volume move operation, and optionally monitoring the volume move job. When using System Manager, a volume move operation finishes automatically.'
+keywords: move, volume, system, manager, destination, aggregate, operation, monitor, job, move a volume using system manager
+summary: "You can move a volume in System Manager by selecting a volume and the destination aggregate, starting the volume move operation, and optionally monitoring the volume move job. When using System Manager, a volume move operation finishes automatically."
 ---
-= Moving a volume using System Manager
+= Move a volume using System Manager
 :icons: font
 :imagesdir: ../media/
 

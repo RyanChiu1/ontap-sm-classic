@@ -1,10 +1,10 @@
 ---
 permalink: volume-backup-snapvault/task_monitoring_snapvault_relationship.html
 sidebar: sidebar
-keywords:
-summary: 'You should periodically monitor the status of the SnapVault relationships to ensure that the data is backed up on the destination volume per the specified schedule.'
+keywords: periodically, monitor, status, snapvault, relationship, ensure, data, back, up, volume, schedule, monitor the snapvault relationship
+summary: "You should periodically monitor the status of the SnapVault relationships to ensure that the data is backed up on the destination volume per the specified schedule."
 ---
-= Monitoring the SnapVault relationship
+= Monitor the SnapVault relationship
 :icons: font
 :imagesdir: ../media/
 

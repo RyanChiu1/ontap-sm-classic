@@ -2,14 +2,14 @@
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html
 sidebar: sidebar
 keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled
-summary: "Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using ."
+summary: "Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console."
 ---
 = Create a new NFS-enabled
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using .
+Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console.
 
 == Before you begin
 
@@ -21,14 +21,14 @@ Setting up a new involves creating the new and enabling NFS. You can then config
 
 == About this task
 
-You can use a wizard that guides you through the process of creating the , configuring DNS, creating a data LIF, and enabling NFS.
+You can use a wizard that guides you through the process of creating the SVM, configuring DNS, creating a data LIF, and enabling NFS.
 
 == Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create*.
 . In the *Storage Virtual Machine (SVM) Setup* window, create the :
- .. Specify a unique name for the .
+ .. Specify a unique name for the SVM.
 +
 The name must either be a fully qualified domain name (FQDN) or follow another convention that ensures unique names across a cluster.
 
@@ -50,7 +50,7 @@ The aggregate that you select for the root volume does not determine the locatio
 +
 image::../media/svm_setup_details_unix_selected_nfs_esxi.gif[SVM setup]
 
- .. In the *DNS Configuration* area, ensure that the default DNS search domain and name servers are the ones that you want to use for this .
+ .. In the *DNS Configuration* area, ensure that the default DNS search domain and name servers are the ones that you want to use for this SVM.
 +
 image::../media/svm_setup_details_dns_nfs_esxi.gif[This graphic is explained by the surrounding text.]
 

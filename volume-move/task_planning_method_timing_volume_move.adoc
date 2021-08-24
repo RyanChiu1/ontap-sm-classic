@@ -1,10 +1,10 @@
 ---
 permalink: volume-move/task_planning_method_timing_volume_move.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to move a volume and to decide whether to have a manual cutover. If you need to update LUN reporting nodes, you must follow an advanced procedure in the command-line interface \(CLI\). Optionally, you can also plan the timing of a volume move.'
+keywords: system, manager, volume, manual, cutover, lun, report, node, advance, procedure, command-line, interface, cli, plan, plan the method and timing of a volume move
+summary: "You can use System Manager to move a volume and to decide whether to have a manual cutover. If you need to update LUN reporting nodes, you must follow an advanced procedure in the command-line interface (CLI). Optionally, you can also plan the timing of a volume move."
 ---
-= Planning the method and timing of a volume move
+= Plan the method and timing of a volume move
 :icons: font
 :imagesdir: ../media/
 

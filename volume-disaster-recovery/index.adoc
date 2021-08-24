@@ -1,8 +1,8 @@
 ---
 permalink: volume-disaster-recovery/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: volume, disaster, recovery, express, guide
+summary: "Volume Disaster Recovery Express Guide"
 ---
 = Volume Disaster Recovery Express Guide
 :icons: font

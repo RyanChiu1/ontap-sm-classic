@@ -1,10 +1,10 @@
 ---
 permalink: volume-disaster-recovery/task_breaking_snapmirror_relationship.html
 sidebar: sidebar
-keywords: 
-summary: 'You must quiesce and break the SnapMirror relationship to activate the destination volume. After quiescing, future SnapMirror data transfers are disabled.'
+keywords: quiesce, break, snapmirror, relationship, activate, destination, volume, snapmirror, quiescing, transfer, disable, break the snapmirror relationship
+summary: "You must quiesce and break the SnapMirror relationship to activate the destination volume. After quiescing, future SnapMirror data transfers are disabled."
 ---
-= Breaking the SnapMirror relationship
+= Break the SnapMirror relationship
 :icons: font
 :imagesdir: ../media/
 

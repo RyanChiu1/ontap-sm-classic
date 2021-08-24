@@ -1,8 +1,8 @@
 ---
 permalink: volume-disaster-recovery/concept_volume_disaster_recovery_workflow.html
 sidebar: sidebar
-keywords:
-summary: 'The volume disaster recovery workflow includes activating the destination volume, configuring the destination volume for data access, and reactivating the original source volume.'
+keywords: volume, disaster recovery, workflow, activating, activate, destination, configuring, configure, access, reactivate, reactivating, original, source, volume disaster recovery workflow
+summary: "The volume disaster recovery workflow includes activating the destination volume, configuring the destination volume for data access, and reactivating the original source volume."
 ---
 = Volume disaster recovery workflow
 :icons: font

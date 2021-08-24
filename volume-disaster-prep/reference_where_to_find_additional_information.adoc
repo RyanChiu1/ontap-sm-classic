@@ -1,8 +1,8 @@
 ---
 permalink: volume-disaster-prep/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'Additional documentation is available to help you activate the destination volume to test the disaster recovery setup or when a disaster occurs. You can also learn more about how to reactivate the source volume after the disaster.'
+keywords: documentation, activate, destination, volume, test, disaster, recovery, setup, reactivate, source, volume, where to find additional information
+summary: "Additional documentation is available to help you activate the destination volume to test the disaster recovery setup or when a disaster occurs. You can also learn more about how to reactivate the source volume after the disaster."
 ---
 = Where to find additional information
 :icons: font

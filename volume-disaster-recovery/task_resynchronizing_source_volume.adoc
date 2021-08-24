@@ -1,10 +1,10 @@
 ---
 permalink: volume-disaster-recovery/task_resynchronizing_source_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'When the source volume is online, you must resynchronize the data between the destination volume and the source volume to replicate the latest data from the destination volume.'
+keywords: source, volume, online, resynchronize, data, destination, replicate, resynchronize the source volume
+summary: "When the source volume is online, you must resynchronize the data between the destination volume and the source volume to replicate the latest data from the destination volume."
 ---
-= Resynchronizing the source volume
+= Resynchronize the source volume
 :icons: font
 :imagesdir: ../media/
 

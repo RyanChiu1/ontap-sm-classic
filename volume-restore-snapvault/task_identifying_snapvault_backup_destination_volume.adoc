@@ -1,10 +1,10 @@
 ---
 permalink: volume-restore-snapvault/task_identifying_snapvault_backup_destination_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You must identify the SnapVault backup destination volume from which you want to restore data when the data in the source volume is corrupted or lost.'
+keywords: identify, snapvault, backup, destination, volume, restore, data, source, corrupt, identify the snapvault backup destination volume
+summary: "You must identify the SnapVault backup destination volume from which you want to restore data when the data in the source volume is corrupted or lost."
 ---
-= Identifying the SnapVault backup destination volume
+= Identify the SnapVault backup destination volume
 :icons: font
 :imagesdir: ../media/
 

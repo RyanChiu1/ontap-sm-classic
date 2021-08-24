@@ -1,10 +1,10 @@
 ---
 permalink: snmp-config/task_verifying_snmp_is_enabled.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to verify whether SNMP is enabled on the cluster.'
+keywords: system, manager, verify, snmp, enable, cluster, verify that snmp is enabled
+summary: "You can use System Manager to verify whether SNMP is enabled on the cluster."
 ---
-= Verifying that SNMP is enabled
+= Verify that SNMP is enabled
 :icons: font
 :imagesdir: ../media/
 

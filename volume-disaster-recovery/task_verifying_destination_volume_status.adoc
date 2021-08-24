@@ -1,10 +1,10 @@
 ---
 permalink: volume-disaster-recovery/task_verifying_destination_volume_status.html
 sidebar: sidebar
-keywords: 
-summary: 'After breaking the SnapMirror relationship, you must verify that the destination volume has read/write access and that the destination volume settings match the settings of the source volume.'
+keywords: break, snapmirror, relationship, verify, destination, volume, access, source, verify the destination volume status
+summary: "After breaking the SnapMirror relationship, you must verify that the destination volume has read/write access and that the destination volume settings match the settings of the source volume."
 ---
-= Verifying the destination volume status
+= Verify the destination volume status
 :icons: font
 :imagesdir: ../media/
 

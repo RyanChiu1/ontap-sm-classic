@@ -1,8 +1,8 @@
 ---
 permalink: snmp-config/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'There are other reference manuals to help you configure SNMP.'
+keywords: reference, manual, configure, snmp, where to find additional information
+summary: "There are other reference manuals to help you configure SNMP."
 ---
 = Where to find additional information
 :icons: font

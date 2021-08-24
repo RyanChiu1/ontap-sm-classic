@@ -1,10 +1,10 @@
 ---
 permalink: volume-move/task_verifying_lun_reporting_nodes_after_moving_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'If the volume that you move contains LUNs, and the destination aggregate is on another high-availability \(HA\) pair, ONTAP automatically adds a HA pair to the Selective LUN Map reporting-nodes list. Adding LUN reporting nodes helps to maintain optimized LUN paths.'
+keywords: volume, lun, destination, aggregate, high-availability, ha, pair, ontap, selective, reporting-nodes, list, path, verify, verify lun reporting nodes after moving a volume
+summary: "If the volume that you move contains LUNs, and the destination aggregate is on another high-availability (HA) pair, ONTAP automatically adds a HA pair to the Selective LUN Map reporting-nodes list. Adding LUN reporting nodes helps to maintain optimized LUN paths."
 ---
-= Verifying LUN reporting nodes after moving a volume
+= Verify LUN reporting nodes after moving a volume
 :icons: font
 :imagesdir: ../media/
 

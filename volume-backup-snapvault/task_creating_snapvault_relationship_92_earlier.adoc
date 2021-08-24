@@ -1,10 +1,10 @@
 ---
 permalink: volume-backup-snapvault/task_creating_snapvault_relationship_92_earlier.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a SnapVault relationship between the source volume on one cluster and the destination volume on the peered cluster to create a SnapVault backup.'
+keywords: create, snapvault, relationship, source, volume, cluster, destination, peer, backup, create the snapvault relationship, ontap 9.2 or earlier
+summary: "You must create a SnapVault relationship between the source volume on one cluster and the destination volume on the peered cluster to create a SnapVault backup."
 ---
-= Creating the SnapVault relationship (ONTAP 9.2 or earlier)
+= Create the SnapVault relationship (ONTAP 9.2 or earlier)
 :icons: font
 :imagesdir: ../media/
 

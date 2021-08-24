@@ -1,8 +1,8 @@
 ---
 permalink: volume-restore-snapvault/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'Additional information is available to help you to manage the SnapVault backup relationships and to use other methods of data protection to protect the availability of your data resources.'
+keywords: information, manage, snapvault, backup, relationship, method, data, protect, data, resource, where to find additional information
+summary: "Additional information is available to help you to manage the SnapVault backup relationships and to use other methods of data protection to protect the availability of your data resources."
 ---
 = Where to find additional information
 :icons: font

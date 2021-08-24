@@ -1,8 +1,8 @@
 ---
 permalink: volume-restore-snapvault/concept_volume_restore_snapvault_overview.html
 sidebar: sidebar
-keywords:
-summary: 'This content describes how to quickly restore a volume from a SnapVault backup in ONTAP when there is a data loss.'
+keywords: content, restore, volume, snapvault, backup, ontap, data, loss, volume restore using snapvault overview
+summary: "This content describes how to quickly restore a volume from a SnapVault backup in ONTAP when there is a data loss."
 ---
 = Volume restore using SnapVault overview
 :icons: font

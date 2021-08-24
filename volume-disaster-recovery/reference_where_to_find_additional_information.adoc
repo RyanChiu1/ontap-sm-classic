@@ -1,8 +1,8 @@
 ---
 permalink: volume-disaster-recovery/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'Additional information is available to help you to manage the volume-level disaster recovery relationships and provides other methods of disaster recovery to protect the availability of your data resources.'
+keywords: information, volume-level, disaster, recovery, relationship, method, protect, availability, data, resource, where to find additional information
+summary: "Additional information is available to help you to manage the volume-level disaster recovery relationships and provides other methods of disaster recovery to protect the availability of your data resources."
 ---
 = Where to find additional information
 :icons: font

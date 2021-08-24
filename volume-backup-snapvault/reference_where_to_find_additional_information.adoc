@@ -1,8 +1,8 @@
 ---
 permalink: volume-backup-snapvault/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: 
-summary: 'Additional documentation is available to help you restore data from a destination volume to test the backed-up data or when the source volume is lost.'
+keywords: documentation, restore, data, destination, volume, test, backed-up, source, volume, where to find additional information
+summary: "Additional documentation is available to help you restore data from a destination volume to test the backed-up data or when the source volume is lost."
 ---
 = Where to find additional information
 :icons: font

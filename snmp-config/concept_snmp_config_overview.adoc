@@ -1,8 +1,8 @@
 ---
 permalink: snmp-config/concept_snmp_config_overview.html
 sidebar: sidebar
-keywords:
-summary: 'This content describes how to configure SNMP at the cluster management level, how to add communities, security users, and traphosts, and how to test the SNMP communication.'
+keywords: content, configure, snmp, cluster, management, level, add, communities, community, security, user, traphost, communication, snmp configuration overview
+summary: "This content describes how to configure SNMP at the cluster management level, how to add communities, security users, and traphosts, and how to test the SNMP communication."
 ---
 = SNMP configuration overview
 :icons: font
