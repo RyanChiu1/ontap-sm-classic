@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_nis_services.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add, edit, and manage Network Information Service \(NIS\) domains.'
+keywords: online, help, system, manager, nis, services, add, edit, manage, network, information, service, domain
+summary: "You can use System Manager to add, edit, and manage Network Information Service (NIS) domains."
 ---
 = NIS services
 :icons: font

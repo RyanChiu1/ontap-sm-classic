@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html
 sidebar: sidebar
-keywords: 
-summary: 'Removing a multi-disk carrier before it is safe to do so can result in one or more RAID groups becoming degraded, or possibly even a storage disruption. System Manager enables you to determine when it is safe to remove a multi-disk carrier.'
+keywords: remove, multidisk, carrier, system, manager, storage, disruption, raid
+summary: "Removing a multi-disk carrier before it is safe to do so can result in one or more RAID groups becoming degraded, or possibly even a storage disruption. System Manager enables you to determine when it is safe to remove a multi-disk carrier."
 ---
 = How to determine when it is safe to remove a multi-disk carrier
 :icons: font

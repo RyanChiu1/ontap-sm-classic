@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_requirements_best_practices_for_using_ssd_storage_pools.html
 sidebar: sidebar
-keywords: 
-summary: 'Some technologies cannot be combined with Flash Pool aggregates that use SSD storage pools.'
+keywords: requirements, best, practices, ssd, storage, flash, pool, aggregate, online, help
+summary: "Some technologies cannot be combined with Flash Pool aggregates that use SSD storage pools."
 ---
 = Requirements and best practices for using SSD storage pools
 :icons: font

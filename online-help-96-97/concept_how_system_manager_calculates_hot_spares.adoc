@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_system_manager_calculates_hot_spares.html
 sidebar: sidebar
-keywords: 
-summary: 'A hot spare is a disk that is assigned to a storage system but not used by any RAID group. Hot spares do not contain any data and are assigned to a RAID group when a disk failure occurs in the RAID group. System Manager uses the largest disk as the hot spare.'
+keywords: system, manager, hot, spares, disk, storage, raid, online, help
+summary: "A hot spare is a disk that is assigned to a storage system but not used by any RAID group. Hot spares do not contain any data and are assigned to a RAID group when a disk failure occurs in the RAID group. System Manager uses the largest disk as the hot spare."
 ---
 = How System Manager works with hot spares
 :icons: font

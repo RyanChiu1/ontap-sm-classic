@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_rules_for_assigning_storage_objects_to_policy_groups.html
 sidebar: sidebar
-keywords: 
-summary: 'You should be aware of rules that dictate how you can assign storage objects to Storage QoS policy groups.'
+keywords: rulw, assign, storage, object, policy, group, svm, nested, online, help
+summary: "You should be aware of rules that dictate how you can assign storage objects to Storage QoS policy groups."
 ---
 = Rules for assigning storage objects to policy groups
 :icons: font
@@ -23,6 +23,7 @@ image::../media/qos_rule_same_vserver.gif[This graphic is described by the surro
 
 You cannot assign a storage object to a policy group if its containing object or its child objects belong to a policy group. The following table lists the restrictions.
 
+[options="header"]
 |===
 | If you assign the...| Then you cannot assign...
 a|
@@ -42,6 +43,7 @@ File to a policy group
 a|
 The file's containing volume or SVM to a policy group
 |===
+
 In the following illustration, the SVM vs3 is assigned to policy group pg2. You cannot assign volumes vol4 or vol5 to a policy group because an object in the storage hierarchy (SVM vs3) is assigned to a policy group.
 
 image::../media/qos_rule_one_object.gif[This graphic is described by the surrounding text.]

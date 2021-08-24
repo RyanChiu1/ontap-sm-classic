@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_options_for_resizing_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Volume Resize wizard to change your volume size, adjust the Snapshot reserve, delete Snapshot copies, and dynamically view the results of your changes.'
+keywords: option, resize, volume, wizard, snapshot, reserve, snapshot, copy, results, view, online, help
+summary: "You can use the Volume Resize wizard to change your volume size, adjust the Snapshot reserve, delete Snapshot copies, and dynamically view the results of your changes."
 ---
 = Options for resizing volumes
 :icons: font

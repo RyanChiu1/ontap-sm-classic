@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_iscsi_protocol.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to configure the iSCSI protocol that enables you to transfer block data to hosts using SCSI protocol over TCP/IP.'
+keywords: iscsi, protocol, system, manager, configure, block, data, host, tcp, ip, online, help
+summary: "You can use System Manager to configure the iSCSI protocol that enables you to transfer block data to hosts using SCSI protocol over TCP/IP."
 ---
 = iSCSI protocol
 :icons: font

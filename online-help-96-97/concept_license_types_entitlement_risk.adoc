@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_license_types_entitlement_risk.html
 sidebar: sidebar
-keywords: 
-summary: 'Understanding the various license types and the associated entitlement risk helps you manage the risk that is associated with the licenses in a cluster.'
+keywords: license, types, entitlement, risk, cluster, online, help
+summary: "Understanding the various license types and the associated entitlement risk helps you manage the risk that is associated with the licenses in a cluster."
 ---
 = License types and entitlement risk
 :icons: font

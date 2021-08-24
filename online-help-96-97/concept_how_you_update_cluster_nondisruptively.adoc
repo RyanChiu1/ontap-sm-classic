@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_you_update_cluster_nondisruptively.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to update a cluster nondisruptively to a specific ONTAP version. In a nondisruptive update, you have to select an ONTAP image, validate that your cluster is ready for the update, and then perform the update.'
+keywords: update, cluster, nondisruptively, plan, perpare, perform, system, manager, online, help
+summary: "You can use System Manager to update a cluster nondisruptively to a specific ONTAP version. In a nondisruptive update, you have to select an ONTAP image, validate that your cluster is ready for the update, and then perform the update."
 ---
 = How to update a cluster nondisruptively
 :icons: font

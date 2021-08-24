@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_quota_management.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager includes several features that help you to create, edit, or delete quotas. You can create a user, group, or tree quota and you can specify quota limits at the disk and file levels. All quotas are established on a per-volume basis.'
+keywords: quota, management, system, manager, create, edit, delete, online help, user, group, tree
+summary: "System Manager includes several features that help you to create, edit, or delete quotas. You can create a user, group, or tree quota and you can specify quota limits at the disk and file levels. All quotas are established on a per-volume basis."
 ---
 = Quota management
 :icons: font

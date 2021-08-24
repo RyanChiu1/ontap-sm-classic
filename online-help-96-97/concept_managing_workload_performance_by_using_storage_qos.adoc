@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_managing_workload_performance_by_using_storage_qos.html
 sidebar: sidebar
-keywords: 
-summary: 'Storage Quality of Service \(QoS\) can help you manage risks around meeting your performance objectives. You can use Storage QoS to limit the throughput to workloads and to monitor workload performance. You can reactively limit workloads to address performance problems, and you can proactively limit workloads to prevent performance problems.'
+keywords: manage, workload, performance, storage, qos, quality, service, objective, online, help
+summary: "Storage Quality of Service (QoS) can help you manage risks around meeting your performance objectives. You can use Storage QoS to limit the throughput to workloads and to monitor workload performance. You can reactively limit workloads to address performance problems, and you can proactively limit workloads to prevent performance problems."
 ---
 = Managing workload performance by using Storage QoS
 :icons: font

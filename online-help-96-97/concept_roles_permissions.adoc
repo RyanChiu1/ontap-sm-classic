@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_roles_permissions.html
 sidebar: sidebar
-keywords: 
-summary: 'The cluster administrator can restrict a user’s access to only a specified set of commands by creating a restricted access-control role and then assigning the role to a user.'
+keywords: cluster, administrator, user, access, restrict, command, online, help
+summary: "The cluster administrator can restrict a user’s access to only a specified set of commands by creating a restricted access-control role and then assigning the role to a user."
 ---
 = Roles and permissions
 :icons: font

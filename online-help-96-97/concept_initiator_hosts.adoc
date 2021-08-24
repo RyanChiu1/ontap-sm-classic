@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_initiator_hosts.html
 sidebar: sidebar
-keywords: 
-summary: 'Initiator hosts can access the LUNs mapped to them. When you map a LUN on a storage system to the igroup, you grant all the initiators in that group access to that LUN. If a host is not a member of an igroup that is mapped to a LUN, that host does not have access to the LUN.'
+keywords: initiator, host, lun, map, storage, system, igroup, group, access, member, online, help
+summary: "Initiator hosts can access the LUNs mapped to them. When you map a LUN on a storage system to the igroup, you grant all the initiators in that group access to that LUN. If a host is not a member of an igroup that is mapped to a LUN, that host does not have access to the LUN."
 ---
 = Initiator hosts
 :icons: font

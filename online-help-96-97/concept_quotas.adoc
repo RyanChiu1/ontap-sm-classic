@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_quotas.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create, edit, and delete quotas.'
+keywords: system, manager, create, edit, delete, quota, online, help
+summary: "You can use System Manager to create, edit, and delete quotas."
 ---
 = Quotas
 :icons: font

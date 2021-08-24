@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_roles_conceptual.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use an access-control role to control the level of access a user has to the system. In addition to using the predefined roles, you can create new access-control roles, modify them, delete them, or specify account restrictions for the users of a role.'
+keywords: role, access, control, user, system, predefined, modify, delete, account, restrictions, online, help
+summary: "You can use an access-control role to control the level of access a user has to the system. In addition to using the predefined roles, you can create new access-control roles, modify them, delete them, or specify account restrictions for the users of a role."
 ---
 = Roles
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_metrocluster_switchover_switchback_workflow.html
 sidebar: sidebar
-keywords: 
-summary: 'Starting with System Manager 9.6, you can use MetroCluster switchover and switchback operations after a disaster that renders all the nodes in the source cluster unreachable and powered off. You can also use the switchover workflow for a negotiated \(planned\) switchover in cases such as disaster recovery testing or a site going offline for maintenance.'
+keywords: metrocluster, switchover, switchback, workflow, online, help, offline, maintenance
+summary: "Starting with System Manager 9.6, you can use MetroCluster switchover and switchback operations after a disaster that renders all the nodes in the source cluster unreachable and powered off. You can also use the switchover workflow for a negotiated (planned) switchover in cases such as disaster recovery testing or a site going offline for maintenance."
 ---
 = MetroCluster switchover and switchback workflow
 :icons: font
