@@ -184,256 +184,256 @@ entries:
       url: "/smb-config/reference_where_to_find_additional_information.html"
 - title: Provision SAN storage
   entries:
-- title: FC configuration for ESXi using VSC
-  entries:
-  - title: Overview
-    url: "/fc-config-esxi/concept_fc_config_esxi_overview.html"
-  - title: FC configuration workflow
-    url: "/fc-config-esxi/concept_fc_configuration_workflow.html"
+  - title: FC configuration for ESXi using VSC
     entries:
-    - title: Verifying that the FC configuration is supported
-      url: "/fc-config-esxi/task_verifying_that_iscsi_fc_configuration_is_supported.html"
-    - title: Completing the FC configuration worksheet
-      url: "/fc-config-esxi/reference_completing_iscsi_configuration_worksheet.html"
-    - title: Installing Virtual Storage Console
-      url: "/fc-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html"
-    - title: Adding the storage cluster or SVM to VSC for VMware vSphere
-      url: "/fc-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html"
-    - title: Updating the HBA driver, firmware, and BIOS
-      url: "/fc-config-esxi/task_updating_hba_firmware.html"
-    - title: Configuring the ESXi host best practice settings
-      url: "/fc-config-esxi/task_configuring_esxi_host_best_practice_settings.html"
-    - title: Creating an aggregate
-      url: "/fc-config-esxi/task_creating_aggregate.html"
-    - title: Deciding where to provision the volume
-      url: "/fc-config-esxi/task_deciding_where_to_provision_volume.html"
+    - title: Overview
+      url: "/fc-config-esxi/concept_fc_config_esxi_overview.html"
+    - title: FC configuration workflow
+      url: "/fc-config-esxi/concept_fc_configuration_workflow.html"
       entries:
-      - title: Verifying that the FC service is running on an existing SVM
-        url: "/fc-config-esxi/task_verifying_that_fc_service_is_running_on_existing_svm.html"
-      - title: Configuring FC on an existing SVM
-        url: "/fc-config-esxi/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
-      - title: Creating a new SVM
-        url: "/fc-config-esxi/task_creating_svm.html"
-    - title: Zoning the FC switches by the host and LIF WWPNs
-      url: "/fc-config-esxi/task_zoning_fc_switches_by_host_lif_wwpns.html"
-    - title: Provisioning a datastore and creating its containing LUN and volume
-      url: "/fc-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
-    - title: Verifying that the host can write to and read from the LUN
-      url: "/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
-  - title: Where to find additional information
-    url: "/fc-config-esxi/reference_where_to_find_additional_information.html"
-- title: FC configuration for Red Hat Enterprise Linux
-  entries:
-  - title: Overview
-    url: "/fc-config-rhel/concept_fc_config_rhel_overview.html"
-  - title: FC configuration and provisioning workflow
-    url: "/fc-config-rhel/concept_fc_configuration_workflow.html"
+      - title: Verifying that the FC configuration is supported
+        url: "/fc-config-esxi/task_verifying_that_iscsi_fc_configuration_is_supported.html"
+      - title: Completing the FC configuration worksheet
+        url: "/fc-config-esxi/reference_completing_iscsi_configuration_worksheet.html"
+      - title: Installing Virtual Storage Console
+        url: "/fc-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html"
+      - title: Adding the storage cluster or SVM to VSC for VMware vSphere
+        url: "/fc-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html"
+      - title: Updating the HBA driver, firmware, and BIOS
+        url: "/fc-config-esxi/task_updating_hba_firmware.html"
+      - title: Configuring the ESXi host best practice settings
+        url: "/fc-config-esxi/task_configuring_esxi_host_best_practice_settings.html"
+      - title: Creating an aggregate
+        url: "/fc-config-esxi/task_creating_aggregate.html"
+      - title: Deciding where to provision the volume
+        url: "/fc-config-esxi/task_deciding_where_to_provision_volume.html"
+        entries:
+        - title: Verifying that the FC service is running on an existing SVM
+          url: "/fc-config-esxi/task_verifying_that_fc_service_is_running_on_existing_svm.html"
+        - title: Configuring FC on an existing SVM
+          url: "/fc-config-esxi/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
+        - title: Creating a new SVM
+          url: "/fc-config-esxi/task_creating_svm.html"
+      - title: Zoning the FC switches by the host and LIF WWPNs
+        url: "/fc-config-esxi/task_zoning_fc_switches_by_host_lif_wwpns.html"
+      - title: Provisioning a datastore and creating its containing LUN and volume
+        url: "/fc-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
+      - title: Verifying that the host can write to and read from the LUN
+        url: "/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
+    - title: Where to find additional information
+      url: "/fc-config-esxi/reference_where_to_find_additional_information.html"
+  - title: FC configuration for Red Hat Enterprise Linux
     entries:
-    - title: Verifying that the FC configuration is supported
-      url: "/fc-config-rhel/task_verifying_that_iscsi_fc_configuration_is_supported.html"
-    - title: Completing the FC configuration worksheet
-      url: "/fc-config-rhel/reference_completing_iscsi_configuration_worksheet.html"
-    - title: Installing the HBA utility from the HBA vendor
-      url: "/fc-config-rhel/task_installing_hba_utility_from_hba_vendor.html"
-    - title: Updating the HBA driver, firmware, and BIOS
-      url: "/fc-config-rhel/task_updating_hba_driver_firmware_bios.html"
-    - title: Installing Linux Unified Host Utilities and optimizing I/O performance
-      url: "/fc-config-rhel/task_installing_linux_unified_host_utilities_optimizing_i_o_performance.html"
-    - title: Recording the WWPN for each host FC port
-      url: "/fc-config-rhel/task_record_wwpn_for_each_host_fc_port.html"
-    - title: Configuring DM-Multipath
-      url: "/fc-config-rhel/task_configuring_dm_multipath.html"
-    - title: Creating an aggregate
-      url: "/fc-config-rhel/task_creating_aggregate.html"
-    - title: Deciding where to provision the volume
-      url: "/fc-config-rhel/task_deciding_where_to_provision_volume.html"
+    - title: Overview
+      url: "/fc-config-rhel/concept_fc_config_rhel_overview.html"
+    - title: FC configuration and provisioning workflow
+      url: "/fc-config-rhel/concept_fc_configuration_workflow.html"
       entries:
-      - title: Verifying that the FC service is running on an existing SVM
-        url: "/fc-config-rhel/task_verifying_that_fc_service_is_running_on_existing_svm.html"
-      - title: Creating a LUN
-        url: "/fc-config-rhel/task_creating_lun_its_containing_volume.html"
-      - title: Configuring FC on an existing SVM
-        url: "/fc-config-rhel/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
-      - title: Creating a new SVM
-        url: "/fc-config-rhel/task_creating_svm.html"
-    - title: Zoning the FC switches by the host and LIF WWPNs
-      url: "/fc-config-rhel/task_zoning_fc_switches_by_host_lif_wwpns.html"
-    - title: Discovering new SCSI devices (LUNs) and multipath devices
-      url: "/fc-config-rhel/task_discovering_new_scsi_devices_dm_multipath_devices.html"
-    - title: Configuring logical volumes on multipath devices and creating a file system
-      url: "/fc-config-rhel/task_configuring_logical_volumes_on_multipath_devices_creating_file_system.html"
-    - title: Verifying that the host can write to and read from a multipath device
-      url: "/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
-  - title: Where to find additional information
-    url: "/fc-config-rhel/reference_where_to_find_additional_information.html"
-- title: FC configuration for Windows
-  entries:
-  - title: Overview
-    url: "/fc-config-windows/concept_fc_config_windows_overview.html"
-  - title: FC configuration workflow
-    url: "/fc-config-windows/concept_fc_configuration_workflow.html"
+      - title: Verifying that the FC configuration is supported
+        url: "/fc-config-rhel/task_verifying_that_iscsi_fc_configuration_is_supported.html"
+      - title: Completing the FC configuration worksheet
+        url: "/fc-config-rhel/reference_completing_iscsi_configuration_worksheet.html"
+      - title: Installing the HBA utility from the HBA vendor
+        url: "/fc-config-rhel/task_installing_hba_utility_from_hba_vendor.html"
+      - title: Updating the HBA driver, firmware, and BIOS
+        url: "/fc-config-rhel/task_updating_hba_driver_firmware_bios.html"
+      - title: Installing Linux Unified Host Utilities and optimizing I/O performance
+        url: "/fc-config-rhel/task_installing_linux_unified_host_utilities_optimizing_i_o_performance.html"
+      - title: Recording the WWPN for each host FC port
+        url: "/fc-config-rhel/task_record_wwpn_for_each_host_fc_port.html"
+      - title: Configuring DM-Multipath
+        url: "/fc-config-rhel/task_configuring_dm_multipath.html"
+      - title: Creating an aggregate
+        url: "/fc-config-rhel/task_creating_aggregate.html"
+      - title: Deciding where to provision the volume
+        url: "/fc-config-rhel/task_deciding_where_to_provision_volume.html"
+        entries:
+        - title: Verifying that the FC service is running on an existing SVM
+          url: "/fc-config-rhel/task_verifying_that_fc_service_is_running_on_existing_svm.html"
+        - title: Creating a LUN
+          url: "/fc-config-rhel/task_creating_lun_its_containing_volume.html"
+        - title: Configuring FC on an existing SVM
+          url: "/fc-config-rhel/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
+        - title: Creating a new SVM
+          url: "/fc-config-rhel/task_creating_svm.html"
+      - title: Zoning the FC switches by the host and LIF WWPNs
+        url: "/fc-config-rhel/task_zoning_fc_switches_by_host_lif_wwpns.html"
+      - title: Discovering new SCSI devices (LUNs) and multipath devices
+        url: "/fc-config-rhel/task_discovering_new_scsi_devices_dm_multipath_devices.html"
+      - title: Configuring logical volumes on multipath devices and creating a file system
+        url: "/fc-config-rhel/task_configuring_logical_volumes_on_multipath_devices_creating_file_system.html"
+      - title: Verifying that the host can write to and read from a multipath device
+        url: "/fc-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
+    - title: Where to find additional information
+      url: "/fc-config-rhel/reference_where_to_find_additional_information.html"
+  - title: FC configuration for Windows
     entries:
-    - title: Verifying that the FC configuration is supported
-      url: "/fc-config-windows/task_verifying_that_iscsi_fc_configuration_is_supported.html"
-    - title: Completing the FC configuration worksheet
-      url: "/fc-config-windows/reference_completing_iscsi_configuration_worksheet.html"
-    - title: Installing the HBA utility from the HBA vendor
-      url: "/fc-config-windows/task_installing_hba_utility_from_hba_vendor.html"
-    - title: Updating the HBA driver, firmware, and BIOS
-      url: "/fc-config-windows/task_updating_hba_driver_firmware_bios.html"
-    - title: Recording the WWPN for each host FC port
-      url: "/fc-config-windows/task_record_wwpn_for_each_host_fc_port.html"
-    - title: Installing Windows Unified Host Utilities
-      url: "/fc-config-windows/task_installing_windows_unified_host_utilities.html"
-    - title: Creating an aggregate
-      url: "/fc-config-windows/task_creating_aggregate.html"
-    - title: Deciding where to provision the volume
-      url: "/fc-config-windows/task_deciding_where_to_provision_volume.html"
+    - title: Overview
+      url: "/fc-config-windows/concept_fc_config_windows_overview.html"
+    - title: FC configuration workflow
+      url: "/fc-config-windows/concept_fc_configuration_workflow.html"
       entries:
-      - title: Verifying that the FC service is running on an existing SVM
-        url: "/fc-config-windows/task_verifying_that_fc_service_is_running_on_existing_svm.html"
-      - title: Creating a LUN
-        url: "/fc-config-windows/task_creating_lun_its_containing_volume.html"
-      - title: Configuring FC on an existing SVM
-        url: "/fc-config-windows/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
-      - title: Creating a new SVM
-        url: "/fc-config-windows/task_creating_svm.html"
-    - title: Zoning the FC switches by the host and LIF WWPNs
-      url: "/fc-config-windows/task_zoning_fc_switches_by_host_lif_wwpns.html"
-    - title: Discovering new disks
-      url: "/fc-config-windows/task_discovering_new_disks.html"
-    - title: Initializing and formatting the LUN
-      url: "/fc-config-windows/task_initializing_formatting_lun.html"
-    - title: Verifying that the host can write to and read from the LUN
-      url: "/fc-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
-  - title: Where to find additional information
-    url: "/fc-config-windows/reference_where_to_find_additional_information.html"
-- title: iSCSI configuration for ESXi using VSC
-  entries:
-  - title: Overview
-    url: "/iscsi-config-esxi/concept_iscsi_config_esxi_overview.html"
-  - title: iSCSI configuration workflow
-    url: "/iscsi-config-esxi/concept_iscsi_configuration_provisioning_workflow.html"
+      - title: Verifying that the FC configuration is supported
+        url: "/fc-config-windows/task_verifying_that_iscsi_fc_configuration_is_supported.html"
+      - title: Completing the FC configuration worksheet
+        url: "/fc-config-windows/reference_completing_iscsi_configuration_worksheet.html"
+      - title: Installing the HBA utility from the HBA vendor
+        url: "/fc-config-windows/task_installing_hba_utility_from_hba_vendor.html"
+      - title: Updating the HBA driver, firmware, and BIOS
+        url: "/fc-config-windows/task_updating_hba_driver_firmware_bios.html"
+      - title: Recording the WWPN for each host FC port
+        url: "/fc-config-windows/task_record_wwpn_for_each_host_fc_port.html"
+      - title: Installing Windows Unified Host Utilities
+        url: "/fc-config-windows/task_installing_windows_unified_host_utilities.html"
+      - title: Creating an aggregate
+        url: "/fc-config-windows/task_creating_aggregate.html"
+      - title: Deciding where to provision the volume
+        url: "/fc-config-windows/task_deciding_where_to_provision_volume.html"
+        entries:
+        - title: Verifying that the FC service is running on an existing SVM
+          url: "/fc-config-windows/task_verifying_that_fc_service_is_running_on_existing_svm.html"
+        - title: Creating a LUN
+          url: "/fc-config-windows/task_creating_lun_its_containing_volume.html"
+        - title: Configuring FC on an existing SVM
+          url: "/fc-config-windows/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
+        - title: Creating a new SVM
+          url: "/fc-config-windows/task_creating_svm.html"
+      - title: Zoning the FC switches by the host and LIF WWPNs
+        url: "/fc-config-windows/task_zoning_fc_switches_by_host_lif_wwpns.html"
+      - title: Discovering new disks
+        url: "/fc-config-windows/task_discovering_new_disks.html"
+      - title: Initializing and formatting the LUN
+        url: "/fc-config-windows/task_initializing_formatting_lun.html"
+      - title: Verifying that the host can write to and read from the LUN
+        url: "/fc-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
+    - title: Where to find additional information
+      url: "/fc-config-windows/reference_where_to_find_additional_information.html"
+  - title: iSCSI configuration for ESXi using VSC
     entries:
-    - title: Verifying that the iSCSI configuration is supported
-      url: "/iscsi-config-esxi/task_verifying_that_iscsi_fc_configuration_is_supported.html"
-    - title: Completing the iSCSI configuration worksheet
-      url: "/iscsi-config-esxi/reference_completing_iscsi_configuration_worksheet.html"
-    - title: Installing Virtual Storage Console
-      url: "/iscsi-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html"
-    - title: Adding the storage cluster or SVM to VSC for VMware vSphere
-      url: "/iscsi-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html"
-    - title: Configuring your network for best performance
-      url: "/iscsi-config-esxi/task_configuring_your_network_for_best_performance.html"
-    - title: Configuring host iSCSI ports and vSwitches
-      url: "/iscsi-config-esxi/task_configuring_host_iscsi_ports_vswitches.html"
-    - title: Enabling the iSCSI software adapter
-      url: "/iscsi-config-esxi/task_enabling_iscsi_software_adapter.html"
-    - title: Binding iSCSI ports to the iSCSI software adapter
-      url: "/iscsi-config-esxi/task_binding_iscsi_ports_to_iscsi_software_adapter.html"
-    - title: Configuring the ESXi host best practice settings
-      url: "/iscsi-config-esxi/task_configuring_esxi_host_best_practice_settings.html"
-    - title: Creating an aggregate
-      url: "/iscsi-config-esxi/task_creating_aggregate.html"
-    - title: Deciding where to provision the volume
-      url: "/iscsi-config-esxi/task_deciding_where_to_provision_volume.html"
+    - title: Overview
+      url: "/iscsi-config-esxi/concept_iscsi_config_esxi_overview.html"
+    - title: iSCSI configuration workflow
+      url: "/iscsi-config-esxi/concept_iscsi_configuration_provisioning_workflow.html"
       entries:
-      - title: Verifying that the iSCSI service is running on an existing SVM
-        url: "/iscsi-config-esxi/task_verifying_iscsi_is_running_on_existing_vserver.html"
-      - title: Configuring iSCSI on an existing SVM
-        url: "/iscsi-config-esxi/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
-      - title: Creating a new SVM
-        url: "/iscsi-config-esxi/task_creating_svm.html"
-    - title: Testing iSCSI paths from the host to the storage cluster
-      url: "/iscsi-config-esxi/task_testing_iscsi_paths.html"
-    - title: Provisioning a datastore and creating its containing LUN and volume
-      url: "/iscsi-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
-    - title: Verifying that the host can write to and read from the LUN
-      url: "/iscsi-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
-  - title: Where to find additional information
-    url: "/iscsi-config-esxi/reference_where_to_find_additional_information.html"
-- title: iSCSI configuration for Red Hat Enterprise Linux
-  entries:
-  - title: Overview
-    url: "/iscsi-config-rhel/concept_iscsi_config_rhel_overview.html"
-  - title: iSCSI configuration and provisioning workflow
-    url: "/iscsi-config-rhel/concept_iscsi_configuration_provisioning_workflow.html"
+      - title: Verifying that the iSCSI configuration is supported
+        url: "/iscsi-config-esxi/task_verifying_that_iscsi_fc_configuration_is_supported.html"
+      - title: Completing the iSCSI configuration worksheet
+        url: "/iscsi-config-esxi/reference_completing_iscsi_configuration_worksheet.html"
+      - title: Installing Virtual Storage Console
+        url: "/iscsi-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html"
+      - title: Adding the storage cluster or SVM to VSC for VMware vSphere
+        url: "/iscsi-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html"
+      - title: Configuring your network for best performance
+        url: "/iscsi-config-esxi/task_configuring_your_network_for_best_performance.html"
+      - title: Configuring host iSCSI ports and vSwitches
+        url: "/iscsi-config-esxi/task_configuring_host_iscsi_ports_vswitches.html"
+      - title: Enabling the iSCSI software adapter
+        url: "/iscsi-config-esxi/task_enabling_iscsi_software_adapter.html"
+      - title: Binding iSCSI ports to the iSCSI software adapter
+        url: "/iscsi-config-esxi/task_binding_iscsi_ports_to_iscsi_software_adapter.html"
+      - title: Configuring the ESXi host best practice settings
+        url: "/iscsi-config-esxi/task_configuring_esxi_host_best_practice_settings.html"
+      - title: Creating an aggregate
+        url: "/iscsi-config-esxi/task_creating_aggregate.html"
+      - title: Deciding where to provision the volume
+        url: "/iscsi-config-esxi/task_deciding_where_to_provision_volume.html"
+        entries:
+        - title: Verifying that the iSCSI service is running on an existing SVM
+          url: "/iscsi-config-esxi/task_verifying_iscsi_is_running_on_existing_vserver.html"
+        - title: Configuring iSCSI on an existing SVM
+          url: "/iscsi-config-esxi/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
+        - title: Creating a new SVM
+          url: "/iscsi-config-esxi/task_creating_svm.html"
+      - title: Testing iSCSI paths from the host to the storage cluster
+        url: "/iscsi-config-esxi/task_testing_iscsi_paths.html"
+      - title: Provisioning a datastore and creating its containing LUN and volume
+        url: "/iscsi-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
+      - title: Verifying that the host can write to and read from the LUN
+        url: "/iscsi-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
+    - title: Where to find additional information
+      url: "/iscsi-config-esxi/reference_where_to_find_additional_information.html"
+  - title: iSCSI configuration for Red Hat Enterprise Linux
     entries:
-    - title: Verifying that the iSCSI configuration is supported
-      url: "/iscsi-config-rhel/task_verifying_that_iscsi_fc_configuration_is_supported.html"
-    - title: Completing the iSCSI configuration worksheet
-      url: "/iscsi-config-rhel/reference_completing_iscsi_configuration_worksheet.html"
-    - title: Installing Linux Unified Host Utilities and optimizing I/O performance
-      url: "/iscsi-config-rhel/task_installing_linux_unified_host_utilities_optimizing_i_o_performance.html"
-    - title: Recording the iSCSI node name
-      url: "/iscsi-config-rhel/task_recording_iscsi_node_name.html"
-    - title: Setting the iSCSI replacement timeout value
-      url: "/iscsi-config-rhel/task_setting_iscsi_replacement_timeout_value.html"
-    - title: Starting the iSCSI service
-      url: "/iscsi-config-rhel/task_starting_iscsi_service.html"
-    - title: Configuring DM-Multipath
-      url: "/iscsi-config-rhel/task_configuring_dm_multipath.html"
-    - title: Creating an aggregate
-      url: "/iscsi-config-rhel/task_creating_aggregate.html"
-    - title: Deciding where to provision the volume
-      url: "/iscsi-config-rhel/task_deciding_where_to_provision_volume.html"
+    - title: Overview
+      url: "/iscsi-config-rhel/concept_iscsi_config_rhel_overview.html"
+    - title: iSCSI configuration and provisioning workflow
+      url: "/iscsi-config-rhel/concept_iscsi_configuration_provisioning_workflow.html"
       entries:
-      - title: Verifying that the iSCSI service is running on an existing SVM
-        url: "/iscsi-config-rhel/task_verifying_iscsi_is_running_on_existing_vserver.html"
-      - title: Creating a LUN
-        url: "/iscsi-config-rhel/task_creating_lun_its_containing_volume.html"
-      - title: Configuring iSCSI on an existing SVM
-        url: "/iscsi-config-rhel/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
-      - title: Creating a new SVM
-        url: "/iscsi-config-rhel/task_creating_svm.html"
-    - title: Starting the iSCSI sessions with the target
-      url: "/iscsi-config-rhel/task_starting_iscsi_sessions_with_target.html"
-    - title: Discovering new SCSI devices (LUNs) and multipath devices
-      url: "/iscsi-config-rhel/task_discovering_new_scsi_devices_dm_multipath_devices.html"
-    - title: Configuring logical volumes on multipath devices and creating a file system
-      url: "/iscsi-config-rhel/task_configuring_logical_volumes_on_multipath_devices_creating_file_system.html"
-    - title: Verifying that the host can write to and read from a multipath device
-      url: "/iscsi-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
-  - title: Where to find additional information
-    url: "/iscsi-config-rhel/reference_where_to_find_additional_information.html"
-- title: iSCSI configuration for Windowss
-  entries:
-  - title: Overview
-    url: "/iscsi-config-windows/concept_iscsi_config_windows_overview.html"
-  - title: iSCSI configuration and provisioning workflow
-    url: "/iscsi-config-windows/concept_iscsi_configuration_workflow.html"
+      - title: Verifying that the iSCSI configuration is supported
+        url: "/iscsi-config-rhel/task_verifying_that_iscsi_fc_configuration_is_supported.html"
+      - title: Completing the iSCSI configuration worksheet
+        url: "/iscsi-config-rhel/reference_completing_iscsi_configuration_worksheet.html"
+      - title: Installing Linux Unified Host Utilities and optimizing I/O performance
+        url: "/iscsi-config-rhel/task_installing_linux_unified_host_utilities_optimizing_i_o_performance.html"
+      - title: Recording the iSCSI node name
+        url: "/iscsi-config-rhel/task_recording_iscsi_node_name.html"
+      - title: Setting the iSCSI replacement timeout value
+        url: "/iscsi-config-rhel/task_setting_iscsi_replacement_timeout_value.html"
+      - title: Starting the iSCSI service
+        url: "/iscsi-config-rhel/task_starting_iscsi_service.html"
+      - title: Configuring DM-Multipath
+        url: "/iscsi-config-rhel/task_configuring_dm_multipath.html"
+      - title: Creating an aggregate
+        url: "/iscsi-config-rhel/task_creating_aggregate.html"
+      - title: Deciding where to provision the volume
+        url: "/iscsi-config-rhel/task_deciding_where_to_provision_volume.html"
+        entries:
+        - title: Verifying that the iSCSI service is running on an existing SVM
+          url: "/iscsi-config-rhel/task_verifying_iscsi_is_running_on_existing_vserver.html"
+        - title: Creating a LUN
+          url: "/iscsi-config-rhel/task_creating_lun_its_containing_volume.html"
+        - title: Configuring iSCSI on an existing SVM
+          url: "/iscsi-config-rhel/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
+        - title: Creating a new SVM
+          url: "/iscsi-config-rhel/task_creating_svm.html"
+      - title: Starting the iSCSI sessions with the target
+        url: "/iscsi-config-rhel/task_starting_iscsi_sessions_with_target.html"
+      - title: Discovering new SCSI devices (LUNs) and multipath devices
+        url: "/iscsi-config-rhel/task_discovering_new_scsi_devices_dm_multipath_devices.html"
+      - title: Configuring logical volumes on multipath devices and creating a file system
+        url: "/iscsi-config-rhel/task_configuring_logical_volumes_on_multipath_devices_creating_file_system.html"
+      - title: Verifying that the host can write to and read from a multipath device
+        url: "/iscsi-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html"
+    - title: Where to find additional information
+      url: "/iscsi-config-rhel/reference_where_to_find_additional_information.html"
+  - title: iSCSI configuration for Windowss
     entries:
-    - title: Verifying that the iSCSI configuration is supported
-      url: "/iscsi-config-windows/task_verifying_that_iscsi_fc_configuration_is_supported.html"
-    - title: Completing the iSCSI configuration worksheet
-      url: "/iscsi-config-windows/reference_completing_iscsi_configuration_worksheet.html"
-    - title: Recording the iSCSI initiator node name
-      url: "/iscsi-config-windows/task_recording_iscsi_node_name.html"
-    - title: Installing Windows Unified Host Utilities
-      url: "/iscsi-config-windows/task_installing_windows_unified_host_utilities.html"
-    - title: Creating an aggregate
-      url: "/iscsi-config-windows/task_creating_aggregate.html"
-    - title: Deciding where to provision the volume
-      url: "/iscsi-config-windows/task_deciding_where_to_provision_volume.html"
+    - title: Overview
+      url: "/iscsi-config-windows/concept_iscsi_config_windows_overview.html"
+    - title: iSCSI configuration and provisioning workflow
+      url: "/iscsi-config-windows/concept_iscsi_configuration_workflow.html"
       entries:
-      - title: Verifying that the iSCSI service is running on an existing SVM
-        url: "/iscsi-config-windows/task_verifying_iscsi_is_running_on_existing_vserver.html"
-      - title: Creating a LUN
-        url: "/iscsi-config-windows/task_creating_lun_its_containing_volume.html"
-      - title: Configuring iSCSI on an existing SVM
-        url: "/iscsi-config-windows/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
-      - title: Creating a new SVM
-        url: "/iscsi-config-windows/task_creating_svm.html"
-    - title: Starting iSCSI sessions with the target
-      url: "/iscsi-config-windows/task_starting_iscsi_sessions_with_target.html"
-    - title: Discovering new disks
-      url: "/iscsi-config-windows/task_discovering_new_disks.html"
-    - title: Initializing and formatting the LUN
-      url: "/iscsi-config-windows/task_initializing_formatting_lun.html"
-    - title: Verifying that the host can write to and read from the LUN
-      url: "/iscsi-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
-  - title: Where to find additional information
-    url: "/iscsi-config-windows/reference_where_to_find_additional_information.html"
+      - title: Verifying that the iSCSI configuration is supported
+        url: "/iscsi-config-windows/task_verifying_that_iscsi_fc_configuration_is_supported.html"
+      - title: Completing the iSCSI configuration worksheet
+        url: "/iscsi-config-windows/reference_completing_iscsi_configuration_worksheet.html"
+      - title: Recording the iSCSI initiator node name
+        url: "/iscsi-config-windows/task_recording_iscsi_node_name.html"
+      - title: Installing Windows Unified Host Utilities
+        url: "/iscsi-config-windows/task_installing_windows_unified_host_utilities.html"
+      - title: Creating an aggregate
+        url: "/iscsi-config-windows/task_creating_aggregate.html"
+      - title: Deciding where to provision the volume
+        url: "/iscsi-config-windows/task_deciding_where_to_provision_volume.html"
+        entries:
+        - title: Verifying that the iSCSI service is running on an existing SVM
+          url: "/iscsi-config-windows/task_verifying_iscsi_is_running_on_existing_vserver.html"
+        - title: Creating a LUN
+          url: "/iscsi-config-windows/task_creating_lun_its_containing_volume.html"
+        - title: Configuring iSCSI on an existing SVM
+          url: "/iscsi-config-windows/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
+        - title: Creating a new SVM
+          url: "/iscsi-config-windows/task_creating_svm.html"
+      - title: Starting iSCSI sessions with the target
+        url: "/iscsi-config-windows/task_starting_iscsi_sessions_with_target.html"
+      - title: Discovering new disks
+        url: "/iscsi-config-windows/task_discovering_new_disks.html"
+      - title: Initializing and formatting the LUN
+        url: "/iscsi-config-windows/task_initializing_formatting_lun.html"
+      - title: Verifying that the host can write to and read from the LUN
+        url: "/iscsi-config-windows/task_verifying_that_host_can_write_to_read_from_lun.html"
+    - title: Where to find additional information
+      url: "/iscsi-config-windows/reference_where_to_find_additional_information.html"
 - title: Data protection and disaster recovery
   entries:
   - title: Cluster and SVM peering configuration
