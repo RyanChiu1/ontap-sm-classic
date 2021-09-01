@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_cluster_peer_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete a cluster peer relationship if the relationship is no longer required. You must delete the cluster peering relationship from each of the clusters in the peer relationship.'
+keywords: delete, cluster, peer, relationships, system, manager, online, help
+summary: "You can use System Manager to delete a cluster peer relationship if the relationship is no longer required. You must delete the cluster peering relationship from each of the clusters in the peer relationship."
 ---
 = Deleting cluster peer relationships
 :icons: font

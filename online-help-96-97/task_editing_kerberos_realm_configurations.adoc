@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_kerberos_realm_configurations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit a Kerberos realm configuration at the storage virtual machine \(SVM\) level.'
+keywords: edit, kerboros, realm, configuration, system, manager, online, help
+summary: "You can use System Manager to edit a Kerberos realm configuration at the storage virtual machine (SVM) level."
 ---
 = Editing a Kerberos realm configuration
 :icons: font

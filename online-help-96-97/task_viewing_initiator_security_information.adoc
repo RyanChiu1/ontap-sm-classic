@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_viewing_initiator_security_information.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to view the default authentication information and all the initiator-specific authentication information.'
+keywords: view, initiator, security, information, system, manager, online, help
+summary: "You can use System Manager to view the default authentication information and all the initiator-specific authentication information."
 ---
 = Viewing initiator security information
 :icons: font

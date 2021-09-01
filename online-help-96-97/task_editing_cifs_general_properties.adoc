@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_cifs_general_properties.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify the general properties for CIFS such as the default UNIX user and default Windows user by using System Manager. You can also enable or disable SMB signing for the CIFS server.'
+keywords: online, help, edit, general, properties, cifs, system, manager
+summary: "You can modify the general properties for CIFS such as the default UNIX user and default Windows user by using System Manager. You can also enable or disable SMB signing for the CIFS server."
 ---
 = Editing the general properties for CIFS
 :icons: font

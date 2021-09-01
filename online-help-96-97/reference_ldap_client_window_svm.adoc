@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_ldap_client_window_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the LDAP Client window to create LDAP clients for user authentication, file access authorization, user search, and mapping services between NFS and CIFS at the storage virtual machine \(SVM\) level.'
+keywords: ldap, client, window, command, button, online, help, nfs, cifs, list
+summary: "You can use the LDAP Client window to create LDAP clients for user authentication, file access authorization, user search, and mapping services between NFS and CIFS at the storage virtual machine (SVM) level."
 ---
 = LDAP Client window
 :icons: font

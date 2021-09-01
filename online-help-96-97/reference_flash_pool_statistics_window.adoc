@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_flash_pool_statistics_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view the real-time SSD tier read and write workloads for a selected Flash Pool aggregate.'
+keywords: online, help, flash, pool, aggregate, statistics, window, ssd, cache, read, write
+summary: "You can view the real-time SSD tier read and write workloads for a selected Flash Pool aggregate."
 ---
 = Flash Pool aggregate Statistics window
 :icons: font

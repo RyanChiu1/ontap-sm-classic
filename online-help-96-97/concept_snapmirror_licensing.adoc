@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_snapmirror_licensing.html
 sidebar: sidebar
-keywords: 
-summary: 'With the introduction of ONTAP 9.3, licensing has been simplified for replicating between ONTAP instances. In ONTAP 9 releases, the SnapMirror license supports both vault and mirror relationships. Users can now purchase a SnapMirror license to support ONTAP replication for both backup and disaster recovery use cases.'
+keywords: online, help, snapmirror, licensing, synchronous, clous, data, protection, bundle, dpo, installation
+summary: "With the introduction of ONTAP 9.3, licensing has been simplified for replicating between ONTAP instances. In ONTAP 9 releases, the SnapMirror license supports both vault and mirror relationships. Users can now purchase a SnapMirror license to support ONTAP replication for both backup and disaster recovery use cases."
 ---
 = SnapMirror licensing
 :icons: font
@@ -61,6 +61,7 @@ The standalone DPO license was supported on both FAS and AFF platforms and could
 
 Additional ONTAP features were delivered with the DPO across multiple ONTAP releases.
 
+[options="header"]
 |===
 | Feature| 9.3| 9.4| 9.5| 9.6| 9.7a|
 Max vols/node
@@ -117,6 +118,7 @@ Yes
 * Equality: SnapMirror replication requests have equal priority to I/O for production apps.
 * SnapMirror: all SnapMirror I/O requests have higher priority that I/O for production apps.
 
+[options="header"]
 |===
 |  | 9.3--9.5 Without DPO| 9.3--9.5 With DPO| 9.6 Without DPO| 9.6 With DPO| 9.7 Without DPO| 9.7 With DPO
 a|

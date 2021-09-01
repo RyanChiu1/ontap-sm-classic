@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_default_security_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Edit Default Security dialog box in System Manager to edit the default security settings for the iSCSI initiators that are connected to the storage system.'
+keywords: edit, default, security, settings, dialog, box, system, manager, iscsi, online, help
+summary: "You can use the Edit Default Security dialog box in System Manager to edit the default security settings for the iSCSI initiators that are connected to the storage system."
 ---
 = Editing default security settings
 :icons: font

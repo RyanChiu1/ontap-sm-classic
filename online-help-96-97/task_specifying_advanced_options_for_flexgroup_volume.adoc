@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_specifying_advanced_options_for_flexgroup_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'When you create a FlexGroup volume, you can specify options you want to associate with the FlexGroup volume.'
+keywords: flexclone, volume, specify, advanced, create, options, online, help
+summary: "When you create a FlexGroup volume, you can specify options you want to associate with the FlexGroup volume."
 ---
 = Specifying advanced options for a FlexGroup volume
 :icons: font

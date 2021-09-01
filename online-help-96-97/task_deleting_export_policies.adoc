@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_export_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete export policies that are no longer required.'
+keywords: delete, export, policies, system, manager, online, help
+summary: "You can use System Manager to delete export policies that are no longer required."
 ---
 = Deleting export policies
 :icons: font

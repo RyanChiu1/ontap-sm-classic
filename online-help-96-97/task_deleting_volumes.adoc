@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete a FlexVol volume when you no longer require the data that a volume contains or if you have copied the data that a volume contains to another location. When you delete a volume, all the data in the volume is destroyed, and you cannot recover that data.'
+keywords: online, help, delete, volumes, system, manager, flexvol, volume
+summary: "You can use System Manager to delete a FlexVol volume when you no longer require the data that a volume contains or if you have copied the data that a volume contains to another location. When you delete a volume, all the data in the volume is destroyed, and you cannot recover that data."
 ---
 = Deleting volumes
 :icons: font

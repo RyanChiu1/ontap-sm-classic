@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_nfs_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit the NFS settings such as enabling or disabling NFSv3, NFSv4, and NFSv4.1, enabling or disabling read and write delegations for NFSv4 clients, and enabling NFSv4 ACLs. You can also edit the default Windows user.'
+keywords: edit, nfs, settings, online, help, system, management
+summary: "You can use System Manager to edit the NFS settings such as enabling or disabling NFSv3, NFSv4, and NFSv4.1, enabling or disabling read and write delegations for NFSv4 clients, and enabling NFSv4 ACLs. You can also edit the default Windows user."
 ---
 = Editing NFS settings
 :icons: font

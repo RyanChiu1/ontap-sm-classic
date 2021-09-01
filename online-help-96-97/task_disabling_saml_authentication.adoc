@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_disabling_saml_authentication.html
 sidebar: sidebar
-keywords: 
-summary: 'You can disable Security Assertion Markup Language \(SAML\) authentication if you want to disable remote access to System Manager, or to edit the SAML configuration.'
+keywords: disable, saml, authentication, security, assertion, markup, language, online, help, system, manager
+summary: "You can disable Security Assertion Markup Language (SAML) authentication if you want to disable remote access to System Manager, or to edit the SAML configuration."
 ---
 = Disabling SAML authentication
 :icons: font

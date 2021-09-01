@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_snmp_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The SNMP window enables you to view the current SNMP settings for your system. You can also change your system’s SNMP settings, enable SNMP protocols, and add trap hosts.'
+keywords: snmp, window, command, button, protocol, trap, hosts, settings, online, help
+summary: "The SNMP window enables you to view the current SNMP settings for your system. You can also change your system’s SNMP settings, enable SNMP protocols, and add trap hosts."
 ---
 = SNMP window
 :icons: font

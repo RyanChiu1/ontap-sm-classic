@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_licenses.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'If your storage system software was installed at the factory, System Manager automatically adds the software to its list of licenses. If the software was not installed at the factory or if you want to add additional software licenses, you can add the software license by using System Manager.'
+keywords: system, manager, add, license, storage, software, online, help
+summary: "If your storage system software was installed at the factory, System Manager automatically adds the software to its list of licenses. If the software was not installed at the factory or if you want to add additional software licenses, you can add the software license by using System Manager."
 ---
 = Adding licenses
 :icons: font
@@ -32,6 +32,7 @@ The capacity-based licenses are of "`json`" type.
 . Click *Add*.
 . In the *Add License* dialog box, perform the appropriate steps:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|

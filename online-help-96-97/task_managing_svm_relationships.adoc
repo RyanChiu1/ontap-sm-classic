@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_managing_svm_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to perform various operations on SVM relationships such as initializing SVM relationships, updating SVM relationships, activating the destination SVM, resynchronizing data from the source SVM, resynchronizing data from the destination SVM, and reactivating the source SVM.'
+keywords: system, manager, manage, svm, online, help, relationship
+summary: "You can use System Manager to perform various operations on SVM relationships such as initializing SVM relationships, updating SVM relationships, activating the destination SVM, resynchronizing data from the source SVM, resynchronizing data from the destination SVM, and reactivating the source SVM."
 ---
 = Managing SVM relationships
 :icons: font
@@ -29,6 +29,7 @@ You can use System Manager to perform various operations on SVM relationships su
 . Click *Protection* > *SVM Relationship*.
 . Select the SVM relationship, and then perform the appropriate action:
 +
+[options="header"]
 |===
 | If you want to...| Do the following...
 a|
@@ -96,5 +97,4 @@ The Reactivate Source SVM dialog box is displayed.
  .. Click *Initiate Reactivation* to initiate reactivation to the destination SVM.
  .. Click *Done*.
 
-+
 |===

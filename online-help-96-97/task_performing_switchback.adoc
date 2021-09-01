@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_performing_switchback.html
 sidebar: sidebar
-keywords: MetroCluster
-summary: 'Starting with System Manager 9.6, you can perform a switchback operation that restores control to the original MetroCluster site \(Site B\) after the system has completed a successful switchover operation.'
+keywords: metrocluster, perform, switchback, system, manager, online, help
+summary: "Starting with System Manager 9.6, you can perform a switchback operation that restores control to the original MetroCluster site (Site B) after the system has completed a successful switchover operation."
 ---
 = Performing a switchback
 :icons: font

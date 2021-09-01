@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_branchcache.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to configure BranchCache on a CIFS-enabled storage virtual machine \(SVM\) to enable the caching of content on computers that are local to the requesting clients.'
+keywords: cifs, svm, system, manager, online, help, branchcache, set, up
+summary: "You can use System Manager to configure BranchCache on a CIFS-enabled storage virtual machine (SVM) to enable the caching of content on computers that are local to the requesting clients."
 ---
 = Setting up BranchCache
 :icons: font

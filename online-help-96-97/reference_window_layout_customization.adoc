@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_window_layout_customization.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager enables you to customize the window layouts. By customizing the windows, you can control which data is viewable and how the data is displayed.'
+keywords: window, layout, customization, online, help, system, manager
+summary: "System Manager enables you to customize the window layouts. By customizing the windows, you can control which data is viewable and how the data is displayed."
 ---
 = Window layout customization
 :icons: font
@@ -40,10 +40,8 @@ You can use the search box to search for volumes, LUNs, qtrees, network interfac
 +
 [NOTE]
 ====
-+
-....
--   When you search for objects that contain one or more of the \{ \\ ? ^ \> \| characters, the results are displayed correctly, but they do not navigate to the correct row in the page.
--   You must not use the question mark \(?\) character to search for an object.
-....
-+
+
+- When you search for objects that contain one or more of the \{ \\ ? ^ \> \| characters, the results are displayed correctly, but they do not navigate to the correct row in the page.
+- You must not use the question mark \(?\) character to search for an object.
+
 ====

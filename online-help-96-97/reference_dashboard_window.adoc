@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_dashboard_window.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'The Dashboard window contains multiple panels that provide cumulative at-a-glance information about your system and its performance.'
+keywords: system, manager, dashboard, window, multiple, panel, online, help
+summary: "The Dashboard window contains multiple panels that provide cumulative at-a-glance information about your system and its performance."
 ---
 = Dashboard window
 :icons: font

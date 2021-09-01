@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_interface_group_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add ports to an interface group, to remove ports from an interface group, and to modify the usage mode and load distribution pattern of the ports in an interface group.'
+keywords: edit, interface, group, settings, system, manager, ports, ass, online, help
+summary: "You can use System Manager to add ports to an interface group, to remove ports from an interface group, and to modify the usage mode and load distribution pattern of the ports in an interface group."
 ---
 = Editing interface group settings
 :icons: font

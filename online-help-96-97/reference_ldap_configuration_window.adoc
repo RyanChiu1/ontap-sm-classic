@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_ldap_configuration_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the LDAP Configuration window to edit or delete active LDAP clients at the storage virtual machine \(SVM\) level.'
+keywords: ldap, configuration, window, command, button, area, online, help
+summary: "You can use the LDAP Configuration window to edit or delete active LDAP clients at the storage virtual machine (SVM) level."
 ---
 = LDAP Configuration window
 :icons: font

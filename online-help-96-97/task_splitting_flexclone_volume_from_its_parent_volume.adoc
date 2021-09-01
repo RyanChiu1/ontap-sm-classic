@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'If you want a FlexClone volume to have its own disk space instead of using the disk space of its parent volume, you can split the volume from its parent by using System Manager. After the split, the FlexClone volume becomes a normal FlexVol volume.'
+keywords: split, flexclone, volume, parent, online, help, disk, space
+summary: "If you want a FlexClone volume to have its own disk space instead of using the disk space of its parent volume, you can split the volume from its parent by using System Manager. After the split, the FlexClone volume becomes a normal FlexVol volume."
 ---
 = Splitting a FlexClone volume from its parent volume
 :icons: font

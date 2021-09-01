@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_luns_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the LUNs window to create and manage LUNs and to display information about LUNs. You can also add, edit, or delete initiator groups and initiator IDs.'
+keywords: online, help, lun, management, window, command, button, initiator, portset, group, online, help
+summary: "You can use the LUNs window to create and manage LUNs and to display information about LUNs. You can also add, edit, or delete initiator groups and initiator IDs."
 ---
 = LUNs window
 :icons: font
@@ -10,10 +10,6 @@ summary: 'You can use the LUNs window to create and manage LUNs and to display i
 
 [.lead]
 You can use the LUNs window to create and manage LUNs and to display information about LUNs. You can also add, edit, or delete initiator groups and initiator IDs.
-
-* <<SECTION_52AFD3F2C0574035A18D2A76C3A47AD4,LUN Management tab>>
-* <<SECTION_74FFE6C0EB6841CC8CB6522267170E91,Initiator Groups tab>>
-* <<SECTION_8E1A1D8DD76442E194A31A0D83420D6B,Portsets tab>>
 
 == LUN Management tab
 

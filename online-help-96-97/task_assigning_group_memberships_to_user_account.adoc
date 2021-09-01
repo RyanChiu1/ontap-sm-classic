@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_assigning_group_memberships_to_user_account.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to assign group membership to a user account if you want a user to have the privileges that are associated with a particular group.'
+keywords: online, help, assign, group, membership, user, account, online, help, system, manager
+summary: "You can use System Manager to assign group membership to a user account if you want a user to have the privileges that are associated with a particular group."
 ---
 = Assigning group memberships to a user account
 :icons: font

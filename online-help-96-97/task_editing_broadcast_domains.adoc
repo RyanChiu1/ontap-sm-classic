@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_broadcast_domains.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify the attributes of a broadcast domain such as the name, the MTU size, and the ports that are associated with the broadcast domain.'
+keywords: system, manager, edit, broadcast, domain, settings, online, help, port
+summary: "You can use System Manager to modify the attributes of a broadcast domain such as the name, the MTU size, and the ports that are associated with the broadcast domain."
 ---
 = Editing broadcast domain settings
 :icons: font

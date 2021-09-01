@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_updating_single_node_clusters.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to update single-node clusters.'
+keywords: update, singe, node, cluster, system, manager, online, help
+summary: "You can use System Manager to update single-node clusters."
 ---
 = Updating single-node clusters
 :icons: font
@@ -49,6 +49,7 @@ This feature is not available in MetroCluster configurations.
 . Click *Configuration* > *Cluster* > *Update*.
 . In the *Cluster Update* tab, add a new software image or select an available software image.
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|

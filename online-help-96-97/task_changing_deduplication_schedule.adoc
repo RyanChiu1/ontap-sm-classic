@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_changing_deduplication_schedule.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to change the deduplication schedule by choosing to run deduplication manually, automatically, or on a schedule that you specify.'
+keywords: change, deduplication, schedule, online, help, system, manager
+summary: "You can use System Manager to change the deduplication schedule by choosing to run deduplication manually, automatically, or on a schedule that you specify."
 ---
 = Changing the deduplication schedule
 :icons: font

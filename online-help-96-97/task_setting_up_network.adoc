@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_network.html
 sidebar: sidebar
-keywords: 
-summary: 'By setting up a network, you can manage your cluster, nodes, and Service Processors. You can also set up DNS and NTP details by using the network window.'
+keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help
+summary: "By setting up a network, you can manage your cluster, nodes, and Service Processors. You can also set up DNS and NTP details by using the network window."
 ---
 = Setting up a network
 :icons: font

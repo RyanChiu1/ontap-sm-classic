@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_array_luns_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The Array LUNs window enables you to assign ownership to your array LUNs and to add them to an aggregate.'
+keywords: array, lun, window, command, button, online, help
+summary: "The Array LUNs window enables you to assign ownership to your array LUNs and to add them to an aggregate."
 ---
 = Array LUNs window
 :icons: font
@@ -12,10 +12,6 @@ summary: 'The Array LUNs window enables you to assign ownership to your array LU
 The Array LUNs window enables you to assign ownership to your array LUNs and to add them to an aggregate.
 
 The Array LUNs link in the left navigation pane is displayed only if there are any spare array LUNs, or if the V_StorageAttach license is installed.
-
-* <<GUID-98901AC2-473A-42AF-A4C0-AE2CCEF87EB1,#GUID-98901AC2-473A-42AF-A4C0-AE2CCEF87EB1>>
-* <<GUID-F9609C8D-1BA8-4403-81FC-6848244E0E6C,#GUID-F9609C8D-1BA8-4403-81FC-6848244E0E6C>>
-* <<GUID-42C6F1D0-B6DD-4F29-B2C6-F5CFB28FF279,#GUID-42C6F1D0-B6DD-4F29-B2C6-F5CFB28FF279>>
 
 == Command buttons
 

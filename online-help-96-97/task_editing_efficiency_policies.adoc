@@ -1,15 +1,15 @@
 ---
 permalink: online-help-96-97/task_editing_efficiency_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Managerto modify the attributes of an efficiency policy such as the policy name, schedule name, and maximum runtime.'
+keywords: edit, efficiency, policy, system, manager, name, schedule, maximum, online, help
+summary: "You can use System Manager to modify the attributes of an efficiency policy such as the policy name, schedule name, and maximum runtime."
 ---
 = Editing efficiency policies
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Managerto modify the attributes of an efficiency policy such as the policy name, schedule name, and maximum runtime.
+You can use System Manager to modify the attributes of an efficiency policy such as the policy name, schedule name, and maximum runtime.
 
 == Steps
 

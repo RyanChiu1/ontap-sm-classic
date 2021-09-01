@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_updating_vault_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.'
+keywords: update, vault, relationship, online, help, system, manager
+summary: "You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration."
 ---
 = Updating a vault relationship
 :icons: font

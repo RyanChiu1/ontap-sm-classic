@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_manually_triggering_cutover_phase.html
 sidebar: sidebar
-keywords: 
-summary: 'For a volume move operation, you can use System Manager to manually trigger the cutover when the volume enters the cutover deferred phase. You can set the duration of the cutover and the cutover action to be performed by the system if the operation fails within that duration.'
+keywords: manually, trigger, cutover, volume, move, system, manager, online, help
+summary: "For a volume move operation, you can use System Manager to manually trigger the cutover when the volume enters the cutover deferred phase. You can set the duration of the cutover and the cutover action to be performed by the system if the operation fails within that duration."
 ---
 = Manually triggering the cutover for volume move
 :icons: font

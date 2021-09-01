@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_specifying_advanced_options_for_flexcache_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'Starting with System Manager 9.6, when you edit a FlexCache volume, you can specify the advanced options that you want to associate with the FlexCache volume.'
+keywords: flexcache, volume, online, help, advanced, options, specify
+summary: "Starting with System Manager 9.6, when you edit a FlexCache volume, you can specify the advanced options that you want to associate with the FlexCache volume."
 ---
 = Specifying advanced options for a FlexCache volume
 :icons: font

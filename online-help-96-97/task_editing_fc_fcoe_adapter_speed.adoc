@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_fc_fcoe_adapter_speed.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify the FC/FCoE and NVMe adapter speed settings by using the Edit FC/FCoE and NVMe Adapter Settings dialog box in System Manager.'
+keywords: edit, fc, fcoe, nvme, adapter, speed, settings, online, help, system, manager
+summary: "You can modify the FC/FCoE and NVMe adapter speed settings by using the Edit FC/FCoE and NVMe Adapter Settings dialog box in System Manager."
 ---
 = Editing the FC/FCoE and NVMe adapter speed settings
 :icons: font

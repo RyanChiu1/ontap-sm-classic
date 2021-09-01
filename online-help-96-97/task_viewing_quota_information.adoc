@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_viewing_quota_information.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Quotas window in System Manager to view quota details such as the volume and qtrees to which the quota is applied, the type of quota, the user or group to which the quota is applied, and the space and file usage.'
+keywords: view, quota, information, online, help, system, manager, qtree
+summary: "You can use the Quotas window in System Manager to view quota details such as the volume and qtrees to which the quota is applied, the type of quota, the user or group to which the quota is applied, and the space and file usage."
 ---
 = Viewing quota information
 :icons: font

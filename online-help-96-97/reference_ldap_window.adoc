@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_ldap_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the LDAP window to view LDAP clients for user authentication, file access authorization, and user search, and to map services between NFS and CIFS at the cluster level.'
+keywords: cifs, nfs, ldap, online, help, command, button, client, list
+summary: "You can use the LDAP window to view LDAP clients for user authentication, file access authorization, and user search, and to map services between NFS and CIFS at the cluster level."
 ---
 = LDAP window
 :icons: font

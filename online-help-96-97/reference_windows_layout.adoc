@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_windows_layout.html
 sidebar: sidebar
-keywords: 
-summary: 'Understanding the typical window layout helps you to navigate and use System Manager effectively.'
+keywords: system, manager, window, layout, online, help
+summary: "Understanding the typical window layout helps you to navigate and use System Manager effectively."
 ---
 = System Manager window layout
 :icons: font

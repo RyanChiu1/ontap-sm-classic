@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_reviewing_storage_recommendations.html
 sidebar: sidebar
-keywords: 
-summary: 'Using the Storage window, you can review the storage recommendations that are provided for creating aggregates.'
+keywords: review, storage, recommendation, window, online, help, create, aggregate
+summary: "Using the Storage window, you can review the storage recommendations that are provided for creating aggregates."
 ---
 = Reviewing storage recommendations
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_service_processor_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify Service Processor attributes, such as the IP address, the network mask or the prefix length, and the gateway address, by using System Manager. You can also allocate IP addresses to Service Processors that do not have any IP addresses assigned.'
+keywords: edit, service, processor, settings, , system, manager, online, help, ip, address
+summary: "You can modify Service Processor attributes, such as the IP address, the network mask or the prefix length, and the gateway address, by using System Manager. You can also allocate IP addresses to Service Processors that do not have any IP addresses assigned."
 ---
 = Editing Service Processor settings
 :icons: font

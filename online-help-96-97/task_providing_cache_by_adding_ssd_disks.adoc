@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_providing_cache_by_adding_ssd_disks.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add storage pools or dedicated SSDs to provision cache by converting an existing non-root HDD aggregate or a root aggregate that does not contain partitioned disks to a Flash Pool aggregate.'
+keywords: provision, cache, aggregate, add, ssd, system, manager, storage, pool
+summary: "You can use System Manager to add storage pools or dedicated SSDs to provision cache by converting an existing non-root HDD aggregate or a root aggregate that does not contain partitioned disks to a Flash Pool aggregate."
 ---
 = Provisioning cache to aggregates by adding SSDs
 :icons: font
@@ -40,6 +40,7 @@ Adding cache is not supported on FabricPool-enabled aggregates.
 
 . In the *Add Cache* dialog box, perform the appropriate action:
 +
+[options="header"]
 |===
 | If you selected the cache source as...| Do this...
 a|
@@ -58,7 +59,6 @@ Select the SSD size and the number of SSDs to include, and optionally modify the
  .. Click *Change*.
  .. In the Change RAID Configuration dialog box, specify the RAID type and RAID group size, and then click *Save*.
 
-+
 |===
 
 . Click *Add*.

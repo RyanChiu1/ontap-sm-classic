@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_data_protection_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify the volume name for a data protection \(DP\) volume. If the source volume does not have storage efficiency enabled, you might want to enable storage efficiency only on the destination volume.'
+keywords: edit, data, protection, system, manager, online, help, dp, volume
+summary: "You can use System Manager to modify the volume name for a data protection (DP) volume. If the source volume does not have storage efficiency enabled, you might want to enable storage efficiency only on the destination volume."
 ---
 = Editing data protection volumes
 :icons: font

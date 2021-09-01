@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_share_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify the settings of a share such as the symbolic link settings, share access permissions of users or groups, and the type of access to the share. You can also enable or disable continuous availability of a share over Hyper-V, and enable or disable access-based enumeration \(ABE\). Starting with System Manager 9.6, continuous availability is supported for FlexGroup volumes.'
+keywords: edit, share, settings, system, manager, online, help
+summary: "You can use System Manager to modify the settings of a share such as the symbolic link settings, share access permissions of users or groups, and the type of access to the share. You can also enable or disable continuous availability of a share over Hyper-V, and enable or disable access-based enumeration (ABE). Starting with System Manager 9.6, continuous availability is supported for FlexGroup volumes."
 ---
 = Editing share settings
 :icons: font

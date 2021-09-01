@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_network_interfaces.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify the network interface to enable management access for a data LIF.'
+keywords: edit, network, interface, settings, system, manager, online, help
+summary: "You can use System Manager to modify the network interface to enable management access for a data LIF."
 ---
 = Editing network interface settings
 :icons: font

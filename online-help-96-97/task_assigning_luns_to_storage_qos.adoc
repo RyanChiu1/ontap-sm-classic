@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_assigning_luns_to_storage_qos.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to limit the throughput of LUNs by assigning them to storage Quality of Service \(QoS\) policy groups. You can assign storage QoS for new LUNs or modify storage QoS details for LUNs that are already assigned to a policy group.'
+keywords: qos, quality, service, assign, lun, storage, system, manager, lun, online, help, policy, group
+summary: "You can use System Manager to limit the throughput of LUNs by assigning them to storage Quality of Service (QoS) policy groups. You can assign storage QoS for new LUNs or modify storage QoS details for LUNs that are already assigned to a policy group."
 ---
 = Assigning LUNs to storage QoS
 :icons: font
@@ -29,6 +29,7 @@ If some of the LUNs that you selected are already assigned to a policy group, th
 
 . Create a new storage QoS policy group or select an existing policy group to control the input/output (I/O) performance of the LUN:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -67,11 +68,8 @@ This value is case-sensitive.
   *** If you do not specify the maximum throughput value, the system automatically displays "`Unlimited`" as the value and this value is case-sensitive.
 +
 The unit that you specify does not affect the maximum throughput.
-
 +
 If the policy group is assigned to more than one object, the maximum throughput that you specify is shared among the objects.
-
-+
 |===
 
 . Click the link that specifies the number of LUNs to review the list of selected LUNs, and click *Discard* if you want to remove any LUNs from the list.

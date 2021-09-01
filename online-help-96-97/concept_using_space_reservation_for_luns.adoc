@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_using_space_reservation_for_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'Understanding how the space reservation setting \(combined with the volume guarantee\) affects how space is set aside for LUNs helps you to understand the ramifications of disabling space reservations, and why certain combinations of LUN and volume settings are not useful.'
+keywords: understand, space, reservation, lun, volume, guarantee, online, help
+summary: "Understanding how the space reservation setting (combined with the volume guarantee) affects how space is set aside for LUNs helps you to understand the ramifications of disabling space reservations, and why certain combinations of LUN and volume settings are not useful."
 ---
 = Understanding space reservations for LUNs
 :icons: font

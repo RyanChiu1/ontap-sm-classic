@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_vault_relationship_from_source_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a vault relationship from the source storage virtual machine \(SVM\), and to assign a vault policy to the vault relationship to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination.'
+keywords: system, manager, online, help, vault, policy, relationship, create, source
+summary: "You can use System Manager to create a vault relationship from the source storage virtual machine (SVM), and to assign a vault policy to the vault relationship to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination."
 ---
 = Creating a vault relationship from a source SVM
 :icons: font
@@ -56,6 +56,7 @@ The *Protect* option is available only for a read/write volume.
 
 . Select the *Replication* type:
 +
+[options="header"]
 |===
 | If you selected the replication type as...| Do this...
 a|
@@ -88,7 +89,6 @@ If the selected cluster is running a version of ONTAP software earlier than ONTA
 
  .. Modify the volume name suffix, if required.
 
-+
 |===
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*, update the protection policy and protection schedule, enable SnapLock properties on the destination volume, select a FabricPool-enabled aggregate, and then initialize the protection relationship.

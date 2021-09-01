@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_nfs_datastore_for_vmware.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Create NFS Datastore for VMware wizard in System Manager to create an NFS datastore for VMware. You can create a volume for the NFS datastore and specify the ESX servers that can access the NFS datastore.'
+keywords: create, nfs, datastore, vmware, online, help, system, manager
+summary: "You can use the Create NFS Datastore for VMware wizard in System Manager to create an NFS datastore for VMware. You can create a volume for the NFS datastore and specify the ESX servers that can access the NFS datastore."
 ---
 = Creating an NFS datastore for VMware
 :icons: font

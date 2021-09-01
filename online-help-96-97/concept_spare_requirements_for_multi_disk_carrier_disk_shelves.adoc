@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html
 sidebar: sidebar
-keywords: 
-summary: 'Maintaining the proper number of spares for disks in multi-disk carriers is critical for optimizing storage redundancy and minimizing the amount of time that ONTAP must spend copying disks to achieve an optimal disk layout.'
+keywords: online, help, spare, requirements, multi, disk, carrier, storage, redundancy
+summary: "Maintaining the proper number of spares for disks in multi-disk carriers is critical for optimizing storage redundancy and minimizing the amount of time that ONTAP must spend copying disks to achieve an optimal disk layout."
 ---
 = Spare requirements for multi-disk carrier disks
 :icons: font

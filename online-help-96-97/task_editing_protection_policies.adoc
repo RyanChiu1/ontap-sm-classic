@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_protection_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify a protection policy and to apply the policy to a data protection relationship.'
+keywords: edit, protection, policies, online, help, system, manager
+summary: "You can use System Manager to modify a protection policy and to apply the policy to a data protection relationship."
 ---
 = Editing protection policies
 :icons: font

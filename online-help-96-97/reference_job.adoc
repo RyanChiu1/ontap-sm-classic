@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_job.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Job window to manage job tasks such as displaying job information and monitoring the progress of a job.'
+keywords: job, window, command, button, list, online, help, manage
+summary: "You can use the Job window to manage job tasks such as displaying job information and monitoring the progress of a job."
 ---
 = Job window
 :icons: font

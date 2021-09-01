@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_initializing_mirror_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use System Manager to initialize a mirror relationship if you have not already initialized the relationship while creating it.'
+keywords: initialize, mirror, relationship, baseline, transfer, online, help
+summary: "When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use System Manager to initialize a mirror relationship if you have not already initialized the relationship while creating it."
 ---
 = Initializing mirror relationships
 :icons: font

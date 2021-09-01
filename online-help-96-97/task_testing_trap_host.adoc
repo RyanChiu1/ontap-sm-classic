@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_testing_trap_host.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to test whether you have configured the trap host settings correctly.'
+keywords: system, manager, test, trap, host, configuration, online, help
+summary: "You can use System Manager to test whether you have configured the trap host settings correctly."
 ---
 = Testing the trap host configuration
 :icons: font

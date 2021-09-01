@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_resuming_mirror_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can resume a quiesced mirror relationship. When you resume the relationship, normal data transfer to the mirror destination is resumed and all the mirror activities are restarted.'
+keywords: resume, mirror, relationship, normal, data, transfer, online, help
+summary: "You can resume a quiesced mirror relationship. When you resume the relationship, normal data transfer to the mirror destination is resumed and all the mirror activities are restarted."
 ---
 = Resuming mirror relationships
 :icons: font

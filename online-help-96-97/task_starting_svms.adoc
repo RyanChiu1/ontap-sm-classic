@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_starting_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to provide data access from a storage virtual machine \(SVM\) by starting the SVM.'
+keywords: system, manager, data, access, start, svm, online, help, storage, virtual, machine
+summary: "You can use System Manager to provide data access from a storage virtual machine (SVM) by starting the SVM."
 ---
 = Starting SVMs
 :icons: font

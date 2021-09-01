@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_qtrees.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify the properties of a qtree such as the security style, enable or disable opportunistic locks \(oplocks\), and assign a new or existing export policy.'
+keywords: edit, qtree, system, manager, security, enable, disable, online, help
+summary: "You can use System Manager to modify the properties of a qtree such as the security style, enable or disable opportunistic locks (oplocks), and assign a new or existing export policy."
 ---
 = Editing qtrees
 :icons: font

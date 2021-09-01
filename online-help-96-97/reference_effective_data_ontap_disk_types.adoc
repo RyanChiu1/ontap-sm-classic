@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_effective_data_ontap_disk_types.html
 sidebar: sidebar
-keywords: 
-summary: 'Starting with Data ONTAP 8.1, certain ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and managing spares. ONTAP assigns an effective disk type for each disk type. You can mix HDDs that have the same effective disk type.'
+keywords: ontap, disk, type, online, help
+summary: "Starting with Data ONTAP 8.1, certain ONTAP disk types are considered equivalent for the purposes of creating and adding to aggregates, and managing spares. ONTAP assigns an effective disk type for each disk type. You can mix HDDs that have the same effective disk type."
 ---
 = How you can use effective ONTAP disk type for mixing HDDs
 :icons: font
@@ -17,6 +17,7 @@ Starting with Data ONTAP 8.2, the option `raid.mix.hdd.disktype.capacity` must b
 
 The following table shows how the disk types map to the effective disk type:
 
+[options="header"]
 |===
 | ONTAP disk type| Effective disk type
 a|

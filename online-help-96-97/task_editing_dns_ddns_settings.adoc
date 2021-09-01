@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_dns_ddns_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can maintain host information centrally by using DNS. You can use System Manager to add or modify the DNS domain name of your storage system. You can also enable DDNS on your storage system to update the name server automatically in the DNS server.'
+keywords: online, help, edit, dns, ddns, settings, host, information, system, manager
+summary: "You can maintain host information centrally by using DNS. You can use System Manager to add or modify the DNS domain name of your storage system. You can also enable DDNS on your storage system to update the name server automatically in the DNS server."
 ---
 = Editing DNS and DDNS settings
 :icons: font

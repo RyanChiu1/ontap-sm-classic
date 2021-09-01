@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_types_quotas.html
 sidebar: sidebar
-keywords: 
-summary: 'Quotas can be classified on the basis of the targets to which they are applied.'
+keywords: quotas, online, help, targets, qtree, group, user, default
+summary: "Quotas can be classified on the basis of the targets to which they are applied."
 ---
 = Types of quotas
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_configuration_updates_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Configuration Updates window to update the configuration details of the cluster, storage virtual machine \(SVM\), and nodes.'
+keywords: configuration, update, window, tab, node, command, button, svm, online, help
+summary: "You can use the Configuration Updates window to update the configuration details of the cluster, storage virtual machine (SVM), and nodes."
 ---
 = Configuration Updates window
 :icons: font

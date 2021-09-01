@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_monitoring_svm_using_dashboard.html
 sidebar: sidebar
-keywords: 
-summary: 'The dashboard in System Manager enables you to monitor the health and performance of a storage virtual machine \(SVM\).'
+keywords: system, manager, health, performance, monitor, svms, online, help
+summary: "The dashboard in System Manager enables you to monitor the health and performance of a storage virtual machine (SVM)."
 ---
 = Monitoring SVMs
 :icons: font

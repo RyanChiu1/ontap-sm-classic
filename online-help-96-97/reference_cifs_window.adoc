@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_cifs_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the CIFS window to configure the CIFS server, to manage domain controllers, to manage symbolic UNIX mappings, and to configure BranchCache.'
+keywords: cifs, window, configuration, tab, domain, symlink, branchcache, online, help
+summary: "You can use the CIFS window to configure the CIFS server, to manage domain controllers, to manage symbolic UNIX mappings, and to configure BranchCache."
 ---
 = CIFS window
 :icons: font

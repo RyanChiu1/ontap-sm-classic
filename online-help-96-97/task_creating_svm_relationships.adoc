@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_svm_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create SVM relationships to transfer data from the source SVM to the destination SVM. Creating an SVM relationship helps in recovering from a disaster as data is available on the source SVM and on the destination SVM.'
+keywords: create, svm, relationship, system, manager, transfer, data, online, help
+summary: "You can use System Manager to create SVM relationships to transfer data from the source SVM to the destination SVM. Creating an SVM relationship helps in recovering from a disaster as data is available on the source SVM and on the destination SVM."
 ---
 = Creating SVM relationships
 :icons: font

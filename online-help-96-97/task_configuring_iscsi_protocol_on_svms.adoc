@@ -1,7 +1,7 @@
 ---
 permalink: online-help-96-97/task_configuring_iscsi_protocol_on_svms.html
 sidebar: sidebar
-keywords: System Manager 9.3
+keywords: system, manager, iscsi, protocol, svm, online, help, lif, portset
 summary: 'You can configure the iSCSI protocol on a storage virtual machine \(SVM\) to provide block-level data access by using System Manager. You can create iSCSI LIFs and portsets and then add the LIFs to the portsets. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy.'
 ---
 = Configuring iSCSI protocol on SVMs
@@ -44,6 +44,7 @@ If the number of LIFs that you want to assign to the node is more than two, you 
 
 . Specify the network details, including the subnet details, to create iSCSI LIFs:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -77,7 +78,6 @@ If you do not specify a destination value, the Destination field is populated wi
 If a route does not exist, a new route is automatically created based on the gateway and destination.
  .. Click *OK*.
 
-+
 |===
 
 . Select the broadcast domain.

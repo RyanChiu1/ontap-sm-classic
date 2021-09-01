@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_disks_to_storage_pool.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add SSDs to an existing storage pool and increase its cache size by using System Manager.'
+keywords: system, manager, ssd, storage, pool, disk, online, help
+summary: "You can add SSDs to an existing storage pool and increase its cache size by using System Manager."
 ---
 = Adding disks to a storage pool
 :icons: font

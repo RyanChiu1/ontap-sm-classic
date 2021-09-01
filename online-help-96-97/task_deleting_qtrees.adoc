@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_qtrees.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a qtree and reclaim the disk space that the qtree uses within a volume by using System Manager. When you delete a qtree, all of the quotas that are applicable to that qtree are no longer applied by ONTAP.'
+keywords: delete, qtrees, online, help, system, manager
+summary: "You can delete a qtree and reclaim the disk space that the qtree uses within a volume by using System Manager. When you delete a qtree, all of the quotas that are applicable to that qtree are no longer applied by ONTAP."
 ---
 = Deleting qtrees
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_restoring_volume_vault_relationship.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to restore Snapshot copies to a source volume or to other volumes if the source data is corrupted and is no longer usable. You can replace the original data with the Snapshot copies in the destination volume.'
+keywords: system, manager, restore, volume, vault, relationship, online, help, snapshot, copy
+summary: "You can use System Manager to restore Snapshot copies to a source volume or to other volumes if the source data is corrupted and is no longer usable. You can replace the original data with the Snapshot copies in the destination volume."
 ---
 = Restoring a volume in a vault relationship
 :icons: font
@@ -31,6 +31,7 @@ You can use System Manager to restore Snapshot copies to a source volume or to o
 . Select the vault relationship, and then click *Operations* > *Restore*.
 . In the *Restore* dialog box, restore the data to the source volume in the vault relationship or select any other volume:
 +
+[options="header"]
 |===
 | If you want to restore the data to...| Do this...
 a|
@@ -48,6 +49,7 @@ Select *Other volume*, and then select the cluster and SVM from the list.
 
 . Restore the data to a new volume or select any existing volume:
 +
+[options="header"]
 |===
 | If you want to restore the data to...| Do this...
 a|
@@ -57,10 +59,11 @@ If you want to change the default name, displayed in the format `destination_SVM
 a|
 An existing volume
 a|
-Select the *Select Volume* option.     You must select a volume other than the source volume, or a read/write volume with some data in it and with a common Snapshot copy.
-+
+Select the *Select Volume* option.     
+
+You must select a volume other than the source volume, or a read/write volume with some data in it and with a common Snapshot copy.
+
 Only those volumes with the same language attribute as the source volume are listed.
-+
 |===
 
 . Select either the latest Snapshot copy or the specific Snapshot copy that you want to restore.

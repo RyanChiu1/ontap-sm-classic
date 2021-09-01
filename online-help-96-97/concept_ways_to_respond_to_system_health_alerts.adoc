@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_ways_to_respond_to_system_health_alerts.html
 sidebar: sidebar
-keywords: 
-summary: 'When a system health alert occurs, you can acknowledge it, learn more about it, repair the underlying condition, and prevent it from occurring again.'
+keywords: respond, system, health, alert, online, help
+summary: "When a system health alert occurs, you can acknowledge it, learn more about it, repair the underlying condition, and prevent it from occurring again."
 ---
 = Ways to respond to system health alerts
 :icons: font

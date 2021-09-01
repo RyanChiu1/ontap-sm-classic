@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_mounting_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to mount volumes to a junction in the storage virtual machine \(SVM\) namespace.'
+keywords: mount, volume, system, manager, junction, storage, virtual, machine, svm, online, help
+summary: "You can use System Manager to mount volumes to a junction in the storage virtual machine (SVM) namespace."
 ---
 = Mounting volumes
 :icons: font

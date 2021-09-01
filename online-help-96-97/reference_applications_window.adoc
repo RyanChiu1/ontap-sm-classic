@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_applications_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to display a list of the applications in a storage virtual machine \(SVM\). The list includes detailed information about each application.'
+keywords: applications, window, svm, online, help, storage, virtual, machine, online, help, action, icon, tab, column
+summary: "You can use System Manager to display a list of the applications in a storage virtual machine (SVM). The list includes detailed information about each application."
 ---
 = Applications window
 :icons: font

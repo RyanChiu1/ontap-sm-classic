@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_nvme_namespace.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create one or more NVMe namespaces and connect each to a host or set of hosts in a storage virtual machine \(SVM\). The NVMe namespace is a quantity of memory that can be formatted into logical blocks. Each namespace can be mapped to an NVMe subsystem.'
+keywords: system, manager, create, nvme, namespace, svm, logical, blocks, online, help
+summary: "You can use System Manager to create one or more NVMe namespaces and connect each to a host or set of hosts in a storage virtual machine (SVM). The NVMe namespace is a quantity of memory that can be formatted into logical blocks. Each namespace can be mapped to an NVMe subsystem."
 ---
 = Creating an NVMe namespace
 :icons: font

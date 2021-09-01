@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_quotas.html
 sidebar: sidebar
-keywords: 
-summary: 'Quotas enable you to restrict or track the disk space and number of files that are used by a user, group, or qtree. You can use the Add Quota wizard in System Manager to create a quota and to apply the quota to a specific volume or qtree.'
+keywords: create, quota, qtree, system, manager, online, help
+summary: "Quotas enable you to restrict or track the disk space and number of files that are used by a user, group, or qtree. You can use the Add Quota wizard in System Manager to create a quota and to apply the quota to a specific volume or qtree."
 ---
 = Creating quotas
 :icons: font

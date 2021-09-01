@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_snapshot_copies_outside_defined_schedule.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a Snapshot copy of a volume outside a defined schedule to capture the state of the file system at a specific point in time.'
+keywords: create, snapshot, copy, outside, defined, schedule, online, help, system, manager
+summary: "You can use System Manager to create a Snapshot copy of a volume outside a defined schedule to capture the state of the file system at a specific point in time."
 ---
 = Creating Snapshot copies outside a defined schedule
 :icons: font

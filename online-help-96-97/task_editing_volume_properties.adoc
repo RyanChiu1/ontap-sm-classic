@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_volume_properties.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify volume properties such as the volume name, security style, fractional reserve, and space guarantee by using System Manager. You can modify storage efficiency settings \(deduplication schedule, deduplication policy, and compression\) and space reclamation settings.'
+keywords: edit, volume, properties, online, help, deduplication, system, manager
+summary: "You can modify volume properties such as the volume name, security style, fractional reserve, and space guarantee by using System Manager. You can modify storage efficiency settings (deduplication schedule, deduplication policy, and compression) and space reclamation settings."
 ---
 = Editing volume properties
 :icons: font

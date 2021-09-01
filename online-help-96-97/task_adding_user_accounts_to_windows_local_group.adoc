@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_user_accounts_to_windows_local_group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can add a local user, an Active Directory user, or an Active Directory group\(if you want users to have the privileges that are associated with that group\)to a Windows local group by using System Manager.'
+keywords: add, user, accounts, windows, local, group, active, directory, online, help
+summary: "You can add a local user, an Active Directory user, or an Active Directory group (if you want users to have the privileges that are associated with that group)to a Windows local group by using System Manager."
 ---
 = Adding user accounts to a Windows local group
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_cluster_peer_relationships.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'You can create an authenticated cluster peer relationship to connect clusters so that the clusters in the peer relationship can communicate securely with each other.'
+keywords: system, manager, create, cluster, peer, relationships, online, help
+summary: "You can create an authenticated cluster peer relationship to connect clusters so that the clusters in the peer relationship can communicate securely with each other."
 ---
 = Creating cluster peer relationships
 :icons: font
@@ -44,6 +44,7 @@ If the names of the local cluster and remote cluster are identical, and if you a
 . To generate a passphrase from the remote cluster, enter the management IP address of the remote cluster.
 . Initiate cluster peering.
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -61,7 +62,6 @@ a|
  .. Click *Initiate Peering*.
  .. Access the initiator cluster, and then click *Validate Peering*.
 
-+
 |===
 
 == What to do next

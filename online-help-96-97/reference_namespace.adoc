@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_namespace.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Junction Path menu to manage the NAS namespace of storage virtual machines \(SVMs\).'
+keywords: junction, path, window, command, buttons, online, help, list
+summary: "You can use the Junction Path menu to manage the NAS namespace of storage virtual machines (SVMs)."
 ---
 = Junction Path window
 :icons: font

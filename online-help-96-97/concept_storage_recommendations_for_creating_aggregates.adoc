@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html
 sidebar: sidebar
-keywords: 
-summary: 'Starting with System Manager 9.4, you can create aggregates based on storage recommendations. However, you must determine whether creating aggregates based on storage recommendations is supported in your environment. If your environment does not support creating aggregates based on storage recommendations, you must decide the RAID policy and disk configuration, and then create the aggregates manually.'
+keywords: storage, recommendations, create, aggregate, system, manager, online, help
+summary: "Starting with System Manager 9.4, you can create aggregates based on storage recommendations. However, you must determine whether creating aggregates based on storage recommendations is supported in your environment. If your environment does not support creating aggregates based on storage recommendations, you must decide the RAID policy and disk configuration, and then create the aggregates manually."
 ---
 = Storage recommendations for creating aggregates
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_stopping_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to stop a storage virtual machine \(SVM\) if you want to troubleshoot any issue with the SVM, delete the SVM, or stop data access from the SVM.'
+keywords: stop, svm, online, help, system, manager, storage, virtual, machine
+summary: "You can use System Manager to stop a storage virtual machine (SVM) if you want to troubleshoot any issue with the SVM, delete the SVM, or stop data access from the SVM."
 ---
 = Stopping SVMs
 :icons: font

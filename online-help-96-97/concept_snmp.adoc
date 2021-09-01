@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_snmp.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to configure SNMP to monitor SVMs in your cluster.'
+keywords: system, manager, configure, snmp, svm, cluster, online, help
+summary: "You can use System Manager to configure SNMP to monitor SVMs in your cluster."
 ---
 = SNMP
 :icons: font

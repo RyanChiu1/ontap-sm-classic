@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_viewing_disk_information.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Disks window in System Manager to view the name, size, and container details of disks along with graphical information about capacity disks and cache disks.'
+keywords: view, disk, information, system, manager, name, online, help
+summary: "You can use the Disks window in System Manager to view the name, size, and container details of disks along with graphical information about capacity disks and cache disks."
 ---
 = Viewing disk information
 :icons: font

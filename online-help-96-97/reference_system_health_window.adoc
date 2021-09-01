@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_system_health_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the System Alerts window to learn more about system health alerts. You can also acknowledge, delete, and suppress alerts from the window.'
+keywords: system, alerts, command, buttons, window, online, help
+summary: "You can use the System Alerts window to learn more about system health alerts. You can also acknowledge, delete, and suppress alerts from the window."
 ---
 = System Alerts window
 :icons: font

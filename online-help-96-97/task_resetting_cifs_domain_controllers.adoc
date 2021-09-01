@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_resetting_cifs_domain_controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to reset the CIFS connection to domain controllers for the specified domain. Failure to reset the domain controller information can cause a connection failure.'
+keywords: reset, cifs, domain, controller, system, manager, online, help
+summary: "You can use System Manager to reset the CIFS connection to domain controllers for the specified domain. Failure to reset the domain controller information can cause a connection failure."
 ---
 = Resetting CIFS domain controllers
 :icons: font

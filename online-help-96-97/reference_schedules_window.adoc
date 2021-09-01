@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_schedules_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Schedules window to manage scheduled tasks, such as creating, displaying information about, modifying, and deleting schedules.'
+keywords: schedule, window, command, button, online, help
+summary: "You can use the Schedules window to manage scheduled tasks, such as creating, displaying information about, modifying, and deleting schedules."
 ---
 = Schedules window
 :icons: font

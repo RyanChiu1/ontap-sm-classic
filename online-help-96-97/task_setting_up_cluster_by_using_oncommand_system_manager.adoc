@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'Beginning with ONTAP 9.1, you can use ONTAP System Manager to set up a cluster by creating a cluster, setting up the node management network and cluster management network, and then setting up event notifications.'
+keywords: set, up, cluster, ontap, system, manager, online, help, management, network
+summary: "Beginning with ONTAP 9.1, you can use ONTAP System Manager to set up a cluster by creating a cluster, setting up the node management network and cluster management network, and then setting up event notifications."
 ---
 = Setting up the cluster by using ONTAP System Manager
 :icons: font

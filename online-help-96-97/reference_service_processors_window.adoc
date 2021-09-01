@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_service_processors_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Service Processors window to view and modify Service Processors attributes, such as the IP address, network mask \(IPv4\) or prefix-length \(IPv6\), and gateway, and to configure the IP source for a Service Processor.'
+keywords: command, button, service, processor, window, ipv4, online, help, ipv6, ip, address
+summary: "You can use the Service Processors window to view and modify Service Processors attributes, such as the IP address, network mask (IPv4) or prefix-length (IPv6), and gateway, and to configure the IP source for a Service Processor."
 ---
 = Service Processors window
 :icons: font
@@ -10,10 +10,6 @@ summary: 'You can use the Service Processors window to view and modify Service P
 
 [.lead]
 You can use the Service Processors window to view and modify Service Processors attributes, such as the IP address, network mask (IPv4) or prefix-length (IPv6), and gateway, and to configure the IP source for a Service Processor.
-
-* <<GUID-534A1A15-D75C-4ABC-9DE3-B910D0E5BD9B,#GUID-534A1A15-D75C-4ABC-9DE3-B910D0E5BD9B>>
-* <<GUID-CDE3004A-C922-407A-9441-346B2E70303D,#GUID-CDE3004A-C922-407A-9441-346B2E70303D>>
-* <<GUID-318B89F2-ABEA-4F65-8457-1445AB70413E,#GUID-318B89F2-ABEA-4F65-8457-1445AB70413E>>
 
 == Command buttons
 

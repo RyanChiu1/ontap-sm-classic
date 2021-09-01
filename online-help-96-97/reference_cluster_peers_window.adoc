@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_cluster_peers_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Cluster Peers window to manage peer cluster relationships, which enables you to move data from one cluster to another.'
+keywords: cluster, peer, window, command, button, online, help
+summary: "You can use the Cluster Peers window to manage peer cluster relationships, which enables you to move data from one cluster to another."
 ---
 = Cluster Peers window
 :icons: font

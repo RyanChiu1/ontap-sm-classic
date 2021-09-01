@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_moving_flexvol_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can nondisruptively move a FlexVol volume to a different aggregate or a different node for capacity utilization and improved performance by using System Manager.'
+keywords: move, flexvol, volume, aggregate, system, manager, online, help
+summary: "You can nondisruptively move a FlexVol volume to a different aggregate or a different node for capacity utilization and improved performance by using System Manager."
 ---
 = Moving FlexVol volumes
 :experimental:

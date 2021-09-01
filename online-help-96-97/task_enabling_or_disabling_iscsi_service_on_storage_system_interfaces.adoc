@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to control which network interfaces are used for iSCSI communication by enabling or disabling the interfaces. When the iSCSI service is enabled, iSCSI connections and requests are accepted over those network interfaces that are enabled for iSCSI, but not over disabled interfaces.'
+keywords: enable, disable, iscsi, service, storage, system, interfaces, online, help
+summary: "You can use System Manager to control which network interfaces are used for iSCSI communication by enabling or disabling the interfaces. When the iSCSI service is enabled, iSCSI connections and requests are accepted over those network interfaces that are enabled for iSCSI, but not over disabled interfaces."
 ---
 = Enabling or disabling the iSCSI service on storage system interfaces
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_aggregates_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Aggregates window to create, display, and manage information about aggregates.'
+keywords: aggregate, window, online, help, create, display, manage, information, command, button, details, area
+summary: "You can use the Aggregates window to create, display, and manage information about aggregates."
 ---
 = Aggregates window
 :icons: font
@@ -10,11 +10,6 @@ summary: 'You can use the Aggregates window to create, display, and manage infor
 
 [.lead]
 You can use the Aggregates window to create, display, and manage information about aggregates.
-
-* <<reference_aggregates_window,Aggregates window>>
-* <<GUID-8A70E08C-59D9-4082-9E1F-B7B0CA767D2C,#GUID-8A70E08C-59D9-4082-9E1F-B7B0CA767D2C>>
-* <<GUID-01CCB6E6-71C6-42E9-BD14-94234B0A3A30,#GUID-01CCB6E6-71C6-42E9-BD14-94234B0A3A30>>
-* <<GUID-5DF5C4A5-A812-4D40-83B4-D15EDCA2C596,#GUID-5DF5C4A5-A812-4D40-83B4-D15EDCA2C596>>
 
 == Command buttons
 

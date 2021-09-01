@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_quotas.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete one or more quotas when your users and their storage requirements and limitations change.'
+keywords: system, manager, quota, online, help, delete
+summary: "You can use System Manager to delete one or more quotas when your users and their storage requirements and limitations change."
 ---
 = Deleting quotas
 :icons: font

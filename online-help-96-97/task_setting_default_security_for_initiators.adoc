@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_default_security_for_initiators.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to remove the authentication settings for an initiator and to use the default security method to authenticate the initiator.'
+keywords: set, up, default, security, iscsi, initiator, online, help, system, manager, settings
+summary: "You can use System Manager to remove the authentication settings for an initiator and to use the default security method to authenticate the initiator."
 ---
 = Setting the default security for iSCSI initiators
 :icons: font

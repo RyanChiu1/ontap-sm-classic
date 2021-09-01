@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_preferred_domain_controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager automatically discovers domain controllers through DNS. Optionally, you can add one or more domain controllers to the list of preferred domain controllers for a specific domain.'
+keywords: system, manager, add, preferred, domain, controller, online, help, dns
+summary: "System Manager automatically discovers domain controllers through DNS. Optionally, you can add one or more domain controllers to the list of preferred domain controllers for a specific domain."
 ---
 = Adding preferred domain controllers
 :icons: font

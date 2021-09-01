@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_iscsi_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the iSCSI window to start or stop the iSCSI service, change a storage system iSCSI node name, and create or change the iSCSI alias of a storage system. You can also add or change the initiator security setting for an iSCSI initiator that is connected to your storage system.'
+keywords: iscsi, window, tab, command, button, storage, system, initiator, online, help
+summary: "You can use the iSCSI window to start or stop the iSCSI service, change a storage system iSCSI node name, and create or change the iSCSI alias of a storage system. You can also add or change the initiator security setting for an iSCSI initiator that is connected to your storage system."
 ---
 = iSCSI window
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_name_mapping_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Name Mapping window to specify the name mapping entries to map users from different platforms.'
+keywords: name, map, window, command, button, online, help, group
+summary: "You can use the Name Mapping window to specify the name mapping entries to map users from different platforms."
 ---
 = Name Mapping window
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_efficiency_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Efficiency Policies window to create, display, and manage information about efficiency policies.'
+keywords: efficiency, policies, window, command, buttons, online, help
+summary: "You can use the Efficiency Policies window to create, display, and manage information about efficiency policies."
 ---
 = Efficiency Policies window
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_fc_san_optimized_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create one or more FC SAN optimized LUNs during the initial setup of a cluster on an AFF platform.'
+keywords: create, fc, san, optimized, lun, system, manager, online, help
+summary: "You can use System Manager to create one or more FC SAN optimized LUNs during the initial setup of a cluster on an AFF platform."
 ---
 = Creating FC SAN optimized LUNs
 :icons: font
@@ -41,6 +41,7 @@ If you close the dialog box without creating LUNs, you must navigate to the LUNs
 
 . In the *LUN details* area of the *Create LUNs* dialog box, specify the application type:
 +
+[options="header"]
 |===
 | If the application type is...| Then...
 a|
@@ -63,7 +64,6 @@ a|
  .. Specify the name and size of each LUN.
  .. If you want to create more LUNs, click *Add more LUNs*, and then specify the name and size for each LUN.
 
-+
 |===
 Data, log, binary, and temporary LUNs are created based on the selected application type.
 

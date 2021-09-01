@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_service_processors.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use a Services Processor to monitor and manage your storage system parameters such as temperature, voltage, current, and fan speeds through System Manager.'
+keywords: service, processors, monitor, manage, storage, system, manager, temperature, voltage, current, fan, speed, online, help
+summary: "You can use a Services Processor to monitor and manage your storage system parameters such as temperature, voltage, current, and fan speeds through System Manager."
 ---
 = Service Processors
 :icons: font

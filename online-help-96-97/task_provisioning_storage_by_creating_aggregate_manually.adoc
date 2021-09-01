@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can manually create an aggregate that consists of only HDDs or only SSDs by using System Manager.'
+keywords: provision, storage, create, aggregate, manually, online, help, hdd, ssd, system, manager
+summary: "You can manually create an aggregate that consists of only HDDs or only SSDs by using System Manager."
 ---
 = Provisioning storage by creating an aggregate manually
 :icons: font

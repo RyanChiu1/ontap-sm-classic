@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_svms.html
 sidebar: sidebar
-keywords: ONTAP System Manager
-summary: 'You can use System Manager to delete storage virtual machines \(SVMs\) that you no longer require from the storage system configuration.'
+keywords: system, manager, delete, svm, online, help, storage, virtual, machine
+summary: "You can use System Manager to delete storage virtual machines (SVMs) that you no longer require from the storage system configuration."
 ---
 = Deleting SVMs
 :icons: font

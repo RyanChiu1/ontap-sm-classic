@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_snaplock_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a SnapLock Compliance volume or a SnapLock Enterprise volume. When you create a volume, you can also set retention times, and choose whether to automate setting the WORM state on data in the volume.'
+keywords: create, snaplock, volume, online, help, system, manager
+summary: "You can use System Manager to create a SnapLock Compliance volume or a SnapLock Enterprise volume. When you create a volume, you can also set retention times, and choose whether to automate setting the WORM state on data in the volume."
 ---
 = Creating SnapLock volumes
 :icons: font
@@ -76,6 +76,7 @@ The default retention period must be within the specified minimum retention peri
 . Select the *Manage Storage Quality of Service* checkbox in the *Quality of Service* tab to enable storage QoS for the FlexVol volume in order to manage workload performance.
 . Create a storage QoS policy group or select an existing policy group to control the input/output (I/O) performance of the FlexVol volume.
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -118,12 +119,12 @@ This value is case-sensitive. The unit that you specify does not affect the maxi
 +
 If the policy group is assigned to more than one object, the maximum throughput that you specify is shared among the objects.
 
-+
 |===
 
 . Enable *Volume Protection* in the *Protection* tab to protect the volume:
 . In the *Protection* tab, select the *Replication* type:
 +
+[options="header"]
 |===
 | If you selected the replication type as...| Do this...
 a|
@@ -156,7 +157,6 @@ If the selected cluster is running a version of ONTAP software earlier than ONTA
 
  .. Modify the volume name suffix, if required.
 
-+
 |===
 
 . Click *Create*.
