@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_changing_export_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'When a volume is created, the volume automatically inherits the default export policy of the root volume of the storage virtual machine \(SVM\). You can use System Manager to change the default export policy that is associated with the volume to redefine the client access to data.'
+keywords: online, help, change, export, policy, smv, storage, virtual, machine, system, manager
+summary: "When a volume is created, the volume automatically inherits the default export policy of the root volume of the storage virtual machine (SVM). You can use System Manager to change the default export policy that is associated with the volume to redefine the client access to data."
 ---
 = Changing export policies
 :icons: font

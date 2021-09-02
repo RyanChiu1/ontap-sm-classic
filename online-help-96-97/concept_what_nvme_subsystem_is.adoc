@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_what_nvme_subsystem_is.html
 sidebar: sidebar
-keywords: 
-summary: 'An NVMe subsystem includes one or more controllers, one or more namespaces, one or more non-volatile memory \(NVM\) subsystem ports \(FC-NVMe or RDMA transport ports\), an NVM storage medium, and an interface between the controllers and the NVM storage medium. For controller mapping and management, an NVM subsystem maps to a vserver in ONTAP.'
+keywords: nvme, subsystem, fc, rdma, transport, port, vserver, online, help
+summary: "An NVMe subsystem includes one or more controllers, one or more namespaces, one or more non-volatile memory (NVM) subsystem ports (FC-NVMe or RDMA transport ports), an NVM storage medium, and an interface between the controllers and the NVM storage medium. For controller mapping and management, an NVM subsystem maps to a vserver in ONTAP."
 ---
 = What an NVMe subsystem is
 :icons: font

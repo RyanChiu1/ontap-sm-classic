@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_snapshot_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete Snapshot policies. If you delete a Snapshot policy that is being used by one or more volumes, Snapshot copies of the volume or volumes are no longer created according to the deleted policy.'
+keywords: delete, snapshot, policy, online, help, system, manager
+summary: "You can use System Manager to delete Snapshot policies. If you delete a Snapshot policy that is being used by one or more volumes, Snapshot copies of the volume or volumes are no longer created according to the deleted policy."
 ---
 = Deleting Snapshot policies
 :icons: font

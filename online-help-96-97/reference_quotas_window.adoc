@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_quotas_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Quotas window to create, display, and manage information about quotas.'
+keywords: quota, window, create, display, manage, information, online, help
+summary: "You can use the Quotas window to create, display, and manage information about quotas."
 ---
 = Quotas window
 :icons: font
@@ -10,11 +10,6 @@ summary: 'You can use the Quotas window to create, display, and manage informati
 
 [.lead]
 You can use the Quotas window to create, display, and manage information about quotas.
-
-* <<GUID-6F3247C5-AAFF-492D-A33A-346A674D4D39,Tabs>>
-* <<GUID-5BDDD51A-11EF-42DF-857C-A62A682BA889,Command buttons>>
-* <<GUID-9C579C10-9037-42CA-B7E2-92B1141E6569,User Defined Quotas list>>
-* <<GUID-F6A149DD-C6C2-447E-A7AA-9E76630B4EB6,Details area>>
 
 == Tabs
 

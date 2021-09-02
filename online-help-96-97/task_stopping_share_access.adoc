@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_stopping_share_access.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to stop a share when you want to remove the shared network access to a folder, qtree, or volume.'
+keywords: folder, qtree, volume, system, manager, online, help, stop, share, access
+summary: "You can use System Manager to stop a share when you want to remove the shared network access to a folder, qtree, or volume."
 ---
 = Stopping share access
 :icons: font

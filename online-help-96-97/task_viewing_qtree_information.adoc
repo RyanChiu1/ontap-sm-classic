@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_viewing_qtree_information.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Qtrees window in System Manager to view the volume that contains the qtree, the name, security style, and status of the qtree, and the oplocks status.'
+keywords: qtree, system, manager, security, style, information, view, online, help
+summary: "You can use the Qtrees window in System Manager to view the volume that contains the qtree, the name, security style, and status of the qtree, and the oplocks status."
 ---
 = Viewing qtree information
 :icons: font

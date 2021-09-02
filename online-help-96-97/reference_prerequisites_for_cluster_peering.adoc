@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_prerequisites_for_cluster_peering.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you set up cluster peering, you should confirm that the connectivity, port, IP address, subnet, firewall, and cluster-naming requirements are met.'
+keywords: prerequisites, cluster, peering, connectivity, requirements, online, help
+summary: "Before you set up cluster peering, you should confirm that the connectivity, port, IP address, subnet, firewall, and cluster-naming requirements are met."
 ---
 = Prerequisites for cluster peering
 :icons: font

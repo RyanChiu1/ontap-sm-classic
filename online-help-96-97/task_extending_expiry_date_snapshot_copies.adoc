@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_extending_expiry_date_snapshot_copies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to extend the expiry date of the Snapshot copies in a volume.'
+keywords: extend, expiry, date, snapshot, copy, system, manager, online, help
+summary: "You can use System Manager to extend the expiry date of the Snapshot copies in a volume."
 ---
 = Extending the expiry date of Snapshot copies
 :icons: font

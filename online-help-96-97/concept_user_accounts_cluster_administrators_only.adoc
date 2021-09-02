@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_user_accounts_cluster_administrators_only.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create, modify, lock, unlock, or delete a cluster user account, reset a user’s password, or display information about all user accounts.'
+keywords: user, account, cluster, administration, online, help, modify, lock, delete, unlock, create
+summary: "You can create, modify, lock, unlock, or delete a cluster user account, reset a user’s password, or display information about all user accounts."
 ---
 = User accounts (cluster administrators only)
 :icons: font

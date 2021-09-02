@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_autosupport_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The AutoSupport window enables you to view the current AutoSupport settings for your system. You can also change your system’s AutoSupport settings.'
+keywords: autosupport, command, button, window, setting, online, help
+summary: "The AutoSupport window enables you to view the current AutoSupport settings for your system. You can also change your system’s AutoSupport settings."
 ---
 = AutoSupport window
 :icons: font

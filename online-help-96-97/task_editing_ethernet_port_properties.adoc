@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_ethernet_port_properties.html
 sidebar: sidebar
-keywords: 
-summary: 'You can edit Ethernet port settings such as the duplex mode and speed settings by using System Manager.'
+keywords: edit, ethernet, port, settings, duplex, mode, speed, system, manager, online, help
+summary: "You can edit Ethernet port settings such as the duplex mode and speed settings by using System Manager."
 ---
 = Editing Ethernet port settings
 :icons: font

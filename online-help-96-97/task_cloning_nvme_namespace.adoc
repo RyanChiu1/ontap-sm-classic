@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_cloning_nvme_namespace.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to quickly create another namespace of the same configuration by choosing to clone a namespace. You can map the newly cloned namespace to another host NQN.'
+keywords: system, manager, clone, nvme, namespace, nqn, online, help
+summary: "You can use System Manager to quickly create another namespace of the same configuration by choosing to clone a namespace. You can map the newly cloned namespace to another host NQN."
 ---
 = Cloning an NVMe namespace
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_flexgroup_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'A FlexGroup volume can contain many volumes that can be administered as a group instead of individually. You can use System Manager to create a FlexGroup volume by selecting specific aggregates or by selecting system-recommended aggregates.'
+keywords: create, flexgroup, volume, online, help, system, manager
+summary: "A FlexGroup volume can contain many volumes that can be administered as a group instead of individually. You can use System Manager to create a FlexGroup volume by selecting specific aggregates or by selecting system-recommended aggregates."
 ---
 = Creating FlexGroup volumes
 :icons: font

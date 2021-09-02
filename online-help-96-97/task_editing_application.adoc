@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_application.html
 sidebar: sidebar
-keywords: 
-summary: 'You can edit a provisioned application to increase to storage size or to manage the Snapshot copies of the application.'
+keywords: edit, application, online, help, provisioned, snapshot, copy
+summary: "You can edit a provisioned application to increase to storage size or to manage the Snapshot copies of the application."
 ---
 = Editing an application
 :icons: font
@@ -41,6 +41,7 @@ A list of Snapshot copies for this provisioned application is displayed. You can
 
 . Manage the Snapshot copies by performing the following tasks as necessary:
 +
+[options="header"]
 |===
 | Task| Actions
 a|

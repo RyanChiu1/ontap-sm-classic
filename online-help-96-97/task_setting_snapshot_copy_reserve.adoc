@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_snapshot_copy_reserve.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to reserve space \(measured as a percentage\) for the Snapshot copies in a volume. By setting the Snapshot copy reserve, you can allocate enough disk space for the Snapshot copies so that they do not consume the active file system space.'
+keywords: set, up, snapshot, copy, reserve, system, manager, online, help
+summary: "You can use System Manager to reserve space (measured as a percentage) for the Snapshot copies in a volume. By setting the Snapshot copy reserve, you can allocate enough disk space for the Snapshot copies so that they do not consume the active file system space."
 ---
 = Setting the Snapshot copy reserve
 :icons: font

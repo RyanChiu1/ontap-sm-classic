@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_intercluster_lifs.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'Creating intercluster logical interfaces \(LIFs\) enables the cluster network to communicate with a node. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.'
+keywords: system, manager, intercluster, logical, interfaces, lif, create, online, help, ipspace
+summary: "Creating intercluster logical interfaces (LIFs) enables the cluster network to communicate with a node. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship."
 ---
 = Creating intercluster LIFs
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_quiescing_mirror_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to quiesce a mirror destination to stabilize it before creating a Snapshot copy. The quiesce operation enables active mirror transfers to finish and disables future transfers for the mirroring relationship.'
+keywords: quiesce, mirror, relationship, system, manager, online, help
+summary: "You can use System Manager to quiesce a mirror destination to stabilize it before creating a Snapshot copy. The quiesce operation enables active mirror transfers to finish and disables future transfers for the mirroring relationship."
 ---
 = Quiescing mirror relationships
 :icons: font

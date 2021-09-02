@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_iscsi_aliases.html
 sidebar: sidebar
-keywords: 
-summary: 'An iSCSI alias is a user-friendly identifier that you assign to an iSCSI target device \(in this case, the storage system\) to make it easier to identify the target device in user interfaces. You can use System Manager to create an iSCSI alias.'
+keywords: iscsi, alias, create, target, device, online, help
+summary: "An iSCSI alias is a user-friendly identifier that you assign to an iSCSI target device (in this case, the storage system) to make it easier to identify the target device in user interfaces. You can use System Manager to create an iSCSI alias."
 ---
 = Creating iSCSI aliases
 :icons: font

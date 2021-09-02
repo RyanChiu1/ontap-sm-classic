@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete LUNs and return the space used by the LUNs to their containing aggregates or volumes.'
+keywords: delete, lun, system, manager, online, help, aggregate
+summary: "You can use System Manager to delete LUNs and return the space used by the LUNs to their containing aggregates or volumes."
 ---
 = Deleting LUNs
 :icons: font

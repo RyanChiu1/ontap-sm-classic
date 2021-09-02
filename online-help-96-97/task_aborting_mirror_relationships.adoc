@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_aborting_mirror_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can abort a volume replication operation before the data transfer is complete. You can abort a scheduled update, a manual update, or an initial data transfer.'
+keywords: abort, mirror, transfer, online, help, volume, replication
+summary: "You can abort a volume replication operation before the data transfer is complete. You can abort a scheduled update, a manual update, or an initial data transfer."
 ---
 = Aborting a mirror transfer
 :icons: font

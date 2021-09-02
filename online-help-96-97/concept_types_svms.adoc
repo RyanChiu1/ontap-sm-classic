@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_types_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'A cluster consists of four types of SVMs, which help in managing the cluster and its resources and data access to the clients and applications.'
+keywords: svm, cluster, admin, node, system, data, online, help
+summary: "A cluster consists of four types of SVMs, which help in managing the cluster and its resources and data access to the clients and applications."
 ---
 = Types of SVMs
 :icons: font

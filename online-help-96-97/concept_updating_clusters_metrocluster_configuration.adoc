@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_updating_clusters_metrocluster_configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to update a cluster in MetroCluster configurations. You must perform each operation on both the clusters except for updating the cluster.'
+keywords: update, cluster, metrocluster, configuration, online, help
+summary: "You can use System Manager to update a cluster in MetroCluster configurations. You must perform each operation on both the clusters except for updating the cluster."
 ---
 = Updating clusters in a MetroCluster configuration
 :icons: font

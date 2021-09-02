@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_storage_pools_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Storage Pools window to create, display, and manage a dedicated cache of SSDs, also known as storage pools. These storage pools can be associated with a non-root aggregate to provide SSD cache and with a Flash Pool aggregate to increase its size.'
+keywords: storage, pools, window, online, help, command, button
+summary: "You can use the Storage Pools window to create, display, and manage a dedicated cache of SSDs, also known as storage pools. These storage pools can be associated with a non-root aggregate to provide SSD cache and with a Flash Pool aggregate to increase its size."
 ---
 = Storage Pools window
 :icons: font
@@ -12,10 +12,6 @@ summary: 'You can use the Storage Pools window to create, display, and manage a 
 You can use the Storage Pools window to create, display, and manage a dedicated cache of SSDs, also known as _storage pools_. These storage pools can be associated with a non-root aggregate to provide SSD cache and with a Flash Pool aggregate to increase its size.
 
 This page is not available for a cluster containing nodes with All Flash Optimized personality.
-
-* <<GUID-A1118A4E-CFB5-4570-9D70-E85D76874D6A,#GUID-A1118A4E-CFB5-4570-9D70-E85D76874D6A>>
-* <<SECTION_DCF817A19DB341F79C8DB4FE3522A933,#SECTION_DCF817A19DB341F79C8DB4FE3522A933>>
-* <<SECTION_8983458F389D40699518A5D4AFFFBA3C,#SECTION_8983458F389D40699518A5D4AFFFBA3C>>
 
 == Command buttons
 

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_cloning_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'LUN clones enable you to create multiple readable and writable copies of a LUN. You can use System Manager to create a temporary copy of a LUN for testing or to make a copy of your data available to additional users without providing them access to the production data.'
+keywords: clone, lun, create, multiple, copy, system, manager, online, help
+summary: "LUN clones enable you to create multiple readable and writable copies of a LUN. You can use System Manager to create a temporary copy of a LUN for testing or to make a copy of your data available to additional users without providing them access to the production data."
 ---
 = Cloning LUNs
 :icons: font

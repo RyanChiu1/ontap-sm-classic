@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_reverse_resynchronizing_mirror_vault_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to reestablish a mirror and vault relationship that was previously broken. In a reverse resynchronization operation, the functions of the source and destination volumes are reversed. You can use the destination volume to serve data while you repair or replace the source, update the source, and reestablish the original configuration of the systems.'
+keywords: reverse, resynchronize, mirror, vault, relationship, system, manager, online, help
+summary: "You can use System Manager to reestablish a mirror and vault relationship that was previously broken. In a reverse resynchronization operation, the functions of the source and destination volumes are reversed. You can use the destination volume to serve data while you repair or replace the source, update the source, and reestablish the original configuration of the systems."
 ---
 = Reverse resynchronizing mirror and vault relationships
 :icons: font

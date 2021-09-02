@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_application_provisioning_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'When setting up a basic or enhanced template for a database, server, or virtual desktop, you must provide details to System Manager. After an application is provisioned, you can edit the details and specify a resizing \(increased size only\). This section describes the fields in each template. Only the fields that are required for provisioning or editing the settings of the specific application are displayed.'
+keywords: application, provisioning, setting, microsoft, sql, database, applications, san, mongodb, oracle, host, access, initiator, sap, hana, smb
+summary: "When setting up a basic or enhanced template for a database, server, or virtual desktop, you must provide details to System Manager. After an application is provisioned, you can edit the details and specify a resizing (increased size only). This section describes the fields in each template. Only the fields that are required for provisioning or editing the settings of the specific application are displayed."
 ---
 = Application provisioning settings
 :icons: font

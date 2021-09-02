@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_how_flash_cache_modules_work.html
 sidebar: sidebar
-keywords: 
-summary: 'Using Flash Cache modules improves the performance of a storage system. The impact of using Flash Cache modules is displayed on the Hardware Cache window.'
+keywords: flash, cache, module, storage, system, online, free, hardware
+summary: "Using Flash Cache modules improves the performance of a storage system. The impact of using Flash Cache modules is displayed on the Hardware Cache window."
 ---
 = How Flash Cache modules work
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_storage_tiers_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Storage Tiers window to view cluster-wide space details and to add and view aggregate details.'
+keywords: online, help, storage, tier, window, command, button
+summary: "You can use the Storage Tiers window to view cluster-wide space details and to add and view aggregate details."
 ---
 = Storage Tiers window
 :icons: font

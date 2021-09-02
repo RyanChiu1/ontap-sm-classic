@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_nvme_subsystem_details.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit the details of an NVMe subsystem.'
+keywords: edit, nvme, subsystem, details, online, help
+summary: "You can use System Manager to edit the details of an NVMe subsystem."
 ---
 = Editing NVMe subsystems details
 :icons: font

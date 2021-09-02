@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_assigning_disks_to_nodes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to assign ownership of an unassigned disk to a specific node to increase the capacity of an aggregate or storage pool.'
+keywords: system, manager, assign, disk, node, online, help
+summary: "You can use System Manager to assign ownership of an unassigned disk to a specific node to increase the capacity of an aggregate or storage pool."
 ---
 = Assigning disks to nodes
 :icons: font

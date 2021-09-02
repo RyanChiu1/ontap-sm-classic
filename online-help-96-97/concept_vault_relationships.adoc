@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_vault_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create and manage vault relationships by using the vault policy.'
+keywords: system, manager, create, manager, vault, policy, online, help
+summary: "You can use System Manager to create and manage vault relationships by using the vault policy."
 ---
 = Vault relationships
 :icons: font

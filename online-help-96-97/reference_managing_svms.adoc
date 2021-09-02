@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_managing_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'A storage virtual machine \(SVM\) administrator can administer SVMs and their resources, such as volumes, protocols, and services, depending on the capabilities assigned by the cluster administrator. An SVM administrator cannot create, modify, or delete SVMs.'
+keywords: storage, virtual, machine, svm, administrator, system, manager, online, help
+summary: "A storage virtual machine (SVM) administrator can administer SVMs and their resources, such as volumes, protocols, and services, depending on the capabilities assigned by the cluster administrator. An SVM administrator cannot create, modify, or delete SVMs."
 ---
 = Managing SVMs
 :icons: font

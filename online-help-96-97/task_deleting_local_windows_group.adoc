@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_local_windows_group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete a local Windows group from a storage virtual machine \(SVM\) if the group is no longer required for determining access rights to the data contained on the SVM or for assigning SVM user rights \(privileges\) to group members.'
+keywords: delete, local, windows, group, systems, manager, online, help, svm, rights
+summary: "You can use System Manager to delete a local Windows group from a storage virtual machine (SVM) if the group is no longer required for determining access rights to the data contained on the SVM or for assigning SVM user rights (privileges) to group members."
 ---
 = Deleting a local Windows group
 :icons: font

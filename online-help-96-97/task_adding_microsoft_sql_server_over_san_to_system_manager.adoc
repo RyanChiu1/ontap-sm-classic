@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_microsoft_sql_server_over_san_to_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Enhanced tab to add an instance of Microsoft SQL Server over SAN to System Manager.'
+keywords: add, microsoft, sql, server, san, system, manager, online, help, enhanced, tab
+summary: "You can use the Enhanced tab to add an instance of Microsoft SQL Server over SAN to System Manager."
 ---
 = Adding Microsoft SQL Server over SAN to System Manager
 :icons: font

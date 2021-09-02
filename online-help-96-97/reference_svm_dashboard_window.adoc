@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_svm_dashboard_window.html
 sidebar: sidebar
-keywords: SVMs
-summary: 'The dashboard provides a cumulative at-a-glance information about your storage virtual machine \(SVM\) and its performance. You can use the Dashboard window to view important information related to your SVM such as the protocols configured, the volumes that are nearing capacity, and the performance.'
+keywords: svm, dashboard, detail, online, help
+summary: "The dashboard provides a cumulative at-a-glance information about your storage virtual machine (SVM) and its performance. You can use the Dashboard window to view important information related to your SVM such as the protocols configured, the volumes that are nearing capacity, and the performance."
 ---
 = SVM Dashboard window
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_cloud_tier_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add, edit, and delete cloud tiers and to view cloud tier details.'
+keywords: cloud, tier, window, command, button, online, help
+summary: "You can use System Manager to add, edit, and delete cloud tiers and to view cloud tier details."
 ---
 = Cloud Tier window
 :icons: font

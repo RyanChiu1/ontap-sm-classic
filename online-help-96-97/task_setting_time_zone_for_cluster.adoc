@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_time_zone_for_cluster.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: ''
+keywords: system, manager, set, up, time, zone, cluster, modify, server, ntp
+summary: "You can manually set or modify the time zone for a cluster by using the Edit Date and Time dialog box in System Manager. You can also add time servers to the cluster."
 ---
 = Setting the time zone for a cluster
 :icons: font

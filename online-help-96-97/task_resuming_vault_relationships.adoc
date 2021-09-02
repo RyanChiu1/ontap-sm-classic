@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_resuming_vault_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can resume a quiesced vault relationship by using System Manager. When you resume the relationship, normal data transfer to the destination FlexVol volume is resumed and all vault activities are restarted.'
+keywords: resume, vault, relationship, online, help, system, manager, data, transfer
+summary: "You can resume a quiesced vault relationship by using System Manager. When you resume the relationship, normal data transfer to the destination FlexVol volume is resumed and all vault activities are restarted."
 ---
 = Resuming a vault relationship
 :icons: font

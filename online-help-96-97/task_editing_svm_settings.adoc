@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_svm_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit the properties of storage virtual machines \(SVMs\), such as the name service switch, name mapping switch, and aggregate list.'
+keywords: online, help, system, manager, edit, svm, settings
+summary: "You can use System Manager to edit the properties of storage virtual machines (SVMs), such as the name service switch, name mapping switch, and aggregate list."
 ---
 = Editing SVM settings
 :icons: font
@@ -41,6 +41,7 @@ System Manager displays the name service switch and the name mapping switch of a
 . In the *Details* tab, modify the required data protocols.
 . In the *Resource Allocation* tab, choose one of the following methods to delegate volume creation:
 +
+[options="header"]
 |===
 | If you want to provision volume creation...| Then...
 a|
@@ -54,7 +55,6 @@ a|
  .. Select the *Delegate volume creation* option.
  .. Select the required aggregates for delegating volume creation.
 
-+
 |===
 
 . In the *Service* tab, specify the name service switch sources for the required database types and the order in which they should be consulted to retrieve name service information.

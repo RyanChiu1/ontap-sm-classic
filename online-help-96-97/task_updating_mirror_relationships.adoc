@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_updating_mirror_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can initiate an unscheduled mirror update of the destination. You might have to perform a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.'
+keywords: online, help, update, mirror, relationship, unscheduled
+summary: "You can initiate an unscheduled mirror update of the destination. You might have to perform a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration."
 ---
 = Updating mirror relationships
 :icons: font

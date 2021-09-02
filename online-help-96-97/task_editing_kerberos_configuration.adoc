@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_kerberos_configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to enable Kerberos and to edit a Kerberos configuration that is associated with a storage virtual machine \(SVM\),which enables the SVM to use Kerberos security services for NFS.'
+keywords: edit, kerberos, configuration, system, manager, online, help
+summary: "You can use System Manager to enable Kerberos and to edit a Kerberos configuration that is associated with a storage virtual machine (SVM),which enables the SVM to use Kerberos security services for NFS."
 ---
 = Editing Kerberos configuration
 :icons: font
@@ -37,8 +37,8 @@ If you are using Microsoft Active Directory Kerberos, the first 15 characters of
 
 *Related information*
 
-link:NetApp Technical Report 4067: NFS in NetApp ONTAPhttps://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf[NetApp Technical Report 4067: NFS in NetApp ONTAP]
+link:https://www.netapp.com/pdf.html?item=/media/10720-tr-4067.pdf[NetApp Technical Report 4067: NFS in NetApp ONTAP]
 
-link:NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directoryhttps://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf[NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directory]
+link:https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf[NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directory]
 
-link:NetApp Technical Report 4835: How to Configure LDAP in ONTAPhttps://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf[NetApp Technical Report 4835: How to Configure LDAP in ONTAP]
+link:https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf[NetApp Technical Report 4835: How to Configure LDAP in ONTAP]

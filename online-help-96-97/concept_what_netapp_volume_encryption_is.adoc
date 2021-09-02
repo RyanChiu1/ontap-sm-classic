@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_what_netapp_volume_encryption_is.html
 sidebar: sidebar
-keywords: NetApp Volume Encryption
-summary: 'NetApp Volume Encryption is the process of protecting the user data, including the metadata, by encrypting the data before storing it on the disk. The data is decrypted and provided to the user only after proper authentication is provided.'
+keywords: netApp, volume, encryption, online, help
+summary: "NetApp Volume Encryption is the process of protecting the user data, including the metadata, by encrypting the data before storing it on the disk. The data is decrypted and provided to the user only after proper authentication is provided."
 ---
 = What NetApp Volume Encryption is
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_dns_configurations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add host information to centrally manage DNS configurations. You can modify the DNS details when you want to change the domain names or IP addresses.'
+keywords: edit, dns, configurations, online, help, system, manager
+summary: "You can use System Manager to add host information to centrally manage DNS configurations. You can modify the DNS details when you want to change the domain names or IP addresses."
 ---
 = Editing DNS configurations
 :icons: font

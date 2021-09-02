@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_reassigning_disks_to_nodes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to reassign the ownership of spare disks from one node to another node to increase the capacity of an aggregate or storage pool.'
+keywords: system, manager, reassign, disks, node, online, help, node, aggregate, storage, pool
+summary: "You can use System Manager to reassign the ownership of spare disks from one node to another node to increase the capacity of an aggregate or storage pool."
 ---
 = Reassigning disks to nodes
 :icons: font

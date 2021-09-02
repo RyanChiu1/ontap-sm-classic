@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_autosupport.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable or disable AutoSupport settings on your storage system by using System Manager. AutoSupport messages enable you to monitor your storage system health or send notifications to technical support and your internal support organization.'
+keywords: enable, disable, autosupport, settings, online, help
+summary: "You can enable or disable AutoSupport settings on your storage system by using System Manager. AutoSupport messages enable you to monitor your storage system health or send notifications to technical support and your internal support organization."
 ---
 = Enabling or disabling AutoSupport settings
 :icons: font

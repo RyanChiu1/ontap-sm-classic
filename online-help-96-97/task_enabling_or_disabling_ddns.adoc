@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_ddns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to enable or disable DDNS on a storage system.'
+keywords: enable, disable, ddns, storage, system, manager, online, help
+summary: "You can use System Manager to enable or disable DDNS on a storage system."
 ---
 = Enabling or disabling DDNS
 :icons: font

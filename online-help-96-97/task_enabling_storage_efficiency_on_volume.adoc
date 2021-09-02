@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_enabling_storage_efficiency_on_volume.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'You can use System Manager to enable storage efficiency and to configure both deduplication and data compression or only deduplication on a volume to save storage space. If you have not enabled storage efficiency when you created the volume, you can do so later by editing the volume.'
+keywords: system, manager, enable, storage, efficiency, volume, deduplication, online, help
+summary: "You can use System Manager to enable storage efficiency and to configure both deduplication and data compression or only deduplication on a volume to save storage space. If you have not enabled storage efficiency when you created the volume, you can do so later by editing the volume."
 ---
 = Enabling storage efficiency on a volume
 :icons: font
@@ -32,6 +32,7 @@ You can use System Manager to enable storage efficiency and to configure both de
 . Select the *Background Deduplication* check box.
 . Select one of the following methods to run deduplication:
 +
+[options="header"]
 |===
 | If you want to run deduplication...| Then...
 a|

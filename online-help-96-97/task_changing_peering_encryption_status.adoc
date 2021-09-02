@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_changing_peering_encryption_status.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to change the peering encryption status for the selected cluster.'
+keywords: change, peer, encryption, status, system, manager, cluster, online, help
+summary: "You can use System Manager to change the peering encryption status for the selected cluster."
 ---
 = Changing the peering encryption status
 :icons: font

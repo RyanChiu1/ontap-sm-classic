@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_mirror_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule.'
+keywords: system, manager, edit, mirror, relationships, online, help
+summary: "You can use System Manager to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule."
 ---
 = Editing mirror relationships
 :icons: font
@@ -23,6 +23,7 @@ You can use System Manager to edit a mirror relationship either by selecting an 
 . Select the mirror relationship for which you want to modify the policy or schedule, and then click *Edit*.
 . In the *Edit Relationship* dialog box, select an existing policy or create a policy:
 +
+[options="header"]
 |===
 | If you want to...| Do the following...
 a|
@@ -43,11 +44,11 @@ Low indicates that the transfer has the least priority and is usually scheduled 
  .. Select the *Enable Network Compression* check box to compress the data that is being transferred.
  .. Click *Create*.
 
-+
 |===
 
 . Specify a schedule for the relationship:
 +
+[options="header"]
 |===
 | If...| Do the following...
 a|

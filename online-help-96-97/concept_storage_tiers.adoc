@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_storage_tiers.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create aggregates to support the different security requirements, backup requirements, performance requirements, and data sharing requirements of your users.'
+keywords: system, manager, storage, tiers, aggregates, security, requirements, backup, performance, data, sharing, online, help
+summary: "You can use System Manager to create aggregates to support the different security requirements, backup requirements, performance requirements, and data sharing requirements of your users."
 ---
 = Storage tiers
 :icons: font

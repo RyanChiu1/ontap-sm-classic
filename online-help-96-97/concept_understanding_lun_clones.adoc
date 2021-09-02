@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_understanding_lun_clones.html
 sidebar: sidebar
-keywords: 
-summary: 'LUN clones are writable, space-efficient clones of parent LUNs. Creating LUN clones is highly space-efficient and time-efficient because the cloning operation does not involve physically copying any data. Clones help in space storage utilization of the physical aggregate space.'
+keywords: understand, lun, clone, parent, create, online, help
+summary: "LUN clones are writable, space-efficient clones of parent LUNs. Creating LUN clones is highly space-efficient and time-efficient because the cloning operation does not involve physically copying any data. Clones help in space storage utilization of the physical aggregate space."
 ---
 = Understanding LUN clones
 :icons: font

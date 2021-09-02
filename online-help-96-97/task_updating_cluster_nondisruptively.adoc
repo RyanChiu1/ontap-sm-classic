@@ -1,7 +1,7 @@
 ---
 permalink: online-help-96-97/task_updating_cluster_nondisruptively.html
 sidebar: sidebar
-keywords: nondisruptive upgrades,NDU
+keywords: nondisruptive, upgrades, NDU, cluster, system, manager, online, help
 summary: 'You can use System Manager to update a cluster or individual nodes in high-availability \(HA\) pairs that are running ONTAP 8.3.1 or later to a specific version of ONTAP software without disrupting access to client data.'
 ---
 = Updating a cluster nondisruptively
@@ -48,6 +48,7 @@ This feature is not available in MetroCluster configurations.
 . Click *Configuration* > *Cluster* > *Update*.
 . In the *Update* tab, add a new image or select an available image.
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|

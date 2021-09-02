@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_testing_autosupport.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the AutoSupport Test dialog box in System Manager to test that you have configured the AutoSupport settings correctly.'
+keywords: test, autosupport, setting, online, help, system, manager
+summary: "You can use the AutoSupport Test dialog box in System Manager to test that you have configured the AutoSupport settings correctly."
 ---
 = Testing AutoSupport settings
 :icons: font

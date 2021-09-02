@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_changing_raid_configuration_when_creating_aggregate.html
 sidebar: sidebar
-keywords: 
-summary: 'While creating an aggregate, you can modify the default values of the RAID type and RAID group size options of the aggregate by using System Manager.'
+keywords: system, manager, raid, configuration, aggregate, online, help
+summary: "While creating an aggregate, you can modify the default values of the RAID type and RAID group size options of the aggregate by using System Manager."
 ---
 = Changing the RAID configuration when creating an aggregate
 :icons: font

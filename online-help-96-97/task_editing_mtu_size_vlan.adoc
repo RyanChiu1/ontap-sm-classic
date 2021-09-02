@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_mtu_size_vlan.html
 sidebar: sidebar
-keywords: 
-summary: 'If you want to modify the MTU size of a VLAN interface that is not part of a broadcast domain, you can use System Manager to change the size.'
+keywords: modify, mtu, size, vlan, system, manager, online, help
+summary: "If you want to modify the MTU size of a VLAN interface that is not part of a broadcast domain, you can use System Manager to change the size."
 ---
 = Modifying the MTU size of a VLAN
 :icons: font

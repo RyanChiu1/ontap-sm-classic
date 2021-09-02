@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_local_windows_group_properties.html
 sidebar: sidebar
-keywords: 
-summary: 'You can manage local group memberships by adding and removing a local user,an Active Directory user, or an Active Directory group by using System Manager. You can modify the privileges that are assigned to a group and the description of a group to easily identify the group.'
+keywords: online, help, edit, local, windows, group, properties, active, directory
+summary: "You can manage local group memberships by adding and removing a local user, an Active Directory user, or an Active Directory group by using System Manager. You can modify the privileges that are assigned to a group and the description of a group to easily identify the group."
 ---
 = Editing local Windows group properties
 :icons: font

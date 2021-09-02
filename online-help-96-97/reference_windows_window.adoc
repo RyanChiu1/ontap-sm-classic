@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_windows_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Windows window to maintain a list of local Windows users and groups for each storage virtual machine \(SVM\) on the cluster. You can use the local Windows users and groups for authentication and name mappings.'
+keywords: storage, virtual, machine, svm, cluster, online, help, user, tab, command, buttons, group
+summary: "You can use the Windows window to maintain a list of local Windows users and groups for each storage virtual machine (SVM) on the cluster. You can use the local Windows users and groups for authentication and name mappings."
 ---
 = Windows window
 :icons: font
@@ -10,9 +10,6 @@ summary: 'You can use the Windows window to maintain a list of local Windows use
 
 [.lead]
 You can use the Windows window to maintain a list of local Windows users and groups for each storage virtual machine (SVM) on the cluster. You can use the local Windows users and groups for authentication and name mappings.
-
-* <<GUID-8022D8F7-4C23-4EF9-A3C7-1DD1B91DDE5E,Users tab>>
-* <<GUID-BCF855D4-D7AA-4BD1-85EA-62CC29A2CBD6,Groups tab>>
 
 == Users tab
 

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_flash_pool_aggregate_manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate.'
+keywords: provision, system, manager, storage, create, flash, pool, aggregate, manually, online, help, hdd
+summary: "You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate."
 ---
 = Provisioning storage by creating a Flash Pool aggregate manually
 :icons: font
@@ -38,6 +38,7 @@ For MetroCluster configurations, creating unmirrored aggregates is restricted. T
 . Click *Use Flash Pool Cache with this aggregate*.
 . Specify the cache source:
 +
+[options="header"]
 |===
 | If you want to select the cache source as...| Then...
 a|
@@ -59,7 +60,6 @@ a|
   ... In the Change RAID Configuration dialog box, specify the RAID type and the RAID group size.
   ... Click *Save*.
 
-+
 |===
 
 . Click *Create*.

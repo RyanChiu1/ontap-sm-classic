@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_broadcast_domains.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a broadcast domain by using System Manager to provide a logical division of a computer network. In a broadcast domain, all associated nodes can be reached through broadcast at the datalink layer.'
+keywords: online, help, create, broadcast, domain, system, manager
+summary: "You can create a broadcast domain by using System Manager to provide a logical division of a computer network. In a broadcast domain, all associated nodes can be reached through broadcast at the datalink layer."
 ---
 = Creating broadcast domains
 :icons: font

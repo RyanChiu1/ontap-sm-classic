@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_ldap_client_configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add an LDAP client configuration at the cluster level or the storage virtual machine \(SVM\) level if you want to use LDAP services. You must first set up an LDAP client to use LDAP services.'
+keywords: online, help, system, manager, ldap, online, help, cluster, level, storage, virtual, machine, client, configuration
+summary: "You can use System Manager to add an LDAP client configuration at the cluster level or the storage virtual machine (SVM) level if you want to use LDAP services. You must first set up an LDAP client to use LDAP services."
 ---
 = Adding an LDAP client configuration
 :icons: font

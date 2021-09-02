@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_aggregates.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to change the aggregate name, RAID type, and RAID group size of an existing aggregate when required.'
+keywords: online, help, edit, aggregates, raid, type, group, size, online, help
+summary: "You can use System Manager to change the aggregate name, RAID type, and RAID group size of an existing aggregate when required."
 ---
 = Editing aggregates
 :icons: font

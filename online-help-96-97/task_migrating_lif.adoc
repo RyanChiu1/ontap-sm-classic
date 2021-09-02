@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_migrating_lif.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to migrate a data LIF or a cluster management LIF to a different port on the same node or on a different node within the cluster if the source port is faulty or requires maintenance.'
+keywords: migrate, lif, system, manager, cluster, management, data, online, help
+summary: "You can use System Manager to migrate a data LIF or a cluster management LIF to a different port on the same node or on a different node within the cluster if the source port is faulty or requires maintenance."
 ---
 = Migrating a LIF
 :icons: font

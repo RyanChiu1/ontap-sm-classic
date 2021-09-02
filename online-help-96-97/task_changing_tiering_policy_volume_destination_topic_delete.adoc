@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_changing_tiering_policy_volume_destination_topic_delete.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to change the default tiering policy of a volume to control whether the data of the volume is moved to the cloud tier when the data becomes inactive.'
+keywords: change, tiering, policy, system, manager, volume, online, help
+summary: "You can use System Manager to change the default tiering policy of a volume to control whether the data of the volume is moved to the cloud tier when the data becomes inactive."
 ---
 = Changing the tiering policy of a volume
 :icons: font

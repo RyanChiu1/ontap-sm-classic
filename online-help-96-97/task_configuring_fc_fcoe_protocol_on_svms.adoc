@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_configuring_fc_fcoe_protocol_on_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure the FC protocol and the FCoE protocol on the storage virtual machine \(SVM\) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to port sets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager.'
+keywords: online, help, configure, fc, protocol, fcoe, svm, online, help, system, manager
+summary: "You can configure the FC protocol and the FCoE protocol on the storage virtual machine (SVM) for SAN hosts. LIFs are created on the most suitable adapters and are assigned to port sets to ensure data path redundancy. Based on your requirements, you can configure either the FC protocol or the FCoE protocols, or both the protocols by using System Manager."
 ---
 = Configuring FC protocol and FCoE protocol on SVMs
 :icons: font

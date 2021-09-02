@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_node_management_logical_interface.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a dedicated node management logical interface \(LIF\) for managing a particular node in a cluster. You can use this LIF to manage the system maintenance activities of the node.'
+keywords: system, manager, create, node, management, logical, interface, online, help
+summary: "You can use System Manager to create a dedicated node management logical interface (LIF) for managing a particular node in a cluster. You can use this LIF to manage the system maintenance activities of the node."
 ---
 = Creating a node management logical interface
 :icons: font
@@ -18,6 +18,7 @@ You can use System Manager to create a dedicated node management logical interfa
 . In the *Create Node-Management LIF* dialog box, specify a name for the node management LIF.
 . Assign the IP address to the node management LIF:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -51,7 +52,6 @@ If you do not specify a value, the Destination field is populated with the defau
 If a route does not exist, a new route is automatically created based on the gateway and destination.
  .. Click *OK*.
 
-+
 |===
 
 . Select the required ports from the *Ports details* area.

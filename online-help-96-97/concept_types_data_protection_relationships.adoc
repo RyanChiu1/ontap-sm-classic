@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_types_data_protection_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'Depending on your data protection and backup requirements, ONTAP System Manager provides different types of protection relationships that enable you to protect data against accidental, malicious, or disaster-induced loss of data.'
+keywords: data, protection, relationship, asynchronous, replication, type, sychronous, online, help
+summary: "Depending on your data protection and backup requirements, ONTAP System Manager provides different types of protection relationships that enable you to protect data against accidental, malicious, or disaster-induced loss of data."
 ---
 = Types of data protection relationships
 :icons: font

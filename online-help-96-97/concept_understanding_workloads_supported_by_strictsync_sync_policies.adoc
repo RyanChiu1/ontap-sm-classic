@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_understanding_workloads_supported_by_strictsync_sync_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'StrictSync and Sync policies support all LUN-based applications with FC, iSCSI, and FC-NVMe protocols, as well as NFSv3 and NFSv4 protocols for enterprise applications such as databases, VMWare, quota, CIFS, and so on. Starting with ONTAP 9.6, SnapMirror Synchronous can be used for enterprise file services such as electronic design automation \(EDA\), home directories, and software build workloads.'
+keywords: understand, workload, strictsync, sync, policy, nfsv3, nfsv4, fc, iscsi, nvme, online, help
+summary: "StrictSync and Sync policies support all LUN-based applications with FC, iSCSI, and FC-NVMe protocols, as well as NFSv3 and NFSv4 protocols for enterprise applications such as databases, VMWare, quota, CIFS, and so on. Starting with ONTAP 9.6, SnapMirror Synchronous can be used for enterprise file services such as electronic design automation (EDA), home directories, and software build workloads."
 ---
 = Understanding workloads supported by StrictSync and Sync policies
 :icons: font

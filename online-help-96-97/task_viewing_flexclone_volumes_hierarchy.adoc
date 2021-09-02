@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_viewing_flexclone_volumes_hierarchy.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to view the hierarchy of FlexClone volumes and their parent volumes.'
+keywords: flexclone, volume, system, manager, parent, volume, online, help
+summary: "You can use System Manager to view the hierarchy of FlexClone volumes and their parent volumes."
 ---
 = Viewing the FlexClone volume hierarchy
 :icons: font

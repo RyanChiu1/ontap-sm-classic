@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_dns_ddns_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The DNS/DDNS Services window enables you to view and edit the current DNS and DDNS settings for your system.'
+keywords: dns, ddns, services, window, command, button, online, help
+summary: "The DNS/DDNS Services window enables you to view and edit the current DNS and DDNS settings for your system."
 ---
 = DNS/DDNS Services window
 :icons: font

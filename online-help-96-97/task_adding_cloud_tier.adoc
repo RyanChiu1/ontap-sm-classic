@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_adding_cloud_tier.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add a cloud tier to an SSD aggregate or a virtual machine disk \(VMDK\) aggregate. Cloud tiers provide storage for infrequently used data.'
+keywords: add, cloud, tier, system, manager, ssd, aggregate, online, help
+summary: "You can use System Manager to add a cloud tier to an SSD aggregate or a virtual machine disk (VMDK) aggregate. Cloud tiers provide storage for infrequently used data."
 ---
 = Adding a cloud tier
 :icons: font

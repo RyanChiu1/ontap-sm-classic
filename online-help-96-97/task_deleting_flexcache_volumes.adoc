@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_flexcache_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'Starting with System Manager 9.6, you can delete a FlexCache volume when you no longer require it.'
+keywords: delete, flexcache, volume, system, manager, online, help
+summary: "Starting with System Manager 9.6, you can delete a FlexCache volume when you no longer require it."
 ---
 = Deleting FlexCache volumes
 :icons: font

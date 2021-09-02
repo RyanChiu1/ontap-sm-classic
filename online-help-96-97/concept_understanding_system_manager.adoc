@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_understanding_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager is a graphical management interface that enables you to manage storage systems and storage objects \(such as disks, volumes, and aggregates\) and perform common management tasks related to storage systems from a web browser. As a cluster administrator, you can use System Manager to administer the entire cluster and its resources.'
+keywords: system, manager, online, help, management, interface, understand, cluster
+summary: "System Manager is a graphical management interface that enables you to manage storage systems and storage objects (such as disks, volumes, and aggregates) and perform common management tasks related to storage systems from a web browser. As a cluster administrator, you can use System Manager to administer the entire cluster and its resources."
 ---
 = Understanding System Manager
 :icons: font

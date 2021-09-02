@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_moving_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to move a LUN from its containing volume to another volume or qtree within a storage virtual machine \(SVM\). You can move the LUN to a volume that is hosted on an aggregate containing high-performance disks, thereby improving the performance when accessing the LUN.'
+keywords: move, lun, qtree, storage, virtual, machine, svm, online, help
+summary: "You can use System Manager to move a LUN from its containing volume to another volume or qtree within a storage virtual machine (SVM). You can move the LUN to a volume that is hosted on an aggregate containing high-performance disks, thereby improving the performance when accessing the LUN."
 ---
 = Moving LUNs
 :icons: font
@@ -29,6 +29,7 @@ You should use the CLI instead.
 . In the *Move Options* area of the *Move LUN* dialog box, specify a new name for the LUN if you want to change the default name.
 . Select the storage object to which you want to move the LUN and perform one of the following actions:
 +
+[options="header"]
 |===
 | If you want to move the LUN to...| Then...
 a|
@@ -45,7 +46,6 @@ a|
  .. Select a volume to which you want to move the LUN.
  .. If the selected volume contains any qtrees, select the qtree to which you want to move the LUN.
 
-+
 |===
 
 . Click *Move*.

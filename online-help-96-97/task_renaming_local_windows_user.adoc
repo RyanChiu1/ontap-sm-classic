@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_renaming_local_windows_user.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to rename a local Windows user account to identify the local user more easily.'
+keywords: rename, local, windows, user, system, manager, online, help
+summary: "You can use System Manager to rename a local Windows user account to identify the local user more easily."
 ---
 = Renaming a local Windows user
 :icons: font

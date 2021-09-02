@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_local_windows_user_accounts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine \(SVM\) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session.'
+keywords: create, local, windows, user, account, online, help, system, manager, svm, cifs
+summary: "You can use System Manager to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session."
 ---
 = Creating a local Windows user account
 :icons: font

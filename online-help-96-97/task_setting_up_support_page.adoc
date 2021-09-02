@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_support_page.html
 sidebar: sidebar
-keywords: 
-summary: 'Setting up the support page completes the cluster setup, and involves setting up event notifications, and for single-node clusters, configuring system backup.'
+keywords: set, up, support, page, cluster, setup, online, help
+summary: "Setting up the support page completes the cluster setup, and involves setting up event notifications, and for single-node clusters, configuring system backup."
 ---
 = Setting up a support page
 :icons: font

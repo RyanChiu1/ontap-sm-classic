@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_snmp_information.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Edit SNMP Settings dialog box in System Manager to update information about the storage system location and contact personnel, and to specify the SNMP communities of your system.'
+keywords: edit, snmp, information, edit, settings, system, manager, online, help
+summary: "You can use the Edit SNMP Settings dialog box in System Manager to update information about the storage system location and contact personnel, and to specify the SNMP communities of your system."
 ---
 = Editing SNMP information
 :icons: font

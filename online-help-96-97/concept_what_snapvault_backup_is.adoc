@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_what_snapvault_backup_is.html
 sidebar: sidebar
-keywords: baseline transfers,defined
-summary: 'A SnapVault backup is a collection of Snapshot copies on a FlexVol volume that you can restore data from if the primary data is not usable. Snapshot copies are created based on a Snapshot policy. The SnapVault backup backs up Snapshot copies based on its schedule and SnapVault policy rules.'
+keywords: baseline, transfer, defined, snapvault, snapshot, copy, online, help
+summary: "A SnapVault backup is a collection of Snapshot copies on a FlexVol volume that you can restore data from if the primary data is not usable. Snapshot copies are created based on a Snapshot policy. The SnapVault backup backs up Snapshot copies based on its schedule and SnapVault policy rules."
 ---
 = What a SnapVault backup is
 :icons: font

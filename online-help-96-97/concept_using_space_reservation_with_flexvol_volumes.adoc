@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_using_space_reservation_with_flexvol_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'Using space reservation, you can provision FlexVol volumes. Thin provisioning appears to provide more storage than is actually available from a given aggregate, as long as not all of that storage is currently being used.'
+keywords: space, reservation, flexvol, volume, online, help
+summary: "Using space reservation, you can provision FlexVol volumes. Thin provisioning appears to provide more storage than is actually available from a given aggregate, as long as not all of that storage is currently being used."
 ---
 = Using space reservations with FlexVol volumes
 :icons: font

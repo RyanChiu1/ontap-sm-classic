@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide “write once, read many” \(WORM\) capabilities.'
+keywords: system, manager, worm, provision, storage, create, snaplock, aggregate, online, help
+summary: "You can use System Manager to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide “write once, read many” (WORM) capabilities."
 ---
 = Provisioning storage by creating a SnapLock aggregate manually
 :icons: font

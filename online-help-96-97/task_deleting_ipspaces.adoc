@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_ipspaces.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete an IPspace when you no longer require the IPspace.'
+keywords: ipspace, delete, system, manager, online, help
+summary: "You can use System Manager to delete an IPspace when you no longer require the IPspace."
 ---
 = Deleting IPspaces
 :icons: font

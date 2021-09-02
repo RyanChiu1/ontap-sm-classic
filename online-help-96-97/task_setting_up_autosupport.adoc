@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_autosupport.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Edit AutoSupport Settings dialog box in System Manager to set up AutoSupport notifications by specifying an email address from which email notifications are sent and adding multiple email host names.'
+keywords: set, up, autosupport, notifications, online, help, settings, edit
+summary: "You can use the Edit AutoSupport Settings dialog box in System Manager to set up AutoSupport notifications by specifying an email address from which email notifications are sent and adding multiple email host names."
 ---
 = Setting up AutoSupport notifications
 :icons: font

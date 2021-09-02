@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_preparing_for_switchover_switchback_operations.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you perform switchover operations using System Manager 9.6, you should verify that the necessary steps have been performed on the affected site.'
+keywords: prepare, switchover, switchback, operation, system, manager, online, help
+summary: "Before you perform switchover operations using System Manager 9.6, you should verify that the necessary steps have been performed on the affected site."
 ---
 = Preparing for switchover and switchback operations
 :icons: font

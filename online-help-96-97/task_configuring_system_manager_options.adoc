@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_configuring_system_manager_options.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable logging and specify the inactivity timeout value for System Manager.'
+keywords: system, manager, configure, system, manager, option, online, help
+summary: "You can enable logging and specify the inactivity timeout value for System Manager."
 ---
 = Configuring System Manager options
 :icons: font

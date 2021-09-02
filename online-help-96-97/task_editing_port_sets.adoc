@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_port_sets.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Portsets tab in System Manager to edit settings related to port sets.'
+keywords: edit, port, set, portset, tab, system, manager, online, help
+summary: "You can use the Portsets tab in System Manager to edit settings related to port sets."
 ---
 = Editing port sets
 :icons: font

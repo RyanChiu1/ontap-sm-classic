@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_high_availability.html
 sidebar: sidebar
-keywords: 
-summary: 'The High Availability window provides a pictorial representation of the high-availability \(HA\) state, interconnect status, and takeover or giveback status of all of the HA pairs in ONTAP. You can also manually initiate a takeover operation or giveback operation by using the High Availability window.'
+keywords: high, availability, online, help, window, ha, pair, command, button
+summary: "The High Availability window provides a pictorial representation of the high-availability (HA) state, interconnect status, and takeover or giveback status of all of the HA pairs in ONTAP. You can also manually initiate a takeover operation or giveback operation by using the High Availability window."
 ---
 = High Availability window
 :icons: font

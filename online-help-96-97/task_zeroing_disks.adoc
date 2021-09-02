@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_zeroing_disks.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to erase all the data and to format the spare disks by writing zeros to the disk. These disks can then be used in new aggregates.'
+keywords: zero, spare, disks, system, manager, erase, data, online, help
+summary: "You can use System Manager to erase all the data and to format the spare disks by writing zeros to the disk. These disks can then be used in new aggregates."
 ---
 = Zeroing spare disks
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_creating_mirror_vault_relationship_from_destination_svm.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'You can use System Manager to create a mirror and vault relationship from the destination storage virtual machine \(SVM\). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. It also enables you to retain data for long periods by creating backups of the source volume.'
+keywords: system, manager, create, mirror, vault, relationship, destination, svm, online, help
+summary: "You can use System Manager to create a mirror and vault relationship from the destination storage virtual machine (SVM). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. It also enables you to retain data for long periods by creating backups of the source volume."
 ---
 = Creating a mirror and vault relationship from a destination SVM
 :icons: font

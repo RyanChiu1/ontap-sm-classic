@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_application_specific_lun_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager supports Oracle, SQL, and other application types while creating FC SAN optimized LUNs on an AFF cluster. LUN settings such as the LUN size are determined by rules specific to the application type. For SQL and Oracle, LUN settings are automatically created.'
+keywords: system, manager, oracle, sql, lun, application, specific, online, help
+summary: "System Manager supports Oracle, SQL, and other application types while creating FC SAN optimized LUNs on an AFF cluster. LUN settings such as the LUN size are determined by rules specific to the application type. For SQL and Oracle, LUN settings are automatically created."
 ---
 = Application-specific LUN settings
 :icons: font
@@ -26,6 +26,7 @@ By default, LUNs and volumes are provisioned for a single instance of the SQL se
 
 The following table provides information about how space is provisioned for the default values of SQL:
 
+[options="header"]
 |===
 | Node| Aggregate| LUN type| Volume name| LUN name| Formula for LUN size| LUN size (GB)
 a|
@@ -43,9 +44,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -57,9 +58,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -71,9 +72,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -85,9 +86,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -99,9 +100,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -113,9 +114,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -127,9 +128,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -141,9 +142,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 log
 a|
@@ -155,9 +156,9 @@ Database size ÷ 20
 a|
 50
 a|
- 
+
 a|
- 
+
 a|
 temp
 a|
@@ -183,9 +184,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -197,9 +198,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -211,9 +212,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -225,9 +226,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -239,9 +240,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -253,9 +254,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -267,9 +268,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -281,9 +282,9 @@ Database size ÷ 8
 a|
 125
 a|
- 
+
 a|
- 
+
 a|
 log
 a|
@@ -302,6 +303,7 @@ By default, LUNs and volumes are provisioned for one database of 2 TB. Space is 
 
 The following table provides information about how space is provisioned for the default values of Oracle:
 
+[options="header"]
 |===
 | Node| Aggregate| LUN type| Volume name| LUN name| Formula for LUN size| LUN size (GB)
 a|
@@ -319,9 +321,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -333,9 +335,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -347,9 +349,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -361,9 +363,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 log
 a|
@@ -375,9 +377,9 @@ Database size ÷ 40
 a|
 50
 a|
- 
+
 a|
- 
+
 a|
 binaries
 a|
@@ -403,9 +405,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -417,9 +419,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -431,9 +433,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -445,9 +447,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 log
 a|
@@ -463,6 +465,7 @@ For Oracle RAC, LUNs are provisioned for grid files. Only two RAC nodes are supp
 
 The following table provides information about how space is provisioned for the default values of Oracle RAC:
 
+[options="header"]
 |===
 | Node| Aggregate| LUN type| Volume name| LUN name| Formula for LUN size| LUN size (GB)
 a|
@@ -480,9 +483,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -494,9 +497,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -508,9 +511,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -522,9 +525,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 log
 a|
@@ -536,9 +539,9 @@ Database size ÷ 40
 a|
 50
 a|
- 
+
 a|
- 
+
 a|
 binaries
 a|
@@ -550,9 +553,9 @@ Database size ÷ 40
 a|
 50
 a|
- 
+
 a|
- 
+
 a|
 grid
 a|
@@ -578,9 +581,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -592,9 +595,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -606,9 +609,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 data
 a|
@@ -620,9 +623,9 @@ Database size ÷ 8
 a|
 250
 a|
- 
+
 a|
- 
+
 a|
 log
 a|
@@ -634,9 +637,9 @@ Database size ÷ 40
 a|
 50
 a|
- 
+
 a|
- 
+
 a|
 binaries
 a|

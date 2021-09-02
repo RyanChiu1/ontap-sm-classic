@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_why_you_use_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'SVMs provide data access to clients regardless of the physical storage or controller, similar to any storage system. SVMs provide benefits such as nondisruptive operations, scalability, security, and unified storage.'
+keywords: svm, data, access, nondisruptive, operation, scalability, security, online, help
+summary: "SVMs provide data access to clients regardless of the physical storage or controller, similar to any storage system. SVMs provide benefits such as nondisruptive operations, scalability, security, and unified storage."
 ---
 = Why you use SVMs
 :icons: font

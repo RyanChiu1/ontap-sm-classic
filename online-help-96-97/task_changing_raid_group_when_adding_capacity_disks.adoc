@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_changing_raid_group_when_adding_capacity_disks.html
 sidebar: sidebar
-keywords: 
-summary: 'While adding capacity disks \(HDDs\) to an aggregate, you can change the RAID group to which you want to add the disks by using System Manager.'
+keywords: change, raid, group, add, capacity, disk, online, help, hdd
+summary: "While adding capacity disks (HDDs) to an aggregate, you can change the RAID group to which you want to add the disks by using System Manager."
 ---
 = Changing the RAID group when adding capacity disks
 :experimental:

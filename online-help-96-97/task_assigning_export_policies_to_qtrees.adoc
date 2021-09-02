@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_assigning_export_policies_to_qtrees.html
 sidebar: sidebar
-keywords: 
-summary: 'Instead of exporting an entire volume, you can export a specific qtree on a volume to make it directly accessible to clients. You can use System Manager to export a qtree by assigning an export policy to the qtree. You can assign an export policy to one or more qtrees from the Qtrees window.'
+keywords: assign, export, policies, qtrees, online, help, system, manager
+summary: "Instead of exporting an entire volume, you can export a specific qtree on a volume to make it directly accessible to clients. You can use System Manager to export a qtree by assigning an export policy to the qtree. You can assign an export policy to one or more qtrees from the Qtrees window."
 ---
 = Assigning export policies to qtrees
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_network_when_ip_address_range_is_enabled.html
 sidebar: sidebar
-keywords: 
-summary: 'You can set up a network by enabling an IP address range. The IP address range enables you to enter IP addresses that are in the same netmask range or in the different netmask range.'
+keywords: setp, up, network, ip, address, range, enable, online, help
+summary: "You can set up a network by enabling an IP address range. The IP address range enables you to enter IP addresses that are in the same netmask range or in the different netmask range."
 ---
 = Setting up a network when an IP address range is enabled
 :icons: font
@@ -15,6 +15,7 @@ You can set up a network by enabling an IP address range. The IP address range e
 
 . Enter a range of IP addresses in the *IP Address Range* field, and then click *Apply*.
 +
+[options="header"]
 |===
 | Option| Description
 a|
@@ -25,7 +26,7 @@ a|
 You have a range of IP addresses in different netmasks
 a|
 Enter each IP address range on a separate line, and then click *Apply*.     The first IP address applied to cluster management and other IP addresses are applied to node management and Service Processor management networks sequentially.
-+
+
 |===
 +
 [NOTE]

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_starting_or_stopping_nvme_service.html
 sidebar: sidebar
-keywords: 
-summary: 'The NVMe service enables you to manage NVMe adapters for use with namespaces. You can use System Manager to start the NVMe service to bring the adapters online. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces.'
+keywords: start, stop, nvme, service, online, help, adaptor, namespace
+summary: "The NVMe service enables you to manage NVMe adapters for use with namespaces. You can use System Manager to start the NVMe service to bring the adapters online. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces."
 ---
 = Starting and stopping the NVMe service
 :icons: font
