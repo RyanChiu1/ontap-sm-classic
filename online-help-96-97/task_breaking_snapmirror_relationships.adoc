@@ -2,7 +2,7 @@
 permalink: online-help-96-97/task_breaking_snapmirror_relationships.html
 sidebar: sidebar
 keywords: snapmirror, break, relationship, dp, rw, online, help
-summary: "You must break a SnapMirror relationship if a SnapMirror source becomes unavailable and you want client applications to be able to access the data from the mirror destination. After the SnapMirror relationship is broken, the destination volume type changes from "data protection" (DP) to "read/write" (RW)."
+summary: "You must break a SnapMirror relationship if a SnapMirror source becomes unavailable and you want client applications to be able to access the data from the mirror destination."
 ---
 = Breaking SnapMirror relationships
 :icons: font
