@@ -1,0 +1,21 @@
+sidebar:
+  entries:
+    - section: nfs-config
+    - section: nfs-config-esxi
+    - section: nas-multiprotocol-config
+    - section: smb-config
+    - section: fc-config-esxi
+    - section: fc-config-rhel
+    - section: fc-config-window
+    - section: iscsi-config-esxi
+    - section: iscsi-config-rhel
+    - section: iscsi-config-window
+    - section: peering
+    - section: volume-disaster-recovery
+    - section: volume-disaster-prep
+    - section: volume-backup-snapvault
+    - section: volume-restore-snapvault
+    - section: expansion
+    - section: volume-move
+    - section: snmp-config
+    - section: online-help-96-97 

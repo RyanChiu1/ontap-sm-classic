@@ -1,0 +1,47 @@
+section: smb-config
+title: SMB/CIFS configuration
+entries:
+    - title: Overview
+      url: "/smb-config/concept_smb_config_overview.html"
+    - title: SMB/CIFS configuration workflow
+      url: "/smb-config/concept_cifs_nfs_configuration_workflow.html"
+      entries:
+      - title: Creating an aggregate
+        url: "/smb-config/task_creating_aggregate.html"
+      - title: Deciding where to provision the new volume
+        url: "/smb-config/task_deciding_where_to_provision_new_volume.html"
+    - title: Creating a new CIFS-enabled SVM
+      url: "/smb-config/task_creating_protocol_enabled_svm.html"
+      entries:
+      - title: Creating a new SVM with a CIFS volume and share
+        url: "/smb-config/task_creating_new_svm.html"
+      - title: Mapping the SMB server on the DNS server
+        url: "/smb-config/task_mapping_smb_server_dns_server.html"
+      - title: Verifying SMB client access
+        url: "/smb-config/task_verifying_smb_client_access.html"
+      - title: Configuring and verifying CIFS client access
+        url: "/smb-config/task_configuring_verifying_client_access.html"
+    - title: Configuring SMB/CIFS access to an existing SVM
+      url: "/smb-config/task_configuring_access_to_existing_svm.html"
+      entries:
+      - title: Adding CIFS access to an existing SVM
+        url: "/smb-config/concept_adding_nas_access_to_existing_svm.html"
+      - title: Mapping the SMB server on the DNS server
+        url: "/smb-config/task_mapping_smb_server_dns_server.html"
+      - title: Verifying SMB client access
+        url: "/smb-config/task_verifying_smb_client_access.html"
+      - title: Configuring and verifying CIFS client access
+        url: "/smb-config/task_configuring_verifying_client_access.html"
+    - title: Adding a CIFS volume to a CIFS-enabled SVM
+      url: "/smb-config/concept_adding_protocol_volume_to_protocol_enabled_svm.html"
+      entries:
+      - title: Creating and configuring a volume
+        url: "/smb-config/task_creating_configuring_volume.html"
+      - title: Creating a share and setting its permissions
+        url: "/smb-config/task_creating_share_setting_its_permissions.html"
+      - title: Verifying SMB client access
+        url: "/smb-config/task_verifying_smb_client_access.html"
+      - title: Configuring and verifying CIFS client access
+        url: "/smb-config/task_configuring_verifying_client_access.html"
+    - title: Where to find additional information
+      url: "/smb-config/reference_where_to_find_additional_information.html"
