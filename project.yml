@@ -13,7 +13,7 @@ sidebar:
     - section: fc-config-windows
     - section: iscsi-config-esxi
     - section: iscsi-config-rhel
-    - section: iscsi-config-window
+    - section: iscsi-config-windows
     - section: peering
     - section: volume-disaster-recovery
     - section: volume-disaster-prep
