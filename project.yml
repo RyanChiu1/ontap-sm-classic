@@ -10,7 +10,7 @@ sidebar:
     - section: smb-config
     - section: fc-config-esxi
     - section: fc-config-rhel
-    - section: fc-config-window
+    - section: fc-config-windows
     - section: iscsi-config-esxi
     - section: iscsi-config-rhel
     - section: iscsi-config-window
