@@ -1,5 +1,9 @@
+homepage:
+
 sidebar:
   entries:
+    - title: Home
+      url: /index.html
     - section: nfs-config
     - section: nfs-config-esxi
     - section: nas-multiprotocol-config
@@ -18,4 +22,4 @@ sidebar:
     - section: expansion
     - section: volume-move
     - section: snmp-config
-    - section: online-help-96-97 
+    - section: online-help-96-97
