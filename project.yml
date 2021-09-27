@@ -4,22 +4,30 @@ sidebar:
   entries:
     - title: Home
       url: /index.html
-    - section: nfs-config
-    - section: nfs-config-esxi
-    - section: nas-multiprotocol-config
-    - section: smb-config
-    - section: fc-config-esxi
-    - section: fc-config-rhel
-    - section: fc-config-windows
-    - section: iscsi-config-esxi
-    - section: iscsi-config-rhel
-    - section: iscsi-config-windows
-    - section: peering
-    - section: volume-disaster-recovery
-    - section: volume-disaster-prep
-    - section: volume-backup-snapvault
-    - section: volume-restore-snapvault
-    - section: expansion
-    - section: volume-move
-    - section: snmp-config
-    - section: online-help-96-97
+    - title: Provision NAS storage
+      entries:
+      - section: nfs-config
+      - section: nfs-config-esxi
+      - section: nas-multiprotocol-config
+      - section: smb-config
+    - title: Provision SAN storage
+      entries:
+      - section: fc-config-esxi
+      - section: fc-config-rhel
+      - section: fc-config-windows
+      - section: iscsi-config-esxi
+      - section: iscsi-config-rhel
+      - section: iscsi-config-windows
+    - title: Data protection and disaster recovery
+      entries:
+      - section: peering
+      - section: volume-disaster-recovery
+      - section: volume-disaster-prep
+      - section: volume-backup-snapvault
+      - section: volume-restore-snapvault
+    - title: Cluster administration
+      entries:
+      - section: expansion
+      - section: volume-move
+      - section: snmp-config
+      - section: online-help-96-97
