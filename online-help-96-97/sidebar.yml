@@ -2,7 +2,7 @@ section: online-help-96-97
 title: Cluster management using System Manager 9.6 and 9.7
 entries:
     - title: Understanding System Manager
-      url: "/online-help-96-97/concept_understanding_system_manager.html"
+      url: "/online-help-96-97/index.html"
     - title: Icons used in the application interface
       url: "/online-help-96-97/reference_icons_used_application_interface.html"
     - title: System Manager window layout

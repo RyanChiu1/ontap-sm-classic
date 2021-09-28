@@ -2,7 +2,7 @@ section: snmp-config
 title: SNMP configuration
 entries:
     - title: Overview
-      url: "/snmp-config/concept_snmp_config_overview.html"
+      url: "/snmp-config/index.html"
     - title: SNMP configuration workflow
       url: "/snmp-config/concept_snmp_configuration_workflow.html"
       entries:

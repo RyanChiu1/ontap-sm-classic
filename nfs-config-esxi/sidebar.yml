@@ -2,7 +2,7 @@ section: nfs-config-exsi
 title: NFS configuration for ESXi using VSC
 entries:
     - title: Overview
-      url: "/nfs-config-esxi/concept_nfs_config_esxi_overview.html"
+      url: "/nfs-config-esxi/index.html"
     - title: NFS Client Configuration for ESXi workflow
       url: "/nfs-config-esxi/task_nfs_client_configuration_for_esxi_workflow.html"
       entries:

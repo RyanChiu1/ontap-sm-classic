@@ -2,7 +2,7 @@ section: volume-restore-snapvault
 title: Volume restore management using SnapVault
 entries:
     - title: Overview
-      url: "/volume-restore-snapvault/concept_volume_restore_snapvault_overview.html"
+      url: "/volume-restore-snapvault/index.html"
     - title: Volume restore workflow
       url: "/volume-restore-snapvault/concept_volume_restore_workflow.html"
       entries:

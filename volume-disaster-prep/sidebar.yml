@@ -2,7 +2,7 @@ section: volume-disaster-prep
 title: Volume disaster recovery preparation
 entries:
     - title: Overview
-      url: "/volume-disaster-prep/concept_volume_disaster_prep_overview.html"
+      url: "/volume-disaster-prep/index.html"
     - title: Volume disaster recovery preparation workflow
       url: "/volume-disaster-prep/concept_snapmirror_intercluster_configuration_workflow.html"
       entries:

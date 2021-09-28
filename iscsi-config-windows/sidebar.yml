@@ -2,7 +2,7 @@ section: iscsi-config-windows
 title: iSCSI configuration for Windows
 entries:
     - title: Overview
-      url: "/iscsi-config-windows/concept_iscsi_config_windows_overview.html"
+      url: "/iscsi-config-windows/index.html"
     - title: iSCSI configuration and provisioning workflow
       url: "/iscsi-config-windows/concept_iscsi_configuration_workflow.html"
       entries:

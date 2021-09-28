@@ -2,7 +2,7 @@ section: expansion
 title: Cluster expansion configuration
 entries:
     - title: Overview
-      url: "/expansion/concept_cluster_expansion_overview.html"
+      url: "/expansion/index.html"
     - title: Cluster expansion workflow
       url: "/expansion/concept_cluster_expansion_workflow.html"
       entries:

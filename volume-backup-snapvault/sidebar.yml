@@ -2,7 +2,7 @@ section: volume-backup-snapvault
 title: Volume backup using SnapVault
 entries:
     - title: Overview
-      url: "/volume-backup-snapvault/concept_volume_backup_snapvault_overview.html"
+      url: "/volume-backup-snapvault/index.html"
     - title: SnapVault backup configuration workflow
       url: "/volume-backup-snapvault/concept_snapvault_configuration_workflow.html"
       entries:

@@ -2,7 +2,7 @@ section: smb-config
 title: SMB/CIFS configuration
 entries:
     - title: Overview
-      url: "/smb-config/concept_smb_config_overview.html"
+      url: "/smb-config/index.html"
     - title: SMB/CIFS configuration workflow
       url: "/smb-config/concept_cifs_nfs_configuration_workflow.html"
       entries:

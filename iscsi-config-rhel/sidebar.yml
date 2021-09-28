@@ -2,7 +2,7 @@ section: iscsi-config-rhel
 title: iSCSI configuration for Red Hat Enterprise Linux
 entries:
     - title: Overview
-      url: "/iscsi-config-rhel/concept_iscsi_config_rhel_overview.html"
+      url: "/iscsi-config-rhel/index.html"
     - title: iSCSI configuration and provisioning workflow
       url: "/iscsi-config-rhel/concept_iscsi_configuration_provisioning_workflow.html"
       entries:

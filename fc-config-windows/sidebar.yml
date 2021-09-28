@@ -2,7 +2,7 @@ section: fc-config-windows
 title: FC configuration for Windows
 entries:
     - title: Overview
-      url: "/fc-config-windows/concept_fc_config_windows_overview.html"
+      url: "/fc-config-windows/index.html"
     - title: FC configuration workflow
       url: "/fc-config-windows/concept_fc_configuration_workflow.html"
       entries:

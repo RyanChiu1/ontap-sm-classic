@@ -2,7 +2,7 @@ section: nas-multiprotocol-config
 title: SMB/CIFS and NFS multiprotocol configuration
 entries:
       - title: Overview
-        url: "/nas-multiprotocol-config/concept_smb_nfs_multiprotocol_config_overview.html"
+        url: "/nas-multiprotocol-config/index.html"
       - title: Multiprotocol configuration workflow
         url: "/nas-multiprotocol-config/concept_cifs_nfs_configuration_workflow.html"
         entries:

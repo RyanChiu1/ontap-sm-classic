@@ -2,7 +2,7 @@ section: fc-config-esxi
 title: FC configuration for ESXi using VSC
 entries:
     - title: Overview
-      url: "/fc-config-esxi/concept_fc_config_esxi_overview.html"
+      url: "/fc-config-esxi/index.html"
     - title: FC configuration workflow
       url: "/fc-config-esxi/concept_fc_configuration_workflow.html"
       entries:

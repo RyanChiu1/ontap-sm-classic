@@ -2,7 +2,7 @@ section: volume-move
 title: Volume move management
 entries:
     - title: Overview
-      url: "/volume-move/concept_volume_move_overview.html"
+      url: "/volume-move/index.html"
     - title: Volume move workflow
       url: "/volume-move/concept_volume_move_workflow.html"
       entries:

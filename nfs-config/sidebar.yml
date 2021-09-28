@@ -2,7 +2,7 @@ section: nfs-config
 title: NFS configuration
 entries:
     - title: Overview
-      url: "/nfs-config/concept_nfs_config_overview.html"
+      url: "/nfs-config/index.html"
     - title: NFS configuration workflow
       url: "/nfs-config/concept_cifs_nfs_configuration_workflow.html"
       entries:

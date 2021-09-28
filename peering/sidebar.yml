@@ -2,7 +2,7 @@ section: peering
 title: Cluster and SVM peering configuration
 entries:
     - title: Overview
-      url: "/peering/concept_peering_overview.html"
+      url: "/peering/index.html"
     - title: Prerequisites for cluster peering
       url: "/peering/reference_prerequisites_for_cluster_peering.html"
     - title: Cluster and SVM peering workflow

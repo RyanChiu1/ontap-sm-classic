@@ -2,7 +2,7 @@ section: iscsi-config-esxi
 title: iSCSI configuration for ESXi using VSC
 entries:
     - title: Overview
-      url: "/iscsi-config-esxi/concept_iscsi_config_esxi_overview.html"
+      url: "/iscsi-config-esxi/index.html"
     - title: iSCSI configuration workflow
       url: "/iscsi-config-esxi/concept_iscsi_configuration_provisioning_workflow.html"
       entries:

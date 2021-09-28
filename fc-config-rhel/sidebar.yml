@@ -2,7 +2,7 @@ section: fc-config-rhel
 title: FC configuration for Red Hat Enterprise Linux
 entries:
     - title: Overview
-      url: "/fc-config-rhel/concept_fc_config_rhel_overview.html"
+      url: "/fc-config-rhel/index.html"
     - title: FC configuration and provisioning workflow
       url: "/fc-config-rhel/concept_fc_configuration_workflow.html"
       entries:
