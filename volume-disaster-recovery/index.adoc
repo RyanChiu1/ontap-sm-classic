@@ -1,26 +1,35 @@
 ---
 permalink: volume-disaster-recovery/index.html
 sidebar: sidebar
-keywords: volume, disaster, recovery, express, guide
-summary: "Volume Disaster Recovery Express Guide"
+keywords: content, destination, activate, volume, disaster, reactivate, source, ontap, volume disaster recovery overview
+summary: "This content describes how to quickly activate a destination volume after a disaster and then reactivate the source volume in ONTAP."
 ---
-= Volume Disaster Recovery Express Guide
+= Volume disaster recovery overview
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_volume_disaster_recovery_overview.adoc[Deciding whether to use this guide]
-* xref:concept_volume_disaster_recovery_workflow.adoc[Volume disaster recovery workflow]
- ** xref:task_activating_destination_volume.adoc[Activating the destination volume]
-  *** xref:task_verifying_source_volume_status.adoc[Verifying the status of the source volume]
-  *** xref:task_breaking_snapmirror_relationship.adoc[Breaking the SnapMirror relationship]
-  *** xref:task_verifying_destination_volume_status.adoc[Verifying the destination volume status]
- ** xref:task_configuring_destination_volume_for_data_access.adoc[Configuring the destination volume for data access]
- ** xref:task_reactivating_source_volume.adoc[Reactivating the source volume]
-  *** xref:task_resynchronizing_source_volume.adoc[Resynchronizing the source volume]
-  *** xref:task_updating_source_volume.adoc[Updating the source volume]
-  *** xref:task_returning_recovered_volume_to_source_role.adoc[Reactivating the source volume]
-* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+[.lead]
+This content describes how to quickly activate a destination volume after a disaster and then reactivate the source volume in ONTAP.
+
+You should use this content if you want to perform a volume-level disaster recovery procedure in the following way:
+
+* You are working with clusters running ONTAP 9.
+* You are a cluster administrator.
+* You have configured the SnapMirror relationship following https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-sm-ic-cg/home.html[Volume disaster recovery express preparation]
+
+* The cluster administrator of the source cluster has declared that the data in the source volume is unavailable due to events such as virus infection leading to data corruption or accidental deletion of data.
+* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+
+If these assumptions are not correct for your situation, or if you want more conceptual background information, you should see the following resources:
+
+* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/home.html[Logical storage management]
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
++
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.

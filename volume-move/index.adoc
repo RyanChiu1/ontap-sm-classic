@@ -1,22 +1,62 @@
 ---
 permalink: volume-move/index.html
 sidebar: sidebar
-keywords: volume, move, express, guide
-summary: "Volume Move Express Guide"
+keywords: nondisruptive, data, volume, node, storage, virtual, machine, svm, ontap, cluster, volume move overview, move, overview
+summary: "You can use this content to nondisruptively move a data volume from one node to another node within the same storage virtual machine (SVM) in an ONTAP 9 cluster."
 ---
-= Volume Move Express Guide
+= Volume move overview
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_volume_move_overview.adoc[Deciding whether to use this guide]
-* xref:concept_volume_move_workflow.adoc[Volume move workflow]
- ** xref:task_planning_method_timing_volume_move.adoc[Planning the method and timing of a volume move]
- ** xref:task_moving_volume_using_system_manager.adoc[Moving a volume using System Manager]
- ** xref:task_verifying_lun_reporting_nodes_after_moving_volume.adoc[Verifying LUN reporting nodes after moving a volume]
- ** xref:task_updating_lun_reporting_nodes_after_moving_volume.adoc[Updating LUN reporting nodes after moving a volume]
- ** xref:task_updating_ndmp_backup_after_moving_volume.adoc[Updating NDMP backup after moving a volume]
-* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+[.lead]
+You can use this content to nondisruptively move a data volume from one node to another node within the same storage virtual machine (SVM) in an ONTAP 9 cluster.
+
+== Requirements for using this content
+
+Before you use this content, ensure that the following conditions are met:
+
+* The cluster is running ONTAP 9.
+* You have cluster administrator privileges.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use System Manager.
++
+For some tasks, you must use the ONTAP command-line interface (CLI).
+
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+* You know which volume you want to move.
++
+For help in deciding which volumes to move, you can use Active IQ Unified Manager (formerly OnCommand Unified Manager).
+
+* The volume that will be moved is a data volume.
+* Any new or repurposed hardware is fully installed and already has aggregates.
+* If the cluster has LUNs, all nodes have two paths per LUN.
+* Flow control is not enabled on cluster network ports.
+* For volumes containing namespaces, the cluster is running ONTAP 9.6 or later.
++
+Volume move is not supported for NVMe configurations running ONTAP 9.5.
+
+If this content is not suitable for your situation, you should see the following documentation instead:
+
+* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/home.html[Logical storage management]
++
+Describes how to move volumes by using the CLI.
+
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
++
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.
+
+== Alternatives to volume move
+
+Before moving volumes, you should evaluate whether the following approaches are better suited to your situation:
+
+* If you want to nondisruptively upgrade a controller in place, you can consider using aggregate relocation (ARL), which does not require physical data movement.
++
+https://docs.netapp.com/us-en/ontap/high-availability/index.html[High Availability]
+
+* If you want to move only a LUN--without its containing volume--you can use the LUN move mechanism.
++
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]

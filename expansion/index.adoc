@@ -1,40 +1,37 @@
 ---
 permalink: expansion/index.html
 sidebar: sidebar
-keywords: cluster, expansion, express, guide
-summary: Cluster Expansion Express Guide
+keywords: nondisruptive, expand, exist, cluster, ha, pair, expansion, overview
+summary: "This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster."
 ---
-= Cluster Expansion Express Guide
+= Cluster expansion overview
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_cluster_expansion_overview.adoc[Deciding whether to use this guide]
-* xref:concept_cluster_expansion_workflow.adoc[Cluster expansion workflow]
- ** xref:task_verifying_cluster_is_ready_for_expansion.adoc[Verifying the cluster is ready for expansion]
-  *** xref:task_verifying_planned_configuration.adoc[Verifying the planned configuration]
-  *** xref:task_gathering_required_information.adoc[Gathering the required network information]
-  *** xref:task_adding_or_replacing_switches.adoc[Adding or replacing switches]
- ** xref:task_preparing_cluster_for_expansion.adoc[Preparing the cluster for expansion]
-  *** xref:task_adding_node_locked_licenses.adoc[Adding node-locked licenses]
-  *** xref:task_verifying_health_system.adoc[Verifying the health of the system]
-  *** xref:task_backing_up_cluster_configuration.adoc[Backing up the cluster configuration]
-  *** xref:task_generating_autosupport_message_about_starting_expansion.adoc[Generating an AutoSupport message about starting expansion]
- ** xref:task_installing_new_nodes.adoc[Installing the new nodes]
-  *** xref:task_installing_controllers.adoc[Installing the controllers]
-  *** xref:concept_configuring_node_management_lifs.adoc[Configuring node-management LIFs]
-  *** xref:task_upgrading_or_downgrading_nodes.adoc[Upgrading or downgrading the nodes]
-  *** xref:task_ensuring_hardware_level_ha_is_enabled.adoc[Ensuring hardware-level HA is enabled]
-  *** xref:task_adding_nodes_to_cluster_using_system_manager.adoc[Adding nodes to a cluster using System Manager]
-  *** xref:concept_joining_nodes_to_cluster_using_cli.adoc[Joining nodes to the cluster using the CLI]
- ** xref:task_completing_expansion.adoc[Completing the expansion]
-  *** xref:task_configuring_node_details_system_manager.adoc[Configuring the node details in System Manager]
-  *** xref:task_configuring_autosupport_on_new_nodes_using_cli.adoc[Configuring AutoSupport on the new nodes]
-  *** xref:task_configuring_service_processor_network_cli.adoc[Configuring the Service Processor network]
-  *** xref:task_validating_configuration_expanded_cluster.adoc[Validating the configuration of the expanded cluster]
-  *** xref:task_generating_autosupport_message_about_completing_expansion.adoc[Generating an AutoSupport message about completing expansion]
-  *** xref:task_updating_lun_paths_for_new_nodes.adoc[Updating LUN paths for the new nodes]
-* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+[.lead]
+This content describes how to quickly and nondisruptively expand an existing cluster by adding an HA pair. A larger cluster increases performance and storage capacity available in the cluster.
+
+You should use this content only if the following is true:
+
+* The existing cluster meets the following requirements:
+ ** It is running ONTAP 9.
+ ** It contains at least two nodes.
++
+Although examples in this content use a two-node cluster, it also applies to clusters with more than two nodes.
++
+If you want to add a node to a single-node cluster, you must follow a different procedure.
++
+https://docs.netapp.com/platstor/topic/com.netapp.doc.hw-controller-add/home.html[Adding a second controller to create an HA pair]
+
+ ** It does not use IPv6 addressing or Storage Encryption.
+ ** It is not a MetroCluster configuration.
+* The controller modules that you plan to add meet the following requirements:
+ ** If they are not new, they have been wiped clean, are no longer part of a cluster, and are ready to be added to the new cluster.
+ ** They support ONTAP 9.
+ ** They are running a version of the ONTAP 9 release family.
+* When completing ONTAP configuration tasks with System Manager, you want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.

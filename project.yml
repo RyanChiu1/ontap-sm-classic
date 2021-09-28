@@ -7,7 +7,7 @@ sidebar:
       - title: NFS configuration
         entries:
             - title: Overview
-              url: "/nfs-config/concept_nfs_config_overview.html"
+              url: "/nfs-config/index.html"
             - title: NFS configuration workflow
               url: "/nfs-config/concept_cifs_nfs_configuration_workflow.html"
               entries:
@@ -57,7 +57,7 @@ sidebar:
       - title: NFS configuration for ESXi using VSC
         entries:
             - title: Overview
-              url: "/nfs-config-esxi/concept_nfs_config_esxi_overview.html"
+              url: "/nfs-config-esxi/index.html"
             - title: NFS Client Configuration for ESXi workflow
               url: "/nfs-config-esxi/task_nfs_client_configuration_for_esxi_workflow.html"
               entries:
@@ -101,7 +101,7 @@ sidebar:
       - title: SMB/CIFS and NFS multiprotocol configuration
         entries:
               - title: Overview
-                url: "/nas-multiprotocol-config/concept_smb_nfs_multiprotocol_config_overview.html"
+                url: "/nas-multiprotocol-config/index.html"
               - title: Multiprotocol configuration workflow
                 url: "/nas-multiprotocol-config/concept_cifs_nfs_configuration_workflow.html"
                 entries:
@@ -139,7 +139,7 @@ sidebar:
       - title: SMB/CIFS configuration
         entries:
             - title: Overview
-              url: "/smb-config/concept_smb_config_overview.html"
+              url: "/smb-config/index.html"
             - title: SMB/CIFS configuration workflow
               url: "/smb-config/concept_cifs_nfs_configuration_workflow.html"
               entries:
@@ -188,7 +188,7 @@ sidebar:
       - title: FC configuration for ESXi using VSC
         entries:
             - title: Overview
-              url: "/fc-config-esxi/concept_fc_config_esxi_overview.html"
+              url: "/fc-config-esxi/index.html"
             - title: FC configuration workflow
               url: "/fc-config-esxi/concept_fc_configuration_workflow.html"
               entries:
@@ -226,7 +226,7 @@ sidebar:
       - title: FC configuration for Red Hat Enterprise Linux
         entries:
             - title: Overview
-              url: "/fc-config-rhel/concept_fc_config_rhel_overview.html"
+              url: "/fc-config-rhel/index.html"
             - title: FC configuration and provisioning workflow
               url: "/fc-config-rhel/concept_fc_configuration_workflow.html"
               entries:
@@ -270,7 +270,7 @@ sidebar:
       - title: FC configuration for Windows
         entries:
             - title: Overview
-              url: "/fc-config-windows/concept_fc_config_windows_overview.html"
+              url: "/fc-config-windows/index.html"
             - title: FC configuration workflow
               url: "/fc-config-windows/concept_fc_configuration_workflow.html"
               entries:
@@ -312,7 +312,7 @@ sidebar:
       - title: iSCSI configuration for ESXi using VSC
         entries:
             - title: Overview
-              url: "/iscsi-config-esxi/concept_iscsi_config_esxi_overview.html"
+              url: "/iscsi-config-esxi/index.html"
             - title: iSCSI configuration workflow
               url: "/iscsi-config-esxi/concept_iscsi_configuration_provisioning_workflow.html"
               entries:
@@ -356,7 +356,7 @@ sidebar:
       - title: iSCSI configuration for Red Hat Enterprise Linux
         entries:
             - title: Overview
-              url: "/iscsi-config-rhel/concept_iscsi_config_rhel_overview.html"
+              url: "/iscsi-config-rhel/index.html"
             - title: iSCSI configuration and provisioning workflow
               url: "/iscsi-config-rhel/concept_iscsi_configuration_provisioning_workflow.html"
               entries:
@@ -400,7 +400,7 @@ sidebar:
       - title: iSCSI configuration for Windows
         entries:
             - title: Overview
-              url: "/iscsi-config-windows/concept_iscsi_config_windows_overview.html"
+              url: "/iscsi-config-windows/index.html"
             - title: iSCSI configuration and provisioning workflow
               url: "/iscsi-config-windows/concept_iscsi_configuration_workflow.html"
               entries:
@@ -440,7 +440,7 @@ sidebar:
       - title: Cluster and SVM peering configuration
         entries:
             - title: Overview
-              url: "/peering/concept_peering_overview.html"
+              url: "/peering/index.html"
             - title: Prerequisites for cluster peering
               url: "/peering/reference_prerequisites_for_cluster_peering.html"
             - title: Cluster and SVM peering workflow
@@ -469,7 +469,7 @@ sidebar:
       - title: Volume disaster recovery
         entries:
             - title: Overview
-              url: "/volume-disaster-recovery/concept_volume_disaster_recovery_overview.html"
+              url: "/volume-disaster-recovery/index.html"
             - title: Volume disaster recovery workflow
               url: "/volume-disaster-recovery/concept_volume_disaster_recovery_workflow.html"
               entries:
@@ -498,7 +498,7 @@ sidebar:
       - title: Volume disaster recovery preparation
         entries:
             - title: Overview
-              url: "/volume-disaster-prep/concept_volume_disaster_prep_overview.html"
+              url: "/volume-disaster-prep/index.html"
             - title: Volume disaster recovery preparation workflow
               url: "/volume-disaster-prep/concept_snapmirror_intercluster_configuration_workflow.html"
               entries:
@@ -517,7 +517,7 @@ sidebar:
       - title: Volume backup using SnapVault
         entries:
             - title: Overview
-              url: "/volume-backup-snapvault/concept_volume_backup_snapvault_overview.html"
+              url: "/volume-backup-snapvault/index.html"
             - title: SnapVault backup configuration workflow
               url: "/volume-backup-snapvault/concept_snapvault_configuration_workflow.html"
               entries:
@@ -534,7 +534,7 @@ sidebar:
       - title: Volume restore management using SnapVault
         entries:
             - title: Overview
-              url: "/volume-restore-snapvault/concept_volume_restore_snapvault_overview.html"
+              url: "/volume-restore-snapvault/index.html"
             - title: Volume restore workflow
               url: "/volume-restore-snapvault/concept_volume_restore_workflow.html"
               entries:
@@ -551,7 +551,7 @@ sidebar:
       - title: Cluster expansion administration
         entries:
             - title: Overview
-              url: "/expansion/concept_cluster_expansion_overview.html"
+              url: "/expansion/index.html"
             - title: Cluster expansion workflow
               url: "/expansion/concept_cluster_expansion_workflow.html"
               entries:
@@ -610,7 +610,7 @@ sidebar:
       - title: Volume move management
         entries:
             - title: Overview
-              url: "/volume-move/concept_volume_move_overview.html"
+              url: "/volume-move/index.html"
             - title: Volume move workflow
               url: "/volume-move/concept_volume_move_workflow.html"
               entries:
@@ -629,7 +629,7 @@ sidebar:
       - title: SNMP configuration
         entries:
             - title: Overview
-              url: "/snmp-config/concept_snmp_config_overview.html"
+              url: "/snmp-config/index.html"
             - title: SNMP configuration workflow
               url: "/snmp-config/concept_snmp_configuration_workflow.html"
               entries:
@@ -650,7 +650,7 @@ sidebar:
       - title: Cluster management using System Manager 9.6 and 9.7
         entries:
             - title: Understanding System Manager
-              url: "/online-help-96-97/concept_understanding_system_manager.html"
+              url: "/online-help-96-97/index.html"
             - title: Icons used in the application interface
               url: "/online-help-96-97/reference_icons_used_application_interface.html"
             - title: System Manager window layout
