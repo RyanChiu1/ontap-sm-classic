@@ -13,4 +13,4 @@ You can use System Manager to add, edit, and manage Network Information Service 
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-nfs-cg/home.html[NFS configuration]
+https://docs.netapp.com/us-en/ontap/nfs-config/index.html[NFS configuration]

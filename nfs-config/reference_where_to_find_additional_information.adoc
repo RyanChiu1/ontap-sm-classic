@@ -15,7 +15,7 @@ After you have successfully tested NFS client access, you can perform advanced N
 
 You can further configure NFS access using the following comprehensive guides and technical reports:
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.cdot-famg-nfs/home.html[NFS management]
+* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management]
 +
 Describes how to configure and manage file access using the NFS protocol.
 
@@ -37,6 +37,6 @@ Describes the best practices that should be followed while implementing NFSv4 co
 
 After configuring protocols on the SVM, you should ensure that its root volume is protected:
 
-* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
 +
 Describes how to create a load-sharing mirror to protect the SVM root volume, which is a NetApp best practice for NAS-enabled SVMs. Also describes how to quickly recover from volume failures or losses by promoting the SVM root volume from a load-sharing mirror

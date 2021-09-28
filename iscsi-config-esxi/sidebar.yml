@@ -1,0 +1,45 @@
+section: iscsi-config-esxi
+title: iSCSI configuration for ESXi using VSC
+entries:
+    - title: Overview
+      url: "/iscsi-config-esxi/index.html"
+    - title: iSCSI configuration workflow
+      url: "/iscsi-config-esxi/concept_iscsi_configuration_provisioning_workflow.html"
+      entries:
+      - title: Verifying that the iSCSI configuration is supported
+        url: "/iscsi-config-esxi/task_verifying_that_iscsi_fc_configuration_is_supported.html"
+      - title: Completing the iSCSI configuration worksheet
+        url: "/iscsi-config-esxi/reference_completing_iscsi_configuration_worksheet.html"
+      - title: Installing Virtual Storage Console
+        url: "/iscsi-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html"
+      - title: Adding the storage cluster or SVM to VSC for VMware vSphere
+        url: "/iscsi-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html"
+      - title: Configuring your network for best performance
+        url: "/iscsi-config-esxi/task_configuring_your_network_for_best_performance.html"
+      - title: Configuring host iSCSI ports and vSwitches
+        url: "/iscsi-config-esxi/task_configuring_host_iscsi_ports_vswitches.html"
+      - title: Enabling the iSCSI software adapter
+        url: "/iscsi-config-esxi/task_enabling_iscsi_software_adapter.html"
+      - title: Binding iSCSI ports to the iSCSI software adapter
+        url: "/iscsi-config-esxi/task_binding_iscsi_ports_to_iscsi_software_adapter.html"
+      - title: Configuring the ESXi host best practice settings
+        url: "/iscsi-config-esxi/task_configuring_esxi_host_best_practice_settings.html"
+      - title: Creating an aggregate
+        url: "/iscsi-config-esxi/task_creating_aggregate.html"
+      - title: Deciding where to provision the volume
+        url: "/iscsi-config-esxi/task_deciding_where_to_provision_volume.html"
+        entries:
+        - title: Verifying that the iSCSI service is running on an existing SVM
+          url: "/iscsi-config-esxi/task_verifying_iscsi_is_running_on_existing_vserver.html"
+        - title: Configuring iSCSI on an existing SVM
+          url: "/iscsi-config-esxi/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
+        - title: Creating a new SVM
+          url: "/iscsi-config-esxi/task_creating_svm.html"
+      - title: Testing iSCSI paths from the host to the storage cluster
+        url: "/iscsi-config-esxi/task_testing_iscsi_paths.html"
+      - title: Provisioning a datastore and creating its containing LUN and volume
+        url: "/iscsi-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
+      - title: Verifying that the host can write to and read from the LUN
+        url: "/iscsi-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
+    - title: Where to find additional information
+      url: "/iscsi-config-esxi/reference_where_to_find_additional_information.html"

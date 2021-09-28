@@ -13,4 +13,4 @@ You can use System Manager to create storage pools to enable SSDs to be shared b
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-psmg/home.html[Disk and aggregate management]
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html[Disk and aggregate management]

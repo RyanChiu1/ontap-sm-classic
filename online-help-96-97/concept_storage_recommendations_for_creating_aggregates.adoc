@@ -33,6 +33,6 @@ In addition, if any of the following disk conditions exist in your environment, 
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-psmg/home.html[Disk and aggregate management]
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html[Disk and aggregate management]
 
 xref:task_zeroing_disks.adoc[Zeroing spare disks]

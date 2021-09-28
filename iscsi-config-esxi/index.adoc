@@ -1,34 +1,51 @@
 ---
 permalink: iscsi-config-esxi/index.html
 sidebar: sidebar
-keywords: iscsi, configuration, esxi, vsc, express, guide
-summary: iSCSI Configuration for ESXi® using VSC Express Guide
+keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer
+summary: "This content describes how to quickly set up the iSCSI service on a storage virtual machine, provision a LUN, and make the LUN available using an iSCSI initiator on an ESX host computer."
 ---
-= iSCSI Configuration for ESXi® using VSC Express Guide
+= iSCSI configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_iscsi_config_esxi_overview.adoc[Deciding whether to use this guide]
-* xref:concept_iscsi_configuration_provisioning_workflow.adoc[iSCSI configuration workflow]
- ** xref:task_verifying_that_iscsi_fc_configuration_is_supported.adoc[Verifying that the iSCSI configuration is supported]
- ** xref:reference_completing_iscsi_configuration_worksheet.adoc[Completing the iSCSI configuration worksheet]
- ** xref:task_installing_virtual_storage_console_for_vmware_vsphere.adoc[Installing Virtual Storage Console]
- ** xref:task_adding_storage_cluster_to_virtual_storage_cluster.adoc[Adding the storage cluster or SVM to VSC for VMware vSphere]
- ** xref:task_configuring_your_network_for_best_performance.adoc[Configuring your network for best performance]
- ** xref:task_configuring_host_iscsi_ports_vswitches.adoc[Configuring host iSCSI ports and vSwitches]
- ** xref:task_enabling_iscsi_software_adapter.adoc[Enabling the iSCSI software adapter]
- ** xref:task_binding_iscsi_ports_to_iscsi_software_adapter.adoc[Binding iSCSI ports to the iSCSI software adapter]
- ** xref:task_configuring_esxi_host_best_practice_settings.adoc[Configuring the ESXi host best practice settings]
- ** xref:task_creating_aggregate.adoc[Creating an aggregate]
- ** xref:task_deciding_where_to_provision_volume.adoc[Deciding where to provision the volume]
-  *** xref:task_verifying_iscsi_is_running_on_existing_vserver.adoc[Verifying that the iSCSI service is running on an existing SVM]
-  *** xref:task_configuring_iscsi_fc_creating_lun_on_existing_svm.adoc[Configuring iSCSI on an existing SVM]
-  *** xref:task_creating_svm.adoc[Creating a new SVM]
- ** xref:task_testing_iscsi_paths.adoc[Testing iSCSI paths from the host to the storage cluster]
- ** xref:task_provisioning_datastore_creating_its_containing_lun_volume.adoc[Provisioning a datastore and creating its containing LUN and volume]
- ** xref:task_verifying_host_can_write_to_read_from_lun.adoc[Verifying that the host can write to and read from the LUN]
-* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+[.lead]
+This content describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESX host computer.
+
+This content is based on the following assumptions:
+
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
++
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[ONTAP 9 Cluster Management Using OnCommand System Manager]
+
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+* You are using the native ESX iSCSI software initiator on ESXi 5.x.
+* You are not using CHAP authentication for iSCSI.
+* You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host.
+* Your network uses IPv4 addressing.
+* You want to assign addresses to logical interfaces using any of the following methods:
+ ** Automatically from a subnet you define
+ ** Manually, using an address selected from an existing subnet
+ ** Manually, using an address that will be added to an existing subnet
+* You have at least two high-speed Ethernet ports (1 GbE minimum, 10 GbE recommended) available on each node in the cluster.
++
+Onboard UTA2 (also called "`CNA`") ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in this content.
++
+You should see link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
+
+* You are not configuring iSCSI SAN boot.
+* You are providing storage to VMs through the ESX hypervisor and not running an iSCSI initiator within the VM.
+
+If these assumptions are not correct for your situation, you should see the following resources:
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration]
+* https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration]
+* _VMware vSphere Storage_ for your version of ESX 5 (available from http://www.vmware.com[VMware])
+* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
++
+OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.

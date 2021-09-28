@@ -20,6 +20,6 @@ The Volumes tab is displayed only if you have enabled the CIFS and NFS licenses.
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-concepts/home.html[ONTAP concepts]
+https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/home.html[Logical storage management]
+https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]

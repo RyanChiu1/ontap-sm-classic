@@ -1,36 +1,47 @@
 ---
 permalink: nfs-config-esxi/index.html
 sidebar: sidebar
-keywords: nfs, configuration, esxi, vsc, express, guide, nfs configuration for esxi using vsc express guide
-summary: "NFS Configuration for ESXi® using VSC Express Guide"
+keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc
+summary: "This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes."
 ---
-= NFS Configuration for ESXi® using VSC Express Guide
+= NFS configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
-#
+[.lead]
+This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.
 
-* xref:concept_nfs_config_esxi_overview.adoc[Deciding whether to use this guide]
-* xref:task_nfs_client_configuration_for_esxi_workflow.adoc[NFS Client Configuration for ESXi workflow]
- ** xref:task_verifying_configuration_is_supported.adoc[Verifying that the configuration is supported]
- ** xref:reference_completing_nfs_configuration_worksheet.adoc[Completing the NFS client configuration worksheet]
- ** xref:task_installing_virtual_storage_console_for_vmware_vsphere.adoc[Installing]
- ** xref:task_adding_storage_cluster_to_virtual_storage_cluster.adoc[Adding the storage cluster or to VSC for]
- ** xref:task_configuring_your_network_for_best_performance.adoc[Configuring your network for best performance]
- ** xref:task_configuring_esxi_host.adoc[Configuring the ESXi host]
-  *** xref:task_configuring_host_iscsi_ports_vswitches.adoc[Configuring host ports and vSwitches]
-  *** xref:task_configuring_esxi_host_best_practice_settings.adoc[Configuring the ESXi host best practice settings]
- ** xref:task_creating_aggregate.adoc[Creating an aggregate]
- ** xref:task_deciding_where_to_provision_new_volume.adoc[Deciding where to provision the new volume]
- ** xref:task_creating_new_nfs_enabled_svm.adoc[Creating a new NFS-enabled]
- ** xref:concept_adding_nfs_access_to_existing_svm.adoc[Adding NFS access to an existing]
- ** xref:task_verifying_that_nfs_is_enabled_on_existing_svm.adoc[Verifying that NFS is enabled on an existing]
- ** xref:task_provisioning_datastore_creating_its_containing_lun_volume.adoc[Provisioning a datastore and creating its containing volume]
- ** xref:task_verifying_nfs_access_from_esxi_host.adoc[Verifying NFS access from an ESXi host]
- ** xref:task_deploying_netapp_nfs_plugin_for_vmware_vaai.adoc[Deploying the NFS Plug-in for VMware VAAI]
- ** xref:task_mounting_datastores_on_hosts.adoc[Mounting datastores on hosts]
- ** xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+You should use this content if you want to configure NFS access for ESXi hosts to a volume in the following way:
+
+* You are working with clusters running ONTAP 9.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use to provision a datastore and create a volume.
+* You want to use System Manager to create aggregates and SVMs (if required), not the ONTAP command-line interface or an automated scripting tool.
++
+If you use to create an aggregate, be aware that the UI navigation in 9.3 and later is different from the UI navigation in previous releases. This content provides the common steps that you must perform to complete a task in ONTAP releases 9.0-9.7. If you want the exact steps for navigating to a particular screen or window, you should view the System Manager Online Help for your version of ONTAP.
++
+https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[Cluster management using System Manager]
+
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+
+* Your data network uses the default IPspace, the default broadcast domain, and the default failover group.
++
+If your data network is flat, these default objects prescribe that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to https://docs.netapp.com/us-en/ontap/networking/index.html[Network Management] for information about how to configure LIF path failover.
+
+* You want to use the Plug-In for VMware VAAI.
++
+VMware vStorage APIs for Array Integration (VAAI) enable you to perform copy offload and space reservations. The Plug-In for VMware VAAI uses this to improve host performance because operations do not need to go through the ESXi host, thereby taking advantage of space- and time-efficient cloning in ONTAP.
++
+Using VMware VAAI for datastore provisioning is a best practice.
+
+* NFS access will be through NFSv3 and NFSv4 for use with VMware VAAI.
+
+If this content is not suitable for your situation, you should see the following documentation instead:
+
+* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management]
+* http://www.netapp.com/us/media/tr-4067.pdf[NetApp Technical Report 4067: NFS Best Practice and Implementation]
+* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668pdf.pdf[NetApp Technical Report 4668: Name Services Best Practices]
+* http://www.netapp.com/us/media/tr-4597.pdf[NetApp Technical Report 4597: VMware vSphere with ONTAP]
