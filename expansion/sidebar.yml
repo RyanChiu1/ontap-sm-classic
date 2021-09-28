@@ -1,5 +1,5 @@
 section: expansion
-title: Cluster administration
+title: Cluster expansion configuration
 entries:
     - title: Overview
       url: "/expansion/concept_cluster_expansion_overview.html"
