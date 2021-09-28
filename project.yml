@@ -56,7 +56,7 @@ homepage:
           url:  "tbd.html"
         - title: Earlier System Manager Classic online help
           url:  "tbd.html"
-    - title: Demos & tutorials 
+    - title: Demos & tutorials
 
 sidebar:
   entries:
@@ -707,8 +707,8 @@ sidebar:
                 url: "/snmp-config/task_testing_snmp_polling.html"
             - title: Where to find additional information
               url: "/snmp-config/reference_where_to_find_additional_information.html"
-      - title: Cluster management using System Manager 9.6 and 9.7
-        entries:
+    - title: Cluster management using System Manager 9.6 and 9.7
+      entries:
             - title: Understanding System Manager
               url: "/online-help-96-97/index.html"
             - title: Icons used in the application interface
