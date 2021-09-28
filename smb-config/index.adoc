@@ -31,7 +31,7 @@ If your data network is flat, using these default objects ensures that LIFs will
 
 If this content is not suitable for your situation, you should see the following documentation instead:
 
-* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.cdot-famg-cifs/home.html[SMB/CIFS management]
+* https://docs.netapp.com/us-en/ontap/smb-admin/index.html[SMB/CIFS management]
 * https://docs.netapp.com/us-en/ontap/networking/index.html[Network management]
 * https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf[NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directory]
 * https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf[NetApp Technical Report 4835: How to Configure LDAP in ONTAP]

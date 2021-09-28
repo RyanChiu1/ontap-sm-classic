@@ -13,4 +13,4 @@ You can use System Manager to enable and configure CIFS servers to allow CIFS cl
 
 *Related information*
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.cdot-famg-cifs/home.html[SMB/CIFS management]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html[SMB/CIFS management]

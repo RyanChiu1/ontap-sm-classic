@@ -40,8 +40,8 @@ This content does not cover raw device mapping (RDM) disks or using N-port ID vi
 
 If these assumptions are not correct for your situation, you should see the following resources:
 
-* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[ONTAP 9 SAN Administration]
-* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanconf/home.html[ONTAP 9 SAN Configuration]
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration]
 * https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration]
 * _VMware vSphere Storage_ for your version of ESXi 5 (available from VMware).
 +

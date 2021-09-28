@@ -26,7 +26,7 @@ https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 
 If these assumptions are not correct for your situation, you should see the following resources:
 
-* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-csp/home.html[Cluster and SVM peering]
+* https://docs.netapp.com/us-en/ontap/peering/index.html[Cluster and SVM peering]
 +
 Describes how to use the command-line interface to set up cluster peering relationships and SVM peering relationships.
 

@@ -60,4 +60,4 @@ The default `intercluster` firewall policy allows access through the HTTPS proto
 
 *Related information*
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
+https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]

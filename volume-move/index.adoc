@@ -41,7 +41,7 @@ Volume move is not supported for NVMe configurations running ONTAP 9.5.
 
 If this content is not suitable for your situation, you should see the following documentation instead:
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-vsmg/home.html[Logical storage management]
+* https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]
 +
 Describes how to move volumes by using the CLI.
 
@@ -59,4 +59,4 @@ https://docs.netapp.com/us-en/ontap/high-availability/index.html[High Availabili
 
 * If you want to move only a LUN--without its containing volume--you can use the LUN move mechanism.
 +
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]

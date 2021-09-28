@@ -36,8 +36,8 @@ Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters, are c
 
 If these assumptions are not correct for your situation, you should see the following resources:
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanconf/home.html[SAN configuration]
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration]
 * https://library.netapp.com/ecm/ecm_download_file/ECMLP2547936[Linux Unified Host Utilities 7.1 Installation]
 * http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
 +

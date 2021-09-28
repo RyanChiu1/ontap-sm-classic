@@ -27,7 +27,7 @@ Describes how to quickly configure an intercluster SnapVault relationship.
 
 More information is available in the following guides:
 
-* http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
 +
 Describes how to prevent data loss using Snapshot copies and SnapMirror replication to a remote system
 
@@ -35,6 +35,6 @@ Describes how to prevent data loss using Snapshot copies and SnapMirror replicat
 +
 Describes information and best practices about configuring replication, including cluster peering.
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-concepts/home.html[ONTAP concepts]
+* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
 +
 Provides conceptual information about cluster peering.
