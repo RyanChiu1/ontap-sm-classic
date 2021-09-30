@@ -1,5 +1,10 @@
 homepage:
   tiles:
+    - title: Get started
+      links:
+        - title: Understanding System Manager Classic
+          url: "/nfs-config/index.html"
+
     - title: Provision NAS storage
       links:
         - title: NFS configuration
@@ -46,17 +51,12 @@ homepage:
           url: "/snmp-config/index.html"
         - title: Cluster management using System Manger 9.6 and 9.7
           url: "/online-help-96-97/index.html"
-    - title: ONTAP documentation
+    - title: More resources
       links:
         - title: ONTAP 9 documentation
           url:  "https://docs.netapp.com/us-en/ontap/"
-        - title: "Command Ref: Man pages"
-          url:  "tbd.html"
         - title: Automation and REST API docs
-          url:  "tbd.html"
-        - title: Earlier System Manager Classic online help
-          url:  "tbd.html"
-    - title: Demos & tutorials
+          url:  "https://docs.netapp.com/us-en/ontap-automation/index.html"
 
 sidebar:
   entries:

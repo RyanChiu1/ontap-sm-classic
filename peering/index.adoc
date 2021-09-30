@@ -33,11 +33,3 @@ Describes how to use the command-line interface to set up cluster peering relati
 * https://docs.netapp.com/us-en/ontap/networking/index.html[Network management]
 +
 Describes how to use the command-line interface to configure subnets, intercluster LIFs, routes, firewall policies, and other networking components.
-
-* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-+
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.
-
-*Related information*
-
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[Cluster management using System Manager]

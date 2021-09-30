@@ -46,7 +46,3 @@ If these assumptions are not correct for your situation, you should see the foll
 * _VMware vSphere Storage_ for your version of ESXi 5 (available from VMware).
 +
 http://www.vmware.com[VMware]
-
-* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-+
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.

@@ -17,12 +17,6 @@ You should use this content if you want to configure NFS access for ESXi hosts t
 * You want to use best practices, not explore every available option.
 * You do not want to read a lot of conceptual background.
 * You want to use to provision a datastore and create a volume.
-* You want to use System Manager to create aggregates and SVMs (if required), not the ONTAP command-line interface or an automated scripting tool.
-+
-If you use to create an aggregate, be aware that the UI navigation in 9.3 and later is different from the UI navigation in previous releases. This content provides the common steps that you must perform to complete a task in ONTAP releases 9.0-9.7. If you want the exact steps for navigating to a particular screen or window, you should view the System Manager Online Help for your version of ONTAP.
-+
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[Cluster management using System Manager]
-
 * You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
