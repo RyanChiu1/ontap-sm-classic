@@ -45,10 +45,6 @@ If this content is not suitable for your situation, you should see the following
 +
 Describes how to move volumes by using the CLI.
 
-* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-+
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.
-
 == Alternatives to volume move
 
 Before moving volumes, you should evaluate whether the following approaches are better suited to your situation:

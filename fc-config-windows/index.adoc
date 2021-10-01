@@ -15,10 +15,6 @@ This content is based on the following assumptions:
 
 * You want to use best practices, not explore every available option.
 * You do not want to read a lot of conceptual background.
-* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-+
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[Cluster management using System Manager]
-
 * You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
@@ -39,6 +35,3 @@ If these assumptions are not correct for your situation, you should see the foll
 * https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
 * https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration]
 * http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61343[NetApp Documentation: Host Utilities (current releases)] for your version of Windows Unified Host Utilities
-* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-+
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.

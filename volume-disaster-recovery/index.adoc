@@ -30,6 +30,3 @@ If these assumptions are not correct for your situation, or if you want more con
 
 * https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
 * https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]
-* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-+
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.

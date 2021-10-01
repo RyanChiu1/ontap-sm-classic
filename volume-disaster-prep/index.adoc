@@ -35,10 +35,6 @@ If these assumptions are not correct for your situation, or if you want more con
 * https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
 * http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2]
 * https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]
-* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-+
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.
-
 * http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-cmpr/GUID-5CB10C70-AC11-41C0-8C16-B4D0DF916E9B.html[ONTAP 9 commands]
 +
 Provides the set of commands for configuring and managing SnapMirror relationships. You might want to use the SnapMirror commands to write a script that creates multiple SnapMirror relationships.

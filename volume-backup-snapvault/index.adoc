@@ -34,6 +34,3 @@ If these assumptions are not correct for your situation, or if you want more con
 * link:../com.netapp.doc.pow-dap/home.html[Data protection]
 * http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2]
 * http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: SnapVault Best Practices]
-* http://mysupport.netapp.com/documentation/productlibrary/index.html?productID=61550[NetApp Documentation: OnCommand Workflow Automation (current releases)]
-+
-OnCommand Workflow Automation enables you to run prepackaged workflows that automate management tasks.
