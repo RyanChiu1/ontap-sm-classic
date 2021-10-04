@@ -12,7 +12,7 @@ entries:
         url: "/nfs-config-esxi/reference_completing_nfs_configuration_worksheet.html"
       - title: Installing
         url: "/nfs-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html"
-      - title: Adding the storage cluster or to VSC for
+      - title: Adding the storage cluster to VSC
         url: "/nfs-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html"
       - title: Configuring your network for best performance
         url: "/nfs-config-esxi/task_configuring_your_network_for_best_performance.html"
