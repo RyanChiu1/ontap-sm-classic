@@ -11,7 +11,7 @@ summary: "After you expand the cluster, you must validate the configuration by r
 [.lead]
 After you expand the cluster, you must validate the configuration by running Config Advisor and using some commands that verify cluster health and cluster replication rings.
 
-== Steps
+.Steps
 
 . Check the health of the configuration by running Config Advisor:
  .. Start Config Advisor, and then click *Collect Data*.

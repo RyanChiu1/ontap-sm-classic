@@ -11,11 +11,11 @@ summary: "After you expand a cluster, you should send an AutoSupport message to 
 [.lead]
 After you expand a cluster, you should send an AutoSupport message to indicate that the expansion process is complete. This message communicates to internal and external support staff that the expansion is complete and acts as a timestamp for any troubleshooting that might be required later.
 
-== Before you begin
+.Before you begin
 
 AutoSupport must be set up.
 
-== Steps
+.Steps
 
 . For each node in the cluster, send an AutoSupport message by using the `system node autosupport invoke` command.
 +

@@ -11,7 +11,7 @@ summary: "You can use System Manager to create fully configured storage virtual 
 [.lead]
 You can use System Manager to create fully configured storage virtual machines (SVMs) that can serve data immediately. A cluster can have one or more SVMs.
 
-== Before you begin
+.Before you begin
 
 * The cluster must have at least one non-root aggregate in the online state.
 * The aggregate must have sufficient space for the SVM root volume.
@@ -19,7 +19,7 @@ You can use System Manager to create fully configured storage virtual machines (
 * The protocols that you want to configure on the SVM must be licensed.
 * You must have configured the CIFS protocol for secure DDNS to work.
 
-== About this task
+.About this task
 
 * While creating SVMs, you can perform the following tasks:
  ** Create and fully configure SVMs.
@@ -41,7 +41,7 @@ The language of the SVM determines the character set that is used to display fil
 
 * You cannot use a SnapLock aggregate as the root aggregate of SVMs.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Click *Create*.
@@ -89,7 +89,7 @@ You must configure at least one LIF for each node in the HA pair. You can also s
 +
 The SVM is created with the specified configuration.
 
-== Results
+.Results
 
 The SVM that you created is started automatically. The root volume name is automatically generated as `SVM name_root`. By default, the `vsadmin` user account is created and is in the locked state.
 

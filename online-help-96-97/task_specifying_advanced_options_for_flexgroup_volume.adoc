@@ -11,7 +11,7 @@ summary: "When you create a FlexGroup volume, you can specify options you want t
 [.lead]
 When you create a FlexGroup volume, you can specify options you want to associate with the FlexGroup volume.
 
-== Steps
+.Steps
 
 . In the *Create FlexGroup* window, click image:../media/advanced_options.gif[] to specify the advanced options.
 +

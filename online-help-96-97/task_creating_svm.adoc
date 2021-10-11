@@ -11,12 +11,12 @@ summary: "You can use the Storage Virtual Machine (SVM) window to create fully c
 [.lead]
 You can use the Storage Virtual Machine (SVM) window to create fully configured SVMs. The SVMs serve data after storage objects are created on these SVMs.
 
-== Before you begin
+.Before you begin
 
 * You must have created an aggregate and the aggregate must be online.
 * You must have ensured that the aggregate has sufficient space for the SVM root volume.
 
-== Steps
+.Steps
 
 . Enter a name for the SVM.
 . Select data protocols for the SVM:

@@ -11,11 +11,11 @@ summary: "You can delete VLANs that are configured on network ports by using Sys
 [.lead]
 You can delete VLANs that are configured on network ports by using System Manager. You might have to delete a VLAN before removing a NIC from its slot. When you delete a VLAN, the VLAN is automatically removed from all of the failover rules and groups that use the VLAN.
 
-== Before you begin
+.Before you begin
 
 No LIFs must be associated with the VLAN.
 
-== Steps
+.Steps
 
 . Click *Network* > *Ethernet Ports*.
 . Select the VLAN that you want to delete, and then click *Delete*.

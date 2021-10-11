@@ -11,11 +11,11 @@ summary: You can configure iSCSI on an existing storage virtual machine \(SVM\).
 [.lead]
 You can configure iSCSI on an existing storage virtual machine (SVM). The iSCSI protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured iSCSI.
 
-== Before you begin
+.Before you begin
 
 You must have enough network addresses available to create two LIFs for each node.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Select the SVM that you want to configure.

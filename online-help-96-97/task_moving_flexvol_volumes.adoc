@@ -12,11 +12,11 @@ summary: "You can nondisruptively move a FlexVol volume to a different aggregate
 [.lead]
 You can nondisruptively move a FlexVol volume to a different aggregate or a different node for capacity utilization and improved performance by using System Manager.
 
-== Before you begin
+.Before you begin
 
 If you are moving a data protection volume, data protection mirror relationships must be initialized before you move the volume.
 
-== About this task
+.About this task
 
 * When you move a volume that is hosted on a Flash Pool aggregate, only the data that is stored in the HDD tier is moved to the destination aggregate.
 +
@@ -25,7 +25,7 @@ The cached data that is associated with the volume is not moved to the destinati
 * You cannot move volumes from a SnapLock aggregate.
 * You cannot move volumes from an SVM that is configured for disaster recovery to a FabricPool-enabled aggregate.
 
-== Steps
+.Steps
 
 . Choose one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers*.

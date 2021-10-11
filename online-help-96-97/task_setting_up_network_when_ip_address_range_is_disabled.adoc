@@ -11,11 +11,11 @@ summary: "You can set up a network by disabling an IP address range and entering
 [.lead]
 You can set up a network by disabling an IP address range and entering individual IP addresses for cluster management, node management, and service provider networks.
 
-== About this task
+.About this task
 
 In the Networks page, if the *IP Address Range* is disabled, enter individual IP addresses for cluster management, node management, and service processor networks.
 
-== Steps
+.Steps
 
 . Enter the cluster management IP address in the *Cluster Management IP Address* field.
 . Enter the netmask details for cluster management.

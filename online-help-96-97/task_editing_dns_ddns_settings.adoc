@@ -11,15 +11,15 @@ summary: "You can maintain host information centrally by using DNS. You can use 
 [.lead]
 You can maintain host information centrally by using DNS. You can use System Manager to add or modify the DNS domain name of your storage system. You can also enable DDNS on your storage system to update the name server automatically in the DNS server.
 
-== Before you begin
+.Before you begin
 
 You must have set up a CIFS server or an Active Directory account for the storage virtual machine (SVM) for secure DDNS to work.
 
-== About this task
+.About this task
 
 System Manager does not perform any validation checks for the DNS and DDNS settings.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

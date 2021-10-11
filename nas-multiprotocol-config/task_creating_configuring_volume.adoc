@@ -11,7 +11,7 @@ summary: You must create a FlexVol volume to contain your data. You can optional
 [.lead]
 You must create a FlexVol volume to contain your data. You can optionally change the volume's default security style, which is inherited from the security style of the root volume. You can also optionally change the volume's default location in the namespace, which is at the root volume of the storage virtual machine (SVM).
 
-== Steps
+.Steps
 
 . Navigate to the *Volumes* window.
 . Click *Create* > *Create FlexVol*.

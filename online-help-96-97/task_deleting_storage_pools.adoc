@@ -11,11 +11,11 @@ summary: "You might want to delete a storage pool when the cache of the storage 
 [.lead]
 You might want to delete a storage pool when the cache of the storage pool is not optimal or when it is no longer used by any aggregate or Flash Pool aggregate. You can delete a storage pool by using the Delete Storage Pool dialog box in System Manager.
 
-== Before you begin
+.Before you begin
 
 The storage pool must not be used by any aggregate.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Storage Pools*.
 . In the *Storage Pools* window, select the storage pool that you want to delete, and then click *Delete*.

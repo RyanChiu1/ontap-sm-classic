@@ -11,7 +11,7 @@ summary: When you are ready, you can configure client access by setting either U
 [.lead]
 When you are ready, you can configure client access by setting either UNIX or NTFS file permissions, modifying the share ACL, and adding an export rule. Then you should test that the affected users or groups can access the volume.
 
-== Steps
+.Steps
 
 . Decide which clients and users or groups will be given access to the share.
 . Set file permissions using a method that corresponds to the volume's security style:

@@ -11,13 +11,13 @@ summary: "You can initiate an unscheduled mirror update of the destination. You 
 [.lead]
 You can initiate an unscheduled mirror update of the destination. You might have to perform a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.
 
-== Before you begin
+.Before you begin
 
 The mirror relationship must be in a Snapmirrored state.
 
-== About this task
+.About this task
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the mirror relationship for which you want to update the data, and click *Operations* > *Update*.

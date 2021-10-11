@@ -11,14 +11,14 @@ summary: "You can use System Manager to create one or more FC SAN optimized LUNs
 [.lead]
 You can use System Manager to create one or more FC SAN optimized LUNs during the initial setup of a cluster on an AFF platform.
 
-== Before you begin
+.Before you begin
 
 * You must ensure that only one storage virtual machine (SVM) has been created with the name AFF_SAN_DEFAULT_SVM, and that this SVM does not contain any LUNs.
 * You must have verified that the hardware setup has been completed successfully.
 +
 https://docs.netapp.com/ontap-9/index.jsp[ONTAP 9 Documentation Center]
 
-== About this task
+.About this task
 
 * This method is available only during the initial setup of a cluster with two or more nodes.
 +
@@ -31,7 +31,7 @@ System Manager uses only the first two nodes to create LUNs.
 +
 You must not modify these configurations.
 
-== Steps
+.Steps
 
 . Log in to System Manager by using your cluster administrator credentials.
 +

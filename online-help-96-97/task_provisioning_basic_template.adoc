@@ -11,11 +11,11 @@ summary: "You can use System Manager to quickly provision basic templates for SA
 [.lead]
 You can use System Manager to quickly provision basic templates for SAP HANA.
 
-== About this task
+.About this task
 
 As the cluster administrator, you can provision applications by configuring a basic template. The example describes how to configure the *SAP HANA Server*.
 
-== Steps
+.Steps
 
 . Click *Applications & Tiers* > *Applications*
 . In the *Basic* tab, select the *SAP HANA Server* template.
@@ -28,7 +28,7 @@ As the cluster administrator, you can provision applications by configuring a ba
  ** Span HA Controller Notes
 . Click *Provision Storage*
 
-== Results
+.Results
 
 The SAP HANA Server application is provisioned.
 

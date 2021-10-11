@@ -11,7 +11,7 @@ summary: "You can use System Manager to create a mirror and vault relationship f
 [.lead]
 You can use System Manager to create a mirror and vault relationship from the source storage virtual machine (SVM). Creating this relationship enables you to better protect your data by periodically transferring data from the source volume to the destination volume. This relationship also enables you to retain data for long periods by creating backups of the source volume.
 
-== Before you begin
+.Before you begin
 
 * The source cluster must be running ONTAP 8.3.2 or later.
 * The SnapMirror license must be enabled on the source cluster and destination cluster.
@@ -31,7 +31,7 @@ You can use System Manager to create a mirror and vault relationship from the so
 * A maximum of 25 volumes can be protected in one selection.
 * If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which Security Assertion Markup Language (SAML) authentication is enabled, password-based authentication must be enabled on the remote cluster.
 
-== About this task
+.About this task
 
 * System Manager does not support a cascade relationship.
 +
@@ -40,7 +40,7 @@ For example, a destination volume in a relationship cannot be the source volume 
 * If encryption is enabled on the source volume and the destination cluster is running a version of ONTAP software earlier than ONTAP 9.3, then encryption is disabled on the destination volume by default.
 * SVMs that are peered only for FlexCache applications and do not have peering permissionsforSnapMirror applications are not shown in the list of SVMs in this task. You can use the ONTAP System Manager 9.6 enhanced peering workflow to give permission to, or peer to, these SVMs. You then can select them in this task to create a protection relationship.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

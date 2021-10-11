@@ -11,7 +11,7 @@ summary: "You can use System Manager to change the deduplication schedule by cho
 [.lead]
 You can use System Manager to change the deduplication schedule by choosing to run deduplication manually, automatically, or on a schedule that you specify.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

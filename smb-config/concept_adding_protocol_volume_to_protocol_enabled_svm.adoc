@@ -11,6 +11,6 @@ summary: "Adding a CIFS volume to a CIFS-enabled SVM involves creating and confi
 [.lead]
 Adding a CIFS volume to a CIFS-enabled SVM involves creating and configuring a volume, creating a share and setting its permissions, and verifying access from a Windows administration host. You can then configure CIFS client access.
 
-== Before you begin
+.Before you begin
 
 CIFS must be completely set up on the SVM.

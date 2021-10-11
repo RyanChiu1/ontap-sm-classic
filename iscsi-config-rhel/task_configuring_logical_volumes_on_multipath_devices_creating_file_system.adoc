@@ -11,15 +11,15 @@ summary: When the Linux host first accesses a new SCSI device \(LUN\), there is 
 [.lead]
 When the Linux host first accesses a new SCSI device (LUN), there is no partition or file system. If you want to use a partitioned multipath device, you must first partition the underlying SCSI devices. You might also want to create logical volumes on multipath devices, and optionally create a file system.
 
-== Before you begin
+.Before you begin
 
 SCSI devices and corresponding multipath devices must have been discovered by the Linux host.
 
-== About this task
+.About this task
 
 At a minimum DM-Multipath should be configured on the SCSI devices. Any configuration beyond DM-Multipath is optional. The following steps are general guidelines if you wish to perform additional configuration, such as partitioning, configuring logical volumes on multipath devices, and creating a file system. For details on Linux commands, refer to Red Hat Enterprise Linux documentation and man pages.
 
-== Steps
+.Steps
 
 . To use a partitioned multipath device, first partition the underlying SCSI devices using the `fdisk` or `parted` utility.
 . Create corresponding multipath partitions using the `kpartx` utility.

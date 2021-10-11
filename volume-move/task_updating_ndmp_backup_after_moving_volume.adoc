@@ -11,7 +11,7 @@ summary: "If the volume that you moved was previously backed up to tape using ND
 [.lead]
 If the volume that you moved was previously backed up to tape using NDMP in a specific configuration, after moving the volume, you can perform one of the following actions to ensure the volume continues to be backed up successfully: create a baseline or migrate the backup LIF to the node containing the moved volume.
 
-== About this task
+.About this task
 
 * This procedure is necessary only if the backup application does not support the cluster-aware backup (CAB) extension and the backup process uses node-scoped NDMP.
 +

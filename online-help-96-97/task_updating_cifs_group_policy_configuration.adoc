@@ -11,7 +11,7 @@ summary: "You have to update the group policy after the policy configuration is 
 [.lead]
 You have to update the group policy after the policy configuration is changed through the command-line interface (CLI). You can use the CIFS window in System Manager to update the group policy.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

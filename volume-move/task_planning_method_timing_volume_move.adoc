@@ -11,13 +11,13 @@ summary: "You can use System Manager to move a volume and to decide whether to h
 [.lead]
 You can use System Manager to move a volume and to decide whether to have a manual cutover. If you need to update LUN reporting nodes, you must follow an advanced procedure in the command-line interface (CLI). Optionally, you can also plan the timing of a volume move.
 
-== About this task
+.About this task
 
 The source volume of a SnapMirror or SnapVault relationship can be moved while the volume is being mirrored. SnapMirror services encounter a brief pause during the cutover phase of the volume move job.
 
 The destination volume can also be moved. In the iterative phase, SnapMirror or SnapVault updates and volume move operations run concurrently. When evaluating whether a cutover is possible in the cutover phase, priority between the cutover and SnapMirror or SnapVault updates is determined on a first-come, first-served basis. Until the first operation finishes, other operations are blocked.
 
-== Steps
+.Steps
 
 . Decide whether you require a manual cutover.
 +

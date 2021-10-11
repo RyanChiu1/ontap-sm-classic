@@ -11,7 +11,7 @@ summary: "You can use System Manager to monitor the node status and interconnect
 [.lead]
 You can use System Manager to monitor the node status and interconnect status of all of the high-availability (HA) pairs in a cluster. You can also verify whether takeover or giveback is enabled or has occurred, and view the reasons why takeover or giveback is not currently possible.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *High Availability*.
 . In the *High Availability* window, click the HA pair image to view details such as the cluster HA status, node status, interconnect status, and hardware model of each node.

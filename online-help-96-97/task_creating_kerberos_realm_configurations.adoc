@@ -11,7 +11,7 @@ summary: "If you want to use Kerberos authentication for client access, you must
 [.lead]
 If you want to use Kerberos authentication for client access, you must configure the storage virtual machine (SVM) to use an existing Kerberos realm. You can use System Manager to create a Kerberos realm configuration, which enables SVMs to use Kerberos security services for NFS.
 
-== Before you begin
+.Before you begin
 
 * The CIFS license must be installed if CIFS shares are used, and the NFS license must be installed if an LDAP server is used.
 * Active Directory (Windows 2003 or Windows 2008) with DES MD5 encryption capability must be available.
@@ -19,7 +19,7 @@ If you want to use Kerberos authentication for client access, you must configure
 +
 This prevents authentication errors, and ensures that the timestamps in log files are consistent across the cluster.
 
-== About this task
+.About this task
 
 While creating a Kerberos realm, you must set the following attributes in the Create Kerberos Realm wizard:
 
@@ -33,7 +33,7 @@ The default port number is 88.
 * Password server IP address
 * Active Directory server name and IP address if the KDC vendor is Microsoft
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

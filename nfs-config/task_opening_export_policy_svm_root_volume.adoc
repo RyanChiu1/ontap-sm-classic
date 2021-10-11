@@ -11,11 +11,11 @@ summary: "You must add a rule to the default export policy to allow all clients 
 [.lead]
 You must add a rule to the default export policy to allow all clients access through NFSv3. Without such a rule, all NFS clients are denied access to the storage virtual machine (SVM) and its volumes.
 
-== About this task
+.About this task
 
 You should specify all NFS access as the default export policy, and later restrict access to individual volumes by creating custom export policies for individual volumes.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click the *SVM Settings* tab.
@@ -32,6 +32,6 @@ You should specify all NFS access as the default export policy, and later restri
 +
 image::../media/export_rule_for_root_volume_nfs.gif[This image is explained by the surrounding text.]
 
-== Results
+.Results
 
 NFSv3 clients can now access any volumes created on the SVM.

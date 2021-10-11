@@ -11,7 +11,7 @@ summary: "You can use System Manager to set up a schedule for the automatic crea
 [.lead]
 You can use System Manager to set up a schedule for the automatic creating automatic Snapshot copies of a volume. You can specify the time and frequency of creating the copies. You can also specify the number of Snapshot copies that are saved.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

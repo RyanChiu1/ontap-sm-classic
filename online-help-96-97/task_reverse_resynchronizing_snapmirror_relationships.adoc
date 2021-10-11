@@ -11,11 +11,11 @@ summary: "You can use System Manager to reestablish a mirror relationship that w
 [.lead]
 You can use System Manager to reestablish a mirror relationship that was previously broken. In a reverse resynchronization operation, you reverse the functions of the source volume and destination volume.
 
-== Before you begin
+.Before you begin
 
 The source volume must be online.
 
-== About this task
+.About this task
 
 * You can use the destination volume to serve data while you repair or replace the source volume, update the source volume, and reestablish the original configuration of the systems.
 * When you perform reverse resynchronization, the contents on the mirror source are overwritten by the contents on the destination volume.
@@ -31,7 +31,7 @@ If the volume expiry time is in the past or has not been set, then the Snapshot 
 
 * When you perform reverse resynchronization, the mirror policy of the relationship is set to DPDefault, and the mirror schedule is set to None.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the mirror relationship that you want to reverse.

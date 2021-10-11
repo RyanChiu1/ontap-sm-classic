@@ -11,11 +11,11 @@ summary: "After breaking the SnapMirror relationship, you must verify that the d
 [.lead]
 After breaking the SnapMirror relationship, you must verify that the destination volume has read/write access and that the destination volume settings match the settings of the source volume.
 
-== About this task
+.About this task
 
 You must perform this task from the *destination* cluster.
 
-== Steps
+.Steps
 
 . Navigate to the *Volumes* window.
 . Select the destination volume from the *Volumes* list, and then verify that the destination volume type is `rw`, which indicates read/write access.

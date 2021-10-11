@@ -11,7 +11,7 @@ summary: "You can use the Quotas window in System Manager to view quota details 
 [.lead]
 You can use the Quotas window in System Manager to view quota details such as the volume and qtrees to which the quota is applied, the type of quota, the user or group to which the quota is applied, and the space and file usage.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Quotas*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which the quota that you want to view information about resides.

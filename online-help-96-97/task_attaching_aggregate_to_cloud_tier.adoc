@@ -11,11 +11,11 @@ summary: "You can use System Manager to attach an All Flash aggregate to a cloud
 [.lead]
 You can use System Manager to attach an All Flash aggregate to a cloud tier. You can store infrequently used data in cloud tiers.
 
-== Before you begin
+.Before you begin
 
 You must have added a cloud tier to the cluster.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Cloud Tier*.
 . In the *Used in Aggregates* column, click *Attach Aggregates*.

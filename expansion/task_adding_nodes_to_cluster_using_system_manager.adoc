@@ -11,7 +11,7 @@ summary: "You can use System Manager to increase the size and capabilities of yo
 [.lead]
 You can use System Manager to increase the size and capabilities of your storage system by adding nodes to an existing cluster. This feature is automatically enabled in System Manager when the effective cluster version is ONTAP 9.2.
 
-== Before you begin
+.Before you begin
 
 * New compatible nodes must be cabled to the cluster.
 +
@@ -20,7 +20,7 @@ Only the ports that are in the default broadcast domain will be listed in the Ne
 * All of the nodes in the cluster must be up and running.
 * All of the nodes must be of the same version.
 
-== Steps
+.Steps
 
 . Add the new compatible nodes to the cluster:
 +

@@ -11,11 +11,11 @@ summary: "You can use System Manager to add a cluster user account and to specif
 [.lead]
 You can use System Manager to add a cluster user account and to specify a user login method for accessing the storage system.
 
-== About this task
+.About this task
 
 In clusters on which SAML authentication is enabled, for a particular application, you can add either SAML authentication or password-based authentication, or you can add both types of authentication.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Management* pane, click *Users*.

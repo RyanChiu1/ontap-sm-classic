@@ -11,6 +11,6 @@ summary: "Adding an NFS volume to an NFS-enabled SVM involves creating and confi
 [.lead]
 Adding an NFS volume to an NFS-enabled SVM involves creating and configuring a volume, creating an export policy, and verifying access from a UNIX administration host. You can then configure NFS client access.
 
-== Before you begin
+.Before you begin
 
 NFS must be completely set up on the SVM.

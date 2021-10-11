@@ -11,7 +11,7 @@ summary: You can minimize data access disruption when activating the destination
 [.lead]
 You can minimize data access disruption when activating the destination volume by setting up required configurations such as LIFs, CIFS shares, and export policies for the NAS environment, and LIFs and initiator groups for the SAN environment on the SVM containing the destination volume.
 
-== About this task
+.About this task
 
 You must perform this task on the *destination* cluster for the SVM containing the destination volume.
 

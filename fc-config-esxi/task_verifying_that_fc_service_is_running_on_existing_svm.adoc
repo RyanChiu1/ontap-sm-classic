@@ -11,11 +11,11 @@ summary: "If you choose to use an existing storage virtual machine, you must ver
 [.lead]
 If you choose to use an existing storage virtual machine (SVM), you must verify that the FC service is running on the SVM by using ONTAP System Manager. You must also verify that FC logical interfaces (LIFs) are already created.
 
-== Before you begin
+.Before you begin
 
 You must have selected an existing SVM on which you plan to create a new LUN.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Select the required SVM.

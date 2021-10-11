@@ -11,11 +11,11 @@ summary: "You must identify the SnapVault backup destination volume from which y
 [.lead]
 You must identify the SnapVault backup destination volume from which you want to restore data when the data in the source volume is corrupted or lost.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Enter the URL `+https://IP-address-of-cluster-management-LIF+` in a web browser and log in to System Manager using your cluster administrator credential.
 . Navigate to the *Volumes* window.

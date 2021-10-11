@@ -11,11 +11,11 @@ summary: "After selecting the SnapVault backup destination volume, you must perf
 [.lead]
 After selecting the SnapVault backup destination volume, you must perform the restore operation either to a new volume to test the backed-up data or to an existing volume to restore the lost or corrupted data.
 
-== About this task
+.About this task
 
 You must perform this task from the *destination* cluster.
 
-== Steps
+.Steps
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.

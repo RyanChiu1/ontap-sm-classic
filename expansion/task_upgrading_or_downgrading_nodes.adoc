@@ -11,7 +11,7 @@ summary: "Before joining the newly installed nodes to the cluster, you must ensu
 [.lead]
 Before joining the newly installed nodes to the cluster, you must ensure that they are running the same version of ONTAP that the cluster is running. If the nodes are running a different version, you must upgrade or downgrade the nodes to match the cluster.
 
-== Steps
+.Steps
 
 . Determine the version of ONTAP installed on the cluster: `cluster image show`
 . View the current version of ONTAP on the nodes:

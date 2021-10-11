@@ -11,14 +11,14 @@ summary: "You can manage local group memberships by adding and removing a local 
 [.lead]
 You can manage local group memberships by adding and removing a local user,an Active Directory user, or an Active Directory group by using System Manager. You can modify the privileges that are assigned to a group and the description of a group to easily identify the group.
 
-== About this task
+.About this task
 
 You must keep the following in mind when adding members to or removing members from a local Windows group:
 
 * You cannot add users to or remove users from the special _Everyone_ group.
 * You cannot add a local Windows group to another local Windows group.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -35,7 +35,7 @@ You can select the privileges from the predefined set of supported privileges.
  ** Select the users from the list of available local users in the storage virtual machine (SVM).
 . Click *Edit*.
 
-== Results
+.Results
 
 The local Windows group settings are modified, and the changes are displayed in the *Groups* tab.
 

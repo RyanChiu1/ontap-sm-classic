@@ -11,7 +11,7 @@ summary: "You can use System Manager to delete a cluster peer relationship if th
 [.lead]
 You can use System Manager to delete a cluster peer relationship if the relationship is no longer required. You must delete the cluster peering relationship from each of the clusters in the peer relationship.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster Peers*.
 . Select the cluster peer for which you want to delete the relationship, and then click *Delete*.

@@ -11,7 +11,7 @@ summary: "Adding CIFS/SMB access to an existing SVM involves creating a data LIF
 [.lead]
 Adding CIFS/SMB access to an existing SVM involves creating a data LIF, configuring a CIFS server, provisioning a volume, sharing the volume, and configuring the share permissions.
 
-== Before you begin
+.Before you begin
 
 * You must know which of the following networking components the SVM will use:
  ** The node and the specific port on that node where the data logical interface (LIF) will be created
@@ -22,7 +22,7 @@ Adding CIFS/SMB access to an existing SVM involves creating a data LIF, configur
 +
 This is the case if you did not created the SVM following the procedure in this content to configure a SAN protocol.
 
-== Steps
+.Steps
 
 . Navigate to the area where you can configure the protocols of the SVM:
  .. Select the SVM that you want to configure.

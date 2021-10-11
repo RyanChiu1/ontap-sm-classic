@@ -11,11 +11,11 @@ summary: "You can use System Manager to quiesce a mirror destination to stabiliz
 [.lead]
 You can use System Manager to quiesce a mirror destination to stabilize it before creating a Snapshot copy. The quiesce operation enables active mirror transfers to finish and disables future transfers for the mirroring relationship.
 
-== About this task
+.About this task
 
 You can quiesce only mirror relationships that are in the Snapmirrored state.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the mirror relationship that you want to quiesce.

@@ -11,9 +11,9 @@ summary: "You can use System Manager to create a Snapshot copy of a volume outsi
 [.lead]
 You can use System Manager to create a Snapshot copy of a volume outside a defined schedule to capture the state of the file system at a specific point in time.
 
-== About this task
+.About this task
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

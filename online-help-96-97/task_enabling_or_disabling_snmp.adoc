@@ -11,7 +11,7 @@ summary: "You can enable or disable SNMP on your clusters by using System Manage
 [.lead]
 You can enable or disable SNMP on your clusters by using System Manager. SNMP enables you to monitor the storage virtual machines (SVMs) in a cluster to avoid issues before they can occur and to prevent issues from occurring.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Setup* pane, click *SNMP*.

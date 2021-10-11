@@ -11,12 +11,12 @@ summary: "You can use System Manager to modify the network interface to enable m
 [.lead]
 You can use System Manager to modify the network interface to enable management access for a data LIF.
 
-== About this task
+.About this task
 
 * You cannot modify the network settings of cluster LIFs, cluster management LIFs, or node management LIFs through System Manager.
 * You cannot enable management access for an intercluster LIF.
 
-== Steps
+.Steps
 
 . Click *Network* > *Network Interfaces*.
 . Select the interface that you want to modify, and then click *Edit*.

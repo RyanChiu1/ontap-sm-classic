@@ -11,11 +11,11 @@ summary: "The NVMe service enables you to manage NVMe adapters for use with name
 [.lead]
 The NVMe service enables you to manage NVMe adapters for use with namespaces. You can use System Manager to start the NVMe service to bring the adapters online. You can stop the NVMe service to take the NVMe adapters offline and to disable access to the namespaces.
 
-== Before you begin
+.Before you begin
 
 NVMe capable adapters must be present before you start the NVMe service.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM settings*.

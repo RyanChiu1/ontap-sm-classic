@@ -11,7 +11,7 @@ summary: "You can use System Manager to view the LDAP clients that are configure
 [.lead]
 You can use System Manager to view the LDAP clients that are configured for a storage virtual machine (SVM) in a cluster.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Setup* pane, click *LDAP*.

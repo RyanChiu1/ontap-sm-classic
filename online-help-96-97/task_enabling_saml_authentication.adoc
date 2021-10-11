@@ -11,7 +11,7 @@ summary: "You can use System Manager to configure Security Assertion Markup Lang
 [.lead]
 You can use System Manager to configure Security Assertion Markup Language (SAML) authentication so that remote users can log in by using a secure identity provider (IdP).
 
-== Before you begin
+.Before you begin
 
 * The IdP that you plan to use for remote authentication must be configured.
 +
@@ -22,7 +22,7 @@ See the documentation that is provided by the IdP that you have configured.
 
 * You must have the URI of the IdP.
 
-== About this task
+.About this task
 
 The IdPs that have been validated with System Manager are Shibboleth and Active Directory Federation Services.
 
@@ -31,7 +31,7 @@ The IdPs that have been validated with System Manager are Shibboleth and Active 
 After SAML authentication is enabled, only remote users can access the System Manager GUI. Local users cannot access the System Manager GUI after SAML authentication is enabled.
 ====
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Authentication*.
 . Select the *Enable SAML authentication* check box.

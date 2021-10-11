@@ -11,15 +11,15 @@ summary: "You can use System Manager to extend the expiry date of the Snapshot c
 [.lead]
 You can use System Manager to extend the expiry date of the Snapshot copies in a volume.
 
-== Before you begin
+.Before you begin
 
 The SnapLock license must be installed on your system.
 
-== About this task
+.About this task
 
 You can extend the expiry date only for Snapshot copies in a data protection (DP) volume that is the destination in a SnapLock for SnapVault relationship.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

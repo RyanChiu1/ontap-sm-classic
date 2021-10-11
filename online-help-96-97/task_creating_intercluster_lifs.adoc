@@ -11,7 +11,7 @@ summary: "Creating intercluster logical interfaces (LIFs) enables the cluster ne
 [.lead]
 Creating intercluster logical interfaces (LIFs) enables the cluster network to communicate with a node. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Advanced Cluster Setup*.
 . In the *Setup Advanced Cluster Features* window, click *Proceed* next to the *Cluster Peering* option.

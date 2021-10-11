@@ -11,7 +11,7 @@ summary: "You can use System Manager to view information about the domain contro
 [.lead]
 You can use System Manager to view information about the domain controllers and servers that are connected to the storage system.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

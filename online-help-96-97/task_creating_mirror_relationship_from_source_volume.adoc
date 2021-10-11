@@ -11,7 +11,7 @@ summary: "You can use System Manager to create a mirror relationship from the so
 [.lead]
 You can use System Manager to create a mirror relationship from the source storage virtual machine (SVM), and to assign a mirror policy and schedule to the mirror relationship. The mirror copy enables quick availability of data if the data on the source volume is corrupted or lost.
 
-== Before you begin
+.Before you begin
 
 * The SnapMirror license must be enabled on the source cluster and destination cluster.
 +
@@ -29,7 +29,7 @@ You can use System Manager to create a mirror relationship from the source stora
 * A maximum of 25 volumes can be protected in one selection.
 * If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which Security Assertion Markup Language (SAML) authentication is enabled, password-based authentication must be enabled on the remote cluster.
 
-== About this task
+.About this task
 
 * System Manager does not support a cascade relationship.
 +
@@ -42,7 +42,7 @@ For example, if the source volume is a SnapLock Enterprise volume, then the dest
 * If encryption is enabled on the source volume and the destination cluster is running a version of ONTAP software earlier than ONTAP 9.3, then encryption is disabled on the destination volume by default.
 * SVMs that are peered only for FlexCache applications and do not have peering permissions for SnapMirror applications are not shown in the list of SVMs in this task. You can use the ONTAP System Manager 9.6 enhanced peering workflow to give permission to, or peer to, these SVMs. You then can select them in this task to create a protection relationship.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.
@@ -90,7 +90,7 @@ If the selected cluster is running a version of ONTAP software earlier than ONTA
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*, update the protection policy and protection schedule, select *FabricPool-enabled aggregate*, and then initialize the protection relationship.
 . Click *Save*.
 
-== Results
+.Results
 
 A new destination volume of type _dp_ is created with the following default settings:
 

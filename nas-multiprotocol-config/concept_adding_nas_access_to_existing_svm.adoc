@@ -11,7 +11,7 @@ summary: "Adding both CIFS/SMB and NFS access to an existing SVM involves creati
 [.lead]
 Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data LIF, configuring a CIFS server, enabling NFS, and optionally configuring NIS.
 
-== Before you begin
+.Before you begin
 
 * You must know which of the following networking components the SVM will use:
  ** The node and the specific port on that node where the data logical interface (LIF) will be created
@@ -24,11 +24,11 @@ Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data 
 +
 This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
-== About this task
+.About this task
 
 The order in which you configure CIFS and NFS affects the dialog boxes that are displayed. In this procedure, you must configure CIFS first and NFS second.
 
-== Steps
+.Steps
 
 . Navigate to the area where you can configure the protocols of the SVM:
  .. Select the SVM that you want to configure.

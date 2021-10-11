@@ -11,7 +11,7 @@ summary: "You can enable or disable the external cache functionality for a stora
 [.lead]
 You can enable or disable the external cache functionality for a storage system that has a Flash Cache module installed by using System Manager. You can enable Flash Cache modules based on the workload requirements of your storage system.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Hardware Cache*
 . If you want to modify a module or modules, move the slider button to enable or disable each module, as required.

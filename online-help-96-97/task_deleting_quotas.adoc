@@ -11,7 +11,7 @@ summary: "You can use System Manager to delete one or more quotas when your user
 [.lead]
 You can use System Manager to delete one or more quotas when your users and their storage requirements and limitations change.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Quotas*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which the quotas that you want to delete reside.

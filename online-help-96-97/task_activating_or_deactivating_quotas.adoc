@@ -11,7 +11,7 @@ summary: 'You can use System Manager to activate or deactivate quotas on one or 
 [.lead]
 You can use System Manager to activate or deactivate quotas on one or more volumes that you select on your storage system. You can activate or deactivate quotas when you users and their storage requirements and limitations change.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Quotas*.
 . From the drop-down menu in the SVM field, select the storage virtual machine (SVM) on which the quotas that you want to activate or deactivate reside.

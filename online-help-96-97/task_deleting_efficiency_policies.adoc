@@ -11,11 +11,11 @@ summary: "You can use System Manager to delete an efficiency policy that is no l
 [.lead]
 You can use System Managerto delete an efficiency policy that is no longer required.
 
-== Before you begin
+.Before you begin
 
 The efficiency policy must be disabled.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

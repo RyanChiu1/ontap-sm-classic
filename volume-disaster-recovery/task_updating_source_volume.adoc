@@ -11,11 +11,11 @@ summary: "After resynchronizing the source volume, you might want to ensure that
 [.lead]
 After resynchronizing the source volume, you might want to ensure that all the latest changes are updated on the source volume before activating the source volume.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.

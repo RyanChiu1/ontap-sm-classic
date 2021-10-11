@@ -11,7 +11,7 @@ summary: "If you choose to use an existing SVM, you must first verify that NFS i
 [.lead]
 If you choose to use an existing SVM, you must first verify that NFS is enabled on the SVM. You can then configure NFS access and verify that NFS is enabled for ESXi by using ESXi by using Virtual Storage Console.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click the *SVM Settings* tab.

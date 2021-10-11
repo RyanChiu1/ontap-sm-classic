@@ -11,16 +11,16 @@ summary: "You can create a cluster peer relationship between two clusters by ent
 [.lead]
 You can create a cluster peer relationship between two clusters by entering a predetermined passphrase and the IP addresses of the intercluster LIFs of the remote cluster, and then verifying that the relationship was created successfully.
 
-== Before you begin
+.Before you begin
 
 * You must know the IP addresses of all of the intercluster LIFs of the clusters that you want to peer.
 * You must know the passphrase that you will use for each peer relationship.
 
-== About this task
+.About this task
 
 You must perform this procedure on each cluster.
 
-== Steps
+.Steps
 
 . From the source cluster, create a cluster peer relationship with the destination cluster.
  .. Click the *Configurations* tab.

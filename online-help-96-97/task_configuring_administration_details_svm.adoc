@@ -11,11 +11,11 @@ summary: "You can use System Manager to quickly configure the administration det
 [.lead]
 You can use System Manager to quickly configure the administration details of astorage virtual machine (SVM). You can optionally delegate the administration of the SVM to SVM administrators.
 
-== About this task
+.About this task
 
 As an SVM administrator, you cannot use System Manager to manage delegated SVMs. You can manage theSVMsonly by using the command-line interface (CLI).
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Configuration Updates*.
 . In the *SVMs* tab, select the node, and then click *Configure Administration Details*.

@@ -11,11 +11,11 @@ summary: "You can use System Manager to create a local Windows user account that
 [.lead]
 You can use System Manager to create a local Windows user account that can be used to authorize access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also use local Windows user accounts for authentication when creating a CIFS session.
 
-== Before you begin
+.Before you begin
 
 * The CIFS server must be configured for the SVM.
 
-== About this task
+.About this task
 
 A local Windows user name must meet the following requirements:
 
@@ -35,7 +35,7 @@ The password must meet the following criteria:
  ** Base 10 digits (0 through 9)
  ** Special characters: ~ ! @ # 0 {caret} & * _ - + = ` \ | ( ) [ ] : ; " ' < > , . ? /
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -52,7 +52,7 @@ The password must meet the password requirements.
 . Select *Disable this account* to disable this account after the user is created.
 . Click *Create*.
 
-== Results
+.Results
 
 The local Windows user account is created and is assigned membership to the selected groups. The user account is listed in the *Users* tab.
 

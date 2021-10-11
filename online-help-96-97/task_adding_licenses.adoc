@@ -11,11 +11,11 @@ summary: "If your storage system software was installed at the factory, System M
 [.lead]
 If your storage system software was installed at the factory, System Manager automatically adds the software to its list of licenses. If the software was not installed at the factory or if you want to add additional software licenses, you can add the software license by using System Manager.
 
-== Before you begin
+.Before you begin
 
 The software license code for the specific ONTAP service must be available.
 
-== About this task
+.About this task
 
 * When you add a new license in a MetroCluster configuration, it is a best practice to add the license on the surviving site cluster as well.
 * You cannot use System Manager to add the Cloud Volumes ONTAP license.
@@ -26,7 +26,7 @@ The Cloud Volumes ONTAP license is not listed in the license page. System Manage
 +
 The capacity-based licenses are of "`json`" type.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Licenses*.
 . Click *Add*.
@@ -71,7 +71,7 @@ The Add License Status dialog box displays the list of licenses that were added 
 
 . Click *Close*.
 
-== Results
+.Results
 
 The software license is added to your storage system and is displayed in the list of licenses in the Licenses window.
 

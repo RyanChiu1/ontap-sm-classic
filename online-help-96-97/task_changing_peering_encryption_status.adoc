@@ -11,11 +11,11 @@ summary: "You can use System Manager to change the peering encryption status for
 [.lead]
 You can use System Manager to change the peering encryption status for the selected cluster.
 
-== About this task
+.About this task
 
 The encryption status can be enabled or disabled. You can change the status from enabled to disabled or from disabled to enabled by selecting *Change Encryption*.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster Peers*.
 . Select the peered cluster, and click *Edit*

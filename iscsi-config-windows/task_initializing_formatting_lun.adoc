@@ -11,11 +11,11 @@ summary: When a new LUN is first accessed by the Windows host, it has no partiti
 [.lead]
 When a new LUN is first accessed by the Windows host, it has no partition or file system. You must initialize the LUN, and optionally format it with a file system.
 
-== Before you begin
+.Before you begin
 
 The LUN must have been discovered by the Windows host.
 
-== About this task
+.About this task
 
 LUNs appear in Windows Disk Management as disks.
 
@@ -23,7 +23,7 @@ You can initialize the disk as a basic disk with a GPT or MBR partition table.
 
 You typically format the LUN with a file system such as NTFS, but some applications use raw disks instead.
 
-== Steps
+.Steps
 
 . Start Windows Disk Management.
 . Right-click the LUN, and then select the required disk or partition type.

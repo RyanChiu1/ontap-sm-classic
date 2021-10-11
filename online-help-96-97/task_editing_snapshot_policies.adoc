@@ -11,7 +11,7 @@ summary: "You can modify the details of an existing Snapshot policy, such as the
 [.lead]
 You can modify the details of an existing Snapshot policy, such as the schedule name, SnapMirror label, or the maximum number of Snapshot copies that are created, by using the Edit Snapshot Policy dialog box in System Manager.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Snapshot Policies*.
 . In the *Snapshot Policies* window, select the Snapshot policy that you want to modify and click *Edit*.

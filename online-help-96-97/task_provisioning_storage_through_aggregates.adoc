@@ -11,11 +11,11 @@ summary: "You can create an aggregate based on storage recommendations or manual
 [.lead]
 You can create an aggregate based on storage recommendations or manually depending on your requirement. You can create Flash Pool aggregates, SnapLock aggregates, and a FabricPool-enabled aggregates to provide storage for one or more volumes by using System Manager.
 
-== Before you begin
+.Before you begin
 
 You must have enough spare disks to create an aggregate.
 
-== About this task
+.About this task
 
 You cannot perform the following actions by using System Manager:
 

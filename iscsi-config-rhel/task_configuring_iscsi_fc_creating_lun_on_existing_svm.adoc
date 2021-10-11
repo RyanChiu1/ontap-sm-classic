@@ -11,11 +11,11 @@ summary: You can configure iSCSI on an existing storage virtual machine \(SVM\) 
 [.lead]
 You can configure iSCSI on an existing storage virtual machine (SVM)and create a LUN and its containing volume with a single wizard. The iSCSI protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured iSCSI.
 
-== Before you begin
+.Before you begin
 
 You must have enough network addresses available to create two LIFs for each node.
 
-== About this task
+.About this task
 
 LUNs are mapped to a subset of the initiators in the igroup to limit the number of paths from the host to the LUN.
 
@@ -23,7 +23,7 @@ LUNs are mapped to a subset of the initiators in the igroup to limit the number 
 * You still must configure all of the iSCSI LIFs on every node for LUN mobility in case the LUN is moved to another node in the cluster.
 * You must modify the SLM reporting-nodes list before moving a volume or a LUN.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Select the SVM that you want to configure.

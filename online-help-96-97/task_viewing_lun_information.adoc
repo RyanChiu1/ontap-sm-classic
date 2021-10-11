@@ -11,7 +11,7 @@ summary: "You can use the LUN Management tab in System Manager to view details a
 [.lead]
 You can use the LUN Management tab in System Manager to view details about a LUN, such as its name, status, size, and type.
 
-== Steps
+.Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, select the LUN that you want to view information about from the displayed list of LUNs.

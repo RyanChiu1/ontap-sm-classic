@@ -11,7 +11,7 @@ summary: "You can create a FlexVol volume for your data by using the Create Volu
 [.lead]
 You can create a FlexVol volume for your data by using the Create Volume dialog box in System Manager. You must always create a separate volume for your data rather than storing data in the root volume.
 
-== Before you begin
+.Before you begin
 
 * The cluster must contain a non-root aggregate and a storage virtual machine (SVM).
 * If you want to create read/write volumes, you must have configured the protocols for the SVM, and you must have installed either the SnapMirror license or the SnapVault license.
@@ -22,7 +22,7 @@ If you have not configured the protocols but have installed any one of these lic
 +
 You must refresh your web browser after enabling "`key-manager setup`".
 
-== About this task
+.About this task
 
 * You can enable storage Quality of Service (QoS) only for a read/write (rw) volume.
 * When you create a DP volume on the sync-source SVM in a MetroCluster configuration, the volume is not replicated on the sync-destination SVM.
@@ -33,7 +33,7 @@ You must refresh your web browser after enabling "`key-manager setup`".
 * You cannot encrypt a volume in Cloud Volumes ONTAP.
 * If encryption is enabled on the source volume and if the destination cluster is running a version of ONTAP software earlier than ONTAP 9.3, then encryption is disabled on the destination volume by default.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . Click *Create* > *Create FlexVol*.

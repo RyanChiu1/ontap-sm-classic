@@ -11,14 +11,14 @@ summary: "You can use the template file that is provided in System Manager to se
 [.lead]
 You can use the template file that is provided in System Manager to set up a cluster by creating a cluster, setting up the node management and cluster management networks, and then setting up event notifications. (Starting with ONTAP System Manager 9.6, AutoSupport is not supported.) You can download the template file in `.xlsx` format or `.csv` format.
 
-== About this task
+.About this task
 
 * If the cluster supports ONTAP 9.1 or later, you can add only storage systems that are running ONTAP 9.1 or later.
 * All fields are not automatically populated when you upload the file.
 +
 You must manually enter the value of some fields such as password and cluster management port.
 
-== Steps
+.Steps
 
 . Open the web browser, and then enter the node management IP address that you have configured: `+https://node-management-IP+`
  ** If you have set up the credentials for the cluster, the Login page is displayed.

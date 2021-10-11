@@ -11,14 +11,14 @@ summary: "You can use System Manager to add a cloud tier to an SSD aggregate or 
 [.lead]
 You can use System Manager to add a cloud tier to an SSD aggregate or a virtual machine disk (VMDK) aggregate. Cloud tiers provide storage for infrequently used data.
 
-== Before you begin
+.Before you begin
 
 * You must have the access key ID and secret key to connect to the object store.
 * You must have created a bucket inside the object store.
 * Network connectivity must exist between the cluster and the cloud tier.
 * If communication between the cloud tier and the cluster is encrypted using SSL or TLS, the required certificates must be installed.
 
-== About this task
+.About this task
 
 The following object stores can be used as cloud tiers:
 
@@ -39,7 +39,7 @@ The following object stores can be used as cloud tiers:
 
 ====
 
-== Steps
+.Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Cloud Tier*.
 . Click *Add*.

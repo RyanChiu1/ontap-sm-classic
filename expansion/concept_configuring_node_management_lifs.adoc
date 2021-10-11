@@ -11,11 +11,11 @@ summary: After the controller modules are physically installed, you can power on
 [.lead]
 After the controller modules are physically installed, you can power on each one and configure its node-management LIF.
 
-== About this task
+.About this task
 
 You must perform this procedure on both the nodes.
 
-== Steps
+.Steps
 
 . Access the controller module through the serial console.
 . Power on the controller module, and wait while the node boots and the Cluster Setup wizard automatically starts on the console.

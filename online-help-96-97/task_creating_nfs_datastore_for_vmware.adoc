@@ -11,11 +11,11 @@ summary: "You can use the Create NFS Datastore for VMware wizard in System Manag
 [.lead]
 You can use the Create NFS Datastore for VMware wizard in System Manager to create an NFS datastore for VMware. You can create a volume for the NFS datastore and specify the ESX servers that can access the NFS datastore.
 
-== Before you begin
+.Before you begin
 
 The NFS service must be licensed.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

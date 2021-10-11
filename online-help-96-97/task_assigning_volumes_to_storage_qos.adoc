@@ -11,7 +11,7 @@ summary: "You can limit the throughput of FlexVol volumes and FlexGroup volumes 
 [.lead]
 You can limit the throughput of FlexVol volumes and FlexGroup volumes by assigning them to storage Quality of Service (QoS) policy groups. You can assign storage QoS for new volumes, or you can modify the storage QoS details of the volumes that are already assigned to a policy group by using System Manager.
 
-== About this task
+.About this task
 
 * You can assign storage QoS only to read/write (rw) volumes that are online.
 * You cannot assign storage QoS to a volume if the following storage objects are assigned to a policy group:
@@ -20,7 +20,7 @@ You can limit the throughput of FlexVol volumes and FlexGroup volumes by assigni
  ** Child files of the volume
 * You can assign storage QoS or modify the QoS details for a maximum of 10 volumes simultaneously.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

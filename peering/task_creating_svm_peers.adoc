@@ -11,7 +11,7 @@ summary: "The storage virtual machine (SVM) peering enables you to establish a p
 [.lead]
 The storage virtual machine (SVM) peering enables you to establish a peer relationship between two SVMs for data protection.
 
-== Steps
+.Steps
 
 . Select the initiator SVM.
 . Select the target SVM from the list of permitted SVMs.

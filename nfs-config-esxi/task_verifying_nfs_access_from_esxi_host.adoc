@@ -11,7 +11,7 @@ summary: "After you have provisioned a datastore, you can verify that the ESXi h
 [.lead]
 After you have provisioned a datastore, you can verify that the ESXi host has NFS access by creating a virtual machine on the datastore and powering it on.
 
-== Steps
+.Steps
 
 . From the vSphere Web Client *Home* page, click *Hosts and Clusters*.
 . In the navigation pane, expand the datacenter to locate the datastore you previously created.

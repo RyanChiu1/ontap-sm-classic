@@ -11,11 +11,11 @@ summary: "If the newly installed controller modules are reused—not new—you m
 [.lead]
 If the newly installed controller modules are reused--not new--you must enter Maintenance mode and ensure that their HA state is set to HA.
 
-== About this task
+.About this task
 
 If you are using new controller modules, you can skip this procedure because HA is enabled by default. Otherwise, you must perform this procedure on both the nodes.
 
-== Steps
+.Steps
 
 . On the first node, enter Maintenance mode:
  .. Exit the nodeshell by entering `halt`.

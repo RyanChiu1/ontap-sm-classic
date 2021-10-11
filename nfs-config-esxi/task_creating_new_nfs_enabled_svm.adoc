@@ -11,7 +11,7 @@ summary: "Setting up a new involves creating the new and enabling NFS. You can t
 [.lead]
 Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console.
 
-== Before you begin
+.Before you begin
 
 * Your network must be configured and the relevant physical ports must be connected to the network.
 * You must know which of the following networking components the will use:
@@ -19,11 +19,11 @@ Setting up a new involves creating the new and enabling NFS. You can then config
  ** The subnet from which the data LIF's IP address will be provisioned, or optionally the specific IP address you want to assign to the data LIF
 * Any external firewalls must be appropriately configured to allow access to network services.
 
-== About this task
+.About this task
 
 You can use a wizard that guides you through the process of creating the SVM, configuring DNS, creating a data LIF, and enabling NFS.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create*.
@@ -81,6 +81,6 @@ The following objects are created:
 +
 NFS clients need to know the IP address of the data LIF.
 
-== Results
+.Results
 
 A new is created with NFS enabled.

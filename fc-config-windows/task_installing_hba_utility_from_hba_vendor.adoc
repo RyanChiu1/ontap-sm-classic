@@ -11,7 +11,7 @@ summary: The HBA utility enables you to view the worldwide port name \(WWPN\) of
 [.lead]
 The HBA utility enables you to view the worldwide port name (WWPN) of each FC port. The utility is also useful for troubleshooting FC issues.
 
-== About this task
+.About this task
 
 Each HBA vendor offers an HBA utility for their FC HBAs. You must download the correct version for your host operating system and CPU.
 
@@ -20,7 +20,7 @@ The following is a partial list of HBA utilities:
 * Emulex HBA Manager, formerly known as OneCommand Manager, for Emulex HBAs
 * QLogic QConvergeConsole for QLogic HBAs
 
-== Steps
+.Steps
 
 . Download the appropriate utility from your HBA vendor's web site.
 . Run the installation program and follow the prompts to complete the installation.

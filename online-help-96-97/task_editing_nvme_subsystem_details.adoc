@@ -11,7 +11,7 @@ summary: "You can use System Manager to edit the details of an NVMe subsystem."
 [.lead]
 You can use System Manager to edit the details of an NVMe subsystem.
 
-== Steps
+.Steps
 
 . Find the NVMe subsystem you want to edit in the *NVMe Subsystem* window.
 . Check the box to the left of the name of the subsystem you want to edit.

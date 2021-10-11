@@ -11,11 +11,11 @@ summary: To ensure successful storage failover and data mobility, you need to en
 [.lead]
 To ensure successful storage failover and data mobility, you need to ensure that you have two paths from the host to every node in the storage cluster. Because the number of paths advertised by the iSCSI target is limited, you need to ping the storage cluster ports from the host.
 
-== Before you begin
+.Before you begin
 
 You must know the IP address or host name of all of the logical interfaces (LIFs) to be used for iSCSI paths.
 
-== About this task
+.About this task
 
 LUNs are mapped to a subset of the initiators in the igroup to limit the number of paths from the host to the LUN.
 
@@ -25,7 +25,7 @@ LUNs are mapped to a subset of the initiators in the igroup to limit the number 
 +
 Only add nodes in other HA pairs to the LUN map in preparation for moving the LUN to a different node.
 
-== Steps
+.Steps
 
 . From the ESX host, use the `ping` command to verify the path to the first LIF.
 +

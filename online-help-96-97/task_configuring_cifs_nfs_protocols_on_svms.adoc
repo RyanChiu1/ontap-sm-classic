@@ -11,7 +11,7 @@ summary: "You can use System Manager to configure CIFS and NFS protocols on a st
 [.lead]
 You can use System Manager to configure CIFS and NFS protocols on a storage virtual machine (SVM) to provide file-level data access for NAS clients. To enable the CIFS protocol, you must create data LIFs and the CIFS server. To enable the NFS protocol, you can specify the NIS details and the data LIFs.
 
-== Before you begin
+.Before you begin
 
 * The protocols that you want to configure or enable on the SVM must be licensed.
 +
@@ -19,11 +19,11 @@ If the protocol that you want to configure is not enabled on the SVM, you can us
 
 * You must have the Active Directory, organizational unit, and administrative account credentials for configuring the CIFS protocol.
 
-== About this task
+.About this task
 
 SnapLock aggregates are not considered for automatically creating volumes.
 
-== Steps
+.Steps
 
 . If you have not configured the protocols while creating the SVM, click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -92,6 +92,6 @@ By default, this parameter is set to CN=Computers.
  .. Provision a volume for NFS storage by specifying the export name, size, and permission.
 . Click *Submit & Continue*.
 
-== Results
+.Results
 
 The CIFS server and NIS domain are configured with the specified configuration, and the data LIFs are created. By default, the data LIFs have management access. You can view the configuration details on the Summary page.

@@ -11,7 +11,7 @@ summary: "After resynchronizing the data from the destination volume to the sour
 [.lead]
 After resynchronizing the data from the destination volume to the source volume, you must activate the source volume by breaking the SnapMirror relationship. You should then resynchronize the destination volume to protect the reactivated source volume.
 
-== About this task
+.About this task
 
 Both the break and reverse resync operations are performed from the *source* cluster.
 
@@ -19,7 +19,7 @@ The following image shows that the source and destination volumes are read/write
 
 image::../media/reactivatng_source.gif[Image shows SnapMirror break and resync operations]
 
-== Steps
+.Steps
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.
@@ -49,6 +49,6 @@ If you are running ONTAP 9.2 or earlier, the SnapMirror policy of the relationsh
  .. Select the SnapMirror relationship between the reactivated source and the destination volumes, and then click *Edit*.
  .. Select the SnapMirror policy and schedule, and then click *OK*.
 
-== Results
+.Results
 
 The source volume has read/write access and is protected by the destination volume.

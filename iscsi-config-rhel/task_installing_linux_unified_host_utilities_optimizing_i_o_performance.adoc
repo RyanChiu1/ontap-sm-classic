@@ -11,11 +11,11 @@ summary: "Linux Unified Host Utilities software includes the sanlun utility, a N
 [.lead]
 Linux Unified Host Utilities software includes the `sanlun` utility, a NetApp LUN reporting tool that you can use to display information about storage cluster nodes. You must also enable the correct server profile on the Linux host to optimize NetApp storage performance.
 
-== Before you begin
+.Before you begin
 
 You must have identified the supported Linux Unified Host Utilities version for your configuration by using the Interoperability Matrix. You must also have the `tuned` package, which is part of your Linux OS distribution and contains the `tuned-adm` command, which you use to set the server profile on the host.
 
-== Steps
+.Steps
 
 . Download the supported Linux Unified Host Utilities version from the NetApp Support Site.
 +

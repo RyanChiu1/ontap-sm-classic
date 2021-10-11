@@ -11,11 +11,11 @@ summary: "You can use System Manager to manually initiate an unscheduled increme
 [.lead]
 You can use System Manager to manually initiate an unscheduled incremental update. You might require a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.
 
-== Before you begin
+.Before you begin
 
 The vault relationship must be initialized.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the relationship for which you want to update the data, and click *Operations* > *Update*.

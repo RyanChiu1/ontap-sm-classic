@@ -11,7 +11,7 @@ summary: "You can use System Manager to add efficiency policies for running the 
 [.lead]
 You can use System Manager to add efficiency policies for running the deduplication operation on a volume on a specified schedule or when the change in volume data reaches a specified threshold value.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

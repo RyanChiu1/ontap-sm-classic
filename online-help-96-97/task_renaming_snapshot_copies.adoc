@@ -11,11 +11,11 @@ summary: "You can use System Manager to rename a Snapshot copy to help you organ
 [.lead]
 You can use System Manager to rename a Snapshot copy to help you organize and manage your Snapshot copies.
 
-== About this task
+.About this task
 
 You cannot rename the Snapshot copies (which are committed to the WORM state) of a SnapLock DP volume that is in a SnapVault relationship.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

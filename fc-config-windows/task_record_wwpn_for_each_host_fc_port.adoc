@@ -11,15 +11,15 @@ summary: The worldwide port name \(WWPN\) is required to zone the FC switches an
 [.lead]
 The worldwide port name (WWPN) is required to zone the FC switches and to create the igroups that allow the host to access its LUN.
 
-== Before you begin
+.Before you begin
 
 You must have installed the vendor's HBA utility for the HBAs in your host and verified HBAs are running supported driver, firmware, and BIOS versions for your configuration.
 
-== About this task
+.About this task
 
 The WWPN is used for all configuration. You do not have to record the worldwide node name (WWNN).
 
-== Steps
+.Steps
 
 . Run the HBA utility for your FC HBA type.
 . Select the HBA.

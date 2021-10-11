@@ -11,11 +11,11 @@ summary: "After performing the restore operation from the SnapVault backup desti
 [.lead]
 After performing the restore operation from the SnapVault backup destination volume, you must verify the status of the restore operation on the source cluster.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Navigate to the *Volumes* window.
 . Select the source volume in the volumes list and perform one of the following actions, depending on your ONTAP version:

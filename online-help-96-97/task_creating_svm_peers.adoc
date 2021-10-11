@@ -11,11 +11,11 @@ summary: "SVM peering enables you to establish a peer relationship between two s
 [.lead]
 SVM peering enables you to establish a peer relationship between two storage virtual machines (SVMs) for data protection.
 
-== Before you begin
+.Before you begin
 
 You must have created a peer relationship between the clusters in which the SVMs that you plan to peer reside.
 
-== About this task
+.About this task
 
 * The clusters that you can select as target clusters are listed when you create SVM peers by using the *Configuration* > *SVM Peers* window.
 * If the target SVM resides on a cluster in a system running ONTAP 9.2 or earlier, SVM peering cannot be accepted by using System Manager.
@@ -25,7 +25,7 @@ You must have created a peer relationship between the clusters in which the SVMs
 In such a scenario, you can use the command-line interface (CLI) to accept SVM peering.
 ====
 
-== Steps
+.Steps
 
 . Select the initiator SVM.
 . Select the target SVM from the list of permitted SVMs.
