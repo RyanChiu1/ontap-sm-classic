@@ -11,14 +11,14 @@ summary: "You can use System Manager to delete an NVMe subsystem from a cluster.
 [.lead]
 You can use System Manager to delete an NVMe subsystem from a cluster.
 
-== About this task
+.About this task
 
 The following actions occur when you delete an NVMe subsystem:
 
 * If the NVMe subsystem has configured hosts, then mapped hosts will be removed.
 * If the NVMe subsystem has mapped namespaces, then they will be unmapped.
 
-== Steps
+.Steps
 
 . Find the NVMe subsystem you want to delete on the *NVMe Subsystem* window.
 . Check the box to the left of the name of the subsystem you want to delete.

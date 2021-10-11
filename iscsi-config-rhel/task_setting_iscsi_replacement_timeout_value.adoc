@@ -11,7 +11,7 @@ summary: To support multipathing, you must modify the replacement timeout value 
 [.lead]
 To support multipathing, you must modify the replacement timeout value in the iSCSI configuration file.
 
-== Steps
+.Steps
 
 . Change the replacement timeout value in the `/etc/iscsi/iscsid.conf` file from the default of 120 to 5.
 +

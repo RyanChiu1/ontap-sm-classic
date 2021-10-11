@@ -11,11 +11,11 @@ summary: "You can use System Manager to create a home directory share and to man
 [.lead]
 You can use System Manager to create a home directory share and to manage home directory search paths.
 
-== Before you begin
+.Before you begin
 
 CIFS must be set up and started.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Shares*.
 . Click *Create Home Directory*, and then provide the pattern information that determines how a user is mapped to a directory.

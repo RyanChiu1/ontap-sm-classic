@@ -11,11 +11,11 @@ summary: "You can use System Manager to delete Snapshot policies. If you delete 
 [.lead]
 You can use System Manager to delete Snapshot policies. If you delete a Snapshot policy that is being used by one or more volumes, Snapshot copies of the volume or volumes are no longer created according to the deleted policy.
 
-== Before you begin
+.Before you begin
 
 You must have dissociated the Snapshot policy from each volume that uses it.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Snapshot Policies*.
 . Select the Snapshot policy and click *Delete*.

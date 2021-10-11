@@ -11,12 +11,12 @@ summary: "Starting with System Manager 9.6, you can resize a FlexCache volume by
 [.lead]
 Starting with System Manager 9.6, you can resize a FlexCache volume by resizing existing resources or by adding new resources.
 
-== Before you begin
+.Before you begin
 
 * To resize a FlexCache volume, there must be enough free space on the existing aggregates.
 * To expand a FlexCache volume, there must be enough free space on the aggregate that you are using for expansion.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

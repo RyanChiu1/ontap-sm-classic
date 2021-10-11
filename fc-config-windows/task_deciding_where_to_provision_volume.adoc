@@ -11,7 +11,7 @@ summary: "Before you provision a volume to contain your LUNs, you need to decide
 [.lead]
 Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine (SVM) or to create a new SVM for the volume. You might also need to configure FC on an existing SVM.
 
-== About this task
+.About this task
 
 If an existing SVM is already configured with the needed protocols and has LIFs that can be accessed from the host, it is easier to use the existing SVM.
 

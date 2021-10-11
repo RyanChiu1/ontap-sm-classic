@@ -11,7 +11,7 @@ summary: "You can set up a network by enabling an IP address range. The IP addre
 [.lead]
 You can set up a network by enabling an IP address range. The IP address range enables you to enter IP addresses that are in the same netmask range or in the different netmask range.
 
-== Steps
+.Steps
 
 . Enter a range of IP addresses in the *IP Address Range* field, and then click *Apply*.
 +

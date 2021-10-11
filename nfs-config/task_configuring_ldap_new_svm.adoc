@@ -11,7 +11,7 @@ summary: "If you want the storage virtual machine (SVM) to get user information 
 [.lead]
 If you want the storage virtual machine (SVM) to get user information from Active Directory-based Lightweight Directory Access Protocol (LDAP), you must create an LDAP client, enable it for the SVM, and give LDAP priority over other sources of user information.
 
-== Before you begin
+.Before you begin
 
 * The LDAP configuration must be using Active Directory (AD).
 +
@@ -25,7 +25,7 @@ https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf[NetApp Technical R
 
 * You must know the AD domain and servers, as well as the following binding information: the authentication level, the Bind user and password, the base DN, and the LDAP port.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Select the required SVM

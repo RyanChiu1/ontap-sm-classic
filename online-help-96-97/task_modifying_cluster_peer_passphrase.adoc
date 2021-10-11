@@ -11,7 +11,7 @@ summary: "You can modify the passphrase that is provided during cluster peer cre
 [.lead]
 You can modify the passphrase that is provided during cluster peer creation.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster Peers*.
 . Select the peered cluster, and click *Edit*

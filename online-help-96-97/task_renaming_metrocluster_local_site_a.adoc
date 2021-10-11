@@ -11,7 +11,7 @@ summary: "You can use System Manager to rename the MetroCluster local site (Site
 [.lead]
 You can use System Manager to rename the MetroCluster local site (Site A) in a cluster.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Configuration Updates*.
 . Click *Update cluster name*.

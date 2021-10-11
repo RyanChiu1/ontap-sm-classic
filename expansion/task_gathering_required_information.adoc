@@ -11,7 +11,7 @@ summary: "Before you expand a cluster, you must obtain networking information re
 [.lead]
 Before you expand a cluster, you must obtain networking information required to later configure the node-management LIFs and the Service Processor IP addresses for both of the nodes.
 
-== Steps
+.Steps
 
 . Obtain the following details to configure two node-management LIFs--one for each of the nodes that you plan to add to the cluster:
  ** IP address

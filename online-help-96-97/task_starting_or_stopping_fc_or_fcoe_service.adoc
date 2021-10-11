@@ -11,12 +11,12 @@ summary: "The FC service enables you to manage FC target adapters for use with L
 [.lead]
 The FC service enables you to manage FC target adapters for use with LUNs. You can use System Manager to start the FC service to bring the adapters online and to enable access to the LUNs on the storage system. You can stop the FC service to take the FC adapters offline and to disable access to the LUNs.
 
-== Before you begin
+.Before you begin
 
 * The FC license must be installed.
 * An FC adapter must be present in the target storage system.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

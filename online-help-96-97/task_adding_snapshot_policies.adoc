@@ -11,7 +11,7 @@ summary: "You can create a Snapshot policy in System Manager to specify the maxi
 [.lead]
 You can create a Snapshot policy in System Manager to specify the maximum number of Snapshot copies that can be automatically created and the frequency of creating them.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Snapshot Policies*.
 . Click *Create*.

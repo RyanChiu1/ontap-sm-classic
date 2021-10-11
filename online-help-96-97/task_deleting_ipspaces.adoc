@@ -11,15 +11,15 @@ summary: "You can use System Manager to delete an IPspace when you no longer req
 [.lead]
 You can use System Manager to delete an IPspace when you no longer require the IPspace.
 
-== Before you begin
+.Before you begin
 
 The IPspace that you want to delete must not be associated with any broadcast domains, network interfaces, peer relationships, or storage virtual machines (SVMs).
 
-== About this task
+.About this task
 
 The system-defined "`Default`" IPspace and "`Cluster`" IPspace cannot be deleted.
 
-== Steps
+.Steps
 
 . Click *Network* > *IPspaces*.
 . Select the IPspace that you want to delete, and then click *Delete*.

@@ -11,11 +11,11 @@ summary: "By setting up a network, you can manage your cluster, nodes, and Servi
 [.lead]
 By setting up a network, you can manage your cluster, nodes, and Service Processors. You can also set up DNS and NTP details by using the network window.
 
-== Before you begin
+.Before you begin
 
 You must have set up the cluster.
 
-== About this task
+.About this task
 
 * Only those nodes that are up and running are listed for cluster creation.
 +

@@ -11,11 +11,11 @@ summary: "Quotas enable you to restrict or track the disk space and number of fi
 [.lead]
 Quotas enable you to restrict or track the disk space and number of files that are used by a user, group, or qtree. You can use the Add Quota wizard in System Manager to create a quota and to apply the quota to a specific volume or qtree.
 
-== About this task
+.About this task
 
 Using System Manager, the minimum value that you can specify for the hard limit and soft limit on the number of files that the quota can own is 1000. If you want to specify a value lower than 1000, you should use the command-line interface (CLI).
 
-== Steps
+.Steps
 
 . Click *Storage* > *Quotas*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which you want to create a quota.

@@ -11,7 +11,7 @@ summary: "You can use System Manager to remove the authentication settings for a
 [.lead]
 You can use System Manager to remove the authentication settings for an initiator and to use the default security method to authenticate the initiator.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

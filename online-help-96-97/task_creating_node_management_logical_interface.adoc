@@ -11,7 +11,7 @@ summary: "You can use System Manager to create a dedicated node management logic
 [.lead]
 You can use System Manager to create a dedicated node management logical interface (LIF) for managing a particular node in a cluster. You can use this LIF to manage the system maintenance activities of the node.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Configuration Updates*.
 . In the *Nodes* tab, select the node for which you want to create a node management LIF, and then click *Create Node-Management LIF*.

@@ -11,7 +11,7 @@ summary: You can use a wizard that guides you through the process of creating a 
 [.lead]
 You can use a wizard that guides you through the process of creating a new storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), configuring a CIFS server, enabling NFS, and optionally configuring NIS.
 
-== Before you begin
+.Before you begin
 
 * Your network must be configured and the relevant physical ports must be connected to the network.
 * You must know which of the following networking components the SVM will use:
@@ -23,11 +23,11 @@ You can use a wizard that guides you through the process of creating a new stora
 * Any external firewalls must be appropriately configured to allow access to network services.
 * The time on the AD domain controllers, clients, and SVM must be synchronized to within five minutes of each other.
 
-== About this task
+.About this task
 
 When you are creating an SVM for multiprotocol access, you should not use the provisioning sections of the Storage Virtual Machine (SVM) Setup window, which creates two volumes--not a single volume with multiprotocol access. You can provision the volume later in the workflow.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create.*
@@ -99,7 +99,7 @@ The following objects are created:
 +
 The DNS administrator needs to know the CIFS server name and the IP address of the data LIF. Windows clients need to know the name of the CIFS server. NFS clients need to know the IP address of the data LIF.
 
-== Results
+.Results
 
 A new SVM is created that has a CIFS server and an NFS server accessible through the same data LIF.
 

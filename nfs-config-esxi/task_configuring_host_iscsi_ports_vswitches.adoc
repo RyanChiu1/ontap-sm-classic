@@ -11,7 +11,7 @@ summary: "The ESXi host requires network ports for the NFS connections to the st
 [.lead]
 The ESXi host requires network ports for the NFS connections to the storage cluster.
 
-== About this task
+.About this task
 
 It is recommended that you use IP Hash as the NIC teaming policy, which requires a single VMkernel port on a single vSwitch.
 
@@ -21,7 +21,7 @@ This task lists the high-level steps for configuring the ESXi host. If you requi
 
 http://www.vmware.com[VMware]
 
-== Steps
+.Steps
 
 . Log in to the vSphere Client, and then select the ESXi host from the inventory pane.
 . On the *Manage* tab, click *Networking*.

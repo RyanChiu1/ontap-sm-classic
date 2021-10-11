@@ -11,7 +11,7 @@ summary: "If the cluster has features that use node-locked licenses, you must en
 [.lead]
 If the cluster has features that use node-locked licenses (which entitle only specific nodes to the licensed functionality), you must ensure that node-locked licenses are installed for the new nodes. You should add the licenses before the nodes are joined to the cluster.
 
-== Steps
+.Steps
 
 . Add each license key by using the `system license add` command.
 +

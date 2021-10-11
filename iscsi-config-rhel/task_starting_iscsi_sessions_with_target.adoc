@@ -11,11 +11,11 @@ summary: The Linux host must have an iSCSI connection with each node \(target\) 
 [.lead]
 The Linux host must have an iSCSI connection with each node (target) in the storage cluster. You establish the sessions from the host.
 
-== About this task
+.About this task
 
 In ONTAP, the iSCSI host must have paths to each node in the cluster. DM-Multipath selects the best paths to use. If paths fail, DM-Multipath selects alternate paths.
 
-== Steps
+.Steps
 
 . Start the iSCSI service from the Linux host command prompt: `service iscsid force-start`
 . Discover the iSCSI target: `iscsiadm --mode discovery --op update --type sendtargets --portal targetIP`

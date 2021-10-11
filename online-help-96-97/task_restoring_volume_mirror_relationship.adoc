@@ -11,14 +11,14 @@ summary: "For a version-independent mirror relationship, you can use System Mana
 [.lead]
 For a version-independent mirror relationship, you can use System Manager to restore Snapshot copies to a source volume or to other volumes if the source data is corrupted and is no longer usable. You can replace the original data with the Snapshot copies in the destination volume.
 
-== Before you begin
+.Before you begin
 
 * The SnapMirror license must be enabled on both the source cluster and the destination cluster or on the nodes that contain the source volume and destination volume.
 * The source cluster and destination cluster must be in a healthy peer relationship.
 * The source aggregate or any other aggregate that you select for the restore operation must be a 64-bit aggregate.
 * If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which Security Assertion Markup Language (SAML) authentication is enabled, password-based authentication must also be enabled on the remote cluster.
 
-== About this task
+.About this task
 
 * You cannot restore a volume that is in a mirror relationship between a source storage virtual machine (SVM) and a destination SVM in a MetroCluster configuration.
 * You cannot perform a restore operation on SnapLock volumes.
@@ -26,7 +26,7 @@ For a version-independent mirror relationship, you can use System Manager to res
 * You can restore a mirror relationship from a volume on a sync-source SVM to a default SVM.
 * You can restore a mirror relationship from a volume on a default SVM to a DP volume on a sync-source SVM.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the mirror relationship, and then click *Operations* > *Restore*.

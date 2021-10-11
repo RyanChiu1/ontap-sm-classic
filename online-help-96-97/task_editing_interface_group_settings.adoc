@@ -11,11 +11,11 @@ summary: "You can use System Manager to add ports to an interface group, to remo
 [.lead]
 You can use System Manager to add ports to an interface group, to remove ports from an interface group, and to modify the usage mode and load distribution pattern of the ports in an interface group.
 
-== About this task
+.About this task
 
 You cannot modify the MTU settings of an interface group that is assigned to a broadcast domain.
 
-== Steps
+.Steps
 
 . Click *Network* > *Ethernet Ports*.
 . Select an interface group, and then click *Edit*.

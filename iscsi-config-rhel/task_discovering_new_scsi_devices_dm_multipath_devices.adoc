@@ -11,11 +11,11 @@ summary: LUNs on the storage cluster appear to the Linux host as SCSI devices, w
 [.lead]
 LUNs on the storage cluster appear to the Linux host as SCSI devices, which are I/O paths that DM-Multipath aggregates into a new device, called a multipath device. The host does not automatically discover new SCSI devices (LUNs) that you add to your system. You must manually rescan them to discover them.
 
-== Before you begin
+.Before you begin
 
 You must have a copy of the `rescan` script, which is in the `sg3_utils` package that is part of your Linux OS distribution.
 
-== Steps
+.Steps
 
 . Discover new SCSI devices (LUNs) and create the corresponding multipath devices for the LUNs: `/usr/bin/rescan-scsi-bus.sh`
 . Verify DM-Multipath configuration:``multipath -ll``

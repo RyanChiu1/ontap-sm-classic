@@ -11,7 +11,7 @@ summary: "You can use System Manager to add a storage virtual machine (SVM) user
 [.lead]
 You can use System Manager to add a storage virtual machine (SVM) user account and to specify a user login method for accessing the storage system.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

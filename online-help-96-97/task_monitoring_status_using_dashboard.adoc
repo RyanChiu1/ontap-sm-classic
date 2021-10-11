@@ -11,6 +11,6 @@ summary: "The dashboard in System Manager enables you to monitor the health and 
 [.lead]
 The dashboard in System Manager enables you to monitor the health and performance of a cluster. You can also identify hardware problems and storage configuration issues by using the dashboard.
 
-== Steps
+.Steps
 
 . Click the *Dashboard* tab to view the health and performance dashboard panels.

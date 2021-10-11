@@ -11,12 +11,12 @@ summary: "When the newly installed controller modules are ready, you can add eac
 [.lead]
 When the newly installed controller modules are ready, you can add each one to the cluster by using the `cluster setup` command.
 
-== About this task
+.About this task
 
 * You must perform this procedure on both nodes.
 * You must join each node one at a time, not concurrently.
 
-== Steps
+.Steps
 
 . Start the Cluster Setup wizard by using the `cluster setup` command at the CLI prompt.
 +

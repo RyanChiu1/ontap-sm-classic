@@ -11,7 +11,7 @@ summary: "You can use System Manager to modify the specified client, access prot
 [.lead]
 You can use System Manager to modify the specified client, access protocols, and access permissions of an export policy rule.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -11,11 +11,11 @@ summary: "When the source volume is unavailable, you must verify that the source
 [.lead]
 When the source volume is unavailable, you must verify that the source volume is offline and then identify the destination volume that must be activated for providing data access.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Navigate to the *Volumes* window.
 . Select the source volume, and then verify that the source volume is offline.

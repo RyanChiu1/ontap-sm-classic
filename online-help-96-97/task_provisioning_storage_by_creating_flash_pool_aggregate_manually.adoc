@@ -11,20 +11,20 @@ summary: "You can use System Manager to create a Flash Pool aggregate manually, 
 [.lead]
 You can use System Manager to create a Flash Pool aggregate manually, or to convert an existing HDD aggregate to a Flash Pool aggregate by adding SSDs. When you create a new HDD aggregate, you can provision an SSD cache to it and create a Flash Pool aggregate.
 
-== Before you begin
+.Before you begin
 
 * You must be aware of the platform-specific best practices and workload-specific best practices for the Flash Pool aggregate SSD tier size and configuration.
 * All of the HDDs must be in the zeroed state.
 * If you want to add SSDs to the aggregate, all of the existing SSDs and dedicated SSDs must be of the same size.
 
-== About this task
+.About this task
 
 * You cannot use partitioned SSDs while creating a Flash Pool aggregate.
 * You cannot mirror the aggregates if the cache source is storage pools.
 * Starting with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
 * If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only option available for RAID type.
 
-== Steps
+.Steps
 
 . Create an aggregate by using one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers* > *Add Aggregate*.
@@ -64,7 +64,7 @@ a|
 
 . Click *Create*.
 
-== Results
+.Results
 
 The Flash Pool aggregate is created with the specified configuration, and is added to the list of aggregates in the Aggregates window.
 

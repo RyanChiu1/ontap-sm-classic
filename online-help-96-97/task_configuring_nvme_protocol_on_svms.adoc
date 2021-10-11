@@ -11,11 +11,11 @@ summary: "You can configure the NVMe protocol on a storage virtual machine (SVM)
 [.lead]
 You can configure the NVMe protocol on a storage virtual machine (SVM) using System Manager. You can then create namespaces and assign them to an NVMe subsystem and host.
 
-== About this task
+.About this task
 
 The SVM with NVMe should not have any other protocol. If you select NVMe, then the rest of the protocols will be disabled. You can also configure NVMe while creating the SVM.
 
-== Steps
+.Steps
 
 . If you did not configure the NVMe protocol when creating the SVM, click *Storage* > *SVMs*
 . Select the SVM, and then click *SVM settings*.

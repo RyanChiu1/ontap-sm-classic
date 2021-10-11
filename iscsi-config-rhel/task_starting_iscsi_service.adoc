@@ -11,7 +11,7 @@ summary: After you edit the iSCSI configuration file, you must start the iSCSI s
 [.lead]
 After you edit the iSCSI configuration file, you must start the iSCSI service so that the host can discover the targets and access LUNs. If the iSCSI service is running, you must restart it.
 
-== Steps
+.Steps
 
 . Start the iSCSI service at the Linux host command prompt:
 +

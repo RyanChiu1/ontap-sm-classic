@@ -11,15 +11,15 @@ summary: Before you can provision the first datastore to an ESXi host in your Da
 [.lead]
 Before you can provision the first datastore to an ESXi host in your Datacenter, you must add the cluster or a specific storage virtual machine (SVM) to Virtual Storage Console for VMware vSphere. Adding the cluster enables you to provision storage on any SVM in the cluster.
 
-== Before you begin
+.Before you begin
 
 You must have administrator credentials for the storage cluster or the SVM that is being added.
 
-== About this task
+.About this task
 
 Depending on your configuration, the cluster might have been discovered automatically, or might have already been added.
 
-== Steps
+.Steps
 
 . Log in to the vSphere Web Client.
 . Select *Virtual Storage Console*.

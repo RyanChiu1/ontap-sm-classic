@@ -11,7 +11,7 @@ summary: "You can use System Manager to verify whether SNMP is enabled on the cl
 [.lead]
 You can use System Manager to verify whether SNMP is enabled on the cluster.
 
-== About this task
+.About this task
 
 In all versions of ONTAP, SNMPv3 is enabled by default at the cluster level and SNMPv1 and SNMPv2c are disabled by default. SNMPv1 and SNMPv2c are enabled when you create an SNMP community.
 
@@ -19,7 +19,7 @@ SNMP is disabled by default on data LIFs. For information about enabling SNMP on
 
 https://docs.netapp.com/us-en/ontap/networking/index.html[Network management]
 
-== Steps
+.Steps
 
 . Click the groove icon.
 . In the *Setup* pane, navigate to the *SNMP* window.

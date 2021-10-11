@@ -11,7 +11,7 @@ summary: "You can use System Manager to create cluster-level asynchronous mirror
 [.lead]
 You can use System Manager to create cluster-level asynchronous mirror policies, vault policies, or mirror and vault policies, and to apply these policies to a cluster-level data protection relationship.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Protection Policies*.
 . Click *Create*.

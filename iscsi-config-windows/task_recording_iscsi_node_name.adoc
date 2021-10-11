@@ -11,7 +11,7 @@ summary: You must record the iSCSI initiator node name from the iSCSI initiator 
 [.lead]
 You must record the iSCSI initiator node name from the iSCSI initiator program on the Windows host.
 
-== Steps
+.Steps
 
 . Open the *iSCSI Initiator Properties* dialog box:
 +

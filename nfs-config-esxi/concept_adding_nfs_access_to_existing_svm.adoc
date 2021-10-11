@@ -11,7 +11,7 @@ summary: "To add NFS access to an existing , you must first create a data logica
 [.lead]
 To add NFS access to an existing , you must first create a data logical interface (LIF). You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi using Virtual Storage Console.
 
-== Before you begin
+.Before you begin
 
 * You must know which of the following networking components the will use:
  ** The node and the specific port on that node where the data LIF will be created
@@ -21,7 +21,7 @@ To add NFS access to an existing , you must first create a data logical interfac
 +
 This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
-== Steps
+.Steps
 
 . Navigate to the *Details* pane where you can configure the protocols of the :
  .. Select the that you want to configure.

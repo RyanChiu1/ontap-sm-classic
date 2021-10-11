@@ -11,7 +11,7 @@ summary: "Storing data in tiers can enhance the efficiency of your storage syste
 [.lead]
 Storing data in tiers can enhance the efficiency of your storage system. You manage storage tiers by using FabricPool-enabled aggregates. Cloud tiers store data in a tier based on whether the data is frequently accessed.
 
-== Before you begin
+.Before you begin
 
 * You must be running ONTAP 9.2 or later.
 * You must have all flash (all SSD) aggregates

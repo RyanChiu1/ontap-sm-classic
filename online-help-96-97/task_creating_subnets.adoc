@@ -11,15 +11,15 @@ summary: "You can create a subnet by using System Manager to provide a logical s
 [.lead]
 You can create a subnet by using System Manager to provide a logical subdivision of an IP network to pre-allocate the IP addresses. A subnet enables you to create interfaces more easily by specifying a subnet instead of an IP address and network mask values for each new interface.
 
-== Before you begin
+.Before you begin
 
 You must have created the broadcast domain on which the subnet is used.
 
-== About this task
+.About this task
 
 If you specify a gateway when creating a subnet, a default route to the gateway is added automatically to the SVM when a LIF is created using that subnet.
 
-== Steps
+.Steps
 
 . Click the *Network* tab.
 . In the *Subnets* tab, click *Create*.

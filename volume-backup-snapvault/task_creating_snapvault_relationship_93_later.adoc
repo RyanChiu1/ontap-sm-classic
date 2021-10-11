@@ -11,16 +11,16 @@ summary: "You must create a SnapVault relationship between the source volume on 
 [.lead]
 You must create a SnapVault relationship between the source volume on one cluster and the destination volume on the peered cluster to create a SnapVault backup.
 
-== Before you begin
+.Before you begin
 
 * You must have the cluster administrator user name and password for the destination cluster.
 * The destination aggregate must have available space.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . Select the volume that you want to back up, and then click *Actions* > *Protect*.

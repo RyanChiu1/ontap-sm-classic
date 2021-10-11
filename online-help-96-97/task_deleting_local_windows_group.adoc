@@ -11,7 +11,7 @@ summary: "You can use System Manager to delete a local Windows group from a stor
 [.lead]
 You can use System Manager to delete a local Windows group from a storage virtual machine (SVM) if the group is no longer required for determining access rights to the data contained on the SVM or for assigning SVM user rights (privileges) to group members.
 
-== About this task
+.About this task
 
 * Removing a local group removes the membership records of the group.
 * The file system is not altered.
@@ -21,7 +21,7 @@ Windows Security Descriptors on files and directories that refer to this group a
 * The special "`Everyone`" group cannot be deleted.
 * Built-in groups such as BUILTIN\Administrators and BUILTIN\Users cannot be deleted.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -29,7 +29,7 @@ Windows Security Descriptors on files and directories that refer to this group a
 . In the *Groups* tab, select the group that you want to delete, and then click *Delete*.
 . Click *Delete*.
 
-== Results
+.Results
 
 The local group is deleted along with its membership records.
 

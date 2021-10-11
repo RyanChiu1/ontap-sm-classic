@@ -11,7 +11,7 @@ summary: 'You can use System Manager to add an access-control role and to specif
 [.lead]
 You can use System Manager to add an access-control role and to specify the command or command directory that users of the role can access. You can also control the level of access that the role has to the command or command directory, and you can specify a query that applies to the command or command directory.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Management* pane, click *Roles*.

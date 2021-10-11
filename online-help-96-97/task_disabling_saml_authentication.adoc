@@ -11,11 +11,11 @@ summary: "You can disable Security Assertion Markup Language (SAML) authenticati
 [.lead]
 You can disable Security Assertion Markup Language (SAML) authentication if you want to disable remote access to System Manager, or to edit the SAML configuration.
 
-== About this task
+.About this task
 
 Disabling SAML authentication does not delete SAML configuration.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Authentication*.
 . Clear the *Enable SAML authentication* check box.

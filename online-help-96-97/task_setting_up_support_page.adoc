@@ -11,11 +11,11 @@ summary: "Setting up the support page completes the cluster setup, and involves 
 [.lead]
 Setting up the support page completes the cluster setup, and involves setting up event notifications, and for single-node clusters, configuring system backup.
 
-== Before you begin
+.Before you begin
 
 You must have set up the cluster and network.
 
-== Steps
+.Steps
 
 . Set up the event notifications by using the mailhost, or SNMP trap host, or Syslog server.
 +

@@ -11,11 +11,11 @@ summary: "SNMP traps enable you to monitor the health and state of the various c
 [.lead]
 SNMP traps enable you to monitor the health and state of the various components of your storage system. You can use the Edit SNMP Settings dialog box in System Manager to enable or disable SNMP traps on your storage system.
 
-== About this task
+.About this task
 
 Although SNMP is enabled by default, SNMP traps are disabled by default.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Setup* pane, click *SNMP*.

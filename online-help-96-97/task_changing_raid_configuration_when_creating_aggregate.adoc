@@ -11,11 +11,11 @@ summary: "While creating an aggregate, you can modify the default values of the 
 [.lead]
 While creating an aggregate, you can modify the default values of the RAID type and RAID group size options of the aggregate by using System Manager.
 
-== About this task
+.About this task
 
 If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only available RAID type.
 
-== Steps
+.Steps
 
 . Choose one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers*.

@@ -11,7 +11,7 @@ summary: "You can create a VLAN to maintain separate broadcast domains within th
 [.lead]
 You can create a VLAN to maintain separate broadcast domains within the same network domain by using System Manager.
 
-== Steps
+.Steps
 
 . Click *Network* > *Ethernet Ports*.
 . Click *Create VLAN*.

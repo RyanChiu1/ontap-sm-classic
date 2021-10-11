@@ -11,11 +11,11 @@ summary: "You should periodically monitor the status of the SnapMirror relations
 [.lead]
 You should periodically monitor the status of the SnapMirror relationships to ensure that the SnapMirror data transfers are occurring as per the specified schedule.
 
-== About this task
+.About this task
 
 You must perform this task from the *destination* cluster.
 
-== Steps
+.Steps
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.

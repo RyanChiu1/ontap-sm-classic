@@ -11,15 +11,15 @@ summary: "You can move a volume in System Manager by selecting a volume and the 
 [.lead]
 You can move a volume in System Manager by selecting a volume and the destination aggregate, starting the volume move operation, and optionally monitoring the volume move job. When using System Manager, a volume move operation finishes automatically.
 
-== Before you begin
+.Before you begin
 
 You should have reviewed the available space on the source aggregate and destination aggregate before the volume move operation and after the volume move operation.
 
-== About this task
+.About this task
 
 A volume move operation is supported only within the same cluster. In addition, you should note that the aggregate you are moving the volume to and the aggregate you are moving the volume from must be in the same storage virtual machine (SVM). A volume move does not disrupt client access.
 
-== Steps
+.Steps
 
 . Navigate to the *Volumes* window.
 . Select the volume that you want to move, and then click *Actions* > *Move*.

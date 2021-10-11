@@ -11,7 +11,7 @@ summary: "You can use ONTAP System Manager to create a mirror relationship from 
 [.lead]
 You can use ONTAP System Manager to create a mirror relationship from the destination storage virtual machine (SVM) and to assign a policy and schedule to the mirror relationship. The mirror copy enables quick availability of data if the data on the source volume is corrupted or lost.
 
-== Before you begin
+.Before you begin
 
 * The source cluster must be running ONTAP 8.2.2 or later.
 * The SnapMirror license must be enabled on the source cluster and destination cluster.
@@ -29,7 +29,7 @@ For some platforms, it is not mandatory for the source cluster to have the SnapM
 * The SnapLock aggregate type must be of the same type.
 * If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which Security Assertion Markup Language (SAML) authentication is enabled, password-based authentication must be enabled on the remote cluster.
 
-== About this task
+.About this task
 
 * System Manager does not support a cascade relationship.
 +
@@ -47,7 +47,7 @@ For example, if the source volume is a SnapLock Enterprise volume, then the dest
 * A maximum of 25 volumes can be protected in one selection.
 * You cannot create a mirror relationship between SnapLock volumes if the destination cluster is running a version of ONTAP that is older than the ONTAP version that the source cluster is running.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . In the *Volume Relationships* window, click *Create*.
@@ -67,7 +67,7 @@ The volume name suffix is appended to the source volume names to generate the de
 . Enable FabricPool-enabled aggregates, and then select an appropriate tiering policy.
 . Click *Create*.
 
-== Results
+.Results
 
 If you chose to create a destination volume, a destination volume of type _dp_ is created, with the language attribute set to match the language attribute of the source volume.
 

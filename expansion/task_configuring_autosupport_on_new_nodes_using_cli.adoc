@@ -11,15 +11,15 @@ summary: "After you add nodes to a cluster, you must configure AutoSupport on th
 [.lead]
 After you add nodes to a cluster, you must configure AutoSupport on the nodes.
 
-== Before you begin
+.Before you begin
 
 AutoSupport must be set up on the cluster's existing nodes.
 
-== About this task
+.About this task
 
 You must perform this procedure on both the nodes.
 
-== Steps
+.Steps
 
 . View the AutoSupport configuration using the `system node autosupport show` command with the `-node` parameter set to one of the nodes in the original cluster.
 +

@@ -11,7 +11,7 @@ summary: "You can use System Manager to delete a home directory path when you do
 [.lead]
 You can use System Manager to delete a home directory path when you do not want the storage system to use the path to resolve the location of the CIFS home directories of users.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

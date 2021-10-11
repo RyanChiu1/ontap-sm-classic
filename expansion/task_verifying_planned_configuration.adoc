@@ -11,11 +11,11 @@ summary: "Before you expand a cluster, you must ensure the following: the planne
 [.lead]
 Before you expand a cluster, you must ensure the following: the planned configuration is supported, the required licenses exist, the site is ready, the cluster switches support the expansion, and the existing nodes are using the same version of ONTAP 9.
 
-== Before you begin
+.Before you begin
 
 You must have two sets of credentials--the user name and password required to log in to the cluster as an administrator, and the user name and password required to log in to the NetApp Support Site.
 
-== Steps
+.Steps
 
 . Verify the planned configuration:
  .. Verify that the platform of the new controllers can be mixed with the cluster's existing controllers.

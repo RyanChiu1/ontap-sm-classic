@@ -11,7 +11,7 @@ summary: You must record the iSCSI initiator node name on the Linux host so that
 [.lead]
 You must record the iSCSI initiator node name on the Linux host so that you have it when you configure the storage system.
 
-== Steps
+.Steps
 
 . Use a text editor to open the `/etc/iscsi/initiatorname.iscsi` file containing the node names.
 . Write down the node name or copy it to a text file.

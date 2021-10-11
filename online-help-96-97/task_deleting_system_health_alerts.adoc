@@ -11,7 +11,7 @@ summary: "You can use System Manager to delete system health alerts to which you
 [.lead]
 You can use System Manager to delete system health alerts to which you have already responded.
 
-== Steps
+.Steps
 
 . Click *Events & Jobs* > *System Alerts*.
 . In the *System Alerts* window, click the arrow icon next to the name of subsystem.

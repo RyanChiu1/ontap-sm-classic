@@ -11,7 +11,7 @@ summary: "You can use System Manager to modify the configuration information of 
 [.lead]
 You can use System Manager to modify the configuration information of cloud tier. The configuration details that you can edit include the name, fully qualified domain name (FQDN), port, access key ID, secret key, and object store certificate.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Cloud Tier*.
 . Select the cloud tier that you want to edit, and then click *Edit*.

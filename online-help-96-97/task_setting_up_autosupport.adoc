@@ -11,7 +11,7 @@ summary: "You can use the Edit AutoSupport Settings dialog box in System Manager
 [.lead]
 You can use the Edit AutoSupport Settings dialog box in System Manager to set up AutoSupport notifications by specifying an email address from which email notifications are sent and adding multiple email host names.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
 . Select the node, and then click *Edit*.

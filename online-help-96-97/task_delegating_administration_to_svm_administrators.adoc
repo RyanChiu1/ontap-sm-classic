@@ -11,11 +11,11 @@ summary: "After setting up a functional storage virtual machine (SVM) or SVMs wi
 [.lead]
 After setting up a functional storage virtual machine (SVM) or SVMs with basic network configuration, you can optionally delegate the administration of the SVM to SVM administrators.
 
-== About this task
+.About this task
 
 SVM administrators cannot use System Manager to manage delegated SVMs. Administrators can manage them only by using the command-line interface (CLI).
 
-== Steps
+.Steps
 
 . In the *Administrator Details* section, set up a password for the `vsadmin` user account.
 . If you want a dedicated LIF for SVM management, select *Create a LIF for SVM management*, and then specify the network details.
@@ -64,7 +64,7 @@ If a route does not exist, a new route is automatically created based on the gat
  .. Select a port from the Select Network Port or Adapter dialog box.
  .. Click *OK*.
 
-== Results
+.Results
 
 The `vsadmin` account is unlocked and configured with the password.
 

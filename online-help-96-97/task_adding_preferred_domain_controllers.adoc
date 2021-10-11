@@ -11,7 +11,7 @@ summary: "System Manager automatically discovers domain controllers through DNS.
 [.lead]
 System Manager automatically discovers domain controllers through DNS. Optionally, you can add one or more domain controllers to the list of preferred domain controllers for a specific domain.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

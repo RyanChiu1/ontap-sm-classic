@@ -11,17 +11,17 @@ summary: "You must create a SnapMirror relationship between the source volume on
 [.lead]
 You must create a SnapMirror relationship between the source volume on one cluster and the destination volume on the peered cluster for replicating data for disaster recovery.
 
-== Before you begin
+.Before you begin
 
 * You must have the cluster administrator user name and password for the destination cluster.
 * The destination aggregate must have available space.
 * Both the clusters must be configured and set up appropriately to meet the requirements of your environment for user access, authentication, and client access.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

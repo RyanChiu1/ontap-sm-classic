@@ -11,11 +11,11 @@ summary: "Before using the LUN, you should verify that the host can write data t
 [.lead]
 Before using the LUN, you should verify that the host can write data to the LUN and read it back.
 
-== About this task
+.About this task
 
 If the cluster node on which the LUN is created can be failed over to its partner node, you should verify reading the data while the node is failed over. This test might not be possible if the cluster is in production use.
 
-== Steps
+.Steps
 
 . On the vSphere Web Client *Home* page, click *Hosts and Clusters*.
 . In the navigation pane, click the *Storage* tab.

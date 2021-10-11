@@ -11,7 +11,7 @@ summary: "You can use System Manager to modify the name of a node when required.
 [.lead]
 You can use System Manager to modify the name of a node when required.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Configuration Updates*.
 . In the *Nodes* tab, select the node that you want to rename, and then click *Edit Node Name*.

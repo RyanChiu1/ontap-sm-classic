@@ -67,7 +67,7 @@ In theAdvanced Options dialog box, you can specify the IP address of the client 
 +
 In theAdvanced Options dialog box, you can specify the file or file path that you want to access as an additional detail to narrow the scope of the trace.
 
-== Results list for CIFS protocol tracing
+.Results list for CIFS protocol tracing
 
 When you specify the CIFS protocol, the results list displays the following data for your trace based on the parameters you specified. The data is displayed in reverse chronological order. If you stop tracing, the results remain in the list until you start another trace.
 
@@ -81,7 +81,7 @@ When you specify the CIFS protocol, the results list displays the following data
 When the trace result shows a message saying that access is not granted for "Synchronize", "Read Control", "Read Attributes", "Execute", "Read EA", "Write", or "Read"', the message is indicating that the desired access has not been not granted for the set of permissions listed. In order to view the actual permissions status, you need to view the permissions using the provided link.
 ====
 
-== Results list for NFS protocol tracing
+.Results list for NFS protocol tracing
 
 When you specify the NFS protocol, the results list displays the following data for your trace based on the parameters you specified. The data is displayed in reverse chronological order. If you stop tracing, the results remain in the list until you start another trace.
 

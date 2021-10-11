@@ -11,7 +11,7 @@ summary: "Ethernet networks vary greatly in performance. You can maximize the pe
 [.lead]
 Ethernet networks vary greatly in performance. You can maximize the performance of the network by selecting specific configuration values.
 
-== Steps
+.Steps
 
 . Connect the host and storage ports to the same network.
 +

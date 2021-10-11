@@ -11,11 +11,11 @@ summary: "You can use System Manager to add rules to an export policy, which ena
 [.lead]
 You can use System Manager to add rules to an export policy, which enables you to define client access to data.
 
-== Before you begin
+.Before you begin
 
 You must have created the export policy to which you want to add the export rules.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

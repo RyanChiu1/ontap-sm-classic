@@ -11,17 +11,17 @@ summary: "You can use the System Manager to add a traphost (SNMP manager) to rec
 [.lead]
 You can use the System Manager to add a traphost (SNMP manager) to receive SNMP notifications (SNMP trap protocol data units) when traps are generated in the cluster.
 
-== Before you begin
+.Before you begin
 
 IPv6 must be enabled on the cluster if you configure SNMP traphosts that have IPv6 addresses.
 
-== About this task
+.About this task
 
 SNMP and SNMP traps are enabled by default. The NetApp Technical Report TR-4220 on SNMP support contains lists of all default events that are supported by SNMP traps.
 
 http://www.netapp.com/us/media/tr-4220.pdf[NetApp Technical Report 4220: SNMP Support in Data ONTAP]
 
-== Steps
+.Steps
 
 . In the SNMP window, click *EDIT* to open the *Edit SNMP Settings* dialog box.
 . In the *Trap Hosts* tab, verify that the *Enable traps* check box is selected and click *Add*.

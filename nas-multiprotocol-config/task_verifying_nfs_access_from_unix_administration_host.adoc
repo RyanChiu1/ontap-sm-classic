@@ -11,12 +11,12 @@ summary: After you configure NFS access to storage virtual machine \(SVM\), you 
 [.lead]
 After you configure NFS access to storage virtual machine (SVM), you should verify the configuration by logging in to an NFS administration host and reading data from and writing data to the SVM.
 
-== Before you begin
+.Before you begin
 
 * The client system must have an IP address that is allowed by the export rule you specified earlier.
 * You must have the login information for the root user.
 
-== Steps
+.Steps
 
 . Log in as the root user to the client system.
 . Enter `cd /mnt/` to change the directory to the mount folder.
@@ -54,6 +54,6 @@ host# rm -r myfile1
 host# cd ..
 ----
 
-== Results
+.Results
 
 You have confirmed that you have enabled NFS access to the SVM.

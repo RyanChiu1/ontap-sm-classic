@@ -11,12 +11,12 @@ summary: "You can delete a qtree and reclaim the disk space that the qtree uses 
 [.lead]
 You can delete a qtree and reclaim the disk space that the qtree uses within a volume by using System Manager. When you delete a qtree, all of the quotas that are applicable to that qtree are no longer applied by ONTAP.
 
-== Before you begin
+.Before you begin
 
 * The qtree status must be normal.
 * The qtree must not contain any LUN.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Qtrees*.
 . In the *Qtrees* window, select one or more qtrees that you want to delete, and then click *Delete*.

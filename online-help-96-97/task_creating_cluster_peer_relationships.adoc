@@ -11,7 +11,7 @@ summary: "You can create an authenticated cluster peer relationship to connect c
 [.lead]
 You can create an authenticated cluster peer relationship to connect clusters so that the clusters in the peer relationship can communicate securely with each other.
 
-== Before you begin
+.Before you begin
 
 * You must have reviewed and completed the requirements for performing this task.
 +
@@ -20,14 +20,14 @@ link:reference_prerequisites_for_cluster_peering.md#[Prerequisites for cluster p
 * You must have created intercluster logical interfaces (LIFs).
 * You should be aware of which version of ONTAP each cluster is running.
 
-== About this task
+.About this task
 
 * If you want to create a peer relationship with a cluster running Data ONTAP 8.2.2 or earlier, you must use the CLI.
 * You can create a peer relationship between a cluster running ONTAP 9.5 and a cluster running ONTAP 9.6. However, encryption is not supported in ONTAP 9.5, so the peer relationship cannot be encrypted.
 * In a MetroCluster configuration, when you create a peer relationship between the primary cluster and an external cluster, it is a best practice to create a peer relationship between the surviving site cluster and the external cluster as well.
 * You can create a custom passphrase or you can use the system-generated passphrase to authenticate the cluster peer relationship. However, the passphrases of both clusters must match.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Advanced Cluster Setup*.
 . In the *Target Cluster Intercluster LIF IP addresses* field, enter the IP addresses of the remote cluster's intercluster LIFs.

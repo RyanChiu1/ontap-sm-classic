@@ -11,11 +11,11 @@ summary: The iSCSI software adapter creates the iSCSI connection on the ESX host
 [.lead]
 The iSCSI software adapter creates the iSCSI connection on the ESX host. It is built into the operating system, but must be enabled before it can be used.
 
-== Before you begin
+.Before you begin
 
 You must have a VMware vSphere Client installed on your workstation or you must have access to a vSphere Web Client.
 
-== Steps
+.Steps
 
 . Log in to the vSphere Client.
 . Select the ESX host from the inventory pane.

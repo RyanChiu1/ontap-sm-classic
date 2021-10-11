@@ -11,11 +11,11 @@ summary: The storage virtual machine \(SVM\) provides the FC target through whic
 [.lead]
 The storage virtual machine (SVM) provides the FC target through which a host accesses LUNs. When you create the SVM, you also create logical interfaces (LIFs) and the LUN and its containing volume. You can create an SVM to separate the data and administration functions of a user from those of the other users in a cluster.
 
-== Before you begin
+.Before you begin
 
 * Your FC fabric must be configured and the desired physical ports must be connected to the fabric.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create*.

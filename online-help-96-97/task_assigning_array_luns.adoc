@@ -11,7 +11,7 @@ summary: "You can use System Manager to assign unassigned array LUNs to an exist
 [.lead]
 You can use System Manager to assign unassigned array LUNs to an existing aggregate to increase the size of the aggregate.
 
-== About this task
+.About this task
 
 * You can assign array LUNs if the following conditions are true:
  ** The container type of the selected array LUNs must be "`unassigned`".
@@ -21,7 +21,7 @@ You can use System Manager to assign unassigned array LUNs to an existing aggreg
 +
 You must use the command-line interface instead.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Array LUNs*.
 . Select the array LUNs, and then click *Assign*.

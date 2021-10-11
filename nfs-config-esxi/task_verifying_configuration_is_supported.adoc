@@ -11,7 +11,7 @@ summary: "For reliable operation, you must verify that the entire configuration 
 [.lead]
 For reliable operation, you must verify that the entire configuration is supported. The lists the supported configurations for NFS and for Virtual Storage Console.
 
-== Steps
+.Steps
 
 . Go to the to verify that you have a supported combination of the following components:
 +

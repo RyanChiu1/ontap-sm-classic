@@ -11,16 +11,16 @@ summary: "You can use System Manager to change the status of a FlexVol volume wh
 [.lead]
 You can use System Manager to change the status of a FlexVol volume when you want to take a volume offline, bring a volume back online, or restrict access to a volume.
 
-== Before you begin
+.Before you begin
 
 * If you want a volume to be the target of a volume copy operation or a SnapMirror replication operation, the volume must be in the restricted state.
 * If you want to take a NAS volume offline, the NAS volume must be unmounted.
 
-== About this task
+.About this task
 
 You can take a volume offline to perform maintenance on the volume, to move the volume, or to destroy the volume. When a volume is offline, the volume is unavailable for read or write access by clients. You cannot take a root volume offline.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

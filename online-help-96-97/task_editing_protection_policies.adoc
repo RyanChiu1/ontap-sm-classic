@@ -11,11 +11,11 @@ summary: "You can use System Manager to modify a protection policy and to apply 
 [.lead]
 You can use System Manager to modify a protection policy and to apply the policy to a data protection relationship.
 
-== About this task
+.About this task
 
 The protection policies are not displayed at the cluster level.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the storage virtual machine (SVM), and then click *SVM Settings*.

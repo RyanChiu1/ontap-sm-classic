@@ -11,7 +11,7 @@ summary: "You can use System Manager to modify the access of an access-control r
 [.lead]
 You can use System Manager to modify the access of an access-control roleto a command or command directory and to restrict a user's access to only a specified set of commands.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -11,11 +11,11 @@ summary: "You can edit a provisioned application to increase to storage size or 
 [.lead]
 You can edit a provisioned application to increase to storage size or to manage the Snapshot copies of the application.
 
-== About this task
+.About this task
 
 As the cluster administrator, after you provision an application, you can edit it to modify the storage size. You can also create, restore, or delete Snapshot copies of the application. The example procedure that follows describes how to edit a *NAS Container* application.
 
-== Steps
+.Steps
 
 . Click *Applications & Tiers* > *Applications*
 . Click on the name of the NAS container application.

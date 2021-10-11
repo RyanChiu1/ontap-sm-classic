@@ -12,7 +12,7 @@ summary: "While adding capacity disks (HDDs) to an aggregate, you can change the
 [.lead]
 While adding capacity disks (HDDs) to an aggregate, you can change the RAID group to which you want to add the disks by using System Manager.
 
-== About this task
+.About this task
 
 * If the RAID type is RAID-DP, and if you are adding FSAS or MSATA type of disks that are equal to or larger than 10 TB in size, then you can add them only to `Specific RAID group`, and not to `New RAID group` or `All RAID groups`.
 +
@@ -22,7 +22,7 @@ The disks are added after downsizing the disk size to the size of the existing a
 +
 The disks are added after downsizing the disk size to the size of the existing aggregates.
 
-== Steps
+.Steps
 
 . Choose one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers*.

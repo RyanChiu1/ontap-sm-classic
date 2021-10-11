@@ -11,7 +11,7 @@ summary: "You can use System Manager to add an initiator and to specify the secu
 [.lead]
 You can use System Manager to add an initiator and to specify the security method that is used to authenticate the initiator.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

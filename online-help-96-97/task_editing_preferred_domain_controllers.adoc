@@ -11,7 +11,7 @@ summary: "You can use System Manager to modify the IP address of the preferred d
 [.lead]
 You can use System Manager to modify the IP address of the preferred domain controllers that are configured for a specific domain.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
