@@ -2,7 +2,7 @@
 permalink: iscsi-config-windows/task_starting_iscsi_sessions_with_target.html
 sidebar: sidebar
 keywords: windows, host, iscsi, connection, cluster, establish, sessions, initiator, properties, dialog, box, start iscsi sessions with the target
-summary: The Windows host must have an iSCSI connection to each node in the cluster. You establish the sessions from the host by using the iSCSI Initiator Properties dialog box on the host.
+summary: "The Windows host must have an iSCSI connection to each node in the cluster. You establish the sessions from the host by using the iSCSI Initiator Properties dialog box on the host."
 ---
 = Start iSCSI sessions with the target
 :icons: font

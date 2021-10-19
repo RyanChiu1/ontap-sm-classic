@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, manage, cloud, tier, online, help, fabricpool, aggregate, storage, system
 summary: "Storing data in tiers can enhance the efficiency of your storage system. You manage storage tiers by using FabricPool-enabled aggregates. Cloud tiers store data in a tier based on whether the data is frequently accessed."
 ---
-= Configuring and managing cloud tiers
+= Configure and managing cloud tiers
 :icons: font
 :imagesdir: ../media/
 

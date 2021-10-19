@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, mirror, relationship, destination, svm, online, help, system, manager
 summary: "You can use ONTAP System Manager to create a mirror relationship from the destination storage virtual machine (SVM) and to assign a policy and schedule to the mirror relationship. The mirror copy enables quick availability of data if the data on the source volume is corrupted or lost."
 ---
-= Creating a mirror relationship from a destination SVM
+= Create a mirror relationship from a destination SVM
 :icons: font
 :imagesdir: ../media/
 

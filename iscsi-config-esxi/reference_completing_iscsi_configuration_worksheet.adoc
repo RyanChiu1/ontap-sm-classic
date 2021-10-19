@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/reference_completing_iscsi_configuration_worksheet.html
 sidebar: sidebar
 keywords: network, address, storage, configuration, information, perform, iscsi, task, complete, complete the iscsi configuration worksheet
-summary: You require network addresses and storage configuration information to perform iSCSI configuration tasks.
+summary: "You require network addresses and storage configuration information to perform iSCSI configuration tasks."
 ---
 = Completing the iSCSI configuration worksheet
 :icons: font

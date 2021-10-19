@@ -2,7 +2,7 @@
 permalink: fc-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html
 sidebar: sidebar
 keywords: virutal, storage, console, vsc, vmware, vsphere, automate, configuration, provision, task, require, netapp, fc, storage, esxi, host, plug-in, vcenter, server, install virtual storage console
-summary: Virtual Storage Console for VMware vSphere automates many of the configuration and provisioning tasks required to use NetApp FC storage with an ESXi host. Virtual Storage Console is a plug-in to vCenter Server.
+summary: "Virtual Storage Console for VMware vSphere automates many of the configuration and provisioning tasks required to use NetApp FC storage with an ESXi host. Virtual Storage Console is a plug-in to vCenter Server."
 ---
 = Install Virtual Storage Console
 :icons: font

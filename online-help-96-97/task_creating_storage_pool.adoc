@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, storage, pool, ssd, cache, disks, online, help, storage, pool
 summary: "A storage pool is a collection of SSDs (cache disks). You can use System Manager to combine SSDs to create a storage pool, which enables you to share the SSDs and SSD spares between an HA pair for allocation to two or more Flash Pool aggregates at the same time."
 ---
-= Creating a storage pool
+= Create a storage pool
 :icons: font
 :imagesdir: ../media/
 

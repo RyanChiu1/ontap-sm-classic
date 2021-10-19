@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/task_configuring_verifying_client_access_new_svm.html
 sidebar: sidebar
 keywords: configure, client, access, unix, ntfs, file, modify, share, acl, add, export, rule, volume, configure and verify cifs and nfs client access
-summary: When you are ready, you can configure client access by setting either UNIX or NTFS file permissions, modifying the share ACL, and adding an export rule. Then you should test that the affected users or groups can access the volume.
+summary: "When you are ready, you can configure client access by setting either UNIX or NTFS file permissions, modifying the share ACL, and adding an export rule. Then you should test that the affected users or groups can access the volume."
 ---
 = Configure and verify CIFS and NFS client access
 :icons: font

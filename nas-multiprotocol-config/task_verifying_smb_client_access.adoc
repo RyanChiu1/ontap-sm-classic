@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/task_verifying_smb_client_access.html
 sidebar: sidebar
 keywords: verify, configure, smb, access, write, data, netbios, alias, verify smb client access
-summary: You should verify that you have configured SMB correctly by accessing and writing data to the share. You should test access using the SMB server name and any NetBIOS aliases.
+summary: "You should verify that you have configured SMB correctly by accessing and writing data to the share. You should test access using the SMB server name and any NetBIOS aliases."
 ---
 = Verify SMB client access
 :icons: font

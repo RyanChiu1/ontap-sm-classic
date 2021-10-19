@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: configure, cluster, system, manager, online, help
 summary: "Certain prerequisites must be met before you configure a cluster using System Manager."
 ---
-= Configuring a cluster by using System Manager
+= Configure a cluster by using System Manager
 :icons: font
 :imagesdir: ../media/
 

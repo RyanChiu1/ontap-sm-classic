@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/task_configuring_ldap_new_svm.html
 sidebar: sidebar
 keywords: storage, virtual, machine, svm, information, active, directory-based, lightweight, directory, access, protocol, ldap, client, sourve, configure, configure ldap (create a new nfs-enabled svm)
-summary: If you want the storage virtual machine \(SVM\) to get user information from Active Directory-based Lightweight Directory Access Protocol (LDAP), you must create an LDAP client, enable it for the SVM, and give LDAP priority over other sources of user information.
+summary: "If you want the storage virtual machine (SVM) to get user information from Active Directory-based Lightweight Directory Access Protocol (LDAP), you must create an LDAP client, enable it for the SVM, and give LDAP priority over other sources of user information."
 ---
 = Configure LDAP (Create a new NFS-enabled SVM)
 :icons: font

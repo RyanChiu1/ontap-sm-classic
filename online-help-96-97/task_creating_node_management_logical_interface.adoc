@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, create, node, management, logical, interface, online, help
 summary: "You can use System Manager to create a dedicated node management logical interface (LIF) for managing a particular node in a cluster. You can use this LIF to manage the system maintenance activities of the node."
 ---
-= Creating a node management logical interface
+= Create a node management logical interface
 :icons: font
 :imagesdir: ../media/
 

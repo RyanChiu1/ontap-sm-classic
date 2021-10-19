@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, create, flexcache, volume, system, manager
 summary: "Starting with System Manager 9.6, you can create a FlexCache volume."
 ---
-= Creating FlexCache volumes
+= Create FlexCache volumes
 :icons: font
 :imagesdir: ../media/
 

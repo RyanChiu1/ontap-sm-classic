@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, efficiency, policy, system, manager, online, help
 summary: "You can use System Manager to add efficiency policies for running the deduplication operation on a volume on a specified schedule or when the change in volume data reaches a specified threshold value."
 ---
-= Adding efficiency policies
+= Add efficiency policies
 :icons: font
 :imagesdir: ../media/
 

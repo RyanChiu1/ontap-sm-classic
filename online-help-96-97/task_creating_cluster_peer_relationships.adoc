@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, create, cluster, peer, relationships, online, help
 summary: "You can create an authenticated cluster peer relationship to connect clusters so that the clusters in the peer relationship can communicate securely with each other."
 ---
-= Creating cluster peer relationships
+= Create cluster peer relationships
 :icons: font
 :imagesdir: ../media/
 

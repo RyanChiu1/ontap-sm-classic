@@ -2,7 +2,7 @@
 permalink: expansion/reference_trademark.html
 sidebar: sidebar
 keywords: trademark
-summary: Trademark
+summary: "Trademark"
 ---
 = Trademark
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, microsoft, sql, server, san, system, manager, online, help, enhanced, tab
 summary: "You can use the Enhanced tab to add an instance of Microsoft SQL Server over SAN to System Manager."
 ---
-= Adding Microsoft SQL Server over SAN to System Manager
+= Add Microsoft SQL Server over SAN to System Manager
 :icons: font
 :imagesdir: ../media/
 

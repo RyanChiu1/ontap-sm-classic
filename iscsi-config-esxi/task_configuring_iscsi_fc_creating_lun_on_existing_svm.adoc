@@ -2,9 +2,9 @@
 permalink: iscsi-config-esxi/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html
 sidebar: sidebar
 keywords: configure, iscsi, exist, storage, virtual, machine, svm, protocol, enable, configure iscsi on an existing svm
-summary: You can configure iSCSI on an existing storage virtual machine \(SVM\). The iSCSI protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured iSCSI.
+summary: "You can configure iSCSI on an existing storage virtual machine (SVM). The iSCSI protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured iSCSI."
 ---
-= Configuring iSCSI on an existing SVM
+= Configure iSCSI on an existing SVM
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: join, install, node, cluster, run, ontap, upgrade, downgrade
 summary: "Before joining the newly installed nodes to the cluster, you must ensure that they are running the same version of ONTAP that the cluster is running. If the nodes are running a different version, you must upgrade or downgrade the nodes to match the cluster."
 ---
-= Upgrading or downgrading the nodes
+= Upgrade or downgrade the nodes
 :icons: font
 :imagesdir: ../media/
 

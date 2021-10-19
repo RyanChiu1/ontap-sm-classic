@@ -2,7 +2,7 @@
 permalink: fc-config-esxi/reference_copyright_trademark.html
 sidebar: sidebar
 keywords: copyright, trademark, machine, translation
-summary: Copyright, trademark, and machine translation
+summary: "Copyright, trademark, and machine translation"
 ---
 = Copyright, trademark, and machine translation
 :icons: font

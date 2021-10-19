@@ -2,7 +2,7 @@
 permalink: iscsi-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html
 sidebar: sidebar
 keywords: multipath, device, verify, host, data, verify that the host can write to and read from a multipath device
-summary: Before using a multipath device, you should verify that the host can write data to the multipath device and read it back.
+summary: "Before using a multipath device, you should verify that the host can write data to the multipath device and read it back."
 ---
 = Verify that the host can write to and read from a multipath device
 :icons: font

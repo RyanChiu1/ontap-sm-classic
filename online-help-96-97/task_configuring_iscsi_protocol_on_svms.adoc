@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, iscsi, protocol, svm, online, help, lif, portset
 summary: 'You can configure the iSCSI protocol on a storage virtual machine \(SVM\) to provide block-level data access by using System Manager. You can create iSCSI LIFs and portsets and then add the LIFs to the portsets. LIFs are created on the most suitable adapters and are assigned to portsets to ensure data path redundancy.'
 ---
-= Configuring iSCSI protocol on SVMs
+= Configure iSCSI protocol on SVMs
 :icons: font
 :imagesdir: ../media/
 

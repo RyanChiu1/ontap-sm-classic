@@ -2,7 +2,7 @@
 permalink: fc-config-windows/task_initializing_formatting_lun.html
 sidebar: sidebar
 keywords: lun, access, windows, host, partition, file, system, initialize, lun, optional, format, initialize and format the lun
-summary: When a new LUN is first accessed by the Windows host, it has no partition or file system. You must initialize the LUN, and optionally format it with a file system.
+summary: "When a new LUN is first accessed by the Windows host, it has no partition or file system. You must initialize the LUN, and optionally format it with a file system."
 ---
 = Initialize and format the LUN
 :icons: font

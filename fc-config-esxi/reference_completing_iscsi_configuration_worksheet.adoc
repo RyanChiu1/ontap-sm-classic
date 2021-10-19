@@ -2,7 +2,7 @@
 permalink: fc-config-esxi/reference_completing_iscsi_configuration_worksheet.html
 sidebar: sidebar
 keywords: require, fc, intiator, target, wwpn, storage, configuration, information, perform, fc, task, complete, svm, complete the fc configuration worksheet
-summary: You require FC initiator and target WWPNs and storage configuration information to perform FC configuration tasks.
+summary: "You require FC initiator and target WWPNs and storage configuration information to perform FC configuration tasks."
 ---
 = Complete the FC configuration worksheet
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, add, node, cluster, online, help
 summary: "You can use System Manager to increase the size and capabilities of your storage system by adding nodes to an existing cluster."
 ---
-= Adding nodes to a cluster
+= Add nodes to a cluster
 :icons: font
 :imagesdir: ../media/
 

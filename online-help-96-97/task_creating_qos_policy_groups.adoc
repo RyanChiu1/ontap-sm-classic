@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, create, qos, policy, groups, system, manager, quality, service
 summary: "You can use System Manager to create storage Quality of Service (QoS) policy groups to limit the throughput of workloads and to monitor workload performance."
 ---
-= Creating QoS policy groups
+= Create QoS policy groups
 :icons: font
 :imagesdir: ../media/
 

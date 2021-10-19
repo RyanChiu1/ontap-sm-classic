@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, protection, policy, system, manager, online, help, cluster
 summary: "You can use System Manager to create cluster-level asynchronous mirror policies, vault policies, or mirror and vault policies, and to apply these policies to a cluster-level data protection relationship."
 ---
-= Creating protection policies
+= Create protection policies
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cifs, system, manager, online, help, storage
 summary: "You can use System Manager to specify one or more paths that can be used by the storage system to resolve the location of the CIFS home directories of users."
 ---
-= Adding home directory paths
+= Add home directory paths
 :icons: font
 :imagesdir: ../media/
 

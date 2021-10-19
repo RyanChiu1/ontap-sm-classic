@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, virtual, machine, configure, administration, details, svm, online, help, system, manager
 summary: "You can use System Manager to quickly configure the administration details of a storage virtual machine (SVM). You can optionally delegate the administration of the SVM to SVM administrators."
 ---
-= Configuring the administration details of an SVM
+= Configure the administration details of an SVM
 :icons: font
 :imagesdir: ../media/
 

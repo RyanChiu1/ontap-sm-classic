@@ -2,7 +2,7 @@
 permalink: iscsi-config-rhel/reference_where_to_find_additional_information.html
 sidebar: sidebar
 keywords: test, iscsi, perform, advance, configuration, san, nas, protocol, express, guide, comprehensive, guide, technical, goal, where to find additional information
-summary: After you have successfully tested iSCSI , you can perform advanced iSCSI configuration or add SAN or NAS protocols. There are express guides, comprehensive guides, and technical reports to help you achieve these goals.
+summary: "After you have successfully tested iSCSI , you can perform advanced iSCSI configuration or add SAN or NAS protocols. There are express guides, comprehensive guides, and technical reports to help you achieve these goals."
 ---
 = Where to find additional information
 :icons: font

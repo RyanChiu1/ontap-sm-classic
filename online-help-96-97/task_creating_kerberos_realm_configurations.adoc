@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, kerberos, realm, configuration, storage, virtual, machine, svm, online, help
 summary: "If you want to use Kerberos authentication for client access, you must configure the storage virtual machine (SVM) to use an existing Kerberos realm. You can use System Manager to create a Kerberos realm configuration, which enables SVMs to use Kerberos security services for NFS."
 ---
-= Creating a Kerberos realm configuration
+= Create a Kerberos realm configuration
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, svm, system, manager, cluster, online, help
 summary: "You can use System Manager to create fully configured storage virtual machines (SVMs) that can serve data immediately. A cluster can have one or more SVMs."
 ---
-= Creating SVMs
+= Create SVMs
 :icons: font
 :imagesdir: ../media/
 

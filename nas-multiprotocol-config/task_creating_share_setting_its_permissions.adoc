@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/task_creating_share_setting_its_permissions.html
 sidebar: sidebar
 keywords: windows, user, access, volume, create, cifs, restrict, access, modify, control, list, acl, share, create a share and set its permission
-summary: Before Windows users can access a volume, you must create a CIFS share on the volume and restrict access to the share by modifying the access control list (ACL) for the share.
+summary: "Before Windows users can access a volume, you must create a CIFS share on the volume and restrict access to the share by modifying the access control list (ACL) for the share."
 ---
 = Create a share and set its permissions
 :icons: font

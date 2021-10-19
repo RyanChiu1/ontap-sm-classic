@@ -2,7 +2,7 @@
 permalink: fc-config-windows/reference_where_to_find_additional_information.html
 sidebar: sidebar
 keywords: document, fc, configuration, where to find additional information
-summary: There are additional documents to help you learn more about FC configuration.
+summary: "There are additional documents to help you learn more about FC configuration."
 ---
 = Where to find additional information
 :icons: font

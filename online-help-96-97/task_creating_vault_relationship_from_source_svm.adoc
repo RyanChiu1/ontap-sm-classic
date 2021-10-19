@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, online, help, vault, policy, relationship, create, source
 summary: "You can use System Manager to create a vault relationship from the source storage virtual machine (SVM), and to assign a vault policy to the vault relationship to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination."
 ---
-= Creating a vault relationship from a source SVM
+= Create a vault relationship from a source SVM
 :icons: font
 :imagesdir: ../media/
 

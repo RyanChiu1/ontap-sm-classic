@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: communication, traphost, automatic, validate, add, snmp, traphost, correct, trap, test, test snmp traps
 summary: "Because communication with a traphost is not automatically validated when you add it, you should verify that the SNMP traphost can correctly receive traps."
 ---
-= Teste SNMP traps
+= Test SNMP traps
 :icons: font
 :imagesdir: ../media/
 

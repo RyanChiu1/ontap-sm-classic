@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, online, help, create, cluster, management, logical, interface
 summary: "You can use System Manager to create a cluster management logical interface (LIF) to provide a single management interface for a cluster. You can use this LIF to manage all of the activities of the cluster."
 ---
-= Creating a cluster management logical interface
+= Create a cluster management logical interface
 :icons: font
 :imagesdir: ../media/
 

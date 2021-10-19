@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, port, set, create, online, help, lun
 summary: "You can use System Manager to create port sets to limit access to your LUNs."
 ---
-= Creating port sets
+= Create port sets
 :icons: font
 :imagesdir: ../media/
 

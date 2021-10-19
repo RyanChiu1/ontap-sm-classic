@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, flexclone, volume, system, manager, online, help
 summary: "You can use System Manager to create a FlexClone volume when you require a writable, point-in-time copy of an existing FlexVol volume. You might want to create a copy of a volume for testing or to provide access to the volume for additional users without giving them access to the production data."
 ---
-= Creating FlexClone volumes
+= Create FlexClone volumes
 :icons: font
 :imagesdir: ../media/
 

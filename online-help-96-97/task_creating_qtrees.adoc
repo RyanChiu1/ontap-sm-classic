@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: qtrees, create, system, manager, manage, partition, online, help
 summary: "Qtrees enable you to manage and partition your data within a volume. You can use the Create Qtree dialog box in System Manager to add a new qtree to a volume on your storage system."
 ---
-= Creating qtrees
+= Create qtrees
 :icons: font
 :imagesdir: ../media/
 

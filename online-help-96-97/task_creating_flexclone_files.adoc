@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, flexclone, file, parent, test, applications, online, help
 summary: "You can use System Manager to create a FlexClone file, which is a writable copy of a parent file. You can use these copies to test applications."
 ---
-= Creating FlexClone files
+= Create FlexClone files
 :icons: font
 :imagesdir: ../media/
 

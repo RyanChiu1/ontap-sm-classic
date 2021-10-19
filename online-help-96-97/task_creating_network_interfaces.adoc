@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, network, interface, online, help, system, manager, lif, intercluster, svm
 summary: "You can use System Manager to create a network interface or LIF to access data from storage virtual machines (SVMs), to manage SVMs and to provide an interface for intercluster connectivity."
 ---
-= Creating network interfaces
+= Create network interfaces
 :icons: font
 :imagesdir: ../media/
 
