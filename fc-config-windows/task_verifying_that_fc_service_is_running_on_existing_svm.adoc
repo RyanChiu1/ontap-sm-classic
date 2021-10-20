@@ -2,7 +2,7 @@
 permalink: fc-config-windows/task_verifying_that_fc_service_is_running_on_existing_svm.html
 sidebar: sidebar
 keywords: exist, storage, virtual, machine, svm, verify, fc, service, ontap, manager, fc, logical, interface, lif, create, verify that the fc service is running on an existing svm
-summary: "If you choose to use an existing storage virtual machine \(SVM\), you must verify that the FC service is running on the SVM by using ONTAP System Manager. You must also verify that FC logical interfaces (LIFs) are already created."
+summary: "If you choose to use an existing storage virtual machine (SVM), you must verify that the FC service is running on the SVM by using ONTAP System Manager. You must also verify that FC logical interfaces (LIFs) are already created."
 ---
 = Verify that the FC service is running on an existing SVM
 :icons: font

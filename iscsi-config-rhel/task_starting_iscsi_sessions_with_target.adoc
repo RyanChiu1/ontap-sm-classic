@@ -2,7 +2,7 @@
 permalink: iscsi-config-rhel/task_starting_iscsi_sessions_with_target.html
 sidebar: sidebar
 keywords: linux, host, iscsi, connection, node, target, storage, cluster, establish, session, start the iscsi sessions with the target
-summary: "The Linux host must have an iSCSI connection with each node \(target\) in the storage cluster. You establish the sessions from the host."
+summary: "The Linux host must have an iSCSI connection with each node (target) in the storage cluster. You establish the sessions from the host."
 ---
 = Start the iSCSI sessions with the target
 :icons: font
