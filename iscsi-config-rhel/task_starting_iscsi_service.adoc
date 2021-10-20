@@ -15,6 +15,7 @@ After you edit the iSCSI configuration file, you must start the iSCSI service so
 
 . Start the iSCSI service at the Linux host command prompt:
 +
+[options="header"]
 |===
 | If you are using...| Enter...
 a|

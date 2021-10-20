@@ -15,6 +15,7 @@ LUNs on your storage virtual machine (SVM) appear as disks to the Windows host. 
 
 . Open the Windows Computer Management utility:
 +
+[options="header"]
 |===
 | If you are using...| Navigate to...
 a|

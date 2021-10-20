@@ -34,6 +34,7 @@ The Create Protection Relationship window is displayed.
 . In the *Destination Volume* section, select the peered cluster.
 . Specify the SVM for the destination volume:
 +
+[options="header"]
 |===
 | If the SVM is...| Then...
 a|

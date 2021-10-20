@@ -17,6 +17,7 @@ Before creating a cluster peering relationship, you must verify that the time on
 +
 The passphrase must include at least eight characters.
 +
+[options="header"]
 |===
 | For the relationship between...| The passphrase is...
 a|
@@ -34,6 +35,7 @@ By default, the IP address is automatically selected from the subnet. If you wan
 +
 The following table assumes that each cluster has four nodes. If a cluster has more than four nodes, you can record the ports on another piece of paper.
 +
+[options="header"]
 |===
 |  | Cluster A| Cluster B
 a|

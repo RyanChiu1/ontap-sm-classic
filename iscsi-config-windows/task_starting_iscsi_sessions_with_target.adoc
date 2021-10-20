@@ -25,6 +25,7 @@ The buttons and labels in the iSCSI Initiator Properties dialog box vary between
 
 . Open the *iSCSI Initiator Properties* dialog box:
 +
+[options="header"]
 |===
 | For...| Click...
 a|

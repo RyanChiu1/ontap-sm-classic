@@ -15,6 +15,7 @@ You must record the iSCSI initiator node name from the iSCSI initiator program o
 
 . Open the *iSCSI Initiator Properties* dialog box:
 +
+[options="header"]
 |===
 | If you are using...| Navigate to...
 a|

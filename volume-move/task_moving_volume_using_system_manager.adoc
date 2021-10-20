@@ -48,6 +48,7 @@ The job status changes to `Complete: Successful` when the volume move operation 
  .. From the *Volumes* window, select the volume for which you initiated the volume move job.
  .. Initiate cutover for the volume:
 +
+[options="header"]
 |===
 | If you are running...| Perform these steps...
 a|

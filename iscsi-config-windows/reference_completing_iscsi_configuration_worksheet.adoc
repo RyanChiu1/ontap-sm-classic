@@ -13,6 +13,7 @@ You require iSCSI identifiers, network addresses, and storage configuration info
 
 == iSCSI identifiers
 
+[options="header"]
 |===
 a|
 Initiator (host) iSCSI node name (IQN)
@@ -36,6 +37,7 @@ image::../media/network_fc_or_iscsi_express_iscsi_windows.gif[The figure shows f
 
 Subnet for LIFs: *__**__***__**_____
 
+[options="header"]
 |===
 | Node or LIF with port to switch| IP address| Network mask| Gateway| VLAN ID| Home port
 a|
@@ -140,6 +142,7 @@ a|
 
 If the aggregate and SVM are already created, record their names here; otherwise, you can create them as required:
 
+[options="header"]
 |===
 a|
 Node to own LUN
@@ -157,6 +160,7 @@ a|
 
 == LUN information
 
+[options="header"]
 |===
 a|
 LUN size
@@ -180,6 +184,7 @@ a|
 
 If you are not using an existing SVM, you require the following information to create a new one:
 
+[options="header"]
 |===
 a|
 SVM name

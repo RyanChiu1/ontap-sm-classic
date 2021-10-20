@@ -24,6 +24,7 @@ Only the ports that are in the default broadcast domain will be listed in the Ne
 
 . Add the new compatible nodes to the cluster:
 +
+[options="header"]
 |===
 | If you are...| Do this...
 a|

@@ -16,6 +16,7 @@ When you are ready, you can configure client access by setting either UNIX or NT
 . Decide which clients and users or groups will be given access to the share.
 . Set file permissions using a method that corresponds to the volume's security style:
 +
+[options="header"]
 |===
 | If the volume's security style is this...| Do this...
 a|
@@ -44,7 +45,6 @@ On a UNIX administration host, use the root user to set UNIX ownership and permi
  .. Select *2* for the *Rule Index* so that this rule executes after the rule that allows access to the administration host.
  .. Select *CIFS* and *NFSv3*.
  .. Specify the access details that you want, and click *OK.*
-
 +
 You can give full read/write access to clients by typing the subnet `10.1.1.0/24` as the *Client Specification*, and selecting all the access check boxes except *Allow Superuser Access*.
 +
