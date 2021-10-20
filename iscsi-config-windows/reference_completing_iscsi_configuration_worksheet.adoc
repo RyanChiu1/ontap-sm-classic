@@ -2,7 +2,7 @@
 permalink: iscsi-config-windows/reference_completing_iscsi_configuration_worksheet.html
 sidebar: sidebar
 keywords: iscsi, identifier, network, address, storage, configuration, information, perform, iscsi, task, complete, complete the iscsi configuration worksheet
-summary:" You require iSCSI identifiers, network addresses, and storage configuration information to perform iSCSI configuration tasks."
+summary: " You require iSCSI identifiers, network addresses, and storage configuration information to perform iSCSI configuration tasks."
 ---
 = Complete the iSCSI configuration worksheet
 :icons: font
