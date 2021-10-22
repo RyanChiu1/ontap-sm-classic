@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, nvme, subsystem, online, help, system, manager
 summary: "You can use System Manager to create an NVMe subsystem."
 ---
-= Creating NVMe subsystems
+= Create NVMe subsystems
 :icons: font
 :imagesdir: ../media/
 

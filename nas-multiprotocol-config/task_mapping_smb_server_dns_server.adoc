@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/task_mapping_smb_server_dns_server.html
 sidebar: sidebar
 keywords: site, dns, server, smb, name, netbios, alias, ip, address, data, lid, windows, user, map, map the smb server on the dns server
-summary: Your site’s DNS server must have an entry pointing the SMB server name, and any NetBIOS aliases, to the IP address of the data LIF so that Windows users can map a drive to the SMB server name.
+summary: "Your site’s DNS server must have an entry pointing the SMB server name, and any NetBIOS aliases, to the IP address of the data LIF so that Windows users can map a drive to the SMB server name."
 ---
 = Map the SMB server on the DNS server
 :icons: font

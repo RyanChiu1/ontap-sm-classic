@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, subnet, create, system, manager, logical, subdivision, ip, network
 summary: "You can create a subnet by using System Manager to provide a logical subdivision of an IP network to pre-allocate the IP addresses. A subnet enables you to create interfaces more easily by specifying a subnet instead of an IP address and network mask values for each new interface."
 ---
-= Creating subnets
+= Create subnets
 :icons: font
 :imagesdir: ../media/
 

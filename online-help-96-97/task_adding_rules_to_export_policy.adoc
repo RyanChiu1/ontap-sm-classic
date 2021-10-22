@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, add, rule, export, policy, online, help, data, access
 summary: "You can use System Manager to add rules to an export policy, which enables you to define client access to data."
 ---
-= Adding rules to an export policy
+= Add rules to an export policy
 :icons: font
 :imagesdir: ../media/
 

@@ -2,7 +2,7 @@
 permalink: fc-config-rhel/reference_where_to_find_additional_information.html
 sidebar: sidebar
 keywords: successful, test, fc, perform, advanced, fc, configuration, san, nas, protocol, express, guide, comprehensive, guide, technical, report, achieve, goal, where to find additional information, san configuration, san
-summary: After you have successfully tested FC, you can perform advanced FC configuration or add SAN or NAS protocols. There are express guides, comprehensive guides, and technical reports to help you achieve these goals.
+summary: "After you have successfully tested FC, you can perform advanced FC configuration or add SAN or NAS protocols. There are express guides, comprehensive guides, and technical reports to help you achieve these goals."
 ---
 = Where to find additional information
 :icons: font

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, capacity, disk, online, help, aggregate
 summary: "You can increase the size of an existing non-root aggregate or a root aggregate containing disks by adding capacity disks. You can use System Manager to add HDDs or SSDs of the selected ONTAP disk type and to modify the RAID group options."
 ---
-= Adding capacity disks
+= Add capacity disks
 :experimental:
 :icons: font
 :imagesdir: ../media/

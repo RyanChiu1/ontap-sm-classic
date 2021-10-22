@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: add, autosupport, email, recipient, online, help
 summary: "You can use the Email Recipient tab of the Edit AutoSupport Settings dialog box in System Manager to add email addresses of the recipients of AutoSupport notifications."
 ---
-= Adding AutoSupport email recipients
+= Add AutoSupport email recipients
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, local, window, group, online, help, system, manager
 summary: "You can use System Manager to create local Windows groups that can be used for authorizing access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also assign the privileges that define the user rights or capabilities that a member of the group has when performing administrative activities."
 ---
-= Creating a local Windows group
+= Create a local Windows group
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, svm, peers, relationship, data, protection, online, help
 summary: "SVM peering enables you to establish a peer relationship between two storage virtual machines (SVMs) for data protection."
 ---
-= Creating SVM peers
+= Create SVM peers
 :icons: font
 :imagesdir: ../media/
 

@@ -23,6 +23,7 @@ You must perform this task from the *destination* cluster.
 . Select the SVM that contains the SnapVault backup destination volume, and then click *Operations* > *Restore*.
 . In the *Restore* dialog box, restore the data to the original source volume or a new volume:
 +
+[options="header"]
 |===
 | If you want to restore to...| Then...
 a|

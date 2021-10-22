@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: cluster, communicate, logical, interface, lif, intercluster, create, ipspace, peer, relationship, create intercluster interfaces on all nodes, ontap 9.2 or earlier
 summary: "Clusters communicate with each other through logical interfaces (LIFs) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship."
 ---
-= Creating intercluster interfaces on all nodes (ONTAP 9.2 or earlier)
+= Create intercluster interfaces on all nodes (ONTAP 9.2 or earlier)
 :icons: font
 :imagesdir: ../media/
 

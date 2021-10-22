@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, configure, network, detail, node, online, help
 summary: "You can use System Manager to configure the node management LIF and Service Processor settings for the newly added nodes."
 ---
-= Configuring the network details of the nodes
+= Configure the network details of the nodes
 :icons: font
 :imagesdir: ../media/
 

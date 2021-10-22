@@ -2,9 +2,9 @@
 permalink: fc-config-windows/task_installing_hba_utility_from_hba_vendor.html
 sidebar: sidebar
 keywords: hba, utility, view, worldwide, port, name, wwpn, fc, port, troubleshoot, fc, issue, install the hba utility from the hba vendor
-summary: The HBA utility enables you to view the worldwide port name \(WWPN\) of each FC port. The utility is also useful for troubleshooting FC issues.
+summary: "The HBA utility enables you to view the worldwide port name (WWPN) of each FC port. The utility is also useful for troubleshooting FC issues."
 ---
-= Installing the HBA utility from the HBA vendor
+= Install the HBA utility from the HBA vendor
 :icons: font
 :imagesdir: ../media/
 

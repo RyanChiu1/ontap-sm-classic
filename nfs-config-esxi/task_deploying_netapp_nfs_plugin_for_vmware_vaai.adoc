@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: plug-in, software, library, integrate, vmware, virtual, disk, libraries, install, esxi, host, nfs, improve, copy, offload, space, reservation, option, deploy, deploy the nfs plug-in for vmware vaai
 summary: "The plug-in is a software library that integrates the VMware Virtual Disk Libraries that are installed on the ESXi host. Downloading and installing the NFS Plug-In for VMware VAAI enables you to improve the performance of cloning operations by using the copy offload and space reservation options."
 ---
-= Deploying the NFS Plug-in for VMware VAAI
+= Deploy the NFS Plug-in for VMware VAAI
 :icons: font
 :imagesdir: ../media/
 

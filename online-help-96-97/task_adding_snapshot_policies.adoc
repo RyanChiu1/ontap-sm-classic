@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snapshot, policies, system, manager, online, help
 summary: "You can create a Snapshot policy in System Manager to specify the maximum number of Snapshot copies that can be automatically created and the frequency of creating them."
 ---
-= Creating Snapshot policies
+= Create Snapshot policies
 :icons: font
 :imagesdir: ../media/
 

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, cluster, advance, privilege, backup, file, configuration, information, back up the cluster configuration
 summary: "Before you expand a cluster, you should use advanced privilege to create a backup file to save the cluster configuration information and optionally save the node configurations."
 ---
-= Backing up the cluster configuration
+= Back up the cluster configuration
 :icons: font
 :imagesdir: ../media/
 

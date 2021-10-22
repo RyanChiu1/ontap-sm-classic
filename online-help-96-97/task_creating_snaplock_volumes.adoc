@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, snaplock, volume, online, help, system, manager
 summary: "You can use System Manager to create a SnapLock Compliance volume or a SnapLock Enterprise volume. When you create a volume, you can also set retention times, and choose whether to automate setting the WORM state on data in the volume."
 ---
-= Creating SnapLock volumes
+= Create SnapLock volumes
 :icons: font
 :imagesdir: ../media/
 

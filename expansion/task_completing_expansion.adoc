@@ -2,7 +2,7 @@
 permalink: expansion/task_completing_expansion.html
 sidebar: sidebar
 keywords: node, cluster, configuring, configure, autosupport, network, expansion, lun, path, complete, complete the expansion
-summary: "After both nodes are joined to the cluster, you must finish configuring the newly added nodes by configuring AutoSupport and completing the SP network." 
+summary: "After both nodes are joined to the cluster, you must finish configuring the newly added nodes by configuring AutoSupport and completing the SP network."
 ---
 = Complete the expansion
 :icons: font

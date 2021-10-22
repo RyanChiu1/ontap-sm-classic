@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/task_creating_configuring_volume.html
 sidebar: sidebar
 keywords: create, flexvol, volume, data, default, security, style, inherit, security, style, root, volume, location, namespace, storage, virtual, machine, svm, create and configure a volume
-summary: You must create a FlexVol volume to contain your data. You can optionally change the volume’s default security style, which is inherited from the security style of the root volume. You can also optionally change the volume’s default location in the namespace, which is at the root volume of the storage virtual machine \(SVM\).
+summary: "You must create a FlexVol volume to contain your data. You can optionally change the volume’s default security style, which is inherited from the security style of the root volume. You can also optionally change the volume’s default location in the namespace, which is at the root volume of the storage virtual machine (SVM)."
 ---
 = Create and configure a volume
 :icons: font
@@ -31,7 +31,6 @@ Any new volume created in System Manager is mounted by default at the root volum
  .. Click *Mount*.
  .. In the *Mount Volume* dialog box, specify the volume, the name of its junction path, and the junction path on which you want the volume mounted.
  .. Verify the new junction path in the *Namespace* window.
-
 +
 If you want to organize certain volumes under a main volume named "`data`", you can move the new volume "`vol1`" from the root volume to the "`data`" volume.
 +

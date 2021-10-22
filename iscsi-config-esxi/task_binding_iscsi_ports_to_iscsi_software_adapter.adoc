@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/task_binding_iscsi_ports_to_iscsi_software_adapter.html
 sidebar: sidebar
 keywords: port, create, iscsi, associate, software, adapter, support, multipath, bind, bind iscsi ports to the iscsi software adapter
-summary: The ports you created for iSCSI must be associated with the iSCSI software adapter to support multipathing.
+summary: "The ports you created for iSCSI must be associated with the iSCSI software adapter to support multipathing."
 ---
 = Bind iSCSI ports to the iSCSI software adapter
 :icons: font

@@ -2,9 +2,9 @@
 permalink: fc-config-rhel/task_creating_lun_its_containing_volume.html
 sidebar: sidebar
 keywords: create, lun, wizard, igroup, map, create a lun
-summary: You use the Create LUN wizard to create a LUN. The wizard also creates the igroup and maps the LUN to the igroup, which enables the specified host to access the LUN.
+summary: "You use the Create LUN wizard to create a LUN. The wizard also creates the igroup and maps the LUN to the igroup, which enables the specified host to access the LUN."
 ---
-= Creating a LUN
+= Create a LUN
 :icons: font
 :imagesdir: ../media/
 

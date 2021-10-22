@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: storage, virutal, machine, svm, fc, target, host, access, lun, logical, lif, function, user, cluster, create a new svm
 summary: "The storage virtual machine provides the FC target through which a host accesses LUNs."
 ---
-= Creating a new SVM
+= Create a new SVM
 :icons: font
 :imagesdir: ../media/
 

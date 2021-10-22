@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: data, center, create, cluster, online, help, system, manager
 summary: "You can use ONTAP System Manager to create and set up a cluster in your data center."
 ---
-= Creating a cluster
+= Create a cluster
 :icons: font
 :imagesdir: ../media/
 

@@ -2,7 +2,7 @@
 permalink: iscsi-config-rhel/task_starting_iscsi_service.html
 sidebar: sidebar
 keywords: iscsi, configuration, file, service, host, discover, target, access, lun, run, start the iscsi service
-summary: After you edit the iSCSI configuration file, you must start the iSCSI service so that the host can discover the targets and access LUNs. If the iSCSI service is running, you must restart it.
+summary: "After you edit the iSCSI configuration file, you must start the iSCSI service so that the host can discover the targets and access LUNs. If the iSCSI service is running, you must restart it."
 ---
 = Start the iSCSI service
 :icons: font
@@ -15,6 +15,7 @@ After you edit the iSCSI configuration file, you must start the iSCSI service so
 
 . Start the iSCSI service at the Linux host command prompt:
 +
+[options="header"]
 |===
 | If you are using...| Enter...
 a|

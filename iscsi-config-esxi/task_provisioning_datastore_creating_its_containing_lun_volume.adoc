@@ -2,7 +2,7 @@
 permalink: iscsi-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html
 sidebar: sidebar
 keywords: datastore, contain, virtual, machine, vmdk, esxi, host, provision, lun, storage, cluster, provision a datastore and creating its containing lun and volume
-summary: A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a LUN on the storage cluster.
+summary: "A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a LUN on the storage cluster."
 ---
 = Provision a datastore and creating its containing LUN and volume
 :icons: font

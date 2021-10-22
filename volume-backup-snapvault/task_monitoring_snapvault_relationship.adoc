@@ -32,7 +32,6 @@ For most data transfer failures, the field displays `No`. In some failure cases,
  ** The Lag Time must be not more than the transfer schedule interval.
 +
 For example, if the transfer schedule is daily, then the lag time must not be more than a day.
-
 +
 You should troubleshoot any issues in the SnapVault relationships. The troubleshooting procedures for SnapMirror relationships are also applicable to SnapVault relationships.
 +

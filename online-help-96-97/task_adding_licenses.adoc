@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, add, license, storage, software, online, help
 summary: "If your storage system software was installed at the factory, System Manager automatically adds the software to its list of licenses. If the software was not installed at the factory or if you want to add additional software licenses, you can add the software license by using System Manager."
 ---
-= Adding licenses
+= Add licenses
 :icons: font
 :imagesdir: ../media/
 

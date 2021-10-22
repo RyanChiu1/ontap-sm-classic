@@ -2,7 +2,7 @@
 permalink: nas-multiprotocol-config/task_verifying_nfs_access_from_unix_administration_host.html
 sidebar: sidebar
 keywords: configure, nfs, access, storage, virtual, machine, svm, configuration, administration, host, read, data, verify, verify nfs access from a unix administration host
-summary: After you configure NFS access to storage virtual machine \(SVM\), you should verify the configuration by logging in to an NFS administration host and reading data from and writing data to the SVM.
+summary: "After you configure NFS access to storage virtual machine (SVM), you should verify the configuration by logging in to an NFS administration host and reading data from and writing data to the SVM."
 ---
 = Verify NFS access from a UNIX administration host
 :icons: font
@@ -24,7 +24,6 @@ After you configure NFS access to storage virtual machine (SVM), you should veri
  .. Enter `mkdir /mnt/folder` to create a new folder.
  .. Enter `mount -t nfs -o nfsvers=3,hard IPAddress:/volume_name /mnt/folder` to mount the volume at this new directory.
  .. Enter `cd folder` to change the directory to the new folder.
-
 +
 The following commands create a folder named test1, mount the vol1 volume at the 192.0.2.130 IP address on the test1 mount folder, and change to the new test1 directory:
 +

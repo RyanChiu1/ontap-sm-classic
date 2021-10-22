@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: flexvol, create, volume, online, help
 summary: "You can create a FlexVol volume for your data by using the Create Volume dialog box in System Manager. You must always create a separate volume for your data rather than storing data in the root volume."
 ---
-= Creating FlexVol volumes
+= Create FlexVol volumes
 :icons: font
 :imagesdir: ../media/
 

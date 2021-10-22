@@ -32,7 +32,6 @@ For most SnapMirror data transfer failures, the field displays `No`. In some fai
  ** The Lag Time must be no more than the transfer schedule interval.
 +
 For example, if the transfer schedule is hourly, then the lag time must not be more than an hour.
-
 +
 You should troubleshoot any issues in the SnapMirror relationships.
 +

@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: system, manager, configure, system, manager, option, online, help
 summary: "You can enable logging and specify the inactivity timeout value for System Manager."
 ---
-= Configuring System Manager options
+= Configure System Manager options
 :icons: font
 :imagesdir: ../media/
 

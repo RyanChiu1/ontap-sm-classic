@@ -2,7 +2,7 @@
 permalink: expansion/concept_configuring_node_management_lifs.html
 sidebar: sidebar
 keywords: controller, module, physical, install, power, configure, node-mangement, lif, configure node-management lifs
-summary: After the controller modules are physically installed, you can power on each one and configure its node-management LIF.
+summary: "After the controller modules are physically installed, you can power on each one and configure its node-management LIF."
 ---
 = Configure node-management LIFs
 :icons: font

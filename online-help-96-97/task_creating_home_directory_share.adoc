@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, home, directory, system, manager, online, help
 summary: "You can use System Manager to create a home directory share and to manage home directory search paths."
 ---
-= Creating home directory shares
+= Create home directory shares
 :icons: font
 :imagesdir: ../media/
 

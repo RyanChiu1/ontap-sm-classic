@@ -21,6 +21,8 @@ image::../media/network_for_nfs_eg.gif[Network topology for client configuration
 
 Subnet for LIFs: *__**__***__**_____
 
+[options="header"]
+[options="header"]
 |===
 | Node or LIF with port to switch| IP address| Network mask| Gateway| VLAN ID| Home port
 a|
@@ -125,6 +127,7 @@ a|
 
 If the aggregate and are already created, record their names here; otherwise, you can create them as required:
 
+[options="header"]
 |===
 a|
 Node to own NFS export
@@ -142,6 +145,7 @@ a|
 
 == NFS export information
 
+[options="header"]
 |===
 a|
 Export size
@@ -161,6 +165,7 @@ a|
 
 If you are not using an existing , you require the following information to create a new one:
 
+[options="header"]
 |===
 a|
 name

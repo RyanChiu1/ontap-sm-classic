@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: expand, cluster, configure, service, processor, sp, network, node, manual, network, configuration, automatic, configure the service processor network
 summary: "After you expand a cluster, you must configure the Service Processor network on the new nodes."
 ---
-= Configuring the Service Processor network
+= Configure the Service Processor network
 :icons: font
 :imagesdir: ../media/
 

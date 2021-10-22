@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: create, cifs, chare, system, manager, folder, qtree, volume, online, help
 summary: "You can use System Manager to create a CIFS share that enables you to specify the folder, qtree, or volume that CIFS users can access."
 ---
-= Creating a CIFS share
+= Create a CIFS share
 :icons: font
 :imagesdir: ../media/
 

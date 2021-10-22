@@ -2,7 +2,7 @@
 permalink: fc-config-rhel/task_configuring_dm_multipath.html
 sidebar: sidebar
 keywords: dm-multipath, manage, multiple, path, linux, host, storage, cluster, configuring, configure, lun, linux, scsi, device, access, cluster, path, component, fail, configure dm-multipath
-summary: DM-Multipath manages multiple paths between the Linux host and the storage cluster. Configuring DM-Multipath on a LUN, which appears to the Linux host as a SCSI device, enables your Linux host to access its LUN on the storage cluster if a path or component fails.
+summary: "DM-Multipath manages multiple paths between the Linux host and the storage cluster. Configuring DM-Multipath on a LUN, which appears to the Linux host as a SCSI device, enables your Linux host to access its LUN on the storage cluster if a path or component fails."
 ---
 = Configure DM-Multipath
 :icons: font
@@ -28,11 +28,10 @@ The recommended approach is that you configure two paths per node into each fabr
  .. Determine whether there are non-NetApp SCSI devices to exclude (blacklist).
 +
 These are devices that are not displayed when you enter the `sanlun lun show` command.
-
++
   *** If there are non-NetApp SCSI devices to exclude, enter the worldwide identifier (WWID) for the devices in the blacklist section of the `multipath.conf` file.
 +
 To display the WWID of a non-NetApp SCSI device, enter the following command on the device that you want to exclude, where `SCSI_device_name` is a device that you specify: `/lib/udev/scsi_id -gud /dev/SCSI_device_name`
-
 +
 For example, if `/dev/sda` is the non-NetApp SCSI device that you want to exclude, you would enter the following: `/lib/udev/scsi_id -gud /dev/sda`
 +

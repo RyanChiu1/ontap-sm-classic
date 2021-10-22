@@ -4,7 +4,7 @@ sidebar: sidebar
 keywords: online, help, add, initiator, system, help, group, lun, online, help
 summary: "You can use System Manager to add initiators to an initiator group. An initiator provides access to a LUN when the initiator group that it belongs to is mapped to that LUN."
 ---
-= Adding initiators
+= Add initiators
 :icons: font
 :imagesdir: ../media/
 

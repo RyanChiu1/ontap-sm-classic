@@ -62,7 +62,6 @@ The SVM uses the new LDAP client.
  .. Click the *Services* tab.
  .. Under *Name Service Switch*, specify *LDAP* as the preferred name service switch source for the database types.
  .. Click *Save and Close*.
-
 +
 image::../media/name_services_ldap_priority_nfs.gif[This graphic is described by the surrounding text.]
 +

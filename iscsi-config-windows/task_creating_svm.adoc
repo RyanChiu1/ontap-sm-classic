@@ -2,9 +2,9 @@
 permalink: iscsi-config-windows/task_creating_svm.html
 sidebar: sidebar
 keywords: storage, virtual, machine, svm, iscsi, target, lun, create, logical, interface, lif, volume, administration, function, user, cluster, create a new svm
-summary: The storage virtual machine \(SVM\) provides the iSCSI target through which a host accesses LUNs. When you create the SVM, you also create logical interfaces \(LIFs\) and the LUN and its containing volume. You can create an SVM to separate the data and administration functions of a user from those of the other users in a cluster.
+summary: "The storage virtual machine (SVM) provides the iSCSI target through which a host accesses LUNs. When you create the SVM, you also create logical interfaces (LIFs) and the LUN and its containing volume. You can create an SVM to separate the data and administration functions of a user from those of the other users in a cluster."
 ---
-= Creating a new SVM
+= Create a new SVM
 :icons: font
 :imagesdir: ../media/
 

@@ -2,9 +2,9 @@
 permalink: fc-config-windows/task_discovering_new_disks.html
 sidebar: sidebar
 keywords: lun, storage, virtual, machine, svm, appear, disk, windows, host, automatic, discover, manual, rescan, discover new disk
-summary: LUNs on your storage virtual machine \(SVM\) appear as disks to the Windows host. Any new disks for LUNs you add to your system are not automatically discovered by the host. You must manually rescan disks to discover them.
+summary: "LUNs on your storage virtual machine (SVM) appear as disks to the Windows host. Any new disks for LUNs you add to your system are not automatically discovered by the host. You must manually rescan disks to discover them."
 ---
-= Discovering new disks
+= Discover new disks
 :icons: font
 :imagesdir: ../media/
 
@@ -15,6 +15,7 @@ LUNs on your storage virtual machine (SVM) appear as disks to the Windows host. 
 
 . Open the Windows Computer Management utility:
 +
+[options="header"]
 |===
 | If you are using...| Navigate to...
 a|
