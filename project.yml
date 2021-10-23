@@ -1242,7 +1242,7 @@ sidebar:
                   url: "/online-help-96-97/task_updating_single_node_clusters.html"
                 - title: Updating a cluster nondisruptively
                   url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-                - title: How to update a cluster nondisruptively
+                - title: Update a cluster nondisruptively
                   url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
                 - title: Cluster Update window
                   url: "/online-help-96-97/reference_cluster_update_window.html"
@@ -1405,7 +1405,7 @@ sidebar:
                 url: "/online-help-96-97/task_updating_single_node_clusters.html"
               - title: Updating a cluster nondisruptively
                 url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
-              - title: How to update a cluster nondisruptively
+              - title: Update a cluster nondisruptively
                 url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
               - title: Cluster Update window
                 url: "/online-help-96-97/reference_cluster_update_window.html"
@@ -1661,7 +1661,7 @@ sidebar:
                   url: "/online-help-96-97/task_adding_disks_to_storage_pool.html"
                 - title: Deleting storage pools
                   url: "/online-help-96-97/task_deleting_storage_pools.html"
-                - title: How to use SSD storage pools
+                - title: Use SSD storage pools
                   url: "/online-help-96-97/concept_how_you_use_ssd_storage_pools.html"
                 - title: Requirements and best practices for using SSD storage pools
                   url: "/online-help-96-97/concept_requirements_best_practices_for_using_ssd_storage_pools.html"
@@ -1691,7 +1691,7 @@ sidebar:
                   url: "/online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html"
                 - title: Shelf configuration requirements for multi-disk carrier storage shelves
                   url: "/online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html"
-                - title: How to determine when it is safe to remove a multi-disk carrier
+                - title: Determine when it is safe to remove a multi-disk carrier
                   url: "/online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html"
                 - title: Considerations for sizing RAID groups
                   url: "/online-help-96-97/concept_considerations_for_sizing_raid_groups.html"
@@ -1858,7 +1858,7 @@ sidebar:
                 url: "/online-help-96-97/task_adding_disks_to_storage_pool.html"
               - title: Deleting storage pools
                 url: "/online-help-96-97/task_deleting_storage_pools.html"
-              - title: How to use SSD storage pools
+              - title: Use SSD storage pools
                 url: "/online-help-96-97/concept_how_you_use_ssd_storage_pools.html"
               - title: Requirements and best practices for using SSD storage pools
                 url: "/online-help-96-97/concept_requirements_best_practices_for_using_ssd_storage_pools.html"
@@ -1888,7 +1888,7 @@ sidebar:
                 url: "/online-help-96-97/concept_spare_requirements_for_multi_disk_carrier_disk_shelves.html"
               - title: Shelf configuration requirements for multi-disk carrier storage shelves
                 url: "/online-help-96-97/concept_shelf_configuration_requirements_for_multi_disk_carrier_disk_shelves.html"
-              - title: How to determine when it is safe to remove a multi-disk carrier
+              - title: Determine when it is safe to remove a multi-disk carrier
                 url: "/online-help-96-97/concept_how_to_determine_when_safe_to_remove_multi_disk_carrier.html"
               - title: Considerations for sizing RAID groups
                 url: "/online-help-96-97/concept_considerations_for_sizing_raid_groups.html"
