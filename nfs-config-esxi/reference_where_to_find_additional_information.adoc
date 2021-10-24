@@ -2,18 +2,18 @@
 permalink: nfs-config-esxi/reference_where_to_find_additional_information.html
 sidebar: sidebar
 keywords: successful, test, nfs, client, access, configuration, san, protocol, complete, protect, root, volume, comprehensive, guide, technical, report, goal, where to find additional information
-summary: "After you have successfully tested NFS client access, you can perform additional NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of the . There are express guides, comprehensive guides, and technical reports to help you achieve these goals."
+summary: "After you have successfully tested NFS client access, you can perform additional NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of the . There is comprehensive content and technical reports to help you achieve these goals."
 ---
 = Where to find additional information
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-After you have successfully tested NFS client access, you can perform additional NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of the . There are express guides, comprehensive guides, and technical reports to help you achieve these goals.
+After you have successfully tested NFS client access, you can perform additional NFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of the . There is comprehensive content and technical reports to help you achieve these goals.
 
 == NFS configuration
 
-You can further configure NFS access using the following comprehensive guides and technical reports:
+You can further configure NFS access using the following content and technical reports:
 
 * https://docs.netapp.com/us-en/ontap/nfs-config/index.html[NFS configuration]
 +

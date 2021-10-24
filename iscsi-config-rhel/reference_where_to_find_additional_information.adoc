@@ -1,15 +1,15 @@
 ---
 permalink: iscsi-config-rhel/reference_where_to_find_additional_information.html
 sidebar: sidebar
-keywords: test, iscsi, perform, advance, configuration, san, nas, protocol, express, guide, comprehensive, guide, technical, goal, where to find additional information
-summary: "After you have successfully tested iSCSI , you can perform advanced iSCSI configuration or add SAN or NAS protocols. There are express guides, comprehensive guides, and technical reports to help you achieve these goals."
+keywords: test, iscsi, perform, advance, configuration, san, nas, protocol, comprehensive, technical, goal, where to find additional information
+summary: "After you have successfully tested iSCSI , you can perform advanced iSCSI configuration or add SAN or NAS protocols. There is comprehensive content, and technical reports to help you achieve these goals."
 ---
 = Where to find additional information
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-After you have successfully tested iSCSI , you can perform advanced iSCSI configuration or add SAN or NAS protocols. There are express guides, comprehensive guides, and technical reports to help you achieve these goals.
+After you have successfully tested iSCSI , you can perform advanced iSCSI configuration or add SAN or NAS protocols. There is comprehensive content and technical reports to help you achieve these goals.
 
 == SAN configuration
 
@@ -34,9 +34,3 @@ Describes the current best practices for Red Hat virtualized environments.
 * Red Hat Enterprise Linux 6 documentation and man pages
 +
 Provides instructions for managing storage devices, file systems, and Linux commands.
-
-== Additional protocol configuration
-
-If you want to provide additional SAN or NAS access to the SVM, you can use any of the protocol configuration express guides.
-
-https://docs.netapp.com/ontap-9/index.jsp[ONTAP 9 Documentation Center]

@@ -2,18 +2,18 @@
 permalink: smb-config/reference_where_to_find_additional_information.html
 sidebar: sidebar
 keywords: successful, test, cifs, client, access, advance, configuration, san, access, protocol, complete, root, volume, svm, comprehensive, guide, technical, report, achieve, goal, where to find additional information
-summary: "After you have successfully tested CIFS client access, you can perform advanced CIFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of SVM. There are express guides, comprehensive guides, and technical reports to help you achieve these goals."
+summary: "After you have successfully tested CIFS client access, you can perform advanced CIFS configuration or add SAN access. When protocol access is complete, you should protect the root volume of SVM. There is comprehensive content and technical reports to help you achieve these goals."
 ---
 = Where to find additional information
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-After you have successfully tested CIFS client access, you can perform advanced CIFS configuration or add SAN access.When protocol access is complete, you should protect the root volume of SVM. There are express guides, comprehensive guides, and technical reports to help you achieve these goals.
+After you have successfully tested CIFS client access, you can perform advanced CIFS configuration or add SAN access.When protocol access is complete, you should protect the root volume of SVM. There is comprehensive content and technical reports to help you achieve these goals.
 
 == CIFS/SMB configuration
 
-You can further configure CIFS access using the following comprehensive guides and technical reports:
+You can further configure CIFS access using the following content and technical reports:
 
 * https://docs.netapp.com/us-en/ontap/smb-admin/index.html[CIFS management]
 +

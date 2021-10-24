@@ -2,30 +2,27 @@
 permalink: peering/reference_where_to_find_additional_information.html
 sidebar: sidebar
 keywords: successful, create, cluster, peer, relationship, protect, availability, data, express, guide, configure, protection, configuration, where to find additional information
-summary: "After you successfully create a cluster peering relationship, you are ready to protect the availability of your data. There are express guides to help you configure data protection, as well as additional guides to do advanced configuration of cluster peering."
+summary: "After you successfully create a cluster peering relationship, you are ready to protect the availability of your data."
 ---
 = Where to find additional information
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-After you successfully create a cluster peering relationship, you are ready to protect the availability of your data. There are express guides to help you configure data protection, as well as additional guides to do advanced configuration of cluster peering.
+After you successfully create a cluster peering relationship, you are ready to protect the availability of your data.
 
-== Express guides
+You can protect your data by using the following content:
 
-You can protect your data by using the following express guides:
-
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-sm-ic-cg/home.html[Volume disaster recovery express preparation]
+* link:/../volume-disaster-recovery/index.html/index.html[Volume disaster recovery express preparation]
 +
 Describes how to quickly configure and monitor the SnapMirror relationships between volumes in different clusters.
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault/home.html[Volume express backup using SnapVault]
+* link:/../volume-backup-snapvault/index.html[Volume backup using SnapVault]
 +
 Describes how to quickly configure an intercluster SnapVault relationship.
 
-== Other guides
 
-More information is available in the following guides:
+More information is available in the following content:
 
 * https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
 +

@@ -11,8 +11,6 @@ summary: "Additional information is available to help you to manage the volume-l
 [.lead]
 Additional information is available to help you to manage the volume-level disaster recovery relationships and provides other methods of disaster recovery to protect the availability of your data resources.
 
-== Express guides
-
 * https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault/home.html[Volume express backup using SnapVault]
 +
 Describes how to quickly configure backup vault relationships between volumes that are located in different ONTAP clusters.
@@ -21,13 +19,9 @@ Describes how to quickly configure backup vault relationships between volumes th
 +
 Describes how to quickly restore a volume from a backup vault in ONTAP.
 
-== Power guide
-
 * https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
 +
 Describes how to prevent data loss using Snapshot copies and SnapMirror replication to a remote system
-
-== Comprehensive guides
 
 * http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices Guide for ONTAP 9.1, 9.2]
 +
