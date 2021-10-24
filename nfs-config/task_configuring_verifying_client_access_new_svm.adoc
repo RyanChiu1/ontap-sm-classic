@@ -25,5 +25,6 @@ When you are ready, you can give select clients access to the share by setting U
  .. Specify the access details that you want, and click *OK.*
 +
 You can give full read/write access to clients by typing the subnet `10.1.1.0/24` as the *Client Specification*, and selecting all the access check boxes except *Allow Superuser Access*.
-++mage::../media/export_rule_for_clients_nfs_nfs.gif[This screenshot is described by the preceding text.]
++
+image::../media/export_rule_for_clients_nfs_nfs.gif[This screenshot is described by the preceding text.]
 . On a UNIX client, log in as one of the users who now has access to the volume, and verify that you can mount the volume and create a file.
