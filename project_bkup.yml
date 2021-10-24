@@ -1,0 +1,87 @@
+homepage:
+  tiles:
+    - title: Get started
+      links:
+        - title: Understanding System Manager Classic
+          url: "/online-help-96-97/index.html"
+
+    - title: Provision NAS storage
+      links:
+        - title: NFS configuration
+          url: "/nfs-config/index.html"
+        - title: NFS configuration for ESXi using VSC
+          url:  "/nfs-config-esxi/index.html"
+        - title: SMB and NFS mulitprotocol configuration
+          url: "/nas-multiprotocol-config/index.html"
+        - title: SMB configuration
+          url: "/smb-config/index.html"
+    - title: Provision SAN storage
+      links:
+        - title: FC configruation for ESXi using VSC
+          url: "/fc-config-esxi/index.html"
+        - title: FC configuration for Red Hat Enterprise Linux
+          url: "/fc-config-rhel/index.html"
+        - title: FC configuration for Windows
+          url: "/fc-config-windows/index.html"
+        - title: iSCSI configuration for ESXi using VSC
+          url: "/iscsi-config-esxi/index.html"
+        - title: iSCSI configuration for Red Hat Enterprise Linux
+          url: "/iscsi-config-rhel/index.html"
+        - title: iSCSi configuration for Windows
+          url: "/iscsi-config-windows/index.html"
+    - title: Data protection and disaster recovery
+      links:
+        - title: Cluster and SVM peering configuration
+          url: "/peering/index.html"
+        - title: Volume disaster recovery
+          url: "/volume-disaster-recovery/index.html"
+        - title: Volume disaster recovery preparation
+          url: "/volume-disaster-prep/index.html"
+        - title: Volume backup SnapVault
+          url: "/volume-backup-snapvault/index.html"
+        - title: Volume restore management using SnapVault
+          url: "/volume-restore-snapvault/index.html"
+    - title: Cluster administration
+      links:
+        - title: Cluster expansion configuration
+          url: "/expansion/index.html"
+        - title: Volume move management
+          url: "/volume-move/index.html"
+        - title: SNMP configuration
+          url: "/snmp-config/index.html"
+        - title: Cluster management using System Manger 9.6 and 9.7
+          url: "/online-help-96-97/index.html"
+    - title: More resources
+      links:
+        - title: ONTAP 9 documentation
+          url:  "https://docs.netapp.com/us-en/ontap/"
+        - title: Automation and REST API docs
+          url:  "https://docs.netapp.com/us-en/ontap-automation/index.html"
+
+sidebar:
+  entries:
+    - title: ONTAP docs
+      url: /index.html
+    - title: Provision NAS storage
+     - section: nfs-config
+      - section: nfs-config-exsi
+      - section: nas-multiprotocol-config
+      - section: smb-config
+    - title: Provision SAN storage
+      - section: fc-config-esxi
+      - section: fc-config-rhel
+      - section: fc-config-windows
+      - section: iscsi-config-esxi
+      - section: iscsi-config-rhel
+      - section: iscsi-config-windows
+    - title: Data protection and disaster recovery
+      - section: section: peering
+      - section: section: volume-disaster-recovery
+      - section: volume-disaster-prep
+      - section: volume-backup-snapvault
+      - section: volume-restore-snapvault
+    - title:  Cluster administration
+     - section: expansion
+     - section: volume-move
+     - section: snmp-config
+   - section: online-help-96-97

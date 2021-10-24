@@ -1,60 +1,62 @@
 section: expansion
-title: Cluster expansion configuration
+title: Cluster administration
 entries:
-    - title: Overview
-      url: "/expansion/index.html"
-    - title: Cluster expansion workflow
-      url: "/expansion/concept_cluster_expansion_workflow.html"
-      entries:
-      - title: Verifying the cluster is ready for expansion
-        url: "/expansion/task_verifying_cluster_is_ready_for_expansion.html"
+      - title: Cluster expansion administration
         entries:
-        - title: Verifying the planned configuration
-          url: "/expansion/task_verifying_planned_configuration.html"
-        - title: Gathering the required network information
-          url: "/expansion/task_gathering_required_information.html"
-        - title: Adding or replacing switches
-          url: "/expansion/task_adding_or_replacing_switches.html"
-      - title: Preparing the cluster for expansion
-        url: "/expansion/task_preparing_cluster_for_expansion.html"
-        entries:
-        - title: Adding node-locked licenses
-          url: "/expansion/task_adding_node_locked_licenses.html"
-        - title: Verifying the health of the system
-          url: "/expansion/task_verifying_health_system.html"
-        - title: Backing up the cluster configuration
-          url: "/expansion/task_backing_up_cluster_configuration.html"
-        - title: Generating an AutoSupport message about starting expansion
-          url: "/expansion/task_generating_autosupport_message_about_starting_expansion.html"
-      - title: Installing the new nodes
-        url: "/expansion/task_installing_new_nodes.html"
-        entries:
-        - title: Installing the controllers
-          url: "/expansion/task_installing_controllers.html"
-        - title: Configuring node-management LIFs
-          url: "/expansion/concept_configuring_node_management_lifs.html"
-        - title: Upgrading or downgrading the nodes
-          url: "/expansion/task_upgrading_or_downgrading_nodes.html"
-        - title: Ensuring hardware-level HA is enabled
-          url: "/expansion/task_ensuring_hardware_level_ha_is_enabled.html"
-        - title: Adding nodes to a cluster using System Manager
-          url: "/expansion/task_adding_nodes_to_cluster_using_system_manager.html"
-        - title: Joining nodes to the cluster using the CLI
-          url: "/expansion/concept_joining_nodes_to_cluster_using_cli.html"
-      - title: Completing the expansion
-        url: "/expansion/task_completing_expansion.html"
-        entries:
-        - title: Configuring the node details in System Manager
-          url: "/expansion/task_configuring_node_details_system_manager.html"
-        - title: Configuring AutoSupport on the new nodes
-          url: "/expansion/task_configuring_autosupport_on_new_nodes_using_cli.html"
-        - title: Configuring the Service Processor network
-          url: "/expansion/task_configuring_service_processor_network_cli.html"
-        - title: Validating the configuration of the expanded cluster
-          url: "/expansion/task_validating_configuration_expanded_cluster.html"
-        - title: Generating an AutoSupport message about completing expansion
-          url: "/expansion/task_generating_autosupport_message_about_completing_expansion.html"
-        - title: Updating LUN paths for the new nodes
-          url: "/expansion/task_updating_lun_paths_for_new_nodes.html"
-    - title: Where to find additional information
-      url: "/expansion/reference_where_to_find_additional_information.html"
+            - title: Overview
+              url: "/expansion/index.html"
+            - title: Cluster expansion workflow
+              url: "/expansion/concept_cluster_expansion_workflow.html"
+              entries:
+              - title: Verifying the cluster is ready for expansion
+                url: "/expansion/task_verifying_cluster_is_ready_for_expansion.html"
+                entries:
+                - title: Verifying the planned configuration
+                  url: "/expansion/task_verifying_planned_configuration.html"
+                - title: Gathering the required network information
+                  url: "/expansion/task_gathering_required_information.html"
+                - title: Adding or replacing switches
+                  url: "/expansion/task_adding_or_replacing_switches.html"
+              - title: Preparing the cluster for expansion
+                url: "/expansion/task_preparing_cluster_for_expansion.html"
+                entries:
+                - title: Adding node-locked licenses
+                  url: "/expansion/task_adding_node_locked_licenses.html"
+                - title: Verifying the health of the system
+                  url: "/expansion/task_verifying_health_system.html"
+                - title: Backing up the cluster configuration
+                  url: "/expansion/task_backing_up_cluster_configuration.html"
+                - title: Generating an AutoSupport message about starting expansion
+                  url: "/expansion/task_generating_autosupport_message_about_starting_expansion.html"
+              - title: Installing the new nodes
+                url: "/expansion/task_installing_new_nodes.html"
+                entries:
+                - title: Installing the controllers
+                  url: "/expansion/task_installing_controllers.html"
+                - title: Configuring node-management LIFs
+                  url: "/expansion/concept_configuring_node_management_lifs.html"
+                - title: Upgrading or downgrading the nodes
+                  url: "/expansion/task_upgrading_or_downgrading_nodes.html"
+                - title: Ensuring hardware-level HA is enabled
+                  url: "/expansion/task_ensuring_hardware_level_ha_is_enabled.html"
+                - title: Adding nodes to a cluster using System Manager
+                  url: "/expansion/task_adding_nodes_to_cluster_using_system_manager.html"
+                - title: Joining nodes to the cluster using the CLI
+                  url: "/expansion/concept_joining_nodes_to_cluster_using_cli.html"
+              - title: Completing the expansion
+                url: "/expansion/task_completing_expansion.html"
+                entries:
+                - title: Configuring the node details in System Manager
+                  url: "/expansion/task_configuring_node_details_system_manager.html"
+                - title: Configuring AutoSupport on the new nodes
+                  url: "/expansion/task_configuring_autosupport_on_new_nodes_using_cli.html"
+                - title: Configuring the Service Processor network
+                  url: "/expansion/task_configuring_service_processor_network_cli.html"
+                - title: Validating the configuration of the expanded cluster
+                  url: "/expansion/task_validating_configuration_expanded_cluster.html"
+                - title: Generating an AutoSupport message about completing expansion
+                  url: "/expansion/task_generating_autosupport_message_about_completing_expansion.html"
+                - title: Updating LUN paths for the new nodes
+                  url: "/expansion/task_updating_lun_paths_for_new_nodes.html"
+            - title: Where to find additional information
+              url: "/expansion/reference_where_to_find_additional_information.html"
