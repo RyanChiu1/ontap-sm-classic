@@ -6,34 +6,34 @@ entries:
     - title: FC configuration workflow
       url: "/fc-config-esxi/concept_fc_configuration_workflow.html"
       entries:
-      - title: Verifying that the FC configuration is supported
+      - title: Verify that the FC configuration is supported
         url: "/fc-config-esxi/task_verifying_that_iscsi_fc_configuration_is_supported.html"
-      - title: Completing the FC configuration worksheet
+      - title: Complete the FC configuration worksheet
         url: "/fc-config-esxi/reference_completing_iscsi_configuration_worksheet.html"
-      - title: Installing Virtual Storage Console
+      - title: Install Virtual Storage Console
         url: "/fc-config-esxi/task_installing_virtual_storage_console_for_vmware_vsphere.html"
-      - title: Adding the storage cluster or SVM to VSC for VMware vSphere
+      - title: Add the storage cluster or SVM to VSC for VMware vSphere
         url: "/fc-config-esxi/task_adding_storage_cluster_to_virtual_storage_cluster.html"
-      - title: Updating the HBA driver, firmware, and BIOS
+      - title: Update the HBA driver, firmware, and BIOS
         url: "/fc-config-esxi/task_updating_hba_firmware.html"
-      - title: Configuring the ESXi host best practice settings
+      - title: Configure the ESXi host best practice settings
         url: "/fc-config-esxi/task_configuring_esxi_host_best_practice_settings.html"
-      - title: Creating an aggregate
+      - title: Create an aggregate
         url: "/fc-config-esxi/task_creating_aggregate.html"
-      - title: Deciding where to provision the volume
+      - title: Decide where to provision the volume
         url: "/fc-config-esxi/task_deciding_where_to_provision_volume.html"
         entries:
-        - title: Verifying that the FC service is running on an existing SVM
+        - title: Verify that the FC service is running on an existing SVM
           url: "/fc-config-esxi/task_verifying_that_fc_service_is_running_on_existing_svm.html"
-        - title: Configuring FC on an existing SVM
+        - title: Configure FC on an existing SVM
           url: "/fc-config-esxi/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html"
-        - title: Creating a new SVM
+        - title: Create a new SVM
           url: "/fc-config-esxi/task_creating_svm.html"
-      - title: Zoning the FC switches by the host and LIF WWPNs
+      - title: Zone the FC switches by the host and LIF WWPNs
         url: "/fc-config-esxi/task_zoning_fc_switches_by_host_lif_wwpns.html"
-      - title: Provisioning a datastore and creating its containing LUN and volume
+      - title: Provision a datastore and create its containing LUN and volume
         url: "/fc-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html"
-      - title: Verifying that the host can write to and read from the LUN
+      - title: Verify that the host can write to and read from the LUN
         url: "/fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html"
     - title: Where to find additional information
       url: "/fc-config-esxi/reference_where_to_find_additional_information.html"
