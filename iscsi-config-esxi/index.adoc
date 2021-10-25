@@ -16,9 +16,6 @@ This content is based on the following assumptions:
 * You want to use best practices, not explore every available option.
 * You do not want to read a lot of conceptual background.
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
-+
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.onc-sm-help/GUID-DF04A607-30B0-4B98-99C8-CB065C64E670.html[ONTAP 9 Cluster Management Using OnCommand System Manager]
-
 * You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
