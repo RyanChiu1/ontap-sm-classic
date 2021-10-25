@@ -1,7 +1,7 @@
 section: online-help-96-97
 title: Cluster management using System Manager 9.6 and 9.7
 entries:
-    - title: Understanding System Manager
+    - title: Understand System Manager
       url: "/online-help-96-97/index.html"
     - title: Icons used in the application interface
       url: "/online-help-96-97/reference_icons_used_application_interface.html"
@@ -11,99 +11,99 @@ entries:
       url: "/online-help-96-97/reference_window_layout_customization.html"
     - title: ONTAP System Manager enhancements
       url: "/online-help-96-97/concept_system_manager_enhancements.html"
-    - title: Setting up your cluster environment
+    - title: Set up your cluster environment
       url: "/online-help-96-97/concept_setting_up_your_cluster_environment.html"
       entries:
-      - title: Setting up the cluster by using ONTAP System Manager
+      - title: Set up the cluster by using ONTAP System Manager
         url: "/online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html"
         entries:
-        - title: Setting up a cluster by using the template file
+        - title: Set up a cluster by using the template file
           url: "/online-help-96-97/task_setting_up_cluster_using_template_file.html"
-        - title: Setting up the cluster manually
+        - title: Set up the cluster manually
           url: "/online-help-96-97/concept_setting_up_cluster_manually.html"
           entries:
-          - title: Creating a cluster
+          - title: Create a cluster
             url: "/online-help-96-97/task_creating_cluster.html"
-          - title: Setting up a network
+          - title: Set up a network
             url: "/online-help-96-97/task_setting_up_network.html"
             entries:
-            - title: Setting up a network when an IP address range is enabled
+            - title: Set up a network when an IP address range is enabled
               url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_enabled.html"
-            - title: Setting up a network when an IP address range is disabled
+            - title: Set up a network when an IP address range is disabled
               url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html"
-          - title: Setting up a support page
+          - title: Set up a support page
             url: "/online-help-96-97/task_setting_up_support_page.html"
-          - title: Reviewing storage recommendations
+          - title: Review storage recommendations
             url: "/online-help-96-97/task_reviewing_storage_recommendations.html"
-          - title: Creating an SVM
+          - title: Create an SVM
             url: "/online-help-96-97/task_creating_svm.html"
-      - title: Setting up the cluster manually
+      - title: Set up the cluster manually
         url: "/online-help-96-97/concept_setting_up_cluster_manually.html"
         entries:
-        - title: Creating a cluster
+        - title: Create a cluster
           url: "/online-help-96-97/task_creating_cluster.html"
-        - title: Setting up a network
+        - title: Set up a network
           url: "/online-help-96-97/task_setting_up_network.html"
           entries:
-          - title: Setting up a network when an IP address range is enabled
+          - title: Set up a network when an IP address range is enabled
             url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_enabled.html"
-          - title: Setting up a network when an IP address range is disabled
+          - title: Set up a network when an IP address range is disabled
             url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html"
-        - title: Setting up a support page
+        - title: Set up a support page
           url: "/online-help-96-97/task_setting_up_support_page.html"
-        - title: Reviewing storage recommendations
+        - title: Review storage recommendations
           url: "/online-help-96-97/task_reviewing_storage_recommendations.html"
-        - title: Creating an SVM
+        - title: Create an SVM
           url: "/online-help-96-97/task_creating_svm.html"
-      - title: Accessing a cluster by using the ONTAP System Manager browser-based graphic
+      - title: Access a cluster by using the ONTAP System Manager browser-based graphic
           interface
         url: "/online-help-96-97/task_accessing_cluster_using_system_manager.html"
-      - title: Configuring System Manager options
+      - title: Configure System Manager options
         url: "/online-help-96-97/task_configuring_system_manager_options.html"
-      - title: Viewing ONTAP System Manager log files
+      - title: View ONTAP System Manager log files
         url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
         entries:
         - title: How system logging works
           url: "/online-help-96-97/concept_how_system_logging_works.html"
-      - title: Configuring a cluster by using System Manager
+      - title: Configure a cluster by using System Manager
         url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
         entries:
-        - title: Accessing a cluster by using the ONTAP System Manager browser-based
+        - title: Access a cluster by using the ONTAP System Manager browser-based
             graphic interface
           url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
-        - title: Setting up the cluster
+        - title: Set up the cluster
           url: "/online-help-96-97/concept_setting_up_cluster.html"
           entries:
-          - title: Updating the cluster name
+          - title: Update the cluster name
             url: "/online-help-96-97/task_updating_cluster_name.html"
-          - title: Changing the cluster password
+          - title: Change the cluster password
             url: "/online-help-96-97/task_changing_password.html"
-          - title: Editing DNS configurations
+          - title: Edit DNS configurations
             url: "/online-help-96-97/task_editing_dns_configurations.html"
-          - title: Creating a cluster management logical interface
+          - title: Create a cluster management logical interface
             url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-          - title: Editing the node name
+          - title: Edit the node name
             url: "/online-help-96-97/task_editing_node_name.html"
-          - title: Creating a node management logical interface
+          - title: Create a node management logical interface
             url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-          - title: Editing AutoSupport settings
+          - title: Edit AutoSupport settings
             url: "/online-help-96-97/task_editing_autosupport_settings.html"
-          - title: Adding licenses
+          - title: Add licenses
             url: "/online-help-96-97/task_adding_licenses.html"
           - title: Setting the time zone for a cluster
             url: "/online-help-96-97/task_setting_time_zone_for_cluster.html"
-          - title: Monitoring HA pairs
+          - title: Monitor HA pairs
             url: "/online-help-96-97/task_monitoring_ha_pairs.html"
-        - title: Setting up the network
+        - title: Set up the network
           url: "/online-help-96-97/concept_setting_up_network.html"
           entries:
-          - title: Creating IPspaces
+          - title: Create IPspaces
             url: "/online-help-96-97/task_creating_ipspaces.html"
-          - title: Creating broadcast domains
+          - title: Create broadcast domains
             url: "/online-help-96-97/task_creating_broadcast_domains.html"
-          - title: Creating subnets
+          - title: Create subnets
             url: "/online-help-96-97/task_creating_subnets.html"
-        - title: Setting up physical storage
+        - title: Set up physical storage
           url: "/online-help-96-97/concept_setting_up_physical_storage.html"
           entries:
           - title: Assigning disks to nodes
@@ -125,59 +125,59 @@ entries:
             - title: Provisioning storage by creating a FabricPool-enabled aggregate
                 manually
               url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
-        - title: Setting up logical storage
+        - title: Set up logical storage
           url: "/online-help-96-97/concept_setting_up_logical_storage.html"
           entries:
-          - title: Creating SVMs
+          - title: Create SVMs
             url: "/online-help-96-97/task_creating_svms.html"
             entries:
-            - title: Configuring CIFS and NFS protocols on SVMs
+            - title: Configure CIFS and NFS protocols on SVMs
               url: "/online-help-96-97/task_configuring_cifs_nfs_protocols_on_svms.html"
-            - title: Configuring iSCSI protocol on SVMs
+            - title: Configure iSCSI protocol on SVMs
               url: "/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html"
-            - title: Configuring FC protocol and FCoE protocol on SVMs
+            - title: Configure FC protocol and FCoE protocol on SVMs
               url: "/online-help-96-97/task_configuring_fc_fcoe_protocol_on_svms.html"
-            - title: Configuring NVMe protocol on SVMs
+            - title: Configure NVMe protocol on SVMs
               url: "/online-help-96-97/task_configuring_nvme_protocol_on_svms.html"
             - title: Delegating administration to SVM administrators
               url: "/online-help-96-97/task_delegating_administration_to_svm_administrators.html"
-          - title: Creating FlexVol volumes
+          - title: Create FlexVol volumes
             url: "/online-help-96-97/task_creating_flexvol_volumes.html"
-          - title: Creating SnapLock volumes
+          - title: Create SnapLock volumes
             url: "/online-help-96-97/task_creating_snaplock_volumes.html"
-      - title: Setting up the cluster
+      - title: Set up the cluster
         url: "/online-help-96-97/concept_setting_up_cluster.html"
         entries:
-        - title: Updating the cluster name
+        - title: Update the cluster name
           url: "/online-help-96-97/task_updating_cluster_name.html"
-        - title: Changing the cluster password
+        - title: Change the cluster password
           url: "/online-help-96-97/task_changing_password.html"
-        - title: Editing DNS configurations
+        - title: Edit DNS configurations
           url: "/online-help-96-97/task_editing_dns_configurations.html"
-        - title: Creating a cluster management logical interface
+        - title: Create a cluster management logical interface
           url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-        - title: Editing the node name
+        - title: Edit the node name
           url: "/online-help-96-97/task_editing_node_name.html"
-        - title: Creating a node management logical interface
+        - title: Create a node management logical interface
           url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-        - title: Editing AutoSupport settings
+        - title: Edit AutoSupport settings
           url: "/online-help-96-97/task_editing_autosupport_settings.html"
-        - title: Adding licenses
+        - title: Add licenses
           url: "/online-help-96-97/task_adding_licenses.html"
         - title: Setting the time zone for a cluster
           url: "/online-help-96-97/task_setting_time_zone_for_cluster.html"
-        - title: Monitoring HA pairs
+        - title: Monitor HA pairs
           url: "/online-help-96-97/task_monitoring_ha_pairs.html"
-      - title: Setting up the network
+      - title: Set up the network
         url: "/online-help-96-97/concept_setting_up_network.html"
         entries:
-        - title: Creating IPspaces
+        - title: Create IPspaces
           url: "/online-help-96-97/task_creating_ipspaces.html"
-        - title: Creating broadcast domains
+        - title: Create broadcast domains
           url: "/online-help-96-97/task_creating_broadcast_domains.html"
-        - title: Creating subnets
+        - title: Create subnets
           url: "/online-help-96-97/task_creating_subnets.html"
-      - title: Setting up physical storage
+      - title: Set up physical storage
         url: "/online-help-96-97/concept_setting_up_physical_storage.html"
         entries:
         - title: Assigning disks to nodes
@@ -197,116 +197,116 @@ entries:
             url: "/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html"
           - title: Provisioning storage by creating a FabricPool-enabled aggregate manually
             url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
-      - title: Setting up logical storage
+      - title: Set up logical storage
         url: "/online-help-96-97/concept_setting_up_logical_storage.html"
         entries:
-        - title: Creating SVMs
+        - title: Create SVMs
           url: "/online-help-96-97/task_creating_svms.html"
           entries:
-          - title: Configuring CIFS and NFS protocols on SVMs
+          - title: Configure CIFS and NFS protocols on SVMs
             url: "/online-help-96-97/task_configuring_cifs_nfs_protocols_on_svms.html"
-          - title: Configuring iSCSI protocol on SVMs
+          - title: Configure iSCSI protocol on SVMs
             url: "/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html"
-          - title: Configuring FC protocol and FCoE protocol on SVMs
+          - title: Configure FC protocol and FCoE protocol on SVMs
             url: "/online-help-96-97/task_configuring_fc_fcoe_protocol_on_svms.html"
-          - title: Configuring NVMe protocol on SVMs
+          - title: Configure NVMe protocol on SVMs
             url: "/online-help-96-97/task_configuring_nvme_protocol_on_svms.html"
           - title: Delegating administration to SVM administrators
             url: "/online-help-96-97/task_delegating_administration_to_svm_administrators.html"
-        - title: Creating FlexVol volumes
+        - title: Create FlexVol volumes
           url: "/online-help-96-97/task_creating_flexvol_volumes.html"
-        - title: Creating SnapLock volumes
+        - title: Create SnapLock volumes
           url: "/online-help-96-97/task_creating_snaplock_volumes.html"
-    - title: Setting up the cluster by using ONTAP System Manager
+    - title: Set up the cluster by using ONTAP System Manager
       url: "/online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html"
       entries:
-      - title: Setting up a cluster by using the template file
+      - title: Set up a cluster by using the template file
         url: "/online-help-96-97/task_setting_up_cluster_using_template_file.html"
-      - title: Setting up the cluster manually
+      - title: Set up the cluster manually
         url: "/online-help-96-97/concept_setting_up_cluster_manually.html"
         entries:
-        - title: Creating a cluster
+        - title: Create a cluster
           url: "/online-help-96-97/task_creating_cluster.html"
-        - title: Setting up a network
+        - title: Set up a network
           url: "/online-help-96-97/task_setting_up_network.html"
           entries:
-          - title: Setting up a network when an IP address range is enabled
+          - title: Set up a network when an IP address range is enabled
             url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_enabled.html"
-          - title: Setting up a network when an IP address range is disabled
+          - title: Set up a network when an IP address range is disabled
             url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html"
-        - title: Setting up a support page
+        - title: Set up a support page
           url: "/online-help-96-97/task_setting_up_support_page.html"
-        - title: Reviewing storage recommendations
+        - title: Review storage recommendations
           url: "/online-help-96-97/task_reviewing_storage_recommendations.html"
-        - title: Creating an SVM
+        - title: Create an SVM
           url: "/online-help-96-97/task_creating_svm.html"
-    - title: Setting up the cluster manually
+    - title: Set up the cluster manually
       url: "/online-help-96-97/concept_setting_up_cluster_manually.html"
       entries:
-      - title: Creating a cluster
+      - title: Create a cluster
         url: "/online-help-96-97/task_creating_cluster.html"
-      - title: Setting up a network
+      - title: Set up a network
         url: "/online-help-96-97/task_setting_up_network.html"
         entries:
-        - title: Setting up a network when an IP address range is enabled
+        - title: Set up a network when an IP address range is enabled
           url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_enabled.html"
-        - title: Setting up a network when an IP address range is disabled
+        - title: Set up a network when an IP address range is disabled
           url: "/online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html"
-      - title: Setting up a support page
+      - title: Set up a support page
         url: "/online-help-96-97/task_setting_up_support_page.html"
-      - title: Reviewing storage recommendations
+      - title: Review storage recommendations
         url: "/online-help-96-97/task_reviewing_storage_recommendations.html"
-      - title: Creating an SVM
+      - title: Create an SVM
         url: "/online-help-96-97/task_creating_svm.html"
-    - title: Accessing a cluster by using the ONTAP System Manager browser-based graphic
+    - title: Access a cluster by using the ONTAP System Manager browser-based graphic
         interface
       url: "/online-help-96-97/task_accessing_cluster_using_system_manager.html"
-    - title: Configuring System Manager options
+    - title: Configure System Manager options
       url: "/online-help-96-97/task_configuring_system_manager_options.html"
-    - title: Viewing ONTAP System Manager log files
+    - title: View ONTAP System Manager log files
       url: "/online-help-96-97/task_viewing_system_manager_log_files.html"
       entries:
       - title: How system logging works
         url: "/online-help-96-97/concept_how_system_logging_works.html"
-    - title: Configuring a cluster by using System Manager
+    - title: Configure a cluster by using System Manager
       url: "/online-help-96-97/concept_configuring_cluster_by_using_system_manager.html"
       entries:
-      - title: Accessing a cluster by using the ONTAP System Manager browser-based graphic
+      - title: Access a cluster by using the ONTAP System Manager browser-based graphic
           interface
         url: "/online-help-96-97/task_accessing_cluster_by_using_system_manager_brower_based_gui.html"
-      - title: Setting up the cluster
+      - title: Set up the cluster
         url: "/online-help-96-97/concept_setting_up_cluster.html"
         entries:
-        - title: Updating the cluster name
+        - title: Update the cluster name
           url: "/online-help-96-97/task_updating_cluster_name.html"
-        - title: Changing the cluster password
+        - title: Change the cluster password
           url: "/online-help-96-97/task_changing_password.html"
-        - title: Editing DNS configurations
+        - title: Edit DNS configurations
           url: "/online-help-96-97/task_editing_dns_configurations.html"
-        - title: Creating a cluster management logical interface
+        - title: Create a cluster management logical interface
           url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-        - title: Editing the node name
+        - title: Edit the node name
           url: "/online-help-96-97/task_editing_node_name.html"
-        - title: Creating a node management logical interface
+        - title: Create a node management logical interface
           url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-        - title: Editing AutoSupport settings
+        - title: Edit AutoSupport settings
           url: "/online-help-96-97/task_editing_autosupport_settings.html"
-        - title: Adding licenses
+        - title: Add licenses
           url: "/online-help-96-97/task_adding_licenses.html"
         - title: Setting the time zone for a cluster
           url: "/online-help-96-97/task_setting_time_zone_for_cluster.html"
-        - title: Monitoring HA pairs
+        - title: Monitor HA pairs
           url: "/online-help-96-97/task_monitoring_ha_pairs.html"
-      - title: Setting up the network
+      - title: Set up the network
         url: "/online-help-96-97/concept_setting_up_network.html"
         entries:
-        - title: Creating IPspaces
+        - title: Create IPspaces
           url: "/online-help-96-97/task_creating_ipspaces.html"
-        - title: Creating broadcast domains
+        - title: Create broadcast domains
           url: "/online-help-96-97/task_creating_broadcast_domains.html"
-        - title: Creating subnets
+        - title: Create subnets
           url: "/online-help-96-97/task_creating_subnets.html"
-      - title: Setting up physical storage
+      - title: Set up physical storage
         url: "/online-help-96-97/concept_setting_up_physical_storage.html"
         entries:
         - title: Assigning disks to nodes
@@ -326,59 +326,59 @@ entries:
             url: "/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html"
           - title: Provisioning storage by creating a FabricPool-enabled aggregate manually
             url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
-      - title: Setting up logical storage
+      - title: Set up logical storage
         url: "/online-help-96-97/concept_setting_up_logical_storage.html"
         entries:
-        - title: Creating SVMs
+        - title: Create SVMs
           url: "/online-help-96-97/task_creating_svms.html"
           entries:
-          - title: Configuring CIFS and NFS protocols on SVMs
+          - title: Configure CIFS and NFS protocols on SVMs
             url: "/online-help-96-97/task_configuring_cifs_nfs_protocols_on_svms.html"
-          - title: Configuring iSCSI protocol on SVMs
+          - title: Configure iSCSI protocol on SVMs
             url: "/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html"
-          - title: Configuring FC protocol and FCoE protocol on SVMs
+          - title: Configure FC protocol and FCoE protocol on SVMs
             url: "/online-help-96-97/task_configuring_fc_fcoe_protocol_on_svms.html"
-          - title: Configuring NVMe protocol on SVMs
+          - title: Configure NVMe protocol on SVMs
             url: "/online-help-96-97/task_configuring_nvme_protocol_on_svms.html"
           - title: Delegating administration to SVM administrators
             url: "/online-help-96-97/task_delegating_administration_to_svm_administrators.html"
-        - title: Creating FlexVol volumes
+        - title: Create FlexVol volumes
           url: "/online-help-96-97/task_creating_flexvol_volumes.html"
-        - title: Creating SnapLock volumes
+        - title: Create SnapLock volumes
           url: "/online-help-96-97/task_creating_snaplock_volumes.html"
-    - title: Setting up the cluster
+    - title: Set up the cluster
       url: "/online-help-96-97/concept_setting_up_cluster.html"
       entries:
-      - title: Updating the cluster name
+      - title: Update the cluster name
         url: "/online-help-96-97/task_updating_cluster_name.html"
-      - title: Changing the cluster password
+      - title: Change the cluster password
         url: "/online-help-96-97/task_changing_password.html"
-      - title: Editing DNS configurations
+      - title: Edit DNS configurations
         url: "/online-help-96-97/task_editing_dns_configurations.html"
-      - title: Creating a cluster management logical interface
+      - title: Create a cluster management logical interface
         url: "/online-help-96-97/task_creating_cluster_management_logical_interface.html"
-      - title: Editing the node name
+      - title: Edit the node name
         url: "/online-help-96-97/task_editing_node_name.html"
-      - title: Creating a node management logical interface
+      - title: Create a node management logical interface
         url: "/online-help-96-97/task_creating_node_management_logical_interface.html"
-      - title: Editing AutoSupport settings
+      - title: Edit AutoSupport settings
         url: "/online-help-96-97/task_editing_autosupport_settings.html"
-      - title: Adding licenses
+      - title: Add licenses
         url: "/online-help-96-97/task_adding_licenses.html"
       - title: Setting the time zone for a cluster
         url: "/online-help-96-97/task_setting_time_zone_for_cluster.html"
-      - title: Monitoring HA pairs
+      - title: Monitor HA pairs
         url: "/online-help-96-97/task_monitoring_ha_pairs.html"
-    - title: Setting up the network
+    - title: Set up the network
       url: "/online-help-96-97/concept_setting_up_network.html"
       entries:
-      - title: Creating IPspaces
+      - title: Create IPspaces
         url: "/online-help-96-97/task_creating_ipspaces.html"
-      - title: Creating broadcast domains
+      - title: Create broadcast domains
         url: "/online-help-96-97/task_creating_broadcast_domains.html"
-      - title: Creating subnets
+      - title: Create subnets
         url: "/online-help-96-97/task_creating_subnets.html"
-    - title: Setting up physical storage
+    - title: Set up physical storage
       url: "/online-help-96-97/concept_setting_up_physical_storage.html"
       entries:
       - title: Assigning disks to nodes
@@ -398,55 +398,55 @@ entries:
           url: "/online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html"
         - title: Provisioning storage by creating a FabricPool-enabled aggregate manually
           url: "/online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html"
-    - title: Setting up logical storage
+    - title: Set up logical storage
       url: "/online-help-96-97/concept_setting_up_logical_storage.html"
       entries:
-      - title: Creating SVMs
+      - title: Create SVMs
         url: "/online-help-96-97/task_creating_svms.html"
         entries:
-        - title: Configuring CIFS and NFS protocols on SVMs
+        - title: Configure CIFS and NFS protocols on SVMs
           url: "/online-help-96-97/task_configuring_cifs_nfs_protocols_on_svms.html"
-        - title: Configuring iSCSI protocol on SVMs
+        - title: Configure iSCSI protocol on SVMs
           url: "/online-help-96-97/task_configuring_iscsi_protocol_on_svms.html"
-        - title: Configuring FC protocol and FCoE protocol on SVMs
+        - title: Configure FC protocol and FCoE protocol on SVMs
           url: "/online-help-96-97/task_configuring_fc_fcoe_protocol_on_svms.html"
-        - title: Configuring NVMe protocol on SVMs
+        - title: Configure NVMe protocol on SVMs
           url: "/online-help-96-97/task_configuring_nvme_protocol_on_svms.html"
         - title: Delegating administration to SVM administrators
           url: "/online-help-96-97/task_delegating_administration_to_svm_administrators.html"
-      - title: Creating FlexVol volumes
+      - title: Create FlexVol volumes
         url: "/online-help-96-97/task_creating_flexvol_volumes.html"
-      - title: Creating SnapLock volumes
+      - title: Create SnapLock volumes
         url: "/online-help-96-97/task_creating_snaplock_volumes.html"
-    - title: Setting up SAML authentication
+    - title: Set up SAML authentication
       url: "/online-help-96-97/task_setting_up_saml_authentication.html"
       entries:
-      - title: Enabling SAML authentication
+      - title: Enable SAML authentication
         url: "/online-help-96-97/task_enabling_saml_authentication.html"
-      - title: Disabling SAML authentication
+      - title: Disable SAML authentication
         url: "/online-help-96-97/task_disabling_saml_authentication.html"
-    - title: Setting up peering
+    - title: Set up peering
       url: "/online-help-96-97/task_setting_up_peering.html"
       entries:
       - title: Prerequisites for cluster peering
         url: "/online-help-96-97/reference_prerequisites_for_cluster_peering.html"
-      - title: Creating intercluster LIFs
+      - title: Create intercluster LIFs
         url: "/online-help-96-97/task_creating_intercluster_lifs.html"
-      - title: Creating cluster peer relationships
+      - title: Create cluster peer relationships
         url: "/online-help-96-97/task_creating_cluster_peer_relationships.html"
-      - title: Creating SVM peers
+      - title: Create SVM peers
         url: "/online-help-96-97/task_creating_svm_peers.html"
       - title: What passphrases are
         url: "/online-help-96-97/concept_what_passphrases_are.html"
-    - title: Managing clusters
+    - title: Manage clusters
       url: "/online-help-96-97/concept_managing_clusters.html"
       entries:
-      - title: Understanding quorum and epsilon
+      - title: Understand quorum and epsilon
         url: "/online-help-96-97/concept_understanding_quorum_epsilon.html"
       - title: Dashboard window
         url: "/online-help-96-97/reference_dashboard_window.html"
         entries:
-        - title: Monitoring a cluster using the dashboard
+        - title: Monitor a cluster using the dashboard
           url: "/online-help-96-97/task_monitoring_status_using_dashboard.html"
       - title: Applications
         url: "/online-help-96-97/concept_applications.html"
@@ -455,20 +455,20 @@ entries:
           url: "/online-help-96-97/task_provisioning_basic_template.html"
         - title: Storage service definitions
           url: "/online-help-96-97/reference_storage_service_definitions.html"
-        - title: Adding Microsoft SQL Server over SAN to System Manager
+        - title: Add Microsoft SQL Server over SAN to System Manager
           url: "/online-help-96-97/task_adding_microsoft_sql_server_over_san_to_system_manager.html"
         - title: Application provisioning settings
           url: "/online-help-96-97/reference_application_provisioning_settings.html"
-        - title: Editing an application
+        - title: Edit an application
           url: "/online-help-96-97/task_editing_application.html"
-        - title: Deleting an application
+        - title: Delete an application
           url: "/online-help-96-97/task_deleting_application.html"
         - title: Applications window
           url: "/online-help-96-97/reference_applications_window.html"
       - title: Configuration update
         url: "/online-help-96-97/concept_configuration_update.html"
         entries:
-        - title: Configuring the administration details of an SVM
+        - title: Configure the administration details of an SVM
           url: "/online-help-96-97/task_configuring_administration_details_svm.html"
         - title: Configuration Updates window
           url: "/online-help-96-97/reference_configuration_updates_window.html"
@@ -479,9 +479,9 @@ entries:
           url: "/online-help-96-97/concept_isolating_management_traffic.html"
         - title: Assigning IP addresses to Service Processors
           url: "/online-help-96-97/task_assigning_ip_addresses_to_service_processors.html"
-        - title: Editing Service Processor settings
+        - title: Edit Service Processor settings
           url: "/online-help-96-97/task_editing_service_processor_settings.html"
-        - title: Understanding the Service Processor
+        - title: Understand the Service Processor
           url: "/online-help-96-97/concept_how_you_use_service_processors.html"
         - title: Service Processors window
           url: "/online-help-96-97/reference_service_processors_window.html"
@@ -494,9 +494,9 @@ entries:
           url: "/online-help-96-97/task_modifying_cluster_peer_passphrase.html"
         - title: Modifying LIFs that are configured for the remote cluster
           url: "/online-help-96-97/task_modifying_lifs_that_are_configured_for_remote_cluster.html"
-        - title: Changing the peering encryption status
+        - title: Change the peering encryption status
           url: "/online-help-96-97/task_changing_peering_encryption_status.html"
-        - title: Deleting cluster peer relationships
+        - title: Delete cluster peer relationships
           url: "/online-help-96-97/task_deleting_cluster_peer_relationships.html"
         - title: Cluster Peers window
           url: "/online-help-96-97/reference_cluster_peers_window.html"
@@ -508,7 +508,7 @@ entries:
       - title: Licenses
         url: "/online-help-96-97/concept_licenses.html"
         entries:
-        - title: Deleting licenses
+        - title: Delete licenses
           url: "/online-help-96-97/task_deleting_licenses.html"
         - title: License types and entitlement risk
           url: "/online-help-96-97/concept_license_types_entitlement_risk.html"
@@ -517,22 +517,22 @@ entries:
       - title: Cluster Expansion
         url: "/online-help-96-97/concept_cluster_expansion.html"
         entries:
-        - title: Adding nodes to a cluster
+        - title: Add nodes to a cluster
           url: "/online-help-96-97/task_adding_nodes_to_cluster_using_system_manager.html"
-        - title: Configuring the network details of the nodes
+        - title: Configure the network details of the nodes
           url: "/online-help-96-97/task_configuring_node_details_system_manager.html"
-      - title: Updating clusters
+      - title: Update clusters
         url: "/online-help-96-97/concept_updating_clusters.html"
         entries:
-        - title: Updating clusters in a non MetroCluster configuration
+        - title: Update clusters in a non MetroCluster configuration
           url: "/online-help-96-97/concept_updating_clusters_non_metrocluster_configuration.html"
-        - title: Updating clusters in a MetroCluster configuration
+        - title: Update clusters in a MetroCluster configuration
           url: "/online-help-96-97/concept_updating_clusters_metrocluster_configuration.html"
         - title: Obtaining ONTAP software images
           url: "/online-help-96-97/task_obtaining_ontap_software_images.html"
-        - title: Updating single-node clusters
+        - title: Update single-node clusters
           url: "/online-help-96-97/task_updating_single_node_clusters.html"
-        - title: Updating a cluster nondisruptively
+        - title: Update a cluster nondisruptively
           url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
         - title: Update a cluster nondisruptively
           url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
@@ -546,7 +546,7 @@ entries:
         - title: Preparing for switchover and switchback operations
           url: "/online-help-96-97/task_preparing_for_switchover_switchback_operations.html"
           entries:
-          - title: Renaming the MetroCluster local site (Site A)
+          - title: Rename the MetroCluster local site (Site A)
             url: "/online-help-96-97/task_renaming_metrocluster_local_site_a.html"
         - title: Performing a negotiated switchover
           url: "/online-help-96-97/task_performing_negotiated_planned_switchover.html"
@@ -564,11 +564,11 @@ entries:
       - title: SNMP
         url: "/online-help-96-97/concept_snmp.html"
         entries:
-        - title: Enabling or disabling SNMP
+        - title: Enable or disable SNMP
           url: "/online-help-96-97/task_enabling_or_disabling_snmp.html"
-        - title: Editing SNMP information
+        - title: Edit SNMP information
           url: "/online-help-96-97/task_setting_snmp_information.html"
-        - title: Enabling or disabling SNMP traps
+        - title: Enable or disable SNMP traps
           url: "/online-help-96-97/task_enabling_or_disabling_snmp_traps.html"
         - title: Testing the trap host configuration
           url: "/online-help-96-97/task_testing_trap_host.html"
@@ -577,7 +577,7 @@ entries:
       - title: LDAP
         url: "/online-help-96-97/concept_ldap.html"
         entries:
-        - title: Viewing the LDAP client configuration
+        - title: View the LDAP client configuration
           url: "/online-help-96-97/task_viewing_ldap_client_configuration.html"
         - title: Using LDAP services
           url: "/online-help-96-97/task_using_ldap_services.html"
@@ -586,11 +586,11 @@ entries:
       - title: Users
         url: "/online-help-96-97/concept_cluster_user_accounts.html"
         entries:
-        - title: Adding a cluster user account
+        - title: Add a cluster user account
           url: "/online-help-96-97/task_adding_cluster_user_account.html"
-        - title: Editing a cluster user account
+        - title: Edit a cluster user account
           url: "/online-help-96-97/task_editing_cluster_user_account.html"
-        - title: Changing passwords for cluster user accounts
+        - title: Change passwords for cluster user accounts
           url: "/online-help-96-97/task_changing_passwords_for_cluster_user_accounts.html"
         - title: Locking or unlocking cluster user accounts
           url: "/online-help-96-97/task_locking_unlocking_cluster_user_accounts.html"
@@ -603,9 +603,9 @@ entries:
       - title: Roles
         url: "/online-help-96-97/concept_roles.html"
         entries:
-        - title: Adding roles
+        - title: Add roles
           url: "/online-help-96-97/task_adding_roles_cluster_administrators_only.html"
-        - title: Editing roles
+        - title: Edit roles
           url: "/online-help-96-97/task_editing_roles.html"
         - title: Roles and permissions
           url: "/online-help-96-97/concept_roles_permissions.html"
@@ -618,20 +618,20 @@ entries:
         url: "/online-help-96-97/task_provisioning_basic_template.html"
       - title: Storage service definitions
         url: "/online-help-96-97/reference_storage_service_definitions.html"
-      - title: Adding Microsoft SQL Server over SAN to System Manager
+      - title: Add Microsoft SQL Server over SAN to System Manager
         url: "/online-help-96-97/task_adding_microsoft_sql_server_over_san_to_system_manager.html"
       - title: Application provisioning settings
         url: "/online-help-96-97/reference_application_provisioning_settings.html"
-      - title: Editing an application
+      - title: Edit an application
         url: "/online-help-96-97/task_editing_application.html"
-      - title: Deleting an application
+      - title: Delete an application
         url: "/online-help-96-97/task_deleting_application.html"
       - title: Applications window
         url: "/online-help-96-97/reference_applications_window.html"
     - title: Configuration update
       url: "/online-help-96-97/concept_configuration_update.html"
       entries:
-      - title: Configuring the administration details of an SVM
+      - title: Configure the administration details of an SVM
         url: "/online-help-96-97/task_configuring_administration_details_svm.html"
       - title: Configuration Updates window
         url: "/online-help-96-97/reference_configuration_updates_window.html"
@@ -642,9 +642,9 @@ entries:
         url: "/online-help-96-97/concept_isolating_management_traffic.html"
       - title: Assigning IP addresses to Service Processors
         url: "/online-help-96-97/task_assigning_ip_addresses_to_service_processors.html"
-      - title: Editing Service Processor settings
+      - title: Edit Service Processor settings
         url: "/online-help-96-97/task_editing_service_processor_settings.html"
-      - title: Understanding the Service Processor
+      - title: Understand the Service Processor
         url: "/online-help-96-97/concept_how_you_use_service_processors.html"
       - title: Service Processors window
         url: "/online-help-96-97/reference_service_processors_window.html"
@@ -657,9 +657,9 @@ entries:
         url: "/online-help-96-97/task_modifying_cluster_peer_passphrase.html"
       - title: Modifying LIFs that are configured for the remote cluster
         url: "/online-help-96-97/task_modifying_lifs_that_are_configured_for_remote_cluster.html"
-      - title: Changing the peering encryption status
+      - title: Change the peering encryption status
         url: "/online-help-96-97/task_changing_peering_encryption_status.html"
-      - title: Deleting cluster peer relationships
+      - title: Delete cluster peer relationships
         url: "/online-help-96-97/task_deleting_cluster_peer_relationships.html"
       - title: Cluster Peers window
         url: "/online-help-96-97/reference_cluster_peers_window.html"
@@ -671,7 +671,7 @@ entries:
     - title: Licenses
       url: "/online-help-96-97/concept_licenses.html"
       entries:
-      - title: Deleting licenses
+      - title: Delete licenses
         url: "/online-help-96-97/task_deleting_licenses.html"
       - title: License types and entitlement risk
         url: "/online-help-96-97/concept_license_types_entitlement_risk.html"
@@ -680,22 +680,22 @@ entries:
     - title: Cluster Expansion
       url: "/online-help-96-97/concept_cluster_expansion.html"
       entries:
-      - title: Adding nodes to a cluster
+      - title: Add nodes to a cluster
         url: "/online-help-96-97/task_adding_nodes_to_cluster_using_system_manager.html"
-      - title: Configuring the network details of the nodes
+      - title: Configure the network details of the nodes
         url: "/online-help-96-97/task_configuring_node_details_system_manager.html"
-    - title: Updating clusters
+    - title: Update clusters
       url: "/online-help-96-97/concept_updating_clusters.html"
       entries:
-      - title: Updating clusters in a non MetroCluster configuration
+      - title: Update clusters in a non MetroCluster configuration
         url: "/online-help-96-97/concept_updating_clusters_non_metrocluster_configuration.html"
-      - title: Updating clusters in a MetroCluster configuration
+      - title: Update clusters in a MetroCluster configuration
         url: "/online-help-96-97/concept_updating_clusters_metrocluster_configuration.html"
       - title: Obtaining ONTAP software images
         url: "/online-help-96-97/task_obtaining_ontap_software_images.html"
-      - title: Updating single-node clusters
+      - title: Update single-node clusters
         url: "/online-help-96-97/task_updating_single_node_clusters.html"
-      - title: Updating a cluster nondisruptively
+      - title: Update a cluster nondisruptively
         url: "/online-help-96-97/task_updating_cluster_nondisruptively.html"
       - title: Update a cluster nondisruptively
         url: "/online-help-96-97/concept_how_you_update_cluster_nondisruptively.html"
@@ -709,11 +709,11 @@ entries:
     - title: SNMP
       url: "/online-help-96-97/concept_snmp.html"
       entries:
-      - title: Enabling or disabling SNMP
+      - title: Enable or disable SNMP
         url: "/online-help-96-97/task_enabling_or_disabling_snmp.html"
-      - title: Editing SNMP information
+      - title: Edit SNMP information
         url: "/online-help-96-97/task_setting_snmp_information.html"
-      - title: Enabling or disabling SNMP traps
+      - title: Enable or disable SNMP traps
         url: "/online-help-96-97/task_enabling_or_disabling_snmp_traps.html"
       - title: Testing the trap host configuration
         url: "/online-help-96-97/task_testing_trap_host.html"
@@ -722,7 +722,7 @@ entries:
     - title: LDAP
       url: "/online-help-96-97/concept_ldap.html"
       entries:
-      - title: Viewing the LDAP client configuration
+      - title: View the LDAP client configuration
         url: "/online-help-96-97/task_viewing_ldap_client_configuration.html"
       - title: Using LDAP services
         url: "/online-help-96-97/task_using_ldap_services.html"
@@ -731,11 +731,11 @@ entries:
     - title: Users
       url: "/online-help-96-97/concept_cluster_user_accounts.html"
       entries:
-      - title: Adding a cluster user account
+      - title: Add a cluster user account
         url: "/online-help-96-97/task_adding_cluster_user_account.html"
-      - title: Editing a cluster user account
+      - title: Edit a cluster user account
         url: "/online-help-96-97/task_editing_cluster_user_account.html"
-      - title: Changing passwords for cluster user accounts
+      - title: Change passwords for cluster user accounts
         url: "/online-help-96-97/task_changing_passwords_for_cluster_user_accounts.html"
       - title: Locking or unlocking cluster user accounts
         url: "/online-help-96-97/task_locking_unlocking_cluster_user_accounts.html"
@@ -748,138 +748,138 @@ entries:
     - title: Roles
       url: "/online-help-96-97/concept_roles.html"
       entries:
-      - title: Adding roles
+      - title: Add roles
         url: "/online-help-96-97/task_adding_roles_cluster_administrators_only.html"
-      - title: Editing roles
+      - title: Edit roles
         url: "/online-help-96-97/task_editing_roles.html"
       - title: Roles and permissions
         url: "/online-help-96-97/concept_roles_permissions.html"
       - title: Roles window
         url: "/online-help-96-97/reference_roles_cluster_scope.html"
-    - title: Managing the network
+    - title: Manage the network
       url: "/online-help-96-97/concept_managing_network.html"
       entries:
       - title: IPspaces
         url: "/online-help-96-97/concept_ipspaces.html"
         entries:
-        - title: Editing IPspaces
+        - title: Edit IPspaces
           url: "/online-help-96-97/task_editing_ipspaces.html"
-        - title: Deleting IPspaces
+        - title: Delete IPspaces
           url: "/online-help-96-97/task_deleting_ipspaces.html"
       - title: Broadcast domains
         url: "/online-help-96-97/concept_broadcast_domains.html"
         entries:
-        - title: Editing broadcast domain settings
+        - title: Edit broadcast domain settings
           url: "/online-help-96-97/task_editing_broadcast_domains.html"
-        - title: Deleting broadcast domains
+        - title: Delete broadcast domains
           url: "/online-help-96-97/task_deleting_broadcast_domains.html"
       - title: Subnets
         url: "/online-help-96-97/concept_subnets.html"
         entries:
-        - title: Editing subnet settings
+        - title: Edit subnet settings
           url: "/online-help-96-97/task_editing_subnets.html"
-        - title: Deleting subnets
+        - title: Delete subnets
           url: "/online-help-96-97/task_deleting_subnets.html"
       - title: Network interfaces
         url: "/online-help-96-97/concept_network_interfaces.html"
         entries:
-        - title: Creating network interfaces
+        - title: Create network interfaces
           url: "/online-help-96-97/task_creating_network_interfaces.html"
-        - title: Editing network interface settings
+        - title: Edit network interface settings
           url: "/online-help-96-97/task_editing_network_interfaces.html"
-        - title: Deleting network interfaces
+        - title: Delete network interfaces
           url: "/online-help-96-97/task_deleting_network_interfaces.html"
         - title: Migrating a LIF
           url: "/online-help-96-97/task_migrating_lif.html"
       - title: Ethernet ports
         url: "/online-help-96-97/concept_ethernet_ports.html"
         entries:
-        - title: Creating interface groups
+        - title: Create interface groups
           url: "/online-help-96-97/task_creating_interface_groups.html"
-        - title: Creating VLAN interfaces
+        - title: Create VLAN interfaces
           url: "/online-help-96-97/task_creating_vlan_interfaces.html"
-        - title: Editing Ethernet port settings
+        - title: Edit Ethernet port settings
           url: "/online-help-96-97/task_editing_ethernet_port_properties.html"
-        - title: Editing interface group settings
+        - title: Edit interface group settings
           url: "/online-help-96-97/task_editing_interface_group_settings.html"
         - title: Modifying the MTU size of a VLAN
           url: "/online-help-96-97/task_editing_mtu_size_vlan.html"
-        - title: Deleting VLANs
+        - title: Delete VLANs
           url: "/online-help-96-97/task_deleting_vlans.html"
         - title: Ports and adapters
           url: "/online-help-96-97/reference_ports_adapters.html"
       - title: FC/FCoE and NVMe adapters
         url: "/online-help-96-97/concept_fc_fcoe_nvme_adapters.html"
         entries:
-        - title: Editing the FC/FCoE and NVMe adapter speed settings
+        - title: Edit the FC/FCoE and NVMe adapter speed settings
           url: "/online-help-96-97/task_editing_fc_fcoe_adapter_speed.html"
       - title: Network window
         url: "/online-help-96-97/reference_network_window.html"
     - title: IPspaces
       url: "/online-help-96-97/concept_ipspaces.html"
       entries:
-      - title: Editing IPspaces
+      - title: Edit IPspaces
         url: "/online-help-96-97/task_editing_ipspaces.html"
-      - title: Deleting IPspaces
+      - title: Delete IPspaces
         url: "/online-help-96-97/task_deleting_ipspaces.html"
     - title: Broadcast domains
       url: "/online-help-96-97/concept_broadcast_domains.html"
       entries:
-      - title: Editing broadcast domain settings
+      - title: Edit broadcast domain settings
         url: "/online-help-96-97/task_editing_broadcast_domains.html"
-      - title: Deleting broadcast domains
+      - title: Delete broadcast domains
         url: "/online-help-96-97/task_deleting_broadcast_domains.html"
     - title: Subnets
       url: "/online-help-96-97/concept_subnets.html"
       entries:
-      - title: Editing subnet settings
+      - title: Edit subnet settings
         url: "/online-help-96-97/task_editing_subnets.html"
-      - title: Deleting subnets
+      - title: Delete subnets
         url: "/online-help-96-97/task_deleting_subnets.html"
     - title: Network interfaces
       url: "/online-help-96-97/concept_network_interfaces.html"
       entries:
-      - title: Creating network interfaces
+      - title: Create network interfaces
         url: "/online-help-96-97/task_creating_network_interfaces.html"
-      - title: Editing network interface settings
+      - title: Edit network interface settings
         url: "/online-help-96-97/task_editing_network_interfaces.html"
-      - title: Deleting network interfaces
+      - title: Delete network interfaces
         url: "/online-help-96-97/task_deleting_network_interfaces.html"
       - title: Migrating a LIF
         url: "/online-help-96-97/task_migrating_lif.html"
     - title: Ethernet ports
       url: "/online-help-96-97/concept_ethernet_ports.html"
       entries:
-      - title: Creating interface groups
+      - title: Create interface groups
         url: "/online-help-96-97/task_creating_interface_groups.html"
-      - title: Creating VLAN interfaces
+      - title: Create VLAN interfaces
         url: "/online-help-96-97/task_creating_vlan_interfaces.html"
-      - title: Editing Ethernet port settings
+      - title: Edit Ethernet port settings
         url: "/online-help-96-97/task_editing_ethernet_port_properties.html"
-      - title: Editing interface group settings
+      - title: Edit interface group settings
         url: "/online-help-96-97/task_editing_interface_group_settings.html"
       - title: Modifying the MTU size of a VLAN
         url: "/online-help-96-97/task_editing_mtu_size_vlan.html"
-      - title: Deleting VLANs
+      - title: Delete VLANs
         url: "/online-help-96-97/task_deleting_vlans.html"
       - title: Ports and adapters
         url: "/online-help-96-97/reference_ports_adapters.html"
     - title: FC/FCoE and NVMe adapters
       url: "/online-help-96-97/concept_fc_fcoe_nvme_adapters.html"
       entries:
-      - title: Editing the FC/FCoE and NVMe adapter speed settings
+      - title: Edit the FC/FCoE and NVMe adapter speed settings
         url: "/online-help-96-97/task_editing_fc_fcoe_adapter_speed.html"
-    - title: Managing physical storage
+    - title: Manage physical storage
       url: "/online-help-96-97/concept_managing_physical_storage.html"
       entries:
       - title: Storage tiers
         url: "/online-help-96-97/concept_storage_tiers.html"
         entries:
-        - title: Editing aggregates
+        - title: Edit aggregates
           url: "/online-help-96-97/task_editing_aggregates.html"
-        - title: Deleting aggregates
+        - title: Delete aggregates
           url: "/online-help-96-97/task_deleting_aggregates.html"
-        - title: Changing the RAID configuration when creating an aggregate
+        - title: Change the RAID configuration when creating an aggregate
           url: "/online-help-96-97/task_changing_raid_configuration_when_creating_aggregate.html"
         - title: Provisioning cache by adding SSDs
           url: "/online-help-96-97/task_provisioning_cache_by_adding_disks.html"
@@ -888,15 +888,15 @@ entries:
             url: "/online-help-96-97/task_providing_cache_by_adding_ssd_disks.html"
           - title: Increasing the cache for Flash Pool aggregates by adding SSDs
             url: "/online-help-96-97/task_increasing_cache_for_flash_pool_aggregates_by_adding_ssds.html"
-        - title: Adding capacity disks
+        - title: Add capacity disks
           url: "/online-help-96-97/task_adding_capacity_disks.html"
-        - title: Changing the RAID group when adding capacity disks
+        - title: Change the RAID group when adding capacity disks
           url: "/online-help-96-97/task_changing_raid_group_when_adding_capacity_disks.html"
         - title: Moving FlexVol volumes
           url: "/online-help-96-97/task_moving_flexvol_volumes.html"
         - title: Mirroring aggregates
           url: "/online-help-96-97/task_mirroring_aggregates.html"
-        - title: Viewing aggregate information
+        - title: View aggregate information
           url: "/online-help-96-97/task_viewing_aggregate_information.html"
         - title: Installing a CA certificate if you use StorageGRID
           url: "/online-help-96-97/task_installing_ca_certificate_if_you_use_storagegrid_webscale.html"
@@ -918,20 +918,20 @@ entries:
           url: "/online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html"
         - title: Storage Tiers window
           url: "/online-help-96-97/reference_storage_tiers_window.html"
-      - title: Configuring and managing cloud tiers
+      - title: Configure and managing cloud tiers
         url: "/online-help-96-97/task_configuring_managing_cloud_tiers.html"
         entries:
-        - title: Adding a cloud tier
+        - title: Add a cloud tier
           url: "/online-help-96-97/task_adding_cloud_tier.html"
         - title: Attaching an aggregate to a cloud tier
           url: "/online-help-96-97/task_attaching_aggregate_to_cloud_tier.html"
         - title: Provisioning storage by creating a FabricPool-enabled aggregate manually
           url: "/online-help-96-97/task_provisioning_storage_by_creating_fabricpool_aggregate_manually.html"
-        - title: Changing the tiering policy of a volume
+        - title: Change the tiering policy of a volume
           url: "/online-help-96-97/task_changing_tiering_policy_volume.html"
-        - title: Editing a cloud tier
+        - title: Edit a cloud tier
           url: "/online-help-96-97/task_editing_cloud_tier.html"
-        - title: Deleting a cloud tier
+        - title: Delete a cloud tier
           url: "/online-help-96-97/task_deleting_cloud_tier.html"
         - title: What cloud tiers and tiering policies are
           url: "/online-help-96-97/concept_what_cloud_tiers_tiering_policies_are.html"
@@ -947,11 +947,11 @@ entries:
       - title: Storage pools
         url: "/online-help-96-97/concept_storage_pools.html"
         entries:
-        - title: Creating a storage pool
+        - title: Create a storage pool
           url: "/online-help-96-97/task_creating_storage_pool.html"
-        - title: Adding disks to a storage pool
+        - title: Add disks to a storage pool
           url: "/online-help-96-97/task_adding_disks_to_storage_pool.html"
-        - title: Deleting storage pools
+        - title: Delete storage pools
           url: "/online-help-96-97/task_deleting_storage_pools.html"
         - title: Use SSD storage pools
           url: "/online-help-96-97/concept_how_you_use_ssd_storage_pools.html"
@@ -973,7 +973,7 @@ entries:
         entries:
         - title: Reassigning disks to nodes
           url: "/online-help-96-97/task_reassigning_disks_to_nodes.html"
-        - title: Viewing disk information
+        - title: View disk information
           url: "/online-help-96-97/task_viewing_disk_information.html"
         - title: How ONTAP reports disk types
           url: "/online-help-96-97/concept_how_ontap_reports_drive_types.html"
@@ -1005,14 +1005,14 @@ entries:
       - title: Nodes
         url: "/online-help-96-97/concept_nodes.html"
         entries:
-        - title: Initializing the ComplianceClock time
+        - title: Initialize the ComplianceClock time
           url: "/online-help-96-97/task_initializing_complianceclock.html"
         - title: Nodes window
           url: "/online-help-96-97/reference_nodes_csh_topic.html"
       - title: Hardware Cache
         url: "/online-help-96-97/concept_hardware_cache.html"
         entries:
-        - title: Enabling or disabling Flash Cache modules
+        - title: Enable or disable Flash Cache modules
           url: "/online-help-96-97/task_enabling_or_disabling_flash_cache_modules.html"
         - title: How Flash Cache modules work
           url: "/online-help-96-97/reference_how_flash_cache_modules_work.html"
@@ -1030,7 +1030,7 @@ entries:
           url: "/online-help-96-97/task_acknowledging_system_health_alerts.html"
         - title: Suppressing system health alerts
           url: "/online-help-96-97/task_suppressing_system_health_alerts.html"
-        - title: Deleting system health alerts
+        - title: Delete system health alerts
           url: "/online-help-96-97/task_deleting_system_health_alerts.html"
         - title: Available cluster health monitors
           url: "/online-help-96-97/concept_available_health_monitors.html"
@@ -1041,17 +1041,17 @@ entries:
       - title: AutoSupport notifications
         url: "/online-help-96-97/concept_autosupport.html"
         entries:
-        - title: Setting up AutoSupport notifications
+        - title: Set up AutoSupport notifications
           url: "/online-help-96-97/task_setting_up_autosupport.html"
-        - title: Enabling or disabling AutoSupport settings
+        - title: Enable or disable AutoSupport settings
           url: "/online-help-96-97/task_enabling_or_disabling_autosupport.html"
-        - title: Adding AutoSupport email recipients
+        - title: Add AutoSupport email recipients
           url: "/online-help-96-97/task_adding_autosupport_e_mail_recipients.html"
         - title: Testing AutoSupport settings
           url: "/online-help-96-97/task_testing_autosupport.html"
         - title: Generating AutoSupport data
           url: "/online-help-96-97/task_generating_autosupport_data.html"
-        - title: Viewing AutoSupport summary
+        - title: View AutoSupport summary
           url: "/online-help-96-97/task_viewing_autosupport_summary.html"
         - title: AutoSupport severity types
           url: "/online-help-96-97/concept_autosupport_severity_types.html"
@@ -1072,11 +1072,11 @@ entries:
     - title: Storage tiers
       url: "/online-help-96-97/concept_storage_tiers.html"
       entries:
-      - title: Editing aggregates
+      - title: Edit aggregates
         url: "/online-help-96-97/task_editing_aggregates.html"
-      - title: Deleting aggregates
+      - title: Delete aggregates
         url: "/online-help-96-97/task_deleting_aggregates.html"
-      - title: Changing the RAID configuration when creating an aggregate
+      - title: Change the RAID configuration when creating an aggregate
         url: "/online-help-96-97/task_changing_raid_configuration_when_creating_aggregate.html"
       - title: Provisioning cache by adding SSDs
         url: "/online-help-96-97/task_provisioning_cache_by_adding_disks.html"
@@ -1085,15 +1085,15 @@ entries:
           url: "/online-help-96-97/task_providing_cache_by_adding_ssd_disks.html"
         - title: Increasing the cache for Flash Pool aggregates by adding SSDs
           url: "/online-help-96-97/task_increasing_cache_for_flash_pool_aggregates_by_adding_ssds.html"
-      - title: Adding capacity disks
+      - title: Add capacity disks
         url: "/online-help-96-97/task_adding_capacity_disks.html"
-      - title: Changing the RAID group when adding capacity disks
+      - title: Change the RAID group when adding capacity disks
         url: "/online-help-96-97/task_changing_raid_group_when_adding_capacity_disks.html"
       - title: Moving FlexVol volumes
         url: "/online-help-96-97/task_moving_flexvol_volumes.html"
       - title: Mirroring aggregates
         url: "/online-help-96-97/task_mirroring_aggregates.html"
-      - title: Viewing aggregate information
+      - title: View aggregate information
         url: "/online-help-96-97/task_viewing_aggregate_information.html"
       - title: Installing a CA certificate if you use StorageGRID
         url: "/online-help-96-97/task_installing_ca_certificate_if_you_use_storagegrid_webscale.html"
@@ -1115,20 +1115,20 @@ entries:
         url: "/online-help-96-97/concept_storage_recommendations_for_creating_aggregates.html"
       - title: Storage Tiers window
         url: "/online-help-96-97/reference_storage_tiers_window.html"
-    - title: Configuring and managing cloud tiers
+    - title: Configure and managing cloud tiers
       url: "/online-help-96-97/task_configuring_managing_cloud_tiers.html"
       entries:
-      - title: Adding a cloud tier
+      - title: Add a cloud tier
         url: "/online-help-96-97/task_adding_cloud_tier.html"
       - title: Attaching an aggregate to a cloud tier
         url: "/online-help-96-97/task_attaching_aggregate_to_cloud_tier.html"
       - title: Provisioning storage by creating a FabricPool-enabled aggregate manually
         url: "/online-help-96-97/task_provisioning_storage_by_creating_fabricpool_aggregate_manually.html"
-      - title: Changing the tiering policy of a volume
+      - title: Change the tiering policy of a volume
         url: "/online-help-96-97/task_changing_tiering_policy_volume.html"
-      - title: Editing a cloud tier
+      - title: Edit a cloud tier
         url: "/online-help-96-97/task_editing_cloud_tier.html"
-      - title: Deleting a cloud tier
+      - title: Delete a cloud tier
         url: "/online-help-96-97/task_deleting_cloud_tier.html"
       - title: What cloud tiers and tiering policies are
         url: "/online-help-96-97/concept_what_cloud_tiers_tiering_policies_are.html"
@@ -1144,11 +1144,11 @@ entries:
     - title: Storage pools
       url: "/online-help-96-97/concept_storage_pools.html"
       entries:
-      - title: Creating a storage pool
+      - title: Create a storage pool
         url: "/online-help-96-97/task_creating_storage_pool.html"
-      - title: Adding disks to a storage pool
+      - title: Add disks to a storage pool
         url: "/online-help-96-97/task_adding_disks_to_storage_pool.html"
-      - title: Deleting storage pools
+      - title: Delete storage pools
         url: "/online-help-96-97/task_deleting_storage_pools.html"
       - title: Use SSD storage pools
         url: "/online-help-96-97/concept_how_you_use_ssd_storage_pools.html"
@@ -1170,7 +1170,7 @@ entries:
       entries:
       - title: Reassigning disks to nodes
         url: "/online-help-96-97/task_reassigning_disks_to_nodes.html"
-      - title: Viewing disk information
+      - title: View disk information
         url: "/online-help-96-97/task_viewing_disk_information.html"
       - title: How ONTAP reports disk types
         url: "/online-help-96-97/concept_how_ontap_reports_drive_types.html"
@@ -1202,14 +1202,14 @@ entries:
     - title: Nodes
       url: "/online-help-96-97/concept_nodes.html"
       entries:
-      - title: Initializing the ComplianceClock time
+      - title: Initialize the ComplianceClock time
         url: "/online-help-96-97/task_initializing_complianceclock.html"
       - title: Nodes window
         url: "/online-help-96-97/reference_nodes_csh_topic.html"
     - title: Hardware Cache
       url: "/online-help-96-97/concept_hardware_cache.html"
       entries:
-      - title: Enabling or disabling Flash Cache modules
+      - title: Enable or disable Flash Cache modules
         url: "/online-help-96-97/task_enabling_or_disabling_flash_cache_modules.html"
       - title: How Flash Cache modules work
         url: "/online-help-96-97/reference_how_flash_cache_modules_work.html"
@@ -1227,7 +1227,7 @@ entries:
         url: "/online-help-96-97/task_acknowledging_system_health_alerts.html"
       - title: Suppressing system health alerts
         url: "/online-help-96-97/task_suppressing_system_health_alerts.html"
-      - title: Deleting system health alerts
+      - title: Delete system health alerts
         url: "/online-help-96-97/task_deleting_system_health_alerts.html"
       - title: Available cluster health monitors
         url: "/online-help-96-97/concept_available_health_monitors.html"
@@ -1238,17 +1238,17 @@ entries:
     - title: AutoSupport notifications
       url: "/online-help-96-97/concept_autosupport.html"
       entries:
-      - title: Setting up AutoSupport notifications
+      - title: Set up AutoSupport notifications
         url: "/online-help-96-97/task_setting_up_autosupport.html"
-      - title: Enabling or disabling AutoSupport settings
+      - title: Enable or disable AutoSupport settings
         url: "/online-help-96-97/task_enabling_or_disabling_autosupport.html"
-      - title: Adding AutoSupport email recipients
+      - title: Add AutoSupport email recipients
         url: "/online-help-96-97/task_adding_autosupport_e_mail_recipients.html"
       - title: Testing AutoSupport settings
         url: "/online-help-96-97/task_testing_autosupport.html"
       - title: Generating AutoSupport data
         url: "/online-help-96-97/task_generating_autosupport_data.html"
-      - title: Viewing AutoSupport summary
+      - title: View AutoSupport summary
         url: "/online-help-96-97/task_viewing_autosupport_summary.html"
       - title: AutoSupport severity types
         url: "/online-help-96-97/concept_autosupport_severity_types.html"
@@ -1266,7 +1266,7 @@ entries:
       entries:
       - title: Flash Pool aggregate Statistics window
         url: "/online-help-96-97/reference_flash_pool_statistics_window.html"
-    - title: Managing logical storage
+    - title: Manage logical storage
       url: "/online-help-96-97/concept_managing_logical_storage.html"
       entries:
       - title: Storage Virtual Machines
@@ -1274,17 +1274,17 @@ entries:
         entries:
         - title: SVM Dashboard window
           url: "/online-help-96-97/reference_svm_dashboard_window.html"
-        - title: Monitoring SVMs
+        - title: Monitor SVMs
           url: "/online-help-96-97/task_monitoring_svm_using_dashboard.html"
-        - title: Editing SVM settings
+        - title: Edit SVM settings
           url: "/online-help-96-97/task_editing_svm_settings.html"
-        - title: Deleting SVMs
+        - title: Delete SVMs
           url: "/online-help-96-97/task_deleting_svms.html"
-        - title: Starting SVMs
+        - title: Start SVMs
           url: "/online-help-96-97/task_starting_svms.html"
-        - title: Stopping SVMs
+        - title: Stop SVMs
           url: "/online-help-96-97/task_stopping_svms.html"
-        - title: Managing SVMs
+        - title: Manage SVMs
           url: "/online-help-96-97/reference_managing_svms.html"
         - title: Tracing file access to diagnose access errors on SVMs
           url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
@@ -1301,25 +1301,25 @@ entries:
       - title: Volumes
         url: "/online-help-96-97/concept_volumes.html"
         entries:
-        - title: Editing volume properties
+        - title: Edit volume properties
           url: "/online-help-96-97/task_editing_volume_properties.html"
-        - title: Editing data protection volumes
+        - title: Edit data protection volumes
           url: "/online-help-96-97/task_editing_data_protection_volumes.html"
-        - title: Deleting volumes
+        - title: Delete volumes
           url: "/online-help-96-97/task_deleting_volumes.html"
-        - title: Creating FlexClone volumes
+        - title: Create FlexClone volumes
           url: "/online-help-96-97/task_creating_flexclone_volumes.html"
-        - title: Creating FlexClone files
+        - title: Create FlexClone files
           url: "/online-help-96-97/task_creating_flexclone_files.html"
         - title: Splitting a FlexClone volume from its parent volume
           url: "/online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html"
-        - title: Viewing the FlexClone volume hierarchy
+        - title: View the FlexClone volume hierarchy
           url: "/online-help-96-97/task_viewing_flexclone_volumes_hierarchy.html"
-        - title: Changing the status of a volume
+        - title: Change the status of a volume
           url: "/online-help-96-97/task_changing_status_volume.html"
-        - title: Viewing the list of saved Snapshot copies
+        - title: View the list of saved Snapshot copies
           url: "/online-help-96-97/task_viewing_list_saved_snapshot_copies.html"
-        - title: Creating Snapshot copies outside a defined schedule
+        - title: Create Snapshot copies outside a defined schedule
           url: "/online-help-96-97/task_creating_snapshot_copies_outside_defined_schedule.html"
         - title: Setting the Snapshot copy reserve
           url: "/online-help-96-97/task_setting_snapshot_copy_reserve.html"
@@ -1327,21 +1327,21 @@ entries:
           url: "/online-help-96-97/task_hiding_snapshot_copy_directory.html"
         - title: Scheduling automatic creation of Snapshot copies
           url: "/online-help-96-97/task_scheduling_automatic_creation_snapshot_copies.html"
-        - title: Restoring a volume from a Snapshot copy
+        - title: Restore a volume from a Snapshot copy
           url: "/online-help-96-97/task_restoring_volume_from_snapshot_copy.html"
-        - title: Extending the expiry date of Snapshot copies
+        - title: Extend the expiry date of Snapshot copies
           url: "/online-help-96-97/task_extending_expiry_date_snapshot_copies.html"
-        - title: Renaming Snapshot copies
+        - title: Rename Snapshot copies
           url: "/online-help-96-97/task_renaming_snapshot_copies.html"
-        - title: Deleting Snapshot copies
+        - title: Delete Snapshot copies
           url: "/online-help-96-97/task_deleting_snapshot_copies.html"
-        - title: Resizing volumes
+        - title: Resize volumes
           url: "/online-help-96-97/task_resizing_volumes.html"
-        - title: Enabling storage efficiency on a volume
+        - title: Enable storage efficiency on a volume
           url: "/online-help-96-97/task_enabling_storage_efficiency_on_volume.html"
-        - title: Changing the deduplication schedule
+        - title: Change the deduplication schedule
           url: "/online-help-96-97/task_changing_deduplication_schedule.html"
-        - title: Running deduplication operations
+        - title: Run deduplication operations
           url: "/online-help-96-97/task_running_deduplication_operations.html"
         - title: Moving FlexVol volumes between aggregates or nodes
           url: "/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html"
@@ -1350,43 +1350,43 @@ entries:
             url: "/online-help-96-97/task_manually_triggering_cutover_phase.html"
         - title: Assigning volumes to Storage QoS
           url: "/online-help-96-97/task_assigning_volumes_to_storage_qos.html"
-        - title: Creating a mirror relationship from a source SVM
+        - title: Create a mirror relationship from a source SVM
           url: "/online-help-96-97/task_creating_mirror_relationship_from_source_volume.html"
-        - title: Creating a vault relationship from a source SVM
+        - title: Create a vault relationship from a source SVM
           url: "/online-help-96-97/task_creating_vault_relationship_from_source_svm.html"
-        - title: Creating a mirror and vault relationship from a source SVM
+        - title: Create a mirror and vault relationship from a source SVM
           url: "/online-help-96-97/task_creating_mirror_vault_relationship_from_source_svm.html"
-        - title: Creating an NFS datastore for VMware
+        - title: Create an NFS datastore for VMware
           url: "/online-help-96-97/task_creating_nfs_datastore_for_vmware.html"
-        - title: Changing the tiering policy of a volume
+        - title: Change the tiering policy of a volume
           url: "/online-help-96-97/task_changing_tiering_policy_volume_destination_topic_delete.html"
-        - title: Creating FlexGroup volumes
+        - title: Create FlexGroup volumes
           url: "/online-help-96-97/task_creating_flexgroup_volumes.html"
-        - title: Viewing FlexGroup volume information
+        - title: View FlexGroup volume information
           url: "/online-help-96-97/task_viewing_flexgroup_volume_information.html"
-        - title: Editing FlexGroup volumes
+        - title: Edit FlexGroup volumes
           url: "/online-help-96-97/task_editing_flexgroup_volumes.html"
         - title: Specifying advanced options for a FlexGroup volume
           url: "/online-help-96-97/task_specifying_advanced_options_for_flexgroup_volume.html"
-        - title: Resizing FlexGroup volumes
+        - title: Resize FlexGroup volumes
           url: "/online-help-96-97/task_resizing_flexgroup_volumes.html"
-        - title: Changing the status of a FlexGroup volume
+        - title: Change the status of a FlexGroup volume
           url: "/online-help-96-97/task_changing_status_flexgroup_volume.html"
-        - title: Deleting FlexGroup volumes
+        - title: Delete FlexGroup volumes
           url: "/online-help-96-97/task_deleting_flexgroup_volumes.html"
-        - title: Creating FlexCache volumes
+        - title: Create FlexCache volumes
           url: "/online-help-96-97/task_creating_flexcache_volumes.html"
-        - title: Viewing FlexCache volume information
+        - title: View FlexCache volume information
           url: "/online-help-96-97/task_viewing_flexcache_volume_information.html"
-        - title: Editing FlexCache volumes
+        - title: Edit FlexCache volumes
           url: "/online-help-96-97/task_editing_flexcache_volumes.html"
         - title: Specifying advanced options for a FlexCache volume
           url: "/online-help-96-97/task_specifying_advanced_options_for_flexcache_volume.html"
-        - title: Resizing FlexCache volumes
+        - title: Resize FlexCache volumes
           url: "/online-help-96-97/task_resizing_flexcache_volumes.html"
-        - title: Changing the status of a FlexCache volume
+        - title: Change the status of a FlexCache volume
           url: "/online-help-96-97/task_changing_status_flexcache_volume.html"
-        - title: Deleting FlexCache volumes
+        - title: Delete FlexCache volumes
           url: "/online-help-96-97/task_deleting_flexcache_volumes.html"
         - title: What NetApp Volume Encryption is
           url: "/online-help-96-97/concept_what_netapp_volume_encryption_is.html"
@@ -1415,24 +1415,24 @@ entries:
       - title: Junction Path
         url: "/online-help-96-97/concept_namespace.html"
         entries:
-        - title: Mounting volumes
+        - title: Mount volumes
           url: "/online-help-96-97/task_mounting_volumes.html"
-        - title: Unmounting FlexVol volumes
+        - title: Unmount FlexVol volumes
           url: "/online-help-96-97/task_unmounting_flexvol_volumes.html"
-        - title: Changing export policies
+        - title: Change export policies
           url: "/online-help-96-97/task_changing_export_policies.html"
         - title: Junction Path window
           url: "/online-help-96-97/reference_namespace.html"
       - title: Shares
         url: "/online-help-96-97/concept_shares.html"
         entries:
-        - title: Creating a CIFS share
+        - title: Create a CIFS share
           url: "/online-help-96-97/task_creating_cifs_share.html"
-        - title: Stopping share access
+        - title: Stop share access
           url: "/online-help-96-97/task_stopping_share_access.html"
-        - title: Creating home directory shares
+        - title: Create home directory shares
           url: "/online-help-96-97/task_creating_home_directory_share.html"
-        - title: Editing share settings
+        - title: Edit share settings
           url: "/online-help-96-97/task_editing_share_settings.html"
         - title: How ONTAP enables dynamic home directories
           url: "/online-help-96-97/concept_how_clustered_data_ontap_enables_dynamic_home_directories.html"
@@ -1441,55 +1441,55 @@ entries:
       - title: LUNs
         url: "/online-help-96-97/concept_luns.html"
         entries:
-        - title: Creating FC SAN optimized LUNs
+        - title: Create FC SAN optimized LUNs
           url: "/online-help-96-97/task_creating_fc_san_optimized_luns.html"
         - title: Application-specific LUN settings
           url: "/online-help-96-97/reference_application_specific_lun_settings.html"
-        - title: Creating LUNs
+        - title: Create LUNs
           url: "/online-help-96-97/task_creating_luns.html"
-        - title: Deleting LUNs
+        - title: Delete LUNs
           url: "/online-help-96-97/task_deleting_luns.html"
-        - title: Creating initiator groups
+        - title: Create initiator groups
           url: "/online-help-96-97/task_creating_initiator_groups.html"
-        - title: Deleting initiator groups
+        - title: Delete initiator groups
           url: "/online-help-96-97/task_deleting_initiator_groups.html"
-        - title: Adding initiators
+        - title: Add initiators
           url: "/online-help-96-97/task_adding_initiators.html"
-        - title: Deleting initiators from an initiator group
+        - title: Delete initiators from an initiator group
           url: "/online-help-96-97/task_deleting_initiators_from_initiator_group.html"
-        - title: Creating port sets
+        - title: Create port sets
           url: "/online-help-96-97/task_creating_portsets.html"
-        - title: Deleting port sets
+        - title: Delete port sets
           url: "/online-help-96-97/task_deleting_portsets.html"
         - title: Cloning LUNs
           url: "/online-help-96-97/task_cloning_luns.html"
-        - title: Editing LUNs
+        - title: Edit LUNs
           url: "/online-help-96-97/task_editing_luns.html"
         - title: Bringing LUNs online
           url: "/online-help-96-97/task_bringing_luns_online.html"
-        - title: Taking LUNs offline
+        - title: Take LUNs offline
           url: "/online-help-96-97/task_taking_luns_offline.html"
         - title: Moving LUNs
           url: "/online-help-96-97/task_moving_luns.html"
         - title: Assigning LUNs to storage QoS
           url: "/online-help-96-97/task_assigning_luns_to_storage_qos.html"
-        - title: Editing initiator groups
+        - title: Edit initiator groups
           url: "/online-help-96-97/task_editing_initiator_groups.html"
-        - title: Editing initiators
+        - title: Edit initiators
           url: "/online-help-96-97/task_editing_initiators.html"
-        - title: Editing port sets
+        - title: Edit port sets
           url: "/online-help-96-97/task_editing_port_sets.html"
-        - title: Viewing LUN information
+        - title: View LUN information
           url: "/online-help-96-97/task_viewing_lun_information.html"
-        - title: Viewing initiator groups
+        - title: View initiator groups
           url: "/online-help-96-97/task_viewing_initiator_groups.html"
         - title: Guidelines for working with FlexVol volumes that contain LUNs
           url: "/online-help-96-97/concept_guidelines_working_with_volumes_that_contain_luns.html"
-        - title: Understanding space reservations for LUNs
+        - title: Understand space reservations for LUNs
           url: "/online-help-96-97/concept_using_space_reservation_for_luns.html"
         - title: Guidelines for using LUN multiprotocol type
           url: "/online-help-96-97/concept_lun_multiprotocol_type_guidelines.html"
-        - title: Understanding LUN clones
+        - title: Understand LUN clones
           url: "/online-help-96-97/concept_understanding_lun_clones.html"
         - title: Initiator hosts
           url: "/online-help-96-97/concept_initiator_hosts.html"
@@ -1504,15 +1504,15 @@ entries:
       - title: Qtrees
         url: "/online-help-96-97/concept_qtrees.html"
         entries:
-        - title: Creating qtrees
+        - title: Create qtrees
           url: "/online-help-96-97/task_creating_qtrees.html"
-        - title: Deleting qtrees
+        - title: Delete qtrees
           url: "/online-help-96-97/task_deleting_qtrees.html"
-        - title: Editing qtrees
+        - title: Edit qtrees
           url: "/online-help-96-97/task_editing_qtrees.html"
         - title: Assigning export policies to qtrees
           url: "/online-help-96-97/task_assigning_export_policies_to_qtrees.html"
-        - title: Viewing qtree information
+        - title: View qtree information
           url: "/online-help-96-97/task_viewing_qtree_information.html"
         - title: Qtree options
           url: "/online-help-96-97/concept_qtree_options.html"
@@ -1521,17 +1521,17 @@ entries:
       - title: Quotas
         url: "/online-help-96-97/concept_quotas.html"
         entries:
-        - title: Creating quotas
+        - title: Create quotas
           url: "/online-help-96-97/task_creating_quotas.html"
-        - title: Deleting quotas
+        - title: Delete quotas
           url: "/online-help-96-97/task_deleting_quotas.html"
-        - title: Editing quota limits
+        - title: Edit quota limits
           url: "/online-help-96-97/task_editing_quota_limits.html"
-        - title: Activating or deactivating quotas
+        - title: Activate or deactivate quotas
           url: "/online-help-96-97/task_activating_or_deactivating_quotas.html"
-        - title: Resizing quotas
+        - title: Resize quotas
           url: "/online-help-96-97/task_resizing_quotas.html"
-        - title: Viewing quota information
+        - title: View quota information
           url: "/online-help-96-97/task_viewing_quota_information.html"
         - title: Types of quotas
           url: "/online-help-96-97/concept_types_quotas.html"
@@ -1544,68 +1544,68 @@ entries:
       - title: CIFS protocol
         url: "/online-help-96-97/concept_cifs_protocol.html"
         entries:
-        - title: Setting up CIFS
+        - title: Set up CIFS
           url: "/online-help-96-97/task_setting_up_cifs.html"
-        - title: Editing the general properties for CIFS
+        - title: Edit the general properties for CIFS
           url: "/online-help-96-97/task_editing_cifs_general_properties.html"
-        - title: Adding home directory paths
+        - title: Add home directory paths
           url: "/online-help-96-97/task_adding_home_directory_paths.html"
-        - title: Deleting home directory paths
+        - title: Delete home directory paths
           url: "/online-help-96-97/task_deleting_home_directory_paths.html"
-        - title: Resetting CIFS domain controllers
+        - title: Reset CIFS domain controllers
           url: "/online-help-96-97/task_resetting_cifs_domain_controllers.html"
-        - title: Updating the CIFS group policy configuration
+        - title: Update the CIFS group policy configuration
           url: "/online-help-96-97/task_updating_cifs_group_policy_configuration.html"
-        - title: Enabling or disabling a CIFS group policy configuration
+        - title: Enable or disable a CIFS group policy configuration
           url: "/online-help-96-97/task_enabling_or_disabling_cifs_group_policy.html"
         - title: Reloading CIFS group policy
           url: "/online-help-96-97/task_reloading_cifs_group_policy.html"
-        - title: Setting up BranchCache
+        - title: Set up BranchCache
           url: "/online-help-96-97/task_setting_up_branchcache.html"
         - title: Modifying the BranchCache settings
           url: "/online-help-96-97/task_modifying_branchcache_settings.html"
-        - title: Deleting the BranchCache configuration
+        - title: Delete the BranchCache configuration
           url: "/online-help-96-97/task_deleting_branchcache_configuration.html"
-        - title: Adding preferred domain controllers
+        - title: Add preferred domain controllers
           url: "/online-help-96-97/task_adding_preferred_domain_controllers.html"
-        - title: Editing preferred domain controllers
+        - title: Edit preferred domain controllers
           url: "/online-help-96-97/task_editing_preferred_domain_controllers.html"
-        - title: Deleting preferred domain controllers
+        - title: Delete preferred domain controllers
           url: "/online-help-96-97/task_deleting_preferred_domain_controllers.html"
-        - title: Viewing CIFS domain information
+        - title: View CIFS domain information
           url: "/online-help-96-97/task_viewing_cifs_domain_information.html"
         - title: CIFS window
           url: "/online-help-96-97/reference_cifs_window.html"
       - title: NFS protocol
         url: "/online-help-96-97/concept_nfs_protocol.html"
         entries:
-        - title: Editing NFS settings
+        - title: Edit NFS settings
           url: "/online-help-96-97/task_editing_nfs_settings.html"
         - title: NFS window
           url: "/online-help-96-97/reference_nfs_window.html"
       - title: NVMe protocol
         url: "/online-help-96-97/concept_nvme_protocol.html"
         entries:
-        - title: Setting up NVMe
+        - title: Set up NVMe
           url: "/online-help-96-97/concept_setting_up_nvme.html"
-        - title: Creating an NVMe namespace
+        - title: Create an NVMe namespace
           url: "/online-help-96-97/task_creating_nvme_namespace.html"
-        - title: Editing an NVMe namespace
+        - title: Edit an NVMe namespace
           url: "/online-help-96-97/task_editing_nvme_namespace.html"
         - title: Cloning an NVMe namespace
           url: "/online-help-96-97/task_cloning_nvme_namespace.html"
-        - title: Starting and stopping the NVMe service
+        - title: Start and stopping the NVMe service
           url: "/online-help-96-97/task_starting_or_stopping_nvme_service.html"
         - title: What NVMe is
           url: "/online-help-96-97/concept_what_nvme_is.html"
         - title: What an NVMe subsystem is
           url: "/online-help-96-97/concept_what_nvme_subsystem_is.html"
           entries:
-          - title: Creating NVMe subsystems
+          - title: Create NVMe subsystems
             url: "/online-help-96-97/task_creating_nvme_subsystems.html"
-          - title: Editing NVMe subsystems details
+          - title: Edit NVMe subsystems details
             url: "/online-help-96-97/task_editing_nvme_subsystem_details.html"
-          - title: Deleting an NVMe subsystem
+          - title: Delete an NVMe subsystem
             url: "/online-help-96-97/task_deleting_nvme_subsystem.html"
           - title: NVMe Subsystems window
             url: "/online-help-96-97/reference_nvme_subsystems_window.html"
@@ -1616,32 +1616,32 @@ entries:
       - title: iSCSI protocol
         url: "/online-help-96-97/concept_iscsi_protocol.html"
         entries:
-        - title: Creating iSCSI aliases
+        - title: Create iSCSI aliases
           url: "/online-help-96-97/task_creating_iscsi_aliases.html"
-        - title: Enabling or disabling the iSCSI service on storage system interfaces
+        - title: Enable or disable the iSCSI service on storage system interfaces
           url: "/online-help-96-97/task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.html"
-        - title: Adding the security method for iSCSI initiators
+        - title: Add the security method for iSCSI initiators
           url: "/online-help-96-97/task_adding_security_method_for_iscsi_initiators.html"
-        - title: Editing default security settings
+        - title: Edit default security settings
           url: "/online-help-96-97/task_editing_default_security_settings.html"
-        - title: Editing initiator security
+        - title: Edit initiator security
           url: "/online-help-96-97/task_editing_initiator_security.html"
-        - title: Changing the default iSCSI initiator authentication method
+        - title: Change the default iSCSI initiator authentication method
           url: "/online-help-96-97/task_changing_default_initiator_authentication_method.html"
         - title: Setting the default security for iSCSI initiators
           url: "/online-help-96-97/task_setting_default_security_for_initiators.html"
-        - title: Starting or stopping the iSCSI service
+        - title: Start or stopping the iSCSI service
           url: "/online-help-96-97/task_starting_or_stopping_iscsi_service.html"
-        - title: Viewing initiator security information
+        - title: View initiator security information
           url: "/online-help-96-97/task_viewing_initiator_security_information.html"
         - title: iSCSI window
           url: "/online-help-96-97/reference_iscsi_window.html"
       - title: FC/FCoE protocol
         url: "/online-help-96-97/concept_fc_fcoe_protocol.html"
         entries:
-        - title: Starting or stopping the FC or FCoE service
+        - title: Start or stopping the FC or FCoE service
           url: "/online-help-96-97/task_starting_or_stopping_fc_or_fcoe_service.html"
-        - title: Changing an FC or FCoE node name
+        - title: Change an FC or FCoE node name
           url: "/online-help-96-97/task_changing_fc_or_fcoe_node_name.html"
         - title: The FCoE protocol
           url: "/online-help-96-97/concept_fcoe_protocol.html"
@@ -1650,17 +1650,17 @@ entries:
       - title: Export policies
         url: "/online-help-96-97/concept_export_policies.html"
         entries:
-        - title: Creating an export policy
+        - title: Create an export policy
           url: "/online-help-96-97/task_creating_export_policy.html"
-        - title: Renaming export policies
+        - title: Rename export policies
           url: "/online-help-96-97/task_renaming_export_policies.html"
-        - title: Deleting export policies
+        - title: Delete export policies
           url: "/online-help-96-97/task_deleting_export_policies.html"
-        - title: Adding rules to an export policy
+        - title: Add rules to an export policy
           url: "/online-help-96-97/task_adding_rules_to_export_policy.html"
         - title: Modifying export policy rules
           url: "/online-help-96-97/task_modifying_export_policy_rules.html"
-        - title: Deleting export policy rules
+        - title: Delete export policy rules
           url: "/online-help-96-97/task_deleting_export_policy_rules.html"
         - title: How export policies control client access to volumes or qtrees
           url: "/online-help-96-97/concept_how_export_policies_control_client_access_to_volumes.html"
@@ -1669,41 +1669,41 @@ entries:
       - title: Efficiency policies
         url: "/online-help-96-97/concept_efficiency_policies.html"
         entries:
-        - title: Adding efficiency policies
+        - title: Add efficiency policies
           url: "/online-help-96-97/task_adding_efficiency_policies.html"
-        - title: Editing efficiency policies
+        - title: Edit efficiency policies
           url: "/online-help-96-97/task_editing_efficiency_policies.html"
-        - title: Deleting efficiency policies
+        - title: Delete efficiency policies
           url: "/online-help-96-97/task_deleting_efficiency_policies.html"
-        - title: Enabling or disabling efficiency policies
+        - title: Enable or disable efficiency policies
           url: "/online-help-96-97/task_enabling_or_disabling_efficiency_policies.html"
         - title: What an efficiency policy is
           url: "/online-help-96-97/concept_what_efficiency_policy_is.html"
-        - title: Understanding predefined efficiency policies
+        - title: Understand predefined efficiency policies
           url: "/online-help-96-97/concept_understanding_predefined_efficiency_policies.html"
         - title: Efficiency Policies window
           url: "/online-help-96-97/reference_efficiency_policies.html"
       - title: Protection policies
         url: "/online-help-96-97/concept_protection_policies.html"
         entries:
-        - title: Creating protection policies
+        - title: Create protection policies
           url: "/online-help-96-97/task_creating_protection_policies.html"
-        - title: Deleting protection policies
+        - title: Delete protection policies
           url: "/online-help-96-97/task_deleting_protection_policies.html"
-        - title: Editing protection policies
+        - title: Edit protection policies
           url: "/online-help-96-97/task_editing_protection_policies.html"
         - title: Protection Policies window
           url: "/online-help-96-97/reference_protection_policies_window.html"
       - title: QoS policy groups
         url: "/online-help-96-97/concept_qos_policies.html"
         entries:
-        - title: Creating QoS policy groups
+        - title: Create QoS policy groups
           url: "/online-help-96-97/task_creating_qos_policy_groups.html"
-        - title: Deleting QoS policy groups
+        - title: Delete QoS policy groups
           url: "/online-help-96-97/task_deleting_qos_policy_groups.html"
-        - title: Editing QoS policy groups
+        - title: Edit QoS policy groups
           url: "/online-help-96-97/task_editing_qos_policy_groups.html"
-        - title: Managing workload performance by using Storage QoS
+        - title: Manage workload performance by using Storage QoS
           url: "/online-help-96-97/concept_managing_workload_performance_by_using_storage_qos.html"
         - title: How Storage QoS works
           url: "/online-help-96-97/concept_how_storage_qos_works.html"
@@ -1716,40 +1716,40 @@ entries:
       - title: NIS services
         url: "/online-help-96-97/concept_nis_services.html"
         entries:
-        - title: Adding NIS domains
+        - title: Add NIS domains
           url: "/online-help-96-97/task_adding_nis_domains.html"
-        - title: Editing NIS domains
+        - title: Edit NIS domains
           url: "/online-help-96-97/task_editing_nis_domains.html"
         - title: NIS window
           url: "/online-help-96-97/reference_nis_window.html"
       - title: LDAP client services
         url: "/online-help-96-97/concept_ldap_client_services.html"
         entries:
-        - title: Adding an LDAP client configuration
+        - title: Add an LDAP client configuration
           url: "/online-help-96-97/task_adding_ldap_client_configuration.html"
-        - title: Deleting an LDAP client configuration
+        - title: Delete an LDAP client configuration
           url: "/online-help-96-97/task_deleting_ldap_client_configuration.html"
-        - title: Editing an LDAP client configuration
+        - title: Edit an LDAP client configuration
           url: "/online-help-96-97/task_editing_ldap_client_configuration.html"
         - title: LDAP Client window
           url: "/online-help-96-97/reference_ldap_client_window_svm.html"
       - title: LDAP configuration services
         url: "/online-help-96-97/concept_ldap_configuration_services.html"
         entries:
-        - title: Editing active LDAP clients
+        - title: Edit active LDAP clients
           url: "/online-help-96-97/task_editing_active_ldap_clients_svm.html"
-        - title: Deleting active LDAP clients
+        - title: Delete active LDAP clients
           url: "/online-help-96-97/task_deleting_active_ldap_clients_svm.html"
         - title: LDAP Configuration window
           url: "/online-help-96-97/reference_ldap_configuration_window.html"
       - title: Kerberos realm services
         url: "/online-help-96-97/concept_kerberos_realm_services.html"
         entries:
-        - title: Creating a Kerberos realm configuration
+        - title: Create a Kerberos realm configuration
           url: "/online-help-96-97/task_creating_kerberos_realm_configurations.html"
-        - title: Editing a Kerberos realm configuration
+        - title: Edit a Kerberos realm configuration
           url: "/online-help-96-97/task_editing_kerberos_realm_configurations.html"
-        - title: Deleting Kerberos realm configurations
+        - title: Delete Kerberos realm configurations
           url: "/online-help-96-97/task_deleting_kerberos_realm_configurations.html"
         - title: Using Kerberos with NFS for strong security
           url: "/online-help-96-97/concept_using_kerberos_with_nfs_for_strong_security.html"
@@ -1760,27 +1760,27 @@ entries:
       - title: Kerberos interface services
         url: "/online-help-96-97/concept_kerberos_interface_services.html"
         entries:
-        - title: Editing Kerberos configuration
+        - title: Edit Kerberos configuration
           url: "/online-help-96-97/task_editing_kerberos_configuration.html"
         - title: Kerberos Interface window
           url: "/online-help-96-97/reference_kerberos_interface_window.html"
       - title: DNS/DDNS Services
         url: "/online-help-96-97/concept_dns_ddns_services.html"
         entries:
-        - title: Enabling or disabling DDNS
+        - title: Enable or disable DDNS
           url: "/online-help-96-97/task_enabling_or_disabling_ddns.html"
-        - title: Editing DNS and DDNS settings
+        - title: Edit DNS and DDNS settings
           url: "/online-help-96-97/task_editing_dns_ddns_settings.html"
         - title: DNS/DDNS Services window
           url: "/online-help-96-97/reference_dns_ddns_window.html"
       - title: Users
         url: "/online-help-96-97/concept_svm_user_accounts.html"
         entries:
-        - title: Adding SVM user accounts
+        - title: Add SVM user accounts
           url: "/online-help-96-97/task_adding_svm_user_accounts.html"
-        - title: Changing the password for SVM user accounts
+        - title: Change the password for SVM user accounts
           url: "/online-help-96-97/task_changing_passwords_for_vserver_user_accounts.html"
-        - title: Editing SVM user accounts
+        - title: Edit SVM user accounts
           url: "/online-help-96-97/task_editing_svm_user_accounts.html"
         - title: Locking or unlocking SVM user accounts
           url: "/online-help-96-97/task_locking_or_unlocking_svm_user_accounts.html"
@@ -1789,9 +1789,9 @@ entries:
       - title: Roles
         url: "/online-help-96-97/concept_roles_delete.html"
         entries:
-        - title: Adding roles
+        - title: Add roles
           url: "/online-help-96-97/task_adding_roles_delete.html"
-        - title: Editing roles
+        - title: Edit roles
           url: "/online-help-96-97/task_editing_roles_delete.html"
         - title: Roles window
           url: "/online-help-96-97/reference_roles_svm_scope_delete.html"
@@ -1803,27 +1803,27 @@ entries:
       - title: Windows
         url: "/online-help-96-97/concept_windows.html"
         entries:
-        - title: Creating a local Windows group
+        - title: Create a local Windows group
           url: "/online-help-96-97/task_creating_local_user_group.html"
-        - title: Editing local Windows group properties
+        - title: Edit local Windows group properties
           url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
-        - title: Adding user accounts to a Windows local group
+        - title: Add user accounts to a Windows local group
           url: "/online-help-96-97/task_adding_user_accounts_to_windows_local_group.html"
-        - title: Renaming a local Windows group
+        - title: Rename a local Windows group
           url: "/online-help-96-97/task_renaming_local_windows_group.html"
-        - title: Deleting a local Windows group
+        - title: Delete a local Windows group
           url: "/online-help-96-97/task_deleting_local_windows_group.html"
-        - title: Creating a local Windows user account
+        - title: Create a local Windows user account
           url: "/online-help-96-97/task_creating_local_windows_user_accounts.html"
-        - title: Editing the local Windows user properties
+        - title: Edit the local Windows user properties
           url: "/online-help-96-97/task_editing_local_windows_user_properties.html"
         - title: Assigning group memberships to a user account
           url: "/online-help-96-97/task_assigning_group_memberships_to_user_account.html"
-        - title: Renaming a local Windows user
+        - title: Rename a local Windows user
           url: "/online-help-96-97/task_renaming_local_windows_user.html"
-        - title: Resetting the password of a Windows local user
+        - title: Reset the password of a Windows local user
           url: "/online-help-96-97/task_changing_password_for_windows_local_users.html"
-        - title: Deleting a local Windows user account
+        - title: Delete a local Windows user account
           url: "/online-help-96-97/task_deleting_local_windows_user_account.html"
         - title: Windows window
           url: "/online-help-96-97/reference_windows_window.html"
@@ -1839,17 +1839,17 @@ entries:
       entries:
       - title: SVM Dashboard window
         url: "/online-help-96-97/reference_svm_dashboard_window.html"
-      - title: Monitoring SVMs
+      - title: Monitor SVMs
         url: "/online-help-96-97/task_monitoring_svm_using_dashboard.html"
-      - title: Editing SVM settings
+      - title: Edit SVM settings
         url: "/online-help-96-97/task_editing_svm_settings.html"
-      - title: Deleting SVMs
+      - title: Delete SVMs
         url: "/online-help-96-97/task_deleting_svms.html"
-      - title: Starting SVMs
+      - title: Start SVMs
         url: "/online-help-96-97/task_starting_svms.html"
-      - title: Stopping SVMs
+      - title: Stop SVMs
         url: "/online-help-96-97/task_stopping_svms.html"
-      - title: Managing SVMs
+      - title: Manage SVMs
         url: "/online-help-96-97/reference_managing_svms.html"
       - title: Tracing file access to diagnose access errors on SVMs
         url: "/online-help-96-97/task_tracing_file_access_to_diagnose_access_errors_on_svms.html"
@@ -1866,25 +1866,25 @@ entries:
     - title: Volumes
       url: "/online-help-96-97/concept_volumes.html"
       entries:
-      - title: Editing volume properties
+      - title: Edit volume properties
         url: "/online-help-96-97/task_editing_volume_properties.html"
-      - title: Editing data protection volumes
+      - title: Edit data protection volumes
         url: "/online-help-96-97/task_editing_data_protection_volumes.html"
-      - title: Deleting volumes
+      - title: Delete volumes
         url: "/online-help-96-97/task_deleting_volumes.html"
-      - title: Creating FlexClone volumes
+      - title: Create FlexClone volumes
         url: "/online-help-96-97/task_creating_flexclone_volumes.html"
-      - title: Creating FlexClone files
+      - title: Create FlexClone files
         url: "/online-help-96-97/task_creating_flexclone_files.html"
       - title: Splitting a FlexClone volume from its parent volume
         url: "/online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html"
-      - title: Viewing the FlexClone volume hierarchy
+      - title: View the FlexClone volume hierarchy
         url: "/online-help-96-97/task_viewing_flexclone_volumes_hierarchy.html"
-      - title: Changing the status of a volume
+      - title: Change the status of a volume
         url: "/online-help-96-97/task_changing_status_volume.html"
-      - title: Viewing the list of saved Snapshot copies
+      - title: View the list of saved Snapshot copies
         url: "/online-help-96-97/task_viewing_list_saved_snapshot_copies.html"
-      - title: Creating Snapshot copies outside a defined schedule
+      - title: Create Snapshot copies outside a defined schedule
         url: "/online-help-96-97/task_creating_snapshot_copies_outside_defined_schedule.html"
       - title: Setting the Snapshot copy reserve
         url: "/online-help-96-97/task_setting_snapshot_copy_reserve.html"
@@ -1892,21 +1892,21 @@ entries:
         url: "/online-help-96-97/task_hiding_snapshot_copy_directory.html"
       - title: Scheduling automatic creation of Snapshot copies
         url: "/online-help-96-97/task_scheduling_automatic_creation_snapshot_copies.html"
-      - title: Restoring a volume from a Snapshot copy
+      - title: Restore a volume from a Snapshot copy
         url: "/online-help-96-97/task_restoring_volume_from_snapshot_copy.html"
-      - title: Extending the expiry date of Snapshot copies
+      - title: Extend the expiry date of Snapshot copies
         url: "/online-help-96-97/task_extending_expiry_date_snapshot_copies.html"
-      - title: Renaming Snapshot copies
+      - title: Rename Snapshot copies
         url: "/online-help-96-97/task_renaming_snapshot_copies.html"
-      - title: Deleting Snapshot copies
+      - title: Delete Snapshot copies
         url: "/online-help-96-97/task_deleting_snapshot_copies.html"
-      - title: Resizing volumes
+      - title: Resize volumes
         url: "/online-help-96-97/task_resizing_volumes.html"
-      - title: Enabling storage efficiency on a volume
+      - title: Enable storage efficiency on a volume
         url: "/online-help-96-97/task_enabling_storage_efficiency_on_volume.html"
-      - title: Changing the deduplication schedule
+      - title: Change the deduplication schedule
         url: "/online-help-96-97/task_changing_deduplication_schedule.html"
-      - title: Running deduplication operations
+      - title: Run deduplication operations
         url: "/online-help-96-97/task_running_deduplication_operations.html"
       - title: Moving FlexVol volumes between aggregates or nodes
         url: "/online-help-96-97/task_moving_flexvol_volumes_between_aggregates_or_nodes.html"
@@ -1915,43 +1915,43 @@ entries:
           url: "/online-help-96-97/task_manually_triggering_cutover_phase.html"
       - title: Assigning volumes to Storage QoS
         url: "/online-help-96-97/task_assigning_volumes_to_storage_qos.html"
-      - title: Creating a mirror relationship from a source SVM
+      - title: Create a mirror relationship from a source SVM
         url: "/online-help-96-97/task_creating_mirror_relationship_from_source_volume.html"
-      - title: Creating a vault relationship from a source SVM
+      - title: Create a vault relationship from a source SVM
         url: "/online-help-96-97/task_creating_vault_relationship_from_source_svm.html"
-      - title: Creating a mirror and vault relationship from a source SVM
+      - title: Create a mirror and vault relationship from a source SVM
         url: "/online-help-96-97/task_creating_mirror_vault_relationship_from_source_svm.html"
-      - title: Creating an NFS datastore for VMware
+      - title: Create an NFS datastore for VMware
         url: "/online-help-96-97/task_creating_nfs_datastore_for_vmware.html"
-      - title: Changing the tiering policy of a volume
+      - title: Change the tiering policy of a volume
         url: "/online-help-96-97/task_changing_tiering_policy_volume_destination_topic_delete.html"
-      - title: Creating FlexGroup volumes
+      - title: Create FlexGroup volumes
         url: "/online-help-96-97/task_creating_flexgroup_volumes.html"
-      - title: Viewing FlexGroup volume information
+      - title: View FlexGroup volume information
         url: "/online-help-96-97/task_viewing_flexgroup_volume_information.html"
-      - title: Editing FlexGroup volumes
+      - title: Edit FlexGroup volumes
         url: "/online-help-96-97/task_editing_flexgroup_volumes.html"
       - title: Specifying advanced options for a FlexGroup volume
         url: "/online-help-96-97/task_specifying_advanced_options_for_flexgroup_volume.html"
-      - title: Resizing FlexGroup volumes
+      - title: Resize FlexGroup volumes
         url: "/online-help-96-97/task_resizing_flexgroup_volumes.html"
-      - title: Changing the status of a FlexGroup volume
+      - title: Change the status of a FlexGroup volume
         url: "/online-help-96-97/task_changing_status_flexgroup_volume.html"
-      - title: Deleting FlexGroup volumes
+      - title: Delete FlexGroup volumes
         url: "/online-help-96-97/task_deleting_flexgroup_volumes.html"
-      - title: Creating FlexCache volumes
+      - title: Create FlexCache volumes
         url: "/online-help-96-97/task_creating_flexcache_volumes.html"
-      - title: Viewing FlexCache volume information
+      - title: View FlexCache volume information
         url: "/online-help-96-97/task_viewing_flexcache_volume_information.html"
-      - title: Editing FlexCache volumes
+      - title: Edit FlexCache volumes
         url: "/online-help-96-97/task_editing_flexcache_volumes.html"
       - title: Specifying advanced options for a FlexCache volume
         url: "/online-help-96-97/task_specifying_advanced_options_for_flexcache_volume.html"
-      - title: Resizing FlexCache volumes
+      - title: Resize FlexCache volumes
         url: "/online-help-96-97/task_resizing_flexcache_volumes.html"
-      - title: Changing the status of a FlexCache volume
+      - title: Change the status of a FlexCache volume
         url: "/online-help-96-97/task_changing_status_flexcache_volume.html"
-      - title: Deleting FlexCache volumes
+      - title: Delete FlexCache volumes
         url: "/online-help-96-97/task_deleting_flexcache_volumes.html"
       - title: What NetApp Volume Encryption is
         url: "/online-help-96-97/concept_what_netapp_volume_encryption_is.html"
@@ -1980,24 +1980,24 @@ entries:
     - title: Junction Path
       url: "/online-help-96-97/concept_namespace.html"
       entries:
-      - title: Mounting volumes
+      - title: Mount volumes
         url: "/online-help-96-97/task_mounting_volumes.html"
-      - title: Unmounting FlexVol volumes
+      - title: Unmount FlexVol volumes
         url: "/online-help-96-97/task_unmounting_flexvol_volumes.html"
-      - title: Changing export policies
+      - title: Change export policies
         url: "/online-help-96-97/task_changing_export_policies.html"
       - title: Junction Path window
         url: "/online-help-96-97/reference_namespace.html"
     - title: Shares
       url: "/online-help-96-97/concept_shares.html"
       entries:
-      - title: Creating a CIFS share
+      - title: Create a CIFS share
         url: "/online-help-96-97/task_creating_cifs_share.html"
-      - title: Stopping share access
+      - title: Stop share access
         url: "/online-help-96-97/task_stopping_share_access.html"
-      - title: Creating home directory shares
+      - title: Create home directory shares
         url: "/online-help-96-97/task_creating_home_directory_share.html"
-      - title: Editing share settings
+      - title: Edit share settings
         url: "/online-help-96-97/task_editing_share_settings.html"
       - title: How ONTAP enables dynamic home directories
         url: "/online-help-96-97/concept_how_clustered_data_ontap_enables_dynamic_home_directories.html"
@@ -2006,55 +2006,55 @@ entries:
     - title: LUNs
       url: "/online-help-96-97/concept_luns.html"
       entries:
-      - title: Creating FC SAN optimized LUNs
+      - title: Create FC SAN optimized LUNs
         url: "/online-help-96-97/task_creating_fc_san_optimized_luns.html"
       - title: Application-specific LUN settings
         url: "/online-help-96-97/reference_application_specific_lun_settings.html"
-      - title: Creating LUNs
+      - title: Create LUNs
         url: "/online-help-96-97/task_creating_luns.html"
-      - title: Deleting LUNs
+      - title: Delete LUNs
         url: "/online-help-96-97/task_deleting_luns.html"
-      - title: Creating initiator groups
+      - title: Create initiator groups
         url: "/online-help-96-97/task_creating_initiator_groups.html"
-      - title: Deleting initiator groups
+      - title: Delete initiator groups
         url: "/online-help-96-97/task_deleting_initiator_groups.html"
-      - title: Adding initiators
+      - title: Add initiators
         url: "/online-help-96-97/task_adding_initiators.html"
-      - title: Deleting initiators from an initiator group
+      - title: Delete initiators from an initiator group
         url: "/online-help-96-97/task_deleting_initiators_from_initiator_group.html"
-      - title: Creating port sets
+      - title: Create port sets
         url: "/online-help-96-97/task_creating_portsets.html"
-      - title: Deleting port sets
+      - title: Delete port sets
         url: "/online-help-96-97/task_deleting_portsets.html"
       - title: Cloning LUNs
         url: "/online-help-96-97/task_cloning_luns.html"
-      - title: Editing LUNs
+      - title: Edit LUNs
         url: "/online-help-96-97/task_editing_luns.html"
       - title: Bringing LUNs online
         url: "/online-help-96-97/task_bringing_luns_online.html"
-      - title: Taking LUNs offline
+      - title: Take LUNs offline
         url: "/online-help-96-97/task_taking_luns_offline.html"
       - title: Moving LUNs
         url: "/online-help-96-97/task_moving_luns.html"
       - title: Assigning LUNs to storage QoS
         url: "/online-help-96-97/task_assigning_luns_to_storage_qos.html"
-      - title: Editing initiator groups
+      - title: Edit initiator groups
         url: "/online-help-96-97/task_editing_initiator_groups.html"
-      - title: Editing initiators
+      - title: Edit initiators
         url: "/online-help-96-97/task_editing_initiators.html"
-      - title: Editing port sets
+      - title: Edit port sets
         url: "/online-help-96-97/task_editing_port_sets.html"
-      - title: Viewing LUN information
+      - title: View LUN information
         url: "/online-help-96-97/task_viewing_lun_information.html"
-      - title: Viewing initiator groups
+      - title: View initiator groups
         url: "/online-help-96-97/task_viewing_initiator_groups.html"
       - title: Guidelines for working with FlexVol volumes that contain LUNs
         url: "/online-help-96-97/concept_guidelines_working_with_volumes_that_contain_luns.html"
-      - title: Understanding space reservations for LUNs
+      - title: Understand space reservations for LUNs
         url: "/online-help-96-97/concept_using_space_reservation_for_luns.html"
       - title: Guidelines for using LUN multiprotocol type
         url: "/online-help-96-97/concept_lun_multiprotocol_type_guidelines.html"
-      - title: Understanding LUN clones
+      - title: Understand LUN clones
         url: "/online-help-96-97/concept_understanding_lun_clones.html"
       - title: Initiator hosts
         url: "/online-help-96-97/concept_initiator_hosts.html"
@@ -2069,15 +2069,15 @@ entries:
     - title: Qtrees
       url: "/online-help-96-97/concept_qtrees.html"
       entries:
-      - title: Creating qtrees
+      - title: Create qtrees
         url: "/online-help-96-97/task_creating_qtrees.html"
-      - title: Deleting qtrees
+      - title: Delete qtrees
         url: "/online-help-96-97/task_deleting_qtrees.html"
-      - title: Editing qtrees
+      - title: Edit qtrees
         url: "/online-help-96-97/task_editing_qtrees.html"
       - title: Assigning export policies to qtrees
         url: "/online-help-96-97/task_assigning_export_policies_to_qtrees.html"
-      - title: Viewing qtree information
+      - title: View qtree information
         url: "/online-help-96-97/task_viewing_qtree_information.html"
       - title: Qtree options
         url: "/online-help-96-97/concept_qtree_options.html"
@@ -2086,17 +2086,17 @@ entries:
     - title: Quotas
       url: "/online-help-96-97/concept_quotas.html"
       entries:
-      - title: Creating quotas
+      - title: Create quotas
         url: "/online-help-96-97/task_creating_quotas.html"
-      - title: Deleting quotas
+      - title: Delete quotas
         url: "/online-help-96-97/task_deleting_quotas.html"
-      - title: Editing quota limits
+      - title: Edit quota limits
         url: "/online-help-96-97/task_editing_quota_limits.html"
-      - title: Activating or deactivating quotas
+      - title: Activate or deactivate quotas
         url: "/online-help-96-97/task_activating_or_deactivating_quotas.html"
-      - title: Resizing quotas
+      - title: Resize quotas
         url: "/online-help-96-97/task_resizing_quotas.html"
-      - title: Viewing quota information
+      - title: View quota information
         url: "/online-help-96-97/task_viewing_quota_information.html"
       - title: Types of quotas
         url: "/online-help-96-97/concept_types_quotas.html"
@@ -2109,68 +2109,68 @@ entries:
     - title: CIFS protocol
       url: "/online-help-96-97/concept_cifs_protocol.html"
       entries:
-      - title: Setting up CIFS
+      - title: Set up CIFS
         url: "/online-help-96-97/task_setting_up_cifs.html"
-      - title: Editing the general properties for CIFS
+      - title: Edit the general properties for CIFS
         url: "/online-help-96-97/task_editing_cifs_general_properties.html"
-      - title: Adding home directory paths
+      - title: Add home directory paths
         url: "/online-help-96-97/task_adding_home_directory_paths.html"
-      - title: Deleting home directory paths
+      - title: Delete home directory paths
         url: "/online-help-96-97/task_deleting_home_directory_paths.html"
-      - title: Resetting CIFS domain controllers
+      - title: Reset CIFS domain controllers
         url: "/online-help-96-97/task_resetting_cifs_domain_controllers.html"
-      - title: Updating the CIFS group policy configuration
+      - title: Update the CIFS group policy configuration
         url: "/online-help-96-97/task_updating_cifs_group_policy_configuration.html"
-      - title: Enabling or disabling a CIFS group policy configuration
+      - title: Enable or disable a CIFS group policy configuration
         url: "/online-help-96-97/task_enabling_or_disabling_cifs_group_policy.html"
       - title: Reloading CIFS group policy
         url: "/online-help-96-97/task_reloading_cifs_group_policy.html"
-      - title: Setting up BranchCache
+      - title: Set up BranchCache
         url: "/online-help-96-97/task_setting_up_branchcache.html"
       - title: Modifying the BranchCache settings
         url: "/online-help-96-97/task_modifying_branchcache_settings.html"
-      - title: Deleting the BranchCache configuration
+      - title: Delete the BranchCache configuration
         url: "/online-help-96-97/task_deleting_branchcache_configuration.html"
-      - title: Adding preferred domain controllers
+      - title: Add preferred domain controllers
         url: "/online-help-96-97/task_adding_preferred_domain_controllers.html"
-      - title: Editing preferred domain controllers
+      - title: Edit preferred domain controllers
         url: "/online-help-96-97/task_editing_preferred_domain_controllers.html"
-      - title: Deleting preferred domain controllers
+      - title: Delete preferred domain controllers
         url: "/online-help-96-97/task_deleting_preferred_domain_controllers.html"
-      - title: Viewing CIFS domain information
+      - title: View CIFS domain information
         url: "/online-help-96-97/task_viewing_cifs_domain_information.html"
       - title: CIFS window
         url: "/online-help-96-97/reference_cifs_window.html"
     - title: NFS protocol
       url: "/online-help-96-97/concept_nfs_protocol.html"
       entries:
-      - title: Editing NFS settings
+      - title: Edit NFS settings
         url: "/online-help-96-97/task_editing_nfs_settings.html"
       - title: NFS window
         url: "/online-help-96-97/reference_nfs_window.html"
     - title: NVMe protocol
       url: "/online-help-96-97/concept_nvme_protocol.html"
       entries:
-      - title: Setting up NVMe
+      - title: Set up NVMe
         url: "/online-help-96-97/concept_setting_up_nvme.html"
-      - title: Creating an NVMe namespace
+      - title: Create an NVMe namespace
         url: "/online-help-96-97/task_creating_nvme_namespace.html"
-      - title: Editing an NVMe namespace
+      - title: Edit an NVMe namespace
         url: "/online-help-96-97/task_editing_nvme_namespace.html"
       - title: Cloning an NVMe namespace
         url: "/online-help-96-97/task_cloning_nvme_namespace.html"
-      - title: Starting and stopping the NVMe service
+      - title: Start and stopping the NVMe service
         url: "/online-help-96-97/task_starting_or_stopping_nvme_service.html"
       - title: What NVMe is
         url: "/online-help-96-97/concept_what_nvme_is.html"
       - title: What an NVMe subsystem is
         url: "/online-help-96-97/concept_what_nvme_subsystem_is.html"
         entries:
-        - title: Creating NVMe subsystems
+        - title: Create NVMe subsystems
           url: "/online-help-96-97/task_creating_nvme_subsystems.html"
-        - title: Editing NVMe subsystems details
+        - title: Edit NVMe subsystems details
           url: "/online-help-96-97/task_editing_nvme_subsystem_details.html"
-        - title: Deleting an NVMe subsystem
+        - title: Delete an NVMe subsystem
           url: "/online-help-96-97/task_deleting_nvme_subsystem.html"
         - title: NVMe Subsystems window
           url: "/online-help-96-97/reference_nvme_subsystems_window.html"
@@ -2181,32 +2181,32 @@ entries:
     - title: iSCSI protocol
       url: "/online-help-96-97/concept_iscsi_protocol.html"
       entries:
-      - title: Creating iSCSI aliases
+      - title: Create iSCSI aliases
         url: "/online-help-96-97/task_creating_iscsi_aliases.html"
-      - title: Enabling or disabling the iSCSI service on storage system interfaces
+      - title: Enable or disable the iSCSI service on storage system interfaces
         url: "/online-help-96-97/task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.html"
-      - title: Adding the security method for iSCSI initiators
+      - title: Add the security method for iSCSI initiators
         url: "/online-help-96-97/task_adding_security_method_for_iscsi_initiators.html"
-      - title: Editing default security settings
+      - title: Edit default security settings
         url: "/online-help-96-97/task_editing_default_security_settings.html"
-      - title: Editing initiator security
+      - title: Edit initiator security
         url: "/online-help-96-97/task_editing_initiator_security.html"
-      - title: Changing the default iSCSI initiator authentication method
+      - title: Change the default iSCSI initiator authentication method
         url: "/online-help-96-97/task_changing_default_initiator_authentication_method.html"
       - title: Setting the default security for iSCSI initiators
         url: "/online-help-96-97/task_setting_default_security_for_initiators.html"
-      - title: Starting or stopping the iSCSI service
+      - title: Start or stopping the iSCSI service
         url: "/online-help-96-97/task_starting_or_stopping_iscsi_service.html"
-      - title: Viewing initiator security information
+      - title: View initiator security information
         url: "/online-help-96-97/task_viewing_initiator_security_information.html"
       - title: iSCSI window
         url: "/online-help-96-97/reference_iscsi_window.html"
     - title: FC/FCoE protocol
       url: "/online-help-96-97/concept_fc_fcoe_protocol.html"
       entries:
-      - title: Starting or stopping the FC or FCoE service
+      - title: Start or stopping the FC or FCoE service
         url: "/online-help-96-97/task_starting_or_stopping_fc_or_fcoe_service.html"
-      - title: Changing an FC or FCoE node name
+      - title: Change an FC or FCoE node name
         url: "/online-help-96-97/task_changing_fc_or_fcoe_node_name.html"
       - title: The FCoE protocol
         url: "/online-help-96-97/concept_fcoe_protocol.html"
@@ -2215,17 +2215,17 @@ entries:
     - title: Export policies
       url: "/online-help-96-97/concept_export_policies.html"
       entries:
-      - title: Creating an export policy
+      - title: Create an export policy
         url: "/online-help-96-97/task_creating_export_policy.html"
-      - title: Renaming export policies
+      - title: Rename export policies
         url: "/online-help-96-97/task_renaming_export_policies.html"
-      - title: Deleting export policies
+      - title: Delete export policies
         url: "/online-help-96-97/task_deleting_export_policies.html"
-      - title: Adding rules to an export policy
+      - title: Add rules to an export policy
         url: "/online-help-96-97/task_adding_rules_to_export_policy.html"
       - title: Modifying export policy rules
         url: "/online-help-96-97/task_modifying_export_policy_rules.html"
-      - title: Deleting export policy rules
+      - title: Delete export policy rules
         url: "/online-help-96-97/task_deleting_export_policy_rules.html"
       - title: How export policies control client access to volumes or qtrees
         url: "/online-help-96-97/concept_how_export_policies_control_client_access_to_volumes.html"
@@ -2234,41 +2234,41 @@ entries:
     - title: Efficiency policies
       url: "/online-help-96-97/concept_efficiency_policies.html"
       entries:
-      - title: Adding efficiency policies
+      - title: Add efficiency policies
         url: "/online-help-96-97/task_adding_efficiency_policies.html"
-      - title: Editing efficiency policies
+      - title: Edit efficiency policies
         url: "/online-help-96-97/task_editing_efficiency_policies.html"
-      - title: Deleting efficiency policies
+      - title: Delete efficiency policies
         url: "/online-help-96-97/task_deleting_efficiency_policies.html"
-      - title: Enabling or disabling efficiency policies
+      - title: Enable or disable efficiency policies
         url: "/online-help-96-97/task_enabling_or_disabling_efficiency_policies.html"
       - title: What an efficiency policy is
         url: "/online-help-96-97/concept_what_efficiency_policy_is.html"
-      - title: Understanding predefined efficiency policies
+      - title: Understand predefined efficiency policies
         url: "/online-help-96-97/concept_understanding_predefined_efficiency_policies.html"
       - title: Efficiency Policies window
         url: "/online-help-96-97/reference_efficiency_policies.html"
     - title: Protection policies
       url: "/online-help-96-97/concept_protection_policies.html"
       entries:
-      - title: Creating protection policies
+      - title: Create protection policies
         url: "/online-help-96-97/task_creating_protection_policies.html"
-      - title: Deleting protection policies
+      - title: Delete protection policies
         url: "/online-help-96-97/task_deleting_protection_policies.html"
-      - title: Editing protection policies
+      - title: Edit protection policies
         url: "/online-help-96-97/task_editing_protection_policies.html"
       - title: Protection Policies window
         url: "/online-help-96-97/reference_protection_policies_window.html"
     - title: QoS policy groups
       url: "/online-help-96-97/concept_qos_policies.html"
       entries:
-      - title: Creating QoS policy groups
+      - title: Create QoS policy groups
         url: "/online-help-96-97/task_creating_qos_policy_groups.html"
-      - title: Deleting QoS policy groups
+      - title: Delete QoS policy groups
         url: "/online-help-96-97/task_deleting_qos_policy_groups.html"
-      - title: Editing QoS policy groups
+      - title: Edit QoS policy groups
         url: "/online-help-96-97/task_editing_qos_policy_groups.html"
-      - title: Managing workload performance by using Storage QoS
+      - title: Manage workload performance by using Storage QoS
         url: "/online-help-96-97/concept_managing_workload_performance_by_using_storage_qos.html"
       - title: How Storage QoS works
         url: "/online-help-96-97/concept_how_storage_qos_works.html"
@@ -2281,40 +2281,40 @@ entries:
     - title: NIS services
       url: "/online-help-96-97/concept_nis_services.html"
       entries:
-      - title: Adding NIS domains
+      - title: Add NIS domains
         url: "/online-help-96-97/task_adding_nis_domains.html"
-      - title: Editing NIS domains
+      - title: Edit NIS domains
         url: "/online-help-96-97/task_editing_nis_domains.html"
       - title: NIS window
         url: "/online-help-96-97/reference_nis_window.html"
     - title: LDAP client services
       url: "/online-help-96-97/concept_ldap_client_services.html"
       entries:
-      - title: Adding an LDAP client configuration
+      - title: Add an LDAP client configuration
         url: "/online-help-96-97/task_adding_ldap_client_configuration.html"
-      - title: Deleting an LDAP client configuration
+      - title: Delete an LDAP client configuration
         url: "/online-help-96-97/task_deleting_ldap_client_configuration.html"
-      - title: Editing an LDAP client configuration
+      - title: Edit an LDAP client configuration
         url: "/online-help-96-97/task_editing_ldap_client_configuration.html"
       - title: LDAP Client window
         url: "/online-help-96-97/reference_ldap_client_window_svm.html"
     - title: LDAP configuration services
       url: "/online-help-96-97/concept_ldap_configuration_services.html"
       entries:
-      - title: Editing active LDAP clients
+      - title: Edit active LDAP clients
         url: "/online-help-96-97/task_editing_active_ldap_clients_svm.html"
-      - title: Deleting active LDAP clients
+      - title: Delete active LDAP clients
         url: "/online-help-96-97/task_deleting_active_ldap_clients_svm.html"
       - title: LDAP Configuration window
         url: "/online-help-96-97/reference_ldap_configuration_window.html"
     - title: Kerberos realm services
       url: "/online-help-96-97/concept_kerberos_realm_services.html"
       entries:
-      - title: Creating a Kerberos realm configuration
+      - title: Create a Kerberos realm configuration
         url: "/online-help-96-97/task_creating_kerberos_realm_configurations.html"
-      - title: Editing a Kerberos realm configuration
+      - title: Edit a Kerberos realm configuration
         url: "/online-help-96-97/task_editing_kerberos_realm_configurations.html"
-      - title: Deleting Kerberos realm configurations
+      - title: Delete Kerberos realm configurations
         url: "/online-help-96-97/task_deleting_kerberos_realm_configurations.html"
       - title: Using Kerberos with NFS for strong security
         url: "/online-help-96-97/concept_using_kerberos_with_nfs_for_strong_security.html"
@@ -2325,27 +2325,27 @@ entries:
     - title: Kerberos interface services
       url: "/online-help-96-97/concept_kerberos_interface_services.html"
       entries:
-      - title: Editing Kerberos configuration
+      - title: Edit Kerberos configuration
         url: "/online-help-96-97/task_editing_kerberos_configuration.html"
       - title: Kerberos Interface window
         url: "/online-help-96-97/reference_kerberos_interface_window.html"
     - title: DNS/DDNS Services
       url: "/online-help-96-97/concept_dns_ddns_services.html"
       entries:
-      - title: Enabling or disabling DDNS
+      - title: Enable or disable DDNS
         url: "/online-help-96-97/task_enabling_or_disabling_ddns.html"
-      - title: Editing DNS and DDNS settings
+      - title: Edit DNS and DDNS settings
         url: "/online-help-96-97/task_editing_dns_ddns_settings.html"
       - title: DNS/DDNS Services window
         url: "/online-help-96-97/reference_dns_ddns_window.html"
     - title: Users
       url: "/online-help-96-97/concept_svm_user_accounts.html"
       entries:
-      - title: Adding SVM user accounts
+      - title: Add SVM user accounts
         url: "/online-help-96-97/task_adding_svm_user_accounts.html"
-      - title: Changing the password for SVM user accounts
+      - title: Change the password for SVM user accounts
         url: "/online-help-96-97/task_changing_passwords_for_vserver_user_accounts.html"
-      - title: Editing SVM user accounts
+      - title: Edit SVM user accounts
         url: "/online-help-96-97/task_editing_svm_user_accounts.html"
       - title: Locking or unlocking SVM user accounts
         url: "/online-help-96-97/task_locking_or_unlocking_svm_user_accounts.html"
@@ -2354,9 +2354,9 @@ entries:
     - title: Roles
       url: "/online-help-96-97/concept_roles_delete.html"
       entries:
-      - title: Adding roles
+      - title: Add roles
         url: "/online-help-96-97/task_adding_roles_delete.html"
-      - title: Editing roles
+      - title: Edit roles
         url: "/online-help-96-97/task_editing_roles_delete.html"
       - title: Roles window
         url: "/online-help-96-97/reference_roles_svm_scope_delete.html"
@@ -2368,27 +2368,27 @@ entries:
     - title: Windows
       url: "/online-help-96-97/concept_windows.html"
       entries:
-      - title: Creating a local Windows group
+      - title: Create a local Windows group
         url: "/online-help-96-97/task_creating_local_user_group.html"
-      - title: Editing local Windows group properties
+      - title: Edit local Windows group properties
         url: "/online-help-96-97/task_editing_local_windows_group_properties.html"
-      - title: Adding user accounts to a Windows local group
+      - title: Add user accounts to a Windows local group
         url: "/online-help-96-97/task_adding_user_accounts_to_windows_local_group.html"
-      - title: Renaming a local Windows group
+      - title: Rename a local Windows group
         url: "/online-help-96-97/task_renaming_local_windows_group.html"
-      - title: Deleting a local Windows group
+      - title: Delete a local Windows group
         url: "/online-help-96-97/task_deleting_local_windows_group.html"
-      - title: Creating a local Windows user account
+      - title: Create a local Windows user account
         url: "/online-help-96-97/task_creating_local_windows_user_accounts.html"
-      - title: Editing the local Windows user properties
+      - title: Edit the local Windows user properties
         url: "/online-help-96-97/task_editing_local_windows_user_properties.html"
       - title: Assigning group memberships to a user account
         url: "/online-help-96-97/task_assigning_group_memberships_to_user_account.html"
-      - title: Renaming a local Windows user
+      - title: Rename a local Windows user
         url: "/online-help-96-97/task_renaming_local_windows_user.html"
-      - title: Resetting the password of a Windows local user
+      - title: Reset the password of a Windows local user
         url: "/online-help-96-97/task_changing_password_for_windows_local_users.html"
-      - title: Deleting a local Windows user account
+      - title: Delete a local Windows user account
         url: "/online-help-96-97/task_deleting_local_windows_user_account.html"
       - title: Windows window
         url: "/online-help-96-97/reference_windows_window.html"
@@ -2399,93 +2399,93 @@ entries:
         url: "/online-help-96-97/concept_name_mapping_conversion_rules.html"
       - title: Name Mapping window
         url: "/online-help-96-97/reference_name_mapping_window.html"
-    - title: Managing data protection
+    - title: Manage data protection
       url: "/online-help-96-97/concept_managing_data_protection.html"
       entries:
       - title: Mirror relationships
         url: "/online-help-96-97/concept_mirror_relationships.html"
         entries:
-        - title: Creating a mirror relationship from a destination SVM
+        - title: Create a mirror relationship from a destination SVM
           url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
-        - title: Deleting mirror relationships
+        - title: Delete mirror relationships
           url: "/online-help-96-97/task_deleting_mirror_relationships.html"
-        - title: Editing mirror relationships
+        - title: Edit mirror relationships
           url: "/online-help-96-97/task_editing_mirror_relationships.html"
-        - title: Initializing mirror relationships
+        - title: Initialize mirror relationships
           url: "/online-help-96-97/task_initializing_mirror_relationships.html"
-        - title: Updating mirror relationships
+        - title: Update mirror relationships
           url: "/online-help-96-97/task_updating_mirror_relationships.html"
         - title: Quiescing mirror relationships
           url: "/online-help-96-97/task_quiescing_mirror_relationships.html"
-        - title: Resuming mirror relationships
+        - title: Resume mirror relationships
           url: "/online-help-96-97/task_resuming_mirror_relationships.html"
-        - title: Breaking SnapMirror relationships
+        - title: Break SnapMirror relationships
           url: "/online-help-96-97/task_breaking_snapmirror_relationships.html"
-        - title: Resynchronizing mirror relationships
+        - title: Resynchronize mirror relationships
           url: "/online-help-96-97/task_resynchronizing_mirror_relationships.html"
         - title: Reverse resynchronizing mirror relationships
           url: "/online-help-96-97/task_reverse_resynchronizing_snapmirror_relationships.html"
-        - title: Aborting a mirror transfer
+        - title: Abort a mirror transfer
           url: "/online-help-96-97/task_aborting_mirror_relationships.html"
-        - title: Restoring a volume in a mirror relationship
+        - title: Restore a volume in a mirror relationship
           url: "/online-help-96-97/task_restoring_volume_mirror_relationship.html"
         - title: How SnapMirror relationships work
           url: "/online-help-96-97/concept_how_snapmirror_relationships_work.html"
       - title: Vault relationships
         url: "/online-help-96-97/concept_vault_relationships.html"
         entries:
-        - title: Creating a vault relationship from a destination SVM
+        - title: Create a vault relationship from a destination SVM
           url: "/online-help-96-97/task_creating_vault_relationship_from_destination_svm.html"
-        - title: Deleting vault relationships
+        - title: Delete vault relationships
           url: "/online-help-96-97/task_deleting_vault_relationships.html"
-        - title: Editing vault relationships
+        - title: Edit vault relationships
           url: "/online-help-96-97/task_editing_vault_relationships.html"
-        - title: Initializing a vault relationship
+        - title: Initialize a vault relationship
           url: "/online-help-96-97/task_initializing_vault_relationships.html"
-        - title: Updating a vault relationship
+        - title: Update a vault relationship
           url: "/online-help-96-97/task_updating_vault_relationships.html"
         - title: Quiescing a vault relationship
           url: "/online-help-96-97/task_quiescing_vault_relationships.html"
-        - title: Resuming a vault relationship
+        - title: Resume a vault relationship
           url: "/online-help-96-97/task_resuming_vault_relationships.html"
-        - title: Aborting a Snapshot copy transfer
+        - title: Abort a Snapshot copy transfer
           url: "/online-help-96-97/task_aborting_vault_relationships.html"
-        - title: Restoring a volume in a vault relationship
+        - title: Restore a volume in a vault relationship
           url: "/online-help-96-97/task_restoring_volume_vault_relationship.html"
         - title: What a SnapVault backup is
           url: "/online-help-96-97/concept_what_snapvault_backup_is.html"
       - title: Mirror and vault relationships
         url: "/online-help-96-97/concept_mirror_vault_relationships.html"
         entries:
-        - title: Creating a mirror and vault relationship from a destination SVM
+        - title: Create a mirror and vault relationship from a destination SVM
           url: "/online-help-96-97/task_creating_mirror_vault_relationship_from_destination_svm.html"
-        - title: Deleting mirror and vault relationships
+        - title: Delete mirror and vault relationships
           url: "/online-help-96-97/task_deleting_mirror_vault_relationships.html"
-        - title: Editing mirror and vault relationships
+        - title: Edit mirror and vault relationships
           url: "/online-help-96-97/task_editing_mirror_vault_relationships.html"
-        - title: Initializing mirror and vault relationships
+        - title: Initialize mirror and vault relationships
           url: "/online-help-96-97/task_initializing_mirror_vault_relationships.html"
-        - title: Updating mirror and vault relationships
+        - title: Update mirror and vault relationships
           url: "/online-help-96-97/task_updating_mirror_vault_relationships.html"
         - title: Quiescing mirror and vault relationships
           url: "/online-help-96-97/task_quiescing_mirror_vault_relationships.html"
-        - title: Resuming mirror and vault relationships
+        - title: Resume mirror and vault relationships
           url: "/online-help-96-97/task_resuming_mirror_vault_relationships.html"
-        - title: Breaking mirror and vault relationships
+        - title: Break mirror and vault relationships
           url: "/online-help-96-97/task_breaking_mirror_vault_relationships.html"
-        - title: Resynchronizing mirror and vault relationships
+        - title: Resynchronize mirror and vault relationships
           url: "/online-help-96-97/task_resynchronizing_mirror_vault_relationships.html"
         - title: Reverse resynchronizing mirror and vault relationships
           url: "/online-help-96-97/task_reverse_resynchronizing_mirror_vault_relationships.html"
-        - title: Aborting mirror and vault relationships
+        - title: Abort mirror and vault relationships
           url: "/online-help-96-97/task_aborting_mirror_vault_relationships.html"
-        - title: Restoring a volume in a mirror and vault relationship
+        - title: Restore a volume in a mirror and vault relationship
           url: "/online-help-96-97/task_restoring_volume_mirror_vault_relationship.html"
       - title: What lag time is
         url: "/online-help-96-97/reference_what_lag_time_is.html"
       - title: Types of data protection relationships
         url: "/online-help-96-97/concept_types_data_protection_relationships.html"
-      - title: Understanding workloads supported by StrictSync and Sync policies
+      - title: Understand workloads supported by StrictSync and Sync policies
         url: "/online-help-96-97/concept_understanding_workloads_supported_by_strictsync_sync_policies.html"
       - title: SnapMirror licensing
         url: "/online-help-96-97/concept_snapmirror_licensing.html"
@@ -2494,29 +2494,29 @@ entries:
       - title: SVM Relationships
         url: "/online-help-96-97/concept_svm_relationships.html"
         entries:
-        - title: Creating SVM relationships
+        - title: Create SVM relationships
           url: "/online-help-96-97/task_creating_svm_relationships.html"
-        - title: Editing SVM relationships
+        - title: Edit SVM relationships
           url: "/online-help-96-97/task_editing_svm_relationships.html"
-        - title: Managing SVM relationships
+        - title: Manage SVM relationships
           url: "/online-help-96-97/task_managing_svm_relationships.html"
         - title: SVM Relationships Window
           url: "/online-help-96-97/reference_svm_relationships_window.html"
       - title: Protection policies
         url: "/online-help-96-97/concept_protection_policies.html"
         entries:
-        - title: Creating protection policies
+        - title: Create protection policies
           url: "/online-help-96-97/task_creating_protection_policies_cluster_scope.html"
         - title: Protection Policies window
           url: "/online-help-96-97/reference_protection_policies_window.html"
       - title: Snapshot policies
         url: "/online-help-96-97/concept_snapshot_policies.html"
         entries:
-        - title: Creating Snapshot policies
+        - title: Create Snapshot policies
           url: "/online-help-96-97/task_adding_snapshot_policies.html"
-        - title: Editing Snapshot policies
+        - title: Edit Snapshot policies
           url: "/online-help-96-97/task_editing_snapshot_policies.html"
-        - title: Deleting Snapshot policies
+        - title: Delete Snapshot policies
           url: "/online-help-96-97/task_deleting_snapshot_policies.html"
         - title: About Snapshot policies
           url: "/online-help-96-97/concept_about_snapshot_policies.html"
@@ -2525,11 +2525,11 @@ entries:
       - title: Schedules
         url: "/online-help-96-97/concept_schedules.html"
         entries:
-        - title: Creating schedules
+        - title: Create schedules
           url: "/online-help-96-97/task_creating_schedules.html"
-        - title: Editing schedules
+        - title: Edit schedules
           url: "/online-help-96-97/task_editing_schedules.html"
-        - title: Deleting schedules
+        - title: Delete schedules
           url: "/online-help-96-97/task_deleting_schedules.html"
         - title: Schedules
           url: "/online-help-96-97/concept_schedules_conceptual.html"
@@ -2538,108 +2538,108 @@ entries:
     - title: Mirror relationships
       url: "/online-help-96-97/concept_mirror_relationships.html"
       entries:
-      - title: Creating a mirror relationship from a destination SVM
+      - title: Create a mirror relationship from a destination SVM
         url: "/online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html"
-      - title: Deleting mirror relationships
+      - title: Delete mirror relationships
         url: "/online-help-96-97/task_deleting_mirror_relationships.html"
-      - title: Editing mirror relationships
+      - title: Edit mirror relationships
         url: "/online-help-96-97/task_editing_mirror_relationships.html"
-      - title: Initializing mirror relationships
+      - title: Initialize mirror relationships
         url: "/online-help-96-97/task_initializing_mirror_relationships.html"
-      - title: Updating mirror relationships
+      - title: Update mirror relationships
         url: "/online-help-96-97/task_updating_mirror_relationships.html"
       - title: Quiescing mirror relationships
         url: "/online-help-96-97/task_quiescing_mirror_relationships.html"
-      - title: Resuming mirror relationships
+      - title: Resume mirror relationships
         url: "/online-help-96-97/task_resuming_mirror_relationships.html"
-      - title: Breaking SnapMirror relationships
+      - title: Break SnapMirror relationships
         url: "/online-help-96-97/task_breaking_snapmirror_relationships.html"
-      - title: Resynchronizing mirror relationships
+      - title: Resynchronize mirror relationships
         url: "/online-help-96-97/task_resynchronizing_mirror_relationships.html"
       - title: Reverse resynchronizing mirror relationships
         url: "/online-help-96-97/task_reverse_resynchronizing_snapmirror_relationships.html"
-      - title: Aborting a mirror transfer
+      - title: Abort a mirror transfer
         url: "/online-help-96-97/task_aborting_mirror_relationships.html"
-      - title: Restoring a volume in a mirror relationship
+      - title: Restore a volume in a mirror relationship
         url: "/online-help-96-97/task_restoring_volume_mirror_relationship.html"
       - title: How SnapMirror relationships work
         url: "/online-help-96-97/concept_how_snapmirror_relationships_work.html"
     - title: Vault relationships
       url: "/online-help-96-97/concept_vault_relationships.html"
       entries:
-      - title: Creating a vault relationship from a destination SVM
+      - title: Create a vault relationship from a destination SVM
         url: "/online-help-96-97/task_creating_vault_relationship_from_destination_svm.html"
-      - title: Deleting vault relationships
+      - title: Delete vault relationships
         url: "/online-help-96-97/task_deleting_vault_relationships.html"
-      - title: Editing vault relationships
+      - title: Edit vault relationships
         url: "/online-help-96-97/task_editing_vault_relationships.html"
-      - title: Initializing a vault relationship
+      - title: Initialize a vault relationship
         url: "/online-help-96-97/task_initializing_vault_relationships.html"
-      - title: Updating a vault relationship
+      - title: Update a vault relationship
         url: "/online-help-96-97/task_updating_vault_relationships.html"
       - title: Quiescing a vault relationship
         url: "/online-help-96-97/task_quiescing_vault_relationships.html"
-      - title: Resuming a vault relationship
+      - title: Resume a vault relationship
         url: "/online-help-96-97/task_resuming_vault_relationships.html"
-      - title: Aborting a Snapshot copy transfer
+      - title: Abort a Snapshot copy transfer
         url: "/online-help-96-97/task_aborting_vault_relationships.html"
-      - title: Restoring a volume in a vault relationship
+      - title: Restore a volume in a vault relationship
         url: "/online-help-96-97/task_restoring_volume_vault_relationship.html"
       - title: What a SnapVault backup is
         url: "/online-help-96-97/concept_what_snapvault_backup_is.html"
     - title: Mirror and vault relationships
       url: "/online-help-96-97/concept_mirror_vault_relationships.html"
       entries:
-      - title: Creating a mirror and vault relationship from a destination SVM
+      - title: Create a mirror and vault relationship from a destination SVM
         url: "/online-help-96-97/task_creating_mirror_vault_relationship_from_destination_svm.html"
-      - title: Deleting mirror and vault relationships
+      - title: Delete mirror and vault relationships
         url: "/online-help-96-97/task_deleting_mirror_vault_relationships.html"
-      - title: Editing mirror and vault relationships
+      - title: Edit mirror and vault relationships
         url: "/online-help-96-97/task_editing_mirror_vault_relationships.html"
-      - title: Initializing mirror and vault relationships
+      - title: Initialize mirror and vault relationships
         url: "/online-help-96-97/task_initializing_mirror_vault_relationships.html"
-      - title: Updating mirror and vault relationships
+      - title: Update mirror and vault relationships
         url: "/online-help-96-97/task_updating_mirror_vault_relationships.html"
       - title: Quiescing mirror and vault relationships
         url: "/online-help-96-97/task_quiescing_mirror_vault_relationships.html"
-      - title: Resuming mirror and vault relationships
+      - title: Resume mirror and vault relationships
         url: "/online-help-96-97/task_resuming_mirror_vault_relationships.html"
-      - title: Breaking mirror and vault relationships
+      - title: Break mirror and vault relationships
         url: "/online-help-96-97/task_breaking_mirror_vault_relationships.html"
-      - title: Resynchronizing mirror and vault relationships
+      - title: Resynchronize mirror and vault relationships
         url: "/online-help-96-97/task_resynchronizing_mirror_vault_relationships.html"
       - title: Reverse resynchronizing mirror and vault relationships
         url: "/online-help-96-97/task_reverse_resynchronizing_mirror_vault_relationships.html"
-      - title: Aborting mirror and vault relationships
+      - title: Abort mirror and vault relationships
         url: "/online-help-96-97/task_aborting_mirror_vault_relationships.html"
-      - title: Restoring a volume in a mirror and vault relationship
+      - title: Restore a volume in a mirror and vault relationship
         url: "/online-help-96-97/task_restoring_volume_mirror_vault_relationship.html"
     - title: SVM Relationships
       url: "/online-help-96-97/concept_svm_relationships.html"
       entries:
-      - title: Creating SVM relationships
+      - title: Create SVM relationships
         url: "/online-help-96-97/task_creating_svm_relationships.html"
-      - title: Editing SVM relationships
+      - title: Edit SVM relationships
         url: "/online-help-96-97/task_editing_svm_relationships.html"
-      - title: Managing SVM relationships
+      - title: Manage SVM relationships
         url: "/online-help-96-97/task_managing_svm_relationships.html"
       - title: SVM Relationships Window
         url: "/online-help-96-97/reference_svm_relationships_window.html"
     - title: Protection policies
       url: "/online-help-96-97/concept_protection_policies.html"
       entries:
-      - title: Creating protection policies
+      - title: Create protection policies
         url: "/online-help-96-97/task_creating_protection_policies_cluster_scope.html"
       - title: Protection Policies window
         url: "/online-help-96-97/reference_protection_policies_window.html"
     - title: Snapshot policies
       url: "/online-help-96-97/concept_snapshot_policies.html"
       entries:
-      - title: Creating Snapshot policies
+      - title: Create Snapshot policies
         url: "/online-help-96-97/task_adding_snapshot_policies.html"
-      - title: Editing Snapshot policies
+      - title: Edit Snapshot policies
         url: "/online-help-96-97/task_editing_snapshot_policies.html"
-      - title: Deleting Snapshot policies
+      - title: Delete Snapshot policies
         url: "/online-help-96-97/task_deleting_snapshot_policies.html"
       - title: About Snapshot policies
         url: "/online-help-96-97/concept_about_snapshot_policies.html"
@@ -2648,11 +2648,11 @@ entries:
     - title: Schedules
       url: "/online-help-96-97/concept_schedules.html"
       entries:
-      - title: Creating schedules
+      - title: Create schedules
         url: "/online-help-96-97/task_creating_schedules.html"
-      - title: Editing schedules
+      - title: Edit schedules
         url: "/online-help-96-97/task_editing_schedules.html"
-      - title: Deleting schedules
+      - title: Delete schedules
         url: "/online-help-96-97/task_deleting_schedules.html"
       - title: Schedules
         url: "/online-help-96-97/concept_schedules_conceptual.html"
