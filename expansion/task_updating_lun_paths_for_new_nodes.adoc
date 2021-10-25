@@ -55,6 +55,6 @@ Zoning setup varies depending on the switch that you use.
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration]
+https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration^]
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]

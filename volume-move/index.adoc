@@ -25,7 +25,7 @@ For some tasks, you must use the ONTAP command-line interface (CLI).
 
 * You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
 
 * You know which volume you want to move.
 +
@@ -41,7 +41,7 @@ Volume move is not supported for NVMe configurations running ONTAP 9.5.
 
 If this content is not suitable for your situation, you should see the following documentation instead:
 
-* https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]
+* https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management^]
 +
 Describes how to move volumes by using the CLI.
 
@@ -51,8 +51,8 @@ Before moving volumes, you should evaluate whether the following approaches are 
 
 * If you want to nondisruptively upgrade a controller in place, you can consider using aggregate relocation (ARL), which does not require physical data movement.
 +
-https://docs.netapp.com/us-en/ontap/high-availability/index.html[High Availability]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html[High Availability^]
 
 * If you want to move only a LUN--without its containing volume--you can use the LUN move mechanism.
 +
-https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]

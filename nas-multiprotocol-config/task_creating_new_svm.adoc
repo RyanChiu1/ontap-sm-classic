@@ -1,7 +1,7 @@
 ---
 permalink: nas-multiprotocol-config/task_creating_new_svm.html
 sidebar: sidebar
-keywords: wizard, guide, create, creating, storage, virtual, machine, svm, domain, name, system, dns, creating, data, logical, interface, lif, cifs, server, nfs, create a basic svm
+keywords: wizard, create, creating, storage, virtual, machine, svm, domain, name, system, dns, creating, data, logical, interface, lif, cifs, server, nfs, create a basic svm
 summary: "You can use a wizard that guides you through the process of creating a new storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), configuring a CIFS server, enabling NFS, and optionally configuring NIS."
 ---
 = Create a basic SVM

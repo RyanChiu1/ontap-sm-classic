@@ -11,18 +11,18 @@ summary: "Additional documentation is available to help you activate the destina
 [.lead]
 Additional documentation is available to help you activate the destination volume to test the disaster recovery setup or when a disaster occurs. You can also learn more about how to reactivate the source volume after the disaster.
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-sm-ic-fr/home.html[Volume disaster express recovery]
+* link:/../volume-disaster-recovery/index.html[Volume disaster recovery]
 +
 Describes how to quickly activate a destination volume after a disaster and then reactivate the source volume in ONTAP.
 
-* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection^]
 +
 Describes how to prevent data loss using Snapshot copies and SnapMirror replication to a remote system
 
-* http://docs.netapp.com/ocum-98/topic/com.netapp.doc.onc-um-ag/home.html[Active IQ Unified Manager 9.8 Workflow Guide for Managing Cluster Health]
+* http://docs.netapp.com/ocum-98/topic/com.netapp.doc.onc-um-ag/home.html[Active IQ Unified Manager 9.8 Workflow for Managing Cluster Health^]
 +
 Provides information about performing Active IQ Unified Manager (formerly OnCommand Unified Manager) tasks using the web UI and information about troubleshooting, as well as providing in-depth conceptual information.
 
-* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
+* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts^]
 +
 Provides conceptual information about disaster recovery using SnapMirror technology.

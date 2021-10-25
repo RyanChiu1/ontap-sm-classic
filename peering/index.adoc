@@ -22,14 +22,14 @@ You should use this content if you want to create cluster peer relationships and
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
 * You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
 
 If these assumptions are not correct for your situation, you should see the following resources:
 
-* https://docs.netapp.com/us-en/ontap/peering/index.html[Cluster and SVM peering]
+* https://docs.netapp.com/us-en/ontap/peering/index.html[Cluster and SVM peering^]
 +
 Describes how to use the command-line interface to set up cluster peering relationships and SVM peering relationships.
 
-* https://docs.netapp.com/us-en/ontap/networking/index.html[Network management]
+* https://docs.netapp.com/us-en/ontap/networking/index.html[Network management^]
 +
 Describes how to use the command-line interface to configure subnets, intercluster LIFs, routes, firewall policies, and other networking components.

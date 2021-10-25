@@ -13,4 +13,4 @@ You can use System Manager to create, edit, and delete quotas.
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]
+https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management^]

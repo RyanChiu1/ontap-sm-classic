@@ -64,6 +64,6 @@ You might have to click *Refresh* to view the updated information.
 
 Create an SVM peer relationship between the source and destination SVMs while creating a data protection relationship between the source volume and the destination volume.
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault/home.html[Volume express backup using SnapVault]
+link:/../volume-backup-snapvault/index.html[Volume backup using SnapVault]
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-sm-ic-cg/home.html[Volume disaster recovery express preparation]
+link:/../volume-disaster-recovery/index.html[Volume disaster recovery preparation]

@@ -20,4 +20,4 @@ The LUNs tab is displayed only if you have enabled the FC/FCoE and iSCSI license
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]

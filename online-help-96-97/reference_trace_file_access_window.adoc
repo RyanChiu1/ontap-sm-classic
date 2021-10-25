@@ -98,4 +98,4 @@ When the trace result shows a message saying that access is not granted for "Syn
 
 https://docs.netapp.com/us-en/ontap/smb-admin/index.html[SMB/CIFS management]
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-multp-cg/home.html[SMB/CIFS and NFS multiprotocol express configuration]
+link:/../nas-multiprotocol-config/index.html[SMB/CIFS and NFS multiprotocol configuration]

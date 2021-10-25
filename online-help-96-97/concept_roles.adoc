@@ -13,4 +13,4 @@ You can use System Manager to create access-controlled user roles.
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/authentication/index.html[Administrator authentication and RBAC]
+https://docs.netapp.com/us-en/ontap/authentication/index.html[Administrator authentication and RBAC^]

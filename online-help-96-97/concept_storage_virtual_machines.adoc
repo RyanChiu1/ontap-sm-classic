@@ -13,6 +13,6 @@ You can use System Manager to manage the SVMs in your cluster.
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
+https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts^]

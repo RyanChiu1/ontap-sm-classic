@@ -11,18 +11,18 @@ summary: "After you expand a cluster, you can start storing data on the new node
 [.lead]
 After you expand a cluster, you can start storing data on the new nodes either by creating new volumes on the new nodes or by moving existing data to the new nodes.
 
-If you are using SnapMirror or SnapVault relationships in your cluster to protect your data, see the http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-clus-peer/home.html[Cluster and SVM peering express configuration] guide to set up appropriate intercluster LIFs for your new nodes.
+If you are using SnapMirror or SnapVault relationships in your cluster to protect your data, see the link:/../peering/index.html[Cluster and SVM peering configuration] guide to set up appropriate intercluster LIFs for your new nodes.
 
 If you want to move data to the newly added nodes, you can use the following content:
 
-* https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
 +
 Describes how to configure and manage the iSCSI, FCoE, and FC protocols for clustered SAN environments, including configuration of LUNs, igroups, and targets.
 
-* https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]
+* https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management^]
 +
 Describes how to manage logical storage resources in clusters, including FlexVol volumes, FlexClone volumes, files and LUNs, and FlexCache volumes, using deduplication, compression, qtrees, and quotas.
 
-* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
+* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts^]
 +
 Describes conceptual information about logical storage resources in clusters, including FlexVol volumes, FlexClone volumes, files and LUNs, and FlexCache volumes, using deduplication, compression, qtrees, and quotas.

@@ -16,8 +16,6 @@ Additional documentation is available to help you restore data from a destinatio
 +
 Describes how to quickly restore a volume from a SnapVault backup in ONTAP
 
-== Conceptual guide
-
 * https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
 +
 Describes conceptual information about disaster recovery and disk-to-disk backup of clustered systems

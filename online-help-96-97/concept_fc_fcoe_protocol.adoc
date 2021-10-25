@@ -13,4 +13,4 @@ You can use System Manager to configure FC/FCoE protocols.
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]

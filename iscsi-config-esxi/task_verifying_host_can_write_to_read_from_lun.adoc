@@ -38,4 +38,4 @@ If any of the tests fail, verify that the iSCSI service is running on the storag
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/high-availability/index.html[ONTAP 9 High-Availability Configuration Guide]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html[High availability management^]

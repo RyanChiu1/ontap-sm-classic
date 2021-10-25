@@ -13,10 +13,10 @@ You can use System Manager create, edit, and delete Qtrees.
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
+https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts^]
 
-https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management]
+https://docs.netapp.com/us-en/ontap/volumes/index.html[Logical storage management^]
 
-https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management^]
 
-https://docs.netapp.com/us-en/ontap/smb-admin/index.html[SMB/CIFS management]
+https://docs.netapp.com/us-en/ontap/smb-admin/index.html[SMB/CIFS management^]

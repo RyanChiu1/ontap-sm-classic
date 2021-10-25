@@ -72,4 +72,4 @@ The Flash Pool aggregate is created with the specified configuration, and is add
 
 xref:concept_how_storage_pool_works.adoc[How storage pool works]
 
-http://www.netapp.com/us/media/tr-4070.pdf[NetApp Technical Report 4070: Flash Pool Design and Implementation Guide]
+http://www.netapp.com/us/media/tr-4070.pdf[NetApp Technical Report 4070: Flash Pool Design and Implementation^]

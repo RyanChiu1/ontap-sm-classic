@@ -11,26 +11,26 @@ summary: "Additional information is available to help you to manage the volume-l
 [.lead]
 Additional information is available to help you to manage the volume-level disaster recovery relationships and provides other methods of disaster recovery to protect the availability of your data resources.
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault/home.html[Volume express backup using SnapVault]
+* link:/../volume-backup-snapvault/index.html[Volume backup using SnapVault]
 +
 Describes how to quickly configure backup vault relationships between volumes that are located in different ONTAP clusters.
 
-* https://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-buvault-restore/home.html[Volume restore express management using SnapVault]
+* link:/../volume-restore-snapvault/index.html[Volume restore management using SnapVault]
 +
 Describes how to quickly restore a volume from a backup vault in ONTAP.
 
-* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection^]
 +
 Describes how to prevent data loss using Snapshot copies and SnapMirror replication to a remote system
 
-* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices Guide for ONTAP 9.1, 9.2]
+* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2^]
 +
 Describes information and best practices about configuring replication in ONTAP.
 
-* https://docs.netapp.com/us-en/ontap/tape-backup/index.html[Data protection using tape backup]
+* https://docs.netapp.com/us-en/ontap/tape-backup/index.html[Data protection using tape backup^]
 +
 Describes how to back up and recover data using tape backup and recovery features in clusters, using NDMP and dump technologies.
 
-* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]
+* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts^]
 +
 Provides conceptual information about disaster recovery and disk-to-disk backup of clustered systems.

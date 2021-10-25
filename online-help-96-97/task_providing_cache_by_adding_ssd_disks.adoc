@@ -73,4 +73,4 @@ The cache disks are added to the selected aggregate.
 
 *Related information*
 
-http://www.netapp.com/us/media/tr-4070.pdf[NetApp Technical Report 4070: Flash Pool Design and Implementation Guide]
+http://www.netapp.com/us/media/tr-4070.pdf[NetApp Technical Report 4070: Flash Pool Design and Implementation^]

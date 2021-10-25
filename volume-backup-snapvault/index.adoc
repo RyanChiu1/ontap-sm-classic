@@ -17,7 +17,7 @@ You should use this content if you want to create SnapVault backup relationships
 * You are a cluster administrator.
 * You have configured the cluster peer relationship and the SVM peer relationship.
 +
-link:../com.netapp.doc.exp-clus-peer/home.html[Cluster and SVM peering express configuration]
+link:/../peering/index.html[Cluster and SVM peering configuration]
 
 * You must have enabled either the SnapMirror or SnapVault license, after all of the nodes in the cluster have been upgraded to the same version of ONTAP 9.
 * You want to use default protection policies and schedules, and not create custom policies.
@@ -27,10 +27,10 @@ link:../com.netapp.doc.exp-clus-peer/home.html[Cluster and SVM peering express c
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
 * You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 +
-https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
 
 If these assumptions are not correct for your situation, or if you want more conceptual background information, you should see the following resources:
 
-* link:../com.netapp.doc.pow-dap/home.html[Data protection]
-* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2]
-* http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: SnapVault Best Practices]
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection^]
+* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2^]
+* http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: SnapVault Best Practices^]

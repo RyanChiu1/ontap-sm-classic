@@ -13,4 +13,4 @@ You can use System Manager to create and manage Kerberos realm services.
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management^]
