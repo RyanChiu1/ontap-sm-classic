@@ -11,11 +11,11 @@ summary: "Additional information is available to help you to manage the SnapVaul
 [.lead]
 Additional information is available to help you to manage the SnapVault backup relationships and to use other methods of data protection to protect the availability of your data resources.
 
-* link:/../volume-disaster-prep/index.html[Volume disaster recovery preparation]
+* xref:../volume-disaster-prep/index.html[Volume disaster recovery preparation]
 +
 Describes how to quickly configure a destination volume on a different ONTAP cluster in preparation for disaster recovery.
 
-* link:/../volume-disaster-recovery/index.html[Volume disaster recovery]
+* xref:../volume-disaster-recovery/index.html[Volume disaster recovery]
 +
 Describes how to quickly activate a destination volume from a different ONTAP cluster after a disaster, as well as how to restore the SnapMirror relationship to its original state by reactivating the source volume after its recovery.
 

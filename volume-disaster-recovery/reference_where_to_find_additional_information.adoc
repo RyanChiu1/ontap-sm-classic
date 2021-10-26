@@ -11,11 +11,11 @@ summary: "Additional information is available to help you to manage the volume-l
 [.lead]
 Additional information is available to help you to manage the volume-level disaster recovery relationships and provides other methods of disaster recovery to protect the availability of your data resources.
 
-* link:/../volume-backup-snapvault/index.html[Volume backup using SnapVault]
+* xref:../volume-backup-snapvault/index.html[Volume backup using SnapVault]
 +
 Describes how to quickly configure backup vault relationships between volumes that are located in different ONTAP clusters.
 
-* link:/../volume-restore-snapvault/index.html[Volume restore management using SnapVault]
+* xref:../volume-restore-snapvault/index.html[Volume restore management using SnapVault]
 +
 Describes how to quickly restore a volume from a backup vault in ONTAP.
 

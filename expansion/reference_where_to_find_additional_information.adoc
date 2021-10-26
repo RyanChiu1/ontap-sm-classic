@@ -11,7 +11,7 @@ summary: "After you expand a cluster, you can start storing data on the new node
 [.lead]
 After you expand a cluster, you can start storing data on the new nodes either by creating new volumes on the new nodes or by moving existing data to the new nodes.
 
-If you are using SnapMirror or SnapVault relationships in your cluster to protect your data, see the link:/../peering/index.html[Cluster and SVM peering configuration] guide to set up appropriate intercluster LIFs for your new nodes.
+If you are using SnapMirror or SnapVault relationships in your cluster to protect your data, see the xref:../peering/index.html[Cluster and SVM peering configuration] guide to set up appropriate intercluster LIFs for your new nodes.
 
 If you want to move data to the newly added nodes, you can use the following content:
 

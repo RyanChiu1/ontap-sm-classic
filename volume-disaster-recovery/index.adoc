@@ -15,7 +15,7 @@ You should use this content if you want to perform a volume-level disaster recov
 
 * You are working with clusters running ONTAP 9.
 * You are a cluster administrator.
-* You have configured the SnapMirror relationship following link:/../volume-disaster-prep/index.html[Volume disaster recovery preparation]
+* You have configured the SnapMirror relationship following xref:../volume-disaster-prep/index.html[Volume disaster recovery preparation]
 
 * The cluster administrator of the source cluster has declared that the data in the source volume is unavailable due to events such as virus infection leading to data corruption or accidental deletion of data.
 * You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.

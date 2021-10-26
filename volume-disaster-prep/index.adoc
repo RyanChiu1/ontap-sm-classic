@@ -19,7 +19,7 @@ You should use this content if you want to create SnapMirror relationships for v
 * You are a cluster administrator.
 * You have configured the cluster peer relationship and the SVM peer relationship.
 +
-link:/../peering/index.html[Cluster and SVM peering configuration]
+xref:../peering/index.html[Cluster and SVM peering configuration]
 
 * You have enabled the SnapMirror license on both the source and the destination clusters.
 * You want to use default policies and schedules, and not create custom policies.

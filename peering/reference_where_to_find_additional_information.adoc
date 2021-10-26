@@ -13,11 +13,11 @@ After you successfully create a cluster peering relationship, you are ready to p
 
 You can protect your data by using the following content:
 
-* link:/../volume-disaster-prep/index.html[Volume disaster recovery preparation]
+* xref:../volume-disaster-prep/index.html[Volume disaster recovery preparation]
 +
 Describes how to quickly configure and monitor the SnapMirror relationships between volumes in different clusters.
 
-* link:/../volume-backup-snapvault/index.html[Volume backup using SnapVault]
+* xref:../volume-backup-snapvault/index.html[Volume backup using SnapVault]
 +
 Describes how to quickly configure an intercluster SnapVault relationship.
 

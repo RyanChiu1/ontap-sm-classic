@@ -12,7 +12,7 @@ summary: "Additional documentation is available to help you restore data from a 
 Additional documentation is available to help you restore data from a destination volume to test the backed-up data or when the source volume is lost.
 
 
-* link:/../volume-restore-snapvault/index.html[Volume restore management using SnapVault]
+* xref:../volume-restore-snapvault/index.html[Volume restore management using SnapVault]
 +
 Describes how to quickly restore a volume from a SnapVault backup in ONTAP
 

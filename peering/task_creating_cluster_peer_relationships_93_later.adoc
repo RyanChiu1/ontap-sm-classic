@@ -64,6 +64,6 @@ You might have to click *Refresh* to view the updated information.
 
 Create an SVM peer relationship between the source and destination SVMs while creating a data protection relationship between the source volume and the destination volume.
 
-link:/../volume-backup-snapvault/index.html[Volume backup using SnapVault]
+xref:../volume-backup-snapvault/index.html[Volume backup using SnapVault]
 
-link:/../volume-disaster-recovery/index.html[Volume disaster recovery preparation]
+xref:../volume-disaster-recovery/index.html[Volume disaster recovery preparation]
