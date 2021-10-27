@@ -1,9 +1,0 @@
----
-settings:
-  name: System Manager Classic
-  internal:
-    pdf_enabled: true
-  prod:
-    pdf_enabled: true
-sidebar:
-  
