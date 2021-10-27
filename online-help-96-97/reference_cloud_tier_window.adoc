@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/reference_cloud_tier_window.html
+sidebar: sidebar
+keywords: cloud, tier, window, command, button, online, help
+summary: "You can use System Manager to add, edit, and delete cloud tiers and to view cloud tier details."
+---
+= Cloud Tier window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add, edit, and delete cloud tiers and to view cloud tier details.
+
+The Cloud Tier window displays the total number of licensed cloud tiers in the cluster, the licensed space that is used in the cluster, and the licensed space that is available in the cluster. The Cloud Tier window also displays the unlicensed cloud capacity that is used.
+
+== Command buttons
+
+* *Add*
++
+Enables you to add a cloud tier.
+
+* *Attach Aggregates*
++
+Enables you to attach aggregates to a cloud tier.
+
+* *Delete*
++
+Enables you to delete a selected cloud tier.
+
+* *Edit*
++
+Enables you to modify the properties of a selected cloud tier.
+
+== Details area
+
+You can view detailed information about cloud tiers such as the list of cloud tiers, the details of the object stores, the aggregates used, and the used capacity.
+
+If you create a cloud tier other than Alibaba Cloud, Amazon AWS S3, AWS Commercial Cloud Service (C2S), Google Cloud, IBM Cloud, Microsoft Azure Blob storage, or StorageGRID by using the command-line interface (CLI), this cloud tier is displayed as Others in System Manager. You can then attach aggregates to this cloud tier.

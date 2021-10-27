@@ -1,0 +1,42 @@
+---
+permalink: online-help-96-97/task_creating_schedules.html
+sidebar: sidebar
+keywords: create, schedule, time, system, manager, online, help
+summary: "You can create schedules to run a job at a specific time or at regular periods by using System Manager."
+---
+= Create schedules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create schedules to run a job at a specific time or at regular periods by using System Manager.
+
+.About this task
+
+When you create a schedule in a MetroCluster configuration, it is a best practice to create an equivalent schedule on the cluster in the surviving site as well.
+
+.Steps
+
+. Click *Protection* > *Schedules*.
+. Click *Create*.
+. In the *Create Schedule* dialog box, specify the schedule name.
+. Create a schedule based on your requirements:
++
+[options="header"]
+|===
+| If you want to create...| Do this...
+a|
+A daily or a specific schedule on certain days
+a|
+Select *Basic*, and specify the schedule and recurrence details (in hours and minutes).
+a|
+A schedule that runs at a specific interval
+a|
+Select *Interval*, and specify the schedule and recurrence details (in days, hours, and minutes).
+a|
+A schedule that runs at a specific period
+a|
+Select *Advanced*, and specify the schedule and recurrence details (in months, days, weekdays, hours, and minutes).
+|===
+
+. Click *Create*.

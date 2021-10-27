@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_why_you_add_disks_to_storage_pools.html
+sidebar: sidebar
+keywords: ssd, storage, pool, cache, size, allocation, add, disk, online, help
+summary: "You can add SSDs to an existing storage pool and increase its cache size. When you add SSDs to a storage pool that has allocation units already allocated to Flash Pool aggregates, you increase the cache size of each of those aggregates and the total cache of the storage pool."
+---
+= Why you add disks to storage pools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can add SSDs to an existing storage pool and increase its cache size. When you add SSDs to a storage pool that has allocation units already allocated to Flash Pool aggregates, you increase the cache size of each of those aggregates and the total cache of the storage pool.
+
+If the allocation units of the storage pool are not yet allocated, adding SSDs to that storage pool does not affect the SSD cache size.
+
+When you add SSDs to an existing storage pool, the SSDs must be owned by one node or the other of the same HA pair that already owned the existing SSDs in the storage pool. You can add SSDs that are owned by either node of the HA pair.

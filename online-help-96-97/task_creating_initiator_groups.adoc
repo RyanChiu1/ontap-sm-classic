@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_creating_initiator_groups.html
+sidebar: sidebar
+keywords: create, initiator, group, system, manager, lun, online, help
+summary: "You can use System Manager to create an initiator group. Initiator groups enable you to control host access to specific LUNs. You can use port sets to limit which LIFs an initiator can access."
+---
+= Create initiator groups
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create an initiator group. Initiator groups enable you to control host access to specific LUNs. You can use port sets to limit which LIFs an initiator can access.
+
+.Steps
+
+. Click *Storage* > *LUNs*.
+. In the *Initiator Groups* tab, click *Create*.
+. In the *General* tab of the *Create Initiator Group* dialog box, specify the initiator group name, operating system, host alias name, port set, and supported protocol for the group.
+. Click *Create*.
+
+*Related information*
+
+xref:reference_luns_window.adoc[LUNs window]

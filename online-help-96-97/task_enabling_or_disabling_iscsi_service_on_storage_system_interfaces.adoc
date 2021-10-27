@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.html
+sidebar: sidebar
+keywords: enable, disable, iscsi, service, storage, system, interfaces, online, help
+summary: "You can use System Manager to control which network interfaces are used for iSCSI communication by enabling or disabling the interfaces. When the iSCSI service is enabled, iSCSI connections and requests are accepted over those network interfaces that are enabled for iSCSI, but not over disabled interfaces."
+---
+= Enabling or disabling the iSCSI service on storage system interfaces
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to control which network interfaces are used for iSCSI communication by enabling or disabling the interfaces. When the iSCSI service is enabled, iSCSI connections and requests are accepted over those network interfaces that are enabled for iSCSI, but not over disabled interfaces.
+
+.Before you begin
+
+You must have terminated any outstanding iSCSI connections and sessions that are currently using the interface. By default, the iSCSI service is enabled on all of the Ethernet interfaces after you enable the iSCSI license.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *iSCSI*.
+. In the *iSCSI Interfaces* area, select the interface on which you want to enable or disable the iSCSI service.
+. Click *Enable* or *Disable*, as required.
+
+*Related information*
+
+xref:reference_iscsi_window.adoc[iSCSI window]
+
+xref:task_configuring_iscsi_protocol_on_svms.adoc[Configuring iSCSI protocol on SVMs]

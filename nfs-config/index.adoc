@@ -1,0 +1,37 @@
+---
+permalink: nfs-config/index.html
+sidebar: sidebar
+keywords: nfs, access, volume, exist, storage, virtual, machine, svm, decide
+summary: "This content describes how to quickly set up NFS access to a new volume on either a new or existing storage virtual machine (SVM)."
+---
+= NFS configuration overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This content describes how to quickly set up NFS access to a new volume on either a new or existing storage virtual machine (SVM).
+
+You should use this content if you want to configure access to a volume in the following way:
+
+* NFS access will be through NFSv3, not NFSv4 or NFSv4.1.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
+
+* Your data network uses the default IPspace, the default broadcast domain, and the default failover group.
++
+If your data network is flat, using these default objects ensures that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to https://docs.netapp.com/us-en/ontap/networking/index.html[Network Management] for information on how to configure LIF path failover.
+
+* UNIX file permissions will be used to secure the new volume.
+* LDAP, if used, is provided by Active Directory.
+
+If this content is not suitable for your situation, you should see the following documentation instead:
+
+* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management^]
+* http://www.netapp.com/us/media/tr-4067.pdf[NetApp Technical Report 4067: NFS Best Practice and Implementation^]
+* https://www.netapp.com/pdf.html?item=/media/19384-tr-4616.pdf[NetApp Technical Report 4616: NFS Kerberos in ONTAP with Microsoft Active Directory^]
+* https://www.netapp.com/pdf.html?item=/media/19423-tr-4835.pdf[NetApp Technical Report 4835: How to Configure LDAP in ONTAP^]
+* http://www.netapp.com/us/media/tr-3580.pdf[NetApp Technical Report 3580: NFSv4 Enhancements and Best Practices Data ONTAP Implementation^]
+* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668pdf.pdf[NetApp Technical Report 4668: Name Services Best Practices^]

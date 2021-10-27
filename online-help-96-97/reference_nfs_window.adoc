@@ -1,0 +1,43 @@
+---
+permalink: online-help-96-97/reference_nfs_window.html
+sidebar: sidebar
+keywords: nfs, window, online, help, display, configure, settings, command, buttons
+summary: "You can use the NFS window to display and configure your NFS settings."
+---
+= NFS window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the NFS window to display and configure your NFS settings.
+
+* *Server Status*
++
+Displays the status of the NFS service. The service is enabled if the NFS protocol is configured on the storage virtual machine (SVM).
++
+[NOTE]
+====
+If you have upgraded to ONTAP 8.3 or later from an NFS-enabled storage system running Data ONTAP 8.1.x, the NFS service is enabled in ONTAP 8.3 or later. However, you must enable support for NFSv3 or NFSv4 because NFSv2 is no longer supported.
+====
+
+== Command buttons
+
+* *Enable*
++
+Enables the NFS service.
+
+* *Disable*
++
+Disables the NFS service.
+
+* *Edit*
++
+Opens the Edit NFS Settings dialog box, which enables you to edit NFS settings.
+
+* *Refresh*
++
+Updates the information in the window.
+
+*Related information*
+
+xref:task_editing_nfs_settings.adoc[Editing NFS settings]

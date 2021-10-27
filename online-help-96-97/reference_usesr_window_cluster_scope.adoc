@@ -1,0 +1,75 @@
+---
+permalink: online-help-96-97/reference_usesr_window_cluster_scope.html
+sidebar: sidebar
+keywords: user, window, command, button, online, help, password, login, method
+summary: "You can use the Users window to manage user accounts, to reset the password of a user, and to view information about all of the user accounts."
+---
+= Users window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Users window to manage user accounts, to reset the password of a user, and to view information about all of the user accounts.
+
+== Command buttons
+
+* *Add*
++
+Opens the Add User dialog box, which enables you to add user accounts.
+
+* *Edit*
++
+Opens the Modify User dialog box, which enables you to modify user login methods.
++
+[NOTE]
+====
+It is a best practice to use a single role for all of the access and authentication methods of a user account.
+====
+
+* *Delete*
++
+Enables you to delete a selected user account.
+
+* *Change Password*
++
+Opens the Change Password dialog box, which enables you to reset a selected user's password.
+
+* *Lock*
++
+Locks the user account.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Users list
+
+The area below the users list displays detailed information about the selected user.
+
+* *User*
++
+Displays the name of the user account.
+
+* *Account Locked*
++
+Displays whether the user account is locked.
+
+== User Login Methods area
+
+* *Application*
++
+Displays the access method that a user can use to access the storage system. The supported access methods include the following:
+
+ ** System console (console)
+ ** HTTP(S) (http)
+ ** ONTAP API (ontapi)
+ ** Service Processor (service-processor)
+ ** SSH (ssh)
+
+* *Authentication*
++
+Displays the default supported authentication method, which is "`password`".
+
+* *Role*
++
+Displays the role of a selected user.

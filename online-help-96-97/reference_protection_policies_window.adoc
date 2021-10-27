@@ -1,0 +1,58 @@
+---
+permalink: online-help-96-97/reference_protection_policies_window.html
+sidebar: sidebar
+keywords: protection, policies, window, mirror, vault, policy, command, buttons, online, help
+summary: "You can use the Protection Policies window to create, manage, and display information about mirror, vault, and mirror vault policies."
+---
+= Protection Policies window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Protection Policies window to create, manage, and display information about mirror, vault, and mirror vault policies.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Policy dialog box, which enables you to create a mirror, vault, or mirror vault policy.
+
+* *Edit*
++
+Opens the Edit Policy dialog box, which enables you to edit a policy.
+
+* *Delete*
++
+Opens the Delete Policy dialog box, which enables you to delete a policy.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Protection policies list
+
+* *Name*
++
+Displays the name of the protection policy.
+
+* *Type*
++
+Displays the policy type, which can be Vault, Mirror Vault, or Asynchronous Mirror.
+
+* *Comment*
++
+Displays the description specified for the policy.
+
+* *Transfer Priority*
++
+Displays the data transfer priority, such as Normal or Low.
+
+== Details area
+
+* *Policy Details tab*
++
+Displays details of the protection policy, such as the user who created the policy, number of rules, retention count, and status of network compression.
+
+* *Policy Rules tab*
++
+Displays details of the rules that are applied to the policy. The Policy Rules tab is displayed only if the selected policy contains rules.

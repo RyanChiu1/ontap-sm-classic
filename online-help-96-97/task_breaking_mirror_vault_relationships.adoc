@@ -1,0 +1,31 @@
+---
+permalink: online-help-96-97/task_breaking_mirror_vault_relationships.html
+sidebar: sidebar
+keywords: break, mirror, vault, relationship, system, manger, online, help, client, applications
+summary: "You can use System Manager to break a mirror and vault relationship if a source volume becomes unavailable and you want client applications to access the data from the destination volume. You can use the destination volume to serve data while you repair or replace the source volume, update the source volume, and reestablish the original configuration of the systems."
+---
+= Breaking mirror and vault relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to break a mirror and vault relationship if a source volume becomes unavailable and you want client applications to access the data from the destination volume. You can use the destination volume to serve data while you repair or replace the source volume, update the source volume, and reestablish the original configuration of the systems.
+
+.Before you begin
+
+* The mirror and vault relationship must be in the quiesced state or idle state.
+* The destination volume must be mounted on the destination storage virtual machine (SVM) namespace.
+
+.About this task
+
+You can break mirror relationships between ONTAP systems and SolidFire storage systems.
+
+.Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror and vault relationship that you want to break, and then click *Operations* > *Break*.
+. Select the confirmation check box, and then click *Break*.
+
+.Results
+
+The mirror and vault relationship is broken. The destination volume type changes from data protection (DP) read-only to read/write. The system stores the base Snapshot copy for the mirror and vault relationship for later use.

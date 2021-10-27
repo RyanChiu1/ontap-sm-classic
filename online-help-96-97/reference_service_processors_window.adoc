@@ -1,0 +1,52 @@
+---
+permalink: online-help-96-97/reference_service_processors_window.html
+sidebar: sidebar
+keywords: command, button, service, processor, window, ipv4, online, help, ipv6, ip, address
+summary: "You can use the Service Processors window to view and modify Service Processors attributes, such as the IP address, network mask (IPv4) or prefix-length (IPv6), and gateway, and to configure the IP source for a Service Processor."
+---
+= Service Processors window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Service Processors window to view and modify Service Processors attributes, such as the IP address, network mask (IPv4) or prefix-length (IPv6), and gateway, and to configure the IP source for a Service Processor.
+
+== Command buttons
+
+* *Edit*
++
+Opens the Edit Service Processor dialog box, which enables you to modify the IP address, network mask (IPv4) or prefix-length (IPv6), and gateway information of a Service Processor.
+
+* *Global Settings*
++
+Opens the Global Settings dialog box, which allows you to configure the source of IP address for all your Service Processors as one of the following: DHCP, subnet, or manual.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Service processors list
+
+* *Node*
++
+Specifies the node on which the Service Processor is located.
+
+* *IP Address*
++
+Specifies the IP addresses of the Service Processor.
+
+* *Status*
++
+Specifies the status the Service Processor, which can be online, offline, daemon offline, node offline, degraded, rebooted, or unknown.
+
+* *MAC Address*
++
+Specifies the MAC address of the Service Processor.
+
+== Details area
+
+The area below the Service Processor list displays detailed information about the Service Processor, including network details, such as the IP address, network mask (IPv4) or prefix-length (IPv6), gateway, IP source, and MAC address, as well as general details, such as the firmware version and whether automatic update of the firmware is enabled.
+
+*Related information*
+
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]

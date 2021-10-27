@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_deleting_qtrees.html
+sidebar: sidebar
+keywords: delete, qtrees, online, help, system, manager
+summary: "You can delete a qtree and reclaim the disk space that the qtree uses within a volume by using System Manager. When you delete a qtree, all of the quotas that are applicable to that qtree are no longer applied by ONTAP."
+---
+= Deleting qtrees
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can delete a qtree and reclaim the disk space that the qtree uses within a volume by using System Manager. When you delete a qtree, all of the quotas that are applicable to that qtree are no longer applied by ONTAP.
+
+.Before you begin
+
+* The qtree status must be normal.
+* The qtree must not contain any LUN.
+
+.Steps
+
+. Click *Storage* > *Qtrees*.
+. In the *Qtrees* window, select one or more qtrees that you want to delete, and then click *Delete*.
+. Select the confirmation check box, and then click *Delete*.
+. Verify that the qtree that you deleted is no longer included in the list of qtrees in the *Qtrees* window.
+
+*Related information*
+
+xref:reference_qtrees_window.adoc[Qtrees window]

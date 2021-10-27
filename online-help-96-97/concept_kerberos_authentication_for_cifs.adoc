@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_kerberos_authentication_for_cifs.html
+sidebar: sidebar
+keywords: kerberos, authentication, cifs, server, security, level, client, online, help, microsoft, ntlm, ntlm v2
+summary: "With Kerberos authentication, upon connection to your CIFS server, the client negotiates the highest possible security level. However, if the client cannot use Kerberos authentication, Microsoft NTLM or NTLM V2 is used to authenticate with the CIFS server."
+---
+= Kerberos authentication for CIFS
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+With Kerberos authentication, upon connection to your CIFS server, the client negotiates the highest possible security level. However, if the client cannot use Kerberos authentication, Microsoft NTLM or NTLM V2 is used to authenticate with the CIFS server.

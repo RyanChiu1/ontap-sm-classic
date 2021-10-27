@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_high_availability.html
+sidebar: sidebar
+keywords: high, availability, system, manager, hardware, redundancy, nondisruptive, operations, fault, tolerance
+summary: "You can use System Manager to create high availability (HA) pairs that provide hardware redundancy that is required for nondisruptive operations and fault tolerance."
+---
+= High availability
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create high availability (HA) pairs that provide hardware redundancy that is required for nondisruptive operations and fault tolerance.
+
+*Related information*
+
+https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]

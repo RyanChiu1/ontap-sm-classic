@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_aggregates.html
+sidebar: sidebar
+keywords: aggregates, system, manager, security, backup, performance, data, sharing, classic, online, help
+summary: "You can use System Manager to create aggregates to support the differing security, backup, performance, and data sharing requirements of your users."
+---
+= Aggregates
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create aggregates to support the differing security, backup, performance, and data sharing requirements of your users.

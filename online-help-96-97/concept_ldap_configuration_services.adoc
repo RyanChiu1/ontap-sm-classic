@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_ldap_configuration_services.html
+sidebar: sidebar
+keywords: ldap, configuration, service, system, manager, online, help
+summary: "You can use System Manager to manage LDAP configurations."
+---
+= LDAP configuration services
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manage LDAP configurations.

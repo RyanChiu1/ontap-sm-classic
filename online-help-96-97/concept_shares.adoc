@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_shares.html
+sidebar: sidebar
+keywords: online, help, share, system, manager, create, edit, manage, share
+summary: "You can use System Manager to create, edit, and manage shares."
+---
+= Shares
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create, edit, and manage shares.

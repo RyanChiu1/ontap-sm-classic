@@ -1,0 +1,32 @@
+---
+permalink: volume-restore-snapvault/reference_where_to_find_additional_information.html
+sidebar: sidebar
+keywords: information, manage, snapvault, backup, relationship, method, data, protect, data, resource, where to find additional information
+summary: "Additional information is available to help you to manage the SnapVault backup relationships and to use other methods of data protection to protect the availability of your data resources."
+---
+= Where to find additional information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Additional information is available to help you to manage the SnapVault backup relationships and to use other methods of data protection to protect the availability of your data resources.
+
+* xref:../volume-disaster-prep/index.html[Volume disaster recovery preparation]
++
+Describes how to quickly configure a destination volume on a different ONTAP cluster in preparation for disaster recovery.
+
+* xref:../volume-disaster-recovery/index.html[Volume disaster recovery]
++
+Describes how to quickly activate a destination volume from a different ONTAP cluster after a disaster, as well as how to restore the SnapMirror relationship to its original state by reactivating the source volume after its recovery.
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection^]
++
+Describes how to prevent data loss using Snapshot copies and SnapMirror replication to a remote system
+
+* https://docs.netapp.com/us-en/ontap/tape-backup/index.html[Data protection using tape backup^]
++
+Describes how to back up and recover data using tape backup and recovery features in clusters, using NDMP and dump technologies.
+
+* https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts^]
++
+Describes conceptual information about ONTAP clusters in preparation for disaster recovery.

@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_changing_fc_or_fcoe_node_name.html
+sidebar: sidebar
+keywords: online, help, change, fc, fcoe, node, name, fibre, channel, san
+summary: "If you replace a storage system chassis and reuse it in the same Fibre Channel SAN, the node name of the replaced storage system might be duplicated in certain cases. You can change the node name of the storage system by using System Manager."
+---
+= Changing an FC or FCoE node name
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you replace a storage system chassis and reuse it in the same Fibre Channel SAN, the node name of the replaced storage system might be duplicated in certain cases. You can change the node name of the storage system by using System Manager.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *FC/FCoE*.
+. Click *Edit*.
+. Type the new name, and then click *OK*.
+
+*Related information*
+
+xref:reference_configurationprotocolsfcp.adoc[FC/FCoE window]

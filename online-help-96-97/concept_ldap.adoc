@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/concept_ldap.html
+sidebar: sidebar
+keywords: ldap, system, manager, configure, server, online, help, user, information
+summary: "You can use System Manager to configure an LDAP server that centrally maintains user information."
+---
+= LDAP
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to configure an LDAP server that centrally maintains user information.
+
+*Related information*
+
+xref:task_adding_ldap_client_configuration.adoc[Adding an LDAP client configuration]
+
+xref:task_deleting_ldap_client_configuration.adoc[Deleting an LDAP client configuration]
+
+xref:task_editing_ldap_client_configuration.adoc[Editing an LDAP client configuration]

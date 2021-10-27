@@ -1,0 +1,79 @@
+---
+permalink: online-help-96-97/task_editing_mirror_relationships.html
+sidebar: sidebar
+keywords: system, manager, edit, mirror, relationships, online, help
+summary: "You can use System Manager to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule."
+---
+= Editing mirror relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to edit a mirror relationship either by selecting an existing policy or schedule in the cluster, or by creating a policy or schedule.
+
+.About this task
+
+* You cannot edit a mirror relationship that is created between a volume in Data ONTAP 8.2.1 and a volume in ONTAP 8.3 or later.
+* You cannot edit the parameters of an existing policy or schedule.
+* You can modify the relationship type of a version-flexible mirror relationship, vault relationship, or mirror and vault relationship by modifying the policy type.
+
+.Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror relationship for which you want to modify the policy or schedule, and then click *Edit*.
+. In the *Edit Relationship* dialog box, select an existing policy or create a policy:
++
+[options="header"]
+|===
+| If you want to...| Do the following...
+a|
+Select an existing policy
+a|
+Click *Browse*, and then select an existing policy.
+a|
+Create a policy
+a|
+
+ .. Click *Create Policy*.
+ .. Specify a name for the policy.
+ .. Set the priority for scheduled transfers.
++
+Low indicates that the transfer has the least priority and is usually scheduled after normal priority transfers. By default, the priority is set to Normal.
+
+ .. Select the *Transfer All Source Snapshot Copies* check box to include the "`all_source_snapshots`" rule to the mirror policy, which enables you to back up all of the Snapshot copies from the source volume.
+ .. Select the *Enable Network Compression* check box to compress the data that is being transferred.
+ .. Click *Create*.
+
+|===
+
+. Specify a schedule for the relationship:
++
+[options="header"]
+|===
+| If...| Do the following...
+a|
+You want to assign an existing schedule
+a|
+From the list of schedules, select an existing schedule.
+a|
+You want to create a schedule
+a|
+
+ .. Click *Create Schedule*.
+ .. Specify a name for the schedule.
+ .. Select either *Basic* or *Advanced*.
+  *** Basic specifies only the day of the week, time, and the transfer interval.
+  *** Advanced creates a cron-style schedule.
+ .. Click *Create*.
+
+a|
+You do not want to assign a schedule
+a|
+Select *None*.
+|===
+
+. Click *OK* to save the changes.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

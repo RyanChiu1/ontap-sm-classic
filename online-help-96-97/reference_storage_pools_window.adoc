@@ -1,0 +1,82 @@
+---
+permalink: online-help-96-97/reference_storage_pools_window.html
+sidebar: sidebar
+keywords: storage, pools, window, online, help, command, button
+summary: "You can use the Storage Pools window to create, display, and manage a dedicated cache of SSDs, also known as storage pools. These storage pools can be associated with a non-root aggregate to provide SSD cache and with a Flash Pool aggregate to increase its size."
+---
+= Storage Pools window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Storage Pools window to create, display, and manage a dedicated cache of SSDs, also known as _storage pools_. These storage pools can be associated with a non-root aggregate to provide SSD cache and with a Flash Pool aggregate to increase its size.
+
+This page is not available for a cluster containing nodes with All Flash Optimized personality.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Storage Pool dialog box, which enables you to create a storage pool.
+
+* *Add Disks*
++
+Opens the Add Disks dialog box, which enables you to add cache disks to a storage pool.
+
+* *Delete*
++
+Deletes the selected storage pool.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Storage pools list
+
+* *Name*
++
+Displays the name of the storage pool.
+
+* *Total Cache*
++
+Displays the total cache size of the storage pool.
+
+* *Spare Cache*
++
+Displays the available spare cache size of the storage pool.
+
+* *Used Cache (%)*
++
+Displays the percentage of used cache size of the storage pool.
+
+* *Allocation Unit*
++
+Displays the minimum allocation unit of the total cache size that you can use to increase the size of your storage pool.
+
+* *Owner*
++
+Displays the name of the HA pair or the node with which the storage pool is associated.
+
+* *State*
++
+Displays the state of the storage pool, which can be Normal, Degraded, Creating, Deleting, Reassigning, or Growing.
+
+* *Is Healthy*
++
+Displays whether storage pool is healthy or not.
+
+== Details tab
+
+Displays detailed information about the selected storage pool, such as the name, health, storage type, disk count, total cache, spare cache, used cache size (in percent), and allocation unit. The tab also displays the names of the aggregates that are provisioned by the storage pool.
+
+== Disks tab
+
+Displays detailed information about the disks in the selected storage pool, such as the names, disk types, useable size, and total size.
+
+*Related information*
+
+xref:task_adding_disks_to_storage_pool.adoc[Adding disks to a storage pool]
+
+xref:task_creating_storage_pool.adoc[Creating a storage pool]
+
+xref:task_deleting_storage_pools.adoc[Deleting storage pools]

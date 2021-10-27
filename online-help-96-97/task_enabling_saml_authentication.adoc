@@ -1,0 +1,60 @@
+---
+permalink: online-help-96-97/task_enabling_saml_authentication.html
+sidebar: sidebar
+keywords: system, manager, enable, saml, authentication, idp, security, markup, language, secure, identity, provide, online, help
+summary: "You can use System Manager to configure Security Assertion Markup Language (SAML) authentication so that remote users can log in by using a secure identity provider (IdP)."
+---
+= Enabling SAML authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to configure Security Assertion Markup Language (SAML) authentication so that remote users can log in by using a secure identity provider (IdP).
+
+.Before you begin
+
+* The IdP that you plan to use for remote authentication must be configured.
++
+[NOTE]
+====
+See the documentation that is provided by the IdP that you have configured.
+====
+
+* You must have the URI of the IdP.
+
+.About this task
+
+The IdPs that have been validated with System Manager are Shibboleth and Active Directory Federation Services.
+
+[NOTE]
+====
+After SAML authentication is enabled, only remote users can access the System Manager GUI. Local users cannot access the System Manager GUI after SAML authentication is enabled.
+====
+
+.Steps
+
+. Click *Configuration* > *Cluster* > *Authentication*.
+. Select the *Enable SAML authentication* check box.
+. Configure System Manager to use SAML authentication:
+ .. Enter the URI of the IdP.
+ .. Enter the IP address of the host system.
+ .. If required, change the host system certificate.
+. Click *Retrieve Host Metadata* to retrieve the host URI and host metadata information.
+. Copy the host URI or host metadata details, access your IdP, and then specify the host URI or host metadata details and the trust rules in the IdP window.
++
+[NOTE]
+====
+See the documentation that is provided by the IdP that you have configured.
+====
+
+. Click *Save*.
++
+The IdP login window is displayed.
+
+. Log in to System Manager by using the IdP login window.
++
+After the IdP is configured, if the user tries to log in by using the fully qualified domain name (FQDN), IPv6, or a cluster management LIF, then the system automatically changes the IP address to the IP address of the host system that was specified during the IdP configuration.
+
+*Related information*
+
+xref:task_accessing_cluster_by_using_system_manager_brower_based_gui.adoc[Accessing a cluster by using the ONTAP System Manager browser-based graphic interface]

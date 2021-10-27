@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_initializing_mirror_relationships.html
+sidebar: sidebar
+keywords: initialize, mirror, relationship, baseline, transfer, online, help
+summary: "When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use System Manager to initialize a mirror relationship if you have not already initialized the relationship while creating it."
+---
+= Initializing mirror relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+When you start a mirror relationship, you must initialize that relationship. Initializing a relationship consists of a complete baseline transfer of data from the source volume to the destination. You can use System Manager to initialize a mirror relationship if you have not already initialized the relationship while creating it.
+
+.About this task
+
+.Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror relationship that you want to initialize.
+. Click *Operations* > *Initialize*.
+. Select the confirmation check box and click *Initialize*.
+. Verify the status of the mirror relationship in the *Protection* window.
+
+.Results
+
+A Snapshot copy is created and transferred to the destination. This Snapshot copy is used as a baseline for subsequent incremental Snapshot copies.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

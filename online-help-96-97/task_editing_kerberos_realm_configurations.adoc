@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_editing_kerberos_realm_configurations.html
+sidebar: sidebar
+keywords: edit, kerboros, realm, configuration, system, manager, online, help
+summary: "You can use System Manager to edit a Kerberos realm configuration at the storage virtual machine (SVM) level."
+---
+= Editing a Kerberos realm configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to edit a Kerberos realm configuration at the storage virtual machine (SVM) level.
+
+.About this task
+
+You can modify the following attributes by using the Kerberos Realm Edit wizard:
+
+* The KDC IP address and port number
+* The IP address of the administrative server if the KDC vendor is not Microsoft
+* The IP address of the password server
+* The Active Directory server name and IP address if the KDC vendor is Microsoft
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *Kerberos Realm*.
+. In the *Kerberos Realm* window, select the Kerberos realm configuration that you want to modify, and then click *Edit*.
+. Type or select information as prompted by the wizard.
+. Confirm the details, and then click *Finish* to complete the wizard.

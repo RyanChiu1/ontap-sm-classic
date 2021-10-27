@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/reference_flash_pool_statistics_window.html
+sidebar: sidebar
+keywords: online, help, flash, pool, aggregate, statistics, window, ssd, cache, read, write
+summary: "You can view the real-time SSD tier read and write workloads for a selected Flash Pool aggregate."
+---
+= Flash Pool aggregate Statistics window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can view the real-time SSD tier read and write workloads for a selected Flash Pool aggregate.
+
+This page is not available for a cluster containing nodes with All Flash Optimized personality.
+
+* *Displaying Statistics for Flash Pool aggregate*
++
+From the list of Flash Pool aggregates, you can select the Flash Pool aggregate whose statistics you want to view.
+
+== SSD Cache Read Workload
+
+Displays a graphical view of the total read requests that are sent to the Flash Pool aggregate in comparison with the read operations that are performed by the SSD tier.
+
+== SSD Cache Write Workload
+
+Displays a graphical view of the total write requests that are sent to the Flash Pool aggregate in comparison with the write operations that are performed by the SSD tier.

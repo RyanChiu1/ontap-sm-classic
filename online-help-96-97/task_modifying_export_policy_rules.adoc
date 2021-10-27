@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_modifying_export_policy_rules.html
+sidebar: sidebar
+keywords: system, manager, modify, client, modify, export, policy, rule, online, help
+summary: "You can use System Manager to modify the specified client, access protocols, and access permissions of an export policy rule."
+---
+= Modifying export policy rules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify the specified client, access protocols, and access permissions of an export policy rule.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Policies* pane, click *Export Policies*.
+. In the *Export Policies* window, select the export policy for which you want to edit the export rule, and in the *Export Rules* tab, select the rule that you want to edit, and then click *Edit*.
+. Modify the following parameters as required:
+ ** Client specification
+ ** Access protocols
+ ** Access details
+. Click *OK*.
+. Verify that the updated changes for the export rule are displayed in the *Export Rules* tab.
+
+*Related information*
+
+xref:task_setting_up_cifs.adoc[Setting up CIFS]

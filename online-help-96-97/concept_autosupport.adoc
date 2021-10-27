@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_autosupport.html
+sidebar: sidebar
+keywords: autosupport, notification, message, monitor, system, health, storage
+summary: "You can use System Manager to configure AutoSupport notifications that help you to monitor your storage system health."
+---
+= AutoSupport notifications
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to configure AutoSupport notifications that help you to monitor your storage system health.

@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_updating_mirror_relationships.html
+sidebar: sidebar
+keywords: online, help, update, mirror, relationship, unscheduled
+summary: "You can initiate an unscheduled mirror update of the destination. You might have to perform a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration."
+---
+= Updating mirror relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can initiate an unscheduled mirror update of the destination. You might have to perform a manual update to prevent data loss due to an upcoming power outage, scheduled maintenance, or data migration.
+
+.Before you begin
+
+The mirror relationship must be in a Snapmirrored state.
+
+.About this task
+
+.Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror relationship for which you want to update the data, and click *Operations* > *Update*.
+. Choose one of the following options:
+ ** Select *On demand* to perform an incremental transfer from the recent common Snapshot copy between the source and destination volumes.
+ ** Select *Select Snapshot copy* and specify the Snapshot copy that you want to transfer.
+. Select *Limit transfer bandwidth to* to limit the network bandwidth used for transfers and specify the maximum transfer speed.
+. Click *Update*.
+. Verify the transfer status in the *Details* tab.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

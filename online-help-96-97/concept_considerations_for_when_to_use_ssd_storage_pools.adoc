@@ -1,0 +1,40 @@
+---
+permalink: online-help-96-97/concept_considerations_for_when_to_use_ssd_storage_pools.html
+sidebar: sidebar
+keywords: considerations, ssd, storage, pool, restrictions, online, help
+summary: "SSD storage pools provide many benefits, but they also introduce some restrictions that you should be aware of when deciding whether to use SSD storage pools or dedicated SSDs."
+---
+= Considerations for when to use SSD storage pools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SSD storage pools provide many benefits, but they also introduce some restrictions that you should be aware of when deciding whether to use SSD storage pools or dedicated SSDs.
+
+SSD storage pools make sense only when they are providing cache to two or more Flash Pool aggregates. SSD storage pools provide the following benefits:
+
+* Increased storage utilization for SSDs used in Flash Pool aggregates
++
+SSD storage pools reduce the overall percentage of SSDs needed for parity by enabling you to share parity SSDs between two or more Flash Pool aggregates.
+
+* Ability to share spares between HA partners
++
+Because the storage pool is effectively owned by the HA pair, one spare, owned by one of the HA partners, can function as a spare for the entire SSD storage pool if needed.
+
+* Better utilization of SSD performance
++
+The high performance provided by SSDs can support access by both controllers in an HA pair.
+
+These advantages must be weighed against the costs of using SSD storage pools, which include the following items:
+
+* Reduced fault isolation
++
+The loss of a single SSD affects all RAID groups that include one of its partitions. In this situation, every Flash Pool aggregate that has cache allocated from the SSD storage pool that contains the affected SSD has one or more RAID groups in reconstruction.
+
+* Reduced performance isolation
++
+If the Flash Pool cache is not properly sized, there can be contention for the cache between the Flash Pool aggregates that are sharing it. This risk can be mitigated with proper cache sizing and QoS controls.
+
+* Decreased management flexibility
++
+When you add storage to a storage pool, you increase the size of all Flash Pool caches that include one or more allocation units from that storage pool; you cannot determine how the extra capacity is distributed.

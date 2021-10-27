@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_starting_or_stopping_fc_or_fcoe_service.html
+sidebar: sidebar
+keywords: start, stop, fc, fcor, service, online, help, adaptor
+summary: "The FC service enables you to manage FC target adapters for use with LUNs. You can use System Manager to start the FC service to bring the adapters online and to enable access to the LUNs on the storage system. You can stop the FC service to take the FC adapters offline and to disable access to the LUNs."
+---
+= Starting or stopping the FC or FCoE service
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The FC service enables you to manage FC target adapters for use with LUNs. You can use System Manager to start the FC service to bring the adapters online and to enable access to the LUNs on the storage system. You can stop the FC service to take the FC adapters offline and to disable access to the LUNs.
+
+.Before you begin
+
+* The FC license must be installed.
+* An FC adapter must be present in the target storage system.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *FC/FCoE*.
+. Click *Start* or *Stop*, as required.
+
+*Related information*
+
+xref:reference_configurationprotocolsfcp.adoc[FC/FCoE window]

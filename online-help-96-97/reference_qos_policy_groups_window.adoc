@@ -1,0 +1,62 @@
+---
+permalink: online-help-96-97/reference_qos_policy_groups_window.html
+sidebar: sidebar
+keywords: quality, service, qos, policy, groups, window, online, help
+summary: "Storage QoS (Quality of Service) can help you manage risks related to meeting your performance objectives. Storage QoS enables you to limit the throughput of workloads and to monitor workload performance. You can use the QoS Policy groups window to manage your policy groups and view information about them."
+---
+= QoS Policy Groups window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage QoS (Quality of Service) can help you manage risks related to meeting your performance objectives. Storage QoS enables you to limit the throughput of workloads and to monitor workload performance. You can use the QoS Policy groups window to manage your policy groups and view information about them.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create QoS Policy Group dialog box, which enables you to create new policy groups.
+
+* *Edit*
++
+Opens the Edit QoS Policy Group dialog box, which enables you to modify the selected policy group.
+
+* *Delete*
++
+Deletes the selected policy groups.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== QoS Policy Groups list
+
+The QoS Policy Groups list displays the policy group name and the maximum throughput for each policy group.
+
+* *Name*
++
+Displays the name of the QoS policy group.
+
+* *Minimum Throughput*
++
+Displays the minimum throughput limit specified for the policy group.
++
+If you have not specified any minimum throughput value, the system automatically displays "`None`" as the value and this value is case-sensitive.
+
+* *Maximum Throughput*
++
+Displays the maximum throughput limit specified for the policy group.
++
+If you have not specified any maximum throughput value, the system automatically displays "`Unlimited`" as the value and this value is case-sensitive.
+
+* *Storage Objects Count*
++
+Displays the number of storage objects assigned to the policy group.
+
+== Details area
+
+The area below the QoS Policy Groups list displays detailed information about the selected policy group.
+
+* *Assigned Storage Objects tab*
++
+Displays the name and type of the storage object that is assigned to the selected policy group.

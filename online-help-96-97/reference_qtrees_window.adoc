@@ -1,0 +1,78 @@
+---
+permalink: online-help-96-97/reference_qtrees_window.html
+sidebar: sidebar
+keywords: qtree, online, help, window, command, button
+summary: "You can use the Qtrees window to create, display, and manage information about qtrees."
+---
+= Qtrees window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Qtrees window to create, display, and manage information about qtrees.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Qtree dialog box, which enables you to create a new qtree.
+
+* *Edit*
++
+Opens the Edit Qtree dialog box, which enables you to change the security style and to enable or disable oplocks (opportunistic locks) on a qtree.
+
+* *Change Export Policy*
++
+Opens the Export Policy dialog box, which enables you to assign one or more qtrees to new or existing export policies.
+
+* *Delete*
++
+Deletes the selected qtree.
++
+This button is disabled unless the status of the selected qtree is normal.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Qtree list
+
+The qtree list displays the volume in which the qtree resides and the qtree name.
+
+* *Name*
++
+Displays the name of the qtree.
+
+* *Volume*
++
+Displays the name of the volume in which the qtree resides.
+
+* *Security Style*
++
+Specifies the security style of the qtree.
+
+* *Status*
++
+Specifies the current status of the qtree.
+
+* *Oplocks*
++
+Specifies whether the oplocks setting is enabled or disabled for the qtree.
+
+* *Export Policy*
++
+Displays the name of the export policy to which the qtree is assigned.
+
+== Details area
+
+* *Details tab*
++
+Displays detailed information about the selected qtree, such as the mount path of the volume containing the qtree, details about the export policy, and the export policy rules.
+
+*Related information*
+
+xref:task_creating_qtrees.adoc[Creating qtrees]
+
+xref:task_deleting_qtrees.adoc[Deleting qtrees]
+
+xref:task_editing_qtrees.adoc[Editing qtrees]

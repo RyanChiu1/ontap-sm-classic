@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_deleting_export_policies.html
+sidebar: sidebar
+keywords: delete, export, policies, system, manager, online, help
+summary: "You can use System Manager to delete export policies that are no longer required."
+---
+= Deleting export policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to delete export policies that are no longer required.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Policies* pane, click *Export Policies*.
+. Select the export policy that you want to delete, and then click *Delete Policy*.
+. Select the confirmation check box, and then click *Delete*.

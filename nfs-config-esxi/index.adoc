@@ -1,0 +1,41 @@
+---
+permalink: nfs-config-esxi/index.html
+sidebar: sidebar
+keywords: nfs, access, esxi, host, datastores, ontap, volume, configuration, overview, vsc
+summary: "This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes."
+---
+= NFS configuration for ESXi using VSC overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This content describes how to quickly set up NFS access for ESXi hosts to datastores using ONTAP volumes.
+
+You should use this content if you want to configure NFS access for ESXi hosts to a volume in the following way:
+
+* You are working with clusters running ONTAP 9.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use to provision a datastore and create a volume.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
+
+* Your data network uses the default IPspace, the default broadcast domain, and the default failover group.
++
+If your data network is flat, these default objects prescribe that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to https://docs.netapp.com/us-en/ontap/networking/index.html[Network Management] for information about how to configure LIF path failover.
+
+* You want to use the Plug-In for VMware VAAI.
++
+VMware vStorage APIs for Array Integration (VAAI) enable you to perform copy offload and space reservations. The Plug-In for VMware VAAI uses this to improve host performance because operations do not need to go through the ESXi host, thereby taking advantage of space- and time-efficient cloning in ONTAP.
++
+Using VMware VAAI for datastore provisioning is a best practice.
+
+* NFS access will be through NFSv3 and NFSv4 for use with VMware VAAI.
+
+If this content is not suitable for your situation, you should see the following documentation instead:
+
+* https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management^]
+* http://www.netapp.com/us/media/tr-4067.pdf[NetApp Technical Report 4067: NFS Best Practice and Implementation^]
+* https://www.netapp.com/pdf.html?item=/media/16328-tr-4668pdf.pdf[NetApp Technical Report 4668: Name Services Best Practices^]
+* http://www.netapp.com/us/media/tr-4597.pdf[NetApp Technical Report 4597: VMware vSphere with ONTAP^]

@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/concept_cluster_expansion.html
+sidebar: sidebar
+keywords: cluster, expanision, system, manager, storage, size, capabilities, node, configure, network, online, help
+summary: "You can use System Manager to increase the size and capabilities of your storage by adding compatible nodes to the cluster and configuring the node network details. You can also view the summary of the nodes."
+---
+= Cluster Expansion
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to increase the size and capabilities of your storage by adding compatible nodes to the cluster and configuring the node network details. You can also view the summary of the nodes.
+
+When you log in to System Manager, System Manager automatically detects compatible nodes that have been cabled but have not been added to the cluster and prompts you to add the nodes. You can add compatible nodes as and when System Manager detects the nodes or you can manually add the nodes at a later time.

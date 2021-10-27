@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_resizing_quotas.html
+sidebar: sidebar
+keywords: resize, quota, system, manager, active, volume, online, help
+summary: "You can use the Resize Quota dialog box in System Manager to adjust the active quotas in the specified volume so that they reflect the changes that you have made to a quota."
+---
+= Resizing quotas
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Resize Quota dialog box in System Manager to adjust the active quotas in the specified volume so that they reflect the changes that you have made to a quota.
+
+.Before you begin
+
+Quotas must be enabled for the volumes for which you want to resize quotas.
+
+.Steps
+
+. Click *Storage* > *Quotas*.
+. In the *Quota Status on Volumes* tab of the *Quotas* window, select one or more volumes for which you want to resize the quotas.
+. Click *Resize*.
+
+*Related information*
+
+xref:reference_quotas_window.adoc[Quotas window]

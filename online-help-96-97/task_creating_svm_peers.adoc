@@ -1,0 +1,70 @@
+---
+permalink: online-help-96-97/task_creating_svm_peers.html
+sidebar: sidebar
+keywords: create, svm, peers, relationship, data, protection, online, help
+summary: "SVM peering enables you to establish a peer relationship between two storage virtual machines (SVMs) for data protection."
+---
+= Create SVM peers
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+SVM peering enables you to establish a peer relationship between two storage virtual machines (SVMs) for data protection.
+
+.Before you begin
+
+You must have created a peer relationship between the clusters in which the SVMs that you plan to peer reside.
+
+.About this task
+
+* The clusters that you can select as target clusters are listed when you create SVM peers by using the *Configuration* > *SVM Peers* window.
+* If the target SVM resides on a cluster in a system running ONTAP 9.2 or earlier, SVM peering cannot be accepted by using System Manager.
++
+[NOTE]
+====
+In such a scenario, you can use the command-line interface (CLI) to accept SVM peering.
+====
+
+.Steps
+
+. Select the initiator SVM.
+. Select the target SVM from the list of permitted SVMs.
+. Specify the name of the target SVM in the *Enter an SVM* field.
++
+[NOTE]
+====
+If you have navigated from the *Configuration* > *SVM Peers* window, you should select the target SVM from the list of peered clusters.
+====
+
+. Initiate SVM peering.
++
+[options="header"]
+|===
+| If you want to...| Do this...
+a|
+Initiate SVM peering from the initiator cluster
+a|
+Click Initiate SVM Peering.
+a|
+Accept SVM peering from the remote cluster
+a|
+
+[NOTE]
+====
+Applicable for non-permitted SVMs
+====
+
+ .. Specify the management address of the remote cluster.
+ .. Click the *Management URL* link to access the SVM Peer window of the remote cluster.
+ .. On the remote cluster, accept the *Pending SVM Peer* request.
+ .. Access the initiator cluster, and then click *Validate Peering*.
+
+|===
+
+. Click *Continue*.
+
+== What to do next
+
+You can view the intercluster LIFs, cluster peer relationship, and SVM peer relationship in the Summary window.
+
+When you use System Manager to create the peer relationship, the encryption status is "`Enabled`" by default.

@@ -1,0 +1,29 @@
+---
+permalink: online-help-96-97/task_initializing_mirror_vault_relationships.html
+sidebar: sidebar
+keywords: initialize, mirror, vault, relationship, online, help, system, manager
+summary: "You can use System Manager to initialize a mirror and vault relationship if you have not already initialized the relationship while creating it. When you initialize a relationship, a complete baseline transfer of data is performed from the source volume to the destination."
+---
+= Initializing mirror and vault relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to initialize a mirror and vault relationship if you have not already initialized the relationship while creating it. When you initialize a relationship, a complete baseline transfer of data is performed from the source volume to the destination.
+
+.Before you begin
+
+The source and destination clusters must be in a healthy peer relationship.
+
+.Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror and vault relationship that you want to initialize, and then click *Operations* > *Initialize*.
+. Select the confirmation check box, and then click *Initialize*.
+. Verify the status of the relationship in the *Protection* window.
+
+.Results
+
+A Snapshot copy is created and transferred to the destination.
+
+This Snapshot copy is used as a baseline for subsequent incremental Snapshot copies.

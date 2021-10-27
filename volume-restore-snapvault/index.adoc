@@ -1,0 +1,31 @@
+---
+permalink: volume-restore-snapvault/index.html
+sidebar: sidebar
+keywords: content, restore, volume, snapvault, backup, ontap, data, loss, volume restore using snapvault overview
+summary: "This content describes how to quickly restore a volume from a SnapVault backup in ONTAP when there is a data loss."
+---
+= Volume restore using SnapVault overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This content describes how to quickly restore a volume from a SnapVault backup in ONTAP when there is a data loss.
+
+You should use this content if you want to restore from the SnapVault backup in the following way:
+
+* You are working with clusters running ONTAP 9.
+* You are a cluster administrator.
+* You have configured the SnapVault relationship following the procedure described in xref:../volume-backup-snapvault/index.html[Volume backup using SnapVault]
+
+* You do not want to perform a single file or LUN restore.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
+
+If these assumptions are not correct for your situation, or if you want more conceptual background information, you should see the following resources:
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection^]
+* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2^]
+* http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: SnapVault Best Practices^]

@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_fcoe_protocol.html
+sidebar: sidebar
+keywords: fcoe, protocol, fibre, channel, ethernet, host, storage, system, management, online, help
+summary: "Fibre Channel over Ethernet (FCoE) is a new model for connecting hosts to storage systems. Like the traditional FC protocol, FCoE maintains existing FC management and controls, but it uses a 10-gigabit Ethernet network as the hardware transport."
+---
+= The FCoE protocol
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Fibre Channel over Ethernet (FCoE) is a new model for connecting hosts to storage systems. Like the traditional FC protocol, FCoE maintains existing FC management and controls, but it uses a 10-gigabit Ethernet network as the hardware transport.
+
+Setting up an FCoE connection requires one or more supported converged network adapters (CNAs) in the host, connected to a supported data center bridging (DCB) Ethernet switch. The CNA is a consolidation point and effectively serves as both an HBA and an Ethernet adapter.
+
+In general, you can configure and use FCoE connections the same way you use traditional FC connections.

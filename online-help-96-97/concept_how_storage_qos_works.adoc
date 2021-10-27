@@ -1,0 +1,27 @@
+---
+permalink: online-help-96-97/concept_how_storage_qos_works.html
+sidebar: sidebar
+keywords: storage, qos, control, workload, throttle, prioritize, client, operations, san, nas, system, operation, online, help
+summary: "Storage QoS controls workloads that are assigned to policy groups by throttling and prioritizing client operations (SAN and NAS data requests) and system operations."
+---
+= How Storage QoS works
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage QoS controls workloads that are assigned to policy groups by throttling and prioritizing client operations (SAN and NAS data requests) and system operations.
+
+The following illustration shows a sample environment before and after using Storage QoS. On the left, workloads compete for cluster resources to transmit I/O. These workloads get "`best effort`" performance, which means that you have less performance predictability (for example, a workload might get such good performance that it negatively impacts other workloads). On the right, the same workloads are assigned to policy groups that enforce maximum throughput limits.
+
+image::../media/qos_comparison.gif[This graphic is described by the surrounding text.]
+
+The `-max-throughput` parameter specifies the maximum throughput limit for the policy group that the policy group must not exceed. The value of this parameter is specified in terms of IOPS or MB/s, or a combination of comma-separated IOPS and MB/s values, and the range is zero to infinity.
+
+The units are base 10. There should be no space between the number and the unit. The default value for the `-max-throughput` parameter is `infinity`, which is specified by the special value INF.
+
+[NOTE]
+====
+There is no default unit for the `-max-throughput` parameter. For all values except zero and infinity, you must specify the unit.
+====
+
+The keyword "`none`" is available for a situation that requires the removal of a value. The keyword "`INF`" is available for a situation that requires the maximum available value to be specified. Examples of valid throughput specifications are: ""`100B/s`"", "`10KB/s`", "`1gb/s`", "`500MB/s`", "`1tb/s`", "`100iops`", "`100iops,400KB/s`", and "`800KB/s,100iops`".

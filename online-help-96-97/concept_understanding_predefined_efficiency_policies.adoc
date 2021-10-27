@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/concept_understanding_predefined_efficiency_policies.html
+sidebar: sidebar
+keywords: understand, default, inline, volume, predefined, efficiency, policy, online, help
+summary: "You can configure a volume with efficiency policies to achieve additional space savings. You can configure a volume to run inline compression without a scheduled or manually started background efficiency operation configured on the volume."
+---
+= Understanding predefined efficiency policies
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure a volume with efficiency policies to achieve additional space savings. You can configure a volume to run inline compression without a scheduled or manually started background efficiency operation configured on the volume.
+
+When you create an SVM, the following efficiency policies are created automatically and cannot be deleted:
+
+* Default
++
+You can configure a volume with the efficiency policy to run the scheduled deduplication operations on the volume.
+
+* Inline-only
++
+You can configure a volume with the inline-only efficiency policy and enable inline compression, to run inline compression on the volume without any scheduled or manually started background efficiency operations.
+
+For more information about the inline-only and default efficiency policies, see the man pages.

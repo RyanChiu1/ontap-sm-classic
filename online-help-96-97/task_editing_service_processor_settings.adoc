@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_editing_service_processor_settings.html
+sidebar: sidebar
+keywords: edit, service, processor, settings, , system, manager, online, help, ip, address
+summary: "You can modify Service Processor attributes, such as the IP address, the network mask or the prefix length, and the gateway address, by using System Manager. You can also allocate IP addresses to Service Processors that do not have any IP addresses assigned."
+---
+= Editing Service Processor settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can modify Service Processor attributes, such as the IP address, the network mask or the prefix length, and the gateway address, by using System Manager. You can also allocate IP addresses to Service Processors that do not have any IP addresses assigned.
+
+.About this task
+
+* You can edit the settings of a Service Processor that was assigned an IP address manually.
+* You cannot edit the settings of a Service Processor that was assigned an IP address through a DHCP server or through a subnet.
+
+.Steps
+
+. Click *Configuration* > *Cluster* > *Service Processor*.
+. In the *Service Processor* window, select the Service Processor that you want to modify, and then click *Edit*.
+. In the *Edit Service Processor* dialog box, make the required changes, and then click *Save and Close*.

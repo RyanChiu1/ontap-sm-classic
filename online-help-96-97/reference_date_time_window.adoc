@@ -1,0 +1,32 @@
+---
+permalink: online-help-96-97/reference_date_time_window.html
+sidebar: sidebar
+keywords: date, time, window, command, button, detail, area, online, help
+summary: "The Date and Time window enables you to view the current date and time settings for your storage system and to modify the settings when required."
+---
+= Date and Time window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The Date and Time window enables you to view the current date and time settings for your storage system and to modify the settings when required.
+
+== Command buttons
+
+* *Edit*
++
+Opens the Edit Date and Time dialog box, which enables you to edit the time servers.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Details area
+
+The details area displays information about the date, time, time zone, NTP service, and time servers for your storage system.
+
+*Related information*
+
+xref:task_setting_time_zone_for_cluster.adoc[Setting the time zone for a cluster]
+
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]

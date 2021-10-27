@@ -1,0 +1,15 @@
+---
+permalink: online-help-96-97/concept_configuring_cluster_by_using_system_manager.html
+sidebar: sidebar
+keywords: configure, cluster, system, manager, online, help
+summary: "Certain prerequisites must be met before you configure a cluster using System Manager."
+---
+= Configure a cluster by using System Manager
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Certain prerequisites must be met before you configure a cluster using System Manager.
+
+* You must have created a cluster.
+* You must have not configured the cluster.

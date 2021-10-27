@@ -1,0 +1,78 @@
+---
+permalink: online-help-96-97/task_creating_mirror_relationship_from_destination_svm.html
+sidebar: sidebar
+keywords: create, mirror, relationship, destination, svm, online, help, system, manager
+summary: "You can use ONTAP System Manager to create a mirror relationship from the destination storage virtual machine (SVM) and to assign a policy and schedule to the mirror relationship. The mirror copy enables quick availability of data if the data on the source volume is corrupted or lost."
+---
+= Create a mirror relationship from a destination SVM
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use ONTAP System Manager to create a mirror relationship from the destination storage virtual machine (SVM) and to assign a policy and schedule to the mirror relationship. The mirror copy enables quick availability of data if the data on the source volume is corrupted or lost.
+
+.Before you begin
+
+* The source cluster must be running ONTAP 8.2.2 or later.
+* The SnapMirror license must be enabled on the source cluster and destination cluster.
++
+[NOTE]
+====
+For some platforms, it is not mandatory for the source cluster to have the SnapMirror license enabled if the destination cluster has the SnapMirror license and Data Protection Optimization (DPO) license enabled.
+====
+
+* While mirroring a volume, if you select a SnapLock volume as the source, then the SnapMirror license and SnapLock license must be installed on the destination cluster.
+* The source cluster and destination cluster must be in a healthy peer relationship.
+* The destination SVM must have space available.
+* A source volume of type read/write (rw) must exist.
+* The FlexVol volumes must be online and must be of type read/write.
+* The SnapLock aggregate type must be of the same type.
+* If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which Security Assertion Markup Language (SAML) authentication is enabled, password-based authentication must be enabled on the remote cluster.
+
+.About this task
+
+* System Manager does not support a cascade relationship.
++
+For example, a destination volume in a relationship cannot be the source volume in another relationship.
+
+* You cannot create a mirror relationship between a sync-source SVM and a sync-destination SVM in a MetroCluster configuration.
+* You can create a mirror relationship between sync-source SVMs in a MetroCluster configuration.
+* You can create a mirror relationship from a volume on a sync-source SVM to a volume on a data-serving SVM.
+* You can create a mirror relationship from a volume on a data-serving SVM to a data protection (DP) volume on a sync-source SVM.
+* You can create a mirror relationship between SnapLock volumes of the same type only.
++
+For example, if the source volume is a SnapLock Enterprise volume, then the destination volume must also be a SnapLock Enterprise volume. You must ensure that the destination SVM has aggregates of the same SnapLock type available.
+
+* The destination volume that is created for a mirror relationship is not thin provisioned.
+* A maximum of 25 volumes can be protected in one selection.
+* You cannot create a mirror relationship between SnapLock volumes if the destination cluster is running a version of ONTAP that is older than the ONTAP version that the source cluster is running.
+
+.Steps
+
+. Click *Protection* > *Volume Relationships*.
+. In the *Volume Relationships* window, click *Create*.
+. In the *Browse SVM* dialog box, select an SVM for the destination volume.
+. In the *Create Protection Relationship* dialog box, select *Mirror* from the *Relationship Type* drop-down list.
+. Specify the cluster, the SVM, and the source volume.
++
+If the specified cluster is running a version of ONTAP software earlier than ONTAP 9.3, then only peered SVMs are listed. If the specified cluster is running ONTAP 9.3 or later, peered SVMs and permitted SVMs are listed.
+
+. For FlexVol volumes, specify a volume name suffix.
++
+The volume name suffix is appended to the source volume names to generate the destination volume names.
+
+. Click *Browse*, and then change the mirror policy.
+. Select a schedule for the relationship from the list of existing schedules.
+. Select *Initialize Relationship* to initialize the mirror relationship.
+. Enable FabricPool-enabled aggregates, and then select an appropriate tiering policy.
+. Click *Create*.
+
+.Results
+
+If you chose to create a destination volume, a destination volume of type _dp_ is created, with the language attribute set to match the language attribute of the source volume.
+
+A mirror relationship is created between the source volume and the destination volume. The base Snapshot copy is transferred to the destination volume if you have opted to initialize the relationship.
+
+*Related information*
+
+xref:reference_protection_window.adoc[Protection window]

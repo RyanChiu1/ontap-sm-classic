@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_initializing_complianceclock.html
+sidebar: sidebar
+keywords: complianceclock, initialize, system, manager, online, help, snaplock, time
+summary: "You can use System Manager to initialize the ComplianceClock time to the current cluster time. You must initialize the ComplianceClock time in order to create SnapLock aggregates."
+---
+= Initializing the ComplianceClock time
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to initialize the ComplianceClock time to the current cluster time. You must initialize the ComplianceClock time in order to create SnapLock aggregates.
+
+.Before you begin
+
+The SnapLock license must be installed.
+
+.About this task
+
+You cannot modify or stop the ComplianceClock time after it is initialized.
+
+.Steps
+
+. Click *Storage* > *Nodes*.
+. Select the node, and then click *Initialize ComplianceClock*.
+. In the *Initialize ComplianceClock* dialog box, click *Yes* to initialize the ComplianceClock time to the current cluster time.

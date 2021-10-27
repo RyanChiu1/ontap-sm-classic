@@ -1,0 +1,44 @@
+---
+permalink: online-help-96-97/reference_schedules_window.html
+sidebar: sidebar
+keywords: schedule, window, command, button, online, help
+summary: "You can use the Schedules window to manage scheduled tasks, such as creating, displaying information about, modifying, and deleting schedules."
+---
+= Schedules window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Schedules window to manage scheduled tasks, such as creating, displaying information about, modifying, and deleting schedules.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Schedule dialog box, which enables you to create time-based and interval schedules.
+
+* *Edit*
++
+Opens the Edit Schedule dialog box, which enables you to edit the selected schedules.
+
+* *Delete*
++
+Opens the Delete Schedule dialog box, which enables you to delete the selected schedules.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Schedules list
+
+* *Name*
++
+Specifies the name of the schedule.
+
+* *Type*
++
+Specifies the type of the schedule--time-based or interval-based.
+
+== Details area
+
+The details area displays information about when a selected schedule is run.

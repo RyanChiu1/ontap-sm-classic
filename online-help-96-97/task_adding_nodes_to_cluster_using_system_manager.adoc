@@ -1,0 +1,58 @@
+---
+permalink: online-help-96-97/task_adding_nodes_to_cluster_using_system_manager.html
+sidebar: sidebar
+keywords: system, manager, add, node, cluster, online, help
+summary: "You can use System Manager to increase the size and capabilities of your storage system by adding nodes to an existing cluster."
+---
+= Add nodes to a cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to increase the size and capabilities of your storage system by adding nodes to an existing cluster.
+
+.Before you begin
+
+* New compatible nodes must be cabled to the cluster.
++
+Only the ports that are in the default broadcast domain will be listed in the Network window.
+
+* All of the nodes in the cluster must be up and running.
+* All of the nodes must be of the same version.
+
+.Steps
+
+. Add the new compatible nodes to the cluster:
++
+[options="header"]
+|===
+| If you are...| Do this...
+a|
+Not logged in to System Manager
+a|
+
+ .. Log in to System Manager.
++
+[NOTE]
+====
+The new compatible nodes are automatically detected by System Manager at login. System Manager prompts you to add the new compatible nodes to the cluster.
+====
+
+ .. Click *Add Nodes to Cluster*.
+ .. Modify the name of the nodes.
+ .. Specify the node licenses.
+ .. Click *Submit and Proceed*.
+
+a|
+Logged in to System Manager
+a|
+
+ .. Click *Configuration* > *Cluster* > *Expansion*.
++
+System Manager searches for newly added nodes. If any warnings are displayed, you must fix them before proceeding. If new compatible nodes are discovered, proceed to the next step.
+
+ .. Modify the name of the nodes.
+ .. Specify the node licenses.
+ .. Click *Submit and Proceed*.
+
+|===

@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/task_splitting_flexclone_volume_from_its_parent_volume.html
+sidebar: sidebar
+keywords: split, flexclone, volume, parent, online, help, disk, space
+summary: "If you want a FlexClone volume to have its own disk space instead of using the disk space of its parent volume, you can split the volume from its parent by using System Manager. After the split, the FlexClone volume becomes a normal FlexVol volume."
+---
+= Splitting a FlexClone volume from its parent volume
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you want a FlexClone volume to have its own disk space instead of using the disk space of its parent volume, you can split the volume from its parent by using System Manager. After the split, the FlexClone volume becomes a normal FlexVol volume.
+
+.Before you begin
+
+The FlexClone volume must be online.
+
+.About this task
+
+For systems that are _not_ AFF systems, the clone-splitting operation deletes all of the existing Snapshot copies of the clone. The Snapshot copies that are required for SnapMirror updates are also deleted. Therefore, any subsequent SnapMirror updates might fail.
+
+You can pause the clone-splitting operation if you have to perform any other operation on the volume. You can resume the clone-splitting process after the other operation is complete.
+
+.Steps
+
+. Click *Storage* > *Volumes*.
+. From the drop-down menu in the *SVM* field, select *All SVMs*.
+. Select the FlexClone volume that you want to split from its parent volume.
+. Click *More Actions* > *Clone* > *Split*.
+. Confirm the FlexClone volume details for the clone-splitting operation, and then click *Start Split* in the confirmation dialog box.
+
+*Related information*
+
+xref:reference_volumes_window.adoc[Volumes window]

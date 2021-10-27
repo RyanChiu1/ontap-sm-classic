@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/concept_svm_relationships.html
+sidebar: sidebar
+keywords: svm, relationship, dr, disaster, recovery, online, storage, virtual, machine, help
+summary: "Storage virtual machine (SVM) disaster recovery (DR) provides disaster recovery capability at the SVM level by enabling the recovery of the data that is present in the constituent volumes of the SVM and the recovery of the SVM configuration."
+---
+= SVM Relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage virtual machine (SVM) disaster recovery (DR) provides disaster recovery capability at the SVM level by enabling the recovery of the data that is present in the constituent volumes of the SVM and the recovery of the SVM configuration.
+
+You can use System Manager to create and manage mirror relationships and mirror and vault relationships between SVMs.

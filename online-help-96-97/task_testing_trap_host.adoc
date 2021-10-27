@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_testing_trap_host.html
+sidebar: sidebar
+keywords: system, manager, test, trap, host, configuration, online, help
+summary: "You can use System Manager to test whether you have configured the trap host settings correctly."
+---
+= Testing the trap host configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to test whether you have configured the trap host settings correctly.
+
+.Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
+. In the *Setup* pane, click *SNMP*.
+. In the *SNMP* window, click *Test Trap Host*.
+. Click *OK*.

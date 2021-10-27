@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_fc_fcoe_protocol.html
+sidebar: sidebar
+keywords: system, manager, configure, fc, fcoe, protocol, online, help
+summary: "You can use System Manager to configure FC/FCoE protocols."
+---
+= FC/FCoE protocol
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to configure FC/FCoE protocols.
+
+*Related information*
+
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]

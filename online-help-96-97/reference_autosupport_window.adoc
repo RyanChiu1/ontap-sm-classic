@@ -1,0 +1,50 @@
+---
+permalink: online-help-96-97/reference_autosupport_window.html
+sidebar: sidebar
+keywords: autosupport, command, button, window, setting, online, help
+summary: "The AutoSupport window enables you to view the current AutoSupport settings for your system. You can also change your system’s AutoSupport settings."
+---
+= AutoSupport window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The AutoSupport window enables you to view the current AutoSupport settings for your system. You can also change your system's AutoSupport settings.
+
+== Command buttons
+
+* *Enable*
++
+Enables AutoSupport notification. *Enable* is the default.
+
+* *Disable*
++
+Disables AutoSupport notification.
+
+* *Edit*
++
+Opens the Edit AutoSupport Settings dialog box, which enables you to specify an email address from which email notifications are sent and to add multiple email addresses of the host names.
+
+* *Test*
++
+Opens the AutoSupport Test dialog box, which enables you to generate an AutoSupport test message.
+
+* *AutoSupport Request*
++
+Provides the following AutoSupport requests:
+
+ ** *Generate AutoSupport*
++
+Generates AutoSupport data for a selected node or all nodes.
+
+ ** *View Previous Summary*
++
+Displays the status and details of all the previous AutoSupport data.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Details area
+
+The details area displays AutoSupport setting information such as the node name, AutoSupport status, transport protocol used, and name of the proxy server.

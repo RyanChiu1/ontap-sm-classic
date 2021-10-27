@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_disabling_saml_authentication.html
+sidebar: sidebar
+keywords: disable, saml, authentication, security, assertion, markup, language, online, help, system, manager
+summary: "You can disable Security Assertion Markup Language (SAML) authentication if you want to disable remote access to System Manager, or to edit the SAML configuration."
+---
+= Disabling SAML authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can disable Security Assertion Markup Language (SAML) authentication if you want to disable remote access to System Manager, or to edit the SAML configuration.
+
+.About this task
+
+Disabling SAML authentication does not delete SAML configuration.
+
+.Steps
+
+. Click *Configuration* > *Cluster* > *Authentication*.
+. Clear the *Enable SAML authentication* check box.
+. Click *Save*.
++
+System Manager restarts.
+
+. Log in to System Manager by using the cluster credentials.
+
+*Related information*
+
+xref:task_accessing_cluster_by_using_system_manager_brower_based_gui.adoc[Accessing a cluster by using the ONTAP System Manager browser-based graphic interface]

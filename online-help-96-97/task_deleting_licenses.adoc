@@ -1,0 +1,48 @@
+---
+permalink: online-help-96-97/task_deleting_licenses.html
+sidebar: sidebar
+keywords: delete, license, window, system, manager, online, help, software, node
+summary: "You can use the Licenses window in System Manager to delete any software license that is installed on a cluster or a node."
+---
+= Deleting licenses
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Licenses window in System Manager to delete any software license that is installed on a cluster or a node.
+
+.Before you begin
+
+The software license that you want to delete must not be used by any service or feature.
+
+.Steps
+
+. Click *Configuration* > *Cluster* > *Licenses*.
+. In the *Licenses* window, perform the appropriate action:
++
+[options="header"]
+|===
+| If you want to...| Do this...
+a|
+Delete a specific license package on a node or a master license
+a|
+Click the *Details* tab.
+a|
+Delete a specific license package across all of the nodes in the cluster
+a|
+Click the *Packages* tab.
+|===
+
+. Select the software license package that you want to delete, and then click *Delete*.
++
+You can delete only one license package at a time.
+
+. Select the confirmation check box, and then click *Delete*.
+
+.Results
+
+The software license is deleted from your storage system. The deleted license is also removed from the list of licenses in the Licenses window.
+
+*Related information*
+
+xref:reference_licenses_window.adoc[Licenses window]

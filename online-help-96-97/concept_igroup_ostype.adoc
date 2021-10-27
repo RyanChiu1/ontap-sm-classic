@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/concept_igroup_ostype.html
+sidebar: sidebar
+keywords: ostype, igroup, host, operating, system, initiator, solaris, windows, hpux, aix, netware, xen, hyper v, vmware, linux, online, help
+summary: "The ostype indicates the type of host operating system used by all of the initiators in the igroup. All initiators in an igroup must be of the same ostype. The ostypes of initiators are solaris, windows, hpux, aix, netware, xen, hyper_v, vmware, and linux."
+---
+= igroup ostype
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The ostype indicates the type of host operating system used by all of the initiators in the igroup. All initiators in an igroup must be of the same ostype. The ostypes of initiators are `solaris`, `windows`, `hpux`, `aix`, `netware`, `xen`, `hyper_v`, `vmware`, and `linux.`
+
+You must select an ostype for the igroup.

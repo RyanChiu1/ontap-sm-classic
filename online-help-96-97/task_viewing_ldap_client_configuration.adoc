@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_viewing_ldap_client_configuration.html
+sidebar: sidebar
+keywords: svm, storage, virtual, machine, ldap, client, configuration, system, manager, online, help
+summary: "You can use System Manager to view the LDAP clients that are configured for a storage virtual machine (SVM) in a cluster."
+---
+= Viewing the LDAP client configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to view the LDAP clients that are configured for a storage virtual machine (SVM) in a cluster.
+
+.Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
+. In the *Setup* pane, click *LDAP*.
++
+The list of LDAP clients are displayed in the LDAP window.

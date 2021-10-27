@@ -1,0 +1,36 @@
+---
+permalink: online-help-96-97/task_modifying_cluster_peer_passphrase.html
+sidebar: sidebar
+keywords: modify, cluster, peer, passphrase, creation, online, help
+summary: "You can modify the passphrase that is provided during cluster peer creation."
+---
+= Modifying the cluster peer passphrase
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can modify the passphrase that is provided during cluster peer creation.
+
+.Steps
+
+. Click *Configuration* > *Cluster Peers*.
+. Select the peered cluster, and click *Edit*
++
+The drop-down menu displays.
+
+. Click *Local Cluster Passphrase*.
++
+The Edit Local Cluster Passphrase dialog window displays.
+
+. In the *Enter Passphrase* field, enter a new passphrase, and then click *Apply*.
++
+[NOTE]
+====
+The minimum required length of the passphrase is eight characters.
+====
++
+The passphrase is modified immediately. However, there might be a delay before the correct authentication status is displayed.
+
+. Log in to the remote cluster, and perform Steps <<STEP_52691237935644E3A8710F51CC2E3F81,1>> through <<STEP_1ABAF15926174E709CA59192E200ABE3,4>> to modify the passphrase in the remote cluster.
++
+The authentication status for the local cluster is displayed as `ok_and_offer` until you modify the passphrase in the remote cluster.

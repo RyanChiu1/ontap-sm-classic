@@ -1,0 +1,30 @@
+---
+permalink: online-help-96-97/task_editing_share_settings.html
+sidebar: sidebar
+keywords: edit, share, settings, system, manager, online, help
+summary: "You can use System Manager to modify the settings of a share such as the symbolic link settings, share access permissions of users or groups, and the type of access to the share. You can also enable or disable continuous availability of a share over Hyper-V, and enable or disable access-based enumeration (ABE). Starting with System Manager 9.6, continuous availability is supported for FlexGroup volumes."
+---
+= Editing share settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify the settings of a share such as the symbolic link settings, share access permissions of users or groups, and the type of access to the share. You can also enable or disable continuous availability of a share over Hyper-V, and enable or disable access-based enumeration (ABE). Starting with System Manager 9.6, continuous availability is supported for FlexGroup volumes.
+
+.Steps
+
+. Click *Storage* > *Shares*.
+. Select the share that you want to modify from the list of shares, and then click *Edit*.
+. In the *Edit Share Settings* dialog box, modify the share settings as required:
+ .. In the *General* tab, enable continuous availability of a share over Hyper-V.
++
+Enabling continuous availability permits SMB 3.0 and clients that support SMB 3.0 to open files persistently during nondisruptive operations. Files that are opened persistently are protected from disruptive events such as failover, giveback, and LIF migration.
+
+ .. In the *Permissions* tab, add users or groups, and then assign permissions to specify the type of access.
+ .. In the *Options* tab, select the required options.
+. Click *Save and Close*.
+. Verify the changes that you made to the selected share in the *Shares* window.
+
+*Related information*
+
+xref:reference_shares_window.adoc[Shares window]

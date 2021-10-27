@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_assigning_export_policies_to_qtrees.html
+sidebar: sidebar
+keywords: assign, export, policies, qtrees, online, help, system, manager
+summary: "Instead of exporting an entire volume, you can export a specific qtree on a volume to make it directly accessible to clients. You can use System Manager to export a qtree by assigning an export policy to the qtree. You can assign an export policy to one or more qtrees from the Qtrees window."
+---
+= Assigning export policies to qtrees
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Instead of exporting an entire volume, you can export a specific qtree on a volume to make it directly accessible to clients. You can use System Manager to export a qtree by assigning an export policy to the qtree. You can assign an export policy to one or more qtrees from the Qtrees window.
+
+.Steps
+
+. Click *Storage* > *Qtrees*.
+. From the drop-down menu in the SVM field, select the storage virtual machine (SVM) on which the qtrees that you want to export reside.
+. Select one or more qtrees for which you want to assign an export policy, and then click *Change Export Policy*.
+. In the *Export Policy* dialog box, either create an export policy or select an existing export policy.
++
+link:task_creating_export_policy.md#[Creating an export policy]
+
+. Click *Save*.
+. Verify that the export policy and its related export rules that you assigned to the qtrees are displayed in the *Details* tab of the appropriate qtrees.

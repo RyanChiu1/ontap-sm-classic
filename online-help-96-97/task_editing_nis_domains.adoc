@@ -1,0 +1,20 @@
+---
+permalink: online-help-96-97/task_editing_nis_domains.html
+sidebar: sidebar
+keywords: system, manager, modify, nis, domain, online, help, svm
+summary: "You can use System Manager to modify NIS domains based on the requirement for storage virtual machine (SVM) authentication and authorization."
+---
+= Editing NIS domains
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify NIS domains based on the requirement for storage virtual machine (SVM) authentication and authorization.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Services* pane, click *NIS*.
+. Select the NIS domain, and then click *Edit*.
+. Make the required changes, and then click *Edit*.

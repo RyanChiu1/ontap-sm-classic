@@ -1,0 +1,114 @@
+---
+permalink: online-help-96-97/reference_quotas_window.html
+sidebar: sidebar
+keywords: quota, window, create, display, manage, information, online, help
+summary: "You can use the Quotas window to create, display, and manage information about quotas."
+---
+= Quotas window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Quotas window to create, display, and manage information about quotas.
+
+== Tabs
+
+* *User Defined Quotas*
++
+You can use the *User Defined Quotas* tab to view details of the quotas that you create and to create, edit, or delete quotas.
+
+* *Quota Report*
++
+You can use the Quota Report tab to view the space and file usage and to edit the space and file limits of quotas that are active.
+
+* *Quota Status on Volumes*
++
+You can use the Quota Status on Volumes tab to view the status of a quota and to turn quotas on or off and to resize quotas.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Quota wizard, which enables you to create quotas.
+
+* *Edit Limits*
++
+Opens the Edit Limits dialog box, which enables you to edit settings of the selected quota.
+
+* *Delete*
++
+Deletes the selected quota from the quotas list.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== User Defined Quotas list
+
+The quotas list displays the name and storage information for each quota.
+
+* *Volume*
++
+Specifies the volume to which the quota is applied.
+
+* *Qtree*
++
+Specifies the qtree associated with the quota. "`All Qtrees`" indicates that the quota is associated with all the qtrees.
+
+* *Type*
++
+Specifies the quota type: user, or group, or tree.
+
+* *User/Group*
++
+Specifies a user or a group associated with the quota. "All Users" indicates that the quota is associated with all the users. "All groups" indicates that the quota is associated with all the groups.
+
+* *Quota Target*
++
+Specifies the type of target that the quota is assigned to. The target can be qtree, user, or group.
+
+* *Space Hard Limit*
++
+Specifies the disk space limit applied to hard quotas.
++
+This field is hidden by default.
+
+* *Space Soft Limit*
++
+Specifies the disk space limit applied to soft quotas.
++
+This field is hidden by default.
+
+* *Threshold*
++
+Specifies the disk space limit applied to threshold quotas.
++
+This field is hidden by default.
+
+* *File Hard Limit*
++
+Specifies the maximum number of files in a hard quota.
++
+This field is hidden by default.
+
+* *File Soft Limit*
++
+Specifies the maximum number of files in a soft quota.
++
+This field is hidden by default.
+
+== Details area
+
+The area below the quotas list displays quota details such as the quota error, space usage and limits, and file usage and limits.
+
+*Related information*
+
+xref:task_creating_quotas.adoc[Creating quotas]
+
+xref:task_deleting_quotas.adoc[Deleting quotas]
+
+xref:task_editing_quota_limits.adoc[Editing quota limits]
+
+xref:task_activating_or_deactivating_quotas.adoc[Activating or deactivating quotas]
+
+xref:task_resizing_quotas.adoc[Resizing quotas]

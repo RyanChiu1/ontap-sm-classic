@@ -1,0 +1,14 @@
+---
+permalink: online-help-96-97/task_setting_up_saml_authentication.html
+sidebar: sidebar
+keywords: set, up, saml, authentification, security, assertion, markup, idp, online, help
+summary: "You can set up Security Assertion Markup Language (SAML) authentication so that remote users are authenticated through a secure identity provider (IdP) before they log in to System Manager."
+---
+= Setting up SAML authentication
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can set up Security Assertion Markup Language (SAML) authentication so that remote users are authenticated through a secure identity provider (IdP) before they log in to System Manager.
+
+image::../media/mfa_workflow.gif[]

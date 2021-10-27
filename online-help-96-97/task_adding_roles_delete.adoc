@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_adding_roles_delete.html
+sidebar: sidebar
+keywords: add, roles, system, manager, access, control, command, online, help
+summary: "You can use System Manager to add an access-control role and to specify the command or command directory that the users of the role can access. You can also control the level of access the role has to the command or command directory, and you can specify a query that applies to the command or command directory."
+---
+= Add roles
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to add an access-control role and to specify the command or command directory that the users of the role can access. You can also control the level of access the role has to the command or command directory, and you can specify a query that applies to the command or command directory.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *SVM User Details* pane, click *Roles*.
+. Click *Add*.
+. In the *Add Role* dialog box, specify the role name, and then add the role attributes.
+. Click *Add*.

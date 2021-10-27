@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_suppressing_system_health_alerts.html
+sidebar: sidebar
+keywords: system, manager, suppress, system, health, alerts, online, help
+summary: "You can use System Manager to suppress system health alerts that do not require any intervention from you."
+---
+= Suppressing system health alerts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to suppress system health alerts that do not require any intervention from you.
+
+.Steps
+
+. Click *Events & Jobs* > *System Alerts*.
+. In the *System Alerts* window, click the arrow icon next to the name of subsystem.
+. Select the alert that you want to suppress, and then click *Suppress*.
+. Type your name, and then click *Suppress*.
+
+*Related information*
+
+xref:reference_system_health_window.adoc[System Alerts window]

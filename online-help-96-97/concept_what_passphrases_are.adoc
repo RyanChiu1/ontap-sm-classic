@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/concept_what_passphrases_are.html
+sidebar: sidebar
+keywords: passphrase, online, help, peer, request
+summary: "You can use a passphrase to authorize peering requests. You can use a custom passphrase or a system-generated passphrase for cluster peering."
+---
+= What passphrases are
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use a passphrase to authorize peering requests. You can use a custom passphrase or a system-generated passphrase for cluster peering.
+
+* You can generate a passphrase on the remote cluster.
+* The minimum required length for a passphrase is eight characters.
+* The passphrase is generated based on the IPspace.
+* If you are using a system-generated passphrase for cluster peering, after you enter the passphrase in the initiator cluster, peering is authorized automatically.
+* If you are using a custom passphrase for cluster peering, you have to navigate to the remote cluster to complete the peering process.

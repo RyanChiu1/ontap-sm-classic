@@ -1,0 +1,68 @@
+---
+permalink: online-help-96-97/reference_snmp_window.html
+sidebar: sidebar
+keywords: snmp, window, command, button, protocol, trap, hosts, settings, online, help
+summary: "The SNMP window enables you to view the current SNMP settings for your system. You can also change your system’s SNMP settings, enable SNMP protocols, and add trap hosts."
+---
+= SNMP window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The SNMP window enables you to view the current SNMP settings for your system. You can also change your system's SNMP settings, enable SNMP protocols, and add trap hosts.
+
+== Command buttons
+
+* *Enable/Disable*
++
+Enables or disables SNMP.
+
+* *Edit*
++
+Opens the Edit SNMP Settings dialog box, which enables you to specify the SNMP communities for your storage system and enable or disable traps.
+
+* *Test Trap Host*
++
+Sends a test trap to all the configured hosts to check whether the test trap reaches all the hosts and whether the configurations for SNMP are set correctly.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Details
+
+The details area displays the following information about the SNMP server and host traps for your storage system:
+
+* *SNMP*
++
+Displays whether SNMP is enabled or not.
+
+* *Traps*
++
+Displays if SNMP traps are enabled or not.
+
+* *Location*
++
+Displays the address of the SNMP server.
+
+* *Contact*
++
+Displays the contact details for the SNMP server.
+
+* *Trap host IP Address*
++
+Displays the IP addresses of the trap host.
+
+* *Community Names*
++
+Displays the community name of the SNMP server.
+
+* *Security Names*
++
+Displays the security style for the SNMP server.
+
+*Related information*
+
+xref:task_setting_snmp_information.adoc[Editing SNMP information]
+
+xref:task_enabling_or_disabling_snmp_traps.adoc[Enabling or disabling SNMP traps]

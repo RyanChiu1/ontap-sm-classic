@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/task_creating_subnets.html
+sidebar: sidebar
+keywords: online, help, subnet, create, system, manager, logical, subdivision, ip, network
+summary: "You can create a subnet by using System Manager to provide a logical subdivision of an IP network to pre-allocate the IP addresses. A subnet enables you to create interfaces more easily by specifying a subnet instead of an IP address and network mask values for each new interface."
+---
+= Create subnets
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a subnet by using System Manager to provide a logical subdivision of an IP network to pre-allocate the IP addresses. A subnet enables you to create interfaces more easily by specifying a subnet instead of an IP address and network mask values for each new interface.
+
+.Before you begin
+
+You must have created the broadcast domain on which the subnet is used.
+
+.About this task
+
+If you specify a gateway when creating a subnet, a default route to the gateway is added automatically to the SVM when a LIF is created using that subnet.
+
+.Steps
+
+. Click the *Network* tab.
+. In the *Subnets* tab, click *Create*.
+. In the *Create Subnet* dialog box, specify subnet details, such as the name, subnet IP address or subnet mask, range of IP addresses, gateway address, and broadcast domain.
++
+You can specify the IP addresses as a range, as comma-separated multiple addresses, or as a mix of both.
+
+. Click *Create*.
+
+*Related information*
+
+xref:reference_network_window.adoc[Network window]

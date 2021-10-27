@@ -1,0 +1,92 @@
+---
+permalink: online-help-96-97/reference_export_policies.html
+sidebar: sidebar
+keywords: export, policy, window, online, help, command, button, assigned, exports
+summary: "You can use the Export Policies window to create, view, and manage information about export policies and its related export rules."
+---
+= Export Policies window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Export Policies window to create, view, and manage information about export policies and its related export rules.
+
+== Export Policies
+
+The Export Policies window enables you to view and manage the export policies created for the storage virtual machine (SVM).
+
+* *Command buttons*
+ ** Create
++
+Opens the Create Export Policy dialog box, which enables you to create an export policy and add export rules. You can also copy export rules from an existing SVM.
+
+ ** Rename
++
+Opens the Rename Policy dialog box, which enables you to rename the selected export policy.
+
+ ** Delete
++
+Opens the Delete Export Policy dialog box, which enables you to delete the selected export policy.
+
+ ** Refresh
++
+Updates the information in the window.
+
+== Export Rules tab
+
+The Export Rules tab enables you to view information about the export rules created for a particular export policy. You can also add, edit, and delete rules.
+
+* *Command buttons*
+ ** Add
++
+Opens the Create Export Rule dialog box, which enables you to add an export rule to the selected export policy.
+
+ ** Edit
++
+Opens the Modify Export Rule dialog box, which enables you to modify the attributes of the selected export rule.
+
+ ** Delete
++
+Opens the Delete Export Rule dialog box, which enables you to delete the selected export rule.
+
+ ** Move Up
++
+Moves up the rule index of the selected export rule.
+
+ ** Move Down
++
+Moves down the rule index of the selected export rule.
+
+ ** Refresh
++
+Updates the information in the window.
+* *Export rules list*
+ ** Rule Index
++
+Specifies the priority based on which the export rules are processed. You can use the Move Up and Move Down buttons to choose the priority.
+
+ ** Client
++
+Specifies the client to which the rule applies.
+
+ ** Access Protocols
++
+Displays the access protocol that is specified for the export rule.
++
+If you have not specified any access protocol, the default value "`Any`" is considered.
+
+ ** Read-Only Rule
++
+Specifies one or more security types for read-only access.
+
+ ** Read/Write Rule
++
+Specifies one or more security types for read/write access.
+
+ ** Superuser Access
++
+Specifies the security type or types for superuser access.
+
+== Assigned Objects tab
+
+The Assigned Objects tab enables you to view the volumes and qtrees that are assigned to the selected export policy. You can also view whether the volume is encrypted or not.

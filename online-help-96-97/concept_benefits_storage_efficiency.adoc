@@ -1,0 +1,39 @@
+---
+permalink: online-help-96-97/concept_benefits_storage_efficiency.html
+sidebar: sidebar
+keywords: benefit, storage, efficiency, flexcone, flexvol, snapshot, copy, deduplication, data, compression, snapmirror, online, help, classic
+summary: "Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodate rapid data growth while consuming less space. You can use technologies such as RAID-DP, FlexVol, Snapshot copies, deduplication, data compression, SnapMirror, and FlexClone to increase storage utilization and decrease storage costs. When used together, these technologies help to achieve increased performance."
+---
+= Benefits of storage efficiency
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodate rapid data growth while consuming less space. You can use technologies such as RAID-DP, FlexVol, Snapshot copies, deduplication, data compression, SnapMirror, and FlexClone to increase storage utilization and decrease storage costs. When used together, these technologies help to achieve increased performance.
+
+* High-density disk drives, such as serial advanced technology attachment (SATA) drives mitigated with RAID-DP technology, provide increased efficiency and read performance.
+* RAID-DP is a double-parity RAID6 implementation that protects against dual disk drive failures.
+* Thin provisioning enables you to maintain a common unallocated storage space that is readily available to other applications as required.
++
+It is based on FlexVol technology.
+
+* Snapshot copies are a point-in-time, read-only view of a data volume, which consume minimal storage space.
++
+Two Snapshot copies created in sequence differ only by the blocks added or changed in the time interval between the two. This block incremental behavior limits the associated consumption of storage capacity.
+
+* Deduplication saves storage space by eliminating redundant data blocks within a FlexVol volume.
+* Data compression stores more data in less space and reduces the time and bandwidth required to replicate data during volume SnapMirror transfers.
++
+You have to choose the type of compression (inline or background) based on your requirement and the configurations of your storage system. Inline compression checks if data can be compressed, compresses data, and then writes data to the volume. Background compression runs on all the files, irrespective of whether the file is compressible or not, after all the data is written to the volume.
+
+* SnapMirror technology is a flexible solution for replicating data over local area, wide area, and Fibre Channel networks.
++
+It can serve as a critical component in implementing enterprise data protection strategies. You can replicate your data to one or more storage systems to minimize downtime costs in case of a production site failure. You can also use SnapMirror technology to centralize the backup of data to disks from multiple data centers.
+
+* FlexClone technology copies data volumes, files, and LUNs as instant virtual copies.
++
+A FlexClone volume, file, or LUN is a writable point-in-time image of the FlexVol volume or another FlexClone volume, file, or LUN. This technology enables you to use space efficiently, storing only data that changes between the parent and the clone.
+
+* The unified architecture integrates multiprotocol support to enable both file-based and block-based storage on a single platform.
++
+With FlexArray Virtualization, you can virtualize your entire storage infrastructure under one interface, and you can apply all the preceding efficiencies to your non-NetApp systems.

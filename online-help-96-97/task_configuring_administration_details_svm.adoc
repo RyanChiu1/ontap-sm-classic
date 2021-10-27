@@ -1,0 +1,65 @@
+---
+permalink: online-help-96-97/task_configuring_administration_details_svm.html
+sidebar: sidebar
+keywords: storage, virtual, machine, configure, administration, details, svm, online, help, system, manager
+summary: "You can use System Manager to quickly configure the administration details of a storage virtual machine (SVM). You can optionally delegate the administration of the SVM to SVM administrators."
+---
+= Configure the administration details of an SVM
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to quickly configure the administration details of astorage virtual machine (SVM). You can optionally delegate the administration of the SVM to SVM administrators.
+
+.About this task
+
+As an SVM administrator, you cannot use System Manager to manage delegated SVMs. You can manage theSVMsonly by using the command-line interface (CLI).
+
+.Steps
+
+. Click *Configuration* > *Cluster* > *Configuration Updates*.
+. In the *SVMs* tab, select the node, and then click *Configure Administration Details*.
+. In the *Administrator Details* section, set up a password for the `vsadmin` user account.
+. If you want a dedicated LIF for SVM management, select *Create a LIF for SVM management*, and then specify the network details.
++
+A dedicated SVM management LIF is required for SAN protocols, where data and management protocols cannot share the same LIF. SVM management LIFs can be created only on data ports.
+
+. Specify the network details:
++
+[options="header"]
+|===
+| If you want to...| Then...
+a|
+Specify the IP address by using a subnet
+a|
+
+ .. Select *Using a subnet*.
+ .. In the Add Details dialog box, select the subnet from which the IP address must be assigned.
++
+For intercluster LIFs, only the subnets that are associated with the selected IPspace are displayed.
+
+ .. If you want to assign a specific IP address to the interface, select *Use a specific IP address*, and then type the IP address.
++
+The IP address that you specify is added to the subnet if that IP address is not already present in the subnet range.
+
+ .. Click *OK*.
+
+a|
+Specify the IP address manually without using a subnet
+a|
+
+ .. Select *Without a subnet*.
+ .. In the Add Details dialog box, perform the following steps:
+  ... Specify the IP address and network mask or prefix.
+  ... Optional: Specify the gateway.
++
+The destination field is populated with the default value based on the family of the IP address.
+
+  ... If you do not want the default value, specify a new destination value.
+If a route does not exist, a new route is automatically created based on the gateway and destination.
+ .. Click *OK*.
+|===
+
+. Specify a port to create a data LIF:
+ .. Click *Browse*.
+ .. In the *Select Network Port or Adapter* dialog box, select a port, and then click *OK*.

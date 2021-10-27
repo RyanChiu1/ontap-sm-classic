@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/task_editing_nvme_subsystem_details.html
+sidebar: sidebar
+keywords: edit, nvme, subsystem, details, online, help
+summary: "You can use System Manager to edit the details of an NVMe subsystem."
+---
+= Editing NVMe subsystems details
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to edit the details of an NVMe subsystem.
+
+.Steps
+
+. Find the NVMe subsystem you want to edit in the *NVMe Subsystem* window.
+. Check the box to the left of the name of the subsystem you want to edit.
+. Click *Edit*.
++
+The current details of the NVMe subsystem are displayed in the NVMe Subsystems: Editwindow.
+
+. You can modify only the information in the *Host NQN* field.
+ ** *Host NQN*
++
+Modify the Host NQN attached to the controller. You can enter more than one Host NQN by separating them with commas.
+
++
+The *Associated NVMe Namespaces* table displays below the Host NQN field. For each namespace, that table lists the namespace path and namespace ID.
+. Click *Save*.
++
+The NVMe subsystem details are updated, and the NVMe Subsystems window is displayed.
+
+*Related information*
+
+xref:reference_nvme_subsystems_window.adoc[NVMe Subsystems window]

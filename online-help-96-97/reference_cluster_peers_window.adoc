@@ -1,0 +1,95 @@
+---
+permalink: online-help-96-97/reference_cluster_peers_window.html
+sidebar: sidebar
+keywords: cluster, peer, window, command, button, online, help
+summary: "You can use the Cluster Peers window to manage peer cluster relationships, which enables you to move data from one cluster to another."
+---
+= Cluster Peers window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Cluster Peers window to manage peer cluster relationships, which enables you to move data from one cluster to another.
+
+== Command buttons
+
+* *Create*
++
+Opens the Create Cluster Peering dialog box, which enables you to create a relationship with a remote cluster.
+
+* *Edit*
++
+Displays a drop-down menu with the following choices:
+
+ ** *Local Cluster Passphrase*
++
+Opens the Edit Local Cluster Passphrase dialog box, which enables you to enter a new passphrase to validate the local cluster.
+
+ ** *Peer Cluster Network Parameters*
++
+Opens the Edit Peer Cluster Network Parameters dialog box, which enables you to modify the IPspace and add or remove intercluster LIF IP addresses.
++
+You can add multiple IP addresses, separated by commas.
+
+ ** *Change Encryption*
++
+Opens the Change Encryption dialog box for the selected peer cluster. While you are changing the encryption of the peered relationship, you can either generate a new passphrase or provide a passphrase that was already generated at the remote peered cluster.
++
+This action is not available if the encryption status is "`N/A`".
+
+* *Delete*
++
+Opens the Delete Cluster Peer Relationship dialog box, which enables you to delete the selected peer cluster relationship.
+
+* *Refresh*
++
+Updates the information in the window.
+
+* *Manage SVM Permissions*
++
+Enables SVMs to automatically accept SVM peering requests.
+
+* *Generate Peering Passphrase*
++
+Enables you to generate a passphrase for the local cluster IPspace by specifying the IPspace, setting the passphrase validity duration, and specifying which SVMs are given permission.
++
+You use the same passphrase in the remote cluster for peering.
+
+== Peer cluster list
+
+* *Peer Cluster*
++
+Specifies the name of the peer cluster in the relationship.
+
+* *Availability*
++
+Specifies whether the peer cluster is available for communication.
+
+* *Authentication Status*
++
+Specifies whether the peer cluster is authenticated or not.
+
+* *Local Cluster IPspace*
++
+Displays IPspace associated with the local cluster peer relationship.
+
+* *Peer Cluster Intercluster IP Addresses*
++
+Displays IP addresses associated with the intercluster peer relationship.
+
+* *Last Updated Time*
++
+Displays the time at which peer cluster was last modified.
+
+* *Encryption*
++
+Displays the status of the encryption of the peering relationship.
++
+[NOTE]
+====
+Starting with System Manager 9.6, peering is encrypted by default when you establish a peering relationship between two clusters
+====
+
+ ** *N/A*: Encryption is not applicable to the relationship.
+ ** *none*: The peering relationship is not encrypted.
+ ** *tls_psk*: The peering relationship is encrypted.

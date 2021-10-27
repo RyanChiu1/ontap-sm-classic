@@ -1,0 +1,66 @@
+---
+permalink: online-help-96-97/reference_nodes_csh_topic.html
+sidebar: sidebar
+keywords: node, window, command, button, list, online, help
+summary: "You can use the Nodes window to view the details of the nodes in a cluster."
+---
+= Nodes window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Nodes window to view the details of the nodes in a cluster.
+
+== Command buttons
+
+* *Initialize ComplianceClock*
++
+Initializes the ComplianceClock of the selected node to the current value of the system clock.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Nodes list
+
+* *Name*
++
+Displays the name of the node.
+
+* *State*
++
+Displays the state of the node (whether the node is up or down).
+
+* *Up Time*
++
+Displays the duration for which the node is up.
+
+* *ONTAP Version*
++
+Displays the ONTAP version that is installed on the node.
+
+* *Model*
++
+Displays the platform model number of the node.
+
+* *System ID*
++
+Displays the ID of the node.
+
+* *Serial No*
++
+Displays the serial number of the node.
+
+== Details area
+
+Displays detailed information about the selected node.
+
+* *Details tab*
++
+Displays information related to the selected node such as the name of the node, the state of the node, and the duration for which the node is up.
+
+* *Performance tab*
++
+Displays the throughput, IOPS, and latency of the selected node.
++
+Changing the client time zone or the cluster time zone impacts the performance metrics graphs. You should refresh your browser to view the updated graphs.

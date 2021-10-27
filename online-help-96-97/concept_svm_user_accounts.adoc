@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_svm_user_accounts.html
+sidebar: sidebar
+keywords: system, manager, create, manage, online, help, storage, virtual, machine, svm, user, account
+summary: "You can use System Manager to create and manage storage virtual machine (SVM) user accounts."
+---
+= Users
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create and manage storage virtual machine (SVM) user accounts.

@@ -1,0 +1,178 @@
+---
+permalink: online-help-96-97/concept_system_manager_enhancements.html
+sidebar: sidebar
+keywords: ontap, system, manager, enhancement, features
+summary: "You should be aware of the features that have been added or changed in this release of System Manager."
+---
+= ONTAP System Manager enhancements
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You should be aware of the features that have been added or changed in this release of System Manager.
+
+== Features and enhancements added in ONTAP 9.6
+
+[NOTE]
+====
+OnCommand System Manager is now known as ONTAP System Manager.
+====
+
+* MetroCluster switchover and switchback operations
++
+Starting with System Manager 9.6, you can use MetroCluster switchover and switchback operations to allow one cluster site to take over the tasks of another cluster site. This capability allows you to facilitate maintenance or recovery from disasters.
+
+* Trace file access
++
+A new Trace File Access window allows you to diagnose issues when users have problems accessing files and shares on an SVM using the CIFS or NFS protocol.
+
+* Encrypted SnapMirror
++
+Starting with System Manager 9.6, you can generate a passphrase for the local cluster IPspace and use the same passphrase in the remote cluster when creating peering relationships. For security reasons, the passphrase can be modified.
+
+* FlexCache capabilities
++
+System Manager now provides the capability to create, edit, view, and delete FlexCache volumes.
+
+* Fabric Pool enhancements
++
+You can now use Alibaba Cloud and Google Cloud as object stores for use as a cloud tier. Also, System Manager now supports the "`All`" tiering policy, which allows you to specify that all data should be tiered to the cloud. Enhancements were made to the Volume Performance tab of the Volume 360 page to show cloud latency of the volume.
+
+* FlexGroup enhancements
++
+Starting with System Manager 9.6, you can edit the properties of an existing FlexGroup volume, such as renaming or resizing the volume.
+
+* SnapLock volume enhancements
++
+When creating or modifying a storage QoS policy group, you can set the minimum throughput limit for an ONTAP Select Premium system in addition to a performance-based All Flash Optimized personality.
+
+== Features and enhancements added in ONTAP 9.5
+
+* Volume encryption
++
+You can now enable volume encryption while editing a FlexVol volume or a FlexGroup volume. Also, this feature is enhanced to support the Rekey option to change the data encryption key of the volume.
+
+* Cluster update
++
+Beginning with System Manager 9.5, you can update a cluster in MetroCluster configurations. You must perform each operation on both the clusters except for updating the cluster.
+
+* Volume replication policies
++
+Two new policies, StrictSync and Sync, are added in System Manager 9.5. You can use these to policies to provide zero RPO replication with and without primary IO restriction during replication failures. You can also enable volume protection using the protection tab.
+
+* SVM DR
++
+Storage virtual machine (SVM) disaster recovery (DR) provides disaster recovery capability at the SVM level by enabling the recovery of the data that is present in the constituent volumes of the SVM and the recovery of the SVM configuration. You can use System Manager to create and manage mirror relationships and mirror and vault relationships between SVMs.
+
+* L2/L3 applications displayed
++
+Starting with ONTAP 9.5, System Manager lists L2/L3 applications on the Applications page under different host names. Clicking on the host name opens a new window in the L2 Cockpit interface. For each application, System Manager also lists IOPs and latency measurements.
+
+* Virtual IP support
++
+Starting with ONTAP 9.5, System Manager displays information about Virtual IP (VIP) LIFs; however, you cannot create, delete, or manage VIP LIFs from System Manager.
+
+* NVMe subsystems licensing requirement
++
+Starting with ONTAP 9.5, NVMe is licensed. System Manager supports the licensing requirement.
+
+* Support for NVMeoF subsystems
++
+System Manager supports the use of an NVMe over Fabric (NVMeoF) subsystem, which is a separate kernel object that resides in the FreeBSD kernel. NVMeoF is a specification-defined extension to NVMe that enables NVMe-based communication over connections other than PCIe. This interface allows for external storage enclosures to be connected to a server, either directly or through a switch, while still using NVMe as the fundamental communication mechanism. An NVMeoF subsystem interfaces with SAN components, WAFL, and RAS components.
+
+* NVMe multipath support
++
+Starting with ONTAP 9.5, at least one LIF must be configured for each node in an HA pair using the NVMe protocol. You can also define two LIFs for a node. When you upgrade to ONTAP 9.5, you must ensure that a minimum of one LIF is defined for each node in an HA pair using the NVMe protocol.
+
+* FlexGroup eligible aggregates
++
+When you create a FlexGroup, aggregates are selected by default according to best practices. For All-Flash Optimized storage systems, thin provisioning is enabled by default, and for other storage systems, thick provisioning is enabled by default. You can override the best practices defaults and select your choices from a list of eligible FabricPool aggregates.
+
+* Public SSL Certificate authentication
++
+Starting with System Manager 9.5, you can view a public SSL certificate associated with an SVM. You can view the certificate details, the serial number, the start date, and the expiration date. You can also copy the certificate to the clipboard, and email the certificate details. Additionally, when you add the vsadmin user account to an SVM, a login method is automatically included that uses HTTP as the application and is authenticated with a certificate.
+
+* Qtrees appearing as directories on a FlexVol
++
+If a FlexVol contains both qtrees and volumes, the qtrees appear as directories.
+
+* FlexCache volumes
++
+FlexCache volumes are displayed in System Manager as a FlexGroup. The parent volume details are shown in the 360 page.
+
+== Features and enhancements added in ONTAP 9.4
+
+* NVMe protocol
++
+The NVM Express (NVMe) protocol is now supported by ONTAP and can be configured in System Manager. NVMe is an alternative protocol for block access, similar to the existing iSCSi or FC protocols.
+
+* Aggregate recommender
++
+You can create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks.
+
+* FabricPool-enabled aggregates enhancements
++
+FabricPool-enabled aggregates have been enhanced to support the following features and functionalities:
+
+ ** New UI navigation for the external capacity tier menu
+ ** New "`Auto`" caching policy
+ ** Support for inactive (cold) data
+ ** Support for object store certificate for StorageGRID external capacity tier
+ ** Support for Microsoft Azure Blob storage external capacity tier
+ ** More information in the capacity tab of the cluster dashboard
+ ** Support ONTAP Select
+ ** Support for viewing external capacity tier, other than StorageGRID, Amazon AWS S3, and Microsoft Azure Blob storage, created using the command-line interface (CLI).
+
+* FlexGroup volumes enhancements
++
+FlexGroup volumes include the following enhancements and new features:
+
+ ** Support for advanced options such as volume encryption, storage efficiency, and QoS
+ ** Protect volumes
+ ** More information in the protection tab of the cluster dashboard
+
+* Support for updating single-node clusters disruptively
++
+Starting with System Manager 9.4, you can update single-node clusters. Updating single-node clusters is disruptive, and client data will not be available while the update is in progress.
+
+* Support for configuring Snapshot copies
++
+You can configure Snapshot copies by setting a schedule to an existing Snapshot policy. Beginning with ONTAP 9.4, you can have fewer than 1024 Snapshot copies of a FlexVol volume.
+
+* Storage efficiency enhancements
++
+The percentage of logical space used and the status of logical space reporting is now displayed in the System Manager Volumes window.
+
+* Support for SMB Multichannel
++
+You can enable SMB protocol to establish multiple channels between a SMB3.0 session and transport connections, specifically for higher performance and fault tolerance and resiliency.
+
+== Features and enhancements added in ONTAP 9.3
+
+* Support for SAML authentication for web services
++
+Beginning with ONTAP 9.3, you can configure multifactor authentication (MFA) for web services by using Security Assertion Markup Language (SAML) authentication. You can use SAML authentication for Service Processor Infrastructure (SPI), ONTAP APIs, and System Manager.
+
+* Application Aware Data Management
++
+Application aware data management simplifies storage setup and enables you to serve data in minutes for key applications by providing inputs relevant to the application.
+
+* Modified GUI and navigation
++
+The graphical user interface (GUI) has been revamped to provide users with a more intuitive experience.
+
+* Support for breaking protection relationships between ONTAP and SolidFire systems
++
+Beginning with ONTAP 9.3, you can use System Manager to break SnapMirror relationships between ONTAP systems and SolidFire storage systems.
+
+* Support for simplified cluster peering and SVM peering
++
+System Manager offers enhancements that simplify how you configure peer relationships between clusters and between SVMs.
+
+* Support for provisioning an SVM by using a preconfigured template
++
+Beginning with ONTAP 9.3, you can create and provision an SVM by using a preconfigured template.
+
+* Enhanced cluster dashboard
++
+The cluster dashboard has been enhanced and made responsive for handheld devices to view different information.

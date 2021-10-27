@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/task_deleting_cluster_peer_relationships.html
+sidebar: sidebar
+keywords: delete, cluster, peer, relationships, system, manager, online, help
+summary: "You can use System Manager to delete a cluster peer relationship if the relationship is no longer required. You must delete the cluster peering relationship from each of the clusters in the peer relationship."
+---
+= Deleting cluster peer relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to delete a cluster peer relationship if the relationship is no longer required. You must delete the cluster peering relationship from each of the clusters in the peer relationship.
+
+.Steps
+
+. Click *Configuration* > *Cluster Peers*.
+. Select the cluster peer for which you want to delete the relationship, and then click *Delete*.
+. Select the confirmation check box, and then click *Delete*.
+. Log in to the remote cluster, and perform Steps <<STEP_313E6AFE5C2B4D8C9E9723FAF1F8534A,1>> through <<STEP_24E41EC7F4E746D09897FC2DCBEC0E18,3>> to delete the peer relationship between the local cluster and the remote cluster.
++
+The status of the peer relationship is displayed as "`unhealthy`" until the relationship is deleted from both the local cluster and the remote cluster.

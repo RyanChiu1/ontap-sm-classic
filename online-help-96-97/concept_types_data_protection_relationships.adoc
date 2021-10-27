@@ -1,0 +1,75 @@
+---
+permalink: online-help-96-97/concept_types_data_protection_relationships.html
+sidebar: sidebar
+keywords: data, protection, relationship, asynchronous, replication, type, sychronous, online, help
+summary: "Depending on your data protection and backup requirements, ONTAP System Manager provides different types of protection relationships that enable you to protect data against accidental, malicious, or disaster-induced loss of data."
+---
+= Types of data protection relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Depending on your data protection and backup requirements, ONTAP System Manager provides different types of protection relationships that enable you to protect data against accidental, malicious, or disaster-induced loss of data.
+
+== Asynchronous replication type
+
+*Mirror relationship*
+
+A mirror relationship provides asynchronous disaster recovery. Data protection mirror relationships enable you to periodically create Snapshot copies of the data on one volume, to copy those Snapshot copies to a partner volume (the destination volume), which is usually on another cluster, and then to retain those Snapshot copies. If the data on the source volume is corrupted or lost, the mirror copy on the destination volume ensures quick availability and restoration of data from the time of the latest Snapshot copy.
+
+For mirror relationships, the version of ONTAP that is running on the destination cluster must be the same version as or a later version than the ONTAP version running on the source cluster. However, version-flexible mirror relationships are not dependent on the ONTAP version. Therefore, you can create a version-flexible mirror relationship with a destination cluster that is running either a later ONTAP version or an earlier ONTAP version than the ONTAP version of the source cluster or an earlier version of ONTAP than the ONTAP version of the source cluster.
+
+[NOTE]
+====
+
+* The SnapMirror license is required to enable mirror relationship.
+* The version-flexible mirror relationship feature is available only from ONTAP 8.3 onward. You cannot have a version-flexible mirror relationship with a volume in Data ONTAP 8.3 or earlier.
+
+====
+
+*Vault relationship*
+
+A vault relationship provides storage-efficient and long-term retention of backups. Vault relationships enable you to back up selected Snapshot copies of volumes to a destination volume and to retain the backups.
+
+[NOTE]
+====
+The SnapMirror or SnapVault license is required to enable vault relationship.
+====
+
+*Mirror and vault relationship*
+
+A mirror and vault relationship provides data protection by periodically transferring data from the source volume to the destination volume and also facilitates long-term retention of data by creating backups of the source volume.
+
+[NOTE]
+====
+
+* The SnapMirror license is required to enable mirror and vault relationship.
+* The mirror and vault relationship feature is available only from ONTAP 8.3.2 onward. You cannot have a mirror and vault relationship with a volume in Data ONTAP 8.3.2 or earlier.
+
+====
+
+== Synchronous replication policy (SnapMirror Synchronous license required)
+
+*StrictSync*
+
+A StrictSync replication policy will impose input/output (I/O) restrictions on the source volume in case of a replication failure post initialization. A StrictSync replication policy provides data protection by ensuring that the source volume and the destination volume are up to date.
+
+[NOTE]
+====
+
+* If the destination is not Data Protection Optimization (DPO), then the SnapMirror license is required on the source cluster and the destination cluster and the SnapMirror Synchronous license is required on the source cluster.
+* If the destination is DPO, then the SnapMirror Synchronous license and the SnapMirror license is required on the source cluster and the DPO license is required on the destination cluster.
+
+====
+
+*Sync*
+
+A Sync replication policy does not impose I/O restrictions on the source volume in case of a replication failure post initialization. A Sync replication policy does not transfer data to destination volume after the failure. You need to perform a resynchronization operation to ensure that the source volume and destination volume are up to date.
+
+[NOTE]
+====
+
+* If the destination is not Data Protection Optimization (DPO), then the SnapMirror license is required on the source cluster and the destination cluster and the SnapMirror Synchronous license is required on the source cluster.
+* If the destination is DPO, then the SnapMirror Synchronous license and the SnapMirror license is required on the source cluster and the DPO license is required on the destination cluster.
+
+====

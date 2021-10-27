@@ -1,0 +1,36 @@
+---
+permalink: fc-config-rhel/reference_where_to_find_additional_information.html
+sidebar: sidebar
+keywords: successful, test, fc, perform, advanced, fc, configuration, san, nas, protocol, comprehensive, technical, report, achieve, goal, where to find additional information, san configuration, san
+summary: "After you have successfully tested FC, you can perform advanced FC configuration or add SAN or NAS protocols. There is comprehensive content and technical reports to help you achieve these goals."
+---
+= Where to find additional information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+After you have successfully tested FC, you can perform advanced FC configuration or add SAN or NAS protocols. There is comprehensive content, and technical reports to help you achieve these goals.
+
+== SAN configuration
+
+All of the following documentation is available:
+
+* https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration^]
++
+Describes supported FC, iSCSI, and FCoE topologies for connecting host computers to storage controllers in clusters.
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
++
+Describes how to configure and manage the iSCSI, FCoE, and FC protocols for clustered SAN environments, including configuration of LUNs, igroups, and targets.
+
+* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html[Linux Unified Host Utilities 7.1^]
++
+Describes how to install Linux Unified Host Utilities software and configure DM-Multipath.
+
+* http://www.netapp.com/us/media/tr-4159.pdf[NetApp Technical Report 4159: Red Hat Enterprise Virtualization 3.1 and NetApp Clustered Data ONTAP Storage Best Practices^]
++
+Describes the current best practices for Red Hat virtualized environments.
+
+* Red Hat Enterprise Linux 6 documentation and man pages
++
+Provides instructions for managing storage devices, file systems, and Linux commands.

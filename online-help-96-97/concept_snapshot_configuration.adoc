@@ -1,0 +1,12 @@
+---
+permalink: online-help-96-97/concept_snapshot_configuration.html
+sidebar: sidebar
+keywords: online, help, snapshot, configuration, copy, policy, flexvol
+summary: "You can configure Snapshot copies by setting a schedule for an existing Snapshot policy. Starting with ONTAP 9.4, you can have less than 1024 Snapshot copies of a FlexVol volume."
+---
+= Snapshot configuration
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure Snapshot copies by setting a schedule for an existing Snapshot policy. Starting with ONTAP 9.4, you can have less than 1024 Snapshot copies of a FlexVol volume.

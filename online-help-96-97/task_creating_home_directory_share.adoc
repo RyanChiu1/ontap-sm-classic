@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_creating_home_directory_share.html
+sidebar: sidebar
+keywords: create, home, directory, system, manager, online, help
+summary: "You can use System Manager to create a home directory share and to manage home directory search paths."
+---
+= Create home directory shares
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create a home directory share and to manage home directory search paths.
+
+.Before you begin
+
+CIFS must be set up and started.
+
+.Steps
+
+. Click *Storage* > *Shares*.
+. Click *Create Home Directory*, and then provide the pattern information that determines how a user is mapped to a directory.
+. Click *Create*.
+. Verify that the home directory that you created is listed in the *Shares* window.

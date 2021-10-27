@@ -1,0 +1,14 @@
+---
+permalink: volume-disaster-prep/concept_snapmirror_intercluster_configuration_workflow.html
+sidebar: sidebar
+keywords: preparing, prepare, volume, disaster, recovery, verify, cluster, peer, relationship, snapmirror, residing, reside, peer, destination, periodical, volume disaster recovery preparation workflow
+summary: "Preparing volumes for disaster recovery involves verifying the cluster peer relationship, creating the SnapMirror relationship between volumes residing on peered clusters, setting up the destination SVM for data access, and monitoring the SnapMirror relationship periodically."
+---
+= Volume disaster recovery preparation workflow
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Preparing volumes for disaster recovery involves verifying the cluster peer relationship, creating the SnapMirror relationship between volumes residing on peered clusters, setting up the destination SVM for data access, and monitoring the SnapMirror relationship periodically.
+
+image::../media/snapmirror_intercluster_cfg_workflow.gif[This illustration is a flowchart of the volume disaster recovery preparation workflow. The steps in the workflow match the topics in this content.]

@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_about_disks_array_luns.html
+sidebar: sidebar
+keywords: disks, array, lun, storage, online, help, classic
+summary: "A disk is the basic unit of storage for storage systems that use ONTAP software to access native disk shelves. An array LUN is the basic unit of storage that third-party storage arrays provide to storage systems that run ONTAP software."
+---
+= About disks and array LUNs
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+A disk is the basic unit of storage for storage systems that use ONTAP software to access native disk shelves. An array LUN is the basic unit of storage that third-party storage arrays provide to storage systems that run ONTAP software.
+
+ONTAP software enables you to assign ownership to your disks and array LUNs, and to add them to an aggregate. ONTAP software also provides a number of ways to manage your disks, including removing them, replacing them, and sanitizing them. Because array LUNs are provided by the third-party storage array, you use the third-party storage array for all other management tasks for array LUNs.
+
+You can create an aggregate using either disks or array LUNs. After you have created the aggregate, you manage it using ONTAP software in exactly the same way, whether it was created from disks or array LUNs.

@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/concept_user_accounts_cluster_administrators_only.html
+sidebar: sidebar
+keywords: user, account, cluster, administration, online, help, modify, lock, delete, unlock, create
+summary: "You can create, modify, lock, unlock, or delete a cluster user account, reset a user’s password, or display information about all user accounts."
+---
+= User accounts (cluster administrators only)
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create, modify, lock, unlock, or delete a cluster user account, reset a user's password, or display information about all user accounts.
+
+You can manage cluster user accounts in the following ways:
+
+* Creating a login method for a user by specifying the user's account name, the access method, the authentication method, and, optionally, the access-control role that the user is assigned
+* Displaying users' login information, such as the account name, allowed access method, authentication method, access-control role, and account status
+* Modifying the access-control role that is associated with a user's login method
++
+[NOTE]
+====
+It is best to use a single role for all the access and authentication methods of a user account.
+====
+
+* Deleting a user's login method, such as the access method or the authentication method
+* Changing the password for a user account
+* Locking a user account to prevent the user from accessing the system
+* Unlocking a previously locked user account to enable the user to access the system again

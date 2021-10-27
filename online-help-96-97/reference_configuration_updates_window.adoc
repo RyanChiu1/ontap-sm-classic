@@ -1,0 +1,52 @@
+---
+permalink: online-help-96-97/reference_configuration_updates_window.html
+sidebar: sidebar
+keywords: configuration, update, window, tab, node, command, button, svm, online, help
+summary: "You can use the Configuration Updates window to update the configuration details of the cluster, storage virtual machine (SVM), and nodes."
+---
+= Configuration Updates window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Configuration Updates window to update the configuration details of the cluster, storage virtual machine (SVM), and nodes.
+
+== Tabs
+
+* *Nodes*
++
+Enables you to configure details of the node.
+
+* *SVMs*
++
+Enables you to configure details of the SVM.
+
+== Nodes tab
+
+== Command buttons
+
+* *Edit Node Name*
++
+Opens the Edit Node Name dialog box, which enables you to modify the name of the node.
+
+* *Create Node-management LIF*
++
+Opens the Create Node-management LIF dialog box, which enables you to create a node-management LIF for managing a specific node.
+
+* *Edit AutoSupport*
++
+Opens the Edit AutoSupport Settings dialog box, which enables you to specify an email address from which email notifications are sent and to add multiple email addresses of the host names.
+
+== SVMs tab
+
+== Command button
+
+* *Configure Administration Details*
++
+Opens the Configure Administration Details dialog box, which enables you configure the administration details of the SVM.
+
+*Related information*
+
+xref:task_creating_cluster.adoc[Creating a cluster]
+
+xref:task_setting_up_network_when_ip_address_range_is_disabled.adoc[Setting up a network when an IP address range is disabled]

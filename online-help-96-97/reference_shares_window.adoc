@@ -1,0 +1,110 @@
+---
+permalink: online-help-96-97/reference_shares_window.html
+sidebar: sidebar
+keywords: command, buttons, shares, window, online, help
+summary: "You can use the Shares window to manage your shares and to view information about the shares."
+---
+= Shares window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Shares window to manage your shares and to view information about the shares.
+
+== Command buttons
+
+* *Create Share*
++
+Opens the Create Share dialog box, which enables you to create a share.
+
+* *Create Home Directory*
++
+Opens the Create Home Directory Share dialog box, which enables you to create a new home directory share.
+
+* *Edit*
++
+Opens the Edit Settings dialog box, which enables you to modify the properties of a selected share.
+
+* *Stop Sharing*
++
+Stops the selected object from being shared.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Shares list
+
+The shares list displays the name and path of each share.
+
+* *Share Name*
++
+Displays the name of the share.
+
+* *Path*
++
+Displays the complete path name of an existing folder, qtree, or volume that is shared. Path separators can be backward slashes or forward slashes, although ONTAP displays all path separators as forward slashes.
+
+* *Home Directory*
++
+Displays the name of the home directory share.
+
+* *Comment*
++
+Displays additional descriptions of the share, if any.
+
+* *Continuously Available Share*
++
+Displays whether the share is enabled for continuous availability. Starting with System Manager 9.6, continuous availability is supported for FlexGroup volumes.
+
+== Details area
+
+The area below the shares list displays the share properties and the access rights for each share.
+
+* *Properties*
+ ** Name
++
+Displays the name of the share.
+
+ ** Oplocks status
++
+Specifies whether the share uses opportunistic locks (oplocks).
+
+ ** Browsable
++
+Specifies whether the share can be browsed by Windows clients.
+
+ ** Show Snapshot
++
+Specifies whether Snapshot copies can be viewed by clients.
+
+ ** Continuously Available Share
++
+Specifies whether the share is enabled or disabled for continuous availability. Starting with System Manager 9.6, continuous availability is supported for FlexGroup volumes.
+
+ ** Access-Based Enumeration
++
+Specifies whether access-based enumeration (ABE) is enabled or disabled on the share.
+
+ ** BranchCache
++
+Specifies whether BranchCache is enabled or disabled on the share.
+
+ ** SMB Encryption
++
+Specifies whether data encryption using SMB 3.0 is enabled at the storage virtual machine (SVM) level or at the share level. If SMB encryption is enabled at the SVM level, SMB encryption applies for all of the shares and the value is shown as Enabled (at the SVM level).
+
+ ** Previous Versions
++
+Specifies whether the previous versions can be viewed and restored from the client.
+* *Share access control*
++
+Displays the access rights of the domain users, domain groups, local users, and local groups for the share.
+
+*Related information*
+
+xref:task_creating_cifs_share.adoc[Creating a CIFS share]
+
+xref:task_stopping_share_access.adoc[Stopping share access]
+
+xref:task_editing_share_settings.adoc[Editing share settings]

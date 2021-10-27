@@ -1,0 +1,34 @@
+---
+permalink: online-help-96-97/task_generating_peering_passphrase.html
+sidebar: sidebar
+keywords: generate, peering, passphrase, online, help, system, manager, ipspace
+summary: "Starting with System Manager 9.6, you can generate a passphrase for the local cluster IPspace and use the same passphrase in the remote cluster when creating peering relationships."
+---
+= Generating a peering passphrase
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Starting with System Manager 9.6, you can generate a passphrase for the local cluster IPspace and use the same passphrase in the remote cluster when creating peering relationships.
+
+.Steps
+
+. Click *Configuration* > *Cluster Peers*.
+. Click *Generate Peering Passphrase*.
++
+The Generate Peering Passphrase dialog window displays.
+
+. Complete the following fields:
+ ** *IPspace*: Select the IPspace from the pull-down menu.
+ ** *Passphrase Validity*: Select from the drop-down menu the duration for which you want the passphrase to be valid.
+ ** *SVM Permissions*: Select one of the following:
+  *** *All SVMs* to indicate all SVMs are permitted to access the cluster.
+  *** *Selected SVMs* to indicate specific SVMs that are permitted to access the cluster. Highlight the SVM names in the field that you want to specify.
+. Select the checkbox if the effective cluster version of the remote cluster is earlier than ONTAP 9.6. Otherwise, the cluster peering fails to generate.
+. Click *Generate* to generate the passphrase.
++
+For a successful generation, a message displays that identifies your passphrase.
+
+. If you want to email or copy the passphrase, perform one of the following actions:
+ ** Click *Email passphrase details*.
+ ** Click *Copy passphrase*.

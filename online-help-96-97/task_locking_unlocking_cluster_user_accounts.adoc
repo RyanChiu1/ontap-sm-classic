@@ -1,0 +1,18 @@
+---
+permalink: online-help-96-97/task_locking_unlocking_cluster_user_accounts.html
+sidebar: sidebar
+keywords: lock, unlock, cluster, user, account, system, online, help
+summary: "You can use System Manager to lock or unlock cluster user accounts."
+---
+= Locking or unlocking cluster user accounts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to lock or unlock cluster user accounts.
+
+.Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
+. In the *Management* pane, click *Users*.
+. Select the user account for which you want to modify the status, and click either *Lock* or *Unlock*.

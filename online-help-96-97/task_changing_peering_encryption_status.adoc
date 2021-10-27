@@ -1,0 +1,62 @@
+---
+permalink: online-help-96-97/task_changing_peering_encryption_status.html
+sidebar: sidebar
+keywords: change, peer, encryption, status, system, manager, cluster, online, help
+summary: "You can use System Manager to change the peering encryption status for the selected cluster."
+---
+= Changing the peering encryption status
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to change the peering encryption status for the selected cluster.
+
+.About this task
+
+The encryption status can be enabled or disabled. You can change the status from enabled to disabled or from disabled to enabled by selecting *Change Encryption*.
+
+.Steps
+
+. Click *Configuration* > *Cluster Peers*.
+. Select the peered cluster, and click *Edit*
++
+The drop-down menu displays.
+
+. Click *Change Encryption*.
++
+This action is not available if the encryption status is "`N/A`".
++
+The Change Encryption dialog window displays. The toggle button indicates the current encryption status.
+
+. Slide the toggle button to change the peering encryption status and proceed.
+ ** If the current encryption status is "`none`", you can enable encryption by sliding the toggle button to change the status to "`tls_psk`".
+ ** If the current encryption status is "`tls_psk`", you can disable the encryption by sliding the toggle button to change the status to "`none`".
+. After you enable or disable peering encryption, you can either generate a new passphrase and provide it at the peered cluster or you can apply an existing passphrase that was already generated at the peered cluster.
++
+[NOTE]
+====
+If the passphrase used on the local site does not match the passphrase used on the remote site, the cluster peering relationship will not function properly.
+====
++
+Select one of the following:
+
+ ** *Generate a passphrase*: Proceed to Step <<STEP_1ABAF15926174E709CA59192E200ABE3,#STEP_1ABAF15926174E709CA59192E200ABE3>>.
+ ** *Already have a passphrase*: Proceed to Step <<STEP_2EFD822431974811AD2260C3F31DC977,#STEP_2EFD822431974811AD2260C3F31DC977>>.
+
+. If you chose *Generate a passphrase*, complete the necessary fields:
+ ** *IPspace*: Select the IPspace from the drop-down menu.
+ ** *Passphrase Validity*: Select from the drop-down menu the duration for which you want the passphrase to be valid.
+ ** *SVM Permissions*: Select one of the following:
+  *** *All SVMs* to indicate that all SVMs are permitted to access the cluster.
+  *** *Selected SVMs* to indicate specific SVMs that are permitted to access the cluster. Highlight the SVM names in the field that you want to specify.
+. Select the checkbox if the effective cluster version of the remote cluster is earlier than ONTAP 9.6. Otherwise, the passphrase fails to generate.
+. Click *Apply*.
++
+The passphrase is generated for the relationship and displayed. You can either copy the passphrase or email it.
++
+The authentication status for the local cluster is displayed as `ok_and_offer` for the selected passphrase validity period until you provide the passphrase at the remote cluster.
+
+. If you already generated a new passphrase in the remote cluster, then perform the following substeps:
+ .. Click *Already have a passphrase*.
+ .. Enter in the *Passphrase* field the same passphrase that was generated in the remote cluster.
+ .. Click *Apply*.

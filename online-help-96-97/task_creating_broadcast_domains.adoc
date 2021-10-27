@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_creating_broadcast_domains.html
+sidebar: sidebar
+keywords: online, help, create, broadcast, domain, system, manager
+summary: "You can create a broadcast domain by using System Manager to provide a logical division of a computer network. In a broadcast domain, all associated nodes can be reached through broadcast at the datalink layer."
+---
+= Create broadcast domains
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a broadcast domain by using System Manager to provide a logical division of a computer network. In a broadcast domain, all associated nodes can be reached through broadcast at the datalink layer.
+
+.Steps
+
+. Click the *Network* tab.
+. In the *Broadcast Domains* tab, click *Create*.
+. In the *Create Broadcast Domain* dialog box, specify the name, MTU size, IPspace, and ports for the broadcast domain that you want to create.
+. Click *Create*.
+
+*Related information*
+
+xref:reference_network_window.adoc[Network window]

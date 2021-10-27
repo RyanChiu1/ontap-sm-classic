@@ -1,0 +1,21 @@
+---
+permalink: online-help-96-97/concept_understanding_lun_clones.html
+sidebar: sidebar
+keywords: understand, lun, clone, parent, create, online, help
+summary: "LUN clones are writable, space-efficient clones of parent LUNs. Creating LUN clones is highly space-efficient and time-efficient because the cloning operation does not involve physically copying any data. Clones help in space storage utilization of the physical aggregate space."
+---
+= Understanding LUN clones
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+LUN clones are writable, space-efficient clones of parent LUNs. Creating LUN clones is highly space-efficient and time-efficient because the cloning operation does not involve physically copying any data. Clones help in space storage utilization of the physical aggregate space.
+
+You can clone a complete LUN without the need of a backing Snapshot copy in a SAN environment. The cloning operation is instantaneous and clients that are accessing the parent LUN do not experience any disruption or outage. Clients can perform all normal LUN operations on both parent entities and clone entities. Clients have immediate read/write access to both the parent and cloned LUN.
+
+Clones share the data blocks of their parent LUNs and occupy negligible storage space until clients write new data either to the parent LUN, or to the clone. By default, the LUN clone inherits the space reserved attribute of the parent LUN. For example, if space reservation is disabled on the parent LUN, then space reservation is also disabled on the LUN clone.
+
+[NOTE]
+====
+When you clone a LUN, you must ensure that the volume has enough space to contain the LUN clone.
+====

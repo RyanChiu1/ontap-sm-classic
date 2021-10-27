@@ -1,0 +1,62 @@
+---
+permalink: online-help-96-97/reference_ldap_window.html
+sidebar: sidebar
+keywords: cifs, nfs, ldap, online, help, command, button, client, list
+summary: "You can use the LDAP window to view LDAP clients for user authentication, file access authorization, and user search, and to map services between NFS and CIFS at the cluster level."
+---
+= LDAP window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the LDAP window to view LDAP clients for user authentication, file access authorization, and user search, and to map services between NFS and CIFS at the cluster level.
+
+== Command buttons
+
+* *Add*
++
+Opens the Create LDAP Client dialog box, which enables you to create and configure LDAP clients.
+
+* *Edit*
++
+Opens the Edit LDAP Client dialog box, which enables you to edit LDAP client configurations. You can also edit active LDAP clients.
+
+* *Delete*
++
+Opens the Delete LDAP Client(s) dialog box, which enables you to delete LDAP client configurations. You can also delete an active LDAP client.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== LDAP client list
+
+Displays (in tabular format) details about LDAP clients.
+
+* *LDAP Client Configuration*
++
+Displays the name of the LDAP client configuration that you specified.
+
+* *Storage Virtual Machine*
++
+Displays the name of the storage virtual machine (SVM) for each LDAP client configuration.
+
+* *Schema*
++
+Displays the schema for each LDAP client.
+
+* *Minimum Bind Level*
++
+Displays the minimum bind level for each LDAP client.
+
+* *Active Directory Domain*
++
+Displays the Active Directory domain for each LDAP client configuration.
+
+* *LDAP Servers*
++
+Displays the LDAP server for each LDAP client configuration.
+
+* *Preferred Active Directory Servers*
++
+Displays the preferred Active Directory server for each LDAP client configuration.

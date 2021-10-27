@@ -1,0 +1,16 @@
+---
+permalink: peering/concept_cluster_peering_workflow.html
+sidebar: sidebar
+keywords: set, relationship, cluster, peer, creating, create, intercluster, logical, interface, lif, relationship, svm, cluster and svm peering workflow
+summary: "Setting up a peering relationship involves preparing each cluster for peering, creating intercluster logical interfaces (LIFs) on each node of each cluster, setting up a cluster peer relationship, and then setting up an SVM peering relationship."
+---
+= Cluster and SVM peering workflow
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Setting up a peering relationship involves preparing each cluster for peering, creating intercluster logical interfaces (LIFs) on each node of each cluster, setting up a cluster peer relationship, and then setting up an SVM peering relationship.
+
+image::../media/cluster_peering_workflow.gif[Image is described in the surrounding text]
+
+If you are running ONTAP 9.2 or earlier, you create an SVM peering relationship while creating a data protection relationship between the source volume and the destination volume.

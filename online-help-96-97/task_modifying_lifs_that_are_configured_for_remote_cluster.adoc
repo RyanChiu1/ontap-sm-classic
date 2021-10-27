@@ -1,0 +1,33 @@
+---
+permalink: online-help-96-97/task_modifying_lifs_that_are_configured_for_remote_cluster.html
+sidebar: sidebar
+keywords: system, manager, modify, lif, configure, remote, cluster
+summary: "You can use System Manager to modify the IPspace and intercluster logical interfaces (LIFs) that are configured for the remote cluster. You can add new intercluster IP addresses or remove existing IP addresses."
+---
+= Modifying LIFs that are configured for the remote cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to modify the IPspace and intercluster logical interfaces (LIFs) that are configured for the remote cluster. You can add new intercluster IP addresses or remove existing IP addresses.
+
+.Before you begin
+
+You must have at least one intercluster IP address to create the cluster peer relationship.
+
+.Steps
+
+. Click *Configuration* > *Cluster* > *Configuration Updates*.
+. Select the peered cluster, and click *Edit*
++
+The drop-down menu displays.
+
+. Click *Peer Cluster Network Parameters*.
++
+The Edit Peer Network Parameters dialog window displays.
+
+. If required, modify the following fields:
+ ** *IPspace*: Select the IPspace from the pull-down menu.
+ ** *Intercluster LIFs*: Add or remove intercluster IP addresses. You can add multiple IP addresses by separating them with commas.
+. Click *Modify*.
+. Verify the changes that you made in the *Cluster Peers* window.

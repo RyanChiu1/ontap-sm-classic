@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/concept_how_snapmirror_relationships_work.html
+sidebar: sidebar
+keywords: snapmirror, relationship, data, protection, mirror, destination, cluster, online, help
+summary: "You can create a data protection mirror relationship to a destination within a cluster to protect your data. For greater disaster protection, you can also create a mirror relationship to a destination in a different cluster in a different location."
+---
+= How SnapMirror relationships work
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create a data protection mirror relationship to a destination within a cluster to protect your data. For greater disaster protection, you can also create a mirror relationship to a destination in a different cluster in a different location.
+
+A data protection mirror configuration consists of a source volume that can be replicated to one or more destination volumes. Each data protection mirror relationship is independent from the other data protection mirror relationships.
+
+[NOTE]
+====
+The destination volume must be running either the same ONTAP version as that of the source volume or a later version of ONTAP than that of the source volume.
+====
+
+Snapshot copies are used to update destination volumes. Snapshot copies are transferred from the source volume to the destination volume by using an automated schedule or manually; therefore, mirrors copies are updated asynchronously.
+
+You can create data protection mirror relationships to destinations that are on the same aggregate as the source volume as well as to destinations that are on the same storage virtual machine (SVM) or on a different SVM. For greater protection, you can create the relationships to destinations on a different aggregate, which enables you to recover from any failure of the source volume's aggregate. However, these two configurations do not protect against a cluster failure.
+
+To protect against a cluster failure, you can create a data protection mirror relationship in which the source volume is on one cluster and the destination volume is on a different cluster. If the cluster on which the source volume resides experiences a disaster, you can direct user clients to the destination volume on the cluster peer until the source volume is available again.

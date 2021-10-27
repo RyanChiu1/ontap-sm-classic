@@ -1,0 +1,62 @@
+---
+permalink: online-help-96-97/reference_iscsi_window.html
+sidebar: sidebar
+keywords: iscsi, window, tab, command, button, storage, system, initiator, online, help
+summary: "You can use the iSCSI window to start or stop the iSCSI service, change a storage system iSCSI node name, and create or change the iSCSI alias of a storage system. You can also add or change the initiator security setting for an iSCSI initiator that is connected to your storage system."
+---
+= iSCSI window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the iSCSI window to start or stop the iSCSI service, change a storage system iSCSI node name, and create or change the iSCSI alias of a storage system. You can also add or change the initiator security setting for an iSCSI initiator that is connected to your storage system.
+
+== Tabs
+
+* *Service*
++
+You can use the *Service* tab to start or stop the iSCSI service, change a storage system iSCSI node name, and create or change the iSCSI alias of a storage system.
+
+* *Initiator Security*
++
+You can use the *Initiator Security* tab to add or change the initiator security setting for an iSCSI initiator that is connected to your storage system.
+
+== Command buttons
+
+* *Edit*
++
+Opens Edit iSCSI Service Configurations dialog box, which enables you to change iSCSI node name and iSCSI alias of the storage system.
+
+* *Start*
++
+Starts the iSCSI service.
+
+* *Stop*
++
+Stops the iSCSI service.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Details area
+
+The details area displays information about the status of the iSCSI service, iSCSI target node name, and iSCSI target alias. You can use this area to enable or disable the iSCSI service on a network interface.
+
+*Related information*
+
+xref:task_creating_iscsi_aliases.adoc[Creating iSCSI aliases]
+
+xref:task_enabling_or_disabling_iscsi_service_on_storage_system_interfaces.adoc[Enabling or disabling the iSCSI service on storage system interfaces]
+
+xref:task_adding_security_method_for_iscsi_initiators.adoc[Adding the security method for iSCSI initiators]
+
+xref:task_editing_default_security_settings.adoc[Editing default security settings]
+
+xref:task_editing_initiator_security.adoc[Editing initiator security]
+
+xref:task_changing_default_initiator_authentication_method.adoc[Changing the default iSCSI initiator authentication method]
+
+xref:task_setting_default_security_for_initiators.adoc[Setting the default security for iSCSI initiators]
+
+xref:task_starting_or_stopping_iscsi_service.adoc[Starting or stopping the iSCSI service]

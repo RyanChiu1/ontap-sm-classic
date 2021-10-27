@@ -1,0 +1,38 @@
+---
+permalink: online-help-96-97/task_setting_snmp_information.html
+sidebar: sidebar
+keywords: edit, snmp, information, edit, settings, system, manager, online, help
+summary: "You can use the Edit SNMP Settings dialog box in System Manager to update information about the storage system location and contact personnel, and to specify the SNMP communities of your system."
+---
+= Editing SNMP information
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Edit SNMP Settings dialog box in System Manager to update information about the storage system location and contact personnel, and to specify the SNMP communities of your system.
+
+.About this task
+
+System Manager uses the SNMP protocols SNMPv1 and SNMPv2c and an SNMP community to discover storage systems.
+
+.Steps
+
+. Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
+. In the *Setup* pane, click *SNMP*.
+. Click *Edit*.
+. In the *General* tab, specify the contact personnel information and location information for the storage system, and the SNMP communities.
++
+The community name can be of 32 characters and must not contain the following special characters: , / : " ' |.
+
+. In the **SNMPv3**tab, do the following:
+ .. Click *Add* to add an SNMPv3 user.
+ .. Specify the username and modify the engine ID, if required.
+ .. Select the *Authentication Protocol* and enter your credentials.
+ .. Select the *Privacy Protocol* and enter your credentials.
+ .. Click *OK* to save the changes.
+. Click *OK*.
+. Verify the changes that you made to the SNMP settings in the *SNMP* window.
+
+*Related information*
+
+xref:reference_snmp_window.adoc[SNMP window]

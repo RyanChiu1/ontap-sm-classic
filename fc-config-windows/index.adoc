@@ -1,0 +1,37 @@
+---
+permalink: fc-config-windows/index.html
+sidebar: sidebar
+keywords: describe, fc, service, storage, virtual, machine, svm, provision, lun, fc, hba, windows, host, computer
+summary: "This content describes how to quickly set up the FC service on a storage virtual machine, provision a LUN, and make the LUN available using an FC HBA on a Windows host computer."
+---
+= FC configuration for Windows overview
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+This content describes how to quickly set up the FC service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an FC HBA on a Windows host computer.
+
+This content is based on the following assumptions:
+
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
+
+* You are using traditional FC HBAs and switches.
++
+This content does not cover FCoE.
+
+* You have at least two FC target ports available on each node in the cluster.
++
+Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters are configurable. Configuring those ports is done in the ONTAP CLI and is not covered in this content.
+
+* You are not configuring FC SAN boot.
+* You are not using virtual Fibre Channel (VFC) with Hyper-V or ESX guests.
+
+If these assumptions are not correct for your situation, you should see the following resources:
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration^]
+* https://docs.netapp.com/us-en/ontap-sanhost/index.html[NetApp Documentation: Host Utilities^]

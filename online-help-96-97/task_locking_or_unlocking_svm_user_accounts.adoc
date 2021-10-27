@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_locking_or_unlocking_svm_user_accounts.html
+sidebar: sidebar
+keywords: lock, unlock, svm, user, account, system, manager, online, help, storage, virtual, machine
+summary: "You can use System Manager to lock or unlock storage virtual machine (SVM) user accounts."
+---
+= Locking or unlocking SVM user accounts
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to lock or unlock storage virtual machine (SVM) user accounts.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *SVM User Details* pane, click *Users*.
+. In the *Users* window, select the user account for which you want to modify the account status, and then click either *Lock* or *Unlock*, as required.

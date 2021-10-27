@@ -1,0 +1,25 @@
+---
+permalink: online-help-96-97/task_preparing_for_switchover_switchback_operations.html
+sidebar: sidebar
+keywords: prepare, switchover, switchback, operation, system, manager, online, help
+summary: "Before you perform switchover operations using System Manager 9.6, you should verify that the necessary steps have been performed on the affected site."
+---
+= Preparing for switchover and switchback operations
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Before you perform switchover operations using System Manager 9.6, you should verify that the necessary steps have been performed on the affected site.
+
+.Steps
+
+. If you are recovering from a disaster on Site B, you must perform the following steps:
+ .. Repair or replace any damaged disks or hardware.
+ .. Restore power.
+ .. Rectify error issues that occur.
+ .. Bring up the disaster site.
+. Ensure the following conditions exist in your cluster:
+ ** Both sites are in Active state if you are performing a planned switchover.
+ ** The MetroCluster system uses configuration type "`IP_Fabric`".
+ ** Both sites are operating with a two-node configuration (two nodes in each cluster). Sites with a single-node or four-node configuration are not supported for switchover and switchback operations using System Manager.
+. If you are launching the remote site (Site B) from the local site (Site A), ensure that Site B is running System Manager 9.6 or a later version.

@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/concept_schedules_conceptual.html
+sidebar: sidebar
+keywords: online, help, configure, task, schedule, volume, snapshot, mirror, replication, cron, interval, online, help
+summary: "You can configure many tasks (for instance, volume Snapshot copies and mirror replications) to run on specified schedules. Schedules that are run at specified schedules are known as cron schedules because of their similarity to UNIX cron schedules. Schedules that are run at intervals are known as interval schedules."
+---
+= Schedules
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can configure many tasks (for instance, volume Snapshot copies and mirror replications) to run on specified schedules. Schedules that are run at specified schedules are known as _cron_ schedules because of their similarity to UNIX `cron` schedules. Schedules that are run at intervals are known as _interval_ schedules.
+
+You can manage schedules in the following ways:
+
+* Creating a cron schedule or an interval schedule
+* Displaying information about all the schedules
+* Modifying a cron schedule or an interval schedule
+* Deleting a cron schedule or an interval schedule
++
+You cannot delete a schedule that is currently in use by a running job.
+
+The cluster administrator can perform all the schedule management tasks.

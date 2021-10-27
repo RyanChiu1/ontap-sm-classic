@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/task_using_ldap_services.html
+sidebar: sidebar
+keywords: ldap, service, online, help, maintain, user, information, database
+summary: "An LDAP server enables you to centrally maintain user information. If you store your user database on an LDAP server in your environment, you can configure your storage virtual machine (SVM) to look up user information in your existing LDAP database."
+---
+= Using LDAP services
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+An LDAP server enables you to centrally maintain user information. If you store your user database on an LDAP server in your environment, you can configure your storage virtual machine (SVM) to look up user information in your existing LDAP database.
+
+.About this task
+
+ONTAP supports LDAP for user authentication, file access authorization, and user lookup and mapping services between NFS and CIFS.

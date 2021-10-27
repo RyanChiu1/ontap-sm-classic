@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_storage_pools.html
+sidebar: sidebar
+keywords: system, manager, storage, pools, ssd, flash, pool, aggregates, online, help
+summary: "You can use System Manager to create storage pools to enable SSDs to be shared by multiple Flash Pool aggregates."
+---
+= Storage pools
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to create storage pools to enable SSDs to be shared by multiple Flash Pool aggregates.
+
+*Related information*
+
+https://docs.netapp.com/us-en/ontap/disks-aggregates/index.html[Disk and aggregate management]

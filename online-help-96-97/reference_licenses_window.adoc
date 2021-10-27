@@ -1,0 +1,115 @@
+---
+permalink: online-help-96-97/reference_licenses_window.html
+sidebar: sidebar
+keywords: license, window, storage, system, online, help, software
+summary: "Your storage system arrives from the factory with preinstalled software. If you want to add or remove a software license after you receive the storage system, you can use the Licenses window."
+---
+= Licenses window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Your storage system arrives from the factory with preinstalled software. If you want to add or remove a software license after you receive the storage system, you can use the Licenses window.
+
+[NOTE]
+====
+System Manager does not monitor evaluation licenses and does not provide any warning when an evaluation license is nearing expiry. An evaluation license is a temporary license that expires after a certain period of time.
+====
+
+* <<GUID-D11B198E-5D68-4563-A87D-5C2F776538CF,Command buttons>>
+* <<GUID-BA6647A2-A56B-4F9B-9C5B-D672DF35D9E1,Packages tab>>
+* <<SECTION_07FABA42440E4171AC62052C02D9CF07,#SECTION_07FABA42440E4171AC62052C02D9CF07>>
+* <<SECTION_3A42EF6C7CAB4355ACF8596E3BE0E3C4,Details tab>>
+
+== Command buttons
+
+* *Add*
++
+Opens the Add License window, which enables you to add new software licenses.
+
+* *Delete*
++
+Deletes the software license that you select from the software license list.
+
+* *Refresh*
++
+Updates the information in the window.
+
+== Packages tab
+
+Displays information about the license packages that are installed on your storage system.
+
+* *Package*
++
+Displays the name of the license package.
+
+* *Entitlement Risk*
++
+Indicates the level of risk as a result of license entitlement issues for a cluster. The entitlement risk level can be high risk (image:../media/high_risk_entitlementrisk.gif[]), medium risk (image:../media/medium_risk_entitlementrisk.gif[]), no risk (image:../media/no_risk_entitlementrisk.gif[]), unknown (image:../media/unknown_risk_entitlementrisk.gif[]), or unlicensed (-).
+
+* *Description*
++
+Displays the level of risk as a result of license entitlement issues for a cluster.
+
+== License Package details area
+
+The area below the license packages list displays additional information about the selected license package. This area includes information about the cluster or node on which the license is installed, the serial number of the license, usage in the previous week, whether the license is installed, the expiration date of the license, and whether the license is a legacy one.
+
+== Details tab
+
+Displays additional information about the license packages that are installed on your storage system.
+
+* *Package*
++
+Displays the name of the license package.
+
+* *Cluster/Node*
++
+Displays the cluster or node on which the license package is installed.
+
+* *Serial Number*
++
+Displays the serial number of the license package that is installed on the cluster or node.
+
+* *Type*
++
+Displays the type of the license package, which can be the following:
+
+ ** Temporary: Specifies that the license is a temporary license, which is valid only during the demonstration period.
+ ** Master: Specifies that the license is a master license, which is installed on all the nodes in the cluster.
+ ** Node Locked: Specifies that the license is a node-locked license, which is installed on a single node in the cluster.
+ ** Capacity:
+  *** For ONTAP Select, specifies that the license is a capacity license, which defines the total amount of data capacity that the instance is licensed to manage.
+  *** For FabricPool, specifies that the license is a capacity license, which defines the amount of data that can be managed in the attached third-party storage (for example, AWS).
+
+* *State*
++
+Displays the state of the license package, which can be the following:
+
+ ** Evaluation: Specifies that the installed license is an evaluation license.
+ ** Installed: Specifies that the installed license is a valid purchased license.
+ ** WARNING: Specifies that the installed license is a valid purchased license and is approaching maximum capacity.
+ ** Enforcement: Specifies that the installed license is a valid purchased license and has exceeded the expiry date.
+ ** Waiting for License: Specifies that the license has not yet been installed.
+
+* *Legacy*
++
+Displays whether the license is a legacy license.
+
+* *Maximum Capacity*
+ ** For ONTAP Select, displays the maximum amount of storage that can be attached to the ONTAP Select instance.
+ ** For FabricPool, displays the maximum amount of third-party object store storage that can be used as cloud tier storage.
+* *Current Capacity*
+ ** For ONTAP Select, displays the total amount of storage that is currently attached to the ONTAP Select instance.
+ ** For FabricPool, displays the total amount of third-party object store storage that is currently used as cloud tier storage.
+* *Expiration Date*
++
+Displays the expiration date of the software license package.
+
+*Related information*
+
+xref:task_adding_licenses.adoc[Adding licenses]
+
+xref:task_deleting_licenses.adoc[Deleting licenses]
+
+xref:task_creating_cluster.adoc[Creating a cluster]

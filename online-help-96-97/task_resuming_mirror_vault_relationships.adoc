@@ -1,0 +1,26 @@
+---
+permalink: online-help-96-97/task_resuming_mirror_vault_relationships.html
+sidebar: sidebar
+keywords: resume, mirror, vault, relationship, online, help, system, manager
+summary: "If you have a quiesced mirror and vault relationship, you can resume the relationship by using System Manager. When you resume the relationship, normal data transfer to the destination volume is resumed and all the protection activities are restarted."
+---
+= Resuming mirror and vault relationships
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+If you have a quiesced mirror and vault relationship, you can resume the relationship by using System Manager. When you resume the relationship, normal data transfer to the destination volume is resumed and all the protection activities are restarted.
+
+.About this task
+
+If you have quiesced a broken mirror and vault relationship from the command-line interface (CLI), you cannot resume the relationship from System Manager. You must use the CLI to resume the relationship.
+
+.Steps
+
+. Click *Protection* > *Volume Relationships*.
+. Select the mirror and vault relationship that you want to resume, and then click *Operations* > *Resume*.
+. Select the confirmation check box, and then click *Resume*.
+
+.Results
+
+Normal data transfers are resumed. If there is a scheduled transfer for the relationship, the transfer is started from the next schedule.

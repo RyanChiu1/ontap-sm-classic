@@ -1,0 +1,24 @@
+---
+permalink: online-help-96-97/task_setting_up_network.html
+sidebar: sidebar
+keywords: set, up, network, cluster, node, service, processor, dns, ntp, online, help
+summary: "By setting up a network, you can manage your cluster, nodes, and Service Processors. You can also set up DNS and NTP details by using the network window."
+---
+= Setting up a network
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+By setting up a network, you can manage your cluster, nodes, and Service Processors. You can also set up DNS and NTP details by using the network window.
+
+.Before you begin
+
+You must have set up the cluster.
+
+.About this task
+
+* Only those nodes that are up and running are listed for cluster creation.
++
+You can create LIFs for those nodes.
+
+* You can disable IP address range and enter individual IP addresses for cluster management, node management, and Service Processor management networks.

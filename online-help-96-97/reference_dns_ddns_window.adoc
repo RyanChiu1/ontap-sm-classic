@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/reference_dns_ddns_window.html
+sidebar: sidebar
+keywords: dns, ddns, services, window, command, button, online, help
+summary: "The DNS/DDNS Services window enables you to view and edit the current DNS and DDNS settings for your system."
+---
+= DNS/DDNS Services window
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+The DNS/DDNS Services window enables you to view and edit the current DNS and DDNS settings for your system.
+
+== Command buttons
+
+* *Edit*
++
+Opens the Edit DNS/DDNS Settings dialog box, which you can use to add or modify DNS or DDNS details. You can also enable or disable DDNS.
+
+* *Refresh*
++
+Updates the information in the window.
+
+*Related information*
+
+xref:task_enabling_or_disabling_ddns.adoc[Enabling or disabling DDNS]
+
+xref:task_editing_dns_ddns_settings.adoc[Editing DNS and DDNS settings]

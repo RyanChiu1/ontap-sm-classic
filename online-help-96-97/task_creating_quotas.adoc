@@ -1,0 +1,35 @@
+---
+permalink: online-help-96-97/task_creating_quotas.html
+sidebar: sidebar
+keywords: create, quota, qtree, system, manager, online, help
+summary: "Quotas enable you to restrict or track the disk space and number of files that are used by a user, group, or qtree. You can use the Add Quota wizard in System Manager to create a quota and to apply the quota to a specific volume or qtree."
+---
+= Create quotas
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+Quotas enable you to restrict or track the disk space and number of files that are used by a user, group, or qtree. You can use the Add Quota wizard in System Manager to create a quota and to apply the quota to a specific volume or qtree.
+
+.About this task
+
+Using System Manager, the minimum value that you can specify for the hard limit and soft limit on the number of files that the quota can own is 1000. If you want to specify a value lower than 1000, you should use the command-line interface (CLI).
+
+.Steps
+
+. Click *Storage* > *Quotas*.
+. From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) on which you want to create a quota.
+. In the *User Defined Quotas* tab, click *Create*.
++
+The Create Quota Wizard is displayed.
+
+. Type or select information as prompted by the wizard.
+. Confirm the details, and then click *Finish* to complete the wizard.
+
+== What to do next
+
+You can use the local user name or RID to create user quotas. If you create the user quota or group quota by using the user name or group name, then the ``/etc/passwd``file and the``/etc/group``file must be updated, respectively.
+
+*Related information*
+
+xref:reference_quotas_window.adoc[Quotas window]

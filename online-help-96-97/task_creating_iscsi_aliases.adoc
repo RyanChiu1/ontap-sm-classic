@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_creating_iscsi_aliases.html
+sidebar: sidebar
+keywords: iscsi, alias, create, target, device, online, help
+summary: "An iSCSI alias is a user-friendly identifier that you assign to an iSCSI target device (in this case, the storage system) to make it easier to identify the target device in user interfaces. You can use System Manager to create an iSCSI alias."
+---
+= Create iSCSI aliases
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+An iSCSI alias is a user-friendly identifier that you assign to an iSCSI target device (in this case, the storage system) to make it easier to identify the target device in user interfaces. You can use System Manager to create an iSCSI alias.
+
+.About this task
+
+An iSCSI alias is a string of 1 to 128 printable characters.An iSCSI alias must not include spaces.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *iSCSI*.
+. In the *Service* tab of the *iSCSI* window, click *Edit*.
+. In the *Edit iSCSI Service Configuration* dialog box, enter an iSCSI alias in the *Target Alias* field, and then click *OK*.
+
+*Related information*
+
+xref:reference_iscsi_window.adoc[iSCSI window]

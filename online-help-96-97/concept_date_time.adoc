@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_date_time.html
+sidebar: sidebar
+keywords: date, time, settings, cluster, system, manager, online, help
+summary: "You can use System Manager to manage the date and time settings of a cluster."
+---
+= Date and time settings of a cluster
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manage the date and time settings of a cluster.
+
+*Related information*
+
+https://docs.netapp.com/us-en/ontap/system-admin/index.html[System administration]

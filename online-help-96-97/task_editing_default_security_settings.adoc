@@ -1,0 +1,28 @@
+---
+permalink: online-help-96-97/task_editing_default_security_settings.html
+sidebar: sidebar
+keywords: edit, default, security, settings, dialog, box, system, manager, iscsi, online, help
+summary: "You can use the Edit Default Security dialog box in System Manager to edit the default security settings for the iSCSI initiators that are connected to the storage system."
+---
+= Editing default security settings
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Edit Default Security dialog box in System Manager to edit the default security settings for the iSCSI initiators that are connected to the storage system.
+
+.Steps
+
+. Click *Storage* > *SVMs*.
+. Select the SVM, and then click *SVM Settings*.
+. In the *Protocols* pane, click *iSCSI*.
+. In the *Default Security* area of the *Initiator Security* tab, click *Edit*.
+. In the *Edit Default Security* dialog box, change the security type.
++
+For CHAP authentication, you must provide the user name and password, and then confirm your password for inbound settings. For outbound settings, this login information is optional.
+
+. Click *OK*.
+
+*Related information*
+
+xref:reference_iscsi_window.adoc[iSCSI window]

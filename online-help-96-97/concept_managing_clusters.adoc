@@ -1,0 +1,16 @@
+---
+permalink: online-help-96-97/concept_managing_clusters.html
+sidebar: sidebar
+keywords: manage, cluster, system, manager, online, help
+summary: "You can use System Manager to manage clusters."
+---
+= Managing clusters
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use System Manager to manage clusters.
+
+*Related information*
+
+https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]

@@ -1,0 +1,23 @@
+---
+permalink: online-help-96-97/task_creating_ipspaces.html
+sidebar: sidebar
+keywords: create, ipspace, system, manager, cluster, subnet, range, online, help
+summary: "You can create an IPspace by using System Manager to configure a single ONTAP cluster for client access from more than one administratively separate network domain, even when the clients use the same IP address subnet range. This enables you to separate client traffic for privacy and security."
+---
+= Create IPspaces
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can create an IPspace by using System Manager to configure a single ONTAP cluster for client access from more than one administratively separate network domain, even when the clients use the same IP address subnet range. This enables you to separate client traffic for privacy and security.
+
+.About this task
+
+All of the IPspace names must be unique within a cluster and must not consist of names that are reserved by the system, such as "`local`" or "`localhost.`"
+
+.Steps
+
+. Click the *Network* tab.
+. In the *IPspaces* tab, click *Create*.
+. In the *Create IPspaces* dialog box, specify a name for the IPspace that you want to create.
+. Click *Create*.

@@ -1,0 +1,19 @@
+---
+permalink: online-help-96-97/task_unmounting_flexvol_volumes.html
+sidebar: sidebar
+keywords: system, manager, storage, pane, flexvol, volumes, umount, online, help, junction, path
+summary: "You can use the Junction Path option of Storage pane in System Manager to unmount FlexVol volumes from a junction in the storage virtual machine (SVM) namespace."
+---
+= Unmounting FlexVol volumes
+:icons: font
+:imagesdir: ../media/
+
+[.lead]
+You can use the Junction Path option of Storage pane in System Manager to unmount FlexVol volumes from a junction in the storage virtual machine (SVM) namespace.
+
+.Steps
+
+. Click *Storage* > *Junction Path*.
+. From the drop-down menu in the *SVM* field, select the SVM from which you want to unmount a volume.
+. Select the volumes that have to be unmounted, and then click *Unmount*.
+. Select the confirmation check box, and then click *Unmount*.
