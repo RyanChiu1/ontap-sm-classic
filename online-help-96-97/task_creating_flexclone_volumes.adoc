@@ -1,26 +1,26 @@
 ---
 permalink: online-help-96-97/task_creating_flexclone_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a FlexClone volume when you require a writable, point-in-time copy of an existing FlexVol volume. You might want to create a copy of a volume for testing or to provide access to the volume for additional users without giving them access to the production data.'
+keywords: create, flexclone, volume, system, manager, online, help
+summary: "You can use System Manager to create a FlexClone volume when you require a writable, point-in-time copy of an existing FlexVol volume. You might want to create a copy of a volume for testing or to provide access to the volume for additional users without giving them access to the production data."
 ---
-= Creating FlexClone volumes
+= Create FlexClone volumes
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create a FlexClone volume when you require a writable, point-in-time copy of an existing FlexVol volume. You might want to create a copy of a volume for testing or to provide access to the volume for additional users without giving them access to the production data.
 
-== Before you begin
+.Before you begin
 
 * The FlexClone license must be installed on the storage system.
 * The volume that you want to clone must be online and must be a non-root volume.
 
-== About this task
+.About this task
 
 The base Snapshot copy that is used to create a FlexClone volume of a SnapMirror destination is marked as busy and cannot be deleted. If a FlexClone volume is created from a Snapshot copy that is not the most recent Snapshot copy, and that Snapshot copy no longer exists on the source volume, all SnapMirror updates to the destination volume fail.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

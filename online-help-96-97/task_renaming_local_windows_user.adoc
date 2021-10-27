@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_renaming_local_windows_user.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to rename a local Windows user account to identify the local user more easily.'
+keywords: rename, local, windows, user, system, manager, online, help
+summary: "You can use System Manager to rename a local Windows user account to identify the local user more easily."
 ---
 = Renaming a local Windows user
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to rename a local Windows user account to i
 [.lead]
 You can use System Manager to rename a local Windows user account to identify the local user more easily.
 
-== About this task
+.About this task
 
 * The new user name must be created in the same domain as the previous user name.
 * The user name that you specify must meet the following requirements:
@@ -21,7 +21,7 @@ You can use System Manager to rename a local Windows user account to identify th
  ** Must not include any of the following printable characters: " / \ [ ] : | < > + = ; ? * @
  ** Must not include characters in the ASCII range 1 through 31, which are non-printable
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -30,7 +30,7 @@ You can use System Manager to rename a local Windows user account to identify th
 . In the *Rename User* window, specify a new name for the user.
 . Confirm the new name, and then click *Rename*.
 
-== Results
+.Results
 
 The user name is changed, and the new name is listed in the *Users* tab.
 

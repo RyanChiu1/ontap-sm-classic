@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_what_lag_time_is.html
 sidebar: sidebar
-keywords: 
-summary: 'Lag time is the amount of time by which the destination system lags behind the source system.'
+keywords: lag, time, online, help, system, logs
+summary: "Lag time is the amount of time by which the destination system lags behind the source system."
 ---
 = What lag time is
 :icons: font

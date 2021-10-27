@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_vlan_interfaces.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a VLAN to maintain separate broadcast domains within the same network domain by using System Manager.'
+keywords: create, vlan, interfaces, system, manager, broadcast, domain, online, help
+summary: "You can create a VLAN to maintain separate broadcast domains within the same network domain by using System Manager."
 ---
-= Creating VLAN interfaces
+= Create VLAN interfaces
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can create a VLAN to maintain separate broadcast domains within the same network domain by using System Manager.
 
-== Steps
+.Steps
 
 . Click *Network* > *Ethernet Ports*.
 . Click *Create VLAN*.

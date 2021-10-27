@@ -1,17 +1,17 @@
 ---
 permalink: volume-backup-snapvault/task_verify_cluster_peer_relationship.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you set up a volume for data protection by using SnapVault technology, you must verify that the source cluster and destination cluster are peered and are communicating with each other through the peer relationship. You must also verify that the source SVM and destination SVM are peered and are communicating with each other through the peer relationship.'
+keywords: set, up, volume, data, protection, snapvault, technology, verify, source, cluster, communicate, communicating, peer, relationship, svm, verify cluster peer relationship and svm peer relationship
+summary: "Before you set up a volume for data protection by using SnapVault technology, you must verify that the source cluster and destination cluster are peered and are communicating with each other through the peer relationship. You must also verify that the source SVM and destination SVM are peered and are communicating with each other through the peer relationship."
 ---
-= Verifying cluster peer relationship and SVM peer relationship
+= Verify cluster peer relationship and SVM peer relationship
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Before you set up a volume for data protection by using SnapVault technology, you must verify that the source cluster and destination cluster are peered and are communicating with each other through the peer relationship. You must also verify that the source SVM and destination SVM are peered and are communicating with each other through the peer relationship.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 

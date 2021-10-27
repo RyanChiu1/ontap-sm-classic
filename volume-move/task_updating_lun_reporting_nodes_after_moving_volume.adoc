@@ -1,21 +1,21 @@
 ---
 permalink: volume-move/task_updating_lun_reporting_nodes_after_moving_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'If the volume that you moved contained LUNs and the volume is now on a different HA pair, you should remove all remote nodes from the Selective LUN Map \(SLM\) reporting-nodes list. The LUN map then contains only the owner node and its HA partner, which ensures that only optimized LUN paths are used.'
+keywords: volume, move, contain, lun, ha, pair, remote, node, selective, lun, map, slm, reporitng-node, list, partner, update lun reporting nodes after moving a volume
+summary: "If the volume that you moved contained LUNs and the volume is now on a different HA pair, you should remove all remote nodes from the Selective LUN Map (SLM) reporting-nodes list. The LUN map then contains only the owner node and its HA partner, which ensures that only optimized LUN paths are used."
 ---
-= Updating LUN reporting nodes after moving a volume
+= Update LUN reporting nodes after moving a volume
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If the volume that you moved contained LUNs and the volume is now on a different HA pair, you should remove all remote nodes from the Selective LUN Map (SLM) reporting-nodes list. The LUN map then contains only the owner node and its HA partner, which ensures that only optimized LUN paths are used.
 
-== About this task
+.About this task
 
 This procedure is necessary only if you moved the volume from its HA pair to a different HA pair. If the volume is on a different node of the same HA pair, you can skip this procedure.
 
-== Steps
+.Steps
 
 . Remove all of the remote nodes from the reporting-nodes list by using the `lun mapping remove-reporting-nodes` command with the `-remote-nodes` parameter.
 +

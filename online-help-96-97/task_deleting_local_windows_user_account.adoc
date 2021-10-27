@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_local_windows_user_account.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete a local Windows user account from a storage virtual machine \(SVM\) if the user account is no longer required for local CIFS authentication to the CIFS server of the SVM or for determining access rights to the data contained in the SVM.'
+keywords: delte, local, windows, user, account, system, manager, online, help, cifs, svm
+summary: "You can use System Manager to delete a local Windows user account from a storage virtual machine (SVM) if the user account is no longer required for local CIFS authentication to the CIFS server of the SVM or for determining access rights to the data contained in the SVM."
 ---
 = Deleting a local Windows user account
 :icons: font
@@ -11,12 +11,12 @@ summary: 'You can use System Manager to delete a local Windows user account from
 [.lead]
 You can use System Manager to delete a local Windows user account from a storage virtual machine (SVM) if the user account is no longer required for local CIFS authentication to the CIFS server of the SVM or for determining access rights to the data contained in the SVM.
 
-== About this task
+.About this task
 
 * Standard users such as Administrator cannot be deleted.
 * ONTAP removes references to the deleted local user from the local-group database, from the local-user-membership, and from the user-rights database.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -24,7 +24,7 @@ You can use System Manager to delete a local Windows user account from a storage
 . In the *Users* tab, select the user account that you want to delete, and then click *Delete*.
 . Click *Delete*.
 
-== Results
+.Results
 
 The local user account is deleted along with its group membership entries.
 

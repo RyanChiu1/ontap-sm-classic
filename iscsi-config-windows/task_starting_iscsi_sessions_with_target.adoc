@@ -1,30 +1,31 @@
 ---
 permalink: iscsi-config-windows/task_starting_iscsi_sessions_with_target.html
 sidebar: sidebar
-keywords: 
-summary: 'The Windows host must have an iSCSI connection to each node in the cluster. You establish the sessions from the host by using the iSCSI Initiator Properties dialog box on the host.'
+keywords: windows, host, iscsi, connection, cluster, establish, sessions, initiator, properties, dialog, box, start iscsi sessions with the target
+summary: "The Windows host must have an iSCSI connection to each node in the cluster. You establish the sessions from the host by using the iSCSI Initiator Properties dialog box on the host."
 ---
-= Starting iSCSI sessions with the target
+= Start iSCSI sessions with the target
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The Windows host must have an iSCSI connection to each node in the cluster. You establish the sessions from the host by using the iSCSI Initiator Properties dialog box on the host.
 
-== Before you begin
+.Before you begin
 
 You must know the IP address of an iSCSI data LIF on the storage virtual machine (SVM) that contains the LUN you are accessing.
 
-== About this task
+.About this task
 
 In ONTAP, the iSCSI host must have paths to each node in the cluster. The native DSM selects the best paths to use. If paths fail, the native DSM selects alternate paths.
 
 The buttons and labels in the iSCSI Initiator Properties dialog box vary between versions of Windows. Some of the steps in the task include more than one button or label name; you should pick the name that matches the version of Windows you are using.
 
-== Steps
+.Steps
 
 . Open the *iSCSI Initiator Properties* dialog box:
 +
+[options="header"]
 |===
 | For...| Click...
 a|

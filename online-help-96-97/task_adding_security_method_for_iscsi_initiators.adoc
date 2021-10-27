@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_adding_security_method_for_iscsi_initiators.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to add an initiator and to specify the security method that is used to authenticate the initiator.'
+keywords: add, security, method, iscsi, initiator, online, help
+summary: "You can use System Manager to add an initiator and to specify the security method that is used to authenticate the initiator."
 ---
-= Adding the security method for iSCSI initiators
+= Add the security method for iSCSI initiators
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to add an initiator and to specify the security method that is used to authenticate the initiator.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_enabling_or_disabling_cifs_group_policy.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable or disable the CIFS group policy configuration from the CIFS window in System Manager.'
+keywords: enable, disable, cifs, group, policy, configuration, online, help
+summary: "You can enable or disable the CIFS group policy configuration from the CIFS window in System Manager."
 ---
 = Enabling or disabling a CIFS group policy configuration
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can enable or disable the CIFS group policy configuration from the
 [.lead]
 You can enable or disable the CIFS group policy configuration from the CIFS window in System Manager.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_igroup_name.html
 sidebar: sidebar
-keywords: 
-summary: 'The igroup name is a case-sensitive name that must satisfy several requirements.'
+keywords: igroup, name, case, sensitive, requirement, online, help
+summary: "The igroup name is a case-sensitive name that must satisfy several requirements."
 ---
 = igroup name
 :icons: font

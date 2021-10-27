@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_preferred_domain_controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete a preferred domain controller to which the storage virtual machine \(SVM\) computer account is associated. You can do this when you no longer want to use a particular domain controller.'
+keywords: delete, preferred, domain, controller, system, manager, svm, online, help
+summary: "You can use System Manager to delete a preferred domain controller to which the storage virtual machine (SVM) computer account is associated. You can do this when you no longer want to use a particular domain controller."
 ---
 = Deleting preferred domain controllers
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to delete a preferred domain controller to 
 [.lead]
 You can use System Manager to delete a preferred domain controller to which the storage virtual machine (SVM) computer account is associated. You can do this when you no longer want to use a particular domain controller.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

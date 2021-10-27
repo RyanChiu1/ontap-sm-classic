@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_autosupport_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify your AutoSupport settings to specify an email address from which email notifications are sent and to add multiple email host names.'
+keywords: edit, autosupport, settings, system, manager, online, help, email, address
+summary: "You can use System Manager to modify your AutoSupport settings to specify an email address from which email notifications are sent and to add multiple email host names."
 ---
 = Editing AutoSupport settings
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to modify your AutoSupport settings to spec
 [.lead]
 You can use System Manager to modify your AutoSupport settings to specify an email address from which email notifications are sent and to add multiple email host names.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
 . Select the node for which you want to modify AutoSupport settings, and then click *Edit*.

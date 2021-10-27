@@ -1,21 +1,21 @@
 ---
 permalink: nas-multiprotocol-config/task_mapping_unix_windows_user_names.html
 sidebar: sidebar
-keywords: 
-summary: 'If your site has both Windows and UNIX user accounts, you should use name mapping to ensure that Windows users can access files with UNIX file permissions and to ensure that UNIX users can access files with NTFS file permissions. Name mapping can involve any combination of implicit mapping, conversion rules, and default users.'
+keywords: windows, unix, user, acconut, map, user, access, file, permission, ntfs, conversion, rule, default, user, map unix and windows user names
+summary: "If your site has both Windows and UNIX user accounts, you should use name mapping to ensure that Windows users can access files with UNIX file permissions and to ensure that UNIX users can access files with NTFS file permissions. Name mapping can involve any combination of implicit mapping, conversion rules, and default users."
 ---
-= Mapping UNIX and Windows user names
+= Map UNIX and Windows user names
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If your site has both Windows and UNIX user accounts, you should use name mapping to ensure that Windows users can access files with UNIX file permissions and to ensure that UNIX users can access files with NTFS file permissions. Name mapping can involve any combination of implicit mapping, conversion rules, and default users.
 
-== About this task
+.About this task
 
 You should use this procedure only if your site has Windows and UNIX user accounts that do not map implicitly, which is when the lowercase version of each Windows user name matches the UNIX user name. This can be done using NIS, LDAP, or local users. If you have two sets of users that do not match, you should configure name mapping.
 
-== Steps
+.Steps
 
 . Decide on a method of name mapping--name mapping conversion rules, default user mappings, or both--by considering the following factors:
  ** Conversion rules use regular expressions to convert one user name to another, which is useful if you want to control or track access at an individual level.

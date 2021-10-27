@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_reloading_cifs_group_policy.html
 sidebar: sidebar
-keywords: 
-summary: 'You have to reload a CIFS group policy if the status of the policy is changed. You can use the CIFS window in System Manager to reload the group policy.'
+keywords: cifs, group, policy, reload, online, help, group, policy
+summary: "You have to reload a CIFS group policy if the status of the policy is changed. You can use the CIFS window in System Manager to reload the group policy."
 ---
 = Reloading CIFS group policy
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You have to reload a CIFS group policy if the status of the policy is 
 [.lead]
 You have to reload a CIFS group policy if the status of the policy is changed. You can use the CIFS window in System Manager to reload the group policy.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

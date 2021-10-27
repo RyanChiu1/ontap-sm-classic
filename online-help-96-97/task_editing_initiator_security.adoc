@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_initiator_security.html
 sidebar: sidebar
-keywords: 
-summary: 'The security style that is configured for an initiator specifies how authentication is done for that initiator during the iSCSI connection login phase. You can use System Manager to change the security for selected iSCSI initiators by changing the authentication method.'
+keywords: edit, initiator, security, iscsi, connection, login, phase, online, help, system, manager
+summary: "The security style that is configured for an initiator specifies how authentication is done for that initiator during the iSCSI connection login phase. You can use System Manager to change the security for selected iSCSI initiators by changing the authentication method."
 ---
 = Editing initiator security
 :icons: font
@@ -11,7 +11,7 @@ summary: 'The security style that is configured for an initiator specifies how a
 [.lead]
 The security style that is configured for an initiator specifies how authentication is done for that initiator during the iSCSI connection login phase. You can use System Manager to change the security for selected iSCSI initiators by changing the authentication method.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

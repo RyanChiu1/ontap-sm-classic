@@ -1,25 +1,25 @@
 ---
 permalink: iscsi-config-rhel/task_verifying_that_host_can_write_to_read_fom_lun.html
 sidebar: sidebar
-keywords: 
-summary: 'Before using a multipath device, you should verify that the host can write data to the multipath device and read it back.'
+keywords: multipath, device, verify, host, data, verify that the host can write to and read from a multipath device
+summary: "Before using a multipath device, you should verify that the host can write data to the multipath device and read it back."
 ---
-= Verifying that the host can write to and read from a multipath device
+= Verify that the host can write to and read from a multipath device
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Before using a multipath device, you should verify that the host can write data to the multipath device and read it back.
 
-== Before you begin
+.Before you begin
 
 DM-Multipath must be configured on the Linux host for the storage cluster nodes you are accessing.
 
-== About this task
+.About this task
 
 If the storage cluster node that the multipath device corresponds to can be failed over to its partner node, you should verify reading the data while the node is failed over. This verification might not be possible if the storage cluster is in production use.
 
-== Steps
+.Steps
 
 . Run some I/O on the specified multipath device: `dd if=/dev/zero of=<multipath_device_name\>`
 . Verify that I/O is running on the multipath device, specifying the number of seconds to refresh statistics (for example, every two seconds, as shown): `iostat 2`

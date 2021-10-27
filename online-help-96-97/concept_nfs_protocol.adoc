@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_nfs_protocol.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to authenticate NFS clients to access data on the SVM.'
+keywords: nfs, protocol, system, manager, authenticate, client, asses, data, svm, online, help
+summary: "You can use System Manager to authenticate NFS clients to access data on the SVM."
 ---
 = NFS protocol
 :icons: font
@@ -13,4 +13,4 @@ You can use System Manager to authenticate NFS clients to access data on the SVM
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.cdot-famg-nfs/home.html[NFS management]
+https://docs.netapp.com/us-en/ontap/nfs-admin/index.html[NFS management^]

@@ -1,27 +1,27 @@
 ---
 permalink: fc-config-windows/task_creating_lun_its_containing_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You use the Create LUN wizard to create a LUN. The wizard also creates the igroup and maps the LUN to the igroup, which enables the specified host to access the LUN.'
+keywords: create, lun, wizard, igroup, map, enable, host, access, create a lun
+summary: "You use the Create LUN wizard to create a LUN. The wizard also creates the igroup and maps the LUN to the igroup, which enables the specified host to access the LUN."
 ---
-= Creating a LUN
+= Create a LUN
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You use the Create LUN wizard to create a LUN. The wizard also creates the igroup and maps the LUN to the igroup, which enables the specified host to access the LUN.
 
-== Before you begin
+.Before you begin
 
 * There must be an aggregate with enough free space to contain the LUN.
 * There must be a storage virtual machine (SVM) with the FC protocol enabled and the appropriate logical interfaces (LIFs) created.
 * You must have recorded the worldwide port names (WWPNs) of the host FC ports.
 
-== About this task
+.About this task
 
 If your organization has a naming convention, you should use names for the LUN, volume, and so on that fit your convention. Otherwise, you should accept the default names.
 
-== Steps
+.Steps
 
 . Navigate to the *LUNs* window.
 . Click *Create.*
@@ -44,4 +44,4 @@ You must ensure that there is enough space in the volume. If sufficient space is
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sag/home.html[System administration]
+https://docs.netapp.com/us-en/ontap/system-admin/index.html[System administration]

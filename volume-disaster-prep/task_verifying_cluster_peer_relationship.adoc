@@ -1,10 +1,10 @@
 ---
 permalink: volume-disaster-prep/task_verifying_cluster_peer_relationship.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you set up a volume for disaster recovery, you must verify that the source and destination clusters are peered and are communicating with each other through the peer relationship.'
+keywords: set, up, volume, disaster, recovery, verify, source, destination, cluster, communicate, peer, relationship, verify the cluster peer relationship and svm peer relationship
+summary: "Before you set up a volume for disaster recovery, you must verify that the source and destination clusters are peered and are communicating with each other through the peer relationship."
 ---
-= Verifying the cluster peer relationship and SVM peer relationship
+= Verify the cluster peer relationship and SVM peer relationship
 :icons: font
 :imagesdir: ../media/
 

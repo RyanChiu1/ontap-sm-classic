@@ -1,21 +1,21 @@
 ---
 permalink: nfs-config-esxi/task_deploying_netapp_nfs_plugin_for_vmware_vaai.html
 sidebar: sidebar
-keywords: 
-summary: 'The plug-in is a software library that integrates the VMware Virtual Disk Libraries that are installed on the ESXi host. Downloading and installing the NFS Plug-In for VMware VAAI enables you to improve the performance of cloning operations by using the copy offload and space reservation options.'
+keywords: plug-in, software, library, integrate, vmware, virtual, disk, libraries, install, esxi, host, nfs, improve, copy, offload, space, reservation, option, deploy, deploy the nfs plug-in for vmware vaai
+summary: "The plug-in is a software library that integrates the VMware Virtual Disk Libraries that are installed on the ESXi host. Downloading and installing the NFS Plug-In for VMware VAAI enables you to improve the performance of cloning operations by using the copy offload and space reservation options."
 ---
-= Deploying the NFS Plug-in for VMware VAAI
+= Deploy the NFS Plug-in for VMware VAAI
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The plug-in is a software library that integrates the VMware Virtual Disk Libraries that are installed on the ESXi host. Downloading and installing the NFS Plug-In for VMware VAAI enables you to improve the performance of cloning operations by using the copy offload and space reservation options.
 
-== About this task
+.About this task
 
 To provide consistent access to the virtual machines residing on the ESXi host on which you are installing the NFS plug-in, you can migrate virtual machines or install the NFS plug-in during planned maintenance.
 
-== Steps
+.Steps
 
 . Download the NFS Plug-In for VMware VAAI.
 +

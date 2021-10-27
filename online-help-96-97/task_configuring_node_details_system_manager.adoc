@@ -1,22 +1,22 @@
 ---
 permalink: online-help-96-97/task_configuring_node_details_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to configure the node management LIF and Service Processor settings for the newly added nodes.'
+keywords: system, manager, configure, network, detail, node, online, help
+summary: "You can use System Manager to configure the node management LIF and Service Processor settings for the newly added nodes."
 ---
-= Configuring the network details of the nodes
+= Configure the network details of the nodes
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to configure the node management LIF and Service Processor settings for the newly added nodes.
 
-== Before you begin
+.Before you begin
 
 * Sufficient number of ports must be present in the default IPspace for LIF creation.
 * All the ports must be up and running.
 
-== Steps
+.Steps
 
 . Configure node management:
  .. Enter the IP address in the *IP Address* field.

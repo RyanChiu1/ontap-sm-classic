@@ -1,10 +1,10 @@
 ---
 permalink: online-help-96-97/task_adding_capacity_disks.html
 sidebar: sidebar
-keywords: 
-summary: 'You can increase the size of an existing non-root aggregate or a root aggregate containing disks by adding capacity disks. You can use System Manager to add HDDs or SSDs of the selected ONTAP disk type and to modify the RAID group options.'
+keywords: add, capacity, disk, online, help, aggregate
+summary: "You can increase the size of an existing non-root aggregate or a root aggregate containing disks by adding capacity disks. You can use System Manager to add HDDs or SSDs of the selected ONTAP disk type and to modify the RAID group options."
 ---
-= Adding capacity disks
+= Add capacity disks
 :experimental:
 :icons: font
 :imagesdir: ../media/
@@ -12,12 +12,12 @@ summary: 'You can increase the size of an existing non-root aggregate or a root 
 [.lead]
 You can increase the size of an existing non-root aggregate or a root aggregate containing disks by adding capacity disks. You can use System Manager to add HDDs or SSDs of the selected ONTAP disk type and to modify the RAID group options.
 
-== Before you begin
+.Before you begin
 
 * The aggregate must be online.
 * There must be sufficient compatible spare disks.
 
-== About this task
+.About this task
 
 * It is a best practice to add disks that are of the same size as the other disks in the aggregate.
 +
@@ -41,7 +41,7 @@ The disks are added after downsizing the disk size to the size of the disks in t
 +
 The disks are added after downsizing the disk size to the size of the disks in the pre-existing RAID group of the existing aggregate.
 
-== Steps
+.Steps
 
 . Choose one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers*.
@@ -65,7 +65,7 @@ For mirrored aggregates, an Add Capacity dialog box is displayed with the inform
 
 . In the *Add Capacity* dialog box, click *Yes* to add the capacity disks.
 
-== Results
+.Results
 
 The capacity disks are added to the selected aggregate, and the aggregate size is increased.
 

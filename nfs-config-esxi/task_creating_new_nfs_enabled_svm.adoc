@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/task_creating_new_nfs_enabled_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using .'
+keywords: set, up, creating, create, enable, enabling, nfs, esxi, create a new nfs-enabled
+summary: "Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console."
 ---
-= Creating a new NFS-enabled
+= Create a new NFS-enabled
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using .
+Setting up a new involves creating the new and enabling NFS. You can then configure NFS access on the ESXi host and verify that NFS is enabled for ESXi by using Virtual Storage Console.
 
-== Before you begin
+.Before you begin
 
 * Your network must be configured and the relevant physical ports must be connected to the network.
 * You must know which of the following networking components the will use:
@@ -19,16 +19,16 @@ Setting up a new involves creating the new and enabling NFS. You can then config
  ** The subnet from which the data LIF's IP address will be provisioned, or optionally the specific IP address you want to assign to the data LIF
 * Any external firewalls must be appropriately configured to allow access to network services.
 
-== About this task
+.About this task
 
-With , you can use a wizard that guides you through the process of creating the , configuring DNS, creating a data LIF, and enabling NFS.
+You can use a wizard that guides you through the process of creating the SVM, configuring DNS, creating a data LIF, and enabling NFS.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create*.
 . In the *Storage Virtual Machine (SVM) Setup* window, create the :
- .. Specify a unique name for the .
+ .. Specify a unique name for the SVM.
 +
 The name must either be a fully qualified domain name (FQDN) or follow another convention that ensures unique names across a cluster.
 
@@ -50,7 +50,7 @@ The aggregate that you select for the root volume does not determine the locatio
 +
 image::../media/svm_setup_details_unix_selected_nfs_esxi.gif[SVM setup]
 
- .. In the *DNS Configuration* area, ensure that the default DNS search domain and name servers are the ones that you want to use for this .
+ .. In the *DNS Configuration* area, ensure that the default DNS search domain and name servers are the ones that you want to use for this SVM.
 +
 image::../media/svm_setup_details_dns_nfs_esxi.gif[This graphic is explained by the surrounding text.]
 
@@ -81,6 +81,6 @@ The following objects are created:
 +
 NFS clients need to know the IP address of the data LIF.
 
-== Results
+.Results
 
 A new is created with NFS enabled.

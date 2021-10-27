@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_understanding_predefined_efficiency_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure a volume with efficiency policies to achieve additional space savings. You can configure a volume to run inline compression without a scheduled or manually started background efficiency operation configured on the volume.'
+keywords: understand, default, inline, volume, predefined, efficiency, policy, online, help
+summary: "You can configure a volume with efficiency policies to achieve additional space savings. You can configure a volume to run inline compression without a scheduled or manually started background efficiency operation configured on the volume."
 ---
 = Understanding predefined efficiency policies
 :icons: font

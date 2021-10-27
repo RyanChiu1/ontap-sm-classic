@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config/task_creating_new_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use a wizard that guides you through the process of creating the storage virtual machine \(SVM\), configuring Domain Name System \(DNS\), creating a data logical interface \(LIF\), enabling NFS, optionally configuring NIS, and then creating and exporting a volume.'
+keywords: wizard, process, creating, create, storage, virtual, machine, svm, configuring, configure, domain, name, system, dns, logical, interface, lif, enabling, enable, nis, export, volume, create a new svm with an nfs volume and export
+summary: "You can use a wizard that guides you through the process of creating the storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), enabling NFS, optionally configuring NIS, and then creating and exporting a volume."
 ---
-= Creating a new SVM with an NFS volume and export
+= Create a new SVM with an NFS volume and export
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use a wizard that guides you through the process of creating the storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), enabling NFS, optionally configuring NIS, and then creating and exporting a volume.
 
-== Before you begin
+.Before you begin
 
 * Your network must be configured and the relevant physical ports must be connected to the network.
 * You must know which of the following networking components the SVM will use:
@@ -22,7 +22,7 @@ You can use a wizard that guides you through the process of creating the storage
 * Any external firewalls must be appropriately configured to allow access to network services.
 * The time on the AD domain controllers, clients, and SVM must be synchronized to within five minutes of each other.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create.*
@@ -104,6 +104,6 @@ The following objects are created:
 +
 NFS clients need to know the IP address of the data LIF.
 
-== Results
+.Results
 
 A new SVM is created with an NFS server containing a new volume that is exported for an administrator.

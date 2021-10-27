@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_quota_limits.html
 sidebar: sidebar
-keywords: 
-summary: 'You can apply a disk space limit or limit the number of files for each quota type. If you do not specify a limit for a quota, none is applied.'
+keywords: quota, limit, disk, space, files
+summary: "You can apply a disk space limit or limit the number of files for each quota type. If you do not specify a limit for a quota, none is applied."
 ---
 = Quota limits
 :icons: font

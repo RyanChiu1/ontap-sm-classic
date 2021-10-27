@@ -1,25 +1,25 @@
 ---
 permalink: expansion/task_configuring_autosupport_on_new_nodes_using_cli.html
 sidebar: sidebar
-keywords: 
-summary: 'After you add nodes to a cluster, you must configure AutoSupport on the nodes.'
+keywords: add, node, cluster, configure, autosupport, node, configuring, configure autosupport on the new nodes
+summary: "After you add nodes to a cluster, you must configure AutoSupport on the nodes."
 ---
-= Configuring AutoSupport on the new nodes
+= Configure AutoSupport on the new nodes
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After you add nodes to a cluster, you must configure AutoSupport on the nodes.
 
-== Before you begin
+.Before you begin
 
 AutoSupport must be set up on the cluster's existing nodes.
 
-== About this task
+.About this task
 
 You must perform this procedure on both the nodes.
 
-== Steps
+.Steps
 
 . View the AutoSupport configuration using the `system node autosupport show` command with the `-node` parameter set to one of the nodes in the original cluster.
 +

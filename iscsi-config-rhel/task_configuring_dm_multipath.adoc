@@ -1,17 +1,17 @@
 ---
 permalink: iscsi-config-rhel/task_configuring_dm_multipath.html
 sidebar: sidebar
-keywords: 
-summary: 'DM-Multipath manages multiple paths between the Linux host and the storage cluster. Configuring DM-Multipath on a LUN, which appears to the Linux host as a SCSI device, enables your Linux host to access its LUN on the storage cluster if a path or component fails.'
+keywords: dm-multipath, manage, path, linux, host, storage, cluster, configuring, configure, lun, scsi, device, component, fail, cluster, configure, configure dm-multipath
+summary: "DM-Multipath manages multiple paths between the Linux host and the storage cluster. Configuring DM-Multipath on a LUN, which appears to the Linux host as a SCSI device, enables your Linux host to access its LUN on the storage cluster if a path or component fails."
 ---
-= Configuring DM-Multipath
+= Configure DM-Multipath
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 DM-Multipath manages multiple paths between the Linux host and the storage cluster. Configuring DM-Multipath on a LUN, which appears to the Linux host as a SCSI device, enables your Linux host to access its LUN on the storage cluster if a path or component fails.
 
-== Before you begin
+.Before you begin
 
 You must have identified the required version of DM-Multipath from the Interoperability Matrix tool.
 
@@ -22,7 +22,7 @@ https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
 The recommended approach is that you configure two paths per node into each fabric or Ethernet network. This allows a path to fail without the node switching over to its partner. Using link aggregation (LAG) for the physical ports is not recommended with a Windows-based operating system.
 ====
 
-== Steps
+.Steps
 
 . Edit the `/etc/multipath.conf` file as follows:
  .. Determine whether there are non-NetApp SCSI devices to exclude (blacklist).

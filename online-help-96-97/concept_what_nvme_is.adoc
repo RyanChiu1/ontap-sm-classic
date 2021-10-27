@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_what_nvme_is.html
 sidebar: sidebar
-keywords: 
-summary: 'The nonvolatile memory express \(NVMe\) protocol is a transport protocol used for accessing nonvolatile storage media.'
+keywords: nvme, protocol, nonvolatile, memory, express, transport, online, help
+summary: "The nonvolatile memory express (NVMe) protocol is a transport protocol used for accessing nonvolatile storage media."
 ---
 = What NVMe is
 :icons: font

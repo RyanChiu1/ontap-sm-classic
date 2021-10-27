@@ -1,25 +1,25 @@
 ---
 permalink: fc-config-esxi/task_updating_hba_firmware.html
 sidebar: sidebar
-keywords: 
-summary: 'If the FC host bus adapters \(HBAs\) in the ESX host are not running supported driver, firmware, and BIOS versions, you must update them.'
+keywords: fc, host, bus, adapter, hba, esx, support, driver, firmware, bio, update, update the hba driver firmware and bios
+summary: "If the FC host bus adapters in the ESX host are not running supported driver, firmware, and BIOS versions, you must update them."
 ---
-= Updating the HBA driver, firmware, and BIOS
+= Update the HBA driver, firmware, and BIOS
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If the FC host bus adapters (HBAs) in the ESX host are not running supported driver, firmware, and BIOS versions, you must update them.
 
-== Before you begin
+.Before you begin
 
 You must have identified the supported driver, firmware, and BIOS versions for your configuration from the https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool].
 
-== About this task
+.About this task
 
 Drivers, firmware, BIOS, and HBA utilities are provided by the HBA vendors.
 
-== Steps
+.Steps
 
 . List the installed HBA driver, firmware, and BIOS versions using the ESXi host console commands for your version of ESXi.
 . Download and install the new driver, firmware, and BIOS as needed from the HBA vendor's support site.

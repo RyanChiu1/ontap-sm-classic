@@ -1,8 +1,8 @@
 ---
 permalink: peering/concept_cluster_peering_workflow.html
 sidebar: sidebar
-keywords: 
-summary: 'Setting up a peering relationship involves preparing each cluster for peering, creating intercluster logical interfaces \(LIFs\) on each node of each cluster, setting up a cluster peer relationship, and then setting up an SVM peering relationship.'
+keywords: set, relationship, cluster, peer, creating, create, intercluster, logical, interface, lif, relationship, svm, cluster and svm peering workflow
+summary: "Setting up a peering relationship involves preparing each cluster for peering, creating intercluster logical interfaces (LIFs) on each node of each cluster, setting up a cluster peer relationship, and then setting up an SVM peering relationship."
 ---
 = Cluster and SVM peering workflow
 :icons: font

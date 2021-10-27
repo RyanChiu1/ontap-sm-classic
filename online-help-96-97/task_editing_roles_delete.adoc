@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_roles_delete.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify the access of an access-control roleto a command or command directory and to restrict a user’s access to only a specified set of commands.'
+keywords: edit, role, system, manager, roleto, command, user, access, online, help
+summary: "You can use System Manager to modify the access of an access-control roleto a command or command directory and to restrict a user’s access to only a specified set of commands."
 ---
 = Editing roles
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to modify the access of an access-control r
 [.lead]
 You can use System Manager to modify the access of an access-control roleto a command or command directory and to restrict a user's access to only a specified set of commands.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

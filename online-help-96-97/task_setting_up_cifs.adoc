@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_cifs.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access the files on the cluster.'
+keywords: set, up, cif, online, help, system, manager, cluster, online, help
+summary: "You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access the files on the cluster."
 ---
 = Setting up CIFS
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to enable and configure CIFS servers to all
 [.lead]
 You can use System Manager to enable and configure CIFS servers to allow CIFS clients to access the files on the cluster.
 
-== Before you begin
+.Before you begin
 
 * The CIFS license must be installed on your storage system.
 * While configuring CIFS in the Active Directory domain, the following requirements must be met:
@@ -25,7 +25,7 @@ By default, System Manager sets the security style as UNIX.
 
  ** Superuser access must be set to `Any` for the CIFS protocol.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to manage LUNs.'
+keywords: system, manager, manager, lun, access, cluster, tab, online, help
+summary: "You can use System Manager to manage LUNs."
 ---
 = LUNs
 :icons: font
@@ -20,4 +20,4 @@ The LUNs tab is displayed only if you have enabled the FC/FCoE and iSCSI license
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]

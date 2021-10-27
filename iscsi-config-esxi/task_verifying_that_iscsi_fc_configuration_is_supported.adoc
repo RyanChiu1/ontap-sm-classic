@@ -1,17 +1,17 @@
 ---
 permalink: iscsi-config-esxi/task_verifying_that_iscsi_fc_configuration_is_supported.html
 sidebar: sidebar
-keywords: 
-summary: 'For reliable operation, you must verify that the entire iSCSI configuration is supported.'
+keywords: reliable, operation, verify, iscsi, configuration, support, verify that the iscsi configuration is supported
+summary: "For reliable operation, you must verify that the entire iSCSI configuration is supported."
 ---
-= Verifying that the iSCSI configuration is supported
+= Verify that the iSCSI configuration is supported
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 For reliable operation, you must verify that the entire iSCSI configuration is supported.
 
-== Steps
+.Steps
 
 . Go to the Interoperability Matrix to verify that you have a supported combination of the following components:
  ** ONTAP software

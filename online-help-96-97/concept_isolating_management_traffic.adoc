@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_isolating_management_traffic.html
 sidebar: sidebar
-keywords: 
-summary: 'It is a best practice to configure SP/BMC and the e0M management interface on a subnet dedicated to management traffic. Running data traffic over the management network can cause performance degradation and routing problems.'
+keywords: isolate, management, network, traffic, sp, bmc, e0m, interface, subnet, performance, routing, problems, online, help
+summary: "It is a best practice to configure SP/BMC and the e0M management interface on a subnet dedicated to management traffic. Running data traffic over the management network can cause performance degradation and routing problems."
 ---
 = Isolating management network traffic
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_flexgroup_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'Starting with System Manager 9.6, you can edit the properties of an existing FlexGroup volume.'
+keywords: edit, flexgroup, volume, system, volume, online, help
+summary: "Starting with System Manager 9.6, you can edit the properties of an existing FlexGroup volume."
 ---
 = Editing FlexGroup volumes
 :icons: font
@@ -11,11 +11,11 @@ summary: 'Starting with System Manager 9.6, you can edit the properties of an ex
 [.lead]
 Starting with System Manager 9.6, you can edit the properties of an existing FlexGroup volume.
 
-== Before you begin
+.Before you begin
 
 The FlexGroup volume must be online.
 
-== About this task
+.About this task
 
 FabricPool FlexGroup volumes can be expanded under the following conditions:
 
@@ -23,7 +23,7 @@ FabricPool FlexGroup volumes can be expanded under the following conditions:
 * A non-FabricPool FlexGroup volume can be expanded only with non-FabricPool aggregates.
 * If the FlexGroup volume contains a mix of FabricPool and non-FabricPool volumes, then the FlexGroup volume can be expanded with both FabricPool and non-FabricPool aggregates.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

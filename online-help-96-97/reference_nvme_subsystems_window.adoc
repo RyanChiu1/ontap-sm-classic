@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_nvme_subsystems_window.html
 sidebar: sidebar
-keywords: 
-summary: 'The NVMe Subsystems window displays by default an inventory list of NVMe subsystems in a cluster. You can filter the list to display only subsystems that are specific to an SVM. The window also enables you to create, edit, or delete NVMe subsystems. You can access this window by selecting Storage \> NVMe \> Subsystems.'
+keywords: nvme, subsystems, window, table, toolbar, online, help, cluster
+summary: "The NVMe Subsystems window displays by default an inventory list of NVMe subsystems in a cluster. You can filter the list to display only subsystems that are specific to an SVM. The window also enables you to create, edit, or delete NVMe subsystems. You can access this window by selecting Storage NVMe Subsystems."
 ---
 = NVMe Subsystems window
 :icons: font

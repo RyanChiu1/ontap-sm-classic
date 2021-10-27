@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_managing_logical_storage.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to manage the logical storage such as storage virtual machines \(SVMs\), volumes, Qtrees, protocols, policies and so on.'
+keywords: system, manager, storage, virtual, machine, svm, volume, qtree, protocol, policy, logical, online, help
+summary: "You can use System Manager to manage the logical storage such as storage virtual machines (SVMs), volumes, Qtrees, protocols, policies and so on."
 ---
 = Managing logical storage
 :icons: font

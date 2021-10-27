@@ -1,26 +1,35 @@
 ---
 permalink: peering/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: cluster, administrator, create, authenticated, peer, relationship, svm, enable, communicate, replicate, data
+summary: "This content describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters."
 ---
-= Cluster and SVM Peering Express Guide
+= Cluster and SVM peering overview
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_peering_overview.adoc[Deciding whether to use this guide]
-* xref:reference_prerequisites_for_cluster_peering.adoc[Prerequisites for cluster peering]
-* xref:concept_cluster_peering_workflow.adoc[Cluster and SVM peering workflow]
- ** xref:task_preparing_for_cluster_peering.adoc[Preparing for cluster peering]
- ** xref:concept_creating_peer_relationships_93_later.adoc[Configuring peer relationships (starting with ONTAP 9.3)]
-  *** xref:task_creating_intercluster_lifs.adoc[Creating intercluster LIFs (starting with ONTAP 9.3)]
-  *** xref:task_creating_cluster_peer_relationship_starting_with_ontap_9_3.adoc[Creating a cluster peer relationship (starting with ONTAP 9.3)]
-  *** xref:task_creating_svm_peers.adoc[Creating SVM peer relationship]
- ** xref:concept_creating_peer_relationship_between_clusters_92_earlier.adoc[Configuring peer relationships (ONTAP 9.2 and earlier)]
-  *** xref:task_creating_intercluster_interfaces_on_all_nodes.adoc[Creating intercluster interfaces on all nodes (ONTAP 9.2 or earlier)]
-  *** xref:task_creating_cluster_peer_relationships_93_later.adoc[Creating a cluster peer relationship (ONTAP 9.2 or earlier)]
-* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+[.lead]
+This content describes how cluster administrators create authenticated peer relationships between clusters and SVMs to enable the clusters to communicate with each other so that you can replicate data between volumes in different clusters.
+
+ONTAP System Manager in ONTAP 9.3 simplifies the way that you configure peer relationships between clusters and between SVMs. This content describes the cluster peering procedure and SVM peering procedure for all ONTAP 9 versions. You should use the appropriate procedure for your version of ONTAP.
+
+You should use this content if you want to create cluster peer relationships and SVM peer relationships in the following way:
+
+* You are working with clusters running ONTAP 9.
+* You want cluster peering relationships that are authenticated.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
+
+If these assumptions are not correct for your situation, you should see the following resources:
+
+* https://docs.netapp.com/us-en/ontap/peering/index.html[Cluster and SVM peering^]
++
+Describes how to use the command-line interface to set up cluster peering relationships and SVM peering relationships.
+
+* https://docs.netapp.com/us-en/ontap/networking/index.html[Network management^]
++
+Describes how to use the command-line interface to configure subnets, intercluster LIFs, routes, firewall policies, and other networking components.

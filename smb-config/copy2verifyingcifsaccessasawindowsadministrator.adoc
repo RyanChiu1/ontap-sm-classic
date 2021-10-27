@@ -1,17 +1,17 @@
 ---
 permalink: smb-config/copy2verifyingcifsaccessasawindowsadministrator.html
 sidebar: sidebar
-keywords: 
-summary: 'You should verify that you have configured SMB correctly by accessing and writing data to the share. You should test access using the SMB server name and any NetBIOS aliases.'
+keywords: verify, configure, smb, correct, access, writing, data, share, test, server, netbios, alias, verify smb client access
+summary: "You should verify that you have configured SMB correctly by accessing and writing data to the share. You should test access using the SMB server name and any NetBIOS aliases."
 ---
-= Verifying SMB client access
+= Verify SMB client access
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You should verify that you have configured SMB correctly by accessing and writing data to the share. You should test access using the SMB server name and any NetBIOS aliases.
 
-== Steps
+.Steps
 
 . Log in to a Windows client.
 . Test access using the SMB server name:

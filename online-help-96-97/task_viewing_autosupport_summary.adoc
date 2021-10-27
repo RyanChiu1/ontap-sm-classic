@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_viewing_autosupport_summary.html
 sidebar: sidebar
-keywords: 
-summary: 'System Manager enables you to view the status and details of all the previous AutoSupport data in order to review the data that has been sent to technical support. You can also view the information to understand the health and performance of your storage system.'
+keywords: view, autosupport, summary, system, manager, online, help
+summary: "System Manager enables you to view the status and details of all the previous AutoSupport data in order to review the data that has been sent to technical support. You can also view the information to understand the health and performance of your storage system."
 ---
 = Viewing AutoSupport summary
 :icons: font
@@ -11,7 +11,7 @@ summary: 'System Manager enables you to view the status and details of all the p
 [.lead]
 System Manager enables you to view the status and details of all the previous AutoSupport data in order to review the data that has been sent to technical support. You can also view the information to understand the health and performance of your storage system.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]* > *AutoSupport*.
 . Select the node, and then click *AutoSupport Request* > *View Previous Summary*.

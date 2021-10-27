@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_jobs_conceptual.html
 sidebar: sidebar
-keywords: 
-summary: 'Jobs are asynchronous task and typically long-running volume operations, such as copying, moving, or mirroring data. Jobs are placed in a job queue and are run when resources are available. The cluster administrator can perform all the tasks related to job management.'
+keywords: job, asynchronous, volume, operation, copy, move, mirror, data, queue, cluster, administrator, online, help
+summary: "Jobs are asynchronous task and typically long-running volume operations, such as copying, moving, or mirroring data. Jobs are placed in a job queue and are run when resources are available. The cluster administrator can perform all the tasks related to job management."
 ---
 = Jobs
 :icons: font

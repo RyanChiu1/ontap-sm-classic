@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_how_system_logging_works.html
 sidebar: sidebar
-keywords: 
-summary: 'System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary.'
+keywords: system, logging, application, troubleshoot, problem, manager, online, help
+summary: "System logging is an essential tool for application troubleshooting. You should enable system logging so that if there is a problem with an application, the problem can be located. You can enable System Manager logging at runtime without modifying the application binary."
 ---
 = How system logging works
 :icons: font

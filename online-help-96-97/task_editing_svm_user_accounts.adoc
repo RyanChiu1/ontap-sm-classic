@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_svm_user_accounts.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit a storage virtual machine \(SVM\) user account by modifying the user login methods for accessing the storage system.'
+keywords: online, help, system, manager, edit, svm, user, accounts
+summary: "You can use System Manager to edit a storage virtual machine (SVM) user account by modifying the user login methods for accessing the storage system."
 ---
 = Editing SVM user accounts
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to edit a storage virtual machine \(SVM\) u
 [.lead]
 You can use System Manager to edit a storage virtual machine (SVM) user account by modifying the user login methods for accessing the storage system.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_roles_cluster_scope.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Roles window to manage the roles that are associated with user accounts.'
+keywords: roles, window, command, buttons, online, help, attributes
+summary: "You can use the Roles window to manage the roles that are associated with user accounts."
 ---
 = Roles window
 :icons: font

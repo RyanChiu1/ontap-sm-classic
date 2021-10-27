@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_cluster_by_using_oncommand_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'Beginning with ONTAP 9.1, you can use ONTAP System Manager to set up a cluster by creating a cluster, setting up the node management network and cluster management network, and then setting up event notifications.'
+keywords: set, up, cluster, ontap, system, manager, online, help, management, network
+summary: "Beginning with ONTAP 9.1, you can use ONTAP System Manager to set up a cluster by creating a cluster, setting up the node management network and cluster management network, and then setting up event notifications."
 ---
 = Setting up the cluster by using ONTAP System Manager
 :icons: font
@@ -11,7 +11,7 @@ summary: 'Beginning with ONTAP 9.1, you can use ONTAP System Manager to set up a
 [.lead]
 Beginning with ONTAP 9.1, you can use ONTAP System Manager to set up a cluster by creating a cluster, setting up the node management network and cluster management network, and then setting up event notifications.
 
-== Before you begin
+.Before you begin
 
 * You must have configured the node management IP addresses for at least one node.
 * Nodes must be in the default mode of HA.
@@ -22,7 +22,7 @@ Beginning with ONTAP 9.1, you can use ONTAP System Manager to set up a cluster b
 * You must have sufficient cluster management, node management, Service Processor IP addresses, and gateway and netmask details.
 * If the cluster interface is present on a port, then that port must be present in the cluster IPspace.
 
-== About this task
+.About this task
 
 To create a cluster, you have to log in through the console, and configure the node management IP address on any node in the cluster network. After you have configured the node management IP address on a node, you can add other nodes and create a cluster by using ONTAP System Manager.
 

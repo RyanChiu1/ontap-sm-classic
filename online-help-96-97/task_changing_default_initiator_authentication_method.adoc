@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_changing_default_initiator_authentication_method.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to change the default iSCSI authentication method, which is the authentication method that is used for any initiator that is not configured with a specific authentication method.'
+keywords: change, default, iscsi, initiator, authentication, method, online, help
+summary: "You can use System Manager to change the default iSCSI authentication method, which is the authentication method that is used for any initiator that is not configured with a specific authentication method."
 ---
 = Changing the default iSCSI initiator authentication method
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to change the default iSCSI authentication 
 [.lead]
 You can use System Manager to change the default iSCSI authentication method, which is the authentication method that is used for any initiator that is not configured with a specific authentication method.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

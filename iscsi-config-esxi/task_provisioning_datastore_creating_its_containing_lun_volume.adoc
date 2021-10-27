@@ -1,27 +1,27 @@
 ---
 permalink: iscsi-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a LUN on the storage cluster.'
+keywords: datastore, contain, virtual, machine, vmdk, esxi, host, provision, lun, storage, cluster, provision a datastore and creating its containing lun and volume
+summary: "A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a LUN on the storage cluster."
 ---
-= Provisioning a datastore and creating its containing LUN and volume
+= Provision a datastore and creating its containing LUN and volume
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a LUN on the storage cluster.
 
-== Before you begin
+.Before you begin
 
 Virtual Storage Console for VMware vSphere (VSC) must be installed and registered with the vCenter Server that manages the ESXi host.
 
 VSC must have sufficient cluster or storage virtual machine (SVM) credentials to create the LUN and volume.
 
-== About this task
+.About this task
 
 VSC automates the datastore provisioning, including creating a LUN and volume on the specified SVM.
 
-== Steps
+.Steps
 
 . From the vSphere Web Client *Home* page, click *Hosts and Clusters*.
 . In the navigation pane, expand the datacenter where you want to provision the datastore.

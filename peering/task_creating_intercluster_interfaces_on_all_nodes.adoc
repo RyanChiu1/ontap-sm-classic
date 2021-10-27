@@ -1,25 +1,25 @@
 ---
 permalink: peering/task_creating_intercluster_interfaces_on_all_nodes.html
 sidebar: sidebar
-keywords: 
-summary: 'Clusters communicate with each other through logical interfaces \(LIFs\) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.'
+keywords: cluster, communicate, logical, interface, lif, intercluster, create, ipspace, peer, relationship, create intercluster interfaces on all nodes, ontap 9.2 or earlier
+summary: "Clusters communicate with each other through logical interfaces (LIFs) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship."
 ---
-= Creating intercluster interfaces on all nodes (ONTAP 9.2 or earlier)
+= Create intercluster interfaces on all nodes (ONTAP 9.2 or earlier)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Clusters communicate with each other through logical interfaces (LIFs) that are dedicated to intercluster communication. You must create an intercluster LIF within each IPspace that will be used for peering, on each node in each cluster for which you want to create a peer relationship.
 
-== Before you begin
+.Before you begin
 
 You must have identified the subnet and ports, and optionally the IP addresses, that you plan to use for the intercluster LIFs.
 
-== About this task
+.About this task
 
 You must perform this procedure on both clusters for which you want to create a peer relationship. For example, if you have a four-node cluster that you want to peer with cluster X over IPspace A, and peer with cluster Y over IPspace Y, then you need a total of eight intercluster LIFs; Four on IPspace A (one per node), and four on IPspace Y (one per node).
 
-== Steps
+.Steps
 
 . Create an intercluster LIF on one node of the source cluster:
  .. Navigate to the *Network Interfaces* window.
@@ -60,6 +60,6 @@ The Network Interfaces window displays only intercluster LIFs.
 +
 You can click the column display icon (image:../media/icon_columnshowhide_sm_onc_peering.gif[Icon for show or hide column]) to hide the columns that you do not want to view.
 
-== Results
+.Results
 
 All of the nodes in each cluster have intercluster LIFs that can all communicate with each other.

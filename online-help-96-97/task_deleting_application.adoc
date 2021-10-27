@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_application.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a provisioned application when it is no longer required.'
+keywords: delete, application, provisioned
+summary: "You can delete a provisioned application when it is no longer required."
 ---
 = Deleting an application
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can delete a provisioned application when it is no longer required
 [.lead]
 You can delete a provisioned application when it is no longer required.
 
-== About this task
+.About this task
 
 As the cluster administrator, after you provision an application, you can delete it when you no longer require it. The example procedure that follows describes how to delete a *NAS Container* application.
 
-== Steps
+.Steps
 
 . Click *Applications & Tiers* > *Applications*
 . Click the name of the NAS container application.

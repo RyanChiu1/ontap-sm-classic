@@ -1,17 +1,17 @@
 ---
 permalink: fc-config-windows/task_installing_windows_unified_host_utilities.html
 sidebar: sidebar
-keywords: 
-summary: 'Windows Unified Host Utilities includes an installation program that sets the required Windows registry and HBA parameters so that the Windows host correctly handles the storage system behaviors for NetApp ONTAP and E-Series platforms.'
+keywords: windows, unified, host, utilities, installation, program, set, registry, hba, parameter, netapp, ontap, e-series, platform, install windows unified host utilities
+summary: "Windows Unified Host Utilities includes an installation program that sets the required Windows registry and HBA parameters so that the Windows host correctly handles the storage system behaviors for NetApp ONTAP and E-Series platforms."
 ---
-= Installing Windows Unified Host Utilities
+= Install Windows Unified Host Utilities
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Windows Unified Host Utilities includes an installation program that sets the required Windows registry and HBA parameters so that the Windows host correctly handles the storage system behaviors for NetApp ONTAP and E-Series platforms.
 
-== Before you begin
+.Before you begin
 
 You must have completed the following tasks:
 
@@ -26,9 +26,9 @@ https://mysupport.netapp.com/matrix[NetApp Interoperability Matrix Tool]
 * Add the FCP license and start the target service
 * Verify your cabling
 +
-See the _SAN Configuration Guide_ for your version of ONTAP or the _Hardware Cabling Guide_ for your E-Series storage system on the NetApp Support Site for detailed cabling and configuration information.
+See _SAN Configuration_ for your version of ONTAP or _Hardware Cabling_ for your E-Series storage system on the NetApp Support Site for detailed cabling and configuration information.
 
-== About this task
+.About this task
 
 You must specify whether to include multipathing support when you install the Windows Unified Host Utilities software package. Choose MPIO if you have more than one path from the Windows host or virtual machine to the storage system. Choose no MPIO only if you are using a single path to the storage system.
 
@@ -39,11 +39,11 @@ The MPIO selection is not available for Windows XP and Windows Vista systems; mu
 
 For Hyper-V guests, raw (pass-through) disks do not appear in the guest OS if you choose multipathing support. You can either use raw disks, or you can use MPIO, but you cannot use both in the guest OS.
 
-Detailed installation information is available in the _Windows Unified Host Installation Guide_ on the NetApp Support Site.
+Detailed installation information is available in link:https://docs.netapp.com/us-en/ontap-sanhost/hu_wuhu_71.html#installing-the-host-utilities[Windows Unified Host Installation].
 
 https://mysupport.netapp.com/site/global/dashboard[NetApp Support]
 
-== Steps
+.Steps
 
 . Download the appropriate version of the Windows Unified Host Utilities from the NetApp Support Site.
 +

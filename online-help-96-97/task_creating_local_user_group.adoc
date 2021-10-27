@@ -1,21 +1,21 @@
 ---
 permalink: online-help-96-97/task_creating_local_user_group.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create local Windows groups that can be used for authorizing access to the data contained in the storage virtual machine \(SVM\) over an SMB connection. You can also assign the privileges that define the user rights or capabilities that a member of the group has when performing administrative activities.'
+keywords: create, local, window, group, online, help, system, manager
+summary: "You can use System Manager to create local Windows groups that can be used for authorizing access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also assign the privileges that define the user rights or capabilities that a member of the group has when performing administrative activities."
 ---
-= Creating a local Windows group
+= Create a local Windows group
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create local Windows groups that can be used for authorizing access to the data contained in the storage virtual machine (SVM) over an SMB connection. You can also assign the privileges that define the user rights or capabilities that a member of the group has when performing administrative activities.
 
-== Before you begin
+.Before you begin
 
 CIFS server must be configured for the SVM.
 
-== About this task
+.About this task
 
 * You can specify a group name with or without the local domain name.
 +
@@ -43,7 +43,7 @@ For example, you cannot create a group named "`AD_DOM\group1`", where "`AD_DOM`"
  ** Must not include any of the following printable characters: " / \ [ ] : | < > + = ; ? * @
  ** Must not include characters in the ASCII range 1 through 31, which are non-printable
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -61,7 +61,7 @@ You can select the privileges from the predefined set of supported privileges.
  ** Click *OK*.
 . Click *Create*.
 
-== Results
+.Results
 
 The local Windows group is created and is listed in the Groups window.
 

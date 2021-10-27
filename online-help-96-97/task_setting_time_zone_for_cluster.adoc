@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_time_zone_for_cluster.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: ''
+keywords: system, manager, set, up, time, zone, cluster, modify, server, ntp
+summary: "You can manually set or modify the time zone for a cluster by using the Edit Date and Time dialog box in System Manager. You can also add time servers to the cluster."
 ---
 = Setting the time zone for a cluster
 :icons: font
@@ -11,7 +11,7 @@ summary: ''
 [.lead]
 You can manually set or modify the time zone for a cluster by using the Edit Date and Time dialog box in System Manager. You can also add time servers to the cluster.
 
-== About this task
+.About this task
 
 Network Time Protocol (NTP) is always enabled on a cluster. You can disable NTP by contacting technical support. However, disabling NTP is not recommended.
 
@@ -19,7 +19,7 @@ You can add the IP addresses of the NTP server at your site. This server is used
 
 You can specify either an IPv4 address or an IPv6 address for the time server.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Setup* panel, click *Date and Time*.

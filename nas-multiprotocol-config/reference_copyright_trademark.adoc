@@ -1,8 +1,8 @@
 ---
 permalink: nas-multiprotocol-config/reference_copyright_trademark.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: copyright, trademark, and machine translation
+summary: "Copyright, trademark, and machine translation"
 ---
 = Copyright, trademark, and machine translation
 :icons: font

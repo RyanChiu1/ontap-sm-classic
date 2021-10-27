@@ -1,21 +1,21 @@
 ---
 permalink: expansion/task_updating_lun_paths_for_new_nodes.html
 sidebar: sidebar
-keywords: 
-summary: 'If your cluster is configured for SAN, you must create SAN LIFs on the newly added nodes and then update paths.'
+keywords: cluster, configure, san, lif, add, update, path, lun, node, update lun paths for the new nodes
+summary: "If your cluster is configured for SAN, you must create SAN LIFs on the newly added nodes and then update paths."
 ---
-= Updating LUN paths for the new nodes
+= Update LUN paths for the new nodes
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 If your cluster is configured for SAN, you must create SAN LIFs on the newly added nodes and then update paths.
 
-== About this task
+.About this task
 
 This procedure is required only if the cluster contains LUNs. If the cluster contains only files, you can skip this procedure.
 
-== Steps
+.Steps
 
 . For each storage virtual machine (SVM) in the cluster, create new LIFs on the newly added nodes:
  .. Identify the SVMs that use FC or iSCSI protocols by using the `vserver show` command with the `-fields allowed-protocols` parameter and reviewing the output.
@@ -55,6 +55,6 @@ Zoning setup varies depending on the switch that you use.
 
 *Related information*
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanconf/home.html[SAN configuration]
+https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration^]
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-sanag/home.html[SAN administration]
+https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]

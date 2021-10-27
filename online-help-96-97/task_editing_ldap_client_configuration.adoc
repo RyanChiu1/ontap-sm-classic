@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_ldap_client_configuration.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit an LDAP client configuration at the cluster level or the storage virtual machine \(SVM\) level.'
+keywords: system, manager, edit, ldap, client, configuration, svm, online, help
+summary: "You can use System Manager to edit an LDAP client configuration at the cluster level or the storage virtual machine (SVM) level."
 ---
 = Editing an LDAP client configuration
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can use System Manager to edit an LDAP client configuration at the
 [.lead]
 You can use System Manager to edit an LDAP client configuration at the cluster level or the storage virtual machine (SVM) level.
 
-== About this task
+.About this task
 
 At the SVM level, you can edit an LDAP client only for a selected SVM.
 
-== Steps
+.Steps
 
 . To edit an LDAP client configuration:
  ** Cluster level: Click *image:../media/advanced_options.gif[]* > *LDAP*.

@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config/task_configuring_verifying_client_access_add_vol_existing_nfs_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'When you are ready, you can give select clients access to the share by setting UNIX file permissions on a UNIX administration host and adding an export rule in System Manager. Then you should test that the affected users or groups can access the volume.'
+keywords: client, access, unix, file, permission, administration, host, add, export, system, manager, group, volume, configure and verify nfs client access, add an nfs volume to an nfs-enabled svm
+summary: "When you are ready, you can give select clients access to the share by setting UNIX file permissions on a UNIX administration host and adding an export rule in System Manager. Then you should test that the affected users or groups can access the volume."
 ---
-= Configuring and verifying NFS client access (Adding an NFS volume to an NFS-enabled SVM)
+= Configure and verify NFS client access (Add an NFS volume to an NFS-enabled SVM)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 When you are ready, you can give select clients access to the share by setting UNIX file permissions on a UNIX administration host and adding an export rule in System Manager. Then you should test that the affected users or groups can access the volume.
 
-== Steps
+.Steps
 
 . Decide which clients and users or groups will be given access to the share.
 . On a UNIX administration host, use the root user to set UNIX ownership and permissions on the volume.
@@ -23,7 +23,6 @@ When you are ready, you can give select clients access to the share by setting U
  .. Select *2* for the *Rule Index* so that this rule executes after the rule that allows access to the administration host.
  .. Select *NFSv3*.
  .. Specify the access details that you want, and click *OK.*
-
 +
 You can give full read/write access to clients by typing the subnet `10.1.1.0/24` as the *Client Specification*, and selecting all the access check boxes except *Allow Superuser Access*.
 +

@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/task_verifying_configuration_is_supported.html
 sidebar: sidebar
-keywords: 
-summary: 'For reliable operation, you must verify that the entire configuration is supported. The lists the supported configurations for NFS and for .'
+keywords: reliable, operation, verify, configuration, support, nfs, verify that the configuration is supported
+summary: "For reliable operation, you must verify that the entire configuration is supported. The lists the supported configurations for NFS and for Virtual Storage Console."
 ---
-= Verifying that the configuration is supported
+= Verify that the configuration is supported
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-For reliable operation, you must verify that the entire configuration is supported. The lists the supported configurations for NFS and for .
+For reliable operation, you must verify that the entire configuration is supported. The lists the supported configurations for NFS and for Virtual Storage Console.
 
-== Steps
+.Steps
 
 . Go to the to verify that you have a supported combination of the following components:
 +

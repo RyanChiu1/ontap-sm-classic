@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config/concept_adding_nas_access_to_existing_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'Adding NFS access to an existing SVM involves creating a data LIF, optionally configuring NIS, provisioning a volume, exporting the volume, and configuring the export policy.'
+keywords: nfs, access, exist, svm, creating, create, data, lif, configuring, configure, nis, provision, volume, export, policy, add, add nfs access to an existing svm
+summary: "Adding NFS access to an existing SVM involves creating a data LIF, optionally configuring NIS, provisioning a volume, exporting the volume, and configuring the export policy."
 ---
-= Adding NFS access to an existing SVM
+= Add NFS access to an existing SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Adding NFS access to an existing SVM involves creating a data LIF, optionally configuring NIS, provisioning a volume, exporting the volume, and configuring the export policy.
 
-== Before you begin
+.Before you begin
 
 * You must know which of the following networking components the SVM will use:
  ** The node and the specific port on that node where the data logical interface (LIF) will be created
@@ -19,9 +19,9 @@ Adding NFS access to an existing SVM involves creating a data LIF, optionally co
 * Any external firewalls must be appropriately configured to allow access to network services.
 * The NFS protocol must be allowed on the SVM.
 +
-This is the case if you created the SVM while following another Express Guide to configure a SAN protocol.
+https://docs.netapp.com/us-en/ontap/networking/index.html
 
-== Steps
+.Steps
 
 . Navigate to the area where you can configure the protocols of the SVM:
  .. Select the SVM that you want to configure.

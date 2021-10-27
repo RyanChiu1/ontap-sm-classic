@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_flexvol_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can create a FlexVol volume for your data by using the Create Volume dialog box in System Manager. You must always create a separate volume for your data rather than storing data in the root volume.'
+keywords: flexvol, create, volume, online, help
+summary: "You can create a FlexVol volume for your data by using the Create Volume dialog box in System Manager. You must always create a separate volume for your data rather than storing data in the root volume."
 ---
-= Creating FlexVol volumes
+= Create FlexVol volumes
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can create a FlexVol volume for your data by using the Create Volume dialog box in System Manager. You must always create a separate volume for your data rather than storing data in the root volume.
 
-== Before you begin
+.Before you begin
 
 * The cluster must contain a non-root aggregate and a storage virtual machine (SVM).
 * If you want to create read/write volumes, you must have configured the protocols for the SVM, and you must have installed either the SnapMirror license or the SnapVault license.
@@ -22,7 +22,7 @@ If you have not configured the protocols but have installed any one of these lic
 +
 You must refresh your web browser after enabling "`key-manager setup`".
 
-== About this task
+.About this task
 
 * You can enable storage Quality of Service (QoS) only for a read/write (rw) volume.
 * When you create a DP volume on the sync-source SVM in a MetroCluster configuration, the volume is not replicated on the sync-destination SVM.
@@ -33,7 +33,7 @@ You must refresh your web browser after enabling "`key-manager setup`".
 * You cannot encrypt a volume in Cloud Volumes ONTAP.
 * If encryption is enabled on the source volume and if the destination cluster is running a version of ONTAP software earlier than ONTAP 9.3, then encryption is disabled on the destination volume by default.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . Click *Create* > *Create FlexVol*.
@@ -75,12 +75,8 @@ When thin provisioning is enabled, space is allocated to the volume from the agg
 +
 [NOTE]
 ====
-+
-....
     -   For AFF storage systems, the value of thin provisioning is “Default”, and for other storage systems, the value of thick provisioning is “Default”.
     -   For FabricPool-enabled aggregates, the value of thin provisioning is “Default”.
-....
-+
 ====
 
  .. Specify whether you want to enable deduplication on the volume.
@@ -91,8 +87,8 @@ For systems with All Flash Optimized personality, inline compression and the `au
 . On the *Quality of Service* tab, perform the following steps:
  .. Select the *Manage Storage Quality of Service* checkbox if you want to enable storage QoS for the FlexVol volume to manage workload performance.
  .. Create a new storage QoS policy group or select an existing policy group to control the input/output (I/O) performance of the FlexVol volume:
-
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -133,7 +129,7 @@ This value is case-sensitive. The unit that you specify does not affect the maxi
 +
 If the policy group is assigned to more than one object, the maximum throughput that you specify is shared among the objects.
 
-+
+
 |===
 . On the *Protection* tab, perform the following steps:
  .. Specify whether you want to enable *Volume Protection*.
@@ -145,6 +141,7 @@ A FabricPool FlexGroup volume can be protected with a non-FabricPool FlexGroup v
  .. Select the *Replication* type:
 
 +
+[options="header"]
 |===
 | If you selected the replication type as...| Do this...
 a|
@@ -175,7 +172,6 @@ If the selected cluster is running a version of ONTAP software earlier than ONTA
 
  .. Modify the volume name suffix, if required.
 
-+
 |===
 . Click *Create*.
 . Verify that the volume that you created is included in the list of volumes in the *Volume* window.

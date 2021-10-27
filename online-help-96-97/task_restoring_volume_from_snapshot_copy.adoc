@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_restoring_volume_from_snapshot_copy.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to restore a volume to a state that is recorded in a previously created Snapshot copy to retrieve lost information. When you restore a volume from a Snapshot copy, the restore operation overwrites the existing volume configuration. Any changes that were made to the data in the volume after the Snapshot copy was created are lost.'
+keywords: restore, volume, snapshot, copy, system, manager, online, help
+summary: "You can use System Manager to restore a volume to a state that is recorded in a previously created Snapshot copy to retrieve lost information. When you restore a volume from a Snapshot copy, the restore operation overwrites the existing volume configuration. Any changes that were made to the data in the volume after the Snapshot copy was created are lost."
 ---
 = Restoring a volume from a Snapshot copy
 :icons: font
@@ -11,19 +11,19 @@ summary: 'You can use System Manager to restore a volume to a state that is reco
 [.lead]
 You can use System Manager to restore a volume to a state that is recorded in a previously created Snapshot copy to retrieve lost information. When you restore a volume from a Snapshot copy, the restore operation overwrites the existing volume configuration. Any changes that were made to the data in the volume after the Snapshot copy was created are lost.
 
-== Before you begin
+.Before you begin
 
 * The SnapRestore license must be installed on your system.
 * If the FlexVol volume that you want to restore contains a LUN, the LUN must be unmounted or unmapped.
 * There must be enough space available for the restored volume.
 * Users accessing the volume must be notified that you are going to revert a volume, and that the data from the selected Snapshot copy replaces the current data in the volume.
 
-== About this task
+.About this task
 
 * If the volume that you restore contains junction points to other volumes, the volumes that are mounted on these junction points will not be restored.
 * You cannot restore Snapshot copies for SnapLock Compliance volumes.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

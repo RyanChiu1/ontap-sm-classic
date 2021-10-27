@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_portsets.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete a port set when it is no longer required.'
+keywords: delete, port, sets, system, manager, online, help
+summary: "You can use System Manager to delete a port set when it is no longer required."
 ---
 = Deleting port sets
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to delete a port set when it is no longer r
 [.lead]
 You can use System Manager to delete a port set when it is no longer required.
 
-== Steps
+.Steps
 
 . Click *Storage* > *LUNs*.
 . In the *Portsets* tab, select one or more port sets and click *Delete*.

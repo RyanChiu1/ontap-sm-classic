@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_nvme_subsystems.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create an NVMe subsystem.'
+keywords: create, nvme, subsystem, online, help, system, manager
+summary: "You can use System Manager to create an NVMe subsystem."
 ---
-= Creating NVMe subsystems
+= Create NVMe subsystems
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create an NVMe subsystem.
 
-== Steps
+.Steps
 
 . Click *Create* in the *NVMe Subsystems* window.
 . Provide entries in the *NVMe Subsystems: Create* window for the following fields:

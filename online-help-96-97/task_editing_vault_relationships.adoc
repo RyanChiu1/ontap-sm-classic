@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_vault_relationships.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.'
+keywords: edit, vault, relationships, system, manager, online, help, cluster, schedule
+summary: "You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule."
 ---
 = Editing vault relationships
 :icons: font
@@ -11,16 +11,17 @@ summary: 'You can use System Manager to edit a vault relationship either by sele
 [.lead]
 You can use System Manager to edit a vault relationship either by selecting an existing policy or schedule in the cluster, or by creating a new policy or schedule. However, you cannot edit the parameters of an existing policy or schedule.
 
-== Before you begin
+.Before you begin
 
 The source and destination clusters must be in a healthy peer relationship.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . Select the vault relationship for which you want to modify the policy or schedule, and then click *Edit*.
 . In the *Edit Relationship* dialog box, select the appropriate action:
 +
+[options="header"]
 |===
 | If you want to...| Do the following...
 a|
@@ -44,11 +45,11 @@ You must ensure that a Snapshot copy with the same label is created on the sourc
 
  .. Click *Create*.
 
-+
 |===
 
 . Specify a schedule for the relationship:
 +
+[options="header"]
 |===
 | If...| Do the following...
 a|

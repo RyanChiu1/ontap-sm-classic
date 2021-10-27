@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_kerberos_realm_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Kerberos Realm window to provide authentication between storage virtual machines \(SVMs\) and NFS clients to ensure secure NFS communication.'
+keywords: kerboros, realm, window, command, buttons, nfs, online, help
+summary: "You can use the Kerberos Realm window to provide authentication between storage virtual machines (SVMs) and NFS clients to ensure secure NFS communication."
 ---
 = Kerberos Realm window
 :icons: font

@@ -1,24 +1,24 @@
 ---
 permalink: expansion/task_installing_controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'When you install controllers that will be added to an existing cluster, you must follow the first three steps of the appropriate Installation and Setup Instructions.'
+keywords: install, controller, exist, cluster, installation, setup, instruction, install the controllers
+summary: "When you install controllers that will be added to an existing cluster, you must follow the first three steps of the appropriate Installation and Setup Instructions."
 ---
-= Installing the controllers
+= Install the controllers
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 When you install controllers that will be added to an existing cluster, you must follow the first three steps of the appropriate _Installation and Setup Instructions_.
 
-== About this task
+.About this task
 
 [NOTE]
 ====
 As of ONTAP 9.0, HA mode is enabled by default on new hardware.
 ====
 
-== Steps
+.Steps
 
 . Obtain the _Installation and Setup Instructions_ for the FAS model number of the controller module that you plan to add to the cluster.
  ** For a new controller module, the document is available in the box.

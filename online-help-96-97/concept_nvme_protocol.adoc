@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_nvme_protocol.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to configure the NVMe protocol. The NVMe is a transport protocol that provides high speed access to flash-based network storage. Systems that use NVMe protocol have a subsystem consisting of specific NVME controllers, namespaces, nonvolatile storage medium, hosts, ports and interface between the controller and storage medium.'
+keywords: system, manager, configure, nvme, protocol, transport, controller, namespace, storage, medium, online, help
+summary: "You can use System Manager to configure the NVMe protocol. The NVMe is a transport protocol that provides high speed access to flash-based network storage. Systems that use NVMe protocol have a subsystem consisting of specific NVME controllers, namespaces, nonvolatile storage medium, hosts, ports and interface between the controller and storage medium."
 ---
 = NVMe protocol
 :icons: font

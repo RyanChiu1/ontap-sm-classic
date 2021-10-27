@@ -1,17 +1,17 @@
 ---
 permalink: nfs-config-esxi/task_configuring_your_network_for_best_performance.html
 sidebar: sidebar
-keywords: 
-summary: 'Ethernet networks vary greatly in performance. You can maximize the performance of the network by selecting specific configuration values.'
+keywords: ethernet, network, performance, configuration, value, configure, configure your network for best performance
+summary: "Ethernet networks vary greatly in performance. You can maximize the performance of the network by selecting specific configuration values."
 ---
-= Configuring your network for best performance
+= Configure your network for best performance
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Ethernet networks vary greatly in performance. You can maximize the performance of the network by selecting specific configuration values.
 
-== Steps
+.Steps
 
 . Connect the host and storage ports to the same network.
 +

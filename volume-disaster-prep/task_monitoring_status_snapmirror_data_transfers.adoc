@@ -1,21 +1,21 @@
 ---
 permalink: volume-disaster-prep/task_monitoring_status_snapmirror_data_transfers.html
 sidebar: sidebar
-keywords: 
-summary: 'You should periodically monitor the status of the SnapMirror relationships to ensure that the SnapMirror data transfers are occurring as per the specified schedule.'
+keywords: periodical, monitor, status, snapmirror, relationship, ensure, data, schedule, monitor the status of snapmirror data transfers
+summary: "You should periodically monitor the status of the SnapMirror relationships to ensure that the SnapMirror data transfers are occurring as per the specified schedule."
 ---
-= Monitoring the status of SnapMirror data transfers
+= Monitor the status of SnapMirror data transfers
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You should periodically monitor the status of the SnapMirror relationships to ensure that the SnapMirror data transfers are occurring as per the specified schedule.
 
-== About this task
+.About this task
 
 You must perform this task from the *destination* cluster.
 
-== Steps
+.Steps
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.
@@ -32,10 +32,9 @@ For most SnapMirror data transfer failures, the field displays `No`. In some fai
  ** The Lag Time must be no more than the transfer schedule interval.
 +
 For example, if the transfer schedule is hourly, then the lag time must not be more than an hour.
-
 +
 You should troubleshoot any issues in the SnapMirror relationships.
 +
-http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices Guide for ONTAP 9.1, 9.2]
+http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2^]
 +
 image::../media/snapmirror_monitor_3_health_state_lag.gif[]

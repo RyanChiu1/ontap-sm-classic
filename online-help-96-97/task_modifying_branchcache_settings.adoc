@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_modifying_branchcache_settings.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the CIFS window in System Manager to modify the BranchCache settings that are configured for a CIFS-enabled storage virtual machine \(SVM\). You can change the hash store path, the hash store size, the operating mode, and the BranchCache versions that are supported.'
+keywords: modify, branchcache, settings, cifs, system, manager, storage, virtual, machine, svm, online, help
+summary: "You can use the CIFS window in System Manager to modify the BranchCache settings that are configured for a CIFS-enabled storage virtual machine (SVM). You can change the hash store path, the hash store size, the operating mode, and the BranchCache versions that are supported."
 ---
 = Modifying the BranchCache settings
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use the CIFS window in System Manager to modify the BranchCach
 [.lead]
 You can use the CIFS window in System Manager to modify the BranchCache settings that are configured for a CIFS-enabled storage virtual machine (SVM). You can change the hash store path, the hash store size, the operating mode, and the BranchCache versions that are supported.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

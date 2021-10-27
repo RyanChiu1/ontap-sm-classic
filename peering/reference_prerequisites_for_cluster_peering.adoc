@@ -1,8 +1,8 @@
 ---
 permalink: peering/reference_prerequisites_for_cluster_peering.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you set up cluster peering, you should confirm that the connectivity, port, IP address, subnet, firewall, and cluster-naming requirements are met.'
+keywords: cluster, peer, connectivity, port, ip, address, subnet, firewall, cluster-naming, requirement, prerequisite, prerequisite for cluster peering
+summary: "Before you set up cluster peering, you should confirm that the connectivity, port, IP address, subnet, firewall, and cluster-naming requirements are met."
 ---
 = Prerequisites for cluster peering
 :icons: font
@@ -60,4 +60,4 @@ The default `intercluster` firewall policy allows access through the HTTPS proto
 
 *Related information*
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-dap/home.html[Data protection]
+https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection]

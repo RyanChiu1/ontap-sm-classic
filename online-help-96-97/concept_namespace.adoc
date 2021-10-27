@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_namespace.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Junction Path window in System Manager to mount or unmount FlexVol volumes to a junction in the SVM namespace.'
+keywords: junction, path, window, system, manager, mount, unmount, flexvol, volume, svm, namespace, online, help
+summary: "You can use the Junction Path window in System Manager to mount or unmount FlexVol volumes to a junction in the SVM namespace."
 ---
 = Junction Path
 :icons: font

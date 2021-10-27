@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_configuring_cifs_nfs_protocols_on_svms.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'You can use System Manager to configure CIFS and NFS protocols on a storage virtual machine \(SVM\) to provide file-level data access for NAS clients. To enable the CIFS protocol, you must create data LIFs and the CIFS server. To enable the NFS protocol, you can specify the NIS details and the data LIFs.'
+keywords: system, manager, configuring, cifs, nfs, protocols, svm, online, help
+summary: "You can use System Manager to configure CIFS and NFS protocols on a storage virtual machine (SVM) to provide file-level data access for NAS clients. To enable the CIFS protocol, you must create data LIFs and the CIFS server. To enable the NFS protocol, you can specify the NIS details and the data LIFs."
 ---
-= Configuring CIFS and NFS protocols on SVMs
+= Configure CIFS and NFS protocols on SVMs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to configure CIFS and NFS protocols on a storage virtual machine (SVM) to provide file-level data access for NAS clients. To enable the CIFS protocol, you must create data LIFs and the CIFS server. To enable the NFS protocol, you can specify the NIS details and the data LIFs.
 
-== Before you begin
+.Before you begin
 
 * The protocols that you want to configure or enable on the SVM must be licensed.
 +
@@ -19,11 +19,11 @@ If the protocol that you want to configure is not enabled on the SVM, you can us
 
 * You must have the Active Directory, organizational unit, and administrative account credentials for configuring the CIFS protocol.
 
-== About this task
+.About this task
 
 SnapLock aggregates are not considered for automatically creating volumes.
 
-== Steps
+.Steps
 
 . If you have not configured the protocols while creating the SVM, click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -34,6 +34,7 @@ If you do not retain the same data LIF configuration for both CIFS and NFS, you 
 
 . Specify the IP address by choosing one of the following options:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -67,7 +68,6 @@ If you do not specify a destination value, the Destination field is populated wi
 If a route does not exist, a new route is automatically created based on the gateway and destination.
  .. Click *OK*.
 
-+
 |===
 
 . Specify a port to create a data LIF:
@@ -92,6 +92,6 @@ By default, this parameter is set to CN=Computers.
  .. Provision a volume for NFS storage by specifying the export name, size, and permission.
 . Click *Submit & Continue*.
 
-== Results
+.Results
 
 The CIFS server and NIS domain are configured with the specified configuration, and the data LIFs are created. By default, the data LIFs have management access. You can view the configuration details on the Summary page.

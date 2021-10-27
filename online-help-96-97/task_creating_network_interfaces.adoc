@@ -1,21 +1,21 @@
 ---
 permalink: online-help-96-97/task_creating_network_interfaces.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a network interface or LIF to access data from storage virtual machines \(SVMs\), to manage SVMs and to provide an interface for intercluster connectivity.'
+keywords: create, network, interface, online, help, system, manager, lif, intercluster, svm
+summary: "You can use System Manager to create a network interface or LIF to access data from storage virtual machines (SVMs), to manage SVMs and to provide an interface for intercluster connectivity."
 ---
-= Creating network interfaces
+= Create network interfaces
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create a network interface or LIF to access data from storage virtual machines (SVMs), to manage SVMs and to provide an interface for intercluster connectivity.
 
-== Before you begin
+.Before you begin
 
 The broadcast domain that is associated with the subnet must have allocated ports.
 
-== About this task
+.About this task
 
 * Dynamic DNS (DDNS) is enabled by default when a LIF is created.
 +
@@ -29,13 +29,14 @@ You must use the command-line interface (CLI) to create a network interface in s
 * To create NVMeoF data LIF the SVM must already be set up, the NVMe service must already exist on the SVM and the NVMeoF capable adapters should be available.
 * NVMe protocol is enabled only if the selected SVM has the NVMe service configured.
 
-== Steps
+.Steps
 
 . Click *Network* > *Network Interfaces*.
 . Click *Create*.
 . In the *Create Network Interface* dialog box, specify an interface name.
 . Specify an interface role:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -52,7 +53,6 @@ a|
  .. Select *Intercluster Connectivity*.
  .. Select the IPspace for the network interface.
 
-+
 |===
 
 . Select the appropriate protocols.
@@ -70,6 +70,7 @@ You cannot enable management access for intercluster LIFs or LIFs with FC/FCoE o
 
 . Assign the IP address:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -103,7 +104,6 @@ If you do not specify a destination value, the Destination field is populated wi
 If a route does not exist, a new route is automatically created based on the gateway and destination.
  .. Click *OK*.
 
-+
 |===
 
 . Select the required ports from the *Port* details area.

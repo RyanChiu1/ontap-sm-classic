@@ -1,21 +1,21 @@
 ---
 permalink: volume-disaster-recovery/task_updating_source_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'After resynchronizing the source volume, you might want to ensure that all the latest changes are updated on the source volume before activating the source volume.'
+keywords: resynchronize, resynchronizing, source, volume, update, activate, update the source volume
+summary: "After resynchronizing the source volume, you might want to ensure that all the latest changes are updated on the source volume before activating the source volume."
 ---
-= Updating the source volume
+= Update the source volume
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After resynchronizing the source volume, you might want to ensure that all the latest changes are updated on the source volume before activating the source volume.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Depending on the System Manager version that you are running, perform one of the following steps:
  ** ONTAP 9.4 or earlier: Click *Protection* > *Relationships*.

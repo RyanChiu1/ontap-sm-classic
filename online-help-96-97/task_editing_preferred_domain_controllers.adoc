@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_preferred_domain_controllers.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to modify the IP address of the preferred domain controllers that are configured for a specific domain.'
+keywords: edit, preferred, domain, controller, system, manager, online, help, ip, address
+summary: "You can use System Manager to modify the IP address of the preferred domain controllers that are configured for a specific domain."
 ---
 = Editing preferred domain controllers
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to modify the IP address of the preferred d
 [.lead]
 You can use System Manager to modify the IP address of the preferred domain controllers that are configured for a specific domain.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

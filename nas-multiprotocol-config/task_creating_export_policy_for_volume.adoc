@@ -1,17 +1,17 @@
 ---
 permalink: nas-multiprotocol-config/task_creating_export_policy_for_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'Before any NFS clients can access a volume, you must create an export policy for the volume, add a rule that permits access by an administration host, and apply the new export policy to the volume.'
+keywords: nfs, client, access, volume, create, export, policy, permit, administration, host, apply, volume, create an export policy for the volume
+summary: "Before any NFS clients can access a volume, you must create an export policy for the volume, add a rule that permits access by an administration host, and apply the new export policy to the volume."
 ---
-= Creating an export policy for the volume
+= Create an export policy for the volume
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Before any NFS clients can access a volume, you must create an export policy for the volume, add a rule that permits access by an administration host, and apply the new export policy to the volume.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click the *SVM Settings* tab.

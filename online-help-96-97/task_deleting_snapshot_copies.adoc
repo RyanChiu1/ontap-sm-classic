@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_snapshot_copies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a Snapshot copy to conserve disk space or to free disk space by using System Manager. You can also delete a Snapshot copy if the Snapshot copy is no longer required.'
+keywords: delete, snapshot, copy, online, help, system, manager
+summary: "You can delete a Snapshot copy to conserve disk space or to free disk space by using System Manager. You can also delete a Snapshot copy if the Snapshot copy is no longer required."
 ---
 = Deleting Snapshot copies
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can delete a Snapshot copy to conserve disk space or to free disk 
 [.lead]
 You can delete a Snapshot copy to conserve disk space or to free disk space by using System Manager. You can also delete a Snapshot copy if the Snapshot copy is no longer required.
 
-== Before you begin
+.Before you begin
 
 If you want to delete a Snapshot copy that is busy or locked, you must have released the Snapshot copy from the application that was using the Snapshot copy.
 
-== About this task
+.About this task
 
 * You cannot delete the base Snapshot copy in a parent volume if a FlexClone volume is using that Snapshot copy.
 +
@@ -28,7 +28,7 @@ The Snapshot copy is locked and is required for the next update.
 * You cannot delete a Snapshot copy from a SnapLock DP volume that is used in a SnapVault relationship before the expiry time of the Snapshot copy.
 * You cannot delete the unexpired Snapshot copies (which are committed to WORM state) of a SnapLock DP volume that is in a SnapVault relationship.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

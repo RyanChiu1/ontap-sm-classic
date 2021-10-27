@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_taking_luns_offline.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the LUN Management tab in System Manager to take selected LUNs offline and make them unavailable for block protocol access.'
+keywords: take, lun, offline, online, help, management, system, manager
+summary: "You can use the LUN Management tab in System Manager to take selected LUNs offline and make them unavailable for block protocol access."
 ---
 = Taking LUNs offline
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can use the LUN Management tab in System Manager to take selected 
 [.lead]
 You can use the *LUN Management* tab in System Manager to take selected LUNs offline and make them unavailable for block protocol access.
 
-== Before you begin
+.Before you begin
 
 Any host application accessing the LUN must be quiesced or synchronized.
 
-== Steps
+.Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, select one or more LUNs that you want to take offline.

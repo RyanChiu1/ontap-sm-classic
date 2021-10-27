@@ -1,21 +1,21 @@
 ---
 permalink: online-help-96-97/task_configuring_system_manager_options.html
 sidebar: sidebar
-keywords: 
-summary: 'You can enable logging and specify the inactivity timeout value for System Manager.'
+keywords: system, manager, configure, system, manager, option, online, help
+summary: "You can enable logging and specify the inactivity timeout value for System Manager."
 ---
-= Configuring System Manager options
+= Configure System Manager options
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can enable logging and specify the inactivity timeout value for System Manager.
 
-== About this task
+.About this task
 
 You can configure the options from the System Manager login window. However, you must log in to the application to specify the inactivity timeout value.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Setup* pane, click *General*.

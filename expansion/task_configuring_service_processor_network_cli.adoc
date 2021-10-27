@@ -1,17 +1,17 @@
 ---
 permalink: expansion/task_configuring_service_processor_network_cli.html
 sidebar: sidebar
-keywords: 
-summary: 'After you expand a cluster, you must configure the Service Processor \(SP\) network on the new nodes. If the SP uses manual network configuration, you must configure the IP addresses for the SP on the new nodes. If the SP uses automatic network configuration, you must identify the IP addresses that were selected.'
+keywords: expand, cluster, configure, service, processor, sp, network, node, manual, network, configuration, automatic, configure the service processor network
+summary: "After you expand a cluster, you must configure the Service Processor network on the new nodes."
 ---
-= Configuring the Service Processor network
+= Configure the Service Processor network
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After you expand a cluster, you must configure the Service Processor (SP) network on the new nodes. If the SP uses manual network configuration, you must configure the IP addresses for the SP on the new nodes. If the SP uses automatic network configuration, you must identify the IP addresses that were selected.
 
-== Steps
+.Steps
 
 . If the cluster SP uses manual network configuration, configure IP addresses on both nodes for the SP network by using the `system service-processor network modify` command.
 +

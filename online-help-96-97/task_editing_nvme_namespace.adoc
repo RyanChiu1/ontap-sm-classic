@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_nvme_namespace.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit the namespace by changing the subsystem that the namespace is mapped to.'
+keywords: edit, nvme, namespace, online, help, system, manager
+summary: "You can use System Manager to edit the namespace by changing the subsystem that the namespace is mapped to."
 ---
 = Editing an NVMe namespace
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can use System Manager to edit the namespace by changing the subsy
 [.lead]
 You can use System Manager to edit the namespace by changing the subsystem that the namespace is mapped to.
 
-== About this task
+.About this task
 
 You can only modify the NVMe subsystem settings in this window, you cannot edit the other namespace details.
 
-== Steps
+.Steps
 
 . Click *NVMe* > *NVMe namespaces*.
 . In the *NVMe namespaces window*, select the namespace you want to edit.

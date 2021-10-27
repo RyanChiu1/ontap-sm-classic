@@ -1,17 +1,17 @@
 ---
 permalink: smb-config/task_creating_configuring_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a FlexVol volume to contain your data. You can optionally change the volume’s default security style, which is inherited from the security style of the root volume. You can also optionally change the volume’s default location in the namespace, which is at the root volume of the storage virtual machine \(SVM\).'
+keywords: create, flexvol, volume, data, optional, default, security, style, inherit, root, namespace, storage, virtual, machine, svm, create and configure a volume
+summary: "You must create a FlexVol volume to contain your data. You can optionally change the volume’s default security style, which is inherited from the security style of the root volume. You can also optionally change the volume’s default location in the namespace, which is at the root volume of the storage virtual machine (SVM)."
 ---
-= Creating and configuring a volume
+= Create and configure a volume
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You must create a FlexVol volume to contain your data. You can optionally change the volume's default security style, which is inherited from the security style of the root volume. You can also optionally change the volume's default location in the namespace, which is at the root volume of the storage virtual machine (SVM).
 
-== Steps
+.Steps
 
 . Navigate to the *Volumes* window.
 . Click *Create* > *Create FlexVol*.

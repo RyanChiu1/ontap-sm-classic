@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_volume_properties.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify volume properties such as the volume name, security style, fractional reserve, and space guarantee by using System Manager. You can modify storage efficiency settings \(deduplication schedule, deduplication policy, and compression\) and space reclamation settings.'
+keywords: edit, volume, properties, online, help, deduplication, system, manager
+summary: "You can modify volume properties such as the volume name, security style, fractional reserve, and space guarantee by using System Manager. You can modify storage efficiency settings (deduplication schedule, deduplication policy, and compression) and space reclamation settings."
 ---
 = Editing volume properties
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can modify volume properties such as the volume name, security sty
 [.lead]
 You can modify volume properties such as the volume name, security style, fractional reserve, and space guarantee by using System Manager. You can modify storage efficiency settings (deduplication schedule, deduplication policy, and compression) and space reclamation settings.
 
-== Before you begin
+.Before you begin
 
 For enabling volume encryption, you must have installed the volume encryption license by using System Manager, and you must have enabled "`key-manager setup`" by using the command-line interface (CLI). You must refresh your web browser after enabling "`key-manager setup`".
 
-== About this task
+.About this task
 
 * You can set the fractional reserve to either zero percent or 100 percent.
 * Data compression is not supported on 32-bit volumes.
@@ -25,7 +25,7 @@ Compression is not supported for Data ONTAP Edge.
 
 * You cannot rename a SnapLock Compliance volume.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select the storage virtual machine (SVM) in which the volume that you want to edit resides.

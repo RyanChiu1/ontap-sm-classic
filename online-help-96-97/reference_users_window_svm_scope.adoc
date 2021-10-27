@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_users_window_svm_scope.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Users window to manage user accounts, to reset the password of a user, and to view information about all of the user accounts.'
+keywords: user, window, command, button, accounts, online, help, login, methods
+summary: "You can use the Users window to manage user accounts, to reset the password of a user, and to view information about all of the user accounts."
 ---
 = Users window
 :icons: font

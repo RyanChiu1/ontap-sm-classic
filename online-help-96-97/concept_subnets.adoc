@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_subnets.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to manage subnets.'
+keywords: system, manager, manage, subnet, online, help
+summary: "You can use System Manager to manage subnets."
 ---
 = Subnets
 :icons: font

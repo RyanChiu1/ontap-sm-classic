@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_vault_relationship_from_destination_svm.html
 sidebar: sidebar
-keywords: System Manager 9.3
-summary: 'You can use System Manager to create a vault relationship from the destination storage virtual machine \(SVM\), and to assign a vault policy to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination.'
+keywords: system, manager, create, vault, relationship, destination, svm, online, help
+summary: "You can use System Manager to create a vault relationship from the destination storage virtual machine (SVM), and to assign a vault policy to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination."
 ---
-= Creating a vault relationship from a destination SVM
+= Create a vault relationship from a destination SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create a vault relationship from the destination storage virtual machine (SVM), and to assign a vault policy to create a backup vault. In the event of data loss or corruption on a system, backed-up data can be restored from the backup vault destination.
 
-== Before you begin
+.Before you begin
 
 * The source cluster must be running ONTAP 8.2.2 or later.
 * SnapVault license or SnapMirror license must be enabled on both the source cluster and the destination cluster.
@@ -33,7 +33,7 @@ If a vault policy does not exist, you must create a vault policy or accept the d
 * The SnapLock aggregate type must be the same.
 * If you are connecting from a cluster running ONTAP 9.2 or earlier to a remote cluster on which SAML authentication is enabled, password-based authentication must be enabled on the remote cluster.
 
-== About this task
+.About this task
 
 * System Manager does not support a cascade relationship.
 +
@@ -46,7 +46,7 @@ For example, a destination volume in a relationship cannot be the source volume 
 * You can create a vault relationship only between a non-SnapLock (primary) volume and a SnapLock destination (secondary) volume.
 * A maximum of 25 volumes can be protected in one selection.
 
-== Steps
+.Steps
 
 . Click *Protection* > *Volume Relationships*.
 . In the *Relationships* window, click *Create*.
@@ -72,7 +72,7 @@ The default retention period can be set to any value between 1 day through 70 ye
 . Click *Validate* to verify whether the selected volumes have matching labels.
 . Click *Create*.
 
-== Results
+.Results
 
 If you chose to create a destination volume, a volume of type _dp_ is created with the following default settings:
 

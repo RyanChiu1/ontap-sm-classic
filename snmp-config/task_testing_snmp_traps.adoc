@@ -1,17 +1,17 @@
 ---
 permalink: snmp-config/task_testing_snmp_traps.html
 sidebar: sidebar
-keywords: 
-summary: 'Because communication with a traphost is not automatically validated when you add it, you should verify that the SNMP traphost can correctly receive traps.'
+keywords: communication, traphost, automatic, validate, add, snmp, traphost, correct, trap, test, test snmp traps
+summary: "Because communication with a traphost is not automatically validated when you add it, you should verify that the SNMP traphost can correctly receive traps."
 ---
-= Testing SNMP traps
+= Test SNMP traps
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Because communication with a traphost is not automatically validated when you add it, you should verify that the SNMP traphost can correctly receive traps.
 
-== Steps
+.Steps
 
 . Navigate to the *SNMP* screen.
 . Click *Test Trap Host* to generate a trap from the cluster in which you added a traphost.

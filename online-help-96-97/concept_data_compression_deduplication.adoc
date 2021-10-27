@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_data_compression_deduplication.html
 sidebar: sidebar
-keywords: data compression with deduplication
-summary: 'Beginning with Data ONTAP 8.0.1, data compression is supported with deduplication.'
+keywords: data, compression, deduplication, online, help
+summary: "Beginning with Data ONTAP 8.0.1, data compression is supported with deduplication."
 ---
 = Data compression and deduplication
 :icons: font

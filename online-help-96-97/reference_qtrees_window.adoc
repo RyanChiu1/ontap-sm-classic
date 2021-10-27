@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_qtrees_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Qtrees window to create, display, and manage information about qtrees.'
+keywords: qtree, online, help, window, command, button
+summary: "You can use the Qtrees window to create, display, and manage information about qtrees."
 ---
 = Qtrees window
 :icons: font
@@ -10,10 +10,6 @@ summary: 'You can use the Qtrees window to create, display, and manage informati
 
 [.lead]
 You can use the Qtrees window to create, display, and manage information about qtrees.
-
-* <<GUID-EB1A97EE-8426-48C6-9AE8-98FF50CBD3C2,#GUID-EB1A97EE-8426-48C6-9AE8-98FF50CBD3C2>>
-* <<GUID-8B6E25B1-BD84-4B69-A232-BD08597969D3,#GUID-8B6E25B1-BD84-4B69-A232-BD08597969D3>>
-* <<SECTION_87DB795250024D9989A075979EB6955B,#SECTION_87DB795250024D9989A075979EB6955B>>
 
 == Command buttons
 

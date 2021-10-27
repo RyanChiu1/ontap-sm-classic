@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_export_policy.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create an export policy so that clients can access specific volumes.'
+keywords: create, export, policy, system, manager, volume, online, help
+summary: "You can use System Manager to create an export policy so that clients can access specific volumes."
 ---
-= Creating an export policy
+= Create an export policy
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create an export policy so that clients can access specific volumes.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

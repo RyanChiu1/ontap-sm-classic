@@ -1,27 +1,27 @@
 ---
 permalink: nfs-config-esxi/task_provisioning_datastore_creating_its_containing_lun_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a volume on the storage cluster.'
+keywords: datastore, virtual, machine, vmdk, esxi, host, provision, storage, cluster, provision a datastore and create its containing volume
+summary: "A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a volume on the storage cluster."
 ---
-= Provisioning a datastore and creating its containing volume
+= Provision a datastore and create its containing volume
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 A datastore contains virtual machines and their VMDKs on the ESXi host. The datastore on the ESXi host is provisioned on a volume on the storage cluster.
 
-== Before you begin
+.Before you begin
 
 for (VSC) must be installed and registered with the vCenter Server that manages the ESXi host.
 
 VSC must have sufficient cluster or credentials to create the volume.
 
-== About this task
+.About this task
 
-VSC automates the datastore provisioning, including creating a volume on the specified .
+VSC automates the datastore provisioning, including creating a volume on the specified SVM.
 
-== Steps
+.Steps
 
 . From the vSphere Web Client *Home* page, click *Hosts and Clusters*.
 . In the navigation pane, expand the datacenter where you want to provision the datastore.

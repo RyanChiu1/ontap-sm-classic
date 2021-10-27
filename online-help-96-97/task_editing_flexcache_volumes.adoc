@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_flexcache_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'Starting with System Manager 9.6, you can edit the properties of an existing FlexCache volume.'
+keywords: online, help, edit, flexcache, vaolume, system, manager
+summary: "Starting with System Manager 9.6, you can edit the properties of an existing FlexCache volume."
 ---
 = Editing FlexCache volumes
 :icons: font
@@ -11,7 +11,7 @@ summary: 'Starting with System Manager 9.6, you can edit the properties of an ex
 [.lead]
 Starting with System Manager 9.6, you can edit the properties of an existing FlexCache volume.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

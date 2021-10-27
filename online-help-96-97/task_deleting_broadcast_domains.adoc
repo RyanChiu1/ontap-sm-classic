@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_broadcast_domains.html
 sidebar: sidebar
-keywords: 
-summary: 'You can delete a broadcast domain by using System Manager when you no longer require the broadcast domain.'
+keywords: delete, broadcast, domain, system, manager, online, help
+summary: "You can delete a broadcast domain by using System Manager when you no longer require the broadcast domain."
 ---
 = Deleting broadcast domains
 :icons: font
@@ -11,18 +11,18 @@ summary: 'You can delete a broadcast domain by using System Manager when you no 
 [.lead]
 You can delete a broadcast domain by using System Manager when you no longer require the broadcast domain.
 
-== Before you begin
+.Before you begin
 
 No subnets must be associated with the broadcast domain that you want to delete.
 
-== About this task
+.About this task
 
 * When you delete a broadcast domain, the ports that are associated with the broadcast domain are assigned to the default IPspace, and the MTU settings of the ports are not changed.
 * You cannot use System Manager to delete broadcast domains that are in the cluster IPspace.
 +
 You must use the command-line interface (CLI) instead.
 
-== Steps
+.Steps
 
 . Click *Network* > *Broadcast Domains*.
 . Select the broadcast domain that you want to delete, and then click *Delete*.

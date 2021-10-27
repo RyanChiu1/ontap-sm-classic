@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_storage_service_definitions.html
 sidebar: sidebar
-keywords: 
-summary: 'ONTAP includes predefined storage services that are mapped to corresponding minimum performance factors.'
+keywords: storage, service, definition, online, help, performance, factor
+summary: "ONTAP includes predefined storage services that are mapped to corresponding minimum performance factors."
 ---
 = Storage service definitions
 :icons: font
@@ -15,6 +15,7 @@ The actual set of storage services available in a cluster or SVM is determined b
 
 The following table shows how the minimum performance factors are mapped to the predefined storage services:
 
+[options="header"]
 |===
 | Storage service| Expected IOPS (SLA)| Peak IOPS (SLO)| Minimum volume IOPS| Estimated latency| Are expected IOPS enforced?
 a|
@@ -59,6 +60,7 @@ Yes
 |===
 The following table defines the available storage service level for each type of media or node:
 
+[options="header"]
 |===
 | Media or node| Available storage service level
 a|

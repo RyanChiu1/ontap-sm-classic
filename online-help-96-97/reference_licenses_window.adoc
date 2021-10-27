@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_licenses_window.html
 sidebar: sidebar
-keywords: 
-summary: 'Your storage system arrives from the factory with preinstalled software. If you want to add or remove a software license after you receive the storage system, you can use the Licenses window.'
+keywords: license, window, storage, system, online, help, software
+summary: "Your storage system arrives from the factory with preinstalled software. If you want to add or remove a software license after you receive the storage system, you can use the Licenses window."
 ---
 = Licenses window
 :icons: font

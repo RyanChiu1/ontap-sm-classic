@@ -1,21 +1,36 @@
 ---
 permalink: volume-backup-snapvault/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: content, configure, snapvault, backup, relationship, volume, cluster, read-only, copies, copy, locate, destination, volume, restoring, restore, data, corrupt, lost, volume backup using snapvault overview
+summary: "This content describes how to quickly configure SnapVault backup relationships between volumes that are located in different clusters. The SnapVault backup contains a set of read-only backup copies, which are located on a destination volume that you can use for restoring data when data is corrupted or lost."
 ---
-= Volume Backup Using SnapVault® Express Guide
+= Volume backup using SnapVault overview
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_volume_backup_snapvault_overview.adoc[Deciding whether to use this guide]
-* xref:concept_snapvault_configuration_workflow.adoc[SnapVault backup configuration workflow]
- ** xref:task_verify_cluster_peer_relationship.adoc[Verifying cluster peer relationship and SVM peer relationship]
- ** xref:task_creating_snapvault_relationship_93_later.adoc[Creating a SnapVault relationship (starting with ONTAP 9.3)]
- ** xref:task_creating_snapvault_relationship_92_earlier.adoc[Creating the SnapVault relationship (ONTAP 9.2 or earlier)]
- ** xref:task_monitoring_snapvault_relationship.adoc[Monitoring the SnapVault relationship]
-* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+[.lead]
+This content describes how to quickly configure SnapVault backup relationships between volumes that are located in different clusters. The SnapVault backup contains a set of read-only backup copies, which are located on a destination volume that you can use for restoring data when data is corrupted or lost.
+
+You should use this content if you want to create SnapVault backup relationships for volumes in the following way:
+
+* You are working with clusters running ONTAP 9.
+* You are a cluster administrator.
+* You have configured the cluster peer relationship and the SVM peer relationship.
++
+xref:../peering/index.html[Cluster and SVM peering configuration]
+
+* You must have enabled either the SnapMirror or SnapVault license, after all of the nodes in the cluster have been upgraded to the same version of ONTAP 9.
+* You want to use default protection policies and schedules, and not create custom policies.
+* You do not want to back up data for a single file or LUN restore.
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use System Manager, not the ONTAP command-line interface or an automated scripting tool.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
+
+If these assumptions are not correct for your situation, or if you want more conceptual background information, you should see the following resources:
+
+* https://docs.netapp.com/us-en/ontap/data-protection/index.html[Data protection^]
+* http://www.netapp.com/us/media/tr-4015.pdf[NetApp Technical Report 4015: SnapMirror Configuration and Best Practices for ONTAP 9.1, 9.2^]
+* http://www.netapp.com/us/media/tr-4183.pdf[NetApp Technical Report 4183: SnapVault Best Practices^]

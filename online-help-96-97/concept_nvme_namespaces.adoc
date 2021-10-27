@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_nvme_namespaces.html
 sidebar: sidebar
-keywords: NVMe protocol
-summary: 'An NVMe namespace is a quantity of non-volatile memory \(NVM\) that can be formatted into logical blocks. Namespaces are used when a storage virtual machine is configured with the NVMe protocol and are the equivalent of LUNs for FC and iSCSI protocols.'
+keywords: NVMe, protocol, namespace, subsystem, provision, nvm, logical, block, fc, lun, iscsi, storage, virtual, machine
+summary: "An NVMe namespace is a quantity of non-volatile memory (NVM) that can be formatted into logical blocks. Namespaces are used when a storage virtual machine is configured with the NVMe protocol and are the equivalent of LUNs for FC and iSCSI protocols."
 ---
 = NVMe namespaces
 :icons: font

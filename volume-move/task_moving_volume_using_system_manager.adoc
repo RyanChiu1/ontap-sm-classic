@@ -1,25 +1,25 @@
 ---
 permalink: volume-move/task_moving_volume_using_system_manager.html
 sidebar: sidebar
-keywords: 
-summary: 'You can move a volume in System Manager by selecting a volume and the destination aggregate, starting the volume move operation, and optionally monitoring the volume move job. When using System Manager, a volume move operation finishes automatically.'
+keywords: move, volume, system, manager, destination, aggregate, operation, monitor, job, move a volume using system manager
+summary: "You can move a volume in System Manager by selecting a volume and the destination aggregate, starting the volume move operation, and optionally monitoring the volume move job. When using System Manager, a volume move operation finishes automatically."
 ---
-= Moving a volume using System Manager
+= Move a volume using System Manager
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can move a volume in System Manager by selecting a volume and the destination aggregate, starting the volume move operation, and optionally monitoring the volume move job. When using System Manager, a volume move operation finishes automatically.
 
-== Before you begin
+.Before you begin
 
 You should have reviewed the available space on the source aggregate and destination aggregate before the volume move operation and after the volume move operation.
 
-== About this task
+.About this task
 
 A volume move operation is supported only within the same cluster. In addition, you should note that the aggregate you are moving the volume to and the aggregate you are moving the volume from must be in the same storage virtual machine (SVM). A volume move does not disrupt client access.
 
-== Steps
+.Steps
 
 . Navigate to the *Volumes* window.
 . Select the volume that you want to move, and then click *Actions* > *Move*.
@@ -48,6 +48,7 @@ The job status changes to `Complete: Successful` when the volume move operation 
  .. From the *Volumes* window, select the volume for which you initiated the volume move job.
  .. Initiate cutover for the volume:
 +
+[options="header"]
 |===
 | If you are running...| Perform these steps...
 a|

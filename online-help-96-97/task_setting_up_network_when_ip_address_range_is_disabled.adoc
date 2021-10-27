@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_network_when_ip_address_range_is_disabled.html
 sidebar: sidebar
-keywords: 
-summary: 'You can set up a network by disabling an IP address range and entering individual IP addresses for cluster management, node management, and service provider networks.'
+keywords: set, up, network, ip, address, disabled, network, online, help
+summary: "You can set up a network by disabling an IP address range and entering individual IP addresses for cluster management, node management, and service provider networks."
 ---
 = Setting up a network when an IP address range is disabled
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can set up a network by disabling an IP address range and entering
 [.lead]
 You can set up a network by disabling an IP address range and entering individual IP addresses for cluster management, node management, and service provider networks.
 
-== About this task
+.About this task
 
 In the Networks page, if the *IP Address Range* is disabled, enter individual IP addresses for cluster management, node management, and service processor networks.
 
-== Steps
+.Steps
 
 . Enter the cluster management IP address in the *Cluster Management IP Address* field.
 . Enter the netmask details for cluster management.

@@ -1,7 +1,7 @@
 ---
 permalink: online-help-96-97/task_updating_cluster_nondisruptively.html
 sidebar: sidebar
-keywords: nondisruptive upgrades,NDU
+keywords: nondisruptive, upgrades, NDU, cluster, system, manager, online, help
 summary: 'You can use System Manager to update a cluster or individual nodes in high-availability \(HA\) pairs that are running ONTAP 8.3.1 or later to a specific version of ONTAP software without disrupting access to client data.'
 ---
 = Updating a cluster nondisruptively
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to update a cluster or individual nodes in 
 [.lead]
 You can use System Manager to update a cluster or individual nodes in high-availability (HA) pairs that are running ONTAP 8.3.1 or later to a specific version of ONTAP software without disrupting access to client data.
 
-== Before you begin
+.Before you begin
 
 * All of the nodes must be in HA pairs.
 * All of the nodes must be healthy.
@@ -19,7 +19,7 @@ You can use System Manager to update a cluster or individual nodes in high-avail
 +
 link:task_obtaining_ontap_software_images.md#[Obtaining ONTAP software images]
 
-== About this task
+.About this task
 
 * If you try to perform other tasks from System Manager while updating the node that hosts the cluster management LIF, an error message might be displayed.
 +
@@ -43,11 +43,12 @@ This feature is not available in MetroCluster configurations.
 
 * Starting with ONTAP 9.5, at least one NVMe LIF must be configured for each node in an HA pair using the NVMe protocol. You can also create a maximum of two NVMe LIFs per node. When you upgrade to ONTAP 9.5, you must ensure that a minimum of one NVMe LIF is defined for each node in an HA pair using the NVMe protocol.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Update*.
 . In the *Update* tab, add a new image or select an available image.
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|

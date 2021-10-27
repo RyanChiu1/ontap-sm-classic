@@ -1,17 +1,17 @@
 ---
 permalink: nas-multiprotocol-config/concept_adding_nas_access_to_existing_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data LIF, configuring a CIFS server, enabling NFS, and optionally configuring NIS.'
+keywords: cifs, smb, nfs, access, exist, svm, lif, server, enabling, enable, configuring, configure, nis, add cifs and nfs access to an existing svm
+summary: "Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data LIF, configuring a CIFS server, enabling NFS, and optionally configuring NIS."
 ---
-= Adding CIFS and NFS access to an existing SVM
+= Add CIFS and NFS access to an existing SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data LIF, configuring a CIFS server, enabling NFS, and optionally configuring NIS.
 
-== Before you begin
+.Before you begin
 
 * You must know which of the following networking components the SVM will use:
  ** The node and the specific port on that node where the data logical interface (LIF) will be created
@@ -22,13 +22,13 @@ Adding both CIFS/SMB and NFS access to an existing SVM involves creating a data 
 * The time on the AD domain controllers, clients, and SVM must be synchronized within five minutes of each other.
 * The CIFS and NFS protocols must be allowed on the SVM.
 +
-This is the case if you created the SVM while following another Express Guide to configure a SAN protocol.
+This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
-== About this task
+.About this task
 
 The order in which you configure CIFS and NFS affects the dialog boxes that are displayed. In this procedure, you must configure CIFS first and NFS second.
 
-== Steps
+.Steps
 
 . Navigate to the area where you can configure the protocols of the SVM:
  .. Select the SVM that you want to configure.

@@ -1,21 +1,21 @@
 ---
 permalink: fc-config-rhel/task_discovering_new_scsi_devices_dm_multipath_devices.html
 sidebar: sidebar
-keywords: 
-summary: 'LUNs on the storage cluster appear to the Linux host as SCSI devices, which are I/O paths that DM-Multipath aggregates into a new device, called a multipath device. The host does not automatically discover new SCSI devices \(LUNs\) that you add to your system. You must manually rescan them to discover them.'
+keywords: lun, storage, cluster, linux, host, scsi, device, i/o, dm-multipath, aggregate, device, multipath, automatic, rescan, discover new scsi device luns and multipath device
+summary: "LUNs on the storage cluster appear to the Linux host as SCSI devices, which are I/O paths that DM-Multipath aggregates into a new device, called a multipath device. The host does not automatically discover new SCSI devices (LUNs) that you add to your system. You must manually rescan them to discover them."
 ---
-= Discovering new SCSI devices (LUNs) and multipath devices
+= Discover new SCSI devices (LUNs) and multipath devices
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 LUNs on the storage cluster appear to the Linux host as SCSI devices, which are I/O paths that DM-Multipath aggregates into a new device, called a multipath device. The host does not automatically discover new SCSI devices (LUNs) that you add to your system. You must manually rescan them to discover them.
 
-== Before you begin
+.Before you begin
 
 You must have a copy of the `rescan` script, which is in the `sg3_utils` package that is part of your Linux OS distribution.
 
-== Steps
+.Steps
 
 . Discover new SCSI devices (LUNs) and create the corresponding multipath devices for the LUNs: `/usr/bin/rescan-scsi-bus.sh`
 . Verify DM-Multipath configuration:``multipath -ll``

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_resizing_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'When a volume reaches nearly full capacity, you can increase the size of the volume, delete some Snapshot copies, or adjust the Snapshot reserve. You can use the Volume Resize wizard in System Manager to provide more free space.'
+keywords: resize, volume, capacity, snapshot, copy, online, help
+summary: "When a volume reaches nearly full capacity, you can increase the size of the volume, delete some Snapshot copies, or adjust the Snapshot reserve. You can use the Volume Resize wizard in System Manager to provide more free space."
 ---
 = Resizing volumes
 :icons: font
@@ -11,14 +11,14 @@ summary: 'When a volume reaches nearly full capacity, you can increase the size 
 [.lead]
 When a volume reaches nearly full capacity, you can increase the size of the volume, delete some Snapshot copies, or adjust the Snapshot reserve. You can use the Volume Resize wizard in System Manager to provide more free space.
 
-== About this task
+.About this task
 
 * For a volume that is configured to grow automatically, you can modify the limit to which the volume can grow automatically based on the increased size of the volume.
 * You cannot resize a data protection volume if its mirror relationship is broken or if a reverse resynchronization operation has been performed on the volume.
 +
 Instead, you must use the command-line interface (CLI).
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

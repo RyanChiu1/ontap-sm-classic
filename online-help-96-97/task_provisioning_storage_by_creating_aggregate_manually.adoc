@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_aggregate_manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can manually create an aggregate that consists of only HDDs or only SSDs by using System Manager.'
+keywords: provision, storage, create, aggregate, manually, online, help, hdd, ssd, system, manager
+summary: "You can manually create an aggregate that consists of only HDDs or only SSDs by using System Manager."
 ---
 = Provisioning storage by creating an aggregate manually
 :icons: font
@@ -11,17 +11,17 @@ summary: 'You can manually create an aggregate that consists of only HDDs or onl
 [.lead]
 You can manually create an aggregate that consists of only HDDs or only SSDs by using System Manager.
 
-== Before you begin
+.Before you begin
 
 All of the disks must be of the same size.
 
-== About this task
+.About this task
 
 * If you are creating an aggregate on a four-node cluster in ONTAP Select, the mirrored aggregate option is selected by default.
 * Starting with ONTAP 9.0, you can create aggregates with disk size equal to or larger than 10 TB.
 * If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only available RAID type.
 
-== Steps
+.Steps
 
 . Create an aggregate by using one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers* > *Add Aggregate*.
@@ -44,6 +44,6 @@ Shared disks support two RAID types: RAID DP and RAID-TEC.
 For MetroCluster configurations, creating unmirrored aggregates is restricted. Therefore, the mirroring option is enabled by default for MetroCluster configurations.
 . Click *Create*.
 
-== Results
+.Results
 
 The aggregate is created with the specified configuration, and is added to the list of aggregates in the Aggregates window.

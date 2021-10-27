@@ -1,21 +1,21 @@
 ---
 permalink: online-help-96-97/task_configuring_administration_details_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to quickly configure the administration details of astorage virtual machine \(SVM\). You can optionally delegate the administration of the SVM to SVM administrators.'
+keywords: storage, virtual, machine, configure, administration, details, svm, online, help, system, manager
+summary: "You can use System Manager to quickly configure the administration details of a storage virtual machine (SVM). You can optionally delegate the administration of the SVM to SVM administrators."
 ---
-= Configuring the administration details of an SVM
+= Configure the administration details of an SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to quickly configure the administration details of astorage virtual machine (SVM). You can optionally delegate the administration of the SVM to SVM administrators.
 
-== About this task
+.About this task
 
 As an SVM administrator, you cannot use System Manager to manage delegated SVMs. You can manage theSVMsonly by using the command-line interface (CLI).
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster* > *Configuration Updates*.
 . In the *SVMs* tab, select the node, and then click *Configure Administration Details*.
@@ -26,6 +26,7 @@ A dedicated SVM management LIF is required for SAN protocols, where data and man
 
 . Specify the network details:
 +
+[options="header"]
 |===
 | If you want to...| Then...
 a|
@@ -57,8 +58,6 @@ The destination field is populated with the default value based on the family of
   ... If you do not want the default value, specify a new destination value.
 If a route does not exist, a new route is automatically created based on the gateway and destination.
  .. Click *OK*.
-
-+
 |===
 
 . Specify a port to create a data LIF:

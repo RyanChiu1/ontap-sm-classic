@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_qos_policy_groups.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create storage Quality of Service \(QoS\) policy groups to limit the throughput of workloads and to monitor workload performance.'
+keywords: online, help, create, qos, policy, groups, system, manager, quality, service
+summary: "You can use System Manager to create storage Quality of Service (QoS) policy groups to limit the throughput of workloads and to monitor workload performance."
 ---
-= Creating QoS policy groups
+= Create QoS policy groups
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create storage Quality of Service (QoS) policy groups to limit the throughput of workloads and to monitor workload performance.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

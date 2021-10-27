@@ -1,10 +1,10 @@
 ---
 permalink: online-help-96-97/concept_how_you_use_ssd_storage_pools.html
 sidebar: sidebar
-keywords: 
-summary: 'To enable SSDs to be shared by multiple Flash Pool aggregates, you can add the SSDs to a storage pool. After you add an SSD to a storage pool, you can no longer manage the SSD as a stand-alone entity. You must use the storage pool to assign or allocate the storage that is provided by the SSD.'
+keywords: ssd, stprage, pool, flash, aggregate, assign, allocate, online, help
+summary: "To enable SSDs to be shared by multiple Flash Pool aggregates, you can add the SSDs to a storage pool. After you add an SSD to a storage pool, you can no longer manage the SSD as a stand-alone entity. You must use the storage pool to assign or allocate the storage that is provided by the SSD."
 ---
-= How to use SSD storage pools
+= Use SSD storage pools
 :icons: font
 :imagesdir: ../media/
 

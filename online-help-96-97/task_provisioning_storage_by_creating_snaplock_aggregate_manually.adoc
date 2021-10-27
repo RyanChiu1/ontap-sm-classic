@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_snaplock_aggregate_manually.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide “write once, read many” \(WORM\) capabilities.'
+keywords: system, manager, worm, provision, storage, create, snaplock, aggregate, online, help
+summary: "You can use System Manager to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide “write once, read many” (WORM) capabilities."
 ---
 = Provisioning storage by creating a SnapLock aggregate manually
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can use System Manager to create a SnapLock Compliance aggregate o
 [.lead]
 You can use System Manager to create a SnapLock Compliance aggregate or a SnapLock Enterprise aggregate manually. You can create SnapLock volumes on these aggregates, which provide "`write once, read many`" (WORM) capabilities.
 
-== Before you begin
+.Before you begin
 
 The SnapLock license must have been added.
 
-== About this task
+.About this task
 
 * In MetroCluster configurations, you can create only SnapLock Enterprise aggregates.
 * For array LUNs, only SnapLock Enterprise aggregates are supported.
@@ -23,7 +23,7 @@ The SnapLock license must have been added.
 * If the disk type of the aggregate disks is FSAS or MSATA, and the disk size is equal to or larger than 10 TB, then RAID-TEC is the only option available for RAID type.
 * Starting with ONTAP 9.1, you can create a SnapLock aggregate on an AFF platform.
 
-== Steps
+.Steps
 
 . Create a SnapLock aggregate by using one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers* > *Add Aggregate*.

@@ -1,21 +1,21 @@
 ---
 permalink: fc-config-rhel/task_configuring_iscsi_fc_creating_lun_on_existing_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can configure FC on an existing storage virtual machine \(SVM\) and create a LUN and its containing volume with a single wizard. The FC protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured FC.'
+keywords: configure, fc, exist, storage, virtual, machine, svm, lun, contain, volume, wizard, procotol, enable, configure fc on an existing svm
+summary: "You can configure FC on an existing storage virtual machine (SVM) and create a LUN and its containing volume with a single wizard. The FC protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured FC."
 ---
-= Configuring FC on an existing SVM
+= Configure FC on an existing SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can configure FC on an existing storage virtual machine (SVM)and create a LUN and its containing volume with a single wizard. The FC protocol must already be enabled but not configured on the SVM. This information is intended for SVMs for which you are configuring multiple protocols, but have not yet configured FC.
 
-== Before you begin
+.Before you begin
 
 Your FC fabric must be configured and the desired physical ports must be connected to the fabric.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Select the SVM that you want to configure.

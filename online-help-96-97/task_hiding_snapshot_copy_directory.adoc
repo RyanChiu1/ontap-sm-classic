@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_hiding_snapshot_copy_directory.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to hide the Snapshot copy directory \(.snapshot\) so that the Snapshot copy directory is not visible when you view your volume directories. By default, the .snapshot directory is visible.'
+keywords: hide, snapshot, copy, directory, system, manager, online, help
+summary: "You can use System Manager to hide the Snapshot copy directory (.snapshot) so that the Snapshot copy directory is not visible when you view your volume directories. By default, the .snapshot directory is visible."
 ---
 = Hiding the Snapshot copy directory
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to hide the Snapshot copy directory \(.snap
 [.lead]
 You can use System Manager to hide the Snapshot copy directory (`.snapshot`) so that the Snapshot copy directory is not visible when you view your volume directories. By default, the `.snapshot` directory is visible.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

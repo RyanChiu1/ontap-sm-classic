@@ -1,26 +1,26 @@
 ---
 permalink: volume-backup-snapvault/task_creating_snapvault_relationship_92_earlier.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a SnapVault relationship between the source volume on one cluster and the destination volume on the peered cluster to create a SnapVault backup.'
+keywords: create, snapvault, relationship, source, volume, cluster, destination, peer, backup, create the snapvault relationship, ontap 9.2 or earlier
+summary: "You must create a SnapVault relationship between the source volume on one cluster and the destination volume on the peered cluster to create a SnapVault backup."
 ---
-= Creating the SnapVault relationship (ONTAP 9.2 or earlier)
+= Create the SnapVault relationship (ONTAP 9.2 or earlier)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You must create a SnapVault relationship between the source volume on one cluster and the destination volume on the peered cluster to create a SnapVault backup.
 
-== Before you begin
+.Before you begin
 
 * You must have the cluster administrator user name and password for the destination cluster.
 * The destination aggregate must have available space.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
@@ -30,6 +30,7 @@ You must perform this task from the *source* cluster.
 . In the *Destination Volume* section, select the peered cluster.
 . Specify the SVM for the destination volume:
 +
+[options="header"]
 |===
 | If the SVM is...| Then...
 a|

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_cluster_user_account.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to edit a cluster user account by modifying the user login methods for accessing the storage system.'
+keywords: edit, cluster, user, account, system, manager, online, help
+summary: "You can use System Manager to edit a cluster user account by modifying the user login methods for accessing the storage system."
 ---
 = Editing a cluster user account
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to edit a cluster user account by modifying
 [.lead]
 You can use System Manager to edit a cluster user account by modifying the user login methods for accessing the storage system.
 
-== Steps
+.Steps
 
 . Click *image:../media/nas_bridge_202_icon_settings_olh_96_97.gif[]*.
 . In the *Management* pane, click *Users*.

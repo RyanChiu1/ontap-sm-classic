@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_creating_fabricpool_enabled_aggregate_manually_delete.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create a FabricPool-enabled aggregate manually or to convert an existing SSD aggregate to a FabricPool-enabled aggregate by attaching a cloud tier to the SSD aggregate.'
+keywords: provision, storage, create, fabricpool, aggregate, manually, system, manager, online, help, ssd
+summary: "You can use System Manager to create a FabricPool-enabled aggregate manually or to convert an existing SSD aggregate to a FabricPool-enabled aggregate by attaching a cloud tier to the SSD aggregate."
 ---
 = Provisioning storage by creating a FabricPool-enabled aggregate manually
 :icons: font
@@ -11,13 +11,13 @@ summary: 'You can use System Manager to create a FabricPool-enabled aggregate ma
 [.lead]
 You can use System Manager to create a FabricPool-enabled aggregate manually or to convert an existing SSD aggregate to a FabricPool-enabled aggregate by attaching a cloud tier to the SSD aggregate.
 
-== Before you begin
+.Before you begin
 
 * You must have created a cloud tier and attached it to the cluster in which the SSD aggregate resides.
 * An on-premises cloud tier must have been created.
 * A dedicated network connection must exist between the cloud tier and the aggregate.
 
-== About this task
+.About this task
 
 The following object stores can be used as cloud tiers:
 
@@ -37,7 +37,7 @@ The following object stores can be used as cloud tiers:
 
 ====
 
-== Steps
+.Steps
 
 . Create a FabricPool-enabled aggregate by using one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers* > *Add Aggregate*.

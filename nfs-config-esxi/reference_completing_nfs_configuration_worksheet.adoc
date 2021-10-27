@@ -1,10 +1,10 @@
 ---
 permalink: nfs-config-esxi/reference_completing_nfs_configuration_worksheet.html
 sidebar: sidebar
-keywords: 
-summary: 'You require network addresses and storage configuration information to perform NFS client configuration tasks.'
+keywords: network, address, storage, configuration, information, perform, nfs, client, task, complete, complete the nfs client configuration worksheet
+summary: "You require network addresses and storage configuration information to perform NFS client configuration tasks."
 ---
-= Completing the NFS client configuration worksheet
+= Complete the NFS client configuration worksheet
 :icons: font
 :imagesdir: ../media/
 
@@ -13,7 +13,7 @@ You require network addresses and storage configuration information to perform N
 
 == Target network addresses
 
-You require a subnet with two IP addresses for NFS data LIFs for each node in the cluster. There should be two separate networks for high availability. The specific IP addresses are assigned by ONTAP when you create the LIFs as part of creating the .
+You require a subnet with two IP addresses for NFS data LIFs for each node in the cluster. There should be two separate networks for high availability. The specific IP addresses are assigned by ONTAP when you create the LIFs as part of creating the SVM.
 
 If possible, separate network traffic on separate physical networks or on VLANs.
 
@@ -21,163 +21,168 @@ image::../media/network_for_nfs_eg.gif[Network topology for client configuration
 
 Subnet for LIFs: *__**__***__**_____
 
+[options="header"]
+[options="header"]
 |===
 | Node or LIF with port to switch| IP address| Network mask| Gateway| VLAN ID| Home port
 a|
 Node 1 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 2 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 3 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 4 / LIF to switch 1
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 1 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 2 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 3 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
 Node 4 / LIF to switch 2
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 a|
- 
+
 |===
 
 == Storage configuration
 
 If the aggregate and are already created, record their names here; otherwise, you can create them as required:
 
+[options="header"]
 |===
 a|
 Node to own NFS export
 a|
- 
+
 a|
 Aggregate name
 a|
- 
+
 a|
 name
 a|
- 
+
 |===
 
 == NFS export information
 
+[options="header"]
 |===
 a|
 Export size
 a|
- 
+
 a|
 Export name (optional)
 a|
- 
+
 a|
 Export description (optional)
 a|
- 
+
 |===
 
 == information
 
 If you are not using an existing , you require the following information to create a new one:
 
+[options="header"]
 |===
 a|
 name
 a|
- 
+
 a|
 Aggregate for root volume
 a|
- 
+
 a|
 user name (optional)
 a|
- 
+
 a|
 password (optional)
 a|
- 
+
 a|
 management LIF (optional)
 a|

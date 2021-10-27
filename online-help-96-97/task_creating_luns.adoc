@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create LUNs for an existing aggregate, volume, or qtree when there is available free space. You can create a LUN in an existing volume or create a new FlexVol volume for the LUN. You can also enable storage Quality of Service \(QoS\) to manage the workload performance.'
+keywords: create, lun, system, manager, qtree, online, help
+summary: "You can use System Manager to create LUNs for an existing aggregate, volume, or qtree when there is available free space. You can create a LUN in an existing volume or create a new FlexVol volume for the LUN. You can also enable storage Quality of Service (QoS) to manage the workload performance."
 ---
-= Creating LUNs
+= Create LUNs
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create LUNs for an existing aggregate, volume, or qtree when there is available free space. You can create a LUN in an existing volume or create a new FlexVol volume for the LUN. You can also enable storage Quality of Service (QoS) to manage the workload performance.
 
-== About this task
+.About this task
 
 If you specify the LUN ID, System Manager checks the validity of the LUN ID before adding it. If you do not specify a LUN ID, ONTAP software automatically assigns one.
 
@@ -22,7 +22,7 @@ In a MetroCluster configuration, System Manager displays only the following aggr
 * In normal mode, when you create volumes on sync-source SVMs or data-serving SVMs in the primary site, only those aggregates that belong to the cluster in the primary site are displayed.
 * In switched-over mode, when you create volumes on sync-destination SVMs or data-serving SVMs in the surviving site, only switched-over aggregates are displayed.
 
-== Steps
+.Steps
 
 . Click *Storage* > *LUNs*.
 . In the *LUN Management* tab, click *Create*.
@@ -33,6 +33,7 @@ In a MetroCluster configuration, System Manager displays only the following aggr
 . Select the *Manage Storage Quality of Service* check box if you want to manage the workload performance of the LUN.
 . Create a new storage QoS policy group or select an existing policy group to control the input/output (I/O) performance of the LUN:
 +
+[options="header"]
 |===
 | If you want to...| Do this...
 a|
@@ -75,7 +76,6 @@ The unit that you specify does not affect the maximum throughput.
 +
 If the policy group is assigned to more than one object, the maximum throughput that you specify is shared among the objects.
 
-+
 |===
 
 . Review the specified details in the *LUN summary* window, and then click *Next*.

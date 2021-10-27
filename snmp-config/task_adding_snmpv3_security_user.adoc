@@ -1,21 +1,21 @@
 ---
 permalink: snmp-config/task_adding_snmpv3_security_user.html
 sidebar: sidebar
-keywords: 
-summary: 'SNMPv3 offers advanced security by using passphrases and encryption. You can use the System Manager to add an SNMPv3 user at the cluster level. The SNMPv3 user can run SNMP utilities from the traphost \(SNMP manager\) using the authentication and privacy settings that you specify.'
+keywords: snmpv3, offer, advance, security, passphrase, encryption, system, manager, cluster, level, snmp, utilities, utility, traphost, authentication, privacy, setting, add an snmpv3 security user
+summary: "SNMPv3 offers advanced security by using passphrases and encryption. You can use the System Manager to add an SNMPv3 user at the cluster level. The SNMPv3 user can run SNMP utilities from the traphost (SNMP manager) using the authentication and privacy settings that you specify."
 ---
-= Adding an SNMPv3 security user
+= Add an SNMPv3 security user
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 SNMPv3 offers advanced security by using passphrases and encryption. You can use the System Manager to add an SNMPv3 user at the cluster level. The SNMPv3 user can run SNMP utilities from the traphost (SNMP manager) using the authentication and privacy settings that you specify.
 
-== About this task
+.About this task
 
 When you add an SNMPv3 user at the cluster level, that user can access the cluster through all the LIFs that have the `mgmt` firewall policy applied.
 
-== Steps
+.Steps
 
 . In the SNMP window, click *Edit* to open the *Edit SNMP Settings* dialog box.
 . In the *SNMPv3* tab, click *Add* to open the *Add SNMPv3 User* dialog box.

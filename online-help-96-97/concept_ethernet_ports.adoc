@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_ethernet_ports.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create and manage Ethernet ports.'
+keywords: system, manager, manager, ethernet, port, create, online, help
+summary: "You can use System Manager to create and manage Ethernet ports."
 ---
 = Ethernet ports
 :icons: font
@@ -15,4 +15,4 @@ You can use System Manager to create and manage Ethernet ports.
 
 https://docs.netapp.com/us-en/ontap/networking/index.html[Network management]
 
-https://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-concepts/home.html[ONTAP concepts]
+https://docs.netapp.com/us-en/ontap/concepts/index.html[ONTAP concepts]

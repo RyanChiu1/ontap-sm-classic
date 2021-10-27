@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_guidelines_for_using_deduplication.html
 sidebar: sidebar
-keywords: 
-summary: 'You must remember certain guidelines about system resources and free space when using deduplication.'
+keywords: guideline, deduplication, online, help
+summary: "You must remember certain guidelines about system resources and free space when using deduplication."
 ---
 = Guidelines for using deduplication
 :icons: font

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_deleting_flexgroup_volumes.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to delete a FlexGroup volume when you no longer require the FlexGroup volume.'
+keywords: delete, flexgroup, volumes, online, help, system, manager
+summary: "You can use System Manager to delete a FlexGroup volume when you no longer require the FlexGroup volume."
 ---
 = Deleting FlexGroup volumes
 :icons: font
@@ -11,16 +11,16 @@ summary: 'You can use System Manager to delete a FlexGroup volume when you no lo
 [.lead]
 You can use System Manager to delete a FlexGroup volume when you no longer require the FlexGroup volume.
 
-== Before you begin
+.Before you begin
 
 * The junction path of the FlexGroup volume must be unmounted.
 * The FlexGroup volume must be offline.
 
-== About this task
+.About this task
 
 System Manager does not support constituent level of management for FlexGroup volumes.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

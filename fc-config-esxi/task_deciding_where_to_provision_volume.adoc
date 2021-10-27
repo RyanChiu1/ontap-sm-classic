@@ -1,17 +1,17 @@
 ---
 permalink: fc-config-esxi/task_deciding_where_to_provision_volume.html
 sidebar: sidebar
-keywords: 
-summary: 'Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine \(SVM\) or to create a new SVM for the volume. You might also need to configure FC on an existing SVM.'
+keywords: provision, volume, contain, lun, exist, storage, virtual, machine, svm, configure, fc, exist, svm, decide where to provision the volume
+summary: "Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine or to create a new SVM for the volume. You might also need to configure FC on an existing SVM."
 ---
-= Deciding where to provision the volume
+= Decide where to provision the volume
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Before you provision a volume to contain your LUNs, you need to decide whether to add the volume to an existing storage virtual machine (SVM) or to create a new SVM for the volume. You might also need to configure FC on an existing SVM.
 
-== About this task
+.About this task
 
 If an existing SVM is already configured with the needed protocols and has LIFs that can be accessed from the host, it is easier to use the existing SVM.
 
@@ -27,7 +27,7 @@ xref:task_verifying_that_fc_service_is_running_on_existing_svm.adoc[Verifying th
 +
 xref:task_configuring_iscsi_fc_creating_lun_on_existing_svm.adoc[Configuring FC on an existing SVM]
 +
-This is the case when you followed another Express Guide to create the SVM while configuring a different protocol.
+This is the case when you did not follow the procedure in this content to create the SVM while configuring a different protocol.
 
 * If you want to provision volumes on a new SVM, create the SVM.
 +

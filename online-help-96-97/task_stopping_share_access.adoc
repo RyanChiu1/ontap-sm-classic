@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_stopping_share_access.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to stop a share when you want to remove the shared network access to a folder, qtree, or volume.'
+keywords: folder, qtree, volume, system, manager, online, help, stop, share, access
+summary: "You can use System Manager to stop a share when you want to remove the shared network access to a folder, qtree, or volume."
 ---
 = Stopping share access
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can use System Manager to stop a share when you want to remove the
 [.lead]
 You can use System Manager to stop a share when you want to remove the shared network access to a folder, qtree, or volume.
 
-== Before you begin
+.Before you begin
 
 You must have installed the CIFS license.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Shares*.
 . From the drop-down menu in the *SVM* field, select the SVM on which the CIFS share that you want to stop resides.

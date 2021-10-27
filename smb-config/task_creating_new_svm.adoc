@@ -1,17 +1,17 @@
 ---
 permalink: smb-config/task_creating_new_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use a wizard that guides you through the process of creating a new storage virtual machine \(SVM\), configuring Domain Name System \(DNS\), creating a data logical interface \(LIF\), configuring a CIFS server, and creating and sharing a volume.'
+keywords: wizard, process, creating, create, storage, virtual, machine, svm, domain, name, system, dns, logical, interface, lif, configuring, configure, cifs, server, creating, create, sharing, share, volume, create a new svm with a cifs volume and share
+summary: "You can use a wizard that guides you through the process of creating a new storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), configuring a CIFS server, and creating and sharing a volume."
 ---
-= Creating a new SVM with a CIFS volume and share
+= Create a new SVM with a CIFS volume and share
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use a wizard that guides you through the process of creating a new storage virtual machine (SVM), configuring Domain Name System (DNS), creating a data logical interface (LIF), configuring a CIFS server, and creating and sharing a volume.
 
-== Before you begin
+.Before you begin
 
 * Your network must be configured and the relevant physical ports must be connected to the network.
 * You must know which of the following networking components the SVM will use:
@@ -22,7 +22,7 @@ You can use a wizard that guides you through the process of creating a new stora
 * Any external firewalls must be appropriately configured to allow access to network services.
 * The time on the AD domain controllers, clients, and SVM must be synchronized to within five minutes of each other.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create.*
@@ -106,6 +106,6 @@ The following objects are created:
 +
 The DNS administrator needs to know the CIFS server name and the IP address of the data LIF. Windows clients need to know the names of the CIFS server and the share.
 
-== Results
+.Results
 
 A new SVM is created with a CIFS server containing a new volume that is shared.

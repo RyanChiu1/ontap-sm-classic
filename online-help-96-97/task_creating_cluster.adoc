@@ -1,21 +1,21 @@
 ---
 permalink: online-help-96-97/task_creating_cluster.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use ONTAP System Manager to create and set up a cluster in your data center.'
+keywords: data, center, create, cluster, online, help, system, manager
+summary: "You can use ONTAP System Manager to create and set up a cluster in your data center."
 ---
-= Creating a cluster
+= Create a cluster
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use ONTAP System Manager to create and set up a cluster in your data center.
 
-== About this task
+.About this task
 
 If the cluster supports ONTAP 9.1 or later, you can add only those storage systems that are running ONTAP 9.1 or later.
 
-== Steps
+.Steps
 
 . Open the web browser, and then enter the node management IP address that you have configured: `+https://node-management-IP+`
  ** If you have set up the credentials for the cluster, the Login page is displayed.

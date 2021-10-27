@@ -1,34 +1,37 @@
 ---
 permalink: fc-config-rhel/index.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: quick, set, up, fc, service, storage, virtual, machine, svm, provision, lun, fc, host, bus, adapter, hba, red, hat, enterprise, linux, server, configuration
+summary: "This content describes how to quickly set up the FC service on a storage virtual machine, provision a LUN, and make the LUN available using an FC host bus adapter on a Red Hat Enterprise Linux server."
 ---
-= FC Configuration for Red Hat® Enterprise Linux® Express Guide
+= FC configuration for Red Hat Enterprise Linux overview
 :icons: font
 :imagesdir: ../media/
 
-* xref:concept_fc_config_rhel_overview.adoc[Deciding whether to use this guide]
-* xref:concept_fc_configuration_workflow.adoc[FC configuration and provisioning workflow]
- ** xref:task_verifying_that_iscsi_fc_configuration_is_supported.adoc[Verifying that the FC configuration is supported]
- ** xref:reference_completing_iscsi_configuration_worksheet.adoc[Completing the FC configuration worksheet]
- ** xref:task_installing_hba_utility_from_hba_vendor.adoc[Installing the HBA utility from the HBA vendor]
- ** xref:task_updating_hba_driver_firmware_bios.adoc[Updating the HBA driver, firmware, and BIOS]
- ** xref:task_installing_linux_unified_host_utilities_optimizing_i_o_performance.adoc[Installing Linux Unified Host Utilities and optimizing I/O performance]
- ** xref:task_record_wwpn_for_each_host_fc_port.adoc[Recording the WWPN for each host FC port]
- ** xref:task_configuring_dm_multipath.adoc[Configuring DM-Multipath]
- ** xref:task_creating_aggregate.adoc[Creating an aggregate]
- ** xref:task_deciding_where_to_provision_volume.adoc[Deciding where to provision the volume]
-  *** xref:task_verifying_that_fc_service_is_running_on_existing_svm.adoc[Verifying that the FC service is running on an existing SVM]
-  *** xref:task_creating_lun_its_containing_volume.adoc[Creating a LUN]
-  *** xref:task_configuring_iscsi_fc_creating_lun_on_existing_svm.adoc[Configuring FC on an existing SVM]
-  *** xref:task_creating_svm.adoc[Creating a new SVM]
- ** xref:task_zoning_fc_switches_by_host_lif_wwpns.adoc[Zoning the FC switches by the host and LIF WWPNs]
- ** xref:task_discovering_new_scsi_devices_dm_multipath_devices.adoc[Discovering new SCSI devices (LUNs) and multipath devices]
- ** xref:task_configuring_logical_volumes_on_multipath_devices_creating_file_system.adoc[Configuring logical volumes on multipath devices and creating a file system]
- ** xref:task_verifying_that_host_can_write_to_read_fom_lun.adoc[Verifying that the host can write to and read from a multipath device]
-* xref:reference_where_to_find_additional_information.adoc[Where to find additional information]
-* xref:reference_copyright_trademark.adoc[Copyright, trademark, and machine translation]
- ** xref:reference_copyright.adoc[Copyright]
- ** xref:reference_trademark.adoc[Trademark]
- ** xref:generic_machine_translation_disclaimer.adoc[Machine translation]
+[.lead]
+This content describes how to quickly set up the FC service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an FC host bus adapter (HBA) on a Red Hat Enterprise Linux server.
+
+This content is based on the following assumptions:
+
+* You want to use best practices, not explore every available option.
+* You do not want to read a lot of conceptual background.
+* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
++
+https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation^]
+
+* The host is running a supported version of Red Hat Enterprise Linux 6.4 or later.
+* You are using traditional FC HBAs and switches.
++
+This content does not cover Fibre Channel over Ethernet (FCoE).
+
+* You have at least two FC target ports available on each node in the cluster.
++
+Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters, are configurable. Configuring those ports is done in the ONTAP command-line interface (CLI) and is not covered in this content.
+
+* You are not configuring FC SAN boot.
+
+If these assumptions are not correct for your situation, you should see the following resources:
+
+* https://docs.netapp.com/us-en/ontap/san-admin/index.html[SAN administration^]
+* https://docs.netapp.com/us-en/ontap/san-config/index.html[SAN configuration^]
+* https://docs.netapp.com/us-en/ontap-sanhost/hu_luhu_71.html[Linux Unified Host Utilities 7.1 Installation^]

@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_protection_policies.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create asynchronous mirror policies, vault policies, or mirror and vault policies, and to apply these policies to a data protection relationship.'
+keywords: create, protection, policies, online, help, system, manager
+summary: "You can use System Manager to create asynchronous mirror policies, vault policies, or mirror and vault policies, and to apply these policies to a data protection relationship."
 ---
-= Creating protection policies
+= Create protection policies
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create asynchronous mirror policies, vault policies, or mirror and vault policies, and to apply these policies to a data protection relationship.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the storage virtual machine (SVM) for which you want to create a protection policy, and then click *SVM Settings*.

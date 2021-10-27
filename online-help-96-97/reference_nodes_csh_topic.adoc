@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_nodes_csh_topic.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Nodes window to view the details of the nodes in a cluster.'
+keywords: node, window, command, button, list, online, help
+summary: "You can use the Nodes window to view the details of the nodes in a cluster."
 ---
 = Nodes window
 :icons: font
@@ -10,9 +10,6 @@ summary: 'You can use the Nodes window to view the details of the nodes in a clu
 
 [.lead]
 You can use the Nodes window to view the details of the nodes in a cluster.
-
-* <<GUID-98901AC2-473A-42AF-A4C0-AE2CCEF87EB1,Command buttons>>
-* <<GUID-F9609C8D-1BA8-4403-81FC-6848244E0E6C,Nodes list>>
 
 == Command buttons
 

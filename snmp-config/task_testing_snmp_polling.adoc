@@ -1,21 +1,21 @@
 ---
 permalink: snmp-config/task_testing_snmp_polling.html
 sidebar: sidebar
-keywords: 
-summary: 'After you configure SNMP, you should verify that you can poll the cluster.'
+keywords: configure, snmp, verify, poll, cluster, test, test snmp poll
+summary: "After you configure SNMP, you should verify that you can poll the cluster."
 ---
-= Testing SNMP polling
+= Test SNMP polling
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After you configure SNMP, you should verify that you can poll the cluster.
 
-== About this task
+.About this task
 
 To poll a cluster, you need to use a third-party command such as `snmpwalk`.
 
-== Steps
+.Steps
 
 . Send an SNMP command to poll the cluster from a different cluster.
 +

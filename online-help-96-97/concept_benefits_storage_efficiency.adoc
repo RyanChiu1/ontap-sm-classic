@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_benefits_storage_efficiency.html
 sidebar: sidebar
-keywords: 
-summary: 'Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodate rapid data growth while consuming less space. You can use technologies such as RAID-DP, FlexVol, Snapshot copies, deduplication, data compression, SnapMirror, and FlexClone to increase storage utilization and decrease storage costs. When used together, these technologies help to achieve increased performance.'
+keywords: benefit, storage, efficiency, flexcone, flexvol, snapshot, copy, deduplication, data, compression, snapmirror, online, help, classic
+summary: "Storage efficiency enables you to store the maximum amount of data for the lowest cost and accommodate rapid data growth while consuming less space. You can use technologies such as RAID-DP, FlexVol, Snapshot copies, deduplication, data compression, SnapMirror, and FlexClone to increase storage utilization and decrease storage costs. When used together, these technologies help to achieve increased performance."
 ---
 = Benefits of storage efficiency
 :icons: font

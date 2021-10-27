@@ -1,21 +1,21 @@
 ---
 permalink: fc-config-esxi/task_verifying_host_can_write_to_read_from_lun.html
 sidebar: sidebar
-keywords: 
-summary: 'Before using the LUN, you should verify that the host can write data to the LUN and read it back.'
+keywords: lun, verify, write, data, verify that the host can write to and read from the lun
+summary: "Before using the LUN, you should verify that the host can write data to the LUN and read it back."
 ---
-= Verifying that the host can write to and read from the LUN
+= Verify that the host can write to and read from the LUN
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 Before using the LUN, you should verify that the host can write data to the LUN and read it back.
 
-== About this task
+.About this task
 
 If the cluster node on which the LUN is created can be failed over to its partner node, you should verify reading the data while the node is failed over. This test might not be possible if the cluster is in production use.
 
-== Steps
+.Steps
 
 . On the vSphere Web Client *Home* page, click *Hosts and Clusters*.
 . In the navigation pane, click the *Storage* tab.
@@ -38,4 +38,4 @@ If any of the tests fail, verify that the FC service is running on the storage c
 
 *Related information*
 
-https://docs.netapp.com/us-en/ontap/high-availability/index.html[ONTAP 9 High-Availability Configuration Guide]
+https://docs.netapp.com/us-en/ontap/high-availability/index.html[ONTAP 9 High-Availability Configuration]

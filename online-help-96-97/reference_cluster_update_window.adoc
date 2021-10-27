@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_cluster_update_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Cluster Update window to perform an automated cluster update nondisruptively or you can update single-node clusters disruptively.'
+keywords: online, help, cluster, update, window, tab, update, command, button, history, tab
+summary: "You can use the Cluster Update window to perform an automated cluster update nondisruptively or you can update single-node clusters disruptively."
 ---
 = Cluster Update window
 :icons: font
@@ -10,10 +10,6 @@ summary: 'You can use the Cluster Update window to perform an automated cluster 
 
 [.lead]
 You can use the Cluster Update window to perform an automated cluster update nondisruptively or you can update single-node clusters disruptively.
-
-* <<GUID-FD6452E4-D067-41D1-AA57-DAAB6100B7AF,Tabs>>
-* <<SECTION_D05B09EA91AC4BADA659C7EB449ECA58,Cluster Update tab>>
-* <<SECTION_ABA6A34B6F484366AE2386F6A8EFDBF4,Update History tab>>
 
 == Tabs
 

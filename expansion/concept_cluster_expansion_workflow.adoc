@@ -1,8 +1,8 @@
 ---
 permalink: expansion/concept_cluster_expansion_workflow.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: cluster, expansion, workflow
+summary: "Cluster expansion workflow"
 ---
 = Cluster expansion workflow
 :icons: font

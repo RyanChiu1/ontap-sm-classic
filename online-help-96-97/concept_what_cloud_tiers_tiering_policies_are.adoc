@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_what_cloud_tiers_tiering_policies_are.html
 sidebar: sidebar
-keywords: 
-summary: 'Cloud tiers provide storage for infrequently accessed data. You can attach an all-flash \(all-SSD\) aggregate to a cloud tier to store infrequently used data. You can use tiering policies to decide whether data should be moved to a cloud tier.'
+keywords: cloud, tier, policy, data, ssd, store, online, help
+summary: "Cloud tiers provide storage for infrequently accessed data. You can attach an all-flash (all-SSD) aggregate to a cloud tier to store infrequently used data. You can use tiering policies to decide whether data should be moved to a cloud tier."
 ---
 = What cloud tiers and tiering policies are
 :icons: font

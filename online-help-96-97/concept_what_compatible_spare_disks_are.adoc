@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_what_compatible_spare_disks_are.html
 sidebar: sidebar
-keywords: 
-summary: 'In System Manager, compatible spare disks are disks that match the properties of other disks in the aggregate. When you want to increase the size of an existing aggregate by adding HDDs \(capacity disks\) or change the RAID type of an aggregate from RAID4 to RAID-DP, the aggregate must contain sufficient compatible spare disks.'
+keywords: system, manager, compatible, spare, disk, hdd, compacity, raid, online, help
+summary: "In System Manager, compatible spare disks are disks that match the properties of other disks in the aggregate. When you want to increase the size of an existing aggregate by adding HDDs (capacity disks) or change the RAID type of an aggregate from RAID4 to RAID-DP, the aggregate must contain sufficient compatible spare disks."
 ---
 = What compatible spare disks are
 :icons: font

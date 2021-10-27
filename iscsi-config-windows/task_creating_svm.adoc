@@ -1,21 +1,21 @@
 ---
 permalink: iscsi-config-windows/task_creating_svm.html
 sidebar: sidebar
-keywords: 
-summary: 'The storage virtual machine \(SVM\) provides the iSCSI target through which a host accesses LUNs. When you create the SVM, you also create logical interfaces \(LIFs\) and the LUN and its containing volume. You can create an SVM to separate the data and administration functions of a user from those of the other users in a cluster.'
+keywords: storage, virtual, machine, svm, iscsi, target, lun, create, logical, interface, lif, volume, administration, function, user, cluster, create a new svm
+summary: "The storage virtual machine (SVM) provides the iSCSI target through which a host accesses LUNs. When you create the SVM, you also create logical interfaces (LIFs) and the LUN and its containing volume. You can create an SVM to separate the data and administration functions of a user from those of the other users in a cluster."
 ---
-= Creating a new SVM
+= Create a new SVM
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The storage virtual machine (SVM) provides the iSCSI target through which a host accesses LUNs. When you create the SVM, you also create logical interfaces (LIFs) and the LUN and its containing volume. You can create an SVM to separate the data and administration functions of a user from those of the other users in a cluster.
 
-== Before you begin
+.Before you begin
 
 * You must have enough network addresses available to create two LIFs for each node.
 
-== About this task
+.About this task
 
 LUNs are mapped to a subset of the initiators in the igroup to limit the number of paths from the host to the LUN.
 
@@ -23,7 +23,7 @@ LUNs are mapped to a subset of the initiators in the igroup to limit the number 
 * You still must configure all of the iSCSI LIFs on every node for LUN mobility in case the LUN is moved to another node in the cluster.
 * When moving a volume or a LUN, you must modify the SLM-reporting-nodes list before moving.
 
-== Steps
+.Steps
 
 . Navigate to the *SVMs* window.
 . Click *Create*.

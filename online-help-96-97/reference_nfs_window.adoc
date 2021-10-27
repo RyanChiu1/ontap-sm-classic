@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_nfs_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the NFS window to display and configure your NFS settings.'
+keywords: nfs, window, online, help, display, configure, settings, command, buttons
+summary: "You can use the NFS window to display and configure your NFS settings."
 ---
 = NFS window
 :icons: font

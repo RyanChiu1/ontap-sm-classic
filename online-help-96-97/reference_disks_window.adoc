@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_disks_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Disks window to view all the disks in your storage system.'
+keywords: command, button, disk, window, inventory, detail, online, help
+summary: "You can use the Disks window to view all the disks in your storage system."
 ---
 = Disks window
 :icons: font
@@ -10,11 +10,6 @@ summary: 'You can use the Disks window to view all the disks in your storage sys
 
 [.lead]
 You can use the Disks window to view all the disks in your storage system.
-
-* <<GUID-98901AC2-473A-42AF-A4C0-AE2CCEF87EB1,#GUID-98901AC2-473A-42AF-A4C0-AE2CCEF87EB1>>
-* <<SECTION_193C1939E4624C7B91D15521C080993F,#SECTION_193C1939E4624C7B91D15521C080993F>>
-* <<GUID-F9609C8D-1BA8-4403-81FC-6848244E0E6C,#GUID-F9609C8D-1BA8-4403-81FC-6848244E0E6C>>
-* <<GUID-42C6F1D0-B6DD-4F29-B2C6-F5CFB28FF279,#GUID-42C6F1D0-B6DD-4F29-B2C6-F5CFB28FF279>>
 
 == Command buttons
 

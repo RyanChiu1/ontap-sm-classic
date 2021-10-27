@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_provisioning_storage_by_creating_aggregate_based_on_storage_recommendations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks.'
+keywords: provision, storage, create, aggregate, recommendation, system, manager, online, help
+summary: "You can use System Manager to create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks."
 ---
 = Provisioning storage by creating an aggregate based on storage recommendations
 :icons: font
@@ -11,14 +11,14 @@ summary: 'You can use System Manager to create an aggregate based on storage rec
 [.lead]
 You can use System Manager to create an aggregate based on storage recommendations. System Manager analyzes the configuration of your storage system and provides storage recommendations such as the number of aggregates that will be created, the available nodes, and the available spare disks.
 
-== About this task
+.About this task
 
 * You cannot create an aggregate based on storage recommendations in Cloud Volumes ONTAP, ONTAP Select, and MetroCluster configurations.
 * Errors, if any, are displayed on the screen.
 +
 You can fix these errors and then create an aggregate based on the storage recommendations, or you can create an aggregate manually.
 
-== Steps
+.Steps
 
 . Create an aggregate by using one of the following methods:
  ** Click *Applications & Tiers* > *Storage Tiers* > *Add Aggregate*.

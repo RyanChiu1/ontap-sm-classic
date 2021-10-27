@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_stopping_svms.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to stop a storage virtual machine \(SVM\) if you want to troubleshoot any issue with the SVM, delete the SVM, or stop data access from the SVM.'
+keywords: stop, svm, online, help, system, manager, storage, virtual, machine
+summary: "You can use System Manager to stop a storage virtual machine (SVM) if you want to troubleshoot any issue with the SVM, delete the SVM, or stop data access from the SVM."
 ---
 = Stopping SVMs
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use System Manager to stop a storage virtual machine \(SVM\) i
 [.lead]
 You can use System Manager to stop a storage virtual machine (SVM) if you want to troubleshoot any issue with the SVM, delete the SVM, or stop data access from the SVM.
 
-== Before you begin
+.Before you begin
 
 All the clients connected to the SVM must be disconnected.
 
@@ -20,16 +20,16 @@ All the clients connected to the SVM must be disconnected.
 If any clients are connected to the SVM when you stop it, data loss might occur.
 ====
 
-== About this task
+.About this task
 
 * You cannot stop SVMs during storage failover (SFO).
 * When you stop the SVM, an SVM administrator cannot log in to the SVM.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM that you want to stop, and then click *Stop*.
 
-== Results
+.Results
 
 The SVM stops serving data to clients.

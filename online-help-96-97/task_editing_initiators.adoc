@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_initiators.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator in an initiator group.'
+keywords: edit, initiator, online, help, group, dialog, system, manager
+summary: "You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator in an initiator group."
 ---
 = Editing initiators
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can use the Edit Initiator Group dialog box in System Manager to c
 [.lead]
 You can use the Edit Initiator Group dialog box in System Manager to change the name of an existing initiator in an initiator group.
 
-== Steps
+.Steps
 
 . Click *Storage* > *LUNs*.
 . In the *Initiator Groups* tab, select the initiator group to which the initiator belongs, and then click *Edit*.

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_editing_qos_policy_groups.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Edit Policy Group dialog box in System Manager to modify the name and maximum throughput of an existing storage Quality of Service \(QoS\) policy group.'
+keywords: edit, qos, policy, group, group, dialog, system, manager, online, help
+summary: "You can use the Edit Policy Group dialog box in System Manager to modify the name and maximum throughput of an existing storage Quality of Service (QoS) policy group."
 ---
 = Editing QoS policy groups
 :icons: font
@@ -11,12 +11,12 @@ summary: 'You can use the Edit Policy Group dialog box in System Manager to modi
 [.lead]
 You can use the Edit Policy Group dialog box in System Manager to modify the name and maximum throughput of an existing storage Quality of Service (QoS) policy group.
 
-== About this task
+.About this task
 
 * In System Manager 9.5, you can set the minimum throughput limit only on a performance-based All Flash Optimized personality. In System Manager 9.6, you can also set the minimum throughput limit for ONTAP Select Premium systems.
 * You cannot set the minimum throughput limit for volumes on a FabricPool-enabled aggregate.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

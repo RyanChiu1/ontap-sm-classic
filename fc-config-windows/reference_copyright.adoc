@@ -1,8 +1,8 @@
 ---
 permalink: fc-config-windows/reference_copyright.html
 sidebar: sidebar
-keywords: 
-summary: ''
+keywords: copyright
+summary: "Copyright"
 ---
 = Copyright
 :icons: font

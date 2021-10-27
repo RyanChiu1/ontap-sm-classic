@@ -1,21 +1,21 @@
 ---
 permalink: online-help-96-97/task_deleting_qos_policy_groups.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Managerto delete a Storage Quality of Service \(QoS\) policy group that is no longer required.'
+keywords: online, help, delete, qos, policy, groups, system, manager
+summary: "You can use System Manager to delete a Storage Quality of Service (QoS) policy group that is no longer required."
 ---
 = Deleting QoS policy groups
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-You can use System Managerto delete a Storage Quality of Service (QoS) policy group that is no longer required.
+You can use System Manager to delete a Storage Quality of Service (QoS) policy group that is no longer required.
 
-== Before you begin
+.Before you begin
 
 You must have unassigned all of the storage objects that are assigned to the policy group.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.

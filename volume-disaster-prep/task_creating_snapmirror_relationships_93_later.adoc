@@ -1,26 +1,26 @@
 ---
 permalink: volume-disaster-prep/task_creating_snapmirror_relationships_93_later.html
 sidebar: sidebar
-keywords: 
-summary: 'You must create a SnapMirror relationship between the source volume on one cluster and the destination volume on the peered cluster for replicating data for disaster recovery.'
+keywords: create, snapmirror, relationship, source, volume, cluster, destination, peer, data, recovery, disaster, create the snapmirror relationship, starting with ontap 9.3
+summary: "You must create a SnapMirror relationship between the source volume on one cluster and the destination volume on the peered cluster for replicating data for disaster recovery."
 ---
-= Creating the SnapMirror relationship (starting with ONTAP 9.3)
+= Create the SnapMirror relationship (starting with ONTAP 9.3)
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You must create a SnapMirror relationship between the source volume on one cluster and the destination volume on the peered cluster for replicating data for disaster recovery.
 
-== Before you begin
+.Before you begin
 
 * The destination aggregate must have available space.
 * Both the clusters must be configured and set up appropriately to meet the requirements of your environment for user access, authentication, and client access.
 
-== About this task
+.About this task
 
 You must perform this task from the *source* cluster.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . Select the volume for which you want to create a mirror relationship, and then click *Actions* > *Protect*.

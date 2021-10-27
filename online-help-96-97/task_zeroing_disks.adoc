@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_zeroing_disks.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to erase all the data and to format the spare disks by writing zeros to the disk. These disks can then be used in new aggregates.'
+keywords: zero, spare, disks, system, manager, erase, data, online, help
+summary: "You can use System Manager to erase all the data and to format the spare disks by writing zeros to the disk. These disks can then be used in new aggregates."
 ---
 = Zeroing spare disks
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can use System Manager to erase all the data and to format the spa
 [.lead]
 You can use System Manager to erase all the data and to format the spare disks by writing zeros to the disk. These disks can then be used in new aggregates.
 
-== About this task
+.About this task
 
 When you zero the spare disks, all the spares in the cluster, including array LUNs, are zeroed. You can zero the spare disks for a specific node or for the entire cluster.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Aggregates & Disks* > *Disks*.
 . In the *Disks* window, select the *Inventory* tab.

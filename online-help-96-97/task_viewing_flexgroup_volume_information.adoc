@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_viewing_flexgroup_volume_information.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to view information about a FlexGroup volume. You can view a graphical representation of the space allocated, the protection status, and the performance of a FlexGroup volume.'
+keywords: flexgroup, volume, graphical, online, help, system, manager
+summary: "You can use System Manager to view information about a FlexGroup volume. You can view a graphical representation of the space allocated, the protection status, and the performance of a FlexGroup volume."
 ---
 = Viewing FlexGroup volume information
 :icons: font
@@ -11,11 +11,11 @@ summary: 'You can use System Manager to view information about a FlexGroup volum
 [.lead]
 You can use System Manager to view information about a FlexGroup volume. You can view a graphical representation of the space allocated, the protection status, and the performance of a FlexGroup volume.
 
-== About this task
+.About this task
 
 You can also view the Snapshot copies that are available for the FlexGroup volume, the data protection relationships for the FlexGroup volume, and the average performance metrics, read performance metrics, and write performance metrics of the FlexGroup volume based on latency, IOPS, and throughput.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

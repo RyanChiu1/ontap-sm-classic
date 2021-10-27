@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_guidelines_working_with_volumes_that_contain_luns.html
 sidebar: sidebar
-keywords: 
-summary: 'When you work with FlexVol volumes that contain LUNs, you must change the default settings for Snapshot copies. You can also optimize the LUN layout to simplify administration.'
+keywords: guidelines, flexvol, volume, lun, change, default, settings, snapshot, copy, simplify, administration
+summary: "When you work with FlexVol volumes that contain LUNs, you must change the default settings for Snapshot copies. You can also optimize the LUN layout to simplify administration."
 ---
 = Guidelines for working with FlexVol volumes that contain LUNs
 :icons: font

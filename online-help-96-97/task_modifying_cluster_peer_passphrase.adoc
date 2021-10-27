@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_modifying_cluster_peer_passphrase.html
 sidebar: sidebar
-keywords: 
-summary: 'You can modify the passphrase that is provided during cluster peer creation.'
+keywords: modify, cluster, peer, passphrase, creation, online, help
+summary: "You can modify the passphrase that is provided during cluster peer creation."
 ---
 = Modifying the cluster peer passphrase
 :icons: font
@@ -11,7 +11,7 @@ summary: 'You can modify the passphrase that is provided during cluster peer cre
 [.lead]
 You can modify the passphrase that is provided during cluster peer creation.
 
-== Steps
+.Steps
 
 . Click *Configuration* > *Cluster Peers*.
 . Select the peered cluster, and click *Edit*

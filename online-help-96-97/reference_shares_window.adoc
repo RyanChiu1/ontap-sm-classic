@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_shares_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Shares window to manage your shares and to view information about the shares.'
+keywords: command, buttons, shares, window, online, help
+summary: "You can use the Shares window to manage your shares and to view information about the shares."
 ---
 = Shares window
 :icons: font
@@ -10,10 +10,6 @@ summary: 'You can use the Shares window to manage your shares and to view inform
 
 [.lead]
 You can use the Shares window to manage your shares and to view information about the shares.
-
-* <<GUID-FEABB18A-B1F9-46C4-82A3-8C0F7E06536E,Command buttons>>
-* <<GUID-F7B37E0F-C839-4B4E-B9FD-231C57347EF5,Shares list>>
-* <<GUID-611E2EE9-67CE-4F55-BF5D-7FF0BF301ADF,Details area>>
 
 == Command buttons
 

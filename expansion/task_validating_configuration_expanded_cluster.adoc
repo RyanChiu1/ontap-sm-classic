@@ -1,17 +1,17 @@
 ---
 permalink: expansion/task_validating_configuration_expanded_cluster.html
 sidebar: sidebar
-keywords: 
-summary: 'After you expand the cluster, you must validate the configuration by running Config Advisor and using some commands that verify cluster health and cluster replication rings.'
+keywords: expand, cluster, validate, configuration, config, advisor, command, health, replication, ring, validate the configuration of the expanded cluster
+summary: "After you expand the cluster, you must validate the configuration by running Config Advisor and using some commands that verify cluster health and cluster replication rings."
 ---
-= Validating the configuration of the expanded cluster
+= Validate the configuration of the expanded cluster
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 After you expand the cluster, you must validate the configuration by running Config Advisor and using some commands that verify cluster health and cluster replication rings.
 
-== Steps
+.Steps
 
 . Check the health of the configuration by running Config Advisor:
  .. Start Config Advisor, and then click *Collect Data*.

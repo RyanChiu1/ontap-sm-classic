@@ -1,17 +1,17 @@
 ---
 permalink: peering/task_creating_svm_peers.html
 sidebar: sidebar
-keywords: 
-summary: 'The storage virtual machine \(SVM\) peering enables you to establish a peer relationship between two SVMs for data protection.'
+keywords: storage, virtual, machine, svm, peer, enable, establish, relationship, data, protection, create, create svm peer relationship
+summary: "The storage virtual machine (SVM) peering enables you to establish a peer relationship between two SVMs for data protection."
 ---
-= Creating SVM peer relationship
+= Create SVM peer relationship
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 The storage virtual machine (SVM) peering enables you to establish a peer relationship between two SVMs for data protection.
 
-== Steps
+.Steps
 
 . Select the initiator SVM.
 . Select the target SVM from the list of permitted SVMs.

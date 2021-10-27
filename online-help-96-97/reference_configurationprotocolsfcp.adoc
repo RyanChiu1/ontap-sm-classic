@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_configurationprotocolsfcp.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the FC/FCoE window to start or stop the FC service.'
+keywords: fc, fcoe, window, stop, command, buttons, online, help
+summary: "You can use the FC/FCoE window to start or stop the FC service."
 ---
 = FC/FCoE window
 :icons: font

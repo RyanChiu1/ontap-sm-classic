@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_icons_used_application_interface.html
 sidebar: sidebar
-keywords: 
-summary: 'You can view the icons in the interface to get quick information about systems and operations.'
+keywords: icon, application, interface, dashboard, window, online, help, icon
+summary: "You can view the icons in the interface to get quick information about systems and operations."
 ---
 = Icons used in the application interface
 :icons: font
@@ -15,6 +15,7 @@ You can view the icons in the interface to get quick information about systems a
 
 You might see the following icons when viewing the dashboard for the storage system:
 
+[options="header"]
 |===
 | Icon| Name| Description
 a|

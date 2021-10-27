@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/concept_minimum_number_hot_spares_you_should_have.html
 sidebar: sidebar
-keywords: 
-summary: 'Having insufficient spares increases the risk of a disk failure with no available spare, resulting in a degraded RAID group. A spare disk is also required to provide important information \(a core file\) to technical support in case of a controller disruption.'
+keywords: minimum, number, hot, spares, disks, requirement, technical, support, online, help
+summary: "Having insufficient spares increases the risk of a disk failure with no available spare, resulting in a degraded RAID group. A spare disk is also required to provide important information (a core file) to technical support in case of a controller disruption."
 ---
 = Minimum number of hot spares required for disks
 :icons: font

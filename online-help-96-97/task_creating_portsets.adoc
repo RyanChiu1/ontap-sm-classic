@@ -1,17 +1,17 @@
 ---
 permalink: online-help-96-97/task_creating_portsets.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to create port sets to limit access to your LUNs.'
+keywords: system, manager, port, set, create, online, help, lun
+summary: "You can use System Manager to create port sets to limit access to your LUNs."
 ---
-= Creating port sets
+= Create port sets
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
 You can use System Manager to create port sets to limit access to your LUNs.
 
-== Steps
+.Steps
 
 . Click *Storage* > *LUNs*.
 . In the *Portsets* tab, click *Create*.

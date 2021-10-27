@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_running_deduplication_operations.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to run deduplication immediately after creating a FlexVol volume or to schedule deduplication to run at a specified time.'
+keywords: run, deduplication, operation, system, manager, online, help, flexvol, volume
+summary: "You can use System Manager to run deduplication immediately after creating a FlexVol volume or to schedule deduplication to run at a specified time."
 ---
 = Running deduplication operations
 :icons: font
@@ -11,16 +11,16 @@ summary: 'You can use System Manager to run deduplication immediately after crea
 [.lead]
 You can use System Manager to run deduplication immediately after creating a FlexVol volume or to schedule deduplication to run at a specified time.
 
-== Before you begin
+.Before you begin
 
 * Deduplication must be enabled on the volume.
 * The volume must be online and mounted.
 
-== About this task
+.About this task
 
 Deduplication is a background process that consumes system resources during the operation; therefore, it might affect other operations that are in progress. You must cancel deduplication before you can perform any other operation.
 
-== Steps
+.Steps
 
 . Click *Storage* > *Volumes*.
 . From the drop-down menu in the *SVM* field, select *All SVMs*.

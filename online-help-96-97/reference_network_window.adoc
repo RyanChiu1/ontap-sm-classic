@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/reference_network_window.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use the Network window to view the list of network components, such as subnets, network interfaces, Ethernet ports, broadcast domains, FC/FCoE and NVMe adapters, and IPspaces, and to create, edit, or delete these components in your storage system.'
+keywords: netword, window, subnet, tab, command, buttons, network, interface, ethernet, port, list, broadcast, domain, online, help
+summary: "You can use the Network window to view the list of network components, such as subnets, network interfaces, Ethernet ports, broadcast domains, FC/FCoE and NVMe adapters, and IPspaces, and to create, edit, or delete these components in your storage system."
 ---
 = Network window
 :icons: font
@@ -10,14 +10,6 @@ summary: 'You can use the Network window to view the list of network components,
 
 [.lead]
 You can use the Network window to view the list of network components, such as subnets, network interfaces, Ethernet ports, broadcast domains, FC/FCoE and NVMe adapters, and IPspaces, and to create, edit, or delete these components in your storage system.
-
-* <<GUID-FD6452E4-D067-41D1-AA57-DAAB6100B7AF,Tabs>>
-* <<SECTION_43A478CFB06245A4A940752525102BCC,Subnet tab>>
-* <<SECTION_4D900345EE6E40319DB0B320D36B3E86,#SECTION_4D900345EE6E40319DB0B320D36B3E86>>
-* <<SECTION_8DAEBC82E94A45A49D33776E1E0B628F,Ethernet Ports tab>>
-* <<SECTION_04FD1BE851314CBC82C82BC6A1B39B5B,Broadcast Domain tab>>
-* <<SECTION_697CCAA6CB534804AC46601885161280,FC/FCoE and NVMe Adapters tab>>
-* <<SECTION_0B03DB8EDB9449F29CEE836B6A40A094,IPspaces tab>>
 
 == Tabs
 

@@ -1,8 +1,8 @@
 ---
 permalink: online-help-96-97/task_setting_up_branchcache.html
 sidebar: sidebar
-keywords: 
-summary: 'You can use System Manager to configure BranchCache on a CIFS-enabled storage virtual machine \(SVM\) to enable the caching of content on computers that are local to the requesting clients.'
+keywords: cifs, svm, system, manager, online, help, branchcache, set, up
+summary: "You can use System Manager to configure BranchCache on a CIFS-enabled storage virtual machine (SVM) to enable the caching of content on computers that are local to the requesting clients."
 ---
 = Setting up BranchCache
 :icons: font
@@ -11,19 +11,19 @@ summary: 'You can use System Manager to configure BranchCache on a CIFS-enabled 
 [.lead]
 You can use System Manager to configure BranchCache on a CIFS-enabled storage virtual machine (SVM) to enable the caching of content on computers that are local to the requesting clients.
 
-== Before you begin
+.Before you begin
 
 * CIFS must be licensed, and a CIFS server must be configured.
 * For BranchCache version 1, SMB 2.1 or later must be enabled.
 * For BranchCache version 2, SMB 3.0 must be enabled, and the remote Windows clients must support BranchCache 2.
 
-== About this task
+.About this task
 
 * You can configure BranchCache on SVMs.
 * You can create an all-shares BranchCache configuration if you want to offer caching services for all of the content that is contained within all of the SMB shares on the CIFS server.
 * You can create a per-share BranchCache configuration if you want to offer caching services for the content that is contained within selected SMB shares on the CIFS server.
 
-== Steps
+.Steps
 
 . Click *Storage* > *SVMs*.
 . Select the SVM, and then click *SVM Settings*.
