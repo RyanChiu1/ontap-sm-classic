@@ -12,7 +12,10 @@ homepage:
       links:
         - title: Understanding System Manager Classic
           url: "/online-help-96-97/index.html"
-
+        - title: Manage ONTAP with System Manager next generation for ONTAP 9.7 and later
+          url: "https://docs.netapp.com/us-en/ontap/concept_administration_overview.html"
+        - title: Manage ONTAP with the CLI
+          url: "https://docs.netapp.com/us-en/ontap/system-admin/index.html"
     - title: Provision NAS storage
       links:
         - title: NFS configuration
@@ -68,7 +71,7 @@ homepage:
 
 sidebar:
   entries:
-    - title: Home
+    - title: System Manager Classic docs
       url: /index.html
     - title: Provision NAS storage
       entries:
@@ -3374,5 +3377,7 @@ sidebar:
                 url: "/online-help-96-97/concept_schedules_conceptual.html"
               - title: Schedules window
                 url: "/online-help-96-97/reference_schedules_window.html"
+    - title: ONTAP docs
+      url: https://docs.netapp.com/us-en/ontap/
     - title: Legal Notices
       url: /reference_legal_notices.html
