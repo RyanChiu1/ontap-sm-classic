@@ -22,7 +22,7 @@ For reliable operation, you must verify that the entire FC configuration is supp
  ** Linux operating system version
  ** DM-Multipath package
  ** Linux Unified Host Utilities
-. Click the configuration name for the selected configuration.
+. Select the configuration name for the selected configuration.
 +
 Details for that configuration are displayed in the Configuration Details window.
 

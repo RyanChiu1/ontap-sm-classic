@@ -18,7 +18,7 @@ The storage virtual machine (SVM) provides the FC target through which a host ac
 .Steps
 
 . Navigate to the *SVMs* window.
-. Click *Create*.
+. Select *Create*.
 . In the *Storage Virtual Machine (SVM) Setup* window, create the SVM:
 +
 image::../media/svm_setup_details_page_unix_selected_fc_rhel.gif[Illustration shows creating an SVM with UNIX security style]
@@ -46,13 +46,13 @@ If CIFS is one of the protocols you selected, then the security style is set to 
 +
 The aggregate for the data volume is selected separately in a later step.
 
- .. Click *Submit & Continue*.
+ .. Select *Submit & Continue*.
 
 +
 The SVM is created, but protocols are not yet configured.
 
-. If the *Configure CIFS/NFS protocol* page appears because you enabled CIFS or NFS, click *Skip* and then configure CIFS or NFS later.
-. If the *Configure iSCSI protocol* page appears because you enabled iSCSI, click *Skip* and then configure iSCSI later.
+. If the *Configure CIFS/NFS protocol* page appears because you enabled CIFS or NFS, select *Skip* and then configure CIFS or NFS later.
+. If the *Configure iSCSI protocol* page appears because you enabled iSCSI, select *Skip* and then configure iSCSI later.
 . Configure the FC service and create LIFs, and the LUN and its containing volume from the *Configure FC/FCoE protocol* page:
  .. Select the *Configure Data LIFs for FC* check box.
  .. Enter `2` in the *LIFs per node* field.
@@ -60,11 +60,11 @@ The SVM is created, but protocols are not yet configured.
 Two LIFs are required for each node to ensure availability and data mobility.
 
  .. In the *Provision a LUN for FCP storage* area, enter the desired LUN size, host type, and WWPNs of the host initiators.
- .. Click *Submit & Continue*.
+ .. Select *Submit & Continue*.
 
 +
 image::../media/svm_wizard_fc_details_linux.gif[Illustration shows step 4 of the SVM setup wizard: filling in the FC details.]
 . When the *SVM Administration* appears, configure or defer configuring a separate administrator for this SVM:
- ** Click *Skip* and configure an administrator later if desired.
- ** Enter the requested information, and then click *Submit & Continue*.
-. Review the *Summary* page, record the LIF information, and then click *OK*.
+ ** Select *Skip* and configure an administrator later if desired.
+ ** Enter the requested information, and then select *Submit & Continue*.
+. Review the *Summary* page, record the LIF information, and then select *OK*.
