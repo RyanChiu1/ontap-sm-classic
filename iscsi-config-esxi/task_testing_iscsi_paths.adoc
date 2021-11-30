@@ -27,9 +27,9 @@ Only add nodes in other HA pairs to the LUN map in preparation for moving the LU
 
 .Steps
 
-. From the ESX host, use the `ping` command to verify the path to the first LIF.
+. From the ESXi host, use the `ping` command to verify the path to the first LIF.
 +
-The `ping` command is available from the ESX service console.
+The `ping` command is available from the ESXi service console.
 
 . Repeat the `ping` command to verify connectivity to each iSCSI LIF on each node in the cluster.
 
