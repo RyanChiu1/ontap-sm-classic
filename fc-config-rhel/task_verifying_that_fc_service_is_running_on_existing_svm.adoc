@@ -19,8 +19,8 @@ You must have selected an existing SVM on which you plan to create a new LUN.
 
 . Navigate to the *SVMs* window.
 . Select the required SVM.
-. Click the *SVM Settings* tab.
-. In the *Protocols* pane, click *FC/FCoE*.
+. Select the *SVM Settings* tab.
+. In the *Protocols* pane, select *FC/FCoE*.
 . Verify that the FC service is running.
 +
 image::../media/vserver_service_fc_fcoe_running_fc_rhel.gif[Image shows the FC/FCoE pane in System Manager with the FC service running and four FC LIFs.]

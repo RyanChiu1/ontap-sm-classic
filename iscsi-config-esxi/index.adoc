@@ -2,14 +2,14 @@
 permalink: iscsi-config-esxi/index.html
 sidebar: sidebar
 keywords: iscsi, service, storage, virtual, machine, svm, provision, lun, esx, host, computer
-summary: "This content describes how to quickly set up the iSCSI service on a storage virtual machine, provision a LUN, and make the LUN available using an iSCSI initiator on an ESX host computer."
+summary: "This content describes how to quickly set up the iSCSI service on a storage virtual machine, provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer."
 ---
 = iSCSI configuration for ESXi using VSC overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This content describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESX host computer.
+This content describes how to quickly set up the iSCSI service on a storage virtual machine (SVM), provision a LUN, and make the LUN available using an iSCSI initiator on an ESXi host computer.
 
 This content is based on the following assumptions:
 
@@ -20,7 +20,7 @@ This content is based on the following assumptions:
 +
 https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
 
-* You are using the native ESX iSCSI software initiator on ESXi 5.x.
+* You are using the native ESXi iSCSI software initiator on ESXi 5.x.
 * You are not using CHAP authentication for iSCSI.
 * You are using a supported version of Virtual Storage Console for VMware vSphere to configure storage settings for your ESX host.
 * Your network uses IPv4 addressing.
@@ -30,16 +30,16 @@ https://docs.netapp.com/us-en/ontap/[ONTAP System Manager documentation]
  ** Manually, using an address that will be added to an existing subnet
 * You have at least two high-speed Ethernet ports (1 GbE minimum, 10 GbE recommended) available on each node in the cluster.
 +
-Onboard UTA2 (also called "`CNA`") ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in this content.
+Onboard UTA2 (also called `CNA`) ports are configurable. You configure those ports in the ONTAP CLI; that process is not covered in this content.
 +
 You should see link:https://docs.netapp.com/us-en/ontap/networking/index.html[ONTAP 9 Network Management] for using the CLI to configure Ethernet port flow control.
 
 * You are not configuring iSCSI SAN boot.
-* You are providing storage to VMs through the ESX hypervisor and not running an iSCSI initiator within the VM.
+* You are providing storage to VMs through the ESXi hypervisor and not running an iSCSI initiator within the VM.
 
 If these assumptions are not correct for your situation, you should see the following resources:
 
 * https://docs.netapp.com/us-en/ontap/san-admin/index.html[ONTAP 9 SAN Administration]
 * https://docs.netapp.com/us-en/ontap/san-config/index.html[ONTAP 9 SAN Configuration]
 * https://docs.netapp.com/vapp-96/topic/com.netapp.doc.vsc-iag/home.html[Appliance administration]
-* _VMware vSphere Storage_ for your version of ESX 5 (available from http://www.vmware.com[VMware])
+* _VMware vSphere Storage_ for your version of ESXi 5 (available from http://www.vmware.com[VMware])

@@ -24,7 +24,7 @@ If your organization has a naming convention, you should use names for the LUN, 
 .Steps
 
 . Navigate to the *LUNs* window.
-. Click *Create.*
+. Select *Create.*
 . Browse and select an SVM in which you want to create the LUNs.
 +
 The Create LUN Wizard is displayed.
@@ -39,8 +39,8 @@ image::../media/lun_creation_thin_provisioned_linux_fc_rhel.gif[Illustration sho
 +
 You must ensure that there is enough space in the volume. If sufficient space is not available in the existing volumes, you can create a new volume.
 
-. On the *Initiators Mapping* page, click *Add Initiator Group*, enter the required information on the *General* tab, and then on the *Initiators* tab, enter all the WWPNs of the host FC ports that you recorded.
-. Confirm the details, and then click *Finish* to complete the wizard.
+. On the *Initiators Mapping* page, select *Add Initiator Group*, enter the required information on the *General* tab, and then on the *Initiators* tab, enter all the WWPNs of the host FC ports that you recorded.
+. Confirm the details, and then select *Finish* to complete the wizard.
 
 *Related information*
 

@@ -14,7 +14,7 @@ The ports you created for iSCSI must be associated with the iSCSI software adapt
 .Before you begin
 
 * The iSCSI VMkernel ports must be created.
-* The iSCSI software adapter must be enabled on the ESX host.
+* The iSCSI software adapter must be enabled on the ESXi host.
 
 .About this task
 

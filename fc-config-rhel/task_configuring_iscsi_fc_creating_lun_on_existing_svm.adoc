@@ -25,7 +25,7 @@ If *FC/FCoE* is displayed with a green background, the SVM is already configured
 +
 image::../media/existing_svm_protocols_fc_rhel.gif[Image shows the details page with all four protocols having gray backgrounds.]
 
-. Click the *FC/FCoE* protocol link with the gray background.
+. Select the *FC/FCoE* protocol link with the gray background.
 +
 The Configure FC/FCoE Protocol window is displayed.
 
@@ -35,8 +35,8 @@ The Configure FC/FCoE Protocol window is displayed.
 +
 Two LIFs are required for each node, to ensure availability and data mobility.
 
- .. Click *Submit & Close*.
+ .. Select *Submit & Close*.
 
 +
 image::../media/svm_wizard_fc_details_linux.gif[Illustration shows step 4 of the SVM setup wizard: filling in the FC details.]
-. Review the *Summary* page, record the LIF information, and then click *OK*.
+. Review the *Summary* page, record the LIF information, and then select *OK*.
