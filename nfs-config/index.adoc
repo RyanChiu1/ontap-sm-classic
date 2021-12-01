@@ -20,11 +20,12 @@ You should use this content if you want to configure access to a volume in the f
 * Your data network uses the default IPspace, the default broadcast domain, and the default failover group.
 +
 If your data network is flat, using these default objects ensures that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to https://docs.netapp.com/us-en/ontap/networking/index.html[Network Management Documentation^] for information on how to configure LIF path failover.
-
 * UNIX file permissions will be used to secure the new volume.
 * LDAP, if used, is provided by Active Directory.
 
 == Other ways to do this in ONTAP
+
+This topic covers NFS storage provisioning with System Manager Classic (ONTAP 9.7 and earlier).
 
 [cols=2,options="header"]
 |===
