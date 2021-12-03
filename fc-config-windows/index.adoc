@@ -25,7 +25,7 @@ This content does not cover FCoE.
 
 * You have at least two FC target ports available on each node in the cluster.
 +
-Onboard FC and UTA2 (also called "`CNA`") ports, as well as some adapters are configurable. Configuring those ports is done in the ONTAP CLI and is not covered in this content.
+Onboard FC and UTA2 (also called `CNA`) ports, as well as some adapters are configurable. Configuring those ports is done in the ONTAP CLI and is not covered in this content.
 
 * You are not configuring FC SAN boot.
 * You are not using virtual Fibre Channel (VFC) with Hyper-V or ESX guests.
