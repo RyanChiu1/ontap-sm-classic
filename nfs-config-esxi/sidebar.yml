@@ -1,4 +1,4 @@
-section: nfs-config-exsi
+section: nfs-config-esxi 
 title: NFS configuration for ESXi using VSC
 entries:
     - title: Overview
