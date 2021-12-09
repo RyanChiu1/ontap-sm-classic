@@ -1,21 +1,19 @@
 ---
 permalink: smb-config/index.html
 sidebar: sidebar
-keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual, machine, svm
-summary: "This content describes how to quickly set up SMB/CIFS access to a new volume on either a new or existing storage virtual machine (SVM)."
+keywords: content, describe, smb, cifs, access, volume, exist, storage, virtual, machine, svm, system manager classic
+summary: "This content describes how to quickly set up SMB/CIFS access to a new volume on either a new or existing storage virtual machine (SVM) using the ONTAP System Manager classic interface, which is available with ONTAP 9.7 and earlier ONTAP 9 releases."
 ---
 = SMB/CIFS configuration overview
 :icons: font
 :imagesdir: ../media/
 
 [.lead]
-This content describes how to quickly set up SMB/CIFS access to a new volume on either a new or existing storage virtual machine (SVM).
+This content describes how to quickly set up SMB/CIFS access to a new volume on either a new or existing storage virtual machine (SVM) using the ONTAP System Manager classic interface, which is available with ONTAP 9.7 and earlier ONTAP 9 releases.
 
-You should use this content if you want to configure access to a volume in the following way:
+Use this content if you want to configure access to a volume in the following way:
 
 * You want to use best practices, not explore every available option.
-* You do not want to read a lot of conceptual background.
-* You want to use the _Classic_ System Manager UI for ONTAP 9.7 and earlier releases, not the ONTAP System Manager UI for ONTAP 9.7 and later.
 * Your data network uses the default IPspace, the default broadcast domain, and the default failover group.
 +
 If your data network is flat, using these default objects ensures that LIFs will fail over correctly in the event of a link failure. If you are not using the default objects, you should refer to the https://docs.netapp.com/us-en/ontap/networking/index.html[Network management documentation^] for information on how to configure LIF path failover.
@@ -23,12 +21,10 @@ If your data network is flat, using these default objects ensures that LIFs will
 
 == Other ways to do this in ONTAP
 
-This topic covers SMB/CIFS storage provisioning with System Manager Classic (ONTAP 9.7 and earlier).
-
 [cols=2,options="header"]
 |===
 | To perform these tasks with... | See this content...
-| System Manager next generation (ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_windows_smb.html[Provision NAS storage for Windows servers using SMB^]
-| Command line interface | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html[SMB configuration overview with the CLI^]
+| The redesigned System Manager (available with ONTAP 9.7 and later) | link:https://docs.netapp.com/us-en/ontap/task_nas_provision_windows_smb.html[Provision NAS storage for Windows servers using SMB^]
+| The ONTAP command line interface | link:https://docs.netapp.com/us-en/ontap/smb-config/index.html[SMB configuration overview with the CLI^]
 
 |===
